@@ -39,9 +39,15 @@ function extend_chord_table(df)
         end
     end
 
-    # add columns for numeral, form, figbass, changes, relativeroot, phraseend
+    # add columns for numeral, form, figbass, changes, relativeroot
     for f in (:numeral, :form, :figbass, :changes, :relativeroot)
         df[f] = map(c->get_feature(c, f), df[:chords])
+    end
+
+    # add column for phraseend
+    df[:phraseend] = map(df[:chords]) do chord
+        m = match(regex, chord)
+        m != nothing && m[:phraseend] != nothing
     end
 
     df
