@@ -54,5 +54,6 @@ function extend_chord_table(df)
 end
 
 for file in movements()
+    println(file)
     writetable(file, extend_chord_table(readtable(file)))
 end

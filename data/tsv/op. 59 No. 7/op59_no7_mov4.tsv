@@ -15,7 +15,7 @@
 "V64/vi"	NA	7	2.0	"F"	"I"	""	"V"	""	"64"	""	"vi"	false
 "vi"	NA	8	1.0	"F"	"I"	""	"vi"	""	""	""	""	false
 "I64"	NA	8	2.0	"F"	"I"	""	"I"	""	"64"	""	""	false
-"V\"V43(2)"	NA	9	1.0	"F"	"I"	"V"	"V"	""	"43"	"(2)"	""	false
+"V[V43(2)"	NA	9	1.0	"F"	"I"	"V"	"V"	""	"43"	"(2)"	""	false
 "V43"	NA	9	2.0	"F"	"I"	"V"	"V"	""	"43"	""	""	false
 "I"	NA	10	1.0	"F"	"I"	"V"	"I"	""	""	""	""	false
 "V"	NA	10	2.0	"F"	"I"	"V"	"V"	""	""	""	""	false
@@ -23,7 +23,7 @@
 "V6"	NA	11	2.0	"F"	"I"	"V"	"V"	""	"6"	""	""	false
 "I"	NA	12	1.0	"F"	"I"	"V"	"I"	""	""	""	""	false
 "V6"	NA	12	2.0	"F"	"I"	"V"	"V"	""	"6"	""	""	false
-"I\""	NA	13	1.0	"F"	"I"	"V"	"I"	""	""	""	""	false
+"I]"	NA	13	1.0	"F"	"I"	"V"	"I"	""	""	""	""	false
 "V65/vi"	NA	13	2.0	"F"	"I"	""	"V"	""	"65"	""	"vi"	false
 "vi"	NA	14	1.0	"F"	"I"	""	"vi"	""	""	""	""	false
 "V43/vi"	NA	14	2.0	"F"	"I"	""	"V"	""	"43"	""	"vi"	false
@@ -251,7 +251,7 @@
 ".It6"	NA	128	1.75	"F"	"vi"	""	"It"	""	"6"	""	""	false
 "V"	NA	128	2.25	"F"	"vi"	""	"V"	""	""	""	""	false
 ".It6"	NA	128	2.75	"F"	"vi"	""	"It"	""	"6"	""	""	false
-"V\"V64"	NA	129	1.0	"F"	"vi"	"V"	"V"	""	"64"	""	""	false
+"V[V64"	NA	129	1.0	"F"	"vi"	"V"	"V"	""	"64"	""	""	false
 "i6"	NA	132	1.0	"F"	"vi"	"V"	"i"	""	"6"	""	""	false
 "V6"	NA	132	2.0	"F"	"vi"	"V"	"V"	""	"6"	""	""	false
 "i"	NA	132	2.5	"F"	"vi"	"V"	"i"	""	""	""	""	false
@@ -259,7 +259,7 @@
 "V"	NA	133	2.0	"F"	"vi"	"V"	"V"	""	""	""	""	false
 "i6"	NA	134	1.0	"F"	"vi"	"V"	"i"	""	"6"	""	""	false
 "i"	NA	134	1.75	"F"	"vi"	"V"	"i"	""	""	""	""	false
-"V6\""	NA	134	2.0	"F"	"vi"	"V"	"V"	""	"6"	""	""	false
+"V6]"	NA	134	2.0	"F"	"vi"	"V"	"V"	""	"6"	""	""	false
 "VI"	NA	135	1.0	"F"	"vi"	""	"VI"	""	""	""	""	false
 ".bVII.V"	NA	135	2.0	"F"	"bVII"	""	"V"	""	""	""	""	false
 "I64"	NA	136	1.0	"F"	"bVII"	""	"I"	""	"64"	""	""	false
@@ -303,7 +303,7 @@
 "i"	NA	160	1.0	"F"	"vi"	""	"i"	""	""	""	""	false
 "#viio6"	NA	160	1.5	"F"	"vi"	""	"#vii"	"o"	"6"	""	""	false
 "i6"	NA	160	2.0	"F"	"vi"	""	"i"	""	"6"	""	""	false
-"i\"#viio43"	NA	160	2.25	"F"	"vi"	"i"	"#vii"	"o"	"43"	""	""	false
+"i[#viio43"	NA	160	2.25	"F"	"vi"	"i"	"#vii"	"o"	"43"	""	""	false
 "i64"	NA	161	1.0	"F"	"vi"	"i"	"i"	""	"64"	""	""	false
 "#viio43"	NA	161	1.25	"F"	"vi"	"i"	"#vii"	"o"	"43"	""	""	false
 "i6"	NA	161	2.0	"F"	"vi"	"i"	"i"	""	"6"	""	""	false
@@ -313,7 +313,7 @@
 "i6"	NA	162	2.0	"F"	"vi"	"i"	"i"	""	"6"	""	""	false
 "#viio43"	NA	162	2.25	"F"	"vi"	"i"	"#vii"	"o"	"43"	""	""	false
 "i6"	NA	163	1.0	"F"	"vi"	"i"	"i"	""	"6"	""	""	false
-"i\""	NA	165	1.0	"F"	"vi"	"i"	"i"	""	""	""	""	false
+"i]"	NA	165	1.0	"F"	"vi"	"i"	"i"	""	""	""	""	false
 "V65"	NA	165	1.75	"F"	"vi"	""	"V"	""	"65"	""	""	false
 "i"	NA	165	2.0	"F"	"vi"	""	"i"	""	""	""	""	false
 "V"	NA	165	2.75	"F"	"vi"	""	"V"	""	""	""	""	false
@@ -351,12 +351,12 @@
 "V+"	NA	176	1.5	"F"	"IV"	""	"V"	"+"	""	""	""	false
 "I"	NA	176	2.0	"F"	"IV"	""	"I"	""	""	""	""	false
 "V+"	NA	176	2.5	"F"	"IV"	""	"V"	"+"	""	""	""	false
-"I\"I"	NA	177	1.0	"F"	"IV"	"I"	"I"	""	""	""	""	false
+"I[I"	NA	177	1.0	"F"	"IV"	"I"	"I"	""	""	""	""	false
 "V6"	NA	177	2.0	"F"	"IV"	"I"	"V"	""	"6"	""	""	false
 "I6"	NA	178	1.0	"F"	"IV"	"I"	"I"	""	"6"	""	""	false
 "I"	NA	178	1.0	"F"	"IV"	"I"	"I"	""	""	""	""	false
 "viio43"	NA	178	2.0	"F"	"IV"	"I"	"vii"	"o"	"43"	""	""	false
-"I\""	NA	179	1.0	"F"	"IV"	"I"	"I"	""	""	""	""	false
+"I]"	NA	179	1.0	"F"	"IV"	"I"	"I"	""	""	""	""	false
 "viio43"	NA	179	2.0	"F"	"IV"	""	"vii"	"o"	"43"	""	""	false
 "I6"	NA	179	2.5	"F"	"IV"	""	"I"	""	"6"	""	""	false
 "I"	NA	180	1.0	"F"	"IV"	""	"I"	""	""	""	""	false
@@ -455,7 +455,7 @@
 "V43"	NA	224	2.0	"F"	"I"	""	"V"	""	"43"	""	""	false
 "I"	NA	225	1.0	"F"	"I"	""	"I"	""	""	""	""	false
 "V7"	NA	225	2.0	"F"	"I"	""	"V"	""	"7"	""	""	false
-"i.V\"i64"	NA	226	1.0	"F"	"i"	"V"	"i"	""	"64"	""	""	false
+"i.V[i64"	NA	226	1.0	"F"	"i"	"V"	"i"	""	"64"	""	""	false
 "V"	NA	226	2.0	"F"	"i"	"V"	"V"	""	""	""	""	false
 "i6"	NA	227	1.0	"F"	"i"	"V"	"i"	""	"6"	""	""	false
 "v6"	NA	227	2.0	"F"	"i"	"V"	"v"	""	"6"	""	""	false
@@ -467,7 +467,7 @@
 "V"	NA	231	2.0	"F"	"i"	"V"	"V"	""	""	""	""	false
 "VI"	NA	232	1.0	"F"	"i"	"V"	"VI"	""	""	""	""	false
 "V6"	NA	232	2.0	"F"	"i"	"V"	"V"	""	"6"	""	""	false
-"i\""	NA	233	1.0	"F"	"i"	"V"	"i"	""	""	""	""	false
+"i]"	NA	233	1.0	"F"	"i"	"V"	"i"	""	""	""	""	false
 "V43/VI"	NA	233	2.0	"F"	"i"	""	"V"	""	"43"	""	"VI"	false
 "VI"	NA	234	1.0	"F"	"i"	""	"VI"	""	""	""	""	false
 ".Ger6"	NA	235	1.0	"F"	"i"	""	"Ger"	""	"6"	""	""	false
@@ -542,7 +542,7 @@
 "iv"	NA	280	1.0	"F"	"i"	""	"iv"	""	""	""	""	false
 "V2/V"	NA	280	2.0	"F"	"i"	""	"V"	""	"2"	""	"V"	false
 "V43/V"	NA	280	2.5	"F"	"i"	""	"V"	""	"43"	""	"V"	false
-"I.V\"V6"	NA	281	1.0	"F"	"I"	"V"	"V"	""	"6"	""	""	false
+"I.V[V6"	NA	281	1.0	"F"	"I"	"V"	"V"	""	"6"	""	""	false
 "I"	NA	281	2.0	"F"	"I"	"V"	"I"	""	""	""	""	false
 "V6/ii"	NA	281	2.5	"F"	"I"	"V"	"V"	""	"6"	""	"ii"	false
 "ii"	NA	282	1.0	"F"	"I"	"V"	"ii"	""	""	""	""	false
@@ -562,7 +562,7 @@
 "I"	NA	288	1.0	"F"	"I"	"V"	"I"	""	""	""	""	false
 "V43"	NA	290	1.0	"F"	"I"	"V"	"V"	""	"43"	""	""	false
 "I6"	NA	292	1.0	"F"	"I"	"V"	"I"	""	"6"	""	""	false
-"V\""	NA	294	1.0	"F"	"I"	"V"	"V"	""	""	""	""	false
+"V]"	NA	294	1.0	"F"	"I"	"V"	"V"	""	""	""	""	false
 "V6"	NA	295	1.0	"F"	"I"	""	"V"	""	"6"	""	""	false
 "V7"	NA	296	1.0	"F"	"I"	""	"V"	""	"7"	""	""	false
 "I"	NA	298	1.0	"F"	"I"	""	"I"	""	""	""	""	false
