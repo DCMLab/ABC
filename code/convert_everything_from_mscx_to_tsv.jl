@@ -105,13 +105,20 @@ function read_chords(filename)
         end
         sum_of_beats += beats_per_measure
     end
+
+    op, no, mov = let
+        m = match(r"op(\d+)_no(\d+)_mov(\d+)\.mscx", splitdir(filename)[2])
+        m[1], m[2], m[3]
+    end
+
     DataFrame(
         chord=chords,
         altchord=altchords,
         measure=measure_numbers,
         beat=beat_numbers,
         totbeat=total_beats,
-        timesig=time_sigs)
+        timesig=time_sigs,
+        op=op, no=no, mov=mov)
 end
 
 mscx_dir = joinpath(@__DIR__, "..", "data", "mscx")
