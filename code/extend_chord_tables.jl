@@ -69,4 +69,5 @@ end
 # create big dataframe
 writetable(
     joinpath(@__DIR__, "..", "data", "all_annotations.tsv"),
-    vcat(readtable.(movements())...))
+    vcat(readtable.(movements(), )...),
+    nastring="\"\"")
