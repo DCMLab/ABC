@@ -53,8 +53,13 @@ function read_chords(filename)
     tuplets = Dict{Int, Float64}()
 
     for measure_node in get_elements_by_tagname(first_staff, "Measure")
-        beat       = 1.0 # the current chord symbol offset
-        chord_beat = 1.0 # the current note offset
+        is_upbeat_measure = attribute(measure_node, "number") == "1" && has_attribute(measure_node, "len")
+        beat = chord_beat = if is_upbeat_measure
+            eval(parse(attribute(measure_node, "len"))) * 4
+        else
+            1.0
+        end
+
         for node in child_elements(measure_node)
             if name(node) == "TimeSig"
                 n = content(find_element(node, "sigN"))
@@ -103,7 +108,11 @@ function read_chords(filename)
                 tuplets[parse(Int, attribute(node, "id"))] = scaling_factor
             end
         end
-        sum_of_beats += beats_per_measure
+        sum_of_beats += if is_upbeat_measure
+            eval(parse(attribute(measure_node, "len"))) * 4
+        else
+            beats_per_measure
+        end
     end
 
     op, no, mov = let
