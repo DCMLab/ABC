@@ -21,17 +21,17 @@ function extend_chord_table(df)
     end
 
     # add organ column
-    df[:organ] = ""
-    df[1, :organ] = get_feature(df[1, :chord], :organ)
+    df[:pedal] = ""
+    df[1, :pedal] = get_feature(df[1, :chord], :pedal)
 
     for i in 2:size(df, 1)
         m = match(regex, df[i, :chord])
-        df[i, :organ] = if m != nothing && m[:organ] != nothing
-            m[:organ]
-        elseif match(regex, df[i-1, :chord]) != nothing && match(regex, df[i-1, :chord])[:organend] != nothing
+        df[i, :pedal] = if m != nothing && m[:pedal] != nothing
+            m[:pedal]
+        elseif match(regex, df[i-1, :chord]) != nothing && match(regex, df[i-1, :chord])[:pedalend] != nothing
             ""
         else
-            df[i-1, :organ]
+            df[i-1, :pedal]
         end
     end
 
