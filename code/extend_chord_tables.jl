@@ -5,11 +5,7 @@ using DataFrames
 
 function get_feature(chord, feature, default="", regex=regex)
     m = match(regex, chord)
-    if m != nothing && m[feature] != nothing
-        m[feature]
-    else
-        default
-    end
+    m != nothing && m[feature] != nothing ? m[feature] : default
 end
 
 function extend_chord_table(df)
@@ -50,10 +46,11 @@ function extend_chord_table(df)
         m != nothing && m[:phraseend] != nothing
     end
 
+    df[:altchord] = map(ac -> isna(ac) ? "" : ac, df[:altchord])
     df
 end
 
 for file in movements()
-    println(file)
-    writetable(file, extend_chord_table(readtable(file)))
+    # println(file)
+    writetable(file, extend_chord_table(readtable(file, nastrings=["NA"])))
 end
