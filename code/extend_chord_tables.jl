@@ -14,25 +14,25 @@ end
 
 function extend_chord_table(df)
     # add global_key column
-    df[:global_key] = match(regex, df[1, :chords])[:key]
+    df[:global_key] = match(regex, df[1, :chord])[:key]
 
     # add local_key column
     df[:local_key] = ""
     df[1, :local_key] = "I"
 
     for i in 2:size(df, 1)
-        df[i, :local_key] = get_feature(df[i, :chords], :key, df[i-1, :local_key])
+        df[i, :local_key] = get_feature(df[i, :chord], :key, df[i-1, :local_key])
     end
 
     # add organ column
     df[:organ] = ""
-    df[1, :organ] = get_feature(df[1, :chords], :organ)
+    df[1, :organ] = get_feature(df[1, :chord], :organ)
 
     for i in 2:size(df, 1)
-        m = match(regex, df[i, :chords])
+        m = match(regex, df[i, :chord])
         df[i, :organ] = if m != nothing && m[:organ] != nothing
             m[:organ]
-        elseif match(regex, df[i-1, :chords]) != nothing && match(regex, df[i-1, :chords])[:organend] != nothing
+        elseif match(regex, df[i-1, :chord]) != nothing && match(regex, df[i-1, :chord])[:organend] != nothing
             ""
         else
             df[i-1, :organ]
@@ -41,11 +41,11 @@ function extend_chord_table(df)
 
     # add columns for numeral, form, figbass, changes, relativeroot
     for f in (:numeral, :form, :figbass, :changes, :relativeroot)
-        df[f] = map(c->get_feature(c, f), df[:chords])
+        df[f] = map(c->get_feature(c, f), df[:chord])
     end
 
     # add column for phraseend
-    df[:phraseend] = map(df[:chords]) do chord
+    df[:phraseend] = map(df[:chord]) do chord
         m = match(regex, chord)
         m != nothing && m[:phraseend] != nothing
     end
