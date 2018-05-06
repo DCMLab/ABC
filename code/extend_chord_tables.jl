@@ -9,6 +9,15 @@ function get_feature(chord, feature, default="", regex=regex)
 end
 
 function extend_chord_table(df)
+    # add column for chord length in beats
+    bigrams(iter) = let n = length(iter)
+        collect(zip(Iterators.take(iter, n-1), Iterators.drop(iter, 1)))
+    end
+    df[:length] = [
+        map(bg->bg[2]-bg[1], bigrams(df[:totbeat]));
+        (eval(parse(replace(df[end, :timesig], "/", "//"))) * 4) + 1 - df[end, :beat]
+        ]
+
     # add global_key column
     df[:global_key] = match(regex, df[1, :chord])[:key]
 
@@ -46,7 +55,9 @@ function extend_chord_table(df)
         m != nothing && m[:phraseend] != nothing
     end
 
+    # change NA to "" in altchord column
     df[:altchord] = map(ac -> isna(ac) ? "" : ac, df[:altchord])
+
     df
 end
 

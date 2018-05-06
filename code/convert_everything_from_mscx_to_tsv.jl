@@ -42,9 +42,12 @@ function read_chords(filename)
     altchords       = String[]
     measure_numbers = Int[]
     beat_numbers    = Float64[]
+    total_beats     = Float64[]
+    time_sigs       = String[]
 
     beats_per_measure = 0.0
     sum_of_beats      = 0.0 # sum beats of all previous bars
+    time_sig          = ""
 
      # maps a tuplet id to its scaling factor
     tuplets = Dict{Int, Float64}()
@@ -54,9 +57,10 @@ function read_chords(filename)
         chord_beat = 1.0 # the current note offset
         for node in child_elements(measure_node)
             if name(node) == "TimeSig"
-                beats_per_measure = 4 *
-                    parse(Float64, content(find_element(node, "sigN"))) /
-                    parse(Float64, content(find_element(node, "sigD")))
+                n = content(find_element(node, "sigN"))
+                d = content(find_element(node, "sigD"))
+                time_sig = "$n/$d"
+                beats_per_measure = 4 * parse(Float64, n) / parse(Float64, d)
                 continue
             elseif name(node) == "Harmony"
                 symbols = split(content(find_element(node, "name")), '-')
@@ -64,6 +68,8 @@ function read_chords(filename)
                 push!(altchords, length(symbols) == 2 ? symbols[2] : "")
                 push!(measure_numbers, parse(Int, attribute(measure_node, "number")))
                 push!(beat_numbers, beat)
+                push!(total_beats, sum_of_beats + beat)
+                push!(time_sigs, time_sig)
                 continue
             elseif name(node) == "Chord" || name(node) == "Rest"
                 isa_grace_note = true in
@@ -99,7 +105,13 @@ function read_chords(filename)
         end
         sum_of_beats += beats_per_measure
     end
-    DataFrame(chord=chords, altchord=altchords, measure=measure_numbers, beat=beat_numbers)
+    DataFrame(
+        chord=chords,
+        altchord=altchords,
+        measure=measure_numbers,
+        beat=beat_numbers,
+        totbeat=total_beats,
+        timesig=time_sigs)
 end
 
 mscx_dir = joinpath(@__DIR__, "..", "data", "mscx")
