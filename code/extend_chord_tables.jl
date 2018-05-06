@@ -65,3 +65,8 @@ for file in movements()
     # println(file)
     writetable(file, extend_chord_table(readtable(file, nastrings=["NA"])))
 end
+
+# create big dataframe
+writetable(
+    joinpath(@__DIR__, "..", "data", "all_annotations.tsv"),
+    vcat(readtable.(movements())...))
