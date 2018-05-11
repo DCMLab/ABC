@@ -1,0 +1,14 @@
+digraph  {
+sleeping;
+eating;
+pooping;
+sleeping -> sleeping  [key=0, weight="0.4", label="0.4"];
+sleeping -> eating  [key=0, weight="0.2", label="0.2"];
+sleeping -> pooping  [key=0, weight="0.4", label="0.4"];
+eating -> sleeping  [key=0, weight="0.45", label="0.45"];
+eating -> eating  [key=0, weight="0.45", label="0.45"];
+eating -> pooping  [key=0, weight="0.1", label="0.1"];
+pooping -> sleeping  [key=0, weight="0.45", label="0.45"];
+pooping -> eating  [key=0, weight="0.25", label="0.25"];
+pooping -> pooping  [key=0, weight="0.3", label="0.3"];
+}
