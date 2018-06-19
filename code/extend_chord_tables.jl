@@ -56,7 +56,7 @@ function extend_chord_table(df)
     end
 
     # change NA to "" in altchord column
-    df[:altchord] = map(ac -> isna(ac) ? "" : ac, df[:altchord])
+    df[:altchord] = map(ac -> ismissing(ac) ? "" : ac, df[:altchord])
 
     df
 end
