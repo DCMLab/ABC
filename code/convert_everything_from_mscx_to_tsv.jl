@@ -52,8 +52,28 @@ function read_chords(filename)
      # maps a tuplet id to its scaling factor
     tuplets = Dict{Int, Float64}()
 
+    measure_nodes = get_elements_by_tagname(first_staff, "Measure")
+
+    # calculate first measure number
+    m1, m2 = measure_nodes[1:2]
+    first_measure_number =
+        if attribute(m1, "number") == "1"
+            attribute(m2, "number") == "1" ? 0 : 1
+        else
+            error("Wrong numbering of the first bar.")
+        end
+
     for measure_node in get_elements_by_tagname(first_staff, "Measure")
-        is_upbeat_measure = attribute(measure_node, "number") == "1" && has_attribute(measure_node, "len")
+        measure_number =
+            if attribute(measure_node, "number") == "1" && has_attribute(measure_node, "len")
+                first_measure_number
+            else
+                parse(Int, attribute(measure_node, "number"))
+            end
+
+        is_upbeat_measure =
+            attribute(measure_node, "number") == "1" && has_attribute(measure_node, "len")
+
         beat = chord_beat = if is_upbeat_measure
             eval(parse(attribute(measure_node, "len"))) * 4
         else
@@ -71,7 +91,7 @@ function read_chords(filename)
                 symbols = split(content(find_element(node, "name")), '-')
                 push!(chords, symbols[1])
                 push!(altchords, length(symbols) == 2 ? symbols[2] : "")
-                push!(measure_numbers, parse(Int, attribute(measure_node, "number")))
+                push!(measure_numbers, measure_number)
                 push!(beat_numbers, beat)
                 push!(total_beats, sum_of_beats + beat)
                 push!(time_sigs, time_sig)
@@ -99,7 +119,6 @@ function read_chords(filename)
             elseif name(node) == "tick"
                 # the first note is on beat 1
                 total_beat = parse(Float64, content(node))/480 + 1.0
-                measure_number = parse(Float64, attribute(measure_node, "number"))
                 beat = total_beat - sum_of_beats
             elseif name(node) == "Tuplet"
                 scaling_factor =
