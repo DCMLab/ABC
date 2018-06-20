@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.1.0</programVersion>
-  <programRevision>871c8ce</programRevision>
+  <programVersion>2.2.1</programVersion>
+  <programRevision>51b8386</programRevision>
   <Score>
     <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
@@ -537,22 +537,24 @@ Op.135  1st Movement</text>
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
+        <Harmony>
+          <name>.F.I</name>
+          <pos x="0" y="-2.67761"/>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="1" n="2"/>
           </Rest>
         </Measure>
       <Measure number="2">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="1" n="2"/>
+          </Rest>
+        <tick>1440</tick>
         <Harmony>
-          <root>13</root>
-          <name>.iv6</name>
+          <name>iv6</name>
           </Harmony>
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
         </Measure>
       <Measure number="3">
         <StaffText>
@@ -1099,9 +1101,6 @@ Op.135  1st Movement</text>
           </Chord>
         </Measure>
       <Measure number="14">
-        <Harmony>
-          <name>viio</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -1122,9 +1121,6 @@ Op.135  1st Movement</text>
           </Chord>
         </Measure>
       <Measure number="15">
-        <Harmony>
-          <name>vi</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -1134,6 +1130,10 @@ Op.135  1st Movement</text>
             <tpc>17</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>vi</name>
+          <pos x="0.0888065" y="-2.65884"/>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -1641,7 +1641,7 @@ Op.135  1st Movement</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I(9)</name>
+          <name>I(+2)</name>
           <pos x="0" y="-2.85523"/>
           </Harmony>
         <Chord>
@@ -2453,7 +2453,7 @@ Op.135  1st Movement</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#VII+/vi</name>
+          <name>#vii+/vi</name>
           <pos x="0" y="-3.96342"/>
           </Harmony>
         <Beam id="35">
@@ -2506,7 +2506,7 @@ Op.135  1st Movement</text>
         </Measure>
       <Measure number="37">
         <Harmony>
-          <name>#viio43/ii</name>
+          <name>#viio43/II</name>
           <pos x="0.0888065" y="-2.67761"/>
           </Harmony>
         <Beam id="36">
@@ -8056,11 +8056,6 @@ Op.135  1st Movement</text>
             <tpc>12</tpc>
             </Note>
           </Chord>
-        <BarLine>
-          <subtype>normal</subtype>
-          <customSubtype>1</customSubtype>
-          <span>4</span>
-          </BarLine>
         </Measure>
       <Measure number="102">
         <LayoutBreak>
@@ -8894,14 +8889,12 @@ Op.135  1st Movement</text>
           </Rest>
         <Harmony>
           <name>i64</name>
-          <pos x="-0.444033" y="-1.52313"/>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
           <name>VI</name>
-          <pos x="0.177613" y="-1.52313"/>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -8910,14 +8903,13 @@ Op.135  1st Movement</text>
       <Measure number="116">
         <Harmony>
           <name>V</name>
-          <pos x="-0.0888065" y="-1.58233"/>
+          <pos x="0" y="-2.20398"/>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
           <name>V2</name>
-          <pos x="-0.355226" y="-1.43432"/>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -14649,7 +14641,6 @@ Op.135  1st Movement</text>
           </Rest>
         <Harmony>
           <name>ii6</name>
-          <pos x="-0.355226" y="-1.61193"/>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
@@ -41800,10 +41791,6 @@ Op.135  1st Movement</text>
           </StaffText>
         <Beam id="858">
           <StemDirection>up</StemDirection>
-          <Fragment>
-            <y1>-1.05897</y1>
-            <y2>-2.30897</y2>
-            </Fragment>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
