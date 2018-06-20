@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.1.0</programVersion>
-  <programRevision>871c8ce</programRevision>
+  <programVersion>2.2.1</programVersion>
+  <programRevision>51b8386</programRevision>
   <Score>
     <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
@@ -159,8 +159,12 @@
           <text><b><font size="10.6033"></font><font face="Times New Roman"></font>Assai sostenuto</b></text>
           </StaffText>
         <Harmony>
-          <name>.a.#viio</name>
-          <pos x="-5.30192" y="-3.29578"/>
+          <name>.a.i</name>
+          <pos x="-4.1757" y="-3.29578"/>
+          </Harmony>
+        <Harmony>
+          <name>#viio</name>
+          <pos x="-0.309311" y="-3.11862"/>
           </Harmony>
         <Rest>
           <durationType>measure</durationType>
@@ -733,7 +737,7 @@
           <yoffset>7</yoffset>
           </Dynamic>
         <Harmony>
-          <name>i6(6)</name>
+          <name>i6(4)</name>
           <pos x="-0.154655" y="-2.9949"/>
           </Harmony>
         <Beam id="8">
@@ -1095,7 +1099,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i(9#7)</name>
+          <name>i(#72)</name>
           <pos x="0.123724" y="-3.73724"/>
           </Harmony>
         <Chord>
@@ -1152,7 +1156,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i6(#7b2)</name>
+          <name>i6(b7#5)</name>
           <pos x="0" y="-3.79348"/>
           </Harmony>
         <Chord>
@@ -1728,7 +1732,7 @@
       <Measure number="23">
         <Harmony>
           <name>VI6</name>
-          <pos x="-0.563109" y="-2.55392"/>
+          <pos x="0" y="-4.35587"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1745,8 +1749,8 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>V6(4)</name>
-          <pos x="-2.6014" y="-2.55392"/>
+          <name>i</name>
+          <pos x="-0.123724" y="-4.35587"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1760,7 +1764,7 @@
         <tick>44640</tick>
         <Harmony>
           <name>V6</name>
-          <pos x="1.12622" y="-2.55436"/>
+          <pos x="0" y="-4.01844"/>
           </Harmony>
         </Measure>
       <Measure number="25">
@@ -1836,7 +1840,6 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <StaffText>
-          <pos x="0" y="4.4097"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.7197"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -21382,7 +21385,6 @@
         </Measure>
       <Measure number="28">
         <StaffText>
-          <pos x="0" y="4.03494"/>
           <xoffset>0</xoffset>
           <yoffset>6.4</yoffset>
           <text><font size="9.7197"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -37287,7 +37289,6 @@
         </Measure>
       <Measure number="28">
         <StaffText>
-          <pos x="-0.112622" y="4.48543"/>
           <xoffset>0</xoffset>
           <yoffset>6.4</yoffset>
           <text><font size="9.7197"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -53630,7 +53631,6 @@
           <durationType>quarter</durationType>
           </Rest>
         <StaffText>
-          <pos x="0.112622" y="4.18445"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.7197"></font><font face="Times New Roman"></font><i>cresc.</i></text>
