@@ -903,6 +903,7 @@
           </Rest>
         <Harmony>
           <name>V</name>
+          <pos x="-0.338842" y="-2.33058"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -914,12 +915,22 @@
           </Chord>
         <Harmony>
           <name>@none</name>
+          <pos x="0.254131" y="-2.5"/>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
         <Rest>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
+          </Rest>
+        <Rest>
+          <durationType>16th</durationType>
+          </Rest>
+        <Harmony>
+          <name>I.V</name>
+          </Harmony>
+        <Rest>
+          <durationType>16th</durationType>
           </Rest>
         </Measure>
       <Measure number="11">
@@ -6285,10 +6296,6 @@
           <durationType>16th</durationType>
           <Beam>80</Beam>
           </Rest>
-        <Harmony>
-          <name>I.V</name>
-          <pos x="-0.337866" y="-23.5603"/>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>16th</durationType>
