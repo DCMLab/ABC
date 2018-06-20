@@ -5060,15 +5060,20 @@
       <Measure number="105">
         <Harmony>
           <name>V(4)</name>
+          <pos x="0.129021" y="-3.27413"/>
           </Harmony>
         <Rest>
-          <durationType>measure</durationType>
-          <duration z="3" n="4"/>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
           </Rest>
-        <tick>152640</tick>
         <Harmony>
           <name>V2</name>
+          <pos x="0" y="-3.53217"/>
           </Harmony>
+        <Rest>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          </Rest>
         </Measure>
       <Measure number="106">
         <LayoutBreak>
@@ -5076,15 +5081,30 @@
           </LayoutBreak>
         <Harmony>
           <name>V</name>
+          <pos x="-0.258043" y="-2.24196"/>
           </Harmony>
         <Rest>
-          <durationType>measure</durationType>
-          <duration z="3" n="4"/>
+          <durationType>quarter</durationType>
           </Rest>
-        <tick>154080</tick>
+        <Harmony>
+          <name>i6</name>
+          </Harmony>
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
         <Harmony>
           <name>V2(4)</name>
+          <pos x="0.516086" y="-3.66119"/>
           </Harmony>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Harmony>
+          <name>V6</name>
+          </Harmony>
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
         </Measure>
       <Measure number="107">
         <Harmony>
@@ -12950,10 +12970,6 @@
           <xoffset>0</xoffset>
           <yoffset>6.7</yoffset>
           </Dynamic>
-        <Harmony>
-          <name>i6</name>
-          <pos x="-1.69648" y="-11.2949"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -12972,10 +12988,6 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V6</name>
-          <pos x="-0.401797" y="-12.1878"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
