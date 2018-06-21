@@ -7,6 +7,12 @@ The accompanying Data Report has been published by [Frontiers in Digital Humanit
 ## Authors
 Markus Neuwirth (markus.neuwirth@epfl.ch), Daniel Harasim (daniel.harasim@epfl.ch), Fabian C. Moss (fabian.moss@epfl.ch), Martin Rohrmeier (martin.rohrmeier@epfl.ch)
 
-## Important remark regarding possible annotation errors
+## Remarks
+
+### Possible annotation errors
 
 While the annotation process (detailed in the Data Report) was conducted very carefully, and all annotated symbols have been automatically checked for syntactic correctness, the authors can not entirely exclude that some typos or misinterpretations remain, due to ambiguities in the score or underspecification in the musical texture. After all, music analysis is not a deterministic process but involves interpretation. If you encounter anything that seems not right to you, please create an issue [here](https://github.com/DCMLab/ABC/issues).
+
+### Missing bars
+
+The original XML file for Op. 132 No. 15, mov. 5 from Project Gutenberg did not contain measures XX-XX. We added these manually.
