@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.1.0</programVersion>
-  <programRevision>871c8ce</programRevision>
+  <programVersion>2.2.1</programVersion>
+  <programRevision>51b8386</programRevision>
   <Score>
     <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
@@ -518,13 +518,18 @@
           <text><b>Andante scherzoso quasi Allegretto</b></text>
           </StaffText>
         <Harmony>
-          <name>.C.V</name>
+          <name>.C.I</name>
           <pos x="0" y="-3.67074"/>
           </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="8"/>
           </Rest>
+        <tick>240</tick>
+        <Harmony>
+          <name>V</name>
+          <pos x="0" y="-3.81708"/>
+          </Harmony>
         </Measure>
       <Measure number="2">
         <Harmony>
@@ -1095,7 +1100,7 @@
           <yoffset>7</yoffset>
           </Dynamic>
         <Harmony>
-          <name>V[V</name>
+          <name>V</name>
           <pos x="0.73171" y="-3.23171"/>
           </Harmony>
         <Beam id="12">
@@ -2414,7 +2419,7 @@
           <subtype>page</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>IV(4)</name>
+          <name>IV(#4)</name>
           </Harmony>
         <Beam id="37">
           <StemDirection>down</StemDirection>
@@ -2904,7 +2909,6 @@
           </Chord>
         <Harmony>
           <name>#viio6/V</name>
-          <pos x="-1.50971" y="-2.58881"/>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -4177,7 +4181,7 @@
           <subtype>page</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>.bIII.vi</name>
+          <name>.bIII.IV6</name>
           </Harmony>
         <Rest>
           <durationType>measure</durationType>
@@ -4394,7 +4398,7 @@
           </Chord>
         <Harmony>
           <name>#vii%43/V</name>
-          <pos x="-5.7386" y="-2.58881"/>
+          <pos x="-5.56099" y="-2.5"/>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -4733,7 +4737,7 @@
         </Measure>
       <Measure number="98">
         <Harmony>
-          <name>V/vi</name>
+          <name>iii</name>
           </Harmony>
         <Beam id="77">
           <StemDirection>up</StemDirection>
@@ -4761,10 +4765,6 @@
           <durationType>16th</durationType>
           <Beam>77</Beam>
           <Note>
-            <Accidental>
-              <role>1</role>
-              <subtype>natural</subtype>
-              </Accidental>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
@@ -4834,7 +4834,7 @@
         </Measure>
       <Measure number="100">
         <Harmony>
-          <name>V43/vi</name>
+          <name>I</name>
           </Harmony>
         <Rest>
           <durationType>measure</durationType>
@@ -5097,7 +5097,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.251058" y="7.67769"/>
+          <pos x="0.329531" y="6.26829"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           </Dynamic>
@@ -5666,7 +5666,7 @@
         </Measure>
       <Measure number="115">
         <Harmony>
-          <name>iv(94)</name>
+          <name>iv(24)</name>
           </Harmony>
         <Beam id="92">
           <StemDirection>up</StemDirection>
@@ -5736,7 +5736,7 @@
         </Measure>
       <Measure number="117">
         <Harmony>
-          <name>V65(2)</name>
+          <name>#viio7</name>
           </Harmony>
         <Beam id="94">
           <StemDirection>up</StemDirection>
@@ -5806,7 +5806,7 @@
         </Measure>
       <Measure number="119">
         <Harmony>
-          <name>i</name>
+          <name>vi</name>
           </Harmony>
         <Beam id="96">
           <StemDirection>up</StemDirection>
@@ -5879,7 +5879,7 @@
         </Measure>
       <Measure number="121">
         <Harmony>
-          <name>V\\</name>
+          <name>V</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5902,14 +5902,14 @@
         </Measure>
       <Measure number="122">
         <Harmony>
-          <name>i</name>
+          <name>vi</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
           <name>#viio65/V</name>
-          <pos x="-0.230142" y="-2.23358"/>
+          <pos x="-0.585368" y="-2.5"/>
           </Harmony>
         <Beam id="98">
           <StemDirection>down</StemDirection>
@@ -5939,7 +5939,6 @@
       <Measure number="123">
         <Harmony>
           <name>V</name>
-          <pos x="0" y="-2.14477"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5959,7 +5958,7 @@
         </Measure>
       <Measure number="124">
         <Harmony>
-          <name>i</name>
+          <name>vi</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -6012,7 +6011,7 @@
         </Measure>
       <Measure number="126">
         <Harmony>
-          <name>i</name>
+          <name>vi</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -7514,7 +7513,6 @@
       <Measure number="167">
         <Harmony>
           <name>ii6</name>
-          <pos x="1.06568" y="-2.5"/>
           </Harmony>
         <Beam id="125">
           <StemDirection>down</StemDirection>
@@ -8311,7 +8309,7 @@
           <yoffset>7</yoffset>
           </Dynamic>
         <Harmony>
-          <name>viio6(2)</name>
+          <name>ii7</name>
           </Harmony>
         <Beam id="139">
           <StemDirection>down</StemDirection>
@@ -8381,7 +8379,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="3413.06" y="-2.17074"/>
+            <pos x="3409.69" y="-2.17074"/>
             </Segment>
           </Trill>
         <Beam id="140">
@@ -8497,7 +8495,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="3451.78" y="-2.46342"/>
+            <pos x="3448.41" y="-2.46342"/>
             </Segment>
           </Trill>
         <Beam id="142">
@@ -8596,7 +8594,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="3491.3" y="-2.17074"/>
+            <pos x="3487.93" y="-2.17074"/>
             </Segment>
           </Trill>
         <Beam id="144">
@@ -9261,7 +9259,7 @@
         </Measure>
       <Measure number="203">
         <Harmony>
-          <name>I\\</name>
+          <name>I</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -11068,7 +11066,7 @@
           <yoffset>7</yoffset>
           </Dynamic>
         <Harmony>
-          <name>I\\</name>
+          <name>I</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -23434,7 +23432,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.151918" y="7.24516"/>
+          <pos x="0.329531" y="6.26829"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           </Dynamic>
@@ -26173,10 +26171,6 @@
           <durationType>16th</durationType>
           <Beam>486</Beam>
           <Note>
-            <Accidental>
-              <role>1</role>
-              <subtype>natural</subtype>
-              </Accidental>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -29809,7 +29803,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.375767" y="7.92188"/>
+          <pos x="0.659062" y="6.26829"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           </Dynamic>
