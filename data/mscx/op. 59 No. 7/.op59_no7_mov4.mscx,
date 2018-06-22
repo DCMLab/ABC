@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.1.0</programVersion>
-  <programRevision>871c8ce</programRevision>
+  <programVersion>2.2.1</programVersion>
+  <programRevision>51b8386</programRevision>
   <Score>
     <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
@@ -3226,6 +3226,10 @@ Op. 59 No.1 4th Movement</text>
           </Chord>
         </Measure>
       <Measure number="44">
+        <Harmony>
+          <name>V7/V</name>
+          <pos x="0" y="-5.10181"/>
+          </Harmony>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -4156,7 +4160,7 @@ Op. 59 No.1 4th Movement</text>
           </Chord>
         <Harmony>
           <name>#viio7/iv</name>
-          <pos x="-1.44884" y="-4.63818"/>
+          <pos x="-0.146342" y="-4.875"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -4202,6 +4206,10 @@ Op. 59 No.1 4th Movement</text>
           </Chord>
         </Measure>
       <Measure number="57">
+        <Harmony>
+          <name>V2</name>
+          <pos x="-0.159753" y="-5.38779"/>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -8207,6 +8215,10 @@ Op. 59 No.1 4th Movement</text>
           </Chord>
         </Measure>
       <Measure number="122">
+        <Harmony>
+          <name>iii</name>
+          <pos x="1.0378" y="-9.95792"/>
+          </Harmony>
         <Beam id="158">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -9120,6 +9132,9 @@ Op. 59 No.1 4th Movement</text>
           </Chord>
         </Measure>
       <Measure number="133">
+        <Harmony>
+          <name>i</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -10750,7 +10765,7 @@ Op. 59 No.1 4th Movement</text>
           </Chord>
         <Harmony>
           <name>iio</name>
-          <pos x="-0.118409" y="-3.45518"/>
+          <pos x="0" y="-4.40245"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -11957,7 +11972,7 @@ Op. 59 No.1 4th Movement</text>
       <Measure number="178">
         <Harmony>
           <name>I6</name>
-          <pos x="-0.0667973" y="-2.44531"/>
+          <pos x="-0.0667973" y="-1.49804"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -12440,7 +12455,7 @@ Op. 59 No.1 4th Movement</text>
           <text><i>cresc.</i></text>
           </StaffText>
         <Harmony>
-          <name>VI\\</name>
+          <name>VI</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -18654,6 +18669,9 @@ Op. 59 No.1 4th Movement</text>
           </Chord>
         </Measure>
       <Measure number="287">
+        <Harmony>
+          <name>V65</name>
+          </Harmony>
         <Beam id="389">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -54607,8 +54625,11 @@ Op. 59 No.1 4th Movement</text>
           <durationType>16th</durationType>
           <Beam>1238</Beam>
           <Note>
-            <pitch>41</pitch>
-            <tpc>13</tpc>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>42</pitch>
+            <tpc>20</tpc>
             </Note>
           </Chord>
         </Measure>
