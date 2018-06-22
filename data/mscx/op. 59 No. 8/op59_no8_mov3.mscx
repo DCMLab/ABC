@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.2</programVersion>
-  <programRevision>f51dc11</programRevision>
+  <programVersion>2.1.0</programVersion>
+  <programRevision>871c8ce</programRevision>
   <Score>
+    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Synthesizer>
@@ -421,104 +422,6 @@
       <Page>
         <System>
           </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
         </Page>
       </PageList>
     <Part>
@@ -650,9 +553,6 @@
             <tpc>19</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i</name>
-          nothing</Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -677,7 +577,7 @@
         <startRepeat/>
         <Harmony>
           <name>V</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -719,7 +619,7 @@
       <Measure number="3">
         <Harmony>
           <name>V7</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -757,8 +657,8 @@
         </Measure>
       <Measure number="4">
         <Harmony>
-          <name>i(4+2)</name>
-          nothing</Harmony>
+          <name>i(94)</name>
+          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -784,7 +684,7 @@
         <tick>5280</tick>
         <Harmony>
           <name>i</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>5520</tick>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1191,7 +1091,7 @@
           </Chord>
         <Harmony>
           <name>III.viio7</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -1221,13 +1121,9 @@
         </Measure>
       <Measure number="12">
         <startRepeat/>
-        <BarLine>
-          <subtype>start-repeat</subtype>
-          <span>4</span>
-          </BarLine>
         <Harmony>
           <name>I(4)</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -1245,7 +1141,7 @@
           </Chord>
         <Harmony>
           <name>I(#2)</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -1262,7 +1158,7 @@
         <tick>16800</tick>
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>17040</tick>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1277,7 +1173,7 @@
       <Measure number="13">
         <Harmony>
           <name>#viio7/ii</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -1322,8 +1218,8 @@
         </Measure>
       <Measure number="14">
         <Harmony>
-          <name>ii(4+2)</name>
-          nothing</Harmony>
+          <name>ii(94)</name>
+          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -1352,7 +1248,7 @@
         <tick>19680</tick>
         <Harmony>
           <name>ii</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>19920</tick>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1368,13 +1264,10 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="3.76829"/>
+          <pos x="0.0927135" y="5.42601"/>
           <xoffset>0</xoffset>
           <yoffset>4.5</yoffset>
           </Dynamic>
-        <Harmony>
-          <name>ii</name>
-          nothing</Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -1397,7 +1290,7 @@
       <Measure number="16">
         <Harmony>
           <name>V6/ii</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -1415,7 +1308,7 @@
       <Measure number="17">
         <Harmony>
           <name>V/ii</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -1433,7 +1326,7 @@
       <Measure number="18">
         <Harmony>
           <name>ii</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -1453,7 +1346,7 @@
           </Dynamic>
         <Harmony>
           <name>vii%7</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -1474,7 +1367,7 @@
           </Dynamic>
         <Harmony>
           <name>.bII.I</name>
-          nothing</Harmony>
+          </Harmony>
         <Beam id="7">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -1662,7 +1555,7 @@
           </Dynamic>
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -1816,7 +1709,7 @@
           </Dynamic>
         <Harmony>
           <name>i.V9</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -1956,7 +1849,7 @@
       <Measure number="29">
         <Harmony>
           <name>V(4)</name>
-          nothing</Harmony>
+          </Harmony>
         <Beam id="10">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -1984,7 +1877,7 @@
           </Chord>
         <Harmony>
           <name>V7</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -2022,7 +1915,7 @@
           <text><i>cresc.</i></text>
           </StaffText>
         <Harmony>
-          <name>i(+72)</name>
+          <name>i(9+7)</name>
           <pos x="0" y="-3.47561"/>
           </Harmony>
         <Beam id="11">
@@ -2243,7 +2136,7 @@
           <yoffset>5.3</yoffset>
           </Dynamic>
         <Harmony>
-          <name>i.V7(2)</name>
+          <name>i.V7(9)</name>
           <pos x="0" y="-3.47561"/>
           </Harmony>
         <Chord>
@@ -2382,7 +2275,7 @@
       <Measure number="37">
         <Harmony>
           <name>V(4)</name>
-          nothing</Harmony>
+          </Harmony>
         <Beam id="14">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -2407,7 +2300,7 @@
           </Chord>
         <Harmony>
           <name>V7</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -2632,7 +2525,7 @@
           </Chord>
         <Harmony>
           <name>i</name>
-          <pos x="-0.146342" y="-3.67074"/>
+          <pos x="-0.0279333" y="-3.43392"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -2675,7 +2568,7 @@
           </Chord>
         <Harmony>
           <name>iv</name>
-          <pos x="0" y="-3.86586"/>
+          <pos x="0" y="-3.39223"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -2707,8 +2600,8 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>V65/VI</name>
-          nothing</Harmony>
+          <name>V(#76)</name>
+          </Harmony>
         <Beam id="20">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -2734,10 +2627,6 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V65(#5)/VI</name>
-          <pos x="0" y="-3.13415"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -2751,6 +2640,10 @@
             <tpc>23</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V(64)</name>
+          <pos x="-1.53931" y="-2.5"/>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -2765,8 +2658,8 @@
         </Measure>
       <Measure number="44">
         <Harmony>
-          <name>V7(+4)</name>
-          nothing</Harmony>
+          <name>V7(4)</name>
+          </Harmony>
         <Beam id="21">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -2791,7 +2684,7 @@
           </Chord>
         <Harmony>
           <name>V7(+#2)</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -2805,6 +2698,10 @@
             <tpc>21</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V7</name>
+          <pos x="-2.84181" y="-2.38159"/>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -2820,8 +2717,8 @@
         </Measure>
       <Measure number="45">
         <Harmony>
-          <name>i</name>
-          nothing</Harmony>
+          <name>i\\</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -2833,13 +2730,13 @@
           </Chord>
         <Harmony>
           <name>i[i6</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
           <name>viio64</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -2880,7 +2777,7 @@
         <tick>65760</tick>
         <Harmony>
           <name>i6</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>66000</tick>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -2900,7 +2797,7 @@
         <tick>67200</tick>
         <Harmony>
           <name>viio64</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="48">
         <Rest>
@@ -2940,7 +2837,7 @@
         <tick>68640</tick>
         <Harmony>
           <name>i6</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>68880</tick>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -2988,7 +2885,7 @@
         <tick>70080</tick>
         <Harmony>
           <name>i6]</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>70320</tick>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -3034,7 +2931,7 @@
           </Dynamic>
         <Harmony>
           <name>V7</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -3063,7 +2960,7 @@
           </Chord>
         <Harmony>
           <name>i</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -3319,24 +3216,29 @@
           </StaffText>
         <Harmony>
           <name>I.I</name>
-          <pos x="-4.09757" y="-3.37805"/>
-          </Harmony>
-        <Harmony>
-          <name>I</name>
-          <pos x="0" y="-3.37805"/>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
         </Measure>
       <Measure number="60">
+        <Harmony>
+          <name>I</name>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
           </Rest>
+        <tick>84000</tick>
+        <Harmony>
+          <name>I6</name>
+          </Harmony>
         </Measure>
       <Measure number="61">
         <Rest>
@@ -3346,16 +3248,16 @@
         <tick>85440</tick>
         <Harmony>
           <name>V2</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>85920</tick>
         <Harmony>
           <name>I6</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="62">
         <Harmony>
           <name>V43</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -3363,16 +3265,16 @@
         <tick>86880</tick>
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>87360</tick>
         <Harmony>
           <name>V</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="63">
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -3381,7 +3283,7 @@
       <Measure number="64">
         <Harmony>
           <name>V43</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -3393,7 +3295,7 @@
           </LayoutBreak>
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -3401,16 +3303,16 @@
         <tick>91200</tick>
         <Harmony>
           <name>V6</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>91680</tick>
         <Harmony>
           <name>V65/V</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="66">
         <Harmony>
           <name>V</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -3418,12 +3320,12 @@
         <tick>92640</tick>
         <Harmony>
           <name>V43</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="67">
         <Harmony>
           <name>V</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -3431,16 +3333,16 @@
         <tick>94080</tick>
         <Harmony>
           <name>V43/V</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>94560</tick>
         <Harmony>
           <name>V6</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="68">
         <Harmony>
           <name>V2/V</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -3448,16 +3350,16 @@
         <tick>95520</tick>
         <Harmony>
           <name>V6</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>96000</tick>
         <Harmony>
           <name>V6/V</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="69">
         <Harmony>
           <name>V</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -3465,12 +3367,12 @@
         <tick>96960</tick>
         <Harmony>
           <name>V64</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="70">
         <Harmony>
           <name>V65/ii</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -3478,11 +3380,11 @@
         <tick>98400</tick>
         <Harmony>
           <name>ii</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>98880</tick>
         <Harmony>
           <name>IV64</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="71">
         <LayoutBreak>
@@ -3490,7 +3392,7 @@
           </LayoutBreak>
         <Harmony>
           <name>V65</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -3503,7 +3405,7 @@
           </Dynamic>
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Beam id="24">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -3596,7 +3498,7 @@
       <Measure number="72">
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Beam id="26">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -3641,7 +3543,7 @@
           </Chord>
         <Harmony>
           <name>I6</name>
-          nothing</Harmony>
+          </Harmony>
         <Beam id="27">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -3964,7 +3866,7 @@
           </Chord>
         <Harmony>
           <name>V64</name>
-          nothing</Harmony>
+          </Harmony>
         <Beam id="34">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -4011,7 +3913,7 @@
       <Measure number="75">
         <Harmony>
           <name>I6</name>
-          nothing</Harmony>
+          </Harmony>
         <Beam id="35">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -4241,7 +4143,7 @@
           </Chord>
         <Harmony>
           <name>I6</name>
-          nothing</Harmony>
+          </Harmony>
         <Beam id="40">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -4266,7 +4168,7 @@
           </Chord>
         <Harmony>
           <name>V43</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <Tuplet>17</Tuplet>
           <BeamMode>mid</BeamMode>
@@ -4292,13 +4194,6 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <Dynamic>
-          <subtype>p</subtype>
-          <velocity>49</velocity>
-          <pos x="0.329531" y="3.86829"/>
-          <xoffset>0</xoffset>
-          <yoffset>4.6</yoffset>
-          </Dynamic>
         <StaffText>
           <pos x="0.146342" y="-7.61465"/>
           <xoffset>0</xoffset>
@@ -4307,7 +4202,7 @@
           </StaffText>
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -4335,7 +4230,7 @@
           </Rest>
         <Harmony>
           <name>V2/V</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -4820,7 +4715,7 @@
       <Measure number="87">
         <Harmony>
           <name>I\\</name>
-          nothing</Harmony>
+          </Harmony>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -4842,7 +4737,7 @@
           </Rest>
         <Harmony>
           <name>V7</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -4850,7 +4745,7 @@
       <Measure number="88">
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -4858,12 +4753,12 @@
         <tick>124320</tick>
         <Harmony>
           <name>I6</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="89">
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -4871,11 +4766,11 @@
         <tick>125760</tick>
         <Harmony>
           <name>V7</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>126240</tick>
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="90">
         <LayoutBreak>
@@ -4883,7 +4778,7 @@
           </LayoutBreak>
         <Harmony>
           <name>V2</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -4891,16 +4786,16 @@
         <tick>127200</tick>
         <Harmony>
           <name>I6</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>127680</tick>
         <Harmony>
           <name>V</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="91">
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -4909,7 +4804,7 @@
       <Measure number="92">
         <Harmony>
           <name>V43</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -4918,7 +4813,7 @@
       <Measure number="93">
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -4926,12 +4821,12 @@
         <tick>132000</tick>
         <Harmony>
           <name>V6</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="94">
         <Harmony>
           <name>V</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -4945,16 +4840,16 @@
         <tick>134400</tick>
         <Harmony>
           <name>V65/V</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>134880</tick>
         <Harmony>
           <name>V</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="96">
         <Harmony>
           <name>V43/V</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -4962,16 +4857,16 @@
         <tick>135840</tick>
         <Harmony>
           <name>V6</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>136320</tick>
         <Harmony>
           <name>V43/V</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="97">
         <Harmony>
           <name>V</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -4979,12 +4874,12 @@
         <tick>137760</tick>
         <Harmony>
           <name>I6</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="98">
         <Harmony>
           <name>V65/ii</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -4992,11 +4887,11 @@
         <tick>138720</tick>
         <Harmony>
           <name>ii</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>139200</tick>
         <Harmony>
           <name>IV64</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="99">
         <LayoutBreak>
@@ -5071,7 +4966,7 @@
           </Chord>
         <Harmony>
           <name>V(64)</name>
-          <pos x="-0.146342" y="-5.86586"/>
+          <pos x="-2.63293" y="-5.62904"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -5085,6 +4980,10 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V</name>
+          <pos x="0.236817" y="-5.57863"/>
+          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -5842,7 +5741,7 @@
       <Measure number="111">
         <Harmony>
           <name>V65</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -5856,7 +5755,7 @@
         <tick>157440</tick>
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <tick>157680</tick>
         <Dynamic>
           <subtype>ff</subtype>
@@ -5912,7 +5811,7 @@
       <Measure number="112">
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Beam id="57">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -5942,7 +5841,7 @@
           </Chord>
         <Harmony>
           <name>I6</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -6004,13 +5903,13 @@
           </Chord>
         <Harmony>
           <name>IV</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
           <name>I6</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -6018,7 +5917,7 @@
       <Measure number="114">
         <Harmony>
           <name>ii7</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -6026,12 +5925,12 @@
         <tick>161760</tick>
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="115">
         <Harmony>
           <name>I6</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -6039,12 +5938,12 @@
         <tick>163680</tick>
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="116">
         <Harmony>
           <name>ii7</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -6053,7 +5952,7 @@
       <Measure number="117">
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -6061,20 +5960,20 @@
         </Measure>
       <Measure number="118">
         <Harmony>
-          <name>I(+2)</name>
-          nothing</Harmony>
+          <name>I(9)</name>
+          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
           </Rest>
         <tick>167520</tick>
         <Harmony>
-          <name>I64(2)</name>
-          nothing</Harmony>
+          <name>I64(9)</name>
+          </Harmony>
         <tick>168000</tick>
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         </Measure>
       <Measure number="119">
         <LayoutBreak>
@@ -6108,7 +6007,7 @@
           </Rest>
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -6124,7 +6023,7 @@
         </Measure>
       <Measure number="120">
         <Harmony>
-          <name>I(+2)</name>
+          <name>I(9)</name>
           <pos x="8.388e-08" y="-6.15855"/>
           </Harmony>
         <Beam id="58">
@@ -6165,7 +6064,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>I(+2)</name>
+          <name>I(9)</name>
           <pos x="0" y="-6.01221"/>
           </Harmony>
         <Chord>
@@ -6234,7 +6133,7 @@
         </Measure>
       <Measure number="122">
         <Harmony>
-          <name>I(+2)</name>
+          <name>I(9)</name>
           <pos x="-4.194e-08" y="-6.45123"/>
           </Harmony>
         <Chord>
@@ -6319,7 +6218,7 @@
           <yoffset>4</yoffset>
           </Dynamic>
         <Harmony>
-          <name>I(+2)</name>
+          <name>I(9)</name>
           <pos x="0" y="-5.86587"/>
           </Harmony>
         <Chord>
@@ -6387,7 +6286,7 @@
           </Chord>
         <Harmony>
           <name>I6</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -6530,7 +6429,7 @@
           </Chord>
         <Harmony>
           <name>vi6</name>
-          <pos x="0" y="-3.67074"/>
+          <pos x="0" y="-3.43392"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -6571,7 +6470,7 @@
           </Chord>
         <tick>183360</tick>
         <Harmony>
-          <name>I64(+2)</name>
+          <name>I64(9)</name>
           <pos x="-2.63416" y="-3.71952"/>
           </Harmony>
         <tick>183840</tick>
@@ -6592,7 +6491,7 @@
       <Measure number="130">
         <Harmony>
           <name>V2</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -6627,7 +6526,7 @@
       <Measure number="131">
         <Harmony>
           <name>I6</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -6646,7 +6545,7 @@
           </Rest>
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -6663,7 +6562,7 @@
           </LayoutBreak>
         <Harmony>
           <name>viio</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -6708,7 +6607,7 @@
       <Measure number="133">
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -6723,7 +6622,7 @@
           </Rest>
         <Harmony>
           <name>vi</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -6737,7 +6636,7 @@
       <Measure number="134">
         <Harmony>
           <name>V7</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -6772,7 +6671,7 @@
       <Measure number="135">
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -6804,7 +6703,7 @@
           </Rest>
         <Harmony>
           <name>V43</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -6821,7 +6720,7 @@
       <Measure number="137">
         <Harmony>
           <name>I</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -6844,7 +6743,7 @@
           </Rest>
         <Harmony>
           <name>V43</name>
-          nothing</Harmony>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -6861,7 +6760,7 @@
       <Measure number="139">
         <Harmony>
           <name>i</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -6910,7 +6809,7 @@
       <Measure number="141">
         <Harmony>
           <name>i\\</name>
-          nothing</Harmony>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -6921,6 +6820,9 @@
           <xoffset>0</xoffset>
           <yoffset>4.5</yoffset>
           </Dynamic>
+        <Harmony>
+          <name>i</name>
+          </Harmony>
         <Beam id="66">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -10472,13 +10374,6 @@ da capo ilo minore senza replica</text>
           </Chord>
         </Measure>
       <Measure number="76">
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.659062" y="3.76829"/>
-          <xoffset>0</xoffset>
-          <yoffset>4.5</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -10514,7 +10409,7 @@ da capo ilo minore senza replica</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="3.86829"/>
+          <pos x="0.0753905" y="-1.20687"/>
           <xoffset>0</xoffset>
           <yoffset>4.6</yoffset>
           </Dynamic>
@@ -15641,7 +15536,7 @@ da capo ilo minore senza replica</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="3.76829"/>
+          <pos x="0.155472" y="-0.939159"/>
           <xoffset>0</xoffset>
           <yoffset>4.5</yoffset>
           </Dynamic>
@@ -15662,7 +15557,14 @@ da capo ilo minore senza replica</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="3.86829"/>
+          <pos x="0.0753905" y="-1.29439"/>
+          <xoffset>0</xoffset>
+          <yoffset>4.6</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          <pos x="-0.0430182" y="5.2181"/>
           <xoffset>0</xoffset>
           <yoffset>4.6</yoffset>
           </Dynamic>
@@ -19658,7 +19560,7 @@ da capo ilo minore senza replica</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="3.76829"/>
+          <pos x="-0.169799" y="5.42601"/>
           <xoffset>0</xoffset>
           <yoffset>4.5</yoffset>
           </Dynamic>
@@ -21679,7 +21581,7 @@ da capo ilo minore senza replica</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="5.06829"/>
+          <pos x="-0.144104" y="6.48919"/>
           <xoffset>0</xoffset>
           <yoffset>5.8</yoffset>
           </Dynamic>
@@ -22044,7 +21946,14 @@ da capo ilo minore senza replica</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="3.76829"/>
+          <pos x="0.0927135" y="6.25487"/>
+          <xoffset>0</xoffset>
+          <yoffset>4.5</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.273881" y="-1.2635"/>
           <xoffset>0</xoffset>
           <yoffset>4.5</yoffset>
           </Dynamic>
@@ -22083,7 +21992,7 @@ da capo ilo minore senza replica</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="3.86829"/>
+          <pos x="0.0927135" y="5.99965"/>
           <xoffset>0</xoffset>
           <yoffset>4.6</yoffset>
           </Dynamic>

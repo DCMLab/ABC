@@ -903,6 +903,7 @@
           </Rest>
         <Harmony>
           <name>V</name>
+          <pos x="-0.338842" y="-2.33058"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -914,12 +915,22 @@
           </Chord>
         <Harmony>
           <name>@none</name>
+          <pos x="0.254131" y="-2.5"/>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
         <Rest>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
+          </Rest>
+        <Rest>
+          <durationType>16th</durationType>
+          </Rest>
+        <Harmony>
+          <name>I.V</name>
+          </Harmony>
+        <Rest>
+          <durationType>16th</durationType>
           </Rest>
         </Measure>
       <Measure number="11">
@@ -1949,20 +1960,17 @@
           <text><sym>unicodeNoteQuarterUp</sym> = <sym>unicodeNoteQuarterUp</sym></text>
           </StaffText>
         <Harmony>
-          <name>.a.i</name>
-          <pos x="-5.01084" y="-2.87117"/>
-          </Harmony>
-        <Harmony>
-          <name>V</name>
+          <name>.i.V</name>
           </Harmony>
         <Rest>
-          <durationType>measure</durationType>
-          <duration z="4" n="4"/>
+          <durationType>half</durationType>
           </Rest>
-        <tick>47040</tick>
         <Harmony>
           <name>i</name>
           </Harmony>
+        <Rest>
+          <durationType>half</durationType>
+          </Rest>
         </Measure>
       <Measure number="26">
         <LayoutBreak>
@@ -6285,10 +6293,6 @@
           <durationType>16th</durationType>
           <Beam>80</Beam>
           </Rest>
-        <Harmony>
-          <name>I.V</name>
-          <pos x="-0.337866" y="-23.5603"/>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>16th</durationType>

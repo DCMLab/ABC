@@ -557,9 +557,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>I</name>
-          </Harmony>
         <Beam id="1">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -870,6 +867,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V(64)/ii</name>
+          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>32nd</durationType>
@@ -879,6 +879,9 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V7/ii</name>
+          </Harmony>
         <Beam id="8">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -3300,7 +3303,7 @@
         </Measure>
       <Measure number="59">
         <Harmony>
-          <name>ii(+42)</name>
+          <name>ii(119)</name>
           <pos x="-2.04879" y="-2.79268"/>
           </Harmony>
         <Beam id="29">
@@ -3559,7 +3562,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V(+2)</name>
+          <name>V(9)</name>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -7179,7 +7182,7 @@
         </Measure>
       <Measure number="130">
         <Harmony>
-          <name>ii(42)</name>
+          <name>ii(94)</name>
           </Harmony>
         <Beam id="80">
           <StemDirection>down</StemDirection>
@@ -9299,7 +9302,7 @@
       <Measure number="175">
         <Harmony>
           <name>.bVI2</name>
-          <pos x="0.0982614" y="-10.4486"/>
+          <pos x="-0.256965" y="-4.40975"/>
           </Harmony>
         <Beam id="107">
           <StemDirection>down</StemDirection>
@@ -15756,6 +15759,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>16th</durationType>
@@ -15890,6 +15896,9 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>vi7</name>
+          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>16th</durationType>
@@ -17540,6 +17549,10 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
+            <Accidental>
+              <role>1</role>
+              <subtype>flat</subtype>
+              </Accidental>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>

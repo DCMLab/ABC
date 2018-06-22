@@ -667,25 +667,29 @@ Op.59 No.3, 4th movement</b></text>
       <Measure number="12">
         <Harmony>
           <name>I</name>
-          <pos x="10.7317" y="-2.59757"/>
-          </Harmony>
-        <Harmony>
-          <name>I</name>
           <pos x="-0.146342" y="-2.69268"/>
           </Harmony>
         <Rest>
-          <durationType>measure</durationType>
-          <duration z="1" n="1"/>
+          <durationType>quarter</durationType>
           </Rest>
-        <tick>24000</tick>
-        <Harmony>
-          <name>vi</name>
-          <pos x="4.73173" y="-3.13415"/>
-          </Harmony>
         <Harmony>
           <name>IV</name>
-          <pos x="-6.82929" y="-2.69512"/>
           </Harmony>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Harmony>
+          <name>I</name>
+          </Harmony>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Harmony>
+          <name>vi</name>
+          </Harmony>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
         </Measure>
       <Measure number="13">
         <Harmony>
@@ -717,23 +721,27 @@ Op.59 No.3, 4th movement</b></text>
           <name>IV</name>
           <pos x="-1.6776e-07" y="-2.74391"/>
           </Harmony>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
         <Harmony>
           <name>ii</name>
-          <pos x="5.46343" y="-2.54878"/>
-          </Harmony>
-        <Harmony>
-          <name>iii</name>
-          <pos x="21.3659" y="-2.20732"/>
           </Harmony>
         <Rest>
-          <durationType>measure</durationType>
-          <duration z="1" n="1"/>
+          <durationType>quarter</durationType>
           </Rest>
-        <tick>29760</tick>
         <Harmony>
           <name>V</name>
-          <pos x="0.146342" y="-2.5"/>
           </Harmony>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Harmony>
+          <name>iii</name>
+          </Harmony>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
         </Measure>
       <Measure number="16">
         <Harmony>
@@ -920,17 +928,26 @@ Op.59 No.3, 4th movement</b></text>
           <name>I6</name>
           <pos x="0" y="-2.54878"/>
           </Harmony>
-        <Harmony>
-          <name>vi7</name>
-          <pos x="5.51222" y="-2.64635"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
             <Tie id="2">
               </Tie>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <name>vi7</name>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <Tie id="3">
+              </Tie>
+            <endSpanner id="2"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -946,7 +963,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>1</Beam>
           <Note>
-            <endSpanner id="2"/>
+            <endSpanner id="3"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -2541,13 +2558,13 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="3">
+            <Tie id="4">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           <Note>
-            <Tie id="4">
+            <Tie id="5">
               </Tie>
             <pitch>83</pitch>
             <tpc>19</tpc>
@@ -2559,12 +2576,12 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="3"/>
+            <endSpanner id="4"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           <Note>
-            <endSpanner id="4"/>
+            <endSpanner id="5"/>
             <pitch>83</pitch>
             <tpc>19</tpc>
             </Note>
@@ -2780,7 +2797,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="5">
+            <Tie id="6">
               </Tie>
             <pitch>70</pitch>
             <tpc>12</tpc>
@@ -2789,7 +2806,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="6">
+            <Tie id="7">
               </Tie>
             <pitch>82</pitch>
             <tpc>12</tpc>
@@ -2801,12 +2818,12 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="5"/>
+            <endSpanner id="6"/>
             <pitch>70</pitch>
             <tpc>12</tpc>
             </Note>
           <Note>
-            <endSpanner id="6"/>
+            <endSpanner id="7"/>
             <pitch>82</pitch>
             <tpc>12</tpc>
             </Note>
@@ -4123,7 +4140,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="7">
+            <Tie id="8">
               </Tie>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -4140,7 +4157,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>64</Beam>
           <Note>
-            <endSpanner id="7"/>
+            <endSpanner id="8"/>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
@@ -4280,7 +4297,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="8">
+            <Tie id="9">
               </Tie>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -4297,7 +4314,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>67</Beam>
           <Note>
-            <endSpanner id="8"/>
+            <endSpanner id="9"/>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
@@ -4338,20 +4355,29 @@ Op.59 No.3, 4th movement</b></text>
           <name>V4</name>
           <pos x="-0.926836" y="-2.45122"/>
           </Harmony>
-        <Harmony>
-          <name>I64</name>
-          <pos x="6.0488" y="-2.59756"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="9">
+            <Tie id="10">
               </Tie>
+            <pitch>78</pitch>
+            <tpc>20</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <name>I64</name>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <Tie id="11">
+              </Tie>
+            <endSpanner id="10"/>
             <pitch>78</pitch>
             <tpc>20</tpc>
             </Note>
@@ -4364,7 +4390,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>68</Beam>
           <Note>
-            <endSpanner id="9"/>
+            <endSpanner id="11"/>
             <pitch>78</pitch>
             <tpc>20</tpc>
             </Note>
@@ -4403,7 +4429,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="10">
+            <Tie id="12">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -4420,7 +4446,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>69</Beam>
           <Note>
-            <endSpanner id="10"/>
+            <endSpanner id="12"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -4463,7 +4489,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="11">
+            <Tie id="13">
               </Tie>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -4477,7 +4503,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>70</Beam>
           <Note>
-            <endSpanner id="11"/>
+            <endSpanner id="13"/>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
@@ -4846,7 +4872,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="12">
+            <Tie id="14">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -4858,31 +4884,50 @@ Op.59 No.3, 4th movement</b></text>
           <name>V2</name>
           <pos x="-0.73171" y="-2.59757"/>
           </Harmony>
-        <Harmony>
-          <name>I6</name>
-          <pos x="5.561" y="-2.9878"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="12"/>
+            <Tie id="15">
+              </Tie>
+            <endSpanner id="14"/>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <name>I6</name>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <endSpanner id="15"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
         <Harmony>
           <name>V65</name>
-          <pos x="0" y="-2.79268"/>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <Tie id="16">
+              </Tie>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <name>I</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="13">
-              </Tie>
+            <endSpanner id="16"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -4890,23 +4935,25 @@ Op.59 No.3, 4th movement</b></text>
         </Measure>
       <Measure number="82">
         <Harmony>
-          <name>I</name>
-          <pos x="-5.36588" y="-2.93659"/>
-          </Harmony>
-        <Harmony>
           <name>V2</name>
           <pos x="-0.292684" y="-2.74391"/>
           </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <Tie id="17">
+              </Tie>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
         <Harmony>
           <name>I6</name>
-          <pos x="4.68295" y="-2.9878"/>
           </Harmony>
         <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
-          <StemDirection>down</StemDirection>
+          <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="13"/>
+            <endSpanner id="17"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -4917,11 +4964,24 @@ Op.59 No.3, 4th movement</b></text>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="14">
+            <Tie id="18">
               </Tie>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <name>I</name>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <Tie id="19">
+              </Tie>
+            <endSpanner id="18"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -4935,18 +4995,15 @@ Op.59 No.3, 4th movement</b></text>
           <text><i>cresc.</i></text>
           </StaffText>
         <Harmony>
-          <name>I</name>
-          <pos x="-5.65856" y="-2.89025"/>
-          </Harmony>
-        <Harmony>
           <name>V43</name>
+          <pos x="0.400784" y="-3.76915"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="14"/>
+            <endSpanner id="19"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -4960,6 +5017,7 @@ Op.59 No.3, 4th movement</b></text>
           </Dynamic>
         <Harmony>
           <name>viio7</name>
+          <pos x="0" y="-3.43516"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -4975,6 +5033,7 @@ Op.59 No.3, 4th movement</b></text>
           </Chord>
         <Harmony>
           <name>V7</name>
+          <pos x="0.0667973" y="-3.43516"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -4987,6 +5046,7 @@ Op.59 No.3, 4th movement</b></text>
           </Chord>
         <Harmony>
           <name>V65</name>
+          <pos x="-0.667973" y="-3.76915"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5054,7 +5114,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="15">
+            <Tie id="20">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -5065,16 +5125,25 @@ Op.59 No.3, 4th movement</b></text>
         <Harmony>
           <name>V2</name>
           </Harmony>
-        <Harmony>
-          <name>I6</name>
-          <pos x="8.97564" y="-2.5"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="15"/>
+            <Tie id="21">
+              </Tie>
+            <endSpanner id="20"/>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <name>I6</name>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <endSpanner id="21"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -5083,17 +5152,24 @@ Op.59 No.3, 4th movement</b></text>
           <name>V65</name>
           <pos x="0.0487807" y="-2.69513"/>
           </Harmony>
-        <Harmony>
-          <name>I</name>
-          <pos x="11.3171" y="-2.84147"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="16">
+            <Tie id="22">
               </Tie>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <name>I</name>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <endSpanner id="22"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -5106,34 +5182,52 @@ Op.59 No.3, 4th movement</b></text>
         <Harmony>
           <name>V2</name>
           </Harmony>
-        <Harmony>
-          <name>I6</name>
-          <pos x="8.97564" y="-2.5"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="16"/>
+            <Tie id="23">
+              </Tie>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <name>I6</name>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <endSpanner id="23"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
         <Harmony>
           <name>V65</name>
-          </Harmony>
-        <Harmony>
-          <name>I</name>
-          <pos x="9.85368" y="-2.84147"/>
+          <pos x="0.0487807" y="-2.69513"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="17">
+            <Tie id="24">
               </Tie>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <name>I</name>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <Tie id="25">
+              </Tie>
+            <endSpanner id="24"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -5149,7 +5243,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="17"/>
+            <endSpanner id="25"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -5348,7 +5442,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="18">
+            <Tie id="26">
               </Tie>
             <pitch>58</pitch>
             <tpc>12</tpc>
@@ -5363,9 +5457,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="19">
+            <Tie id="27">
               </Tie>
-            <endSpanner id="18"/>
+            <endSpanner id="26"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
@@ -5383,9 +5477,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="20">
+            <Tie id="28">
               </Tie>
-            <endSpanner id="19"/>
+            <endSpanner id="27"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
@@ -5406,9 +5500,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="21">
+            <Tie id="29">
               </Tie>
-            <endSpanner id="20"/>
+            <endSpanner id="28"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
@@ -5423,7 +5517,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="21"/>
+            <endSpanner id="29"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
@@ -5615,7 +5709,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="22">
+            <Tie id="30">
               </Tie>
             <pitch>84</pitch>
             <tpc>14</tpc>
@@ -5629,7 +5723,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>79</Beam>
           <Note>
-            <endSpanner id="22"/>
+            <endSpanner id="30"/>
             <pitch>84</pitch>
             <tpc>14</tpc>
             </Note>
@@ -6106,7 +6200,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="23">
+            <Tie id="31">
               </Tie>
             <pitch>80</pitch>
             <tpc>10</tpc>
@@ -6124,7 +6218,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>86</Beam>
           <Note>
-            <endSpanner id="23"/>
+            <endSpanner id="31"/>
             <pitch>80</pitch>
             <tpc>10</tpc>
             </Note>
@@ -6650,7 +6744,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="24">
+            <Tie id="32">
               </Tie>
             <pitch>84</pitch>
             <tpc>26</tpc>
@@ -6662,7 +6756,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="24"/>
+            <endSpanner id="32"/>
             <pitch>84</pitch>
             <tpc>26</tpc>
             </Note>
@@ -6888,7 +6982,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="25">
+            <Tie id="33">
               </Tie>
             <pitch>84</pitch>
             <tpc>26</tpc>
@@ -6900,7 +6994,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="25"/>
+            <endSpanner id="33"/>
             <pitch>84</pitch>
             <tpc>26</tpc>
             </Note>
@@ -7660,7 +7754,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="26">
+            <Tie id="34">
               </Tie>
             <pitch>85</pitch>
             <tpc>21</tpc>
@@ -7672,9 +7766,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="27">
+            <Tie id="35">
               </Tie>
-            <endSpanner id="26"/>
+            <endSpanner id="34"/>
             <pitch>85</pitch>
             <tpc>21</tpc>
             </Note>
@@ -7689,7 +7783,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>112</Beam>
           <Note>
-            <endSpanner id="27"/>
+            <endSpanner id="35"/>
             <pitch>85</pitch>
             <tpc>21</tpc>
             </Note>
@@ -7880,7 +7974,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="28">
+            <Tie id="36">
               </Tie>
             <pitch>91</pitch>
             <tpc>15</tpc>
@@ -7892,7 +7986,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="28"/>
+            <endSpanner id="36"/>
             <pitch>91</pitch>
             <tpc>15</tpc>
             </Note>
@@ -7981,7 +8075,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="29">
+            <Tie id="37">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -7998,7 +8092,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>116</Beam>
           <Note>
-            <endSpanner id="29"/>
+            <endSpanner id="37"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -9074,7 +9168,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="30">
+            <Tie id="38">
               </Tie>
             <pitch>70</pitch>
             <tpc>12</tpc>
@@ -9083,7 +9177,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="31">
+            <Tie id="39">
               </Tie>
             <pitch>82</pitch>
             <tpc>12</tpc>
@@ -9095,16 +9189,16 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="32">
+            <Tie id="40">
               </Tie>
-            <endSpanner id="30"/>
+            <endSpanner id="38"/>
             <pitch>70</pitch>
             <tpc>12</tpc>
             </Note>
           <Note>
-            <Tie id="33">
+            <Tie id="41">
               </Tie>
-            <endSpanner id="31"/>
+            <endSpanner id="39"/>
             <pitch>82</pitch>
             <tpc>12</tpc>
             </Note>
@@ -9123,12 +9217,12 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="32"/>
+            <endSpanner id="40"/>
             <pitch>70</pitch>
             <tpc>12</tpc>
             </Note>
           <Note>
-            <endSpanner id="33"/>
+            <endSpanner id="41"/>
             <pitch>82</pitch>
             <tpc>12</tpc>
             </Note>
@@ -9350,7 +9444,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="34">
+            <Tie id="42">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -9362,9 +9456,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="35">
+            <Tie id="43">
               </Tie>
-            <endSpanner id="34"/>
+            <endSpanner id="42"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -9387,7 +9481,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="35"/>
+            <endSpanner id="43"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -9595,7 +9689,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="36">
+            <Tie id="44">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -9614,9 +9708,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="37">
+            <Tie id="45">
               </Tie>
-            <endSpanner id="36"/>
+            <endSpanner id="44"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -9642,7 +9736,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="37"/>
+            <endSpanner id="45"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -9717,7 +9811,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="38">
+            <Tie id="46">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -9726,7 +9820,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="39">
+            <Tie id="47">
               </Tie>
             <pitch>78</pitch>
             <tpc>20</tpc>
@@ -9737,12 +9831,12 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="38"/>
+            <endSpanner id="46"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <endSpanner id="39"/>
+            <endSpanner id="47"/>
             <pitch>78</pitch>
             <tpc>20</tpc>
             </Note>
@@ -10256,7 +10350,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="40">
+            <Tie id="48">
               </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -10267,7 +10361,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="40"/>
+            <endSpanner id="48"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -11486,13 +11580,13 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="41">
+            <Tie id="49">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <Tie id="42">
+            <Tie id="50">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -11504,12 +11598,12 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="41"/>
+            <endSpanner id="49"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <endSpanner id="42"/>
+            <endSpanner id="50"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -12296,7 +12390,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="43">
+            <Tie id="51">
               </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -12312,7 +12406,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="43"/>
+            <endSpanner id="51"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -12349,7 +12443,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="44">
+            <Tie id="52">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -12366,7 +12460,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>170</Beam>
           <Note>
-            <endSpanner id="44"/>
+            <endSpanner id="52"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -13925,13 +14019,13 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="45">
+            <Tie id="53">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           <Note>
-            <Tie id="46">
+            <Tie id="54">
               </Tie>
             <pitch>83</pitch>
             <tpc>19</tpc>
@@ -13943,12 +14037,12 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="45"/>
+            <endSpanner id="53"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           <Note>
-            <endSpanner id="46"/>
+            <endSpanner id="54"/>
             <pitch>83</pitch>
             <tpc>19</tpc>
             </Note>
@@ -14165,7 +14259,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="47">
+            <Tie id="55">
               </Tie>
             <pitch>70</pitch>
             <tpc>12</tpc>
@@ -14174,7 +14268,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="48">
+            <Tie id="56">
               </Tie>
             <pitch>82</pitch>
             <tpc>12</tpc>
@@ -14189,12 +14283,12 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="47"/>
+            <endSpanner id="55"/>
             <pitch>70</pitch>
             <tpc>12</tpc>
             </Note>
           <Note>
-            <endSpanner id="48"/>
+            <endSpanner id="56"/>
             <pitch>82</pitch>
             <tpc>12</tpc>
             </Note>
@@ -15758,7 +15852,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="49">
+            <Tie id="57">
               </Tie>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -15772,7 +15866,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>239</Beam>
           <Note>
-            <endSpanner id="49"/>
+            <endSpanner id="57"/>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
@@ -15915,7 +16009,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="50">
+            <Tie id="58">
               </Tie>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -15929,7 +16023,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>242</Beam>
           <Note>
-            <endSpanner id="50"/>
+            <endSpanner id="58"/>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
@@ -15969,10 +16063,11 @@ Op.59 No.3, 4th movement</b></text>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="51">
+            <Tie id="59">
               </Tie>
             <pitch>83</pitch>
             <tpc>19</tpc>
@@ -15980,8 +16075,17 @@ Op.59 No.3, 4th movement</b></text>
           </Chord>
         <Harmony>
           <name>V</name>
-          <pos x="-4.09757" y="-3.67074"/>
           </Harmony>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <Tie id="60">
+              </Tie>
+            <endSpanner id="59"/>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
         <Harmony>
           <name>iii6</name>
           <pos x="0.367153" y="-3.47907"/>
@@ -15994,7 +16098,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>243</Beam>
           <Note>
-            <endSpanner id="51"/>
+            <endSpanner id="60"/>
             <pitch>83</pitch>
             <tpc>19</tpc>
             </Note>
@@ -16034,10 +16138,11 @@ Op.59 No.3, 4th movement</b></text>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="52">
+            <Tie id="61">
               </Tie>
             <pitch>84</pitch>
             <tpc>14</tpc>
@@ -16045,8 +16150,17 @@ Op.59 No.3, 4th movement</b></text>
           </Chord>
         <Harmony>
           <name>vi</name>
-          <pos x="-4.09757" y="-4.14635"/>
           </Harmony>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <Tie id="62">
+              </Tie>
+            <endSpanner id="61"/>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
         <Harmony>
           <name>IV6</name>
           <pos x="-0.122384" y="-3.96861"/>
@@ -16059,7 +16173,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>244</Beam>
           <Note>
-            <endSpanner id="52"/>
+            <endSpanner id="62"/>
             <pitch>84</pitch>
             <tpc>14</tpc>
             </Note>
@@ -16099,10 +16213,11 @@ Op.59 No.3, 4th movement</b></text>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="53">
+            <Tie id="63">
               </Tie>
             <pitch>86</pitch>
             <tpc>16</tpc>
@@ -16110,8 +16225,17 @@ Op.59 No.3, 4th movement</b></text>
           </Chord>
         <Harmony>
           <name>viio</name>
-          <pos x="-5.26831" y="-5.03659"/>
           </Harmony>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <Tie id="64">
+              </Tie>
+            <endSpanner id="63"/>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
         <Harmony>
           <name>V65</name>
           <pos x="-0.367153" y="-4.09099"/>
@@ -16124,7 +16248,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>245</Beam>
           <Note>
-            <endSpanner id="53"/>
+            <endSpanner id="64"/>
             <pitch>86</pitch>
             <tpc>16</tpc>
             </Note>
@@ -16484,7 +16608,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="54">
+            <Tie id="65">
               </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -16496,35 +16620,52 @@ Op.59 No.3, 4th movement</b></text>
           <name>IV.V2</name>
           <pos x="-2.43903" y="-2.64634"/>
           </Harmony>
-        <Harmony>
-          <name>I6</name>
-          <pos x="3.90245" y="-2.5"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="54"/>
+            <Tie id="66">
+              </Tie>
+            <endSpanner id="65"/>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <name>I6</name>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <endSpanner id="66"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         <Harmony>
           <name>V65</name>
-          <pos x="-2.34148" y="-2.54878"/>
           </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <Tie id="67">
+              </Tie>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
         <Harmony>
           <name>I</name>
-          <pos x="5.21953" y="-2.54878"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="55">
+            <Tie id="68">
               </Tie>
+            <endSpanner id="67"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -16533,37 +16674,54 @@ Op.59 No.3, 4th movement</b></text>
       <Measure number="295">
         <Harmony>
           <name>V2</name>
-          <pos x="-2.14635" y="-2.5"/>
-          </Harmony>
-        <Harmony>
-          <name>I6</name>
-          <pos x="4.19513" y="-2.5"/>
+          <pos x="-2.43903" y="-2.64634"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="55"/>
+            <Tie id="69">
+              </Tie>
+            <endSpanner id="68"/>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <name>I6</name>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <endSpanner id="69"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         <Harmony>
           <name>V65</name>
-          <pos x="-2.19513" y="-2.54878"/>
           </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <Tie id="70">
+              </Tie>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
         <Harmony>
           <name>I</name>
-          <pos x="5.65856" y="-2.54878"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="56">
+            <Tie id="71">
               </Tie>
+            <endSpanner id="70"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -16584,7 +16742,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="56"/>
+            <endSpanner id="71"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -16691,8 +16849,6 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="57">
-              </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -16701,37 +16857,53 @@ Op.59 No.3, 4th movement</b></text>
       <Measure number="298">
         <Harmony>
           <name>V2</name>
-          <pos x="-0.390245" y="-2.5"/>
-          </Harmony>
-        <Harmony>
-          <name>I6</name>
-          <pos x="3.90245" y="-2.5"/>
+          <pos x="-2.43903" y="-2.64634"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="57"/>
+            <Tie id="72">
+              </Tie>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <name>I6</name>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <endSpanner id="72"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         <Harmony>
           <name>V65</name>
-          <pos x="-1.75611" y="-2.25609"/>
           </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <Tie id="73">
+              </Tie>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
         <Harmony>
           <name>I</name>
-          <pos x="4.92685" y="-2.25609"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="58">
+            <Tie id="74">
               </Tie>
+            <endSpanner id="73"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -16740,37 +16912,54 @@ Op.59 No.3, 4th movement</b></text>
       <Measure number="299">
         <Harmony>
           <name>V2</name>
-          <pos x="-0.243903" y="-2.5"/>
-          </Harmony>
-        <Harmony>
-          <name>I6</name>
-          <pos x="5.51221" y="-2.5"/>
+          <pos x="-2.43903" y="-2.64634"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="58"/>
+            <Tie id="75">
+              </Tie>
+            <endSpanner id="74"/>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <name>I6</name>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <endSpanner id="75"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         <Harmony>
           <name>V65</name>
-          <pos x="-1.31708" y="-2.25609"/>
           </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <Tie id="76">
+              </Tie>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
         <Harmony>
           <name>I</name>
-          <pos x="4.48782" y="-2.10975"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="59">
+            <Tie id="77">
               </Tie>
+            <endSpanner id="76"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -16794,7 +16983,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="59"/>
+            <endSpanner id="77"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -16995,7 +17184,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="60">
+            <Tie id="78">
               </Tie>
             <pitch>63</pitch>
             <tpc>11</tpc>
@@ -17010,9 +17199,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="61">
+            <Tie id="79">
               </Tie>
-            <endSpanner id="60"/>
+            <endSpanner id="78"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -17031,9 +17220,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="62">
+            <Tie id="80">
               </Tie>
-            <endSpanner id="61"/>
+            <endSpanner id="79"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -17051,9 +17240,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="63">
+            <Tie id="81">
               </Tie>
-            <endSpanner id="62"/>
+            <endSpanner id="80"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -17071,9 +17260,9 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="64">
+            <Tie id="82">
               </Tie>
-            <endSpanner id="63"/>
+            <endSpanner id="81"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -17089,7 +17278,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>254</Beam>
           <Note>
-            <endSpanner id="64"/>
+            <endSpanner id="82"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -18086,7 +18275,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="65">
+            <Tie id="83">
               </Tie>
             <pitch>89</pitch>
             <tpc>13</tpc>
@@ -18101,7 +18290,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="65"/>
+            <endSpanner id="83"/>
             <pitch>89</pitch>
             <tpc>13</tpc>
             </Note>
@@ -18119,7 +18308,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="66">
+            <Tie id="84">
               </Tie>
             <pitch>90</pitch>
             <tpc>20</tpc>
@@ -18131,7 +18320,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="66"/>
+            <endSpanner id="84"/>
             <pitch>90</pitch>
             <tpc>20</tpc>
             </Note>
@@ -18153,7 +18342,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="67">
+            <Tie id="85">
               </Tie>
             <pitch>91</pitch>
             <tpc>15</tpc>
@@ -18165,9 +18354,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="68">
+            <Tie id="86">
               </Tie>
-            <endSpanner id="67"/>
+            <endSpanner id="85"/>
             <pitch>91</pitch>
             <tpc>15</tpc>
             </Note>
@@ -18182,9 +18371,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="69">
+            <Tie id="87">
               </Tie>
-            <endSpanner id="68"/>
+            <endSpanner id="86"/>
             <pitch>91</pitch>
             <tpc>15</tpc>
             </Note>
@@ -18204,9 +18393,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="70">
+            <Tie id="88">
               </Tie>
-            <endSpanner id="69"/>
+            <endSpanner id="87"/>
             <pitch>91</pitch>
             <tpc>15</tpc>
             </Note>
@@ -18226,9 +18415,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="71">
+            <Tie id="89">
               </Tie>
-            <endSpanner id="70"/>
+            <endSpanner id="88"/>
             <pitch>91</pitch>
             <tpc>15</tpc>
             </Note>
@@ -18248,9 +18437,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="72">
+            <Tie id="90">
               </Tie>
-            <endSpanner id="71"/>
+            <endSpanner id="89"/>
             <pitch>91</pitch>
             <tpc>15</tpc>
             </Note>
@@ -18272,7 +18461,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="72"/>
+            <endSpanner id="90"/>
             <pitch>91</pitch>
             <tpc>15</tpc>
             </Note>
@@ -25876,7 +26065,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="73">
+            <Tie id="91">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -25890,7 +26079,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>435</Beam>
           <Note>
-            <endSpanner id="73"/>
+            <endSpanner id="91"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -27287,7 +27476,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="74">
+            <Tie id="92">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -27301,7 +27490,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>462</Beam>
           <Note>
-            <endSpanner id="74"/>
+            <endSpanner id="92"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -29105,7 +29294,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="75">
+            <Tie id="93">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -29117,9 +29306,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="76">
+            <Tie id="94">
               </Tie>
-            <endSpanner id="75"/>
+            <endSpanner id="93"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -29130,9 +29319,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="77">
+            <Tie id="95">
               </Tie>
-            <endSpanner id="76"/>
+            <endSpanner id="94"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -29143,7 +29332,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="77"/>
+            <endSpanner id="95"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -29154,13 +29343,13 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="78">
+            <Tie id="96">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           <Note>
-            <Tie id="79">
+            <Tie id="97">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -29172,16 +29361,16 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="80">
+            <Tie id="98">
               </Tie>
-            <endSpanner id="78"/>
+            <endSpanner id="96"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           <Note>
-            <Tie id="81">
+            <Tie id="99">
               </Tie>
-            <endSpanner id="79"/>
+            <endSpanner id="97"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -29192,16 +29381,16 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="82">
+            <Tie id="100">
               </Tie>
-            <endSpanner id="80"/>
+            <endSpanner id="98"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           <Note>
-            <Tie id="83">
+            <Tie id="101">
               </Tie>
-            <endSpanner id="81"/>
+            <endSpanner id="99"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -29214,12 +29403,12 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="82"/>
+            <endSpanner id="100"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           <Note>
-            <endSpanner id="83"/>
+            <endSpanner id="101"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -29324,7 +29513,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="84">
+            <Tie id="102">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -29337,7 +29526,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="84"/>
+            <endSpanner id="102"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -29431,7 +29620,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="85">
+            <Tie id="103">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -29447,7 +29636,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>498</Beam>
           <Note>
-            <endSpanner id="85"/>
+            <endSpanner id="103"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -29491,7 +29680,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="86">
+            <Tie id="104">
               </Tie>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -29507,7 +29696,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>499</Beam>
           <Note>
-            <endSpanner id="86"/>
+            <endSpanner id="104"/>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
@@ -29544,7 +29733,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="87">
+            <Tie id="105">
               </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -29560,7 +29749,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>500</Beam>
           <Note>
-            <endSpanner id="87"/>
+            <endSpanner id="105"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -31278,7 +31467,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="88">
+            <Tie id="106">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -31292,7 +31481,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>530</Beam>
           <Note>
-            <endSpanner id="88"/>
+            <endSpanner id="106"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -31757,7 +31946,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="89">
+            <Tie id="107">
               </Tie>
             <pitch>75</pitch>
             <tpc>23</tpc>
@@ -31766,7 +31955,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="90">
+            <Tie id="108">
               </Tie>
             <pitch>78</pitch>
             <tpc>20</tpc>
@@ -31778,12 +31967,12 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="89"/>
+            <endSpanner id="107"/>
             <pitch>75</pitch>
             <tpc>23</tpc>
             </Note>
           <Note>
-            <endSpanner id="90"/>
+            <endSpanner id="108"/>
             <pitch>78</pitch>
             <tpc>20</tpc>
             </Note>
@@ -33096,7 +33285,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="91">
+            <Tie id="109">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -33110,7 +33299,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>560</Beam>
           <Note>
-            <endSpanner id="91"/>
+            <endSpanner id="109"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -33340,13 +33529,13 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="92">
+            <Tie id="110">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="93">
+            <Tie id="111">
               </Tie>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -33358,16 +33547,16 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="94">
+            <Tie id="112">
               </Tie>
-            <endSpanner id="92"/>
+            <endSpanner id="110"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="95">
+            <Tie id="113">
               </Tie>
-            <endSpanner id="93"/>
+            <endSpanner id="111"/>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
@@ -33386,12 +33575,12 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="94"/>
+            <endSpanner id="112"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <endSpanner id="95"/>
+            <endSpanner id="113"/>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
@@ -34296,13 +34485,13 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="96">
+            <Tie id="114">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
           <Note>
-            <Tie id="97">
+            <Tie id="115">
               </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -34315,12 +34504,12 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="96"/>
+            <endSpanner id="114"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
           <Note>
-            <endSpanner id="97"/>
+            <endSpanner id="115"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -34330,13 +34519,13 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="98">
+            <Tie id="116">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
           <Note>
-            <Tie id="99">
+            <Tie id="117">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -34356,12 +34545,12 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="98"/>
+            <endSpanner id="116"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
           <Note>
-            <endSpanner id="99"/>
+            <endSpanner id="117"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -34559,7 +34748,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="100">
+            <Tie id="118">
               </Tie>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -34571,9 +34760,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="101">
+            <Tie id="119">
               </Tie>
-            <endSpanner id="100"/>
+            <endSpanner id="118"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -34592,7 +34781,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="101"/>
+            <endSpanner id="119"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -34742,7 +34931,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="102">
+            <Tie id="120">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -34752,7 +34941,7 @@ Op.59 No.3, 4th movement</b></text>
               <role>1</role>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="103">
+            <Tie id="121">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -34766,12 +34955,12 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>579</Beam>
           <Note>
-            <endSpanner id="102"/>
+            <endSpanner id="120"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <endSpanner id="103"/>
+            <endSpanner id="121"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -36082,7 +36271,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="104">
+            <Tie id="122">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -36094,7 +36283,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="104"/>
+            <endSpanner id="122"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -36198,7 +36387,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="105">
+            <Tie id="123">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -36212,7 +36401,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>601</Beam>
           <Note>
-            <endSpanner id="105"/>
+            <endSpanner id="123"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -37182,7 +37371,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="106">
+            <Tie id="124">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -37195,7 +37384,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="106"/>
+            <endSpanner id="124"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -39410,7 +39599,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="107">
+            <Tie id="125">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -39422,9 +39611,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="108">
+            <Tie id="126">
               </Tie>
-            <endSpanner id="107"/>
+            <endSpanner id="125"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -39435,9 +39624,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="109">
+            <Tie id="127">
               </Tie>
-            <endSpanner id="108"/>
+            <endSpanner id="126"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -39448,7 +39637,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="109"/>
+            <endSpanner id="127"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -39459,13 +39648,13 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="110">
+            <Tie id="128">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <Tie id="111">
+            <Tie id="129">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -39477,16 +39666,16 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="112">
+            <Tie id="130">
               </Tie>
-            <endSpanner id="110"/>
+            <endSpanner id="128"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <Tie id="113">
+            <Tie id="131">
               </Tie>
-            <endSpanner id="111"/>
+            <endSpanner id="129"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -39497,16 +39686,16 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="114">
+            <Tie id="132">
               </Tie>
-            <endSpanner id="112"/>
+            <endSpanner id="130"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <Tie id="115">
+            <Tie id="133">
               </Tie>
-            <endSpanner id="113"/>
+            <endSpanner id="131"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -39517,12 +39706,12 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="114"/>
+            <endSpanner id="132"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <endSpanner id="115"/>
+            <endSpanner id="133"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -39544,7 +39733,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="116">
+            <Tie id="134">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -39557,7 +39746,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="116"/>
+            <endSpanner id="134"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -39644,7 +39833,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="117">
+            <Tie id="135">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -39660,7 +39849,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>663</Beam>
           <Note>
-            <endSpanner id="117"/>
+            <endSpanner id="135"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -39701,7 +39890,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="118">
+            <Tie id="136">
               </Tie>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -39717,7 +39906,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>664</Beam>
           <Note>
-            <endSpanner id="118"/>
+            <endSpanner id="136"/>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
@@ -39754,7 +39943,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="119">
+            <Tie id="137">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -39770,7 +39959,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>665</Beam>
           <Note>
-            <endSpanner id="119"/>
+            <endSpanner id="137"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -42090,7 +42279,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="120">
+            <Tie id="138">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -42102,9 +42291,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="121">
+            <Tie id="139">
               </Tie>
-            <endSpanner id="120"/>
+            <endSpanner id="138"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -42115,9 +42304,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="122">
+            <Tie id="140">
               </Tie>
-            <endSpanner id="121"/>
+            <endSpanner id="139"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -42128,7 +42317,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="122"/>
+            <endSpanner id="140"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -42387,7 +42576,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="123">
+            <Tie id="141">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -42400,7 +42589,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="123"/>
+            <endSpanner id="141"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -42410,7 +42599,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="124">
+            <Tie id="142">
               </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -42423,7 +42612,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="124"/>
+            <endSpanner id="142"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -42433,7 +42622,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="125">
+            <Tie id="143">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -42446,7 +42635,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="125"/>
+            <endSpanner id="143"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -42456,7 +42645,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="126">
+            <Tie id="144">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -42469,7 +42658,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="126"/>
+            <endSpanner id="144"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -42486,7 +42675,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="127">
+            <Tie id="145">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -42499,7 +42688,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="127"/>
+            <endSpanner id="145"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -42509,7 +42698,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="128">
+            <Tie id="146">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -42522,7 +42711,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="128"/>
+            <endSpanner id="146"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -42649,7 +42838,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="129">
+            <Tie id="147">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -42662,7 +42851,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="129"/>
+            <endSpanner id="147"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -42867,7 +43056,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="130">
+            <Tie id="148">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -42880,7 +43069,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="130"/>
+            <endSpanner id="148"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -42920,7 +43109,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="131">
+            <Tie id="149">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -42933,7 +43122,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="131"/>
+            <endSpanner id="149"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -42973,7 +43162,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="132">
+            <Tie id="150">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -42986,7 +43175,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="132"/>
+            <endSpanner id="150"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -43026,7 +43215,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="133">
+            <Tie id="151">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -43039,7 +43228,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="133"/>
+            <endSpanner id="151"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -43065,7 +43254,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="134">
+            <Tie id="152">
               </Tie>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -43077,7 +43266,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="134"/>
+            <endSpanner id="152"/>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
@@ -43088,7 +43277,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="135">
+            <Tie id="153">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -43100,7 +43289,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="135"/>
+            <endSpanner id="153"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -43131,13 +43320,13 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="136">
+            <Tie id="154">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <Tie id="137">
+            <Tie id="155">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -43149,12 +43338,12 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="136"/>
+            <endSpanner id="154"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <endSpanner id="137"/>
+            <endSpanner id="155"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -43804,7 +43993,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="138">
+            <Tie id="156">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -43817,7 +44006,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="138"/>
+            <endSpanner id="156"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -43857,7 +44046,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="139">
+            <Tie id="157">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -43870,7 +44059,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="139"/>
+            <endSpanner id="157"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -43915,7 +44104,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="140">
+            <Tie id="158">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -43928,7 +44117,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="140"/>
+            <endSpanner id="158"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -43998,7 +44187,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="141">
+            <Tie id="159">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -44011,7 +44200,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="141"/>
+            <endSpanner id="159"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -45774,7 +45963,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="142">
+            <Tie id="160">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -45788,7 +45977,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>769</Beam>
           <Note>
-            <endSpanner id="142"/>
+            <endSpanner id="160"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -49617,7 +49806,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="143">
+            <Tie id="161">
               </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -49630,7 +49819,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="143"/>
+            <endSpanner id="161"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -49727,7 +49916,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="144">
+            <Tie id="162">
               </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -49743,7 +49932,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>828</Beam>
           <Note>
-            <endSpanner id="144"/>
+            <endSpanner id="162"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -49787,7 +49976,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="145">
+            <Tie id="163">
               </Tie>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -49803,7 +49992,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>829</Beam>
           <Note>
-            <endSpanner id="145"/>
+            <endSpanner id="163"/>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -49840,7 +50029,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="146">
+            <Tie id="164">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -49856,7 +50045,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>830</Beam>
           <Note>
-            <endSpanner id="146"/>
+            <endSpanner id="164"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -51663,7 +51852,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="147">
+            <Tie id="165">
               </Tie>
             <pitch>68</pitch>
             <tpc>10</tpc>
@@ -51679,7 +51868,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>866</Beam>
           <Note>
-            <endSpanner id="147"/>
+            <endSpanner id="165"/>
             <pitch>68</pitch>
             <tpc>10</tpc>
             </Note>
@@ -52370,7 +52559,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="148">
+            <Tie id="166">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -52383,7 +52572,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="148"/>
+            <endSpanner id="166"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -53764,7 +53953,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="149">
+            <Tie id="167">
               </Tie>
             <pitch>63</pitch>
             <tpc>11</tpc>
@@ -53777,7 +53966,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="149"/>
+            <endSpanner id="167"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -54003,7 +54192,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="150">
+            <Tie id="168">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -54015,9 +54204,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="151">
+            <Tie id="169">
               </Tie>
-            <endSpanner id="150"/>
+            <endSpanner id="168"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -54036,7 +54225,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="151"/>
+            <endSpanner id="169"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -54912,7 +55101,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="152">
+            <Tie id="170">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -54924,9 +55113,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="153">
+            <Tie id="171">
               </Tie>
-            <endSpanner id="152"/>
+            <endSpanner id="170"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -54945,7 +55134,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="153"/>
+            <endSpanner id="171"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -55150,13 +55339,13 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="154">
+            <Tie id="172">
               </Tie>
             <pitch>52</pitch>
             <tpc>18</tpc>
             </Note>
           <Note>
-            <Tie id="155">
+            <Tie id="173">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -55167,12 +55356,12 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="154"/>
+            <endSpanner id="172"/>
             <pitch>52</pitch>
             <tpc>18</tpc>
             </Note>
           <Note>
-            <endSpanner id="155"/>
+            <endSpanner id="173"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -55884,7 +56073,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="156">
+            <Tie id="174">
               </Tie>
             <pitch>51</pitch>
             <tpc>11</tpc>
@@ -55895,7 +56084,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="156"/>
+            <endSpanner id="174"/>
             <pitch>51</pitch>
             <tpc>11</tpc>
             </Note>
@@ -55981,7 +56170,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="157">
+            <Tie id="175">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -55992,7 +56181,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="157"/>
+            <endSpanner id="175"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -56700,7 +56889,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="158">
+            <Tie id="176">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -56712,7 +56901,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="158"/>
+            <endSpanner id="176"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -56731,7 +56920,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="159">
+            <Tie id="177">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -56745,7 +56934,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>946</Beam>
           <Note>
-            <endSpanner id="159"/>
+            <endSpanner id="177"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -60321,7 +60510,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="160">
+            <Tie id="178">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -60337,7 +60526,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>1008</Beam>
           <Note>
-            <endSpanner id="160"/>
+            <endSpanner id="178"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -60378,7 +60567,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="161">
+            <Tie id="179">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -60394,7 +60583,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>1009</Beam>
           <Note>
-            <endSpanner id="161"/>
+            <endSpanner id="179"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -60431,7 +60620,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="162">
+            <Tie id="180">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -60447,7 +60636,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>1010</Beam>
           <Note>
-            <endSpanner id="162"/>
+            <endSpanner id="180"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -62645,7 +62834,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="163">
+            <Tie id="181">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -62657,9 +62846,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="164">
+            <Tie id="182">
               </Tie>
-            <endSpanner id="163"/>
+            <endSpanner id="181"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -62670,9 +62859,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="165">
+            <Tie id="183">
               </Tie>
-            <endSpanner id="164"/>
+            <endSpanner id="182"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -62683,7 +62872,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="165"/>
+            <endSpanner id="183"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -62694,7 +62883,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="166">
+            <Tie id="184">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -62706,9 +62895,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="167">
+            <Tie id="185">
               </Tie>
-            <endSpanner id="166"/>
+            <endSpanner id="184"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -62719,9 +62908,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="168">
+            <Tie id="186">
               </Tie>
-            <endSpanner id="167"/>
+            <endSpanner id="185"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -62732,7 +62921,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="168"/>
+            <endSpanner id="186"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -62756,7 +62945,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="169">
+            <Tie id="187">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -62769,7 +62958,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="169"/>
+            <endSpanner id="187"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -62779,7 +62968,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="170">
+            <Tie id="188">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -62792,7 +62981,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="170"/>
+            <endSpanner id="188"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -62802,7 +62991,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="171">
+            <Tie id="189">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -62815,7 +63004,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="171"/>
+            <endSpanner id="189"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -62825,7 +63014,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="172">
+            <Tie id="190">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -62838,7 +63027,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="172"/>
+            <endSpanner id="190"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -62855,7 +63044,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="173">
+            <Tie id="191">
               </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -62868,7 +63057,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="173"/>
+            <endSpanner id="191"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -62892,7 +63081,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="174">
+            <Tie id="192">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -62905,7 +63094,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="174"/>
+            <endSpanner id="192"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -62929,7 +63118,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="175">
+            <Tie id="193">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -62942,7 +63131,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="175"/>
+            <endSpanner id="193"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -63709,7 +63898,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="176">
+            <Tie id="194">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -63722,7 +63911,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="176"/>
+            <endSpanner id="194"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -63743,7 +63932,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="177">
+            <Tie id="195">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -63756,7 +63945,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="177"/>
+            <endSpanner id="195"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -63776,7 +63965,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="178">
+            <Tie id="196">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -63789,7 +63978,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="178"/>
+            <endSpanner id="196"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -63799,7 +63988,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="179">
+            <Tie id="197">
               </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -63812,7 +64001,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="179"/>
+            <endSpanner id="197"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -63832,7 +64021,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="180">
+            <Tie id="198">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -63845,7 +64034,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="180"/>
+            <endSpanner id="198"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -63855,7 +64044,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="181">
+            <Tie id="199">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -63868,7 +64057,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="181"/>
+            <endSpanner id="199"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -63897,13 +64086,13 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="182">
+            <Tie id="200">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <Tie id="183">
+            <Tie id="201">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -63915,12 +64104,12 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="182"/>
+            <endSpanner id="200"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <endSpanner id="183"/>
+            <endSpanner id="201"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -63958,7 +64147,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="184">
+            <Tie id="202">
               </Tie>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -63970,7 +64159,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="184"/>
+            <endSpanner id="202"/>
             <pitch>50</pitch>
             <tpc>16</tpc>
             </Note>
@@ -64467,7 +64656,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="185">
+            <Tie id="203">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -64480,7 +64669,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="185"/>
+            <endSpanner id="203"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -64761,7 +64950,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="186">
+            <Tie id="204">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -64774,7 +64963,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="186"/>
+            <endSpanner id="204"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -64850,7 +65039,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="187">
+            <Tie id="205">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -64863,7 +65052,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="187"/>
+            <endSpanner id="205"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -66931,7 +67120,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="188">
+            <Tie id="206">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -66951,7 +67140,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>1129</Beam>
           <Note>
-            <endSpanner id="188"/>
+            <endSpanner id="206"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -68520,13 +68709,13 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="189">
+            <Tie id="207">
               </Tie>
             <pitch>36</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
-            <Tie id="190">
+            <Tie id="208">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -68538,12 +68727,12 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="189"/>
+            <endSpanner id="207"/>
             <pitch>36</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
-            <endSpanner id="190"/>
+            <endSpanner id="208"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -68639,7 +68828,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="191">
+            <Tie id="209">
               </Tie>
             <pitch>49</pitch>
             <tpc>21</tpc>
@@ -68651,7 +68840,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="191"/>
+            <endSpanner id="209"/>
             <pitch>49</pitch>
             <tpc>21</tpc>
             </Note>
@@ -69111,7 +69300,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="192">
+            <Tie id="210">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -69124,7 +69313,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="192"/>
+            <endSpanner id="210"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -69179,7 +69368,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="193">
+            <Tie id="211">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -69192,7 +69381,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="193"/>
+            <endSpanner id="211"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -69203,7 +69392,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="194">
+            <Tie id="212">
               </Tie>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -69216,7 +69405,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="194"/>
+            <endSpanner id="212"/>
             <pitch>50</pitch>
             <tpc>16</tpc>
             </Note>
@@ -69227,7 +69416,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="195">
+            <Tie id="213">
               </Tie>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -69240,7 +69429,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="195"/>
+            <endSpanner id="213"/>
             <pitch>52</pitch>
             <tpc>18</tpc>
             </Note>
@@ -70451,7 +70640,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="196">
+            <Tie id="214">
               </Tie>
             <pitch>41</pitch>
             <tpc>13</tpc>
@@ -70465,7 +70654,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>1183</Beam>
           <Note>
-            <endSpanner id="196"/>
+            <endSpanner id="214"/>
             <pitch>41</pitch>
             <tpc>13</tpc>
             </Note>
@@ -70867,7 +71056,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="197">
+            <Tie id="215">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -70883,7 +71072,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>1191</Beam>
           <Note>
-            <endSpanner id="197"/>
+            <endSpanner id="215"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -71179,7 +71368,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="198">
+            <Tie id="216">
               </Tie>
             <pitch>49</pitch>
             <tpc>21</tpc>
@@ -71191,7 +71380,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="198"/>
+            <endSpanner id="216"/>
             <pitch>49</pitch>
             <tpc>21</tpc>
             </Note>
@@ -71270,7 +71459,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="199">
+            <Tie id="217">
               </Tie>
             <pitch>49</pitch>
             <tpc>21</tpc>
@@ -71282,7 +71471,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="199"/>
+            <endSpanner id="217"/>
             <pitch>49</pitch>
             <tpc>21</tpc>
             </Note>
@@ -71859,7 +72048,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="200">
+            <Tie id="218">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -71871,7 +72060,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="200"/>
+            <endSpanner id="218"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
@@ -72568,7 +72757,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="201">
+            <Tie id="219">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -72580,9 +72769,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="202">
+            <Tie id="220">
               </Tie>
-            <endSpanner id="201"/>
+            <endSpanner id="219"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -72601,7 +72790,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="202"/>
+            <endSpanner id="220"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -72779,7 +72968,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="203">
+            <Tie id="221">
               </Tie>
             <pitch>49</pitch>
             <tpc>9</tpc>
@@ -72791,9 +72980,9 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="204">
+            <Tie id="222">
               </Tie>
-            <endSpanner id="203"/>
+            <endSpanner id="221"/>
             <pitch>49</pitch>
             <tpc>9</tpc>
             </Note>
@@ -72812,7 +73001,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="204"/>
+            <endSpanner id="222"/>
             <pitch>49</pitch>
             <tpc>9</tpc>
             </Note>
@@ -72981,7 +73170,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="205">
+            <Tie id="223">
               </Tie>
             <pitch>44</pitch>
             <tpc>10</tpc>
@@ -72994,7 +73183,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="205"/>
+            <endSpanner id="223"/>
             <pitch>44</pitch>
             <tpc>10</tpc>
             </Note>
@@ -73004,7 +73193,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="206">
+            <Tie id="224">
               </Tie>
             <pitch>47</pitch>
             <tpc>19</tpc>
@@ -73024,7 +73213,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="206"/>
+            <endSpanner id="224"/>
             <pitch>47</pitch>
             <tpc>19</tpc>
             </Note>
@@ -74846,7 +75035,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="207">
+            <Tie id="225">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -74858,7 +75047,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="207"/>
+            <endSpanner id="225"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -75232,7 +75421,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="208">
+            <Tie id="226">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -75246,7 +75435,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>eighth</durationType>
           <Beam>1245</Beam>
           <Note>
-            <endSpanner id="208"/>
+            <endSpanner id="226"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -76755,13 +76944,13 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="209">
+            <Tie id="227">
               </Tie>
             <pitch>36</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
-            <Tie id="210">
+            <Tie id="228">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -76773,12 +76962,12 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="209"/>
+            <endSpanner id="227"/>
             <pitch>36</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
-            <endSpanner id="210"/>
+            <endSpanner id="228"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -76874,7 +77063,7 @@ Op.59 No.3, 4th movement</b></text>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="211">
+            <Tie id="229">
               </Tie>
             <pitch>49</pitch>
             <tpc>21</tpc>
@@ -76886,7 +77075,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="211"/>
+            <endSpanner id="229"/>
             <pitch>49</pitch>
             <tpc>21</tpc>
             </Note>
@@ -77433,7 +77622,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="212">
+            <Tie id="230">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -77446,7 +77635,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="212"/>
+            <endSpanner id="230"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -77501,7 +77690,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="213">
+            <Tie id="231">
               </Tie>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -77514,7 +77703,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="213"/>
+            <endSpanner id="231"/>
             <pitch>53</pitch>
             <tpc>13</tpc>
             </Note>
@@ -77525,7 +77714,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="214">
+            <Tie id="232">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -77538,7 +77727,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="214"/>
+            <endSpanner id="232"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -77549,7 +77738,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="215">
+            <Tie id="233">
               </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -77562,7 +77751,7 @@ Op.59 No.3, 4th movement</b></text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="215"/>
+            <endSpanner id="233"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -80332,7 +80521,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="216">
+            <Tie id="234">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -80344,7 +80533,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="216"/>
+            <endSpanner id="234"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -80378,7 +80567,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="217">
+            <Tie id="235">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -80390,7 +80579,7 @@ Op.59 No.3, 4th movement</b></text>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="217"/>
+            <endSpanner id="235"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
