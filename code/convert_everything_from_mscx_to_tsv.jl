@@ -144,8 +144,15 @@ for dir in filter(d->isdir(joinpath(mscx_dir, d)), readdir(mscx_dir))
         mkdir(joinpath(tsv_dir, dir))
     end
     for file in filter(f->ismatch(r".mscx", f), readdir(joinpath(mscx_dir, dir)))
-        df = read_chords(joinpath(mscx_dir, dir, file))
         out = splitext(file)[1] * ".tsv"
-        writetable(joinpath(tsv_dir, dir, out), df)
+        try
+            df = read_chords(joinpath(mscx_dir, dir, file))
+            out = splitext(file)[1] * ".tsv"
+            writetable(joinpath(tsv_dir, dir, out), df)
+        catch e
+            println(file)
+            sleep(3)
+            # throw(e)
+        end
     end
 end
