@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.1.0</programVersion>
-  <programRevision>871c8ce</programRevision>
+  <programVersion>2.2.1</programVersion>
+  <programRevision>51b8386</programRevision>
   <Score>
     <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
@@ -534,7 +534,7 @@
           </Dynamic>
         <Harmony>
           <name>.Eb.I</name>
-          <pos x="-0.0240351" y="-2.4237"/>
+          <pos x="0.153578" y="-3.13415"/>
           </Harmony>
         <Beam id="1">
           <StemDirection>down</StemDirection>
@@ -575,6 +575,9 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>I</name>
+          </Harmony>
         <Beam id="2">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -1694,7 +1697,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V(9)</name>
+          <name>V(+2)</name>
           <pos x="0.292684" y="-3.23171"/>
           </Harmony>
         <Beam id="29">
@@ -3451,6 +3454,13 @@
             <tpc>10</tpc>
             </Note>
           </Chord>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.329531" y="7.86829"/>
+          <xoffset>0</xoffset>
+          <yoffset>8.6</yoffset>
+          </Dynamic>
         <Harmony>
           <name>VI</name>
           <pos x="0.0268232" y="-2.58047"/>
@@ -3485,6 +3495,13 @@
           <durationType>32nd</durationType>
           <Beam>65</Beam>
           </Rest>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.329531" y="7.86829"/>
+          <xoffset>0</xoffset>
+          <yoffset>8.6</yoffset>
+          </Dynamic>
         <Harmony>
           <name>VI</name>
           <pos x="-0.126225" y="-2.56035"/>
@@ -3600,7 +3617,7 @@
           </Chord>
         <Harmony>
           <name>V43/iv</name>
-          <pos x="-2.36651" y="-4.36169"/>
+          <pos x="-0.146342" y="-3.91766"/>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -3642,7 +3659,6 @@
           </Chord>
         <Harmony>
           <name>V65/iv</name>
-          <pos x="-0.799259" y="-4.27613"/>
           </Harmony>
         <Chord>
           <durationType>16th</durationType>
@@ -3820,7 +3836,7 @@
           </Rest>
         <Harmony>
           <name>viio/VI</name>
-          <pos x="-1.15449" y="-3.83275"/>
+          <pos x="0" y="-4.01036"/>
           </Harmony>
         <Beam id="69">
           <StemDirection>down</StemDirection>
@@ -4358,7 +4374,7 @@
           <durationType>16th</durationType>
           </Rest>
         <Harmony>
-          <name>VI\\</name>
+          <name>.bVI\\</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5118,7 +5134,6 @@
           </Chord>
         <Harmony>
           <name>I6</name>
-          <pos x="-0.532839" y="-2.5"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -5134,7 +5149,6 @@
           </Chord>
         <Harmony>
           <name>#viio7/V</name>
-          <pos x="-2.04255" y="-2.41119"/>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -5149,7 +5163,6 @@
       <Measure number="40">
         <Harmony>
           <name>viio6</name>
-          <pos x="0.799259" y="-2.5"/>
           </Harmony>
         <Beam id="93">
           <StemDirection>up</StemDirection>
@@ -5232,7 +5245,6 @@
           </Dynamic>
         <Harmony>
           <name>viio6]</name>
-          <pos x="1.24329" y="-2.5"/>
           </Harmony>
         <Beam id="95">
           <StemDirection>up</StemDirection>
@@ -7124,7 +7136,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V]</name>
+          <name>V7]</name>
           </Harmony>
         <Beam id="129">
           <StemDirection>up</StemDirection>
@@ -7379,7 +7391,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V(9)</name>
+          <name>V(+2)</name>
           </Harmony>
         <Beam id="136">
           <StemDirection>down</StemDirection>
@@ -8431,6 +8443,9 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
+        <Harmony>
+          <name>i</name>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -11444,13 +11459,6 @@
           <xoffset>0</xoffset>
           <yoffset>8.4</yoffset>
           </Dynamic>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.102906" y="-3.88346"/>
-          <xoffset>0</xoffset>
-          <yoffset>8.6</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>16th</durationType>
@@ -11484,13 +11492,6 @@
           <subtype>sf</subtype>
           <velocity>0</velocity>
           <pos x="0.329531" y="7.86829"/>
-          <xoffset>0</xoffset>
-          <yoffset>8.6</yoffset>
-          </Dynamic>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="-0.0504206" y="-3.35063"/>
           <xoffset>0</xoffset>
           <yoffset>8.6</yoffset>
           </Dynamic>
@@ -16229,7 +16230,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="-6.57676"/>
+          <pos x="0" y="-6.04392"/>
           <xoffset>0</xoffset>
           <yoffset>-1.8</yoffset>
           <text>queste note ben marcate</text>
@@ -16901,6 +16902,13 @@
             <tpc>9</tpc>
             </Note>
           </Chord>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.329531" y="7.66829"/>
+          <xoffset>0</xoffset>
+          <yoffset>8.4</yoffset>
+          </Dynamic>
         <Beam id="327">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -21037,7 +21045,6 @@
           <durationType>eighth</durationType>
           </Rest>
         <StaffText>
-          <pos x="-0.0888065" y="-5.73284"/>
           <xoffset>0</xoffset>
           <yoffset>-5.2</yoffset>
           <text>queste note ben marcate</text>
@@ -21822,13 +21829,6 @@
           <xoffset>0</xoffset>
           <yoffset>8.6</yoffset>
           </Dynamic>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.0140999" y="-2.84002"/>
-          <xoffset>0</xoffset>
-          <yoffset>8.4</yoffset>
-          </Dynamic>
         <Beam id="423">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -21861,7 +21861,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.0631114" y="8.95636"/>
+          <pos x="0.329531" y="8.06829"/>
           <xoffset>0</xoffset>
           <yoffset>8.8</yoffset>
           </Dynamic>
@@ -22240,7 +22240,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.21446" y="8.7865"/>
+          <pos x="0.0368471" y="8.25366"/>
           <xoffset>0</xoffset>
           <yoffset>8.4</yoffset>
           </Dynamic>
@@ -22625,10 +22625,6 @@
       <Measure number="37">
         <Beam id="439">
           <StemDirection>down</StemDirection>
-          <Fragment>
-            <y1>6.72687</y1>
-            <y2>5.97687</y2>
-            </Fragment>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
