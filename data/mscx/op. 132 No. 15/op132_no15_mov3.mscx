@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.2.1</programVersion>
-  <programRevision>51b8386</programRevision>
+  <programVersion>2.1.0</programVersion>
+  <programRevision>871c8ce</programRevision>
   <Score>
     <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
@@ -5674,36 +5674,50 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Rest>
-          <durationType>measure</durationType>
-          <duration z="4" n="4"/>
+          <durationType>eighth</durationType>
           </Rest>
-        <tick>133680</tick>
+        <Harmony>
+          <name>V6</name>
+          <pos x="-0.817262" y="-3.80761"/>
+          </Harmony>
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
         <Harmony>
           <name>I</name>
+          <pos x="0.980714" y="-4.46143"/>
           </Harmony>
-        <tick>134160</tick>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
         <Harmony>
-          <name>V(64)</name>
-          <pos x="-1.91457" y="-2.5"/>
+          <name>V7</name>
+          <pos x="0.127848" y="-3.26709"/>
           </Harmony>
-        <tick>134640</tick>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
         <Harmony>
           <name>I</name>
-          <pos x="3.49128" y="-2.5"/>
+          <pos x="0.806467" y="-5.82405"/>
           </Harmony>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
         </Measure>
       <Measure number="105">
         <Harmony>
           <name>V43</name>
           </Harmony>
         <Rest>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           </Rest>
-        <tick>135600</tick>
         <Harmony>
           <name>I6</name>
           </Harmony>
-        <tick>136080</tick>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
         <Harmony>
           <name>IV6(2)</name>
           <pos x="0" y="-3.28979"/>
@@ -18509,10 +18523,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V6</name>
-          <pos x="-0.788353" y="-12.8612"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -18531,10 +18541,6 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V7</name>
-          <pos x="1.57671" y="-12.9738"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.2.1</programVersion>
-  <programRevision>51b8386</programRevision>
+  <programVersion>2.1.0</programVersion>
+  <programRevision>871c8ce</programRevision>
   <Score>
     <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
@@ -1612,6 +1612,9 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
+        <Harmony>
+          <name>I.I</name>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -1620,6 +1623,7 @@
           </Rest>
         <Harmony>
           <name>V2/IV</name>
+          <pos x="0" y="-3.53111"/>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -27942,10 +27946,6 @@
           </Chord>
         </Measure>
       <Measure number="29">
-        <Harmony>
-          <name>I.I</name>
-          <pos x="0.780493" y="-39.1832"/>
-          </Harmony>
         <Beam id="577">
           <StemDirection>up</StemDirection>
           </Beam>
