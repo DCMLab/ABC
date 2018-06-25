@@ -513,7 +513,7 @@ Edition may be freely distributed, copied, or performed</metaTag>
 <font size="14"></font><b>Dem Fürsten Nicolaus von Galitzin gewidmet.</b></text>
           </Text>
         </VBox>
-      <Measure number="0" len="1/4">
+      <Measure number="1" len="1/4">
         <startRepeat/>
         <irregular/>
         <Clef>
@@ -2405,6 +2405,10 @@ Edition may be freely distributed, copied, or performed</metaTag>
           <yoffset>4.9</yoffset>
           <text><i>cresc.</i></text>
           </StaffText>
+        <Harmony>
+          <name>V2/IV</name>
+          <pos x="0" y="-3.86468"/>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -2729,22 +2733,27 @@ Edition may be freely distributed, copied, or performed</metaTag>
           </Chord>
         <Harmony>
           <name>I</name>
-          <pos x="0.219952" y="-0.670313"/>
+          <pos x="0.219952" y="-1.42847"/>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
         <Harmony>
           <name>I(64)</name>
+          <pos x="-0.151632" y="-4.92611"/>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
+        <Harmony>
+          <name>I</name>
+          </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
         <Harmony>
           <name>viio</name>
+          <pos x="0" y="-3.25816"/>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
@@ -21085,10 +21094,6 @@ Edition may be freely distributed, copied, or performed</metaTag>
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V2/IV</name>
-          <pos x="-2.92536" y="-12.3209"/>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -21872,10 +21877,6 @@ Edition may be freely distributed, copied, or performed</metaTag>
             <tpc>12</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>I</name>
-          <pos x="-0.109976" y="-9.46839"/>
-          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>16th</durationType>

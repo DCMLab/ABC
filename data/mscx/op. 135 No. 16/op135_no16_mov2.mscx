@@ -3,6 +3,7 @@
   <programVersion>2.1.0</programVersion>
   <programRevision>871c8ce</programRevision>
   <Score>
+    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Synthesizer>
@@ -419,144 +420,6 @@
     <metaTag name="workTitle"></metaTag>
     <PageList>
       <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
         <System>
           </System>
         </Page>
@@ -8192,11 +8055,24 @@ Op.135  2nd Movement</text>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
             <Tie id="41">
               </Tie>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <name>vi2</name>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <Tie id="42">
+              </Tie>
+            <endSpanner id="41"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -8212,7 +8088,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="41"/>
+            <endSpanner id="42"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -8225,7 +8101,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="42">
+            <Tie id="43">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -8245,7 +8121,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="42"/>
+            <endSpanner id="43"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -8259,7 +8135,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="43">
+            <Tie id="44">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -8279,7 +8155,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="43"/>
+            <endSpanner id="44"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -8292,7 +8168,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="44">
+            <Tie id="45">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -8315,7 +8191,7 @@ Op.135  2nd Movement</text>
             </Articulation>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="44"/>
+            <endSpanner id="45"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -8391,7 +8267,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="45">
+            <Tie id="46">
               </Tie>
             <pitch>84</pitch>
             <tpc>14</tpc>
@@ -8408,7 +8284,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="45"/>
+            <endSpanner id="46"/>
             <pitch>84</pitch>
             <tpc>14</tpc>
             </Note>
@@ -8422,7 +8298,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="46">
+            <Tie id="47">
               </Tie>
             <pitch>84</pitch>
             <tpc>14</tpc>
@@ -8439,7 +8315,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="46"/>
+            <endSpanner id="47"/>
             <pitch>84</pitch>
             <tpc>14</tpc>
             </Note>
@@ -8459,7 +8335,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="47">
+            <Tie id="48">
               </Tie>
             <pitch>84</pitch>
             <tpc>14</tpc>
@@ -8476,7 +8352,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="47"/>
+            <endSpanner id="48"/>
             <pitch>84</pitch>
             <tpc>14</tpc>
             </Note>
@@ -8496,7 +8372,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="48">
+            <Tie id="49">
               </Tie>
             <pitch>84</pitch>
             <tpc>14</tpc>
@@ -8513,7 +8389,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="48"/>
+            <endSpanner id="49"/>
             <pitch>84</pitch>
             <tpc>14</tpc>
             </Note>
@@ -8533,7 +8409,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="49">
+            <Tie id="50">
               </Tie>
             <pitch>84</pitch>
             <tpc>14</tpc>
@@ -8550,7 +8426,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="49"/>
+            <endSpanner id="50"/>
             <pitch>84</pitch>
             <tpc>14</tpc>
             </Note>
@@ -8564,7 +8440,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="50">
+            <Tie id="51">
               </Tie>
             <pitch>84</pitch>
             <tpc>14</tpc>
@@ -8584,7 +8460,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="50"/>
+            <endSpanner id="51"/>
             <pitch>84</pitch>
             <tpc>14</tpc>
             </Note>
@@ -8604,7 +8480,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="51">
+            <Tie id="52">
               </Tie>
             <pitch>84</pitch>
             <tpc>14</tpc>
@@ -8624,7 +8500,7 @@ Op.135  2nd Movement</text>
             </Articulation>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="51"/>
+            <endSpanner id="52"/>
             <pitch>84</pitch>
             <tpc>14</tpc>
             </Note>
@@ -8869,7 +8745,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="52">
+            <Tie id="53">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -8893,7 +8769,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="52"/>
+            <endSpanner id="53"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -8906,7 +8782,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="53">
+            <Tie id="54">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -8927,7 +8803,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="53"/>
+            <endSpanner id="54"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -8941,7 +8817,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="54">
+            <Tie id="55">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -8963,7 +8839,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="54"/>
+            <endSpanner id="55"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -8977,7 +8853,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="55">
+            <Tie id="56">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -8999,7 +8875,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="55"/>
+            <endSpanner id="56"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -9013,7 +8889,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="56">
+            <Tie id="57">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -9036,7 +8912,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="56"/>
+            <endSpanner id="57"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -9050,7 +8926,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="57">
+            <Tie id="58">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -9071,7 +8947,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="57"/>
+            <endSpanner id="58"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -10416,7 +10292,7 @@ Op.135  2nd Movement</text>
           <name>I\\</name>
           <pos x="0" y="-5.03659"/>
           </Harmony>
-        <Volta id="58">
+        <Volta id="59">
           <endHook>1</endHook>
           <beginText>
             <text>1</text>
@@ -10462,8 +10338,8 @@ Op.135  2nd Movement</text>
           <name>I\\</name>
           <pos x="0" y="-4.45123"/>
           </Harmony>
-        <endSpanner id="58"/>
-        <Volta id="59">
+        <endSpanner id="59"/>
+        <Volta id="60">
           <beginText>
             <text>2</text>
             </beginText>
@@ -10493,7 +10369,7 @@ Op.135  2nd Movement</text>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <endSpanner id="59"/>
+        <endSpanner id="60"/>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -10627,29 +10503,6 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="60">
-              </Tie>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="1">
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <endSpanner id="60"/>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
             <Tie id="61">
               </Tie>
             <pitch>60</pitch>
@@ -10657,7 +10510,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="2">
+      <Measure number="1">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -10680,7 +10533,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="3">
+      <Measure number="2">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -10703,7 +10556,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="4">
+      <Measure number="3">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -10726,7 +10579,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="5">
+      <Measure number="4">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -10749,13 +10602,36 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="6">
+      <Measure number="5">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
             <endSpanner id="65"/>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <Tie id="66">
+              </Tie>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="6">
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>half</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <endSpanner id="66"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -10870,7 +10746,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="66">
+            <Tie id="67">
               </Tie>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -10883,7 +10759,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="66"/>
+            <endSpanner id="67"/>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
@@ -10893,7 +10769,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="67">
+            <Tie id="68">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -10906,7 +10782,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="67"/>
+            <endSpanner id="68"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -10916,7 +10792,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="68">
+            <Tie id="69">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -10929,7 +10805,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="68"/>
+            <endSpanner id="69"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -10939,7 +10815,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="69">
+            <Tie id="70">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -10952,7 +10828,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="69"/>
+            <endSpanner id="70"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -10962,7 +10838,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="70">
+            <Tie id="71">
               </Tie>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -10975,7 +10851,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="70"/>
+            <endSpanner id="71"/>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
@@ -10985,7 +10861,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="71">
+            <Tie id="72">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -10998,7 +10874,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="71"/>
+            <endSpanner id="72"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -11209,7 +11085,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="72">
+            <Tie id="73">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -11222,7 +11098,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="72"/>
+            <endSpanner id="73"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -11275,7 +11151,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="73">
+            <Tie id="74">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -11288,7 +11164,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="73"/>
+            <endSpanner id="74"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -11307,7 +11183,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="74">
+            <Tie id="75">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -11320,7 +11196,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="74"/>
+            <endSpanner id="75"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -11353,7 +11229,7 @@ Op.135  2nd Movement</text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="75">
+            <Tie id="76">
               </Tie>
             <pitch>56</pitch>
             <tpc>10</tpc>
@@ -11364,7 +11240,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="75"/>
+            <endSpanner id="76"/>
             <pitch>56</pitch>
             <tpc>10</tpc>
             </Note>
@@ -12435,7 +12311,7 @@ Op.135  2nd Movement</text>
           <yoffset>4.2</yoffset>
           <text><font size="12"></font><b><i>f</i></b></text>
           </StaffText>
-        <Volta id="76">
+        <Volta id="77">
           <endHook>1</endHook>
           <beginText>
             <text>1</text>
@@ -12473,8 +12349,8 @@ Op.135  2nd Movement</text>
           <yoffset>4</yoffset>
           <text><font size="12"></font><b><i>f</i></b></text>
           </StaffText>
-        <endSpanner id="76"/>
-        <Volta id="77">
+        <endSpanner id="77"/>
+        <Volta id="78">
           <beginText>
             <text>2</text>
             </beginText>
@@ -12497,7 +12373,7 @@ Op.135  2nd Movement</text>
           </Rest>
         </Measure>
       <Measure number="68">
-        <endSpanner id="77"/>
+        <endSpanner id="78"/>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -18108,7 +17984,7 @@ Op.135  2nd Movement</text>
           <durationType>eighth</durationType>
           <Beam>83</Beam>
           <Note>
-            <Tie id="78">
+            <Tie id="79">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -18121,7 +17997,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="78"/>
+            <endSpanner id="79"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -18131,7 +18007,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="79">
+            <Tie id="80">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -18144,7 +18020,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="79"/>
+            <endSpanner id="80"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -18154,7 +18030,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="80">
+            <Tie id="81">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -18167,7 +18043,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="80"/>
+            <endSpanner id="81"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -18177,7 +18053,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="81">
+            <Tie id="82">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -18190,32 +18066,9 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="81"/>
+            <endSpanner id="82"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <Tie id="82">
-              </Tie>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="198">
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <endSpanner id="82"/>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -18230,7 +18083,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="199">
+      <Measure number="198">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -18244,9 +18097,32 @@ Op.135  2nd Movement</text>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <Tie id="84">
+              </Tie>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="199">
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <endSpanner id="84"/>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>half</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <Tie id="85">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -18259,7 +18135,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="84"/>
+            <endSpanner id="85"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -18269,7 +18145,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="85">
+            <Tie id="86">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -18282,7 +18158,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="85"/>
+            <endSpanner id="86"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -18301,7 +18177,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="86">
+            <Tie id="87">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -18325,29 +18201,6 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="86"/>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <Tie id="87">
-              </Tie>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="203">
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
             <endSpanner id="87"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -18365,7 +18218,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="204">
+      <Measure number="203">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -18376,10 +18229,6 @@ Op.135  2nd Movement</text>
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>vi2</name>
-          <pos x="0.0888065" y="-11.5583"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -18392,7 +18241,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="205">
+      <Measure number="204">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -18415,7 +18264,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="206">
+      <Measure number="205">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -18438,13 +18287,36 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="207">
+      <Measure number="206">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
             <endSpanner id="91"/>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <Tie id="92">
+              </Tie>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="207">
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>half</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <endSpanner id="92"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -18559,7 +18431,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="92">
+            <Tie id="93">
               </Tie>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -18572,7 +18444,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="92"/>
+            <endSpanner id="93"/>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
@@ -18582,7 +18454,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="93">
+            <Tie id="94">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -18595,7 +18467,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="93"/>
+            <endSpanner id="94"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -18605,7 +18477,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="94">
+            <Tie id="95">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -18618,7 +18490,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="94"/>
+            <endSpanner id="95"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -18628,7 +18500,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="95">
+            <Tie id="96">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -18641,7 +18513,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="95"/>
+            <endSpanner id="96"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -18651,7 +18523,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="96">
+            <Tie id="97">
               </Tie>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -18664,7 +18536,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="96"/>
+            <endSpanner id="97"/>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
@@ -18674,7 +18546,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="97">
+            <Tie id="98">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -18690,7 +18562,7 @@ Op.135  2nd Movement</text>
             </Articulation>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="97"/>
+            <endSpanner id="98"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -18901,7 +18773,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="98">
+            <Tie id="99">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -18919,7 +18791,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="98"/>
+            <endSpanner id="99"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -18972,7 +18844,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="99">
+            <Tie id="100">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -18985,7 +18857,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="99"/>
+            <endSpanner id="100"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -19004,7 +18876,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="100">
+            <Tie id="101">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -19017,7 +18889,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="100"/>
+            <endSpanner id="101"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -19050,7 +18922,7 @@ Op.135  2nd Movement</text>
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="101">
+            <Tie id="102">
               </Tie>
             <pitch>56</pitch>
             <tpc>10</tpc>
@@ -19061,7 +18933,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="101"/>
+            <endSpanner id="102"/>
             <pitch>56</pitch>
             <tpc>10</tpc>
             </Note>
@@ -20157,7 +20029,7 @@ Op.135  2nd Movement</text>
           <yoffset>3.4</yoffset>
           <text><font size="12"></font><b><i>f</i></b></text>
           </StaffText>
-        <Volta id="102">
+        <Volta id="103">
           <endHook>1</endHook>
           <beginText>
             <text>1</text>
@@ -20195,8 +20067,8 @@ Op.135  2nd Movement</text>
           <yoffset>3.4</yoffset>
           <text><font size="12"></font><b><i>p</i></b></text>
           </StaffText>
-        <endSpanner id="102"/>
-        <Volta id="103">
+        <endSpanner id="103"/>
+        <Volta id="104">
           <beginText>
             <text>2</text>
             </beginText>
@@ -20225,7 +20097,7 @@ Op.135  2nd Movement</text>
           </Chord>
         </Measure>
       <Measure number="269">
-        <endSpanner id="103"/>
+        <endSpanner id="104"/>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -20581,7 +20453,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="104">
+            <Tie id="105">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -20594,7 +20466,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="104"/>
+            <endSpanner id="105"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -20700,7 +20572,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="105">
+            <Tie id="106">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -20713,7 +20585,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="105"/>
+            <endSpanner id="106"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -20974,7 +20846,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="106">
+            <Tie id="107">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -20985,9 +20857,9 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="107">
+            <Tie id="108">
               </Tie>
-            <endSpanner id="106"/>
+            <endSpanner id="107"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -21003,7 +20875,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="107"/>
+            <endSpanner id="108"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -21020,7 +20892,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="108">
+            <Tie id="109">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -21031,9 +20903,9 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="109">
+            <Tie id="110">
               </Tie>
-            <endSpanner id="108"/>
+            <endSpanner id="109"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -21049,7 +20921,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="109"/>
+            <endSpanner id="110"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -21063,7 +20935,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="110">
+            <Tie id="111">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -21074,9 +20946,9 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="111">
+            <Tie id="112">
               </Tie>
-            <endSpanner id="110"/>
+            <endSpanner id="111"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -21092,7 +20964,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="111"/>
+            <endSpanner id="112"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -21152,7 +21024,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="112">
+            <Tie id="113">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -21163,9 +21035,9 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="113">
+            <Tie id="114">
               </Tie>
-            <endSpanner id="112"/>
+            <endSpanner id="113"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -21181,7 +21053,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="113"/>
+            <endSpanner id="114"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -21198,7 +21070,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="114">
+            <Tie id="115">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -21209,9 +21081,9 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="115">
+            <Tie id="116">
               </Tie>
-            <endSpanner id="114"/>
+            <endSpanner id="115"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -21227,7 +21099,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="115"/>
+            <endSpanner id="116"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -21244,7 +21116,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="116">
+            <Tie id="117">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -21255,9 +21127,9 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="117">
+            <Tie id="118">
               </Tie>
-            <endSpanner id="116"/>
+            <endSpanner id="117"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -21276,7 +21148,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="117"/>
+            <endSpanner id="118"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -21305,7 +21177,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="118">
+            <Tie id="119">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -21323,7 +21195,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="118"/>
+            <endSpanner id="119"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -21333,7 +21205,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="119">
+            <Tie id="120">
               </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -21346,7 +21218,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="119"/>
+            <endSpanner id="120"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -21356,7 +21228,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="120">
+            <Tie id="121">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -21369,7 +21241,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="120"/>
+            <endSpanner id="121"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -21379,7 +21251,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="121">
+            <Tie id="122">
               </Tie>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -21392,7 +21264,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="121"/>
+            <endSpanner id="122"/>
             <pitch>53</pitch>
             <tpc>13</tpc>
             </Note>
@@ -21402,7 +21274,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="122">
+            <Tie id="123">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -21420,7 +21292,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="122"/>
+            <endSpanner id="123"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -21430,7 +21302,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="123">
+            <Tie id="124">
               </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -21443,7 +21315,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="123"/>
+            <endSpanner id="124"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -21453,7 +21325,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="124">
+            <Tie id="125">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -21471,7 +21343,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="124"/>
+            <endSpanner id="125"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -22308,7 +22180,7 @@ Op.135  2nd Movement</text>
           </Chord>
         </Measure>
       <Measure number="66">
-        <Volta id="125">
+        <Volta id="126">
           <endHook>1</endHook>
           <beginText>
             <text>1</text>
@@ -22341,8 +22213,8 @@ Op.135  2nd Movement</text>
           </Chord>
         </Measure>
       <Measure number="67">
-        <endSpanner id="125"/>
-        <Volta id="126">
+        <endSpanner id="126"/>
+        <Volta id="127">
           <beginText>
             <text>2</text>
             </beginText>
@@ -22370,7 +22242,7 @@ Op.135  2nd Movement</text>
           <yoffset>-3.4</yoffset>
           <text><font size="12"></font><b><i>fp</i></b></text>
           </StaffText>
-        <endSpanner id="126"/>
+        <endSpanner id="127"/>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -27920,7 +27792,7 @@ Op.135  2nd Movement</text>
           <durationType>eighth</durationType>
           <Beam>149</Beam>
           <Note>
-            <Tie id="127">
+            <Tie id="128">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -27933,7 +27805,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="127"/>
+            <endSpanner id="128"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -27943,7 +27815,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="128">
+            <Tie id="129">
               </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -27956,7 +27828,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="128"/>
+            <endSpanner id="129"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -27966,7 +27838,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="129">
+            <Tie id="130">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -27979,7 +27851,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="129"/>
+            <endSpanner id="130"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -27989,7 +27861,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="130">
+            <Tie id="131">
               </Tie>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -28002,32 +27874,9 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="130"/>
+            <endSpanner id="131"/>
             <pitch>53</pitch>
             <tpc>13</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <Tie id="131">
-              </Tie>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="198">
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <endSpanner id="131"/>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -28042,7 +27891,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="199">
+      <Measure number="198">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -28056,9 +27905,32 @@ Op.135  2nd Movement</text>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <Tie id="133">
+              </Tie>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="199">
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <endSpanner id="133"/>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>half</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <Tie id="134">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -28071,7 +27943,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="133"/>
+            <endSpanner id="134"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -28081,7 +27953,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="134">
+            <Tie id="135">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -28094,7 +27966,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="134"/>
+            <endSpanner id="135"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -28304,7 +28176,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="135">
+            <Tie id="136">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -28317,7 +28189,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="135"/>
+            <endSpanner id="136"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -28423,7 +28295,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="136">
+            <Tie id="137">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -28436,7 +28308,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="136"/>
+            <endSpanner id="137"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -28688,12 +28560,12 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="137">
-              </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <Tie id="138">
+              </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -28703,9 +28575,9 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="138">
+            <Tie id="139">
               </Tie>
-            <endSpanner id="137"/>
+            <endSpanner id="138"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -28721,7 +28593,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="138"/>
+            <endSpanner id="139"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -28738,12 +28610,12 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="139">
-              </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <Tie id="140">
+              </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -28753,9 +28625,9 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="140">
+            <Tie id="141">
               </Tie>
-            <endSpanner id="139"/>
+            <endSpanner id="140"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -28771,7 +28643,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="140"/>
+            <endSpanner id="141"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -28785,12 +28657,12 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="141">
-              </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <Tie id="142">
+              </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -28800,9 +28672,9 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="142">
+            <Tie id="143">
               </Tie>
-            <endSpanner id="141"/>
+            <endSpanner id="142"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -28818,7 +28690,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="142"/>
+            <endSpanner id="143"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -28878,12 +28750,12 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="143">
-              </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <Tie id="144">
+              </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -28893,9 +28765,9 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="144">
+            <Tie id="145">
               </Tie>
-            <endSpanner id="143"/>
+            <endSpanner id="144"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -28911,7 +28783,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="144"/>
+            <endSpanner id="145"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -28928,12 +28800,12 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="145">
-              </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <Tie id="146">
+              </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -28943,9 +28815,9 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="146">
+            <Tie id="147">
               </Tie>
-            <endSpanner id="145"/>
+            <endSpanner id="146"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -28961,7 +28833,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="146"/>
+            <endSpanner id="147"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -28978,12 +28850,12 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="147">
-              </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <Tie id="148">
+              </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -28993,9 +28865,9 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="148">
+            <Tie id="149">
               </Tie>
-            <endSpanner id="147"/>
+            <endSpanner id="148"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -29019,7 +28891,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="148"/>
+            <endSpanner id="149"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -29048,7 +28920,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="149">
+            <Tie id="150">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -29061,7 +28933,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="149"/>
+            <endSpanner id="150"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -29071,7 +28943,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="150">
+            <Tie id="151">
               </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -29084,7 +28956,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="150"/>
+            <endSpanner id="151"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -29094,7 +28966,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="151">
+            <Tie id="152">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -29107,7 +28979,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="151"/>
+            <endSpanner id="152"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -29117,7 +28989,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="152">
+            <Tie id="153">
               </Tie>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -29130,7 +29002,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="152"/>
+            <endSpanner id="153"/>
             <pitch>53</pitch>
             <tpc>13</tpc>
             </Note>
@@ -29140,7 +29012,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="153">
+            <Tie id="154">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -29158,7 +29030,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="153"/>
+            <endSpanner id="154"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -29168,7 +29040,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="154">
+            <Tie id="155">
               </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -29181,7 +29053,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="154"/>
+            <endSpanner id="155"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -29191,7 +29063,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="155">
+            <Tie id="156">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -29204,7 +29076,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="155"/>
+            <endSpanner id="156"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -30055,7 +29927,7 @@ Op.135  2nd Movement</text>
           <yoffset>4.4</yoffset>
           <text><font size="12"></font><b><i>f</i></b></text>
           </StaffText>
-        <Volta id="156">
+        <Volta id="157">
           <endHook>1</endHook>
           <beginText>
             <text>1</text>
@@ -30093,8 +29965,8 @@ Op.135  2nd Movement</text>
           <yoffset>4.4</yoffset>
           <text><font size="12"></font><b><i>p</i></b></text>
           </StaffText>
-        <endSpanner id="156"/>
-        <Volta id="157">
+        <endSpanner id="157"/>
+        <Volta id="158">
           <beginText>
             <text>2</text>
             </beginText>
@@ -30132,7 +30004,7 @@ Op.135  2nd Movement</text>
           <yoffset>-3.1</yoffset>
           <text><font size="10"></font><i>dim</i></text>
           </StaffText>
-        <endSpanner id="157"/>
+        <endSpanner id="158"/>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -30913,29 +30785,6 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="158">
-              </Tie>
-            <pitch>36</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="25">
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <endSpanner id="158"/>
-            <pitch>36</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
             <Tie id="159">
               </Tie>
             <pitch>36</pitch>
@@ -30943,7 +30792,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="26">
+      <Measure number="25">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -30966,7 +30815,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="27">
+      <Measure number="26">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -30989,7 +30838,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="28">
+      <Measure number="27">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -31012,7 +30861,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="29">
+      <Measure number="28">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -31035,7 +30884,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="30">
+      <Measure number="29">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -31058,7 +30907,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="31">
+      <Measure number="30">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -31075,6 +30924,29 @@ Op.135  2nd Movement</text>
           <StemDirection>up</StemDirection>
           <Note>
             <Tie id="165">
+              </Tie>
+            <pitch>36</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="31">
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>half</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <endSpanner id="165"/>
+            <pitch>36</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <Tie id="166">
               </Tie>
             <pitch>36</pitch>
             <tpc>14</tpc>
@@ -31099,7 +30971,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="165"/>
+            <endSpanner id="166"/>
             <pitch>36</pitch>
             <tpc>14</tpc>
             </Note>
@@ -31121,7 +30993,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="166">
+            <Tie id="167">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -31134,7 +31006,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="166"/>
+            <endSpanner id="167"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -31144,7 +31016,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="167">
+            <Tie id="168">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -31157,7 +31029,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="167"/>
+            <endSpanner id="168"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
@@ -31167,7 +31039,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="168">
+            <Tie id="169">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -31180,7 +31052,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="168"/>
+            <endSpanner id="169"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -31190,7 +31062,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="169">
+            <Tie id="170">
               </Tie>
             <pitch>41</pitch>
             <tpc>13</tpc>
@@ -31203,7 +31075,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="169"/>
+            <endSpanner id="170"/>
             <pitch>41</pitch>
             <tpc>13</tpc>
             </Note>
@@ -31213,7 +31085,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="170">
+            <Tie id="171">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -31226,7 +31098,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="170"/>
+            <endSpanner id="171"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -31236,7 +31108,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="171">
+            <Tie id="172">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -31249,7 +31121,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="171"/>
+            <endSpanner id="172"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
@@ -31259,7 +31131,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="172">
+            <Tie id="173">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -31272,7 +31144,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="172"/>
+            <endSpanner id="173"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -32143,7 +32015,7 @@ Op.135  2nd Movement</text>
           <yoffset>-3.9</yoffset>
           <text><font size="12"></font><b><i>f</i></b></text>
           </StaffText>
-        <Volta id="173">
+        <Volta id="174">
           <endHook>1</endHook>
           <beginText>
             <text>1</text>
@@ -32186,8 +32058,8 @@ Op.135  2nd Movement</text>
           <yoffset>5.1</yoffset>
           <text><font size="12"></font><b><i>f</i></b></text>
           </StaffText>
-        <endSpanner id="173"/>
-        <Volta id="174">
+        <endSpanner id="174"/>
+        <Volta id="175">
           <beginText>
             <text>2</text>
             </beginText>
@@ -32220,7 +32092,7 @@ Op.135  2nd Movement</text>
           <yoffset>5.3</yoffset>
           <text><font size="12"></font><b><i>fp</i></b></text>
           </StaffText>
-        <endSpanner id="174"/>
+        <endSpanner id="175"/>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -32991,7 +32863,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="175">
+            <Tie id="176">
               </Tie>
             <pitch>41</pitch>
             <tpc>13</tpc>
@@ -33005,7 +32877,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="175"/>
+            <endSpanner id="176"/>
             <pitch>41</pitch>
             <tpc>13</tpc>
             </Note>
@@ -37101,7 +36973,7 @@ Op.135  2nd Movement</text>
           <durationType>eighth</durationType>
           <Beam>208</Beam>
           <Note>
-            <Tie id="176">
+            <Tie id="177">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -37114,7 +36986,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="176"/>
+            <endSpanner id="177"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -37124,7 +36996,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="177">
+            <Tie id="178">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -37137,7 +37009,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="177"/>
+            <endSpanner id="178"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
@@ -37147,7 +37019,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="178">
+            <Tie id="179">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -37160,7 +37032,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="178"/>
+            <endSpanner id="179"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -37170,7 +37042,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="179">
+            <Tie id="180">
               </Tie>
             <pitch>41</pitch>
             <tpc>13</tpc>
@@ -37183,7 +37055,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="179"/>
+            <endSpanner id="180"/>
             <pitch>41</pitch>
             <tpc>13</tpc>
             </Note>
@@ -37193,7 +37065,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="180">
+            <Tie id="181">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -37206,7 +37078,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="180"/>
+            <endSpanner id="181"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -37216,7 +37088,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="181">
+            <Tie id="182">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -37229,7 +37101,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="181"/>
+            <endSpanner id="182"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -37239,7 +37111,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="182">
+            <Tie id="183">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -37252,7 +37124,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="182"/>
+            <endSpanner id="183"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -37262,7 +37134,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="183">
+            <Tie id="184">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -37275,7 +37147,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="183"/>
+            <endSpanner id="184"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -37899,29 +37771,6 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="184">
-              </Tie>
-            <pitch>36</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="226">
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>half</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <endSpanner id="184"/>
-            <pitch>36</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
             <Tie id="185">
               </Tie>
             <pitch>36</pitch>
@@ -37929,7 +37778,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="227">
+      <Measure number="226">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -37952,7 +37801,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="228">
+      <Measure number="227">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -37975,7 +37824,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="229">
+      <Measure number="228">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -37998,7 +37847,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="230">
+      <Measure number="229">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -38021,7 +37870,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="231">
+      <Measure number="230">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -38044,7 +37893,7 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="232">
+      <Measure number="231">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -38067,13 +37916,36 @@ Op.135  2nd Movement</text>
             </Note>
           </Chord>
         </Measure>
+      <Measure number="232">
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>half</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <endSpanner id="191"/>
+            <pitch>36</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <Tie id="192">
+              </Tie>
+            <pitch>36</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        </Measure>
       <Measure number="233">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="191"/>
+            <endSpanner id="192"/>
             <pitch>36</pitch>
             <tpc>14</tpc>
             </Note>
@@ -38098,7 +37970,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="192">
+            <Tie id="193">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -38111,7 +37983,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="192"/>
+            <endSpanner id="193"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -38121,7 +37993,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="193">
+            <Tie id="194">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -38134,7 +38006,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="193"/>
+            <endSpanner id="194"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
@@ -38144,7 +38016,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="194">
+            <Tie id="195">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -38157,7 +38029,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="194"/>
+            <endSpanner id="195"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -38167,7 +38039,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="195">
+            <Tie id="196">
               </Tie>
             <pitch>41</pitch>
             <tpc>13</tpc>
@@ -38180,7 +38052,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="195"/>
+            <endSpanner id="196"/>
             <pitch>41</pitch>
             <tpc>13</tpc>
             </Note>
@@ -38190,7 +38062,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="196">
+            <Tie id="197">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -38208,7 +38080,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="196"/>
+            <endSpanner id="197"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -38218,7 +38090,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="197">
+            <Tie id="198">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -38231,7 +38103,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="197"/>
+            <endSpanner id="198"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
@@ -38241,7 +38113,7 @@ Op.135  2nd Movement</text>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="198">
+            <Tie id="199">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -38254,7 +38126,7 @@ Op.135  2nd Movement</text>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="198"/>
+            <endSpanner id="199"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -39120,7 +38992,7 @@ Op.135  2nd Movement</text>
           <yoffset>4.9</yoffset>
           <text><font size="12"></font><b><i>f</i></b></text>
           </StaffText>
-        <Volta id="199">
+        <Volta id="200">
           <endHook>1</endHook>
           <beginText>
             <text>1</text>
@@ -39158,8 +39030,8 @@ Op.135  2nd Movement</text>
           <yoffset>4.7</yoffset>
           <text><font size="12"></font><b><i>p</i></b></text>
           </StaffText>
-        <endSpanner id="199"/>
-        <Volta id="200">
+        <endSpanner id="200"/>
+        <Volta id="201">
           <beginText>
             <text>2</text>
             </beginText>
@@ -39203,7 +39075,7 @@ Op.135  2nd Movement</text>
           <yoffset>4.6</yoffset>
           <text><font size="10"></font><i>dim</i></text>
           </StaffText>
-        <endSpanner id="200"/>
+        <endSpanner id="201"/>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>

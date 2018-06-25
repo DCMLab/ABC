@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.2.1</programVersion>
-  <programRevision>51b8386</programRevision>
+  <programVersion>2.1.0</programVersion>
+  <programRevision>871c8ce</programRevision>
   <Score>
     <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
@@ -1062,6 +1062,9 @@ Op. 130 5th Movement
             <tpc>12</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>16th</durationType>
@@ -1078,20 +1081,26 @@ Op. 130 5th Movement
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <dots>1</dots>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
           <Note>
+            <Tie id="2">
+              </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <tick>14880</tick>
         <Harmony>
           <name>V43(+6)</name>
-          <pos x="-4.07461" y="-2.60448"/>
           </Harmony>
-        <tick>15120</tick>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <endSpanner id="2"/>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
         <Harmony>
           <name>V43</name>
           </Harmony>
@@ -1505,9 +1514,22 @@ Op. 130 5th Movement
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
           <Note>
+            <Tie id="3">
+              </Tie>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <name>IV</name>
+          </Harmony>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <endSpanner id="3"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -1520,7 +1542,7 @@ Op. 130 5th Movement
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="2">
+            <Tie id="4">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1532,7 +1554,7 @@ Op. 130 5th Movement
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="2"/>
+            <endSpanner id="4"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -2810,7 +2832,7 @@ Op. 130 5th Movement
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="3">
+            <Tie id="5">
               </Tie>
             <pitch>66</pitch>
             <tpc>8</tpc>
@@ -2821,7 +2843,7 @@ Op. 130 5th Movement
           <durationType>16th</durationType>
           <Beam>41</Beam>
           <Note>
-            <endSpanner id="3"/>
+            <endSpanner id="5"/>
             <pitch>66</pitch>
             <tpc>8</tpc>
             </Note>
@@ -2963,7 +2985,7 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="4">
+            <Tie id="6">
               </Tie>
             <pitch>80</pitch>
             <tpc>10</tpc>
@@ -2977,7 +2999,7 @@ Op. 130 5th Movement
           <durationType>16th</durationType>
           <Beam>44</Beam>
           <Note>
-            <endSpanner id="4"/>
+            <endSpanner id="6"/>
             <pitch>80</pitch>
             <tpc>10</tpc>
             </Note>
@@ -4079,7 +4101,7 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="5">
+            <Tie id="7">
               </Tie>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -4091,9 +4113,9 @@ Op. 130 5th Movement
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="6">
+            <Tie id="8">
               </Tie>
-            <endSpanner id="5"/>
+            <endSpanner id="7"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -4101,7 +4123,7 @@ Op. 130 5th Movement
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <endSpanner id="6"/>
+            <endSpanner id="8"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -4357,7 +4379,7 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <Beam>65</Beam>
           <Note>
-            <Tie id="7">
+            <Tie id="9">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -4372,7 +4394,7 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="7"/>
+            <endSpanner id="9"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -4709,7 +4731,7 @@ Op. 130 5th Movement
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="8">
+            <Tie id="10">
               </Tie>
             <pitch>63</pitch>
             <tpc>11</tpc>
@@ -4723,7 +4745,7 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <Beam>70</Beam>
           <Note>
-            <endSpanner id="8"/>
+            <endSpanner id="10"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -4846,10 +4868,6 @@ Op. 130 5th Movement
             <tpc>10</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V</name>
-          <pos x="1.56716" y="-11.5895"/>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -4888,7 +4906,7 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="9">
+            <Tie id="11">
               </Tie>
             <pitch>58</pitch>
             <tpc>12</tpc>
@@ -4899,7 +4917,7 @@ Op. 130 5th Movement
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="9"/>
+            <endSpanner id="11"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
@@ -5184,10 +5202,6 @@ Op. 130 5th Movement
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>IV</name>
-          <pos x="0.208954" y="-11.5895"/>
-          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -7731,7 +7745,7 @@ Op. 130 5th Movement
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="10">
+            <Tie id="12">
               </Tie>
             <pitch>63</pitch>
             <tpc>11</tpc>
@@ -7745,7 +7759,7 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <Beam>125</Beam>
           <Note>
-            <endSpanner id="10"/>
+            <endSpanner id="12"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -7755,7 +7769,7 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <Beam>125</Beam>
           <Note>
-            <Tie id="11">
+            <Tie id="13">
               </Tie>
             <pitch>58</pitch>
             <tpc>12</tpc>
@@ -7766,7 +7780,7 @@ Op. 130 5th Movement
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="11"/>
+            <endSpanner id="13"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
@@ -8263,13 +8277,13 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <Beam>135</Beam>
           <Note>
-            <Tie id="12">
+            <Tie id="14">
               </Tie>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
           <Note>
-            <Tie id="13">
+            <Tie id="15">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -8280,16 +8294,16 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <Beam>135</Beam>
           <Note>
-            <Tie id="14">
+            <Tie id="16">
               </Tie>
-            <endSpanner id="12"/>
+            <endSpanner id="14"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
           <Note>
-            <Tie id="15">
+            <Tie id="17">
               </Tie>
-            <endSpanner id="13"/>
+            <endSpanner id="15"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -8308,16 +8322,16 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <Beam>136</Beam>
           <Note>
-            <Tie id="16">
+            <Tie id="18">
               </Tie>
-            <endSpanner id="14"/>
+            <endSpanner id="16"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
           <Note>
-            <Tie id="17">
+            <Tie id="19">
               </Tie>
-            <endSpanner id="15"/>
+            <endSpanner id="17"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -8330,12 +8344,12 @@ Op. 130 5th Movement
             </Articulation>
           <Beam>136</Beam>
           <Note>
-            <endSpanner id="16"/>
+            <endSpanner id="18"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
           <Note>
-            <endSpanner id="17"/>
+            <endSpanner id="19"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -12255,13 +12269,13 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <Beam>206</Beam>
           <Note>
-            <Tie id="18">
+            <Tie id="20">
               </Tie>
             <pitch>51</pitch>
             <tpc>11</tpc>
             </Note>
           <Note>
-            <Tie id="19">
+            <Tie id="21">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -12272,16 +12286,16 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <Beam>206</Beam>
           <Note>
-            <Tie id="20">
+            <Tie id="22">
               </Tie>
-            <endSpanner id="18"/>
+            <endSpanner id="20"/>
             <pitch>51</pitch>
             <tpc>11</tpc>
             </Note>
           <Note>
-            <Tie id="21">
+            <Tie id="23">
               </Tie>
-            <endSpanner id="19"/>
+            <endSpanner id="21"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -12300,16 +12314,16 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <Beam>207</Beam>
           <Note>
-            <Tie id="22">
+            <Tie id="24">
               </Tie>
-            <endSpanner id="20"/>
+            <endSpanner id="22"/>
             <pitch>51</pitch>
             <tpc>11</tpc>
             </Note>
           <Note>
-            <Tie id="23">
+            <Tie id="25">
               </Tie>
-            <endSpanner id="21"/>
+            <endSpanner id="23"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -12322,12 +12336,12 @@ Op. 130 5th Movement
             </Articulation>
           <Beam>207</Beam>
           <Note>
-            <endSpanner id="22"/>
+            <endSpanner id="24"/>
             <pitch>51</pitch>
             <tpc>11</tpc>
             </Note>
           <Note>
-            <endSpanner id="23"/>
+            <endSpanner id="25"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -12505,7 +12519,7 @@ Op. 130 5th Movement
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="24">
+            <Tie id="26">
               <up>1</up>
               </Tie>
             <pitch>46</pitch>
@@ -12517,7 +12531,7 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="24"/>
+            <endSpanner id="26"/>
             <pitch>46</pitch>
             <tpc>12</tpc>
             </Note>
@@ -13338,7 +13352,7 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <Beam>217</Beam>
           <Note>
-            <Tie id="25">
+            <Tie id="27">
               </Tie>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -13349,7 +13363,7 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <Beam>217</Beam>
           <Note>
-            <endSpanner id="25"/>
+            <endSpanner id="27"/>
             <pitch>50</pitch>
             <tpc>16</tpc>
             </Note>
@@ -15932,13 +15946,13 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <Beam>255</Beam>
           <Note>
-            <Tie id="26">
+            <Tie id="28">
               </Tie>
             <pitch>39</pitch>
             <tpc>11</tpc>
             </Note>
           <Note>
-            <Tie id="27">
+            <Tie id="29">
               </Tie>
             <pitch>46</pitch>
             <tpc>12</tpc>
@@ -15949,16 +15963,16 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <Beam>255</Beam>
           <Note>
-            <Tie id="28">
+            <Tie id="30">
               </Tie>
-            <endSpanner id="26"/>
+            <endSpanner id="28"/>
             <pitch>39</pitch>
             <tpc>11</tpc>
             </Note>
           <Note>
-            <Tie id="29">
+            <Tie id="31">
               </Tie>
-            <endSpanner id="27"/>
+            <endSpanner id="29"/>
             <pitch>46</pitch>
             <tpc>12</tpc>
             </Note>
@@ -15977,16 +15991,16 @@ Op. 130 5th Movement
           <durationType>eighth</durationType>
           <Beam>256</Beam>
           <Note>
-            <Tie id="30">
+            <Tie id="32">
               </Tie>
-            <endSpanner id="28"/>
+            <endSpanner id="30"/>
             <pitch>39</pitch>
             <tpc>11</tpc>
             </Note>
           <Note>
-            <Tie id="31">
+            <Tie id="33">
               </Tie>
-            <endSpanner id="29"/>
+            <endSpanner id="31"/>
             <pitch>46</pitch>
             <tpc>12</tpc>
             </Note>
@@ -15999,12 +16013,12 @@ Op. 130 5th Movement
             </Articulation>
           <Beam>256</Beam>
           <Note>
-            <endSpanner id="30"/>
+            <endSpanner id="32"/>
             <pitch>39</pitch>
             <tpc>11</tpc>
             </Note>
           <Note>
-            <endSpanner id="31"/>
+            <endSpanner id="33"/>
             <pitch>46</pitch>
             <tpc>12</tpc>
             </Note>
