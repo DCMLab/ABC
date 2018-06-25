@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.1.0</programVersion>
-  <programRevision>871c8ce</programRevision>
+  <programVersion>2.2.1</programVersion>
+  <programRevision>51b8386</programRevision>
   <Score>
     <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
@@ -728,7 +728,7 @@
         </Measure>
       <Measure number="10">
         <Harmony>
-          <name>I6(7)</name>
+          <name>I6(5)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -745,8 +745,8 @@
           </Harmony>
         <tick>11040</tick>
         <Harmony>
-          <name>@none</name>
-          <pos x="-0.979186" y="-2.82639"/>
+          <name>III(b5)</name>
+          <pos x="-0.326395" y="-7.28713"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -843,7 +843,7 @@
         </Measure>
       <Measure number="13">
         <Harmony>
-          <name>V7</name>
+          <name>V</name>
           </Harmony>
         <Beam id="6">
           <StemDirection>up</StemDirection>
@@ -857,6 +857,10 @@
             <tpc>12</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V7</name>
+          <pos x="-0.761589" y="-2.5"/>
+          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -891,29 +895,16 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>IV6</name>
+          <name>V65</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="2">
-              </Tie>
-            <pitch>68</pitch>
-            <tpc>10</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <name>viio</name>
-          </Harmony>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <endSpanner id="2"/>
             <pitch>68</pitch>
             <tpc>10</tpc>
             </Note>
@@ -971,7 +962,7 @@
           </Rest>
         <tick>19680</tick>
         <Harmony>
-          <name>vi64</name>
+          <name>IV2</name>
           <pos x="-1.12501" y="-2.5"/>
           </Harmony>
         </Measure>
@@ -1262,7 +1253,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="3">
+            <Tie id="2">
               </Tie>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -1278,7 +1269,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="3"/>
+            <endSpanner id="2"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -1433,6 +1424,9 @@
           </Chord>
         </Measure>
       <Measure number="26">
+        <Harmony>
+          <name>V65</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -1462,7 +1456,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="4">
+            <Tie id="3">
               </Tie>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -1475,45 +1469,22 @@
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="5">
-              </Tie>
-            <endSpanner id="4"/>
+            <endSpanner id="3"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <tick>35040</tick>
         <Harmony>
           <name>I</name>
-          <pos x="-0.435194" y="-2.3912"/>
           </Harmony>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <Tie id="6">
-              </Tie>
-            <endSpanner id="5"/>
-            <pitch>75</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
+        <tick>35520</tick>
         <Harmony>
-          <name>V2/IV</name>
-          <pos x="-2.50237" y="-2.3912"/>
-          </Harmony>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <endSpanner id="6"/>
-            <pitch>75</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <name>ii43</name>
-          <pos x="-0.296299" y="-2.50693"/>
+          <name>iiio6</name>
+          <pos x="-0.187501" y="-3.81251"/>
           </Harmony>
         <Beam id="15">
           <StemDirection>down</StemDirection>
@@ -1530,10 +1501,6 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>viio6/IV</name>
-          <pos x="-0.761589" y="-2.5"/>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -1556,7 +1523,7 @@
           </Dynamic>
         <Harmony>
           <name>ii6</name>
-          <pos x="2.03708" y="-2.50693"/>
+          <pos x="0.187501" y="-3.81251"/>
           </Harmony>
         <Beam id="16">
           <StemDirection>down</StemDirection>
@@ -1605,7 +1572,7 @@
           </Chord>
         <Harmony>
           <name>III7</name>
-          <pos x="-0.761589" y="-3.67361"/>
+          <pos x="0" y="-4.00001"/>
           </Harmony>
         <Beam id="17">
           <StemDirection>down</StemDirection>
@@ -1650,8 +1617,8 @@
           <yoffset>7</yoffset>
           </Dynamic>
         <Harmony>
-          <name>V65/V</name>
-          <pos x="-2.61117" y="-3.60542"/>
+          <name>II65</name>
+          <pos x="-1.74078" y="-4.36701"/>
           </Harmony>
         <Beam id="18">
           <StemDirection>down</StemDirection>
@@ -1666,8 +1633,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V(64)</name>
-          <pos x="0" y="-3.59491"/>
+          <name>I64</name>
+          <pos x="0" y="-3.81251"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -1708,7 +1675,6 @@
           </Chord>
         <Harmony>
           <name>V7</name>
-          <pos x="-0.119678" y="-3.33775"/>
           </Harmony>
         <Beam id="19">
           <StemDirection>down</StemDirection>
@@ -1749,8 +1715,8 @@
           <yoffset>7</yoffset>
           </Dynamic>
         <Harmony>
-          <name>#viio7/vi</name>
-          <pos x="-3.41882" y="-2.7713"/>
+          <name>#vo7</name>
+          <pos x="-0.187501" y="-3.25001"/>
           </Harmony>
         <Beam id="20">
           <StemDirection>down</StemDirection>
@@ -1766,7 +1732,6 @@
           </Chord>
         <Harmony>
           <name>vi</name>
-          <pos x="0.359035" y="-2.85904"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -1802,8 +1767,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V64/vi</name>
-          <pos x="-2.82042" y="-4.96945"/>
+          <name>vii%7</name>
+          <pos x="-0.187501" y="-5.68752"/>
           </Harmony>
         <Beam id="21">
           <StemDirection>down</StemDirection>
@@ -1823,10 +1788,6 @@
             <tpc>19</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>vii%7</name>
-          <pos x="-0.119678" y="-5.13292"/>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -1847,6 +1808,10 @@
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           </Dynamic>
+        <Harmony>
+          <name>vii%7</name>
+          <pos x="0.187501" y="-4.18751"/>
+          </Harmony>
         <Beam id="22">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -2282,7 +2247,7 @@
         </Measure>
       <Measure number="40">
         <Harmony>
-          <name>V43</name>
+          <name>iii.V43</name>
           <pos x="0" y="-3.21714"/>
           </Harmony>
         <Chord>
@@ -2553,7 +2518,7 @@
               <role>1</role>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="7">
+            <Tie id="4">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -2562,7 +2527,7 @@
         </Measure>
       <Measure number="46">
         <Harmony>
-          <name>IV(94)</name>
+          <name>IV(4+2)</name>
           <pos x="-1.74078" y="-3.33249"/>
           </Harmony>
         <Chord>
@@ -2570,7 +2535,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="7"/>
+            <endSpanner id="4"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -2603,7 +2568,7 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="8">
+            <Tie id="5">
               </Tie>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -2619,7 +2584,7 @@
           <durationType>eighth</durationType>
           <Beam>31</Beam>
           <Note>
-            <endSpanner id="8"/>
+            <endSpanner id="5"/>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
@@ -2644,7 +2609,7 @@
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="9">
+            <Tie id="6">
               </Tie>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -2652,12 +2617,11 @@
           </Chord>
         <Harmony>
           <name>V</name>
-          <pos x="-0.197815" y="-3.58798"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <endSpanner id="9"/>
+            <endSpanner id="6"/>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
@@ -2742,7 +2706,7 @@
           </Chord>
         <Harmony>
           <name>V7</name>
-          <pos x="0.20813" y="-3.65172"/>
+          <pos x="-0.187501" y="-4.93752"/>
           </Harmony>
         <Beam id="34">
           <StemDirection>down</StemDirection>
@@ -2771,7 +2735,7 @@
         </Measure>
       <Measure number="49">
         <Harmony>
-          <name>i[i64</name>
+          <name>i[i</name>
           </Harmony>
         <Beam id="35">
           <StemDirection>down</StemDirection>
@@ -2884,8 +2848,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i6</name>
-          <pos x="-0.184053" y="-4.05614"/>
+          <name>V43</name>
+          <pos x="0.187501" y="-6.06253"/>
           </Harmony>
         <Beam id="38">
           <StemDirection>down</StemDirection>
@@ -2899,10 +2863,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>#viio65</name>
-          <pos x="-1.74078" y="-4.24078"/>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -2915,8 +2875,8 @@
         </Measure>
       <Measure number="51">
         <Harmony>
-          <name>#viio43</name>
-          <pos x="0" y="-4.15898"/>
+          <name>V2</name>
+          <pos x="0" y="-5.12502"/>
           </Harmony>
         <Beam id="39">
           <StemDirection>down</StemDirection>
@@ -2963,10 +2923,6 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i6</name>
-          <pos x="0" y="-4.02318"/>
-          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -2993,7 +2949,7 @@
       <Measure number="52">
         <Harmony>
           <name>V43</name>
-          <pos x="-0.108798" y="-4.24305"/>
+          <pos x="0" y="-5.87503"/>
           </Harmony>
         <Beam id="41">
           <StemDirection>down</StemDirection>
@@ -3020,8 +2976,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>VI6</name>
-          <pos x="0" y="-4.67597"/>
+          <name>i</name>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -3041,10 +2996,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>#vi6</name>
-          <pos x="-1.95837" y="-5.00237"/>
-          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -3057,10 +3008,6 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>#viio6</name>
-          <pos x="-1.41438" y="-5.00237"/>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -3079,14 +3026,13 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <StaffText>
-          <pos x="0.108798" y="3.62725"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
           </StaffText>
         <Harmony>
-          <name>i6</name>
-          <pos x="0.0787025" y="-5.31945"/>
+          <name>i</name>
+          <pos x="0.187501" y="-6.62503"/>
           </Harmony>
         <Beam id="42">
           <StemDirection>down</StemDirection>
@@ -3131,8 +3077,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V6/iv</name>
-          <pos x="-0.030096" y="-5.67594"/>
+          <name>I</name>
+          <pos x="0.187501" y="-6.43753"/>
           </Harmony>
         <Beam id="44">
           <StemDirection>down</StemDirection>
@@ -3208,7 +3154,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V6/V</name>
+          <name>II2</name>
           <pos x="0.562504" y="-4.93752"/>
           </Harmony>
         <Beam id="47">
@@ -3234,6 +3180,10 @@
           </Chord>
         </Measure>
       <Measure number="55">
+        <Harmony>
+          <name>II2</name>
+          <pos x="0" y="-4.93752"/>
+          </Harmony>
         <Beam id="48">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -3247,7 +3197,6 @@
             </Note>
           </Chord>
         <StaffText>
-          <pos x="0.217597" y="3.84484"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -3262,8 +3211,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V]</name>
-          <pos x="0" y="-3.80558"/>
+          <name>v</name>
           </Harmony>
         <Beam id="49">
           <StemDirection>down</StemDirection>
@@ -3287,7 +3235,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V43/V</name>
+          <name>II43]</name>
           <pos x="0" y="-3.43751"/>
           </Harmony>
         <Beam id="50">
@@ -3315,7 +3263,7 @@
       <Measure number="56">
         <Harmony>
           <name>V65</name>
-          <pos x="-1.41438" y="-3.40741"/>
+          <pos x="0" y="-3.62501"/>
           </Harmony>
         <Beam id="51">
           <StemDirection>down</StemDirection>
@@ -3332,10 +3280,6 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i</name>
-          <pos x="0.217597" y="-3.26159"/>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -3348,6 +3292,10 @@
             <tpc>12</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>i</name>
+          <pos x="0" y="-3.25001"/>
+          </Harmony>
         <Beam id="52">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -3380,8 +3328,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V(64)</name>
-          <pos x="-1.11808" y="-3.54631"/>
+          <name>V7</name>
+          <pos x="0.187501" y="-3.43751"/>
           </Harmony>
         <Beam id="53">
           <StemDirection>down</StemDirection>
@@ -3398,10 +3346,6 @@
             <tpc>12</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V2</name>
-          <pos x="0.217597" y="-3.69678"/>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -3424,7 +3368,7 @@
           </Dynamic>
         <Harmony>
           <name>i6</name>
-          <pos x="0.108798" y="-3.57641"/>
+          <pos x="0" y="-3.25001"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -3438,10 +3382,6 @@
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
-        <Harmony>
-          <name>i64</name>
-          <pos x="0" y="-3.91438"/>
-          </Harmony>
         <Beam id="54">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -3466,8 +3406,8 @@
         </Measure>
       <Measure number="58">
         <Harmony>
-          <name>V43(4)</name>
-          <pos x="0" y="-4.1991"/>
+          <name>V43</name>
+          <pos x="0" y="-3.43751"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -3478,10 +3418,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V</name>
-          <pos x="1.08798" y="-4.45837"/>
-          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -3552,7 +3488,7 @@
         </Measure>
       <Measure number="60">
         <Harmony>
-          <name>V(2)</name>
+          <name>i(2)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -3590,7 +3526,6 @@
         </Measure>
       <Measure number="61">
         <StaffText>
-          <pos x="0.217597" y="3.85364"/>
           <xoffset>0</xoffset>
           <yoffset>6.9</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -3619,7 +3554,7 @@
           </Chord>
         <Harmony>
           <name>iv6</name>
-          <pos x="-0.0486075" y="-4.31483"/>
+          <pos x="-0.375003" y="-4.75002"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -3634,7 +3569,7 @@
       <Measure number="62">
         <Harmony>
           <name>V(4)</name>
-          <pos x="-0.12731" y="-4.14583"/>
+          <pos x="-0.562504" y="-5.12502"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -3647,7 +3582,7 @@
           </Chord>
         <Harmony>
           <name>V</name>
-          <pos x="-0.108798" y="-4.23612"/>
+          <pos x="0" y="-4.56252"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -3680,67 +3615,43 @@
           <yoffset>6.7</yoffset>
           </Dynamic>
         <Harmony>
-          <name>VI</name>
-          <pos x="-2.50237" y="-5.54636"/>
+          <name>i</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="10">
-              </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V43/iv</name>
-          <pos x="-3.37275" y="-5.76395"/>
-          </Harmony>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <endSpanner id="10"/>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <name>iv</name>
-          <pos x="0" y="-5.98155"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="11">
+            <Tie id="7">
               </Tie>
             <pitch>91</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <tick>87360</tick>
-        <Harmony>
-          <name>iio</name>
-          <pos x="0" y="-6.19915"/>
-          </Harmony>
         </Measure>
       <Measure number="64">
         <Harmony>
-          <name>V7/V</name>
-          <pos x="0.138894" y="-7.36118"/>
+          <name>II7</name>
+          <pos x="-0.187501" y="-4.75002"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="11"/>
+            <endSpanner id="7"/>
             <pitch>91</pitch>
             <tpc>15</tpc>
             </Note>
@@ -3810,6 +3721,9 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>i</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -3822,6 +3736,9 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>i</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -3918,7 +3835,6 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
-          <pos x="0.111544" y="6.12961"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           </Dynamic>
@@ -3957,6 +3873,9 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>i</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -3969,6 +3888,9 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>i</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -4035,7 +3957,6 @@
           <yoffset>5.8</yoffset>
           </Dynamic>
         <StaffText>
-          <pos x="-0.108798" y="-2.87039"/>
           <xoffset>0</xoffset>
           <yoffset>-2</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
@@ -4186,8 +4107,7 @@
           <text><sym>unicodeNoteQuarterUp</sym> = 70</text>
           </Tempo>
         <Harmony>
-          <name>III.I</name>
-          <pos x="-1.52318" y="-3.15279"/>
+          <name>I</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -4222,6 +4142,9 @@
           </Chord>
         </Measure>
       <Measure number="76">
+        <Harmony>
+          <name>I</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -4253,7 +4176,6 @@
           </Dynamic>
         <Harmony>
           <name>V43</name>
-          <pos x="-0.326395" y="-3.15279"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -4313,6 +4235,9 @@
           </Chord>
         </Measure>
       <Measure number="78">
+        <Harmony>
+          <name>I</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -4389,7 +4314,7 @@
           </Chord>
         <Harmony>
           <name>vi</name>
-          <pos x="-1.60188" y="-3.91666"/>
+          <pos x="-0.187501" y="-5.87503"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -4617,8 +4542,7 @@
           <text><sym>unicodeNoteQuarterUp</sym> = 120</text>
           </Tempo>
         <Harmony>
-          <name>IV64</name>
-          <pos x="-0.870388" y="-2.1736"/>
+          <name>vii%43</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -4629,10 +4553,6 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>viio64</name>
-          <pos x="0" y="-2.2824"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -4675,7 +4595,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>vi6</name>
+          <name>vi</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -4689,7 +4609,7 @@
         </Measure>
       <Measure number="83">
         <Harmony>
-          <name>ii2</name>
+          <name>ii</name>
           </Harmony>
         <Beam id="59">
           <StemDirection>down</StemDirection>
@@ -4712,9 +4632,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>ii</name>
-          </Harmony>
         <Beam id="60">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -4737,7 +4654,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>viio6</name>
+          <name>V43</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -4768,15 +4685,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <tick>114240</tick>
         <Harmony>
-          <name>I</name>
-          <pos x="-0.761589" y="-2.5"/>
-          </Harmony>
-        <tick>114720</tick>
-        <Harmony>
-          <name>V7(#5)/IV</name>
-          <pos x="-3.94684" y="-2.43515"/>
+          <name>I7(#5)</name>
+          <pos x="0.187501" y="-4.93752"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -4793,7 +4704,7 @@
         </Measure>
       <Measure number="85">
         <Harmony>
-          <name>IV64</name>
+          <name>IV</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -4824,7 +4735,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="12">
+            <Tie id="8">
               </Tie>
             <pitch>78</pitch>
             <tpc>20</tpc>
@@ -4840,7 +4751,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="12"/>
+            <endSpanner id="8"/>
             <pitch>78</pitch>
             <tpc>20</tpc>
             </Note>
@@ -4862,7 +4773,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="13">
+            <Tie id="9">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -4878,7 +4789,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="13"/>
+            <endSpanner id="9"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -4900,7 +4811,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="14">
+            <Tie id="10">
               </Tie>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -4916,7 +4827,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="14"/>
+            <endSpanner id="10"/>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
@@ -4948,7 +4859,7 @@
           </Chord>
         <Harmony>
           <name>I</name>
-          <pos x="-1.02779" y="-5.31252"/>
+          <pos x="-0.375003" y="-5.31252"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -4960,8 +4871,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(#5)/IV</name>
-          <pos x="-3.89375" y="-5.16396"/>
+          <name>I7(#5)</name>
+          <pos x="-0.956193" y="-5.49036"/>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -4984,7 +4895,7 @@
           </StaffText>
         <Harmony>
           <name>IV</name>
-          <pos x="0.483801" y="-5.20372"/>
+          <pos x="0.375003" y="-5.31252"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5170,8 +5081,7 @@
           <yoffset>7.6</yoffset>
           </Dynamic>
         <Harmony>
-          <name>V2/IV</name>
-          <pos x="0.108798" y="-4.24078"/>
+          <name>I2</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5195,7 +5105,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="15">
+            <Tie id="11">
               </Tie>
             <pitch>86</pitch>
             <tpc>16</tpc>
@@ -5204,15 +5114,15 @@
         </Measure>
       <Measure number="94">
         <Harmony>
-          <name>IV6(2)</name>
-          <pos x="-0.030096" y="-5.20372"/>
+          <name>IV6(7)</name>
+          <pos x="0.187501" y="-5.31252"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="15"/>
+            <endSpanner id="11"/>
             <pitch>86</pitch>
             <tpc>16</tpc>
             </Note>
@@ -5264,8 +5174,8 @@
           <yoffset>6.8</yoffset>
           </Dynamic>
         <Harmony>
-          <name>V64(2)</name>
-          <pos x="-2.19448" y="-4.70141"/>
+          <name>I64(5)</name>
+          <pos x="-0.562504" y="-4.37501"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5278,7 +5188,7 @@
           </Chord>
         <Harmony>
           <name>I6</name>
-          <pos x="0.0486075" y="-2.54395"/>
+          <pos x="0.375003" y="-4.93752"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5304,7 +5214,7 @@
         </Measure>
       <Measure number="96">
         <Harmony>
-          <name>V7(b9)</name>
+          <name>V7(b2)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5382,14 +5292,13 @@
           </Chord>
         <Harmony>
           <name>V2</name>
-          <pos x="-1.08798" y="-3.58798"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="16">
+            <Tie id="12">
               </Tie>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -5402,21 +5311,21 @@
           </LayoutBreak>
         <Harmony>
           <name>I6(72)</name>
-          <pos x="-1.71068" y="-3.49304"/>
+          <pos x="-0.187501" y="-5.12502"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="16"/>
+            <endSpanner id="12"/>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         <Harmony>
           <name>I6</name>
-          <pos x="-0.0486075" y="-3.66896"/>
+          <pos x="-0.375003" y="-6.06253"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5429,7 +5338,6 @@
           </Chord>
         <Harmony>
           <name>I64</name>
-          <pos x="0" y="-2.93519"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5465,12 +5373,12 @@
           </Rest>
         <tick>137280</tick>
         <Harmony>
-          <name>viio/IV</name>
+          <name>I2</name>
           </Harmony>
         </Measure>
       <Measure number="101">
         <Harmony>
-          <name>iv6(7)</name>
+          <name>iv6(5)</name>
           </Harmony>
         <Rest>
           <durationType>measure</durationType>
@@ -5489,7 +5397,7 @@
           <yoffset>7</yoffset>
           </Dynamic>
         <Harmony>
-          <name>V43(4)/IV</name>
+          <name>I43(7)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5497,7 +5405,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="17">
+            <Tie id="13">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -5505,7 +5413,7 @@
           </Chord>
         <tick>140160</tick>
         <Harmony>
-          <name>V43/IV</name>
+          <name>I43</name>
           </Harmony>
         </Measure>
       <Measure number="103">
@@ -5517,7 +5425,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="17"/>
+            <endSpanner id="13"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -5536,7 +5444,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="18">
+            <Tie id="14">
               </Tie>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -5545,21 +5453,21 @@
         </Measure>
       <Measure number="104">
         <Harmony>
-          <name>V2(9)/IV</name>
-          <pos x="-2.70838" y="-4.34492"/>
+          <name>I2(3)</name>
+          <pos x="-0.750006" y="-4.56252"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="18"/>
+            <endSpanner id="14"/>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         <Harmony>
-          <name>V2/IV</name>
+          <name>I2</name>
           <pos x="0" y="-4.37501"/>
           </Harmony>
         <Chord>
@@ -5576,7 +5484,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="19">
+            <Tie id="15">
               </Tie>
             <pitch>83</pitch>
             <tpc>19</tpc>
@@ -5588,15 +5496,15 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>iv6(7)</name>
-          <pos x="-2.17597" y="-4.93752"/>
+          <name>iv6(5)</name>
+          <pos x="0" y="-4.93752"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="19"/>
+            <endSpanner id="15"/>
             <pitch>83</pitch>
             <tpc>19</tpc>
             </Note>
@@ -5622,7 +5530,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="20">
+            <Tie id="16">
               </Tie>
             <pitch>84</pitch>
             <tpc>14</tpc>
@@ -5631,21 +5539,21 @@
         </Measure>
       <Measure number="106">
         <Harmony>
-          <name>V43(94)/IV</name>
-          <pos x="-3.06487" y="-5.57872"/>
+          <name>I43(75)</name>
+          <pos x="-0.562504" y="-5.68752"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="20"/>
+            <endSpanner id="16"/>
             <pitch>84</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         <Harmony>
-          <name>V43/IV</name>
+          <name>V43/vi</name>
           <pos x="0.375003" y="-5.50002"/>
           </Harmony>
         <Chord>
@@ -5737,7 +5645,7 @@
           <yoffset>7</yoffset>
           </Dynamic>
         <Harmony>
-          <name>V65/iv</name>
+          <name>IV65</name>
           <pos x="0" y="-3.81251"/>
           </Harmony>
         <Chord>
@@ -5754,14 +5662,13 @@
           </Chord>
         <Harmony>
           <name>I</name>
-          <pos x="-0.108798" y="-5.87275"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="21">
+            <Tie id="17">
               </Tie>
             <pitch>91</pitch>
             <tpc>15</tpc>
@@ -5770,23 +5677,19 @@
         </Measure>
       <Measure number="110">
         <Harmony>
-          <name>iv6(2)</name>
-          <pos x="-1.87967" y="-5.73613"/>
+          <name>iv6</name>
+          <pos x="0.187501" y="-6.06253"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="21"/>
+            <endSpanner id="17"/>
             <pitch>91</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>iv</name>
-          <pos x="-1.08798" y="-5.54636"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -5799,10 +5702,6 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>iv6</name>
-          <pos x="0" y="-5.32876"/>
-          </Harmony>
         <Beam id="65">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -5836,8 +5735,8 @@
           <yoffset>7</yoffset>
           </Dynamic>
         <Harmony>
-          <name>i64(119)</name>
-          <pos x="-2.70145" y="-4.55093"/>
+          <name>i64</name>
+          <pos x="0.562504" y="-5.31252"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5848,10 +5747,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i6</name>
-          <pos x="0" y="-4.45837"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -5861,10 +5756,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i</name>
-          <pos x="0" y="-4.67597"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -5873,7 +5764,7 @@
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="22">
+            <Tie id="18">
               </Tie>
             <pitch>87</pitch>
             <tpc>11</tpc>
@@ -5882,14 +5773,13 @@
         </Measure>
       <Measure number="112">
         <StaffText>
-          <pos x="0.435194" y="3.90322"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
           </StaffText>
         <Harmony>
           <name>i64</name>
-          <pos x="0" y="-4.45837"/>
+          <pos x="0.239048" y="-5.12953"/>
           </Harmony>
         <Beam id="66">
           <StemDirection>down</StemDirection>
@@ -5899,7 +5789,7 @@
           <durationType>eighth</durationType>
           <Beam>66</Beam>
           <Note>
-            <endSpanner id="22"/>
+            <endSpanner id="18"/>
             <pitch>87</pitch>
             <tpc>11</tpc>
             </Note>
@@ -5913,9 +5803,6 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>VI6</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -5929,8 +5816,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i</name>
-          <pos x="0.326395" y="-2.5"/>
+          <name>i(742)</name>
           </Harmony>
         <Beam id="67">
           <StemDirection>up</StemDirection>
@@ -5944,10 +5830,6 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i(1197)</name>
-          <pos x="-1.95837" y="-2.5"/>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -6030,7 +5912,7 @@
         </Measure>
       <Measure number="116">
         <Harmony>
-          <name>i(94)</name>
+          <name>i(42)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -6065,7 +5947,7 @@
           <mode>major</mode>
           </KeySig>
         <Harmony>
-          <name>I.ii43</name>
+          <name>ii43</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -6080,13 +5962,12 @@
         </Measure>
       <Measure number="118">
         <StaffText>
-          <pos x="0" y="4.17124"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
           </StaffText>
         <Harmony>
-          <name>V7/IV</name>
+          <name>.bIII7</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -6104,8 +5985,7 @@
         </Measure>
       <Measure number="119">
         <Harmony>
-          <name>IVM43</name>
-          <pos x="-3.04636" y="-2.5"/>
+          <name>.bVI</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -6117,19 +5997,14 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <tick>164640</tick>
-        <Harmony>
-          <name>IV</name>
-          </Harmony>
         <tick>165120</tick>
         <Harmony>
-          <name>ii</name>
+          <name>iv</name>
           </Harmony>
         </Measure>
       <Measure number="120">
         <Harmony>
-          <name>V2(2)/IV</name>
-          <pos x="-3.48155" y="-2.5"/>
+          <name>.bIII2</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -6141,13 +6016,9 @@
             <tpc>12</tpc>
             </Note>
           </Chord>
-        <tick>166080</tick>
-        <Harmony>
-          <name>I6</name>
-          </Harmony>
         <tick>166560</tick>
         <Harmony>
-          <name>I</name>
+          <name>.bIII7</name>
           </Harmony>
         </Measure>
       <Measure number="121">
@@ -6158,7 +6029,7 @@
           <yoffset>7</yoffset>
           </Dynamic>
         <Harmony>
-          <name>#viio65/V</name>
+          <name>vio65</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -6217,6 +6088,9 @@
           </Chord>
         </Measure>
       <Measure number="122">
+        <Harmony>
+          <name>vio43</name>
+          </Harmony>
         <Chord>
           <durationType>16th</durationType>
           <grace16/>
@@ -6288,6 +6162,9 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
+        <Harmony>
+          <name>vio65</name>
+          </Harmony>
         <Beam id="69">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -6380,6 +6257,10 @@
           </Chord>
         </Measure>
       <Measure number="124">
+        <Harmony>
+          <name>vio65</name>
+          <pos x="-0.187501" y="-4.00001"/>
+          </Harmony>
         <Beam id="71">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -6470,7 +6351,7 @@
         </Measure>
       <Measure number="125">
         <Harmony>
-          <name>v6</name>
+          <name>.bvii6</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -6523,6 +6404,9 @@
           </Chord>
         </Measure>
       <Measure number="126">
+        <Harmony>
+          <name>.bvii6</name>
+          </Harmony>
         <Chord>
           <durationType>16th</durationType>
           <grace16/>
@@ -6585,6 +6469,9 @@
           </Chord>
         </Measure>
       <Measure number="127">
+        <Harmony>
+          <name>.bvii6</name>
+          </Harmony>
         <Beam id="75">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -6677,6 +6564,10 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
+        <Harmony>
+          <name>.bvii6</name>
+          <pos x="-0.187501" y="-5.87503"/>
+          </Harmony>
         <Beam id="78">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -6725,7 +6616,7 @@
         </Measure>
       <Measure number="129">
         <Harmony>
-          <name>ii.Ger6</name>
+          <name>.bII7</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -6781,6 +6672,9 @@
           </Chord>
         </Measure>
       <Measure number="130">
+        <Harmony>
+          <name>.bII7</name>
+          </Harmony>
         <Chord>
           <durationType>16th</durationType>
           <grace16/>
@@ -6843,6 +6737,9 @@
           </Chord>
         </Measure>
       <Measure number="131">
+        <Harmony>
+          <name>.bII7</name>
+          </Harmony>
         <Beam id="80">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -6926,6 +6823,10 @@
           </Chord>
         </Measure>
       <Measure number="132">
+        <Harmony>
+          <name>.bII7</name>
+          <pos x="0.187501" y="-6.25003"/>
+          </Harmony>
         <Beam id="82">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -7012,8 +6913,7 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>V</name>
-          <pos x="0" y="-4.02318"/>
+          <name>I</name>
           </Harmony>
         <Beam id="83">
           <StemDirection>down</StemDirection>
@@ -7088,6 +6988,9 @@
           </Chord>
         </Measure>
       <Measure number="134">
+        <Harmony>
+          <name>I</name>
+          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -7118,10 +7021,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V6\\</name>
-          <pos x="0" y="-4.24078"/>
-          </Harmony>
         <Chord>
           <durationType>16th</durationType>
           <Articulation>
@@ -7184,7 +7083,7 @@
           <text><sym>unicodeNoteQuarterUp</sym> = 70</text>
           </Tempo>
         <Harmony>
-          <name>VI.I</name>
+          <name>I</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7201,6 +7100,9 @@
           </Chord>
         </Measure>
       <Measure number="136">
+        <Harmony>
+          <name>I</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -7270,6 +7172,10 @@
           </Chord>
         </Measure>
       <Measure number="138">
+        <Harmony>
+          <name>I</name>
+          <pos x="0" y="-3.62501"/>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -7339,7 +7245,7 @@
           <text><sym>unicodeNoteQuarterUp</sym> = 120</text>
           </Tempo>
         <Harmony>
-          <name>I6</name>
+          <name>I</name>
           <pos x="-0.187501" y="-5.12502"/>
           </Harmony>
         <Chord>
@@ -7348,7 +7254,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="23">
+            <Tie id="19">
               </Tie>
             <pitch>91</pitch>
             <tpc>15</tpc>
@@ -7356,12 +7262,16 @@
           </Chord>
         </Measure>
       <Measure number="140">
+        <Harmony>
+          <name>I</name>
+          <pos x="0.562504" y="-6.06253"/>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="23"/>
+            <endSpanner id="19"/>
             <pitch>91</pitch>
             <tpc>15</tpc>
             </Note>
@@ -7372,15 +7282,12 @@
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           </Dynamic>
-        <Harmony>
-          <name>I64</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="24">
+            <Tie id="20">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -7391,12 +7298,15 @@
         <LayoutBreak>
           <subtype>page</subtype>
           </LayoutBreak>
+        <Harmony>
+          <name>I</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="24"/>
+            <endSpanner id="20"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -7410,10 +7320,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>vi6</name>
-          <pos x="-1.30558" y="-2.6088"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -7426,7 +7332,7 @@
         </Measure>
       <Measure number="142">
         <Harmony>
-          <name>ii6</name>
+          <name>V2</name>
           </Harmony>
         <Beam id="84">
           <StemDirection>down</StemDirection>
@@ -7449,9 +7355,6 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>IV6</name>
-          </Harmony>
         <Beam id="85">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -7474,29 +7377,16 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>IV64</name>
+          <name>V43</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="25">
-              </Tie>
-            <pitch>77</pitch>
-            <tpc>13</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <name>viio6</name>
-          </Harmony>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <endSpanner id="25"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -7505,7 +7395,6 @@
       <Measure number="143">
         <Harmony>
           <name>I64</name>
-          <pos x="0.979186" y="-2.5"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7593,8 +7482,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>ii6</name>
-          <pos x="-0.108798" y="-3.91438"/>
+          <name>V2</name>
           </Harmony>
         <Beam id="88">
           <StemDirection>down</StemDirection>
@@ -7611,10 +7499,6 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>I64</name>
-          <pos x="-0.326395" y="-4.02318"/>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -7628,8 +7512,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>IV6</name>
-          <pos x="0" y="-4.02318"/>
+          <name>V65</name>
           </Harmony>
         <Beam id="89">
           <StemDirection>down</StemDirection>
@@ -7664,10 +7547,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V65</name>
-          <pos x="-0.217597" y="-4.02318"/>
-          </Harmony>
         <Chord>
           <Tuplet>3</Tuplet>
           <BeamMode>end</BeamMode>
@@ -7711,10 +7590,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>vi6</name>
-          <pos x="0" y="-4.02318"/>
-          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -7745,8 +7620,8 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>V65(4)</name>
-          <pos x="-0.979186" y="-6.81026"/>
+          <name>V65</name>
+          <pos x="0" y="-3.43751"/>
           </Harmony>
         <Beam id="91">
           <StemDirection>down</StemDirection>
@@ -7760,10 +7635,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V65</name>
-          <pos x="0.217597" y="-6.63434"/>
-          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -7777,8 +7648,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>IV6</name>
-          <pos x="-0.0787025" y="-6.6783"/>
+          <name>V7</name>
+          <pos x="-0.187501" y="-4.93752"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -7792,10 +7663,6 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>I64</name>
-          <pos x="0" y="-6.74314"/>
-          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -7809,8 +7676,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>ii6</name>
-          <pos x="-0.435194" y="-6.87272"/>
+          <name>V43</name>
+          <pos x="0" y="-6.43753"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -7824,10 +7691,6 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>viio6</name>
-          <pos x="0.108798" y="-7.06954"/>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -7865,7 +7728,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>I.viio6</name>
+          <name>iiio2</name>
           </Harmony>
         <Beam id="92">
           <StemDirection>down</StemDirection>
@@ -7896,6 +7759,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>v6</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -7919,6 +7785,9 @@
           <xoffset>0</xoffset>
           <yoffset>7.3</yoffset>
           </Dynamic>
+        <Harmony>
+          <name>iiio2</name>
+          </Harmony>
         <Beam id="93">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -7948,6 +7817,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>iiio65</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -7962,6 +7834,9 @@
           </Chord>
         </Measure>
       <Measure number="149">
+        <Harmony>
+          <name>iiio43</name>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -8009,7 +7884,7 @@
         </Measure>
       <Measure number="150">
         <Harmony>
-          <name>ii6</name>
+          <name>iv6</name>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
@@ -8112,6 +7987,9 @@
           </Chord>
         </Measure>
       <Measure number="152">
+        <Harmony>
+          <name>iv</name>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -8167,6 +8045,9 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
+        <Harmony>
+          <name>iv</name>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -8214,7 +8095,7 @@
         </Measure>
       <Measure number="154">
         <Harmony>
-          <name>viio7/ii</name>
+          <name>iiio7</name>
           <pos x="0" y="-4.00001"/>
           </Harmony>
         <Rest>
@@ -8267,7 +8148,7 @@
         </Measure>
       <Measure number="155">
         <Harmony>
-          <name>V7</name>
+          <name>.bIII7</name>
           <pos x="0.375003" y="-4.00001"/>
           </Harmony>
         <Rest>
@@ -8325,6 +8206,9 @@
           </Chord>
         </Measure>
       <Measure number="156">
+        <Harmony>
+          <name>.bIII7</name>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -8380,6 +8264,10 @@
           </Chord>
         </Measure>
       <Measure number="157">
+        <Harmony>
+          <name>vo65</name>
+          <pos x="0.187501" y="-4.37501"/>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -8429,11 +8317,15 @@
           </Chord>
         </Measure>
       <Measure number="158">
+        <Harmony>
+          <name>vo2</name>
+          <pos x="0" y="-3.62501"/>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>IV64</name>
+          <name>.bVI64</name>
           <pos x="-0.375003" y="-3.81251"/>
           </Harmony>
         <Beam id="103">
@@ -8462,6 +8354,10 @@
             <tpc>10</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>.bVI6</name>
+          <pos x="0.562504" y="-4.18751"/>
+          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -8471,10 +8367,6 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>IV6</name>
-          <pos x="-0.108798" y="-3.80558"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -8501,8 +8393,8 @@
           <mode>major</mode>
           </KeySig>
         <Harmony>
-          <name>IV</name>
-          <pos x="-0.652791" y="-3.69213"/>
+          <name>.bVI</name>
+          <pos x="0" y="-4.56252"/>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
@@ -8556,6 +8448,9 @@
           </Chord>
         </Measure>
       <Measure number="160">
+        <Harmony>
+          <name>.bVI</name>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -8608,6 +8503,10 @@
           </Chord>
         </Measure>
       <Measure number="161">
+        <Harmony>
+          <name>.bVI</name>
+          <pos x="0.187501" y="-4.18751"/>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -8655,8 +8554,8 @@
         </Measure>
       <Measure number="162">
         <Harmony>
-          <name>ii.viio65</name>
-          <pos x="-3.07645" y="-2.87035"/>
+          <name>iiio65</name>
+          <pos x="0.187501" y="-4.93752"/>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
@@ -8690,10 +8589,6 @@
             <tpc>10</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>iv6</name>
-          <pos x="0.217597" y="-3.15279"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -8709,8 +8604,7 @@
         </Measure>
       <Measure number="163">
         <Harmony>
-          <name>V7</name>
-          <pos x="0" y="-3.04399"/>
+          <name>I7</name>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
@@ -8750,9 +8644,6 @@
             <tpc>10</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>iv6</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -8768,7 +8659,7 @@
         </Measure>
       <Measure number="164">
         <Harmony>
-          <name>V7</name>
+          <name>I7(+2)</name>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
@@ -8826,14 +8717,13 @@
           <subtype>page</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>viio65</name>
-          <pos x="-3.10655" y="-2.79165"/>
+          <name>iiio65</name>
+          <pos x="0.375003" y="-4.75002"/>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
         <StaffText>
-          <pos x="0.217597" y="3.84484"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -8882,13 +8772,13 @@
         </Measure>
       <Measure number="166">
         <Harmony>
-          <name>V</name>
+          <name>I7</name>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>III</name>
+          <name>iv6</name>
           <pos x="0" y="-3.81251"/>
           </Harmony>
         <Beam id="111">
@@ -8926,32 +8816,14 @@
             <tpc>19</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i</name>
-          <pos x="0" y="-4.24078"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="26">
-              </Tie>
-            <pitch>84</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <name>V43</name>
-          <pos x="-0.217597" y="-4.56717"/>
-          </Harmony>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <endSpanner id="26"/>
             <pitch>84</pitch>
             <tpc>14</tpc>
             </Note>
@@ -8965,7 +8837,7 @@
           <yoffset>6</yoffset>
           </Dynamic>
         <Harmony>
-          <name>i6</name>
+          <name>iv6</name>
           <pos x="-0.187501" y="-4.75002"/>
           </Harmony>
         <Chord>
@@ -8987,8 +8859,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>I.V2</name>
-          <pos x="-0.157406" y="-4.46065"/>
+          <name>.bVII2</name>
+          <pos x="-0.375003" y="-5.87503"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9006,8 +8878,8 @@
         </Measure>
       <Measure number="168">
         <Harmony>
-          <name>I6</name>
-          <pos x="0.030096" y="-4.64815"/>
+          <name>I.I6</name>
+          <pos x="-0.187501" y="-6.06253"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9033,7 +8905,6 @@
           </Chord>
         <Harmony>
           <name>IV</name>
-          <pos x="0" y="-4.56717"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9048,7 +8919,6 @@
       <Measure number="169">
         <Harmony>
           <name>V7</name>
-          <pos x="0.108798" y="-4.45837"/>
           </Harmony>
         <Beam id="112">
           <StemDirection>down</StemDirection>
@@ -9071,10 +8941,6 @@
             <tpc>10</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V65</name>
-          <pos x="0.217597" y="-4.45837"/>
-          </Harmony>
         <Beam id="113">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -9096,10 +8962,6 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V43</name>
-          <pos x="-0.108798" y="-4.34957"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -9114,6 +8976,10 @@
           </Chord>
         </Measure>
       <Measure number="170">
+        <Harmony>
+          <name>V43</name>
+          <pos x="-0.750006" y="-4.56252"/>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -9178,10 +9044,6 @@
             <tpc>19</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>ii64</name>
-          <pos x="0" y="-4.67597"/>
-          </Harmony>
         <Beam id="115">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -9285,9 +9147,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>vi6</name>
-          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -9313,7 +9172,7 @@
         </Measure>
       <Measure number="173">
         <Harmony>
-          <name>I</name>
+          <name>I6</name>
           </Harmony>
         <Beam id="119">
           <StemDirection>down</StemDirection>
@@ -9337,7 +9196,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>vii%7</name>
+          <name>V43</name>
           </Harmony>
         <Beam id="120">
           <StemDirection>down</StemDirection>
@@ -9407,9 +9266,6 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>viio6</name>
-          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -9419,9 +9275,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>I6</name>
-          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -9432,7 +9285,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>ii6</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -9443,9 +9296,6 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>iii6</name>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -9458,7 +9308,7 @@
         </Measure>
       <Measure number="175">
         <Harmony>
-          <name>III6</name>
+          <name>IV6</name>
           </Harmony>
         <Beam id="122">
           <StemDirection>up</StemDirection>
@@ -9472,9 +9322,6 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>IV6</name>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -9504,7 +9351,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="27">
+            <Tie id="21">
               </Tie>
             <pitch>68</pitch>
             <tpc>10</tpc>
@@ -9526,7 +9373,7 @@
           <durationType>eighth</durationType>
           <Beam>123</Beam>
           <Note>
-            <endSpanner id="27"/>
+            <endSpanner id="21"/>
             <pitch>68</pitch>
             <tpc>10</tpc>
             </Note>
@@ -9560,7 +9407,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="28">
+            <Tie id="22">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -9579,7 +9426,7 @@
           <durationType>eighth</durationType>
           <Beam>124</Beam>
           <Note>
-            <endSpanner id="28"/>
+            <endSpanner id="22"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -9598,7 +9445,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="29">
+            <Tie id="23">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -9613,7 +9460,7 @@
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
           <Note>
-            <endSpanner id="29"/>
+            <endSpanner id="23"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -9663,7 +9510,6 @@
         </Measure>
       <Measure number="179">
         <StaffText>
-          <pos x="0" y="3.98004"/>
           <xoffset>0</xoffset>
           <yoffset>6.7</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -9784,7 +9630,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="30">
+            <Tie id="24">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -9803,7 +9649,7 @@
           <durationType>eighth</durationType>
           <Beam>128</Beam>
           <Note>
-            <endSpanner id="30"/>
+            <endSpanner id="24"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -10176,7 +10022,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="31">
+            <Tie id="25">
               </Tie>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -10192,7 +10038,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="31"/>
+            <endSpanner id="25"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -10250,7 +10096,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="32">
+            <Tie id="26">
               </Tie>
             <pitch>80</pitch>
             <tpc>10</tpc>
@@ -10267,7 +10113,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="32"/>
+            <endSpanner id="26"/>
             <pitch>80</pitch>
             <tpc>10</tpc>
             </Note>
@@ -10551,7 +10397,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="33">
+            <Tie id="27">
               </Tie>
             <pitch>68</pitch>
             <tpc>10</tpc>
@@ -10567,7 +10413,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="33"/>
+            <endSpanner id="27"/>
             <pitch>68</pitch>
             <tpc>10</tpc>
             </Note>
@@ -12783,7 +12629,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="34">
+            <Tie id="28">
               </Tie>
             <pitch>87</pitch>
             <tpc>11</tpc>
@@ -12800,7 +12646,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="34"/>
+            <endSpanner id="28"/>
             <pitch>87</pitch>
             <tpc>11</tpc>
             </Note>
@@ -13741,7 +13587,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="35">
+            <Tie id="29">
               </Tie>
             <pitch>84</pitch>
             <tpc>14</tpc>
@@ -13763,7 +13609,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="35"/>
+            <endSpanner id="29"/>
             <pitch>84</pitch>
             <tpc>14</tpc>
             </Note>
@@ -13827,7 +13673,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="36">
+            <Tie id="30">
               </Tie>
             <pitch>80</pitch>
             <tpc>10</tpc>
@@ -13844,7 +13690,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="36"/>
+            <endSpanner id="30"/>
             <pitch>80</pitch>
             <tpc>10</tpc>
             </Note>
@@ -13954,7 +13800,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="37">
+            <Tie id="31">
               </Tie>
             <pitch>87</pitch>
             <tpc>11</tpc>
@@ -13971,7 +13817,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="37"/>
+            <endSpanner id="31"/>
             <pitch>87</pitch>
             <tpc>11</tpc>
             </Note>
@@ -13998,7 +13844,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="38">
+            <Tie id="32">
               </Tie>
             <pitch>91</pitch>
             <tpc>15</tpc>
@@ -14015,7 +13861,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="38"/>
+            <endSpanner id="32"/>
             <pitch>91</pitch>
             <tpc>15</tpc>
             </Note>
@@ -14120,7 +13966,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="39">
+            <Tie id="33">
               </Tie>
             <pitch>89</pitch>
             <tpc>13</tpc>
@@ -14150,7 +13996,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="39"/>
+            <endSpanner id="33"/>
             <pitch>89</pitch>
             <tpc>13</tpc>
             </Note>
@@ -14683,7 +14529,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="40">
+            <Tie id="34">
               </Tie>
             <pitch>87</pitch>
             <tpc>11</tpc>
@@ -14703,7 +14549,7 @@
           <durationType>eighth</durationType>
           <Beam>202</Beam>
           <Note>
-            <endSpanner id="40"/>
+            <endSpanner id="34"/>
             <pitch>87</pitch>
             <tpc>11</tpc>
             </Note>
@@ -14978,7 +14824,7 @@
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="41">
+            <Tie id="35">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -15000,7 +14846,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="41"/>
+            <endSpanner id="35"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -15010,7 +14856,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="42">
+            <Tie id="36">
               </Tie>
             <pitch>58</pitch>
             <tpc>12</tpc>
@@ -15023,7 +14869,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="42"/>
+            <endSpanner id="36"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
@@ -15033,7 +14879,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="43">
+            <Tie id="37">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -15046,7 +14892,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="43"/>
+            <endSpanner id="37"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -15056,7 +14902,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="44">
+            <Tie id="38">
               </Tie>
             <pitch>58</pitch>
             <tpc>12</tpc>
@@ -15069,7 +14915,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="44"/>
+            <endSpanner id="38"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
@@ -15102,7 +14948,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="45">
+            <Tie id="39">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -15115,7 +14961,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="45"/>
+            <endSpanner id="39"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -16688,7 +16534,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="46">
+            <Tie id="40">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -16707,7 +16553,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="46"/>
+            <endSpanner id="40"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -16717,7 +16563,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="47">
+            <Tie id="41">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -16730,7 +16576,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="47"/>
+            <endSpanner id="41"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -16761,7 +16607,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="48">
+            <Tie id="42">
               </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -16774,7 +16620,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="48"/>
+            <endSpanner id="42"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -17014,7 +16860,6 @@
         </Measure>
       <Measure number="53">
         <StaffText>
-          <pos x="0.108798" y="5.13992"/>
           <xoffset>0</xoffset>
           <yoffset>-0.3</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
@@ -17093,7 +16938,7 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="49">
+            <Tie id="43">
               </Tie>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -17109,7 +16954,7 @@
           <durationType>eighth</durationType>
           <Beam>243</Beam>
           <Note>
-            <endSpanner id="49"/>
+            <endSpanner id="43"/>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
@@ -17124,7 +16969,6 @@
             </Note>
           </Chord>
         <StaffText>
-          <pos x="-0.217597" y="3.76074"/>
           <xoffset>0</xoffset>
           <yoffset>-0.7</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -17387,7 +17231,6 @@
         </Measure>
       <Measure number="61">
         <StaffText>
-          <pos x="0.217597" y="4.28004"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -17398,7 +17241,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="50">
+            <Tie id="44">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -17411,7 +17254,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="50"/>
+            <endSpanner id="44"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -17827,7 +17670,6 @@
           <durationType>quarter</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="-2.24078"/>
           <xoffset>0</xoffset>
           <yoffset>-0.5</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
@@ -18216,13 +18058,13 @@
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="51">
+            <Tie id="45">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <Tie id="52">
+            <Tie id="46">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -18240,12 +18082,12 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="51"/>
+            <endSpanner id="45"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <endSpanner id="52"/>
+            <endSpanner id="46"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -18276,7 +18118,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="53">
+            <Tie id="47">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -18289,7 +18131,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="53"/>
+            <endSpanner id="47"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -18308,7 +18150,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="54">
+            <Tie id="48">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -18324,7 +18166,7 @@
           <durationType>eighth</durationType>
           <Beam>257</Beam>
           <Note>
-            <endSpanner id="54"/>
+            <endSpanner id="48"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -18352,7 +18194,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="55">
+            <Tie id="49">
               </Tie>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -18365,7 +18207,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="55"/>
+            <endSpanner id="49"/>
             <pitch>66</pitch>
             <tpc>20</tpc>
             </Note>
@@ -18416,7 +18258,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="56">
+            <Tie id="50">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -18429,7 +18271,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="56"/>
+            <endSpanner id="50"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -18477,13 +18319,13 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="57">
+            <Tie id="51">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           <Note>
-            <Tie id="58">
+            <Tie id="52">
               </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -18499,12 +18341,12 @@
           <durationType>eighth</durationType>
           <Beam>258</Beam>
           <Note>
-            <endSpanner id="57"/>
+            <endSpanner id="51"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           <Note>
-            <endSpanner id="58"/>
+            <endSpanner id="52"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -18591,7 +18433,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="59">
+            <Tie id="53">
               </Tie>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -18604,7 +18446,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="59"/>
+            <endSpanner id="53"/>
             <pitch>66</pitch>
             <tpc>20</tpc>
             </Note>
@@ -18623,7 +18465,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="60">
+            <Tie id="54">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -18636,7 +18478,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="60"/>
+            <endSpanner id="54"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -18655,7 +18497,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="61">
+            <Tie id="55">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -18668,7 +18510,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="61"/>
+            <endSpanner id="55"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -18895,7 +18737,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="62">
+            <Tie id="56">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -18908,7 +18750,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="62"/>
+            <endSpanner id="56"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -18927,7 +18769,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="63">
+            <Tie id="57">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -18940,7 +18782,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="63"/>
+            <endSpanner id="57"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -18959,7 +18801,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="64">
+            <Tie id="58">
               </Tie>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -18972,7 +18814,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="64"/>
+            <endSpanner id="58"/>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
@@ -18994,7 +18836,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="65">
+            <Tie id="59">
               </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -19007,7 +18849,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="65"/>
+            <endSpanner id="59"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -19045,13 +18887,11 @@
         </Measure>
       <Measure number="103">
         <StaffText>
-          <pos x="0.217597" y="-6.62876"/>
           <xoffset>0</xoffset>
           <yoffset>-3.8</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
           </StaffText>
         <StaffText>
-          <pos x="0" y="4.71523"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -19104,7 +18944,7 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="66">
+            <Tie id="60">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -19123,7 +18963,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="66"/>
+            <endSpanner id="60"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -19296,7 +19136,7 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="67">
+            <Tie id="61">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -19315,7 +19155,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="67"/>
+            <endSpanner id="61"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -19352,7 +19192,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="68">
+            <Tie id="62">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -19368,7 +19208,7 @@
           <durationType>eighth</durationType>
           <Beam>270</Beam>
           <Note>
-            <endSpanner id="68"/>
+            <endSpanner id="62"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -19461,7 +19301,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="69">
+            <Tie id="63">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -19474,7 +19314,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="69"/>
+            <endSpanner id="63"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -19496,7 +19336,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="70">
+            <Tie id="64">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -19509,7 +19349,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="70"/>
+            <endSpanner id="64"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -19531,7 +19371,7 @@
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="71">
+            <Tie id="65">
               </Tie>
             <pitch>63</pitch>
             <tpc>11</tpc>
@@ -19548,7 +19388,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="71"/>
+            <endSpanner id="65"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -19567,7 +19407,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="72">
+            <Tie id="66">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -19576,7 +19416,6 @@
         </Measure>
       <Measure number="118">
         <StaffText>
-          <pos x="0" y="4.85364"/>
           <xoffset>0</xoffset>
           <yoffset>7.9</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -19586,7 +19425,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="72"/>
+            <endSpanner id="66"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -19605,7 +19444,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="73">
+            <Tie id="67">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -19618,7 +19457,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="73"/>
+            <endSpanner id="67"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -19637,7 +19476,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="74">
+            <Tie id="68">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -19650,7 +19489,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="74"/>
+            <endSpanner id="68"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -20908,13 +20747,13 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="75">
+            <Tie id="69">
               </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
-            <Tie id="76">
+            <Tie id="70">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -20927,12 +20766,12 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="75"/>
+            <endSpanner id="69"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
-            <endSpanner id="76"/>
+            <endSpanner id="70"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -20948,7 +20787,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="77">
+            <Tie id="71">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -20962,7 +20801,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="77"/>
+            <endSpanner id="71"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -22078,7 +21917,6 @@
             </Note>
           </Chord>
         <StaffText>
-          <pos x="0" y="3.76244"/>
           <xoffset>0</xoffset>
           <yoffset>6.7</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -22170,7 +22008,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="78">
+            <Tie id="72">
               </Tie>
             <pitch>70</pitch>
             <tpc>12</tpc>
@@ -22183,7 +22021,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="78"/>
+            <endSpanner id="72"/>
             <pitch>70</pitch>
             <tpc>12</tpc>
             </Note>
@@ -22226,7 +22064,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="79">
+            <Tie id="73">
               </Tie>
             <pitch>68</pitch>
             <tpc>10</tpc>
@@ -22239,7 +22077,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="79"/>
+            <endSpanner id="73"/>
             <pitch>68</pitch>
             <tpc>10</tpc>
             </Note>
@@ -22572,7 +22410,6 @@
           <durationType>quarter</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="4.02725"/>
           <xoffset>0</xoffset>
           <yoffset>7.4</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -23382,7 +23219,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="80">
+            <Tie id="74">
               </Tie>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -23395,7 +23232,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="80"/>
+            <endSpanner id="74"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -23476,7 +23313,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="81">
+            <Tie id="75">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -23489,7 +23326,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="81"/>
+            <endSpanner id="75"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -23509,7 +23346,7 @@
               <role>1</role>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="82">
+            <Tie id="76">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -23522,7 +23359,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="82"/>
+            <endSpanner id="76"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -23538,7 +23375,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="83">
+            <Tie id="77">
               </Tie>
             <pitch>80</pitch>
             <tpc>10</tpc>
@@ -23551,7 +23388,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="83"/>
+            <endSpanner id="77"/>
             <pitch>80</pitch>
             <tpc>10</tpc>
             </Note>
@@ -24139,7 +23976,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="84">
+            <Tie id="78">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -24155,7 +23992,7 @@
           <durationType>eighth</durationType>
           <Beam>329</Beam>
           <Note>
-            <endSpanner id="84"/>
+            <endSpanner id="78"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -24204,7 +24041,7 @@
           <durationType>eighth</durationType>
           <Beam>330</Beam>
           <Note>
-            <Tie id="85">
+            <Tie id="79">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -24216,7 +24053,7 @@
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
           <Note>
-            <endSpanner id="85"/>
+            <endSpanner id="79"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -24458,7 +24295,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="86">
+            <Tie id="80">
               </Tie>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -24476,7 +24313,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="86"/>
+            <endSpanner id="80"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -24486,7 +24323,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="87">
+            <Tie id="81">
               </Tie>
             <pitch>63</pitch>
             <tpc>11</tpc>
@@ -24499,7 +24336,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="87"/>
+            <endSpanner id="81"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -24512,7 +24349,7 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="88">
+            <Tie id="82">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -24533,7 +24370,7 @@
           <durationType>eighth</durationType>
           <Beam>337</Beam>
           <Note>
-            <endSpanner id="88"/>
+            <endSpanner id="82"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -24705,7 +24542,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="89">
+            <Tie id="83">
               </Tie>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -24718,7 +24555,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="89"/>
+            <endSpanner id="83"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -24828,7 +24665,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="90">
+            <Tie id="84">
               </Tie>
             <pitch>63</pitch>
             <tpc>11</tpc>
@@ -24841,7 +24678,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="90"/>
+            <endSpanner id="84"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -25350,7 +25187,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="91">
+            <Tie id="85">
               </Tie>
             <pitch>68</pitch>
             <tpc>10</tpc>
@@ -25363,7 +25200,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="91"/>
+            <endSpanner id="85"/>
             <pitch>68</pitch>
             <tpc>10</tpc>
             </Note>
@@ -25473,7 +25310,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="92">
+            <Tie id="86">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -25486,7 +25323,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="92"/>
+            <endSpanner id="86"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -26048,13 +25885,13 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="93">
+            <Tie id="87">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
           <Note>
-            <Tie id="94">
+            <Tie id="88">
               </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -26067,12 +25904,12 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="93"/>
+            <endSpanner id="87"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
           <Note>
-            <endSpanner id="94"/>
+            <endSpanner id="88"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -26103,7 +25940,7 @@
               <role>1</role>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="95">
+            <Tie id="89">
               </Tie>
             <pitch>68</pitch>
             <tpc>10</tpc>
@@ -26116,7 +25953,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="95"/>
+            <endSpanner id="89"/>
             <pitch>68</pitch>
             <tpc>10</tpc>
             </Note>
@@ -26320,7 +26157,7 @@
               <role>1</role>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="96">
+            <Tie id="90">
               </Tie>
             <pitch>70</pitch>
             <tpc>12</tpc>
@@ -26333,7 +26170,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="96"/>
+            <endSpanner id="90"/>
             <pitch>70</pitch>
             <tpc>12</tpc>
             </Note>
@@ -26754,7 +26591,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="97">
+            <Tie id="91">
               </Tie>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -26767,7 +26604,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="97"/>
+            <endSpanner id="91"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -26777,7 +26614,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="98">
+            <Tie id="92">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -26790,7 +26627,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="98"/>
+            <endSpanner id="92"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -26800,7 +26637,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="99">
+            <Tie id="93">
               </Tie>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -26819,7 +26656,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="99"/>
+            <endSpanner id="93"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -26829,7 +26666,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="100">
+            <Tie id="94">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -26842,7 +26679,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="100"/>
+            <endSpanner id="94"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -26856,7 +26693,7 @@
             <tpc>11</tpc>
             </Note>
           <Note>
-            <Tie id="101">
+            <Tie id="95">
               </Tie>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -26869,7 +26706,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="101"/>
+            <endSpanner id="95"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -26879,7 +26716,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="102">
+            <Tie id="96">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -26892,7 +26729,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="102"/>
+            <endSpanner id="96"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -27139,7 +26976,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="103">
+            <Tie id="97">
               </Tie>
             <pitch>51</pitch>
             <tpc>11</tpc>
@@ -27163,7 +27000,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="103"/>
+            <endSpanner id="97"/>
             <pitch>51</pitch>
             <tpc>11</tpc>
             </Note>
@@ -27182,7 +27019,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="104">
+            <Tie id="98">
               </Tie>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -27195,7 +27032,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="104"/>
+            <endSpanner id="98"/>
             <pitch>53</pitch>
             <tpc>13</tpc>
             </Note>
@@ -27205,7 +27042,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="105">
+            <Tie id="99">
               </Tie>
             <pitch>51</pitch>
             <tpc>11</tpc>
@@ -27218,7 +27055,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="105"/>
+            <endSpanner id="99"/>
             <pitch>51</pitch>
             <tpc>11</tpc>
             </Note>
@@ -27228,7 +27065,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="106">
+            <Tie id="100">
               </Tie>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -27241,7 +27078,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="106"/>
+            <endSpanner id="100"/>
             <pitch>50</pitch>
             <tpc>16</tpc>
             </Note>
@@ -27292,7 +27129,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="107">
+            <Tie id="101">
               </Tie>
             <pitch>58</pitch>
             <tpc>12</tpc>
@@ -27305,7 +27142,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="107"/>
+            <endSpanner id="101"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
@@ -27524,7 +27361,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="108">
+            <Tie id="102">
               </Tie>
             <pitch>51</pitch>
             <tpc>11</tpc>
@@ -27537,7 +27374,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="108"/>
+            <endSpanner id="102"/>
             <pitch>51</pitch>
             <tpc>11</tpc>
             </Note>
@@ -28963,7 +28800,7 @@
           <durationType>eighth</durationType>
           <Beam>417</Beam>
           <Note>
-            <Tie id="109">
+            <Tie id="103">
               </Tie>
             <pitch>51</pitch>
             <tpc>11</tpc>
@@ -28976,7 +28813,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="109"/>
+            <endSpanner id="103"/>
             <pitch>51</pitch>
             <tpc>11</tpc>
             </Note>
@@ -29007,7 +28844,7 @@
           <durationType>eighth</durationType>
           <Beam>418</Beam>
           <Note>
-            <Tie id="110">
+            <Tie id="104">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -29027,9 +28864,9 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="111">
+            <Tie id="105">
               </Tie>
-            <endSpanner id="110"/>
+            <endSpanner id="104"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -29041,7 +28878,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="111"/>
+            <endSpanner id="105"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -29051,7 +28888,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="112">
+            <Tie id="106">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -29064,7 +28901,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="112"/>
+            <endSpanner id="106"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -29194,7 +29031,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <track>9</track>
-            <Tie id="113">
+            <Tie id="107">
               <track>9</track>
               </Tie>
             <pitch>55</pitch>
@@ -29253,10 +29090,10 @@
           <StemDirection>down</StemDirection>
           <Note>
             <track>9</track>
-            <Tie id="114">
+            <Tie id="108">
               <track>9</track>
               </Tie>
-            <endSpanner id="113"/>
+            <endSpanner id="107"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -29267,7 +29104,7 @@
           <durationType>eighth</durationType>
           <Note>
             <track>9</track>
-            <endSpanner id="114"/>
+            <endSpanner id="108"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -29320,7 +29157,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <track>9</track>
-            <Tie id="115">
+            <Tie id="109">
               <track>9</track>
               </Tie>
             <pitch>55</pitch>
@@ -29346,7 +29183,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="116">
+            <Tie id="110">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -29361,10 +29198,10 @@
           <StemDirection>down</StemDirection>
           <Note>
             <track>9</track>
-            <Tie id="117">
+            <Tie id="111">
               <track>9</track>
               </Tie>
-            <endSpanner id="115"/>
+            <endSpanner id="109"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -29372,7 +29209,6 @@
         </Measure>
       <Measure number="53">
         <StaffText>
-          <pos x="0" y="5.72961"/>
           <xoffset>0</xoffset>
           <yoffset>6.6</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
@@ -29382,7 +29218,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="116"/>
+            <endSpanner id="110"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -29392,6 +29228,8 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
+            <Tie id="112">
+              </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -29405,10 +29243,10 @@
           <StemDirection>down</StemDirection>
           <Note>
             <track>9</track>
-            <Tie id="118">
+            <Tie id="113">
               <track>9</track>
               </Tie>
-            <endSpanner id="117"/>
+            <endSpanner id="111"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -29454,10 +29292,10 @@
           <StemDirection>down</StemDirection>
           <Note>
             <track>9</track>
-            <Tie id="119">
+            <Tie id="114">
               <track>9</track>
               </Tie>
-            <endSpanner id="118"/>
+            <endSpanner id="113"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -29498,6 +29336,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
+            <endSpanner id="112"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -29535,7 +29374,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <track>9</track>
-            <endSpanner id="119"/>
+            <endSpanner id="114"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -29654,7 +29493,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="120">
+            <Tie id="115">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -29667,7 +29506,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="120"/>
+            <endSpanner id="115"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -29766,7 +29605,6 @@
         </Measure>
       <Measure number="61">
         <StaffText>
-          <pos x="-0.108798" y="4.12725"/>
           <xoffset>0</xoffset>
           <yoffset>7.5</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -29777,7 +29615,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="121">
+            <Tie id="116">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -29790,7 +29628,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="121"/>
+            <endSpanner id="116"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -30071,7 +29909,6 @@
           <yoffset>7</yoffset>
           </Dynamic>
         <StaffText>
-          <pos x="0.217597" y="-2.45837"/>
           <xoffset>0</xoffset>
           <yoffset>-0.5</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
@@ -30102,7 +29939,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="122">
+            <Tie id="117">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -30116,7 +29953,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="122"/>
+            <endSpanner id="117"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -30175,7 +30012,6 @@
           <durationType>quarter</durationType>
           </Rest>
         <StaffText>
-          <pos x="0.108798" y="-2.54078"/>
           <xoffset>0</xoffset>
           <yoffset>-0.8</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
@@ -30212,7 +30048,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="123">
+            <Tie id="118">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -30226,7 +30062,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="123"/>
+            <endSpanner id="118"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -30488,17 +30324,23 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
+          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="124">
+            <Tie id="119">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
-            <Tie id="125">
+            <Tie id="120">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -30516,12 +30358,12 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="124"/>
+            <endSpanner id="119"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
-            <endSpanner id="125"/>
+            <endSpanner id="120"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -30581,7 +30423,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="126">
+            <Tie id="121">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -30594,7 +30436,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="126"/>
+            <endSpanner id="121"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -30633,7 +30475,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="127">
+            <Tie id="122">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -30646,7 +30488,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="127"/>
+            <endSpanner id="122"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -30656,7 +30498,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="128">
+            <Tie id="123">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -30669,7 +30511,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="128"/>
+            <endSpanner id="123"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -30823,7 +30665,7 @@
               <role>1</role>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="129">
+            <Tie id="124">
               </Tie>
             <pitch>54</pitch>
             <tpc>20</tpc>
@@ -30836,7 +30678,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="129"/>
+            <endSpanner id="124"/>
             <pitch>54</pitch>
             <tpc>20</tpc>
             </Note>
@@ -30855,7 +30697,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="130">
+            <Tie id="125">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -30868,7 +30710,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="130"/>
+            <endSpanner id="125"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -30887,7 +30729,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="131">
+            <Tie id="126">
               </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -30900,7 +30742,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="131"/>
+            <endSpanner id="126"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -31127,7 +30969,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="132">
+            <Tie id="127">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -31140,7 +30982,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="132"/>
+            <endSpanner id="127"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -31220,7 +31062,6 @@
         </Measure>
       <Measure number="103">
         <StaffText>
-          <pos x="0.108798" y="5.60085"/>
           <xoffset>0</xoffset>
           <yoffset>9.3</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -31250,7 +31091,7 @@
             <tpc>13</tpc>
             </Note>
           <Note>
-            <Tie id="133">
+            <Tie id="128">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -31263,7 +31104,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="133"/>
+            <endSpanner id="128"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -31282,7 +31123,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="134">
+            <Tie id="129">
               </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -31295,7 +31136,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="134"/>
+            <endSpanner id="129"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -31388,13 +31229,13 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="135">
+            <Tie id="130">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
-            <Tie id="136">
+            <Tie id="131">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -31408,12 +31249,12 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="135"/>
+            <endSpanner id="130"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
-            <endSpanner id="136"/>
+            <endSpanner id="131"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -31440,7 +31281,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="137">
+            <Tie id="132">
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -31449,7 +31290,6 @@
         </Measure>
       <Measure number="112">
         <StaffText>
-          <pos x="0" y="-4.16395"/>
           <xoffset>0</xoffset>
           <yoffset>-0.9</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
@@ -31462,7 +31302,7 @@
           <durationType>eighth</durationType>
           <Beam>443</Beam>
           <Note>
-            <endSpanner id="137"/>
+            <endSpanner id="132"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -31688,7 +31528,6 @@
         </Measure>
       <Measure number="118">
         <StaffText>
-          <pos x="-0.108798" y="3.73605"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -32838,13 +32677,13 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="138">
+            <Tie id="133">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
-            <Tie id="139">
+            <Tie id="134">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -32852,22 +32691,28 @@
           </Chord>
         </Measure>
       <Measure number="140">
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          <xoffset>0</xoffset>
+          <yoffset>5.9</yoffset>
+          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="140">
+            <Tie id="135">
               </Tie>
-            <endSpanner id="138"/>
+            <endSpanner id="133"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
-            <Tie id="141">
+            <Tie id="136">
               </Tie>
-            <endSpanner id="139"/>
+            <endSpanner id="134"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -32879,12 +32724,12 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="140"/>
+            <endSpanner id="135"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
-            <endSpanner id="141"/>
+            <endSpanner id="136"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -33864,7 +33709,6 @@
             </Note>
           </Chord>
         <StaffText>
-          <pos x="-0.108798" y="3.66566"/>
           <xoffset>0</xoffset>
           <yoffset>7.8</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -33942,7 +33786,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <track>9</track>
-            <Tie id="142">
+            <Tie id="137">
               <track>9</track>
               </Tie>
             <pitch>48</pitch>
@@ -33959,7 +33803,7 @@
           <durationType>eighth</durationType>
           <Beam>465</Beam>
           <Note>
-            <endSpanner id="142"/>
+            <endSpanner id="137"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -34011,7 +33855,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="143">
+            <Tie id="138">
               </Tie>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -34027,7 +33871,7 @@
           <durationType>eighth</durationType>
           <Beam>467</Beam>
           <Note>
-            <endSpanner id="143"/>
+            <endSpanner id="138"/>
             <pitch>53</pitch>
             <tpc>13</tpc>
             </Note>
@@ -34084,7 +33928,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="144">
+            <Tie id="139">
               </Tie>
             <pitch>58</pitch>
             <tpc>12</tpc>
@@ -34097,7 +33941,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="144"/>
+            <endSpanner id="139"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
@@ -34199,7 +34043,7 @@
           <durationType>eighth</durationType>
           <Beam>470</Beam>
           <Note>
-            <Tie id="145">
+            <Tie id="140">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -34215,7 +34059,7 @@
           <durationType>eighth</durationType>
           <Beam>471</Beam>
           <Note>
-            <endSpanner id="145"/>
+            <endSpanner id="140"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -34243,7 +34087,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="146">
+            <Tie id="141">
               </Tie>
             <pitch>51</pitch>
             <tpc>11</tpc>
@@ -34259,7 +34103,7 @@
           <durationType>eighth</durationType>
           <Beam>472</Beam>
           <Note>
-            <endSpanner id="146"/>
+            <endSpanner id="141"/>
             <pitch>51</pitch>
             <tpc>11</tpc>
             </Note>
@@ -35243,7 +35087,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="147">
+            <Tie id="142">
               </Tie>
             <pitch>68</pitch>
             <tpc>10</tpc>
@@ -35256,7 +35100,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="147"/>
+            <endSpanner id="142"/>
             <pitch>68</pitch>
             <tpc>10</tpc>
             </Note>
@@ -36359,7 +36203,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="148">
+            <Tie id="143">
               </Tie>
             <pitch>51</pitch>
             <tpc>11</tpc>
@@ -36378,9 +36222,9 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="149">
+            <Tie id="144">
               </Tie>
-            <endSpanner id="148"/>
+            <endSpanner id="143"/>
             <pitch>51</pitch>
             <tpc>11</tpc>
             </Note>
@@ -36392,7 +36236,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="149"/>
+            <endSpanner id="144"/>
             <pitch>51</pitch>
             <tpc>11</tpc>
             </Note>
@@ -36471,7 +36315,7 @@
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="150">
+            <Tie id="145">
               </Tie>
             <pitch>54</pitch>
             <tpc>8</tpc>
@@ -36495,7 +36339,7 @@
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
           <Note>
-            <endSpanner id="150"/>
+            <endSpanner id="145"/>
             <pitch>54</pitch>
             <tpc>8</tpc>
             </Note>
@@ -36538,7 +36382,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="151">
+            <Tie id="146">
               </Tie>
             <pitch>51</pitch>
             <tpc>11</tpc>
@@ -36552,9 +36396,9 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="152">
+            <Tie id="147">
               </Tie>
-            <endSpanner id="151"/>
+            <endSpanner id="146"/>
             <pitch>51</pitch>
             <tpc>11</tpc>
             </Note>
@@ -36567,9 +36411,9 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="153">
+            <Tie id="148">
               </Tie>
-            <endSpanner id="152"/>
+            <endSpanner id="147"/>
             <pitch>51</pitch>
             <tpc>11</tpc>
             </Note>
@@ -36581,7 +36425,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="153"/>
+            <endSpanner id="148"/>
             <pitch>51</pitch>
             <tpc>11</tpc>
             </Note>
@@ -36913,7 +36757,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="154">
+            <Tie id="149">
               </Tie>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -36926,7 +36770,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="154"/>
+            <endSpanner id="149"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -37218,7 +37062,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="155">
+            <Tie id="150">
               </Tie>
             <pitch>58</pitch>
             <tpc>12</tpc>
@@ -37231,7 +37075,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="155"/>
+            <endSpanner id="150"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
@@ -37445,7 +37289,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="156">
+            <Tie id="151">
               </Tie>
             <pitch>63</pitch>
             <tpc>11</tpc>
@@ -37459,9 +37303,9 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="157">
+            <Tie id="152">
               </Tie>
-            <endSpanner id="156"/>
+            <endSpanner id="151"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -37473,7 +37317,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="157"/>
+            <endSpanner id="152"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -37483,7 +37327,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="158">
+            <Tie id="153">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -37497,7 +37341,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="158"/>
+            <endSpanner id="153"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -37710,7 +37554,7 @@
           <durationType>eighth</durationType>
           <Beam>531</Beam>
           <Note>
-            <Tie id="159">
+            <Tie id="154">
               </Tie>
             <pitch>58</pitch>
             <tpc>12</tpc>
@@ -37723,7 +37567,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="159"/>
+            <endSpanner id="154"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
@@ -37733,7 +37577,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="160">
+            <Tie id="155">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -37746,7 +37590,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="160"/>
+            <endSpanner id="155"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -37756,7 +37600,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="161">
+            <Tie id="156">
               </Tie>
             <pitch>63</pitch>
             <tpc>11</tpc>
@@ -37769,7 +37613,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="161"/>
+            <endSpanner id="156"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -37779,7 +37623,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="162">
+            <Tie id="157">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -37792,7 +37636,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="162"/>
+            <endSpanner id="157"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -37811,7 +37655,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="163">
+            <Tie id="158">
               </Tie>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -37829,7 +37673,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="163"/>
+            <endSpanner id="158"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -37848,7 +37692,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="164">
+            <Tie id="159">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -37861,7 +37705,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="164"/>
+            <endSpanner id="159"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -37871,7 +37715,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="165">
+            <Tie id="160">
               </Tie>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -37884,7 +37728,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="165"/>
+            <endSpanner id="160"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -37894,7 +37738,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="166">
+            <Tie id="161">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -37907,7 +37751,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="166"/>
+            <endSpanner id="161"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -38524,7 +38368,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="167">
+            <Tie id="162">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -38537,7 +38381,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="167"/>
+            <endSpanner id="162"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -38556,7 +38400,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="168">
+            <Tie id="163">
               </Tie>
             <pitch>56</pitch>
             <tpc>10</tpc>
@@ -38569,7 +38413,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="168"/>
+            <endSpanner id="163"/>
             <pitch>56</pitch>
             <tpc>10</tpc>
             </Note>
@@ -38616,7 +38460,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="169">
+            <Tie id="164">
               </Tie>
             <pitch>58</pitch>
             <tpc>12</tpc>
@@ -38629,7 +38473,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="169"/>
+            <endSpanner id="164"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
@@ -38777,7 +38621,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="170">
+            <Tie id="165">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -38790,7 +38634,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="170"/>
+            <endSpanner id="165"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -38821,7 +38665,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="171">
+            <Tie id="166">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -38834,7 +38678,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="171"/>
+            <endSpanner id="166"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -39172,7 +39016,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="172">
+            <Tie id="167">
               </Tie>
             <pitch>56</pitch>
             <tpc>10</tpc>
@@ -39185,7 +39029,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="172"/>
+            <endSpanner id="167"/>
             <pitch>56</pitch>
             <tpc>10</tpc>
             </Note>
@@ -39570,7 +39414,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="173">
+            <Tie id="168">
               </Tie>
             <pitch>46</pitch>
             <tpc>12</tpc>
@@ -39583,7 +39427,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="173"/>
+            <endSpanner id="168"/>
             <pitch>46</pitch>
             <tpc>12</tpc>
             </Note>
@@ -40442,7 +40286,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="174">
+            <Tie id="169">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -40456,7 +40300,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="174"/>
+            <endSpanner id="169"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -40469,7 +40313,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="175">
+            <Tie id="170">
               <SlurSegment no="0">
                 <o2 x="0.435194" y="2.93756"/>
                 <o3 x="0.435194" y="2.93756"/>
@@ -40483,7 +40327,7 @@
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="176">
+            <Tie id="171">
               <SlurSegment no="0">
                 <o1 x="0.326395" y="-0.761589"/>
                 </SlurSegment>
@@ -40499,7 +40343,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="176"/>
+            <endSpanner id="171"/>
             <pitch>54</pitch>
             <tpc>20</tpc>
             </Note>
@@ -40530,7 +40374,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <track>13</track>
-            <endSpanner id="175"/>
+            <endSpanner id="170"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -40575,7 +40419,7 @@
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="177">
+            <Tie id="172">
               </Tie>
             <pitch>49</pitch>
             <tpc>21</tpc>
@@ -40595,7 +40439,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="177"/>
+            <endSpanner id="172"/>
             <pitch>49</pitch>
             <tpc>21</tpc>
             </Note>
@@ -40818,7 +40662,6 @@
         </Measure>
       <Measure number="53">
         <StaffText>
-          <pos x="0.108798" y="4.23283"/>
           <xoffset>0</xoffset>
           <yoffset>6.3</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
@@ -40863,7 +40706,7 @@
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="178">
+            <Tie id="173">
               </Tie>
             <pitch>61</pitch>
             <tpc>21</tpc>
@@ -40872,7 +40715,6 @@
         </Measure>
       <Measure number="55">
         <StaffText>
-          <pos x="0.217597" y="4.19442"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -40882,7 +40724,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="178"/>
+            <endSpanner id="173"/>
             <pitch>61</pitch>
             <tpc>21</tpc>
             </Note>
@@ -41075,7 +40917,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="179">
+            <Tie id="174">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -41088,7 +40930,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="179"/>
+            <endSpanner id="174"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -41117,7 +40959,6 @@
         </Measure>
       <Measure number="61">
         <StaffText>
-          <pos x="0" y="5.92725"/>
           <xoffset>0</xoffset>
           <yoffset>9.3</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -41538,7 +41379,6 @@
           <transposingClefType>G</transposingClefType>
           </Clef>
         <StaffText>
-          <pos x="0.108798" y="-3.70558"/>
           <xoffset>0</xoffset>
           <yoffset>-2.4</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
@@ -41546,7 +41386,6 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.220342" y="6.73841"/>
           <xoffset>0</xoffset>
           <yoffset>7.5</yoffset>
           </Dynamic>
@@ -41867,16 +41706,8 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.331886" y="7.75837"/>
           <xoffset>0</xoffset>
           <yoffset>5.8</yoffset>
-          </Dynamic>
-        <Dynamic>
-          <subtype>p</subtype>
-          <velocity>49</velocity>
-          <pos x="-0.034142" y="-2.85654"/>
-          <xoffset>0</xoffset>
-          <yoffset>6</yoffset>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -41983,7 +41814,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="180">
+            <Tie id="175">
               </Tie>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -41996,7 +41827,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="180"/>
+            <endSpanner id="175"/>
             <pitch>66</pitch>
             <tpc>20</tpc>
             </Note>
@@ -42040,7 +41871,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="181">
+            <Tie id="176">
               </Tie>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -42066,7 +41897,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="181"/>
+            <endSpanner id="176"/>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -42076,7 +41907,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="182">
+            <Tie id="177">
               </Tie>
             <pitch>47</pitch>
             <tpc>19</tpc>
@@ -42089,7 +41920,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="182"/>
+            <endSpanner id="177"/>
             <pitch>47</pitch>
             <tpc>19</tpc>
             </Note>
@@ -42099,7 +41930,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="183">
+            <Tie id="178">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -42112,7 +41943,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="183"/>
+            <endSpanner id="178"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
@@ -42317,7 +42148,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="184">
+            <Tie id="179">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -42330,7 +42161,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="184"/>
+            <endSpanner id="179"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -42383,7 +42214,6 @@
         </Measure>
       <Measure number="103">
         <StaffText>
-          <pos x="0.217597" y="4.37446"/>
           <xoffset>0</xoffset>
           <yoffset>8.4</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -42445,7 +42275,6 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
-          <pos x="0.114289" y="9.02403"/>
           <xoffset>0</xoffset>
           <yoffset>11.2</yoffset>
           </Dynamic>
@@ -42632,13 +42461,11 @@
         </Measure>
       <Measure number="112">
         <StaffText>
-          <pos x="0" y="-5.90795"/>
           <xoffset>0</xoffset>
           <yoffset>-2.1</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
           </StaffText>
         <StaffText>
-          <pos x="0.217597" y="4.71287"/>
           <xoffset>0</xoffset>
           <yoffset>9.5</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
@@ -42657,7 +42484,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="185">
+            <Tie id="180">
               </Tie>
             <pitch>36</pitch>
             <tpc>14</tpc>
@@ -42668,7 +42495,6 @@
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>33</velocity>
-          <pos x="0.114289" y="8.49442"/>
           <xoffset>0</xoffset>
           <yoffset>9.8</yoffset>
           </Dynamic>
@@ -42677,7 +42503,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="185"/>
+            <endSpanner id="180"/>
             <pitch>36</pitch>
             <tpc>14</tpc>
             </Note>
@@ -42699,7 +42525,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="186">
+            <Tie id="181">
               </Tie>
             <pitch>38</pitch>
             <tpc>16</tpc>
@@ -42712,7 +42538,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="186"/>
+            <endSpanner id="181"/>
             <pitch>38</pitch>
             <tpc>16</tpc>
             </Note>
@@ -42828,7 +42654,6 @@
         </Measure>
       <Measure number="118">
         <StaffText>
-          <pos x="0.108798" y="6.35043"/>
           <xoffset>0</xoffset>
           <yoffset>8.2</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -42839,7 +42664,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="187">
+            <Tie id="182">
               </Tie>
             <pitch>39</pitch>
             <tpc>11</tpc>
@@ -42852,7 +42677,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="187"/>
+            <endSpanner id="182"/>
             <pitch>39</pitch>
             <tpc>11</tpc>
             </Note>
@@ -43728,7 +43553,6 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
-          <pos x="0.57557" y="-2.31255"/>
           <xoffset>0</xoffset>
           <yoffset>-1</yoffset>
           </Dynamic>
@@ -43738,13 +43562,13 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="188">
+            <Tie id="183">
               </Tie>
             <pitch>40</pitch>
             <tpc>18</tpc>
             </Note>
           <Note>
-            <Tie id="189">
+            <Tie id="184">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -43752,24 +43576,17 @@
           </Chord>
         </Measure>
       <Measure number="140">
-        <Dynamic>
-          <subtype>p</subtype>
-          <velocity>49</velocity>
-          <pos x="0.360047" y="-3.18294"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.9</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="188"/>
+            <endSpanner id="183"/>
             <pitch>40</pitch>
             <tpc>18</tpc>
             </Note>
           <Note>
-            <endSpanner id="189"/>
+            <endSpanner id="184"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -43785,7 +43602,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="190">
+            <Tie id="185">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -43799,7 +43616,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="190"/>
+            <endSpanner id="185"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -44960,7 +44777,6 @@
             </Note>
           </Chord>
         <StaffText>
-          <pos x="-0.108798" y="4.97446"/>
           <xoffset>0</xoffset>
           <yoffset>9</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -45035,7 +44851,6 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.440684" y="5.79763"/>
           <xoffset>0</xoffset>
           <yoffset>8.3</yoffset>
           </Dynamic>
@@ -45100,7 +44915,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="191">
+            <Tie id="186">
               </Tie>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -45113,7 +44928,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="191"/>
+            <endSpanner id="186"/>
             <pitch>53</pitch>
             <tpc>13</tpc>
             </Note>
@@ -45173,7 +44988,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="192">
+            <Tie id="187">
               </Tie>
             <pitch>56</pitch>
             <tpc>10</tpc>
@@ -45186,7 +45001,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="192"/>
+            <endSpanner id="187"/>
             <pitch>56</pitch>
             <tpc>10</tpc>
             </Note>
@@ -45196,7 +45011,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="193">
+            <Tie id="188">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -45209,7 +45024,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="193"/>
+            <endSpanner id="188"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -45228,7 +45043,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="194">
+            <Tie id="189">
               </Tie>
             <pitch>46</pitch>
             <tpc>12</tpc>
@@ -45244,7 +45059,7 @@
           <durationType>eighth</durationType>
           <Beam>610</Beam>
           <Note>
-            <endSpanner id="194"/>
+            <endSpanner id="189"/>
             <pitch>46</pitch>
             <tpc>12</tpc>
             </Note>
@@ -45566,13 +45381,11 @@
         </Measure>
       <Measure number="179">
         <StaffText>
-          <pos x="-0.108798" y="3.84484"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
           </StaffText>
         <StaffText>
-          <pos x="-0.108798" y="-4.03992"/>
           <xoffset>0</xoffset>
           <yoffset>1.4</yoffset>
           <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -45708,7 +45521,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="195">
+            <Tie id="190">
               </Tie>
             <pitch>63</pitch>
             <tpc>11</tpc>
@@ -45721,7 +45534,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="195"/>
+            <endSpanner id="190"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -47113,7 +46926,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="196">
+            <Tie id="191">
               </Tie>
             <pitch>39</pitch>
             <tpc>11</tpc>
@@ -47127,9 +46940,9 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="197">
+            <Tie id="192">
               </Tie>
-            <endSpanner id="196"/>
+            <endSpanner id="191"/>
             <pitch>39</pitch>
             <tpc>11</tpc>
             </Note>
@@ -47142,9 +46955,9 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="198">
+            <Tie id="193">
               </Tie>
-            <endSpanner id="197"/>
+            <endSpanner id="192"/>
             <pitch>39</pitch>
             <tpc>11</tpc>
             </Note>
@@ -47156,7 +46969,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="198"/>
+            <endSpanner id="193"/>
             <pitch>39</pitch>
             <tpc>11</tpc>
             </Note>
@@ -47200,7 +47013,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="199">
+            <Tie id="194">
               </Tie>
             <pitch>44</pitch>
             <tpc>10</tpc>
@@ -47218,7 +47031,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="199"/>
+            <endSpanner id="194"/>
             <pitch>44</pitch>
             <tpc>10</tpc>
             </Note>
@@ -47231,7 +47044,7 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="200">
+            <Tie id="195">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -47249,7 +47062,7 @@
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
           <Note>
-            <endSpanner id="200"/>
+            <endSpanner id="195"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
@@ -47536,7 +47349,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="201">
+            <Tie id="196">
               </Tie>
             <pitch>86</pitch>
             <tpc>16</tpc>
@@ -47549,7 +47362,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="201"/>
+            <endSpanner id="196"/>
             <pitch>86</pitch>
             <tpc>16</tpc>
             </Note>
@@ -47844,7 +47657,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="202">
+            <Tie id="197">
               </Tie>
             <pitch>63</pitch>
             <tpc>11</tpc>
@@ -47857,7 +47670,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="202"/>
+            <endSpanner id="197"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -48346,7 +48159,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="203">
+            <Tie id="198">
               </Tie>
             <pitch>58</pitch>
             <tpc>12</tpc>
@@ -48359,7 +48172,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="203"/>
+            <endSpanner id="198"/>
             <pitch>58</pitch>
             <tpc>12</tpc>
             </Note>
@@ -48607,7 +48420,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="204">
+            <Tie id="199">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -48620,7 +48433,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="204"/>
+            <endSpanner id="199"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -48630,7 +48443,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="205">
+            <Tie id="200">
               </Tie>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -48643,7 +48456,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="205"/>
+            <endSpanner id="200"/>
             <pitch>53</pitch>
             <tpc>13</tpc>
             </Note>
@@ -48653,7 +48466,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="206">
+            <Tie id="201">
               </Tie>
             <pitch>51</pitch>
             <tpc>11</tpc>
@@ -48678,7 +48491,7 @@
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="206"/>
+            <endSpanner id="201"/>
             <pitch>51</pitch>
             <tpc>11</tpc>
             </Note>
@@ -48691,7 +48504,7 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="207">
+            <Tie id="202">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -48704,7 +48517,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="207"/>
+            <endSpanner id="202"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
@@ -48717,7 +48530,7 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="208">
+            <Tie id="203">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -48730,7 +48543,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="208"/>
+            <endSpanner id="203"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
@@ -48749,7 +48562,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="209">
+            <Tie id="204">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -48762,7 +48575,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="209"/>
+            <endSpanner id="204"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -48842,7 +48655,7 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="210">
+            <Tie id="205">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -48855,7 +48668,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="210"/>
+            <endSpanner id="205"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
@@ -48983,7 +48796,7 @@
               <role>1</role>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="211">
+            <Tie id="206">
               </Tie>
             <pitch>38</pitch>
             <tpc>16</tpc>
@@ -49001,7 +48814,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="211"/>
+            <endSpanner id="206"/>
             <pitch>38</pitch>
             <tpc>16</tpc>
             </Note>
@@ -49020,7 +48833,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="212">
+            <Tie id="207">
               </Tie>
             <pitch>39</pitch>
             <tpc>11</tpc>
@@ -49033,7 +48846,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="212"/>
+            <endSpanner id="207"/>
             <pitch>39</pitch>
             <tpc>11</tpc>
             </Note>
@@ -49052,7 +48865,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="213">
+            <Tie id="208">
               </Tie>
             <pitch>41</pitch>
             <tpc>13</tpc>
@@ -49065,7 +48878,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="213"/>
+            <endSpanner id="208"/>
             <pitch>41</pitch>
             <tpc>13</tpc>
             </Note>
@@ -49109,7 +48922,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="214">
+            <Tie id="209">
               </Tie>
             <pitch>56</pitch>
             <tpc>10</tpc>
@@ -49122,7 +48935,7 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="214"/>
+            <endSpanner id="209"/>
             <pitch>56</pitch>
             <tpc>10</tpc>
             </Note>
