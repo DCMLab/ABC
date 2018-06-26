@@ -294,7 +294,7 @@
         </Measure>
       <Measure number="5">
         <Harmony>
-          <name>.bVII6(6+#7)</name>
+          <name>.bVII6(6+#2)</name>
           <pos x="-6.00815" y="-2.36939"/>
           </Harmony>
         <Chord>
@@ -600,7 +600,6 @@
             </Note>
           </Chord>
         <StaffText>
-          <pos x="0.237783" y="4.73326"/>
           <xoffset>0</xoffset>
           <yoffset>8.3</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -733,7 +732,6 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.301607" y="5.92217"/>
           <xoffset>0</xoffset>
           <yoffset>8.3</yoffset>
           </Dynamic>
@@ -1156,7 +1154,7 @@
           </Chord>
         <Harmony>
           <name>V43/IV</name>
-          <pos x="-0.83224" y="-2.93666"/>
+          <pos x="0" y="-5.43338"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1426,7 +1424,6 @@
           </Chord>
         <Harmony>
           <name>viio43/V</name>
-          <pos x="-2.14005" y="-2.38111"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1444,6 +1441,9 @@
         <LayoutBreak>
           <subtype>page</subtype>
           </LayoutBreak>
+        <Harmony>
+          <name>viio43/V</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -1649,9 +1649,6 @@
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
-        <Harmony>
-          <name>I</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -1767,9 +1764,6 @@
             <tpc>10</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>I6</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -2948,14 +2942,12 @@
           <durationType>eighth</durationType>
           </Rest>
         <StaffText>
-          <pos x="-0.951131" y="4.14661"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
           </StaffText>
         <Harmony>
           <name>V64/ii</name>
-          <pos x="-3.80452" y="-2.5"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -2972,9 +2964,6 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <Harmony>
-          <name>ii6</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -2996,7 +2985,6 @@
         <tick>96480</tick>
         <Harmony>
           <name>V2</name>
-          <pos x="0" y="-3.45113"/>
           </Harmony>
         <tick>96720</tick>
         <Chord>
@@ -3012,7 +3000,6 @@
           </Chord>
         <Harmony>
           <name>I6</name>
-          <pos x="0" y="-2.97557"/>
           </Harmony>
         <Beam id="23">
           <StemDirection>down</StemDirection>
@@ -3043,7 +3030,7 @@
           </Chord>
         <Harmony>
           <name>V65</name>
-          <pos x="-0.865128" y="-3.05648"/>
+          <pos x="0.204895" y="-4.95874"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -3372,7 +3359,6 @@
         </Measure>
       <Measure number="56">
         <StaffText>
-          <pos x="0.118891" y="3.90882"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -5038,7 +5024,7 @@
         </Measure>
       <Measure number="89">
         <Harmony>
-          <name>II.V7</name>
+          <name>V.II[V7</name>
           <pos x="-0.409791" y="-3.52448"/>
           </Harmony>
         <Chord>
@@ -5137,7 +5123,7 @@
         </Measure>
       <Measure number="90">
         <Harmony>
-          <name>I64</name>
+          <name>I6</name>
           </Harmony>
         <Beam id="52">
           <StemDirection>down</StemDirection>
@@ -5235,10 +5221,6 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <Harmony>
-          <name>V43/V</name>
-          <pos x="-0.237783" y="-3.80781"/>
-          </Harmony>
         <Beam id="54">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -5284,10 +5266,6 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V</name>
-          <pos x="0" y="-4.87783"/>
-          </Harmony>
         <Beam id="55">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -5321,6 +5299,10 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V7/ii</name>
+          <pos x="0.204895" y="-5.98322"/>
+          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -5336,7 +5318,7 @@
         </Measure>
       <Measure number="92">
         <Harmony>
-          <name>V(#9)</name>
+          <name>V(#9)]</name>
           <pos x="-0.204895" y="-6.39301"/>
           </Harmony>
         <Chord>
@@ -5620,7 +5602,6 @@
           </LayoutBreak>
         <Harmony>
           <name>I6</name>
-          <pos x="0.237783" y="-4.16448"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5801,6 +5782,9 @@
           </Chord>
         </Measure>
       <Measure number="99">
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -6149,7 +6133,6 @@
           </Rest>
         <Harmony>
           <name>V7</name>
-          <pos x="-0.118891" y="-3.45113"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -6161,7 +6144,6 @@
           </Chord>
         <Harmony>
           <name>ii64</name>
-          <pos x="-0.118891" y="-3.45113"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -6371,13 +6353,12 @@
         </Measure>
       <Measure number="112">
         <StaffText>
-          <pos x="0.118891" y="4.50328"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>dim.</i></text>
           </StaffText>
         <Harmony>
-          <name>V7/IV</name>
+          <name>I[V7/IV</name>
           <pos x="-0.409791" y="-3.72937"/>
           </Harmony>
         <Chord>
@@ -6407,7 +6388,7 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>iv64</name>
+          <name>iv</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7889,7 +7870,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>viio6</name>
+          <name>V43</name>
           </Harmony>
         <Beam id="70">
           <StemDirection>down</StemDirection>
@@ -8431,7 +8412,6 @@
           <durationType>half</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="-2.71335"/>
           <xoffset>0</xoffset>
           <yoffset>-2</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font>pizz.</text>
@@ -8525,7 +8505,6 @@
           </LayoutBreak>
         <Harmony>
           <name>V(64)/iii</name>
-          <pos x="0.118891" y="-3.80781"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -8541,7 +8520,6 @@
           </Rest>
         <Harmony>
           <name>V7/iii</name>
-          <pos x="0.118891" y="-3.57002"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -8558,7 +8536,6 @@
         </Measure>
       <Measure number="161">
         <StaffText>
-          <pos x="0.237783" y="4.27681"/>
           <xoffset>0</xoffset>
           <yoffset>-2.5</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font>arco</text>
@@ -9164,7 +9141,7 @@
         </Measure>
       <Measure number="168">
         <Harmony>
-          <name>V.IV6</name>
+          <name>I6</name>
           <pos x="0" y="-3.72937"/>
           </Harmony>
         <Chord>
@@ -9181,14 +9158,13 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>iv6</name>
-          <pos x="0.237783" y="-3.68891"/>
+          <name>i6</name>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>V7</name>
+          <name>V7/V</name>
           <pos x="-0.204895" y="-4.13916"/>
           </Harmony>
         <Chord>
@@ -9209,7 +9185,6 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <StaffText>
-          <pos x="1.78337" y="-2.02998"/>
           <xoffset>0</xoffset>
           <yoffset>-3.1</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font>arco</text>
@@ -9221,7 +9196,7 @@
           <yoffset>7.6</yoffset>
           </Dynamic>
         <Harmony>
-          <name>I</name>
+          <name>V</name>
           <pos x="0" y="-3.68891"/>
           </Harmony>
         <Chord>
@@ -9244,7 +9219,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>I.viio2</name>
+          <name>viio2</name>
           <pos x="-0.0328878" y="-0.751998"/>
           </Harmony>
         <Rest>
@@ -9321,7 +9296,6 @@
         </Measure>
       <Measure number="172">
         <StaffText>
-          <pos x="0" y="4.21437"/>
           <xoffset>0</xoffset>
           <yoffset>7.9</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font>p cresc.</text>
@@ -11880,6 +11854,12 @@
           </Chord>
         </Measure>
       <Measure number="221">
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>96</velocity>
+          <xoffset>0</xoffset>
+          <yoffset>-1</yoffset>
+          </Dynamic>
         <Harmony>
           <name>#viio7/V]</name>
           </Harmony>
@@ -15071,6 +15051,12 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>96</velocity>
+          <xoffset>0</xoffset>
+          <yoffset>-1</yoffset>
+          </Dynamic>
         <Harmony>
           <name>I(9)</name>
           </Harmony>
@@ -16068,7 +16054,7 @@
         </Measure>
       <Measure number="246">
         <Harmony>
-          <name>I\\</name>
+          <name>I</name>
           <pos x="0" y="-3.9267"/>
           </Harmony>
         <Chord>
@@ -16280,7 +16266,6 @@
           <durationType>eighth</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="4.2655"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>dim.</i></text>
@@ -16496,7 +16481,6 @@
         </Measure>
       <Measure number="253">
         <StaffText>
-          <pos x="0.118891" y="6.03903"/>
           <xoffset>0</xoffset>
           <yoffset>-0.5</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -16659,7 +16643,6 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <StaffText>
-          <pos x="-0.118891" y="4.02771"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -17254,7 +17237,6 @@
           <durationType>quarter</durationType>
           </Rest>
         <StaffText>
-          <pos x="0.118891" y="4.52771"/>
           <xoffset>0</xoffset>
           <yoffset>7.5</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -19311,7 +19293,6 @@
           <durationType>eighth</durationType>
           </Rest>
         <StaffText>
-          <pos x="0.118891" y="4.2655"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -23943,7 +23924,6 @@
           <durationType>half</durationType>
           </Rest>
         <StaffText>
-          <pos x="0.237783" y="4.50328"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>dim.</i></text>
@@ -25334,6 +25314,12 @@
           </Chord>
         </Measure>
       <Measure number="139">
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>96</velocity>
+          <xoffset>0</xoffset>
+          <yoffset>8.4</yoffset>
+          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -26480,7 +26466,6 @@
           <durationType>half</durationType>
           </Rest>
         <StaffText>
-          <pos x="-0.118891" y="-3.30781"/>
           <xoffset>0</xoffset>
           <yoffset>-2</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font>arco</text>
@@ -26779,7 +26764,6 @@
         </Measure>
       <Measure number="166">
         <StaffText>
-          <pos x="0.237783" y="-3.18891"/>
           <xoffset>0</xoffset>
           <yoffset>-2</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font>pizz.</text>
@@ -26980,7 +26964,6 @@
         </Measure>
       <Measure number="172">
         <StaffText>
-          <pos x="-0.594457" y="5.33552"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font>p cresc.</text>
@@ -29447,13 +29430,6 @@
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           </Dynamic>
-        <Dynamic>
-          <subtype>f</subtype>
-          <velocity>96</velocity>
-          <pos x="0.544818" y="-1.83405"/>
-          <xoffset>0</xoffset>
-          <yoffset>-1</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -29609,7 +29585,6 @@
         </Measure>
       <Measure number="227">
         <StaffText>
-          <pos x="0.118891" y="-2.72115"/>
           <xoffset>0</xoffset>
           <yoffset>-0.7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font>pizz.</text>
@@ -30106,13 +30081,6 @@
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           </Dynamic>
-        <Dynamic>
-          <subtype>f</subtype>
-          <velocity>96</velocity>
-          <pos x="2.98201" y="-1.71516"/>
-          <xoffset>0</xoffset>
-          <yoffset>-1</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -30431,7 +30399,6 @@
           <durationType>eighth</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="4.74106"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>dim.</i></text>
@@ -30572,7 +30539,6 @@
           <durationType>half</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="-3.63224"/>
           <xoffset>0</xoffset>
           <yoffset>-2.8</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font>pizz.</text>
@@ -30642,7 +30608,6 @@
         </Measure>
       <Measure number="253">
         <StaffText>
-          <pos x="0" y="4.84106"/>
           <xoffset>0</xoffset>
           <yoffset>7.1</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -30742,7 +30707,6 @@
           <durationType>quarter</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="-2.34559"/>
           <xoffset>0</xoffset>
           <yoffset>-0.8</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font>arco</text>
@@ -30875,7 +30839,6 @@
         </Measure>
       <Measure number="257">
         <StaffText>
-          <pos x="0" y="4.95995"/>
           <xoffset>0</xoffset>
           <yoffset>7.1</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -31493,7 +31456,6 @@
           <durationType>quarter</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="4.62217"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -33295,7 +33257,6 @@
             </Note>
           </Chord>
         <StaffText>
-          <pos x="-0.475566" y="4.29774"/>
           <xoffset>0</xoffset>
           <yoffset>6.2</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -37983,7 +37944,6 @@
         </Measure>
       <Measure number="112">
         <StaffText>
-          <pos x="0" y="4.50328"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>dim.</i></text>
@@ -39409,13 +39369,6 @@
           <xoffset>0</xoffset>
           <yoffset>7.1</yoffset>
           </Dynamic>
-        <Dynamic>
-          <subtype>f</subtype>
-          <velocity>96</velocity>
-          <pos x="0.641479" y="-1.39604"/>
-          <xoffset>0</xoffset>
-          <yoffset>8.4</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -39727,7 +39680,7 @@
           <pos x="-0.118891" y="3.59548"/>
           <xoffset>0</xoffset>
           <yoffset>7.4</yoffset>
-          <text><i><font size="9.2082"></font><font face="Times New Roman"></font>cresc.</i></text>
+          <text><i><font size="9.2082"/><font face="Times New Roman"/>cresc.</i></text>
           </StaffText>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -40991,7 +40944,6 @@
         </Measure>
       <Measure number="172">
         <StaffText>
-          <pos x="0" y="3.92771"/>
           <xoffset>0</xoffset>
           <yoffset>6.9</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -44567,7 +44519,6 @@
           <durationType>eighth</durationType>
           </Rest>
         <StaffText>
-          <pos x="-0.118891" y="3.67104"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>dim.</i></text>
@@ -44769,7 +44720,6 @@
         </Measure>
       <Measure number="253">
         <StaffText>
-          <pos x="0" y="5.50328"/>
           <xoffset>0</xoffset>
           <yoffset>8</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -44814,7 +44764,6 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
-          <pos x="0.420498" y="6.5733"/>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -44830,7 +44779,6 @@
         <Dynamic>
           <subtype>fp</subtype>
           <velocity>0</velocity>
-          <pos x="-0.173959" y="6.81109"/>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -44873,7 +44821,6 @@
         </Measure>
       <Measure number="257">
         <StaffText>
-          <pos x="-0.118891" y="5.18439"/>
           <xoffset>0</xoffset>
           <yoffset>7.8</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -45353,7 +45300,6 @@
           <durationType>quarter</durationType>
           </Rest>
         <StaffText>
-          <pos x="0.118891" y="5.65995"/>
           <xoffset>0</xoffset>
           <yoffset>7.8</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -45434,7 +45380,6 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.301607" y="6.01663"/>
           <xoffset>0</xoffset>
           <yoffset>7.8</yoffset>
           </Dynamic>
@@ -46845,7 +46790,6 @@
           <durationType>eighth</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="5.69219"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -47188,7 +47132,6 @@
             </Note>
           </Chord>
         <StaffText>
-          <pos x="0" y="5.45441"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -49156,7 +49099,6 @@
           <durationType>eighth</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="5.33552"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>sempre</i></text>
@@ -49810,7 +49752,6 @@
           <durationType>half</durationType>
           </Rest>
         <StaffText>
-          <pos x="0.118891" y="4.14661"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>dim.</i></text>
@@ -50591,7 +50532,6 @@
         </Measure>
       <Measure number="138">
         <StaffText>
-          <pos x="-0.118891" y="5.57885"/>
           <xoffset>0</xoffset>
           <yoffset>7.6</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -50840,7 +50780,6 @@
         </Measure>
       <Measure number="142">
         <StaffText>
-          <pos x="0" y="4.97885"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>dolce</i></text>
@@ -52222,7 +52161,6 @@
         </Measure>
       <Measure number="172">
         <StaffText>
-          <pos x="0" y="4.62217"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font>p cresc.</text>
@@ -55592,7 +55530,6 @@
           <durationType>eighth</durationType>
           </Rest>
         <StaffText>
-          <pos x="-0.118891" y="4.02771"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>dim.</i></text>
@@ -55790,7 +55727,6 @@
           <durationType>quarter</durationType>
           </Rest>
         <StaffText>
-          <pos x="0.356674" y="-2.06448"/>
           <xoffset>0</xoffset>
           <yoffset>-0.4</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font>pizz.</text>
@@ -55927,7 +55863,6 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
-          <pos x="0.210249" y="6.28665"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           </Dynamic>
@@ -55957,12 +55892,10 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.0913578" y="5.81109"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           </Dynamic>
         <StaffText>
-          <pos x="0" y="-4.90781"/>
           <xoffset>0</xoffset>
           <yoffset>-3.6</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font>arco</text>
