@@ -487,7 +487,7 @@
       <Measure number="10">
         <Harmony>
           <name>V2</name>
-          <pos x="-0.152363" y="-2.46818"/>
+          <pos x="-0.984603" y="-2.58707"/>
           </Harmony>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -562,7 +562,7 @@
       <Measure number="12">
         <Harmony>
           <name>V2/IV</name>
-          <pos x="-1.47845" y="-2.97933"/>
+          <pos x="-1.71623" y="-4.52492"/>
           </Harmony>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -1419,6 +1419,7 @@
         <Harmony>
           <name>I6</name>
           <pos x="0.118891" y="-3.21335"/>
+
           </Harmony>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -2958,7 +2959,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>IV(9)</name>
+          <name>IV(2)</name>
           </Harmony>
         <Tuplet id="1">
           <bracketType>2</bracketType>
@@ -2980,7 +2981,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>IV6</name>
+          <name>IV</name>
           </Harmony>
         <Chord>
           <Tuplet>1</Tuplet>
@@ -2992,7 +2993,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>I64</name>
+          <name>I</name>
           </Harmony>
         <Chord>
           <Tuplet>1</Tuplet>
@@ -3006,7 +3007,7 @@
         </Measure>
       <Measure number="65">
         <Harmony>
-          <name>#vii%7/V</name>
+          <name>V7(+2)/V</name>
           </Harmony>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -3017,7 +3018,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio2/vi</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -4970,7 +4971,7 @@
       <Measure number="100">
         <Harmony>
           <name>I.V/ii</name>
-          <pos x="0.179304" y="-4.69284"/>
+          <pos x="0.179304" y="-4.21727"/>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
@@ -4978,6 +4979,7 @@
         <Harmony>
           <name>ii</name>
           <pos x="0.118891" y="-4.64005"/>
+
           </Harmony>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -5027,7 +5029,7 @@
           </Chord>
         <Harmony>
           <name>V(64)</name>
-          <pos x="-0.0328878" y="-4.31874"/>
+          <pos x="0.204895" y="-5.98322"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -5296,7 +5298,6 @@
           </Rest>
         <Harmony>
           <name>VI6/vi</name>
-          <pos x="-0.713348" y="-2.5"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5309,7 +5310,7 @@
         </Measure>
       <Measure number="109">
         <Harmony>
-          <name>V6/vi</name>
+          <name>V6/iv</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5572,7 +5573,7 @@
         </Measure>
       <Measure number="116">
         <Harmony>
-          <name>#viio/V</name>
+          <name>#viio</name>
           <pos x="-0.293045" y="-2.2488"/>
           </Harmony>
         <Chord>
@@ -5596,7 +5597,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>I6]</name>
+          <name>I]</name>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -5884,7 +5885,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V\\</name>
+          <name>V</name>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -6193,7 +6194,6 @@
           </Chord>
         <Harmony>
           <name>V43/IV</name>
-          <pos x="0" y="-4.40226"/>
           </Harmony>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -7096,7 +7096,6 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <StaffText>
-          <pos x="0.118891" y="4.14661"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -7239,16 +7238,15 @@
           </Chord>
         </Measure>
       <Measure number="136">
-        <Harmony>
-          <name>V7</name>
-          </Harmony>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.730546" y="6.88258"/>
           <xoffset>0</xoffset>
           <yoffset>8.9</yoffset>
           </Dynamic>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>32nd</durationType>
@@ -7360,7 +7358,6 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.0511145" y="5.57477"/>
           <xoffset>0</xoffset>
           <yoffset>8.9</yoffset>
           </Dynamic>
@@ -7641,7 +7638,6 @@
           </StaffText>
         <Harmony>
           <name>I6</name>
-          <pos x="0.237783" y="-3.45113"/>
           </Harmony>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -7653,7 +7649,6 @@
           </Chord>
         <Harmony>
           <name>IV</name>
-          <pos x="-0.237783" y="-3.68891"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -7666,8 +7661,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>IV+</name>
-          <pos x="0.237783" y="-3.5357"/>
+          <name>III+/ii</name>
+          <pos x="0" y="-4.13016"/>
           </Harmony>
         <Chord>
           <durationType>16th</durationType>
@@ -8033,12 +8028,14 @@
         <Harmony>
           <name>V</name>
           <pos x="0.118891" y="-3.09446"/>
+
           </Harmony>
         </Measure>
       <Measure number="155">
         <Harmony>
           <name>I64</name>
           <pos x="0" y="-2.85667"/>
+
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -14562,7 +14559,6 @@
         </Measure>
       <Measure number="135">
         <StaffText>
-          <pos x="0" y="4.78993"/>
           <xoffset>0</xoffset>
           <yoffset>8</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -21878,7 +21874,6 @@
         </Measure>
       <Measure number="135">
         <StaffText>
-          <pos x="0" y="5.18993"/>
           <xoffset>0</xoffset>
           <yoffset>8.4</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -22555,7 +22550,6 @@
         </Measure>
       <Measure number="162">
         <StaffText>
-          <pos x="0" y="-3.52115"/>
           <xoffset>0</xoffset>
           <yoffset>-1.5</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -26218,7 +26212,6 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.53939" y="7.36776"/>
           <xoffset>0</xoffset>
           <yoffset>8.2</yoffset>
           </Dynamic>
@@ -27948,7 +27941,6 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.53939" y="6.04106"/>
           <xoffset>0</xoffset>
           <yoffset>8.3</yoffset>
           </Dynamic>
@@ -28011,7 +28003,6 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.301607" y="7.22998"/>
           <xoffset>0</xoffset>
           <yoffset>8.3</yoffset>
           </Dynamic>
@@ -28327,7 +28318,6 @@
           <durationType>16th</durationType>
           </Rest>
         <StaffText>
-          <pos x="-0.118891" y="4.31663"/>
           <xoffset>0</xoffset>
           <yoffset>6.1</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
@@ -29129,13 +29119,12 @@
         </Measure>
       <Measure number="162">
         <StaffText>
-          <pos x="-0.118891" y="5.26928"/>
+          <pos x="0" y="6.22041"/>
           <xoffset>0</xoffset>
           <yoffset>7.2</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
           </StaffText>
         <StaffText>
-          <pos x="0.118891" y="-5.06674"/>
           <xoffset>0</xoffset>
           <yoffset>-1.5</yoffset>
           <text><font size="9.2082"></font><font face="Times New Roman"></font><i>cresc.</i></text>
