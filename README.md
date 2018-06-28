@@ -15,4 +15,4 @@ While the annotation process (as detailed in the Data Report) was conducted very
 
 ### Missing bars
 
-The original XML file for Op. 132 No. 15, mov. 5 from Project Gutenberg did not contain measures 194-241. We added these manually.
+The original XML file for Op. 132 No. 15, mov. 5 from Project Gutenberg did not contain measures 194-241. We added them manually.
