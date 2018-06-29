@@ -531,7 +531,7 @@ Op. 95  1st  Movevment</text>
           <pos x="-8.52563" y="-1.65823"/>
           <xoffset>0</xoffset>
           <yoffset>-2.5</yoffset>
-          <text><font size="9.6"></font>Allegro con brio</text>
+          <text><font size="9.6"/>Allegro con brio</text>
           </Tempo>
         <Harmony>
           <name>.f.i</name>
@@ -4751,7 +4751,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.303836" y="5.76681"/>
+          <pos x="0.659062" y="4.16829"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
@@ -4819,7 +4819,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.0374162" y="5.88919"/>
+          <pos x="0.659062" y="4.46829"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           </Dynamic>
@@ -4995,7 +4995,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>.Ger6/iv</name>
+          <name>.Ger6</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -5753,7 +5753,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="-0.114502" y="5.80039"/>
+          <pos x="0.329531" y="4.46829"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           </Dynamic>
@@ -5776,7 +5776,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio43</name>
+          <name>#viio7</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -6526,12 +6526,12 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.481449" y="4.0459"/>
+          <pos x="0.659062" y="3.86829"/>
           <xoffset>0</xoffset>
           <yoffset>4.6</yoffset>
           </Dynamic>
         <Harmony>
-          <name>VI7</name>
+          <name>VI(7)</name>
           </Harmony>
         <Beam id="94">
           <StemDirection>up</StemDirection>
@@ -6785,9 +6785,6 @@ Op. 95  1st  Movevment</text>
             <tpc>9</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V</name>
-          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -6835,9 +6832,6 @@ Op. 95  1st  Movevment</text>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <Harmony>
-          <name>i</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -6858,10 +6852,13 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.392642" y="5.95636"/>
+          <pos x="0.659062" y="5.06829"/>
           <xoffset>0</xoffset>
           <yoffset>5.8</yoffset>
           </Dynamic>
+        <Harmony>
+          <name>i</name>
+          </Harmony>
         <Beam id="101">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -6916,7 +6913,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.303836" y="6.21158"/>
+          <pos x="0.659062" y="4.96829"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
@@ -6979,6 +6976,13 @@ Op. 95  1st  Movevment</text>
           </Chord>
         </Measure>
       <Measure number="85">
+        <Dynamic>
+          <subtype>ff</subtype>
+          <velocity>101</velocity>
+          <pos x="0.659062" y="4.36829"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.1</yoffset>
+          </Dynamic>
         <Harmony>
           <name>@none</name>
           </Harmony>
@@ -6995,7 +6999,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <StaffText>
-          <pos x="0.26642" y="3.94003"/>
+          <pos x="0" y="15.7513"/>
           <xoffset>0</xoffset>
           <yoffset>5.8</yoffset>
           <text><i>non ligato</i></text>
@@ -7146,16 +7150,16 @@ Op. 95  1st  Movevment</text>
           </Chord>
         </Measure>
       <Measure number="86">
-        <Harmony>
-          <name>V</name>
-          </Harmony>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="-0.355536" y="5.98518"/>
+          <pos x="0.659062" y="3.96829"/>
           <xoffset>0</xoffset>
           <yoffset>4.7</yoffset>
           </Dynamic>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <Beam id="107">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -7170,7 +7174,7 @@ Op. 95  1st  Movevment</text>
           </Chord>
         <Harmony>
           <name>V6/VI</name>
-          <pos x="0.115071" y="-2.61006"/>
+          <pos x="0.292684" y="-3.23171"/>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -7192,12 +7196,12 @@ Op. 95  1st  Movevment</text>
           </Chord>
         <tick>164160</tick>
         <Harmony>
-          <name>VI.V</name>
-          <pos x="-0.177613" y="-2.51625"/>
+          <name>.VI.V</name>
+          <pos x="0" y="-3.67074"/>
           </Harmony>
         <tick>164640</tick>
         <Harmony>
-          <name>viio</name>
+          <name>V65</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7241,7 +7245,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I6</name>
+          <name>I(6)</name>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -7354,14 +7358,14 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="91">
         <StaffText>
-          <pos x="0" y="3.2848"/>
+          <pos x="0" y="15.4513"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           <text><i>cresc.</i></text>
           </StaffText>
         <Harmony>
           <name>I</name>
-          <pos x="0.0350188" y="-2.924"/>
+          <pos x="0.390245" y="-4.2561"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7386,7 +7390,7 @@ Op. 95  1st  Movevment</text>
       <Measure number="92">
         <Harmony>
           <name>iii7</name>
-          <pos x="0" y="-4.76892"/>
+          <pos x="0" y="-6.01221"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7399,7 +7403,7 @@ Op. 95  1st  Movevment</text>
           </Chord>
         <Harmony>
           <name>V7/vi</name>
-          <pos x="0.0575355" y="-4.59131"/>
+          <pos x="0.146342" y="-6.01221"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7412,7 +7416,7 @@ Op. 95  1st  Movevment</text>
           </Chord>
         <Harmony>
           <name>vi</name>
-          <pos x="0.141335" y="-4.76391"/>
+          <pos x="0.585368" y="-6.45123"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7424,7 +7428,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I.V65</name>
+          <name>.I.V65</name>
           <pos x="0.195123" y="-4.64635"/>
           </Harmony>
         <Chord>
@@ -7441,7 +7445,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.215029" y="5.378"/>
+          <pos x="0.659062" y="3.86829"/>
           <xoffset>0</xoffset>
           <yoffset>4.6</yoffset>
           </Dynamic>
@@ -7465,7 +7469,7 @@ Op. 95  1st  Movevment</text>
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>V65</name>
+          <name>V7</name>
           <pos x="0.195123" y="-4.45123"/>
           </Harmony>
         <Chord>
@@ -7492,7 +7496,7 @@ Op. 95  1st  Movevment</text>
       <Measure number="95">
         <Harmony>
           <name>I</name>
-          <pos x="0" y="-4.80519"/>
+          <pos x="0" y="-5.42684"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7519,8 +7523,8 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="96">
         <Harmony>
-          <name>V43</name>
-          <pos x="-0.115071" y="-6.36866"/>
+          <name>V7</name>
+          <pos x="-0.292684" y="-8.50002"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7568,7 +7572,7 @@ Op. 95  1st  Movevment</text>
       <Measure number="97">
         <Harmony>
           <name>I</name>
-          <pos x="0.235149" y="-5.58943"/>
+          <pos x="0.146342" y="-6.74392"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7600,8 +7604,8 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="98">
         <Harmony>
-          <name>V65]</name>
-          <pos x="-0.0525287" y="-5.72702"/>
+          <name>V7]</name>
+          <pos x="-0.585368" y="-6.7927"/>
           </Harmony>
         <Chord>
           <durationType>16th</durationType>
@@ -7639,7 +7643,7 @@ Op. 95  1st  Movevment</text>
           <subtype>line</subtype>
           </LayoutBreak>
         <StaffText>
-          <pos x="-0.177613" y="3.25048"/>
+          <pos x="0" y="14.3513"/>
           <xoffset>0</xoffset>
           <yoffset>4.4</yoffset>
           <text><i>cresc.</i></text>
@@ -7714,7 +7718,7 @@ Op. 95  1st  Movevment</text>
       <Measure number="100">
         <Harmony>
           <name>IV(9)</name>
-          <pos x="0.292684" y="-7.11539"/>
+          <pos x="0.292684" y="-7.91465"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7750,7 +7754,6 @@ Op. 95  1st  Movevment</text>
           </Chord>
         <Harmony>
           <name>IV</name>
-          <pos x="0.26642" y="-6.94033"/>
           </Harmony>
         <Chord>
           <Tuplet>28</Tuplet>
@@ -8064,7 +8067,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="102">
         <StaffText>
-          <pos x="-0.621646" y="3.70719"/>
+          <pos x="0" y="16.0513"/>
           <xoffset>0</xoffset>
           <yoffset>6.1</yoffset>
           <text><i>dim.</i></text>
@@ -8258,12 +8261,12 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.481449" y="5.18994"/>
+          <pos x="0.659062" y="4.56829"/>
           <xoffset>0</xoffset>
           <yoffset>5.3</yoffset>
           </Dynamic>
         <Harmony>
-          <name>vii</name>
+          <name>vii(#5)</name>
           </Harmony>
         <Beam id="121">
           <StemDirection>up</StemDirection>
@@ -8290,7 +8293,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio</name>
+          <name>vii</name>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -9010,6 +9013,13 @@ Op. 95  1st  Movevment</text>
           </Chord>
         </Measure>
       <Measure number="107">
+        <Dynamic>
+          <subtype>ff</subtype>
+          <velocity>101</velocity>
+          <pos x="0.659062" y="5.56829"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.3</yoffset>
+          </Dynamic>
         <Harmony>
           <name>V/ii</name>
           </Harmony>
@@ -9200,7 +9210,7 @@ Op. 95  1st  Movevment</text>
           </Chord>
         <Harmony>
           <name>ii</name>
-          <pos x="0.230142" y="-6.096"/>
+          <pos x="0.585368" y="-6.45123"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9244,7 +9254,7 @@ Op. 95  1st  Movevment</text>
           </Chord>
         <Harmony>
           <name>ii6</name>
-          <pos x="-0.120078" y="-5.93965"/>
+          <pos x="0.146342" y="-7.18294"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9283,7 +9293,7 @@ Op. 95  1st  Movevment</text>
           </Chord>
         <Harmony>
           <name>V(64b9)</name>
-          <pos x="-2.55026" y="-4.56658"/>
+          <pos x="-1.21816" y="-6.2539"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9300,12 +9310,12 @@ Op. 95  1st  Movevment</text>
         <tick>210240</tick>
         <Harmony>
           <name>V(64)</name>
-          <pos x="-0.271426" y="-4.59131"/>
+          <pos x="0.439026" y="-6.01221"/>
           </Harmony>
         <tick>210720</tick>
         <Harmony>
           <name>V7</name>
-          <pos x="-0.276433" y="-4.27235"/>
+          <pos x="0.878052" y="-5.42684"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9335,7 +9345,7 @@ Op. 95  1st  Movevment</text>
           </Chord>
         <Harmony>
           <name>V(64b9)</name>
-          <pos x="-2.81655" y="-4.44845"/>
+          <pos x="0.291676" y="-7.37907"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9352,12 +9362,12 @@ Op. 95  1st  Movevment</text>
         <tick>212160</tick>
         <Harmony>
           <name>V(64)</name>
-          <pos x="-0.609143" y="-4.66134"/>
+          <pos x="0.634149" y="-6.7927"/>
           </Harmony>
         <tick>212640</tick>
         <Harmony>
           <name>V7</name>
-          <pos x="-0.898079" y="-4.53877"/>
+          <pos x="0.878052" y="-5.42684"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9604,7 +9614,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <StaffText>
-          <pos x="0" y="2.17509"/>
+          <pos x="0" y="15.8513"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           <text><i>cresc.</i></text>
@@ -9853,7 +9863,7 @@ Op. 95  1st  Movevment</text>
           </Chord>
         <Harmony>
           <name>ii6</name>
-          <pos x="0.146342" y="-6.29487"/>
+          <pos x="0.146342" y="-7.18294"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9909,7 +9919,7 @@ Op. 95  1st  Movevment</text>
         <tick>231360</tick>
         <Harmony>
           <name>V(64)</name>
-          <pos x="0.705446" y="-5.8346"/>
+          <pos x="0.439026" y="-6.01221"/>
           </Harmony>
         <tick>231840</tick>
         <Harmony>
@@ -10182,7 +10192,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.570255" y="5.34516"/>
+          <pos x="0.659062" y="4.36829"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -10253,6 +10263,13 @@ Op. 95  1st  Movevment</text>
           </Rest>
         </Measure>
       <Measure number="129">
+        <Dynamic>
+          <subtype>ff</subtype>
+          <velocity>101</velocity>
+          <pos x="0.659062" y="5.96829"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.7</yoffset>
+          </Dynamic>
         <Harmony>
           <name>.i.VI</name>
           </Harmony>
@@ -10420,7 +10437,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="-0.0513904" y="5.178"/>
+          <pos x="0.659062" y="3.66829"/>
           <xoffset>0</xoffset>
           <yoffset>4.4</yoffset>
           </Dynamic>
@@ -10609,7 +10626,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.240724" y="5.96681"/>
+          <pos x="0.329531" y="4.36829"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -10680,7 +10697,6 @@ Op. 95  1st  Movevment</text>
       <Measure number="134">
         <Harmony>
           <name>V7/V</name>
-          <pos x="-0.0888065" y="-3.74329"/>
           </Harmony>
         <Beam id="160">
           <StemDirection>up</StemDirection>
@@ -10845,8 +10861,8 @@ Op. 95  1st  Movevment</text>
           <yoffset>4.8</yoffset>
           </Dynamic>
         <Harmony>
-          <name>#viio65/iv</name>
-          <pos x="0.0888065" y="-3.49186"/>
+          <name>#iiio65</name>
+          <pos x="0" y="-4.64635"/>
           </Harmony>
         <Beam id="163">
           <StemDirection>up</StemDirection>
@@ -10950,16 +10966,16 @@ Op. 95  1st  Movevment</text>
             <tpc>8</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>iio65</name>
-          </Harmony>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="-0.911553" y="5.27473"/>
+          <pos x="0.329531" y="4.36829"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
+        <Harmony>
+          <name>iio65</name>
+          </Harmony>
         <Beam id="165">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -11074,8 +11090,7 @@ Op. 95  1st  Movevment</text>
           <yoffset>4.9</yoffset>
           </Dynamic>
         <Harmony>
-          <name>V(64)</name>
-          <pos x="0" y="-3.38807"/>
+          <name>V64</name>
           </Harmony>
         <Beam id="167">
           <StemDirection>down</StemDirection>
@@ -11132,7 +11147,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="-0.0256952" y="6.33397"/>
+          <pos x="0.329531" y="5.26829"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -11331,7 +11346,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="140">
         <Harmony>
-          <name>i(94)</name>
+          <name>i(42)</name>
           <pos x="-0.390245" y="-3.08537"/>
           </Harmony>
         <Chord>
@@ -11368,7 +11383,7 @@ Op. 95  1st  Movevment</text>
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>i(9#7)</name>
+          <name>i(72)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -11397,7 +11412,7 @@ Op. 95  1st  Movevment</text>
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>i(9)</name>
+          <name>i(42)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -11410,7 +11425,7 @@ Op. 95  1st  Movevment</text>
           </Chord>
         <Harmony>
           <name>i</name>
-          <pos x="0.0888065" y="-2.87148"/>
+          <pos x="0" y="-3.67074"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -11451,7 +11466,7 @@ Op. 95  1st  Movevment</text>
           <subtype>page</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>i(94)</name>
+          <name>i(42)</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -11481,7 +11496,7 @@ Op. 95  1st  Movevment</text>
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>i(9#7)</name>
+          <name>i(72)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -11510,7 +11525,7 @@ Op. 95  1st  Movevment</text>
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>i(94)</name>
+          <name>i(42)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -11535,8 +11550,8 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio7</name>
-          <pos x="0.78049" y="-3.43933"/>
+          <name>viio7</name>
+          <pos x="0.78049" y="-4.06098"/>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -11581,7 +11596,7 @@ Op. 95  1st  Movevment</text>
           </Chord>
         <tick>275040</tick>
         <Harmony>
-          <name>i</name>
+          <name>i64</name>
           </Harmony>
         <tick>275280</tick>
         <Chord>
@@ -11638,7 +11653,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="145">
         <StaffText>
-          <pos x="0" y="3.86242"/>
+          <pos x="0" y="15.8513"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           <text><i>dim.</i></text>
@@ -11652,6 +11667,9 @@ Op. 95  1st  Movevment</text>
             <tpc>13</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>i6</name>
+          </Harmony>
         <Beam id="173">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -11683,7 +11701,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <StaffText>
-          <pos x="-6.39407" y="3.66242"/>
+          <pos x="0" y="15.6513"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           <text> - - - - - - - - - - - - - - - - - - - - - - - - - - -</text>
@@ -11789,6 +11807,9 @@ Op. 95  1st  Movevment</text>
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>i</name>
+          </Harmony>
         <Beam id="176">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -11844,7 +11865,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V(2)</name>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -11861,6 +11882,9 @@ Op. 95  1st  Movevment</text>
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
@@ -11879,7 +11903,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="147">
         <StaffText>
-          <pos x="-6.12765" y="4.8169"/>
+          <pos x="0" y="15.6513"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           <text> - - - - - - - - - - - - - - - - - - - - - - - - - - -</text>
@@ -12016,7 +12040,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="148">
         <StaffText>
-          <pos x="-0.710452" y="4.62809"/>
+          <pos x="0" y="15.5513"/>
           <xoffset>0</xoffset>
           <yoffset>5.6</yoffset>
           <text><i>dim.</i></text>
@@ -12094,7 +12118,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.303836" y="5.26681"/>
+          <pos x="0.659062" y="3.66829"/>
           <xoffset>0</xoffset>
           <yoffset>4.4</yoffset>
           </Dynamic>
@@ -15912,7 +15936,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.659062" y="8.26829"/>
+          <pos x="0.659062" y="5.86829"/>
           <xoffset>0</xoffset>
           <yoffset>6.6</yoffset>
           </Dynamic>
@@ -16094,7 +16118,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="-0.31781" y="6.51084"/>
+          <pos x="0.659062" y="4.46829"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           </Dynamic>
@@ -16412,7 +16436,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.151918" y="5.95561"/>
+          <pos x="0.329531" y="4.26829"/>
           <xoffset>0</xoffset>
           <yoffset>5</yoffset>
           </Dynamic>
@@ -16488,7 +16512,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.0374162" y="7.23249"/>
+          <pos x="0.659062" y="4.56829"/>
           <xoffset>0</xoffset>
           <yoffset>5.3</yoffset>
           </Dynamic>
@@ -16570,7 +16594,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.392642" y="5.18919"/>
+          <pos x="0.659062" y="3.76829"/>
           <xoffset>0</xoffset>
           <yoffset>4.5</yoffset>
           </Dynamic>
@@ -16611,7 +16635,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="-0.114502" y="6.11084"/>
+          <pos x="0.329531" y="4.06829"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
@@ -16671,7 +16695,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.151918" y="6.02203"/>
+          <pos x="0.329531" y="4.06829"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
@@ -16728,7 +16752,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.218098" y="5.26681"/>
+          <pos x="0.750937" y="3.66829"/>
           <xoffset>0</xoffset>
           <yoffset>4.4</yoffset>
           </Dynamic>
@@ -16855,7 +16879,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.17023" y="6.19941"/>
+          <pos x="0.329531" y="4.06829"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
@@ -16871,7 +16895,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="-0.0256952" y="6.19965"/>
+          <pos x="0.329531" y="4.06829"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
@@ -17038,7 +17062,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.481449" y="5.86755"/>
+          <pos x="0.659062" y="5.06829"/>
           <xoffset>0</xoffset>
           <yoffset>5.8</yoffset>
           </Dynamic>
@@ -17096,7 +17120,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.86829"/>
+          <pos x="0.659062" y="4.96829"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
@@ -17159,14 +17183,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.303836" y="5.96681"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.1</yoffset>
-          </Dynamic>
-        <Dynamic>
-          <subtype>ff</subtype>
-          <velocity>101</velocity>
-          <pos x="0.392642" y="-2.34439"/>
+          <pos x="0.659062" y="4.36829"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -17183,7 +17200,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <StaffText>
-          <pos x="0.177613" y="3.31838"/>
+          <pos x="0" y="15.7513"/>
           <xoffset>0</xoffset>
           <yoffset>5.8</yoffset>
           <text><i>non ligato</i></text>
@@ -17337,7 +17354,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="-0.444343" y="6.11061"/>
+          <pos x="0.659062" y="5.46829"/>
           <xoffset>0</xoffset>
           <yoffset>6.2</yoffset>
           </Dynamic>
@@ -17542,7 +17559,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="91">
         <StaffText>
-          <pos x="0" y="5.23855"/>
+          <pos x="0" y="15.4513"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           <text><i>cresc.</i></text>
@@ -17641,7 +17658,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="-1.11707" y="5.9459"/>
+          <pos x="0.659062" y="5.76829"/>
           <xoffset>0</xoffset>
           <yoffset>6.5</yoffset>
           </Dynamic>
@@ -18195,7 +18212,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="99">
         <StaffText>
-          <pos x="-0.976872" y="4.42884"/>
+          <pos x="0" y="16.1513"/>
           <xoffset>0</xoffset>
           <yoffset>6.2</yoffset>
           <text><i>cresc.</i></text>
@@ -18516,7 +18533,7 @@ Op. 95  1st  Movevment</text>
           <durationType>quarter</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="3.42884"/>
+          <pos x="0" y="15.1513"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           <text><i>dim.</i></text>
@@ -18613,7 +18630,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.392642" y="5.72278"/>
+          <pos x="0.659062" y="4.56829"/>
           <xoffset>0</xoffset>
           <yoffset>5.3</yoffset>
           </Dynamic>
@@ -19014,14 +19031,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.223436" y="-1.26034"/>
-          <xoffset>0</xoffset>
-          <yoffset>6.3</yoffset>
-          </Dynamic>
-        <Dynamic>
-          <subtype>ff</subtype>
-          <velocity>101</velocity>
-          <pos x="0.0458233" y="6.19941"/>
+          <pos x="0.329531" y="5.56829"/>
           <xoffset>0</xoffset>
           <yoffset>6.3</yoffset>
           </Dynamic>
@@ -19732,7 +19742,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <StaffText>
-          <pos x="0.0888065" y="3.41838"/>
+          <pos x="0" y="15.8513"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           <text><i>cresc.</i></text>
@@ -20465,7 +20475,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.224466" y="6.11061"/>
+          <pos x="0.659062" y="4.36829"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -20534,14 +20544,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="-1.64991" y="6.41232"/>
-          <xoffset>0</xoffset>
-          <yoffset>6.7</yoffset>
-          </Dynamic>
-        <Dynamic>
-          <subtype>ff</subtype>
-          <velocity>101</velocity>
-          <pos x="0.421166" y="-2.1484"/>
+          <pos x="0.659062" y="5.96829"/>
           <xoffset>0</xoffset>
           <yoffset>6.7</yoffset>
           </Dynamic>
@@ -20764,7 +20767,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.240724" y="6.03323"/>
+          <pos x="0.329531" y="4.16829"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
@@ -20783,7 +20786,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="-0.0234871" y="6.0218"/>
+          <pos x="0.329531" y="4.06829"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
@@ -20863,7 +20866,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.0681586" y="5.84419"/>
+          <pos x="0.329531" y="5.26829"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -21335,7 +21338,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="145">
         <StaffText>
-          <pos x="-0.0888065" y="3.95122"/>
+          <pos x="0" y="15.8513"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           <text><i>dim.</i></text>
@@ -21380,7 +21383,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <StaffText>
-          <pos x="-6.39407" y="3.75122"/>
+          <pos x="0" y="15.6513"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           <text> - - - - - - - - - - - - - - - - - - - - - - - - - - -</text>
@@ -21570,7 +21573,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="147">
         <StaffText>
-          <pos x="-5.86123" y="4.90571"/>
+          <pos x="0" y="15.6513"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           <text> - - - - - - - - - - - - - - - - - - - - - - - - - - -</text>
@@ -21701,7 +21704,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="148">
         <StaffText>
-          <pos x="-0.976872" y="4.98332"/>
+          <pos x="0" y="15.5513"/>
           <xoffset>0</xoffset>
           <yoffset>5.6</yoffset>
           <text><i>dim.</i></text>
@@ -21758,6 +21761,13 @@ Op. 95  1st  Movevment</text>
           </Chord>
         </Measure>
       <Measure number="150">
+        <Dynamic>
+          <subtype>pp</subtype>
+          <velocity>36</velocity>
+          <pos x="0.659062" y="5.96829"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.7</yoffset>
+          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -25999,7 +26009,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.392642" y="5.84442"/>
+          <pos x="0.659062" y="4.06829"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
@@ -26133,7 +26143,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.151918" y="6.15561"/>
+          <pos x="0.329531" y="4.46829"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           </Dynamic>
@@ -26488,7 +26498,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.151918" y="6.32203"/>
+          <pos x="0.329531" y="4.36829"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -26568,6 +26578,13 @@ Op. 95  1st  Movevment</text>
           </Chord>
         </Measure>
       <Measure number="71">
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.329531" y="4.26829"/>
+          <xoffset>0</xoffset>
+          <yoffset>5</yoffset>
+          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -26646,7 +26663,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.303836" y="5.178"/>
+          <pos x="0.659062" y="3.66829"/>
           <xoffset>0</xoffset>
           <yoffset>4.4</yoffset>
           </Dynamic>
@@ -26683,16 +26700,12 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="-0.913761" y="4.66829"/>
+          <pos x="0.329531" y="4.66829"/>
           <xoffset>0</xoffset>
           <yoffset>5.4</yoffset>
           </Dynamic>
         <Beam id="413">
           <StemDirection>down</StemDirection>
-          <Fragment>
-            <y1>5.02313</y1>
-            <y2>4.77313</y2>
-            </Fragment>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -26747,7 +26760,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="-0.495423" y="5.678"/>
+          <pos x="0.659062" y="4.16829"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
@@ -26804,7 +26817,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.17868" y="5.60113"/>
+          <pos x="0.533906" y="5.06829"/>
           <xoffset>0</xoffset>
           <yoffset>5.8</yoffset>
           </Dynamic>
@@ -27068,7 +27081,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="-0.114502" y="5.96681"/>
+          <pos x="0.329531" y="4.36829"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -27129,7 +27142,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.240724" y="6.11084"/>
+          <pos x="0.329531" y="4.06829"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
@@ -27335,6 +27348,13 @@ Op. 95  1st  Movevment</text>
           </Rest>
         </Measure>
       <Measure number="84">
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.659062" y="5.06829"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.8</yoffset>
+          </Dynamic>
         <Beam id="424">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -27389,7 +27409,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="6.16829"/>
+          <pos x="0.659062" y="4.96829"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
@@ -27449,6 +27469,13 @@ Op. 95  1st  Movevment</text>
           </Chord>
         </Measure>
       <Measure number="85">
+        <Dynamic>
+          <subtype>ff</subtype>
+          <velocity>101</velocity>
+          <pos x="0.659062" y="4.36829"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.1</yoffset>
+          </Dynamic>
         <Beam id="426">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -27462,7 +27489,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <StaffText>
-          <pos x="-0.444033" y="4.11764"/>
+          <pos x="0" y="15.7513"/>
           <xoffset>0</xoffset>
           <yoffset>5.8</yoffset>
           <text><i>non ligato</i></text>
@@ -27616,7 +27643,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="-0.406617" y="6.03323"/>
+          <pos x="0.659062" y="4.16829"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
@@ -27928,7 +27955,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="91">
         <StaffText>
-          <pos x="0" y="3.196"/>
+          <pos x="0" y="15.4513"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           <text><i>cresc.</i></text>
@@ -28019,7 +28046,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="-0.74231" y="5.7032"/>
+          <pos x="0.659062" y="4.36829"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -28361,7 +28388,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="99">
         <StaffText>
-          <pos x="0" y="3.69526"/>
+          <pos x="0" y="15.1513"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           <text><i>cresc.</i></text>
@@ -28515,7 +28542,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="102">
         <StaffText>
-          <pos x="0.177613" y="3.08406"/>
+          <pos x="0" y="14.4513"/>
           <xoffset>0</xoffset>
           <yoffset>4.5</yoffset>
           <text><i>dim.</i></text>
@@ -28633,7 +28660,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="5.18994"/>
+          <pos x="0.329531" y="4.56829"/>
           <xoffset>0</xoffset>
           <yoffset>5.3</yoffset>
           </Dynamic>
@@ -28646,6 +28673,13 @@ Op. 95  1st  Movevment</text>
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>88</velocity>
+          <pos x="0.659062" y="6.06829"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.8</yoffset>
+          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -28826,6 +28860,13 @@ Op. 95  1st  Movevment</text>
           </Chord>
         </Measure>
       <Measure number="107">
+        <Dynamic>
+          <subtype>ff</subtype>
+          <velocity>101</velocity>
+          <pos x="0.659062" y="5.56829"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.3</yoffset>
+          </Dynamic>
         <Beam id="445">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -29571,7 +29612,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <StaffText>
-          <pos x="0.0888065" y="3.6848"/>
+          <pos x="0" y="15.8513"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           <text><i>cresc.</i></text>
@@ -29789,7 +29830,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="-0.0256952" y="5.99965"/>
+          <pos x="0.329531" y="3.86829"/>
           <xoffset>0</xoffset>
           <yoffset>4.6</yoffset>
           </Dynamic>
@@ -30294,7 +30335,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.303836" y="5.07874"/>
+          <pos x="0.659062" y="4.36829"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -30401,7 +30442,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="-0.140197" y="5.96829"/>
+          <pos x="0.659062" y="5.96829"/>
           <xoffset>0</xoffset>
           <yoffset>6.7</yoffset>
           </Dynamic>
@@ -30649,7 +30690,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.0631114" y="6.11084"/>
+          <pos x="0.329531" y="4.06829"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
@@ -30754,7 +30795,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="-0.375874" y="6.05842"/>
+          <pos x="0.659062" y="5.26829"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -31544,7 +31585,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="145">
         <StaffText>
-          <pos x="0.0888065" y="3.95122"/>
+          <pos x="0" y="15.8513"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           <text><i>dim.</i></text>
@@ -31589,7 +31630,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <StaffText>
-          <pos x="-6.30526" y="4.01764"/>
+          <pos x="0" y="15.6513"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           <text> - - - - - - - - - - - - - - - - - - - - - - - - - - -</text>
@@ -31779,7 +31820,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="147">
         <StaffText>
-          <pos x="-5.59481" y="5.26093"/>
+          <pos x="0" y="15.6513"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           <text> - - - - - - - - - - - - - - - - - - - - - - - - - - -</text>
@@ -31910,7 +31951,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="148">
         <StaffText>
-          <pos x="-0.710452" y="5.16093"/>
+          <pos x="0" y="15.5513"/>
           <xoffset>0</xoffset>
           <yoffset>5.6</yoffset>
           <text><i>dim.</i></text>
@@ -31976,9 +32017,9 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.517362" y="-0.957295"/>
+          <pos x="0.659062" y="4.86829"/>
           <xoffset>0</xoffset>
-          <yoffset>6.7</yoffset>
+          <yoffset>5.6</yoffset>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -36245,7 +36286,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.0631114" y="7.18845"/>
+          <pos x="0.329531" y="4.96829"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
@@ -36391,7 +36432,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.240724" y="6.06681"/>
+          <pos x="0.329531" y="4.46829"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           </Dynamic>
@@ -36811,7 +36852,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.215029" y="6.24442"/>
+          <pos x="0.659062" y="4.46829"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           </Dynamic>
@@ -36877,16 +36918,9 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.303836" y="5.90039"/>
+          <pos x="0.659062" y="4.56829"/>
           <xoffset>0</xoffset>
           <yoffset>5.3</yoffset>
-          </Dynamic>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.306573" y="-1.80874"/>
-          <xoffset>0</xoffset>
-          <yoffset>5</yoffset>
           </Dynamic>
         <Beam id="586">
           <StemDirection>up</StemDirection>
@@ -36956,7 +36990,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.392642" y="5.84442"/>
+          <pos x="0.659062" y="4.06829"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
@@ -36994,7 +37028,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.126223" y="6.22203"/>
+          <pos x="0.659062" y="4.26829"/>
           <xoffset>0</xoffset>
           <yoffset>5</yoffset>
           </Dynamic>
@@ -37049,7 +37083,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.151918" y="5.99965"/>
+          <pos x="0.329531" y="3.86829"/>
           <xoffset>0</xoffset>
           <yoffset>4.6</yoffset>
           </Dynamic>
@@ -37070,7 +37104,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="-0.140197" y="6.05561"/>
+          <pos x="0.659062" y="4.36829"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -37125,7 +37159,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="-0.0256952" y="5.93323"/>
+          <pos x="0.329531" y="4.06829"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
@@ -37143,7 +37177,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="-0.87375" y="5.29579"/>
+          <pos x="0.329531" y="5.26829"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -37388,7 +37422,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="-0.0513904" y="8.13249"/>
+          <pos x="0.659062" y="5.46829"/>
           <xoffset>0</xoffset>
           <yoffset>6.2</yoffset>
           </Dynamic>
@@ -37404,7 +37438,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.303836" y="7.35487"/>
+          <pos x="0.659062" y="4.86829"/>
           <xoffset>0</xoffset>
           <yoffset>5.6</yoffset>
           </Dynamic>
@@ -37574,14 +37608,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.492184" y="-1.98635"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.8</yoffset>
-          </Dynamic>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.580991" y="6.8943"/>
+          <pos x="0.659062" y="5.06829"/>
           <xoffset>0</xoffset>
           <yoffset>5.8</yoffset>
           </Dynamic>
@@ -37639,7 +37666,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="6.36829"/>
+          <pos x="0.659062" y="4.96829"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
@@ -37702,14 +37729,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.303836" y="6.49965"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.1</yoffset>
-          </Dynamic>
-        <Dynamic>
-          <subtype>ff</subtype>
-          <velocity>101</velocity>
-          <pos x="0.0622079" y="-2.07516"/>
+          <pos x="0.659062" y="4.36829"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -37726,7 +37746,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <StaffText>
-          <pos x="-0.444033" y="4.79938"/>
+          <pos x="0" y="10.483"/>
           <xoffset>0</xoffset>
           <yoffset>5.8</yoffset>
           <text><i>non ligato</i></text>
@@ -37897,7 +37917,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.0631114" y="6.24442"/>
+          <pos x="0.329531" y="4.46829"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           </Dynamic>
@@ -38027,7 +38047,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="91">
         <StaffText>
-          <pos x="0" y="4.08406"/>
+          <pos x="0" y="15.4513"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           <text><i>cresc.</i></text>
@@ -38189,7 +38209,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.0631114" y="5.86681"/>
+          <pos x="0.329531" y="4.26829"/>
           <xoffset>0</xoffset>
           <yoffset>5</yoffset>
           </Dynamic>
@@ -38428,7 +38448,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="99">
         <StaffText>
-          <pos x="-0.177613" y="5.41616"/>
+          <pos x="0" y="15.4513"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           <text><i>cresc.</i></text>
@@ -38439,9 +38459,6 @@ Op. 95  1st  Movevment</text>
           <StemDirection>up</StemDirection>
           <Note>
             <Tie id="107">
-              <SlurSegment no="0">
-                <pos x="0" y="0.177613"/>
-                </SlurSegment>
               </Tie>
             <pitch>41</pitch>
             <tpc>13</tpc>
@@ -38788,7 +38805,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="102">
         <StaffText>
-          <pos x="0.0888065" y="3.7169"/>
+          <pos x="0" y="14.5513"/>
           <xoffset>0</xoffset>
           <yoffset>4.6</yoffset>
           <text><i>dim.</i></text>
@@ -38912,7 +38929,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="-0.0256952" y="5.45636"/>
+          <pos x="0.329531" y="4.56829"/>
           <xoffset>0</xoffset>
           <yoffset>5.3</yoffset>
           </Dynamic>
@@ -38931,14 +38948,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="-0.850649" y="6.2459"/>
-          <xoffset>0</xoffset>
-          <yoffset>6.8</yoffset>
-          </Dynamic>
-        <Dynamic>
-          <subtype>f</subtype>
-          <velocity>88</velocity>
-          <pos x="0.535092" y="-1.45351"/>
+          <pos x="0.659062" y="6.06829"/>
           <xoffset>0</xoffset>
           <yoffset>6.8</yoffset>
           </Dynamic>
@@ -39072,14 +39082,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.392642" y="8.23249"/>
-          <xoffset>0</xoffset>
-          <yoffset>6.3</yoffset>
-          </Dynamic>
-        <Dynamic>
-          <subtype>ff</subtype>
-          <velocity>101</velocity>
-          <pos x="0.312243" y="-0.121414"/>
+          <pos x="0.659062" y="5.56829"/>
           <xoffset>0</xoffset>
           <yoffset>6.3</yoffset>
           </Dynamic>
@@ -39854,7 +39857,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <StaffText>
-          <pos x="0.177613" y="4.30645"/>
+          <pos x="0" y="15.8513"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           <text><i>cresc.</i></text>
@@ -40072,7 +40075,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.0631114" y="5.99965"/>
+          <pos x="0.329531" y="3.86829"/>
           <xoffset>0</xoffset>
           <yoffset>4.6</yoffset>
           </Dynamic>
@@ -40473,7 +40476,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.126223" y="6.23323"/>
+          <pos x="0.659062" y="4.36829"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -40592,7 +40595,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="-1.35497" y="6.36146"/>
+          <pos x="0.329531" y="5.96829"/>
           <xoffset>0</xoffset>
           <yoffset>6.7</yoffset>
           </Dynamic>
@@ -40718,7 +40721,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.151918" y="7.03323"/>
+          <pos x="0.329531" y="5.16829"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           </Dynamic>
@@ -40865,7 +40868,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="-0.0256952" y="6.03397"/>
+          <pos x="0.329531" y="4.96829"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
@@ -40952,7 +40955,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.240724" y="7.26607"/>
+          <pos x="0.329531" y="4.86829"/>
           <xoffset>0</xoffset>
           <yoffset>5.6</yoffset>
           </Dynamic>
@@ -41045,7 +41048,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.240724" y="6.53323"/>
+          <pos x="0.329531" y="4.66829"/>
           <xoffset>0</xoffset>
           <yoffset>5.4</yoffset>
           </Dynamic>
@@ -41141,7 +41144,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.0631114" y="7.66533"/>
+          <pos x="0.329531" y="4.46829"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           </Dynamic>
@@ -41240,7 +41243,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.126223" y="6.66607"/>
+          <pos x="0.659062" y="4.26829"/>
           <xoffset>0</xoffset>
           <yoffset>5</yoffset>
           </Dynamic>
@@ -41265,7 +41268,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="-1.11707" y="7.00039"/>
+          <pos x="0.659062" y="5.66829"/>
           <xoffset>0</xoffset>
           <yoffset>6.4</yoffset>
           </Dynamic>
@@ -41340,7 +41343,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.303836" y="6.01084"/>
+          <pos x="0.659062" y="3.96829"/>
           <xoffset>0</xoffset>
           <yoffset>4.7</yoffset>
           </Dynamic>
@@ -41368,7 +41371,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="-1.09137" y="6.03397"/>
+          <pos x="0.329531" y="4.96829"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
@@ -41416,7 +41419,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.0631114" y="8.25413"/>
+          <pos x="0.329531" y="4.96829"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
@@ -41444,7 +41447,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="-0.114502" y="6.92129"/>
+          <pos x="0.329531" y="4.16829"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
@@ -41469,7 +41472,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.0374162" y="5.69965"/>
+          <pos x="0.659062" y="3.56829"/>
           <xoffset>0</xoffset>
           <yoffset>4.3</yoffset>
           </Dynamic>
@@ -41497,7 +41500,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.0374162" y="8.52129"/>
+          <pos x="0.659062" y="5.76829"/>
           <xoffset>0</xoffset>
           <yoffset>6.5</yoffset>
           </Dynamic>
@@ -41524,7 +41527,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="-0.819907" y="6.62788"/>
+          <pos x="0.659062" y="5.26829"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -41723,7 +41726,7 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.789453" y="-2.07516"/>
+          <pos x="0.750937" y="4.06829"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
@@ -41802,7 +41805,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="145">
         <StaffText>
-          <pos x="0" y="3.86242"/>
+          <pos x="0" y="15.8513"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           <text><i>dim.</i></text>
@@ -41830,7 +41833,7 @@ Op. 95  1st  Movevment</text>
             </Note>
           </Chord>
         <StaffText>
-          <pos x="-20.4255" y="3.396"/>
+          <pos x="0" y="15.6513"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           <text> - - - - - - - - - - - - - - - - - - - - - - - - - - -</text>
@@ -41870,7 +41873,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="147">
         <StaffText>
-          <pos x="-5.68362" y="5.52735"/>
+          <pos x="0" y="15.6513"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           <text> - - - - - - - - - - - - - - - - - - - - - - - - - - -</text>
@@ -41908,7 +41911,7 @@ Op. 95  1st  Movevment</text>
         </Measure>
       <Measure number="148">
         <StaffText>
-          <pos x="-1.15449" y="5.78258"/>
+          <pos x="0" y="15.5513"/>
           <xoffset>0</xoffset>
           <yoffset>5.6</yoffset>
           <text><i>dim.</i></text>
@@ -41987,16 +41990,9 @@ Op. 95  1st  Movevment</text>
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.356293" y="5.75784"/>
+          <pos x="0.533906" y="6.46829"/>
           <xoffset>0</xoffset>
           <yoffset>7.2</yoffset>
-          </Dynamic>
-        <Dynamic>
-          <subtype>pp</subtype>
-          <velocity>36</velocity>
-          <pos x="0.606169" y="-1.54232"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.6</yoffset>
           </Dynamic>
         <Rest>
           <durationType>quarter</durationType>
