@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.1.0</programVersion>
-  <programRevision>871c8ce</programRevision>
+  <programVersion>2.2.1</programVersion>
+  <programRevision>51b8386</programRevision>
   <Score>
     <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
@@ -545,7 +545,7 @@
           <text><font size="9.6"></font><b>No. 1  Adagio ma non troppo e molto espressivo</b></text>
           </Tempo>
         <Harmony>
-          <name>.c#.i</name>
+          <name>.c#.i64</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -608,7 +608,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i</name>
+          <name>i64</name>
           </Harmony>
         <Dynamic>
           <subtype>p</subtype>
@@ -753,7 +753,7 @@
         </Measure>
       <Measure number="6">
         <Harmony>
-          <name>II</name>
+          <name>.bII</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -766,7 +766,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>II(#9)</name>
+          <name>.bII(#2)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -781,7 +781,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>II</name>
+          <name>.bII</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -807,7 +807,7 @@
         </Measure>
       <Measure number="7">
         <Harmony>
-          <name>.Ger6/ii</name>
+          <name>.Ger6</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1583,7 +1583,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V6(7)/iv</name>
+          <name>I6(7)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -1594,7 +1594,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V6/iv</name>
+          <name>I6</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1890,7 +1890,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>.Fr6</name>
+          <name>.Fr6/V</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -2155,7 +2155,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V6(6)</name>
+          <name>V6(+6)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -2475,7 +2475,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>I6]</name>
+          <name>I64</name>
           <pos x="0" y="-5.82856"/>
           </Harmony>
         <Chord>
@@ -2606,7 +2606,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i64</name>
+          <name>V(64)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2834,7 +2834,7 @@
         </Measure>
       <Measure number="47">
         <Harmony>
-          <name>vi</name>
+          <name>vi/I</name>
           </Harmony>
         <Rest>
           <durationType>measure</durationType>
@@ -2842,12 +2842,12 @@
           </Rest>
         <tick>89760</tick>
         <Harmony>
-          <name>IV</name>
+          <name>IV6/I</name>
           </Harmony>
         </Measure>
       <Measure number="48">
         <Harmony>
-          <name>.bII.iii</name>
+          <name>.bbII.iii</name>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
@@ -2889,7 +2889,7 @@
         </Measure>
       <Measure number="49">
         <Harmony>
-          <name>.bV.iii64</name>
+          <name>.bbV.iii64</name>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
@@ -3115,7 +3115,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>v</name>
+          <name>vi</name>
           <pos x="0.114778" y="-4.68078"/>
           </Harmony>
         <Chord>
@@ -3130,7 +3130,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>v.V/III</name>
+          <name>VII.V</name>
           <pos x="-0.774129" y="-6.24162"/>
           </Harmony>
         <Chord>
@@ -3146,7 +3146,7 @@
         </Measure>
       <Measure number="53">
         <Harmony>
-          <name>V6/III</name>
+          <name>V6</name>
           <pos x="0.114778" y="-5.59901"/>
           </Harmony>
         <Chord>
@@ -3169,7 +3169,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>III(4)</name>
+          <name>I(4)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -3187,7 +3187,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>III</name>
+          <name>I</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -3219,7 +3219,7 @@
           <yoffset>6.4</yoffset>
           </Dynamic>
         <Harmony>
-          <name>VII.vi(2)</name>
+          <name>vi(2)</name>
           <pos x="0.114778" y="-5.02512"/>
           </Harmony>
         <Chord>
@@ -4546,6 +4546,9 @@
           </Chord>
         </Measure>
       <Measure number="74">
+        <Harmony>
+          <name>IV</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -4563,9 +4566,6 @@
           </Rest>
         </Measure>
       <Measure number="75">
-        <Harmony>
-          <name>IV</name>
-          </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="1" n="1"/>
@@ -5072,7 +5072,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i(64)</name>
+          <name>V(64)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5719,7 +5719,7 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>I43</name>
+          <name>V43</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5877,9 +5877,6 @@
           </Chord>
         </Measure>
       <Measure number="103">
-        <Harmony>
-          <name>#viio2</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -5900,7 +5897,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i(64)</name>
+          <name>V(64)</name>
           <pos x="-0.114778" y="-4.79556"/>
           </Harmony>
         <Chord>
@@ -6103,7 +6100,7 @@
           <pos x="0.329531" y="7.26829"/>
           </Dynamic>
         <Harmony>
-          <name>V2/II</name>
+          <name>V2/bII</name>
           <pos x="0" y="-5.36945"/>
           </Harmony>
         <Chord>
@@ -6118,14 +6115,10 @@
           </Chord>
         <tick>204960</tick>
         <Harmony>
-          <name>II6</name>
-          <pos x="-1.83645" y="-5.51866"/>
+          <name>.bII6</name>
+          <pos x="-0.166761" y="-6.3535"/>
           </Harmony>
         <tick>205440</tick>
-        <Harmony>
-          <name>II</name>
-          <pos x="0" y="-4.91034"/>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -6409,7 +6402,7 @@
           <subtype>page</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>IV(#2)</name>
+          <name>.bII(#2)</name>
           <pos x="0" y="-6.74679"/>
           </Harmony>
         <Chord>
@@ -20763,8 +20756,8 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
+            <pitch>44</pitch>
+            <tpc>22</tpc>
             </Note>
           </Chord>
         <tick>227040</tick>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.2.1</programVersion>
-  <programRevision>51b8386</programRevision>
+  <programVersion>2.1.0</programVersion>
+  <programRevision>871c8ce</programRevision>
   <Score>
     <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
@@ -512,21 +512,14 @@
           <subtype>start-repeat</subtype>
           <span>4</span>
           </BarLine>
-        <Dynamic>
-          <subtype>f</subtype>
-          <velocity>88</velocity>
-          <pos x="0.329531" y="4.56829"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.3</yoffset>
-          </Dynamic>
         <StaffText>
-          <pos x="-0.878052" y="-13.8854"/>
+          <pos x="0.09882" y="-7.84655"/>
           <xoffset>0</xoffset>
           <yoffset>-1.3</yoffset>
           <text><b>Allegro assai vivace ma serioso</b></text>
           </StaffText>
         <Harmony>
-          <name>.f.viio7/V</name>
+          <name>.f.#viio7/V</name>
           </Harmony>
         <Beam id="1">
           <StemDirection>down</StemDirection>
@@ -570,7 +563,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>viio65/V</name>
+          <name>#viio65/V</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -634,7 +627,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>viio43/V</name>
+          <name>#viio43/V</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -662,13 +655,10 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="3.66829"/>
+          <pos x="-0.0256952" y="6.5101"/>
           <xoffset>0</xoffset>
           <yoffset>4.4</yoffset>
           </Dynamic>
-        <Harmony>
-          <name>.V.viio7</name>
-          </Harmony>
         <Beam id="3">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -696,7 +686,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V65</name>
+          <name>v.V65</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -748,6 +738,9 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>i(9)</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -761,6 +754,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>i</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -776,7 +772,7 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <StaffText>
-          <pos x="0" y="15.6513"/>
+          <pos x="0" y="3.12958"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           <text><i>cresc.</i></text>
@@ -883,7 +879,7 @@
         </Measure>
       <Measure number="8">
         <Harmony>
-          <name>i</name>
+          <name>i2</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -903,7 +899,7 @@
         </Measure>
       <Measure number="9">
         <Harmony>
-          <name>iv.V</name>
+          <name>i.V</name>
           </Harmony>
         <Rest>
           <durationType>measure</durationType>
@@ -911,24 +907,14 @@
           </Rest>
         <tick>12000</tick>
         <Harmony>
-          <name>III</name>
+          <name>i6</name>
           </Harmony>
         <tick>12480</tick>
         <Harmony>
-          <name>iv</name>
+          <name>iio6</name>
           </Harmony>
         </Measure>
       <Measure number="10">
-        <Dynamic>
-          <subtype>f</subtype>
-          <velocity>88</velocity>
-          <pos x="0.329531" y="4.16829"/>
-          <xoffset>0</xoffset>
-          <yoffset>4.9</yoffset>
-          </Dynamic>
-        <Harmony>
-          <name>ii6</name>
-          </Harmony>
         <Beam id="8">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -1000,14 +986,10 @@
           </Harmony>
         <tick>15360</tick>
         <Harmony>
-          <name>ii</name>
+          <name>iio</name>
           </Harmony>
         </Measure>
       <Measure number="12">
-        <Harmony>
-          <name>iv</name>
-          <pos x="0" y="-3.86586"/>
-          </Harmony>
         <Beam id="9">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -1035,8 +1017,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>III</name>
-          <pos x="0" y="-4.2561"/>
+          <name>i6</name>
+          <pos x="0.0888065" y="-3.19042"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1048,8 +1030,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>ii</name>
-          <pos x="0.195123" y="-4.06098"/>
+          <name>iio</name>
+          <pos x="0.106316" y="-2.81769"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1068,16 +1050,13 @@
         <LayoutBreak>
           <subtype>page</subtype>
           </LayoutBreak>
-        <Harmony>
-          <name>ii6</name>
-          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="3.66829"/>
+          <pos x="-0.0256952" y="5.35561"/>
           <xoffset>0</xoffset>
           <yoffset>4.4</yoffset>
           </Dynamic>
@@ -1130,7 +1109,7 @@
         </Measure>
       <Measure number="15">
         <StaffText>
-          <pos x="0" y="15.0513"/>
+          <pos x="-0.0888065" y="3.32884"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           <text><i>cresc.</i></text>
@@ -1192,7 +1171,7 @@
         </Measure>
       <Measure number="16">
         <Harmony>
-          <name>i(7)</name>
+          <name>VI(2)</name>
           </Harmony>
         <Beam id="10">
           <StemDirection>down</StemDirection>
@@ -1276,7 +1255,7 @@
           <Beam>12</Beam>
           </Rest>
         <Harmony>
-          <name>V7</name>
+          <name>V43</name>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -1292,12 +1271,12 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.329531" y="4.16829"/>
+          <pos x="-0.0256952" y="7.0101"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
         <Harmony>
-          <name>i[i</name>
+          <name>i[i64</name>
           <pos x="0.585368" y="-3.47561"/>
           </Harmony>
         <Beam id="13">
@@ -1329,7 +1308,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.16829"/>
+          <pos x="0.0631114" y="5.85561"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
@@ -1364,7 +1343,7 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>vi%7</name>
+          <name>#vi%2</name>
           <pos x="0.585368" y="-2.5"/>
           </Harmony>
         <Beam id="14">
@@ -1396,13 +1375,13 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.86829"/>
+          <pos x="-0.0256952" y="6.02278"/>
           <xoffset>0</xoffset>
           <yoffset>5.6</yoffset>
           </Dynamic>
         <Harmony>
           <name>V7</name>
-          <pos x="-0.585368" y="-2.89025"/>
+          <pos x="-0.407755" y="-2.44622"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1416,7 +1395,7 @@
           </Chord>
         <tick>25440</tick>
         <Harmony>
-          <name>i]</name>
+          <name>i64]</name>
           </Harmony>
         <tick>25680</tick>
         <Chord>
@@ -1464,7 +1443,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i6(#79)</name>
+          <name>i6(9#7)</name>
           <pos x="0.585368" y="-2.5"/>
           </Harmony>
         <Beam id="16">
@@ -1510,7 +1489,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>ii</name>
+          <name>iio</name>
           <pos x="0.585368" y="-2.5"/>
           </Harmony>
         <Rest>
@@ -1556,7 +1535,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i(42)</name>
+          <name>i(94)</name>
           <pos x="0.585368" y="-2.5"/>
           </Harmony>
         <Beam id="19">
@@ -1647,7 +1626,7 @@
           </Chord>
         <Harmony>
           <name>i(#72)</name>
-          <pos x="1.7561" y="-5.2805"/>
+          <pos x="0.0687756" y="-3.59318"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1662,12 +1641,12 @@
         <tick>29760</tick>
         <Harmony>
           <name>i</name>
-          <pos x="1.7561" y="-5.2805"/>
+          <pos x="1.22326" y="-3.41556"/>
           </Harmony>
         <tick>30000</tick>
         <Harmony>
-          <name>ii</name>
-          <pos x="1.7561" y="-5.2805"/>
+          <name>iio</name>
+          <pos x="0.512808" y="-3.41556"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1708,7 +1687,7 @@
           </Chord>
         <Harmony>
           <name>i(42)</name>
-          <pos x="1.7561" y="-5.2805"/>
+          <pos x="0.601615" y="-2.97153"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1723,12 +1702,12 @@
         <tick>31200</tick>
         <Harmony>
           <name>i6</name>
-          <pos x="-0.022137" y="-5.2805"/>
+          <pos x="0.244283" y="-2.79392"/>
           </Harmony>
         <tick>31440</tick>
         <Harmony>
           <name>#viio43</name>
-          <pos x="-0.979649" y="-5.55407"/>
+          <pos x="-0.979649" y="-2.71226"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1746,7 +1725,7 @@
           </LayoutBreak>
         <Harmony>
           <name>i6</name>
-          <pos x="1.7561" y="-5.2805"/>
+          <pos x="0.246389" y="-2.70511"/>
           </Harmony>
         <Beam id="23">
           <StemDirection>down</StemDirection>
@@ -1775,8 +1754,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>ii(72)</name>
-          <pos x="1.7561" y="-5.2805"/>
+          <name>iio(72)</name>
+          <pos x="0.246389" y="-3.23795"/>
           </Harmony>
         <Beam id="24">
           <StemDirection>down</StemDirection>
@@ -1796,8 +1775,8 @@
           <Beam>24</Beam>
           </Rest>
         <Harmony>
-          <name>ii</name>
-          <pos x="1.7561" y="-5.2805"/>
+          <name>iio</name>
+          <pos x="0.335195" y="-3.14914"/>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -1822,7 +1801,7 @@
           </Chord>
         <Harmony>
           <name>i</name>
-          <pos x="1.7561" y="-5.2805"/>
+          <pos x="0.157582" y="-2.97153"/>
           </Harmony>
         <Rest>
           <BeamMode>mid</BeamMode>
@@ -1842,7 +1821,7 @@
       <Measure number="24">
         <Harmony>
           <name>i6</name>
-          <pos x="0.525013" y="-5.00693"/>
+          <pos x="0.258593" y="-3.58603"/>
           </Harmony>
         <Beam id="26">
           <StemDirection>down</StemDirection>
@@ -1863,7 +1842,7 @@
           </Rest>
         <Harmony>
           <name>#vi%43</name>
-          <pos x="-2.96808" y="-6.73436"/>
+          <pos x="-3.85615" y="-4.33658"/>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -1879,7 +1858,7 @@
           </Chord>
         <Harmony>
           <name>V43(9)</name>
-          <pos x="0" y="-6.89026"/>
+          <pos x="0.0888065" y="-4.22606"/>
           </Harmony>
         <Beam id="27">
           <StemDirection>down</StemDirection>
@@ -1900,7 +1879,7 @@
           </Rest>
         <Harmony>
           <name>V43</name>
-          <pos x="0.439026" y="-7.0366"/>
+          <pos x="-0.537846" y="-4.19479"/>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -1928,7 +1907,7 @@
           </Chord>
         <Harmony>
           <name>i</name>
-          <pos x="0.439026" y="-7.47563"/>
+          <pos x="0.0837998" y="-4.10098"/>
           </Harmony>
         <Rest>
           <BeamMode>mid</BeamMode>
@@ -1949,13 +1928,13 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.329531" y="4.26829"/>
+          <pos x="0.418338" y="7.28771"/>
           <xoffset>0</xoffset>
           <yoffset>5</yoffset>
           </Dynamic>
         <Harmony>
           <name>VI</name>
-          <pos x="0.146342" y="-6.59757"/>
+          <pos x="-0.0312711" y="-4.91025"/>
           </Harmony>
         <Beam id="29">
           <StemDirection>down</StemDirection>
@@ -2013,7 +1992,7 @@
         </Measure>
       <Measure number="26">
         <Harmony>
-          <name>IV/VI</name>
+          <name>.bII</name>
           <pos x="0" y="-3.96342"/>
           </Harmony>
         <Beam id="30">
@@ -2206,10 +2185,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V(9)</name>
-          <pos x="0.73171" y="-2.5"/>
-          </Harmony>
         <Beam id="35">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -2227,9 +2202,6 @@
           <durationType>16th</durationType>
           <Beam>35</Beam>
           </Rest>
-        <Harmony>
-          <name>V</name>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>16th</durationType>
@@ -2293,15 +2265,8 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.659062" y="5.36829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6.1</yoffset>
-          </Dynamic>
         <Harmony>
-          <name>V[V7</name>
+          <name>V[#viio6</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -2352,16 +2317,17 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>#viio64</name>
+          <pos x="-3.64107" y="-2.58881"/>
+          </Harmony>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.86829"/>
+          <pos x="0.391691" y="5.98518"/>
           <xoffset>0</xoffset>
           <yoffset>5.6</yoffset>
           </Dynamic>
-        <Harmony>
-          <name>V7</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -2373,7 +2339,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i]</name>
+          <name>i6]</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -2386,13 +2352,6 @@
           </Chord>
         </Measure>
       <Measure number="31">
-        <Dynamic>
-          <subtype>ff</subtype>
-          <velocity>101</velocity>
-          <pos x="0.329531" y="5.26829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6</yoffset>
-          </Dynamic>
         <Harmony>
           <name>iv</name>
           </Harmony>
@@ -2552,12 +2511,12 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.06829"/>
+          <pos x="0.151918" y="6.02203"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
         <Harmony>
-          <name>V64(9)</name>
+          <name>VI7</name>
           <pos x="0" y="-4.45123"/>
           </Harmony>
         <Chord>
@@ -2819,7 +2778,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7]</name>
+          <name>V43]</name>
           </Harmony>
         <Beam id="51">
           <StemDirection>up</StemDirection>
@@ -2838,6 +2797,9 @@
           <durationType>16th</durationType>
           <Beam>51</Beam>
           </Rest>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>16th</durationType>
@@ -3029,12 +2991,12 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.16829"/>
+          <pos x="0.0631114" y="7.0101"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
         <Harmony>
-          <name>viio7/V</name>
+          <name>#viio7/V</name>
           <pos x="0" y="-3.86586"/>
           </Harmony>
         <Chord>
@@ -3053,7 +3015,7 @@
       <Measure number="41">
         <Harmony>
           <name>i\\</name>
-          <pos x="0" y="-4.2561"/>
+          <pos x="0" y="-3.90087"/>
           </Harmony>
         <endSpanner id="3"/>
         <Volta id="4">
@@ -3077,13 +3039,13 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.36829"/>
+          <pos x="0.215029" y="6.05561"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
         <Harmony>
           <name>.bII.I</name>
-          <pos x="0" y="-4.45123"/>
+          <pos x="0.0888065" y="-3.47436"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -3104,7 +3066,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="4.36829"/>
+          <pos x="0.215029" y="5.70039"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -3650,13 +3612,13 @@
         </Measure>
       <Measure number="50">
         <StaffText>
-          <pos x="0" y="16.5513"/>
+          <pos x="0.0888065" y="5.7169"/>
           <xoffset>0</xoffset>
           <yoffset>6.6</yoffset>
           <text><i>dol.</i></text>
           </StaffText>
         <Harmony>
-          <name>I</name>
+          <name>I\\</name>
           </Harmony>
         <Beam id="72">
           <StemDirection>down</StemDirection>
@@ -3768,7 +3730,7 @@
           </Chord>
         <Harmony>
           <name>ii</name>
-          <pos x="0" y="-4.45123"/>
+          <pos x="-0.0888065" y="-2.49749"/>
           </Harmony>
         <Beam id="76">
           <StemDirection>down</StemDirection>
@@ -3871,7 +3833,7 @@
           </Chord>
         <Harmony>
           <name>ii</name>
-          <pos x="0" y="-5.03659"/>
+          <pos x="0" y="-2.63881"/>
           </Harmony>
         <Beam id="80">
           <StemDirection>up</StemDirection>
@@ -3983,7 +3945,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="4.76829"/>
+          <pos x="0.0631114" y="6.54442"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           </Dynamic>
@@ -4245,7 +4207,7 @@
         </Measure>
       <Measure number="58">
         <Harmony>
-          <name>viio7/ii</name>
+          <name>#viio65/ii</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -4615,7 +4577,7 @@
           </Chord>
         <Harmony>
           <name>ii</name>
-          <pos x="0" y="-4.45123"/>
+          <pos x="0" y="-2.6751"/>
           </Harmony>
         <Beam id="104">
           <StemDirection>down</StemDirection>
@@ -4718,7 +4680,7 @@
           </Chord>
         <Harmony>
           <name>V43</name>
-          <pos x="0" y="-5.03659"/>
+          <pos x="-0.621646" y="-2.37239"/>
           </Harmony>
         <Beam id="108">
           <StemDirection>up</StemDirection>
@@ -5172,7 +5134,7 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>ii</name>
+          <name>ii6</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -5587,8 +5549,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>vii</name>
-          <pos x="-0.195123" y="-4.45123"/>
+          <name>viio6</name>
+          <pos x="-0.0175099" y="-2.58629"/>
           </Harmony>
         <Beam id="138">
           <StemDirection>up</StemDirection>
@@ -5613,7 +5575,7 @@
           </Chord>
         <Harmony>
           <name>I</name>
-          <pos x="0.390245" y="-5.23172"/>
+          <pos x="0.123825" y="-2.65633"/>
           </Harmony>
         <Beam id="139">
           <StemDirection>up</StemDirection>
@@ -5769,7 +5731,7 @@
         </Measure>
       <Measure number="80">
         <StaffText>
-          <pos x="0" y="15.8513"/>
+          <pos x="-0.177613" y="3.32958"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           <text><i>cresc.</i></text>
@@ -5834,7 +5796,7 @@
         </Measure>
       <Measure number="81">
         <Harmony>
-          <name>.vi.viio65</name>
+          <name>.#iv.V43</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -5964,7 +5926,7 @@
           <subtype>page</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>viio7</name>
+          <name>V65</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -6096,7 +6058,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="4.46829"/>
+          <pos x="0.151918" y="5.44516"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           </Dynamic>
@@ -6224,7 +6186,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.66829"/>
+          <pos x="0.0631114" y="5.82278"/>
           <xoffset>0</xoffset>
           <yoffset>5.4</yoffset>
           </Dynamic>
@@ -6355,7 +6317,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.76829"/>
+          <pos x="-0.114502" y="5.92278"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           </Dynamic>
@@ -6425,7 +6387,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="15.3513"/>
+          <pos x="0.0888065" y="3.36242"/>
           <xoffset>0</xoffset>
           <yoffset>5.4</yoffset>
           <text><i>dim.</i></text>
@@ -6488,7 +6450,7 @@
       <Measure number="91">
         <Harmony>
           <name>V</name>
-          <pos x="-0.390245" y="-4.45123"/>
+          <pos x="0.0537877" y="-2.31987"/>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -6553,7 +6515,7 @@
         </Measure>
       <Measure number="92">
         <Harmony>
-          <name>V7(9)</name>
+          <name>V7(+9)</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -6561,7 +6523,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="4.26829"/>
+          <pos x="0.392642" y="6.04442"/>
           <xoffset>0</xoffset>
           <yoffset>5</yoffset>
           </Dynamic>
@@ -6625,7 +6587,7 @@
         </Measure>
       <Measure number="93">
         <Harmony>
-          <name>vi</name>
+          <name>i</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -6633,7 +6595,7 @@
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.659062" y="4.36829"/>
+          <pos x="0.860048" y="6.07399"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -7074,13 +7036,6 @@
           </Chord>
         </Measure>
       <Measure number="100">
-        <Dynamic>
-          <subtype>pp</subtype>
-          <velocity>36</velocity>
-          <pos x="0.659062" y="5.36829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6.1</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -7127,15 +7082,8 @@
           </Rest>
         </Measure>
       <Measure number="103">
-        <Dynamic>
-          <subtype>f</subtype>
-          <velocity>88</velocity>
-          <pos x="0.659062" y="5.16829"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.9</yoffset>
-          </Dynamic>
         <Harmony>
-          <name>.v.viio7</name>
+          <name>v.#viio7</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7217,7 +7165,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>viio65</name>
+          <name>#viio65</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7240,7 +7188,7 @@
         </Measure>
       <Measure number="106">
         <Harmony>
-          <name>V7</name>
+          <name>#viio65</name>
           </Harmony>
         <Beam id="190">
           <StemDirection>down</StemDirection>
@@ -7287,7 +7235,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>vio2</name>
+          <name>#viio2</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7309,16 +7257,16 @@
           </Rest>
         </Measure>
       <Measure number="108">
-        <Dynamic>
-          <subtype>p</subtype>
-          <velocity>49</velocity>
-          <pos x="0.329531" y="3.66829"/>
-          <xoffset>0</xoffset>
-          <yoffset>4.4</yoffset>
-          </Dynamic>
         <Harmony>
           <name>V65(9)</name>
           </Harmony>
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          <pos x="-0.574651" y="6.16279"/>
+          <xoffset>0</xoffset>
+          <yoffset>4.4</yoffset>
+          </Dynamic>
         <Beam id="191">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -7428,6 +7376,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>i</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -7446,7 +7397,7 @@
           <subtype>page</subtype>
           </LayoutBreak>
         <StaffText>
-          <pos x="0" y="15.3513"/>
+          <pos x="0.355226" y="3.27361"/>
           <xoffset>0</xoffset>
           <yoffset>5.4</yoffset>
           <text><i>cresc.</i></text>
@@ -7562,7 +7513,7 @@
         </Measure>
       <Measure number="111">
         <Harmony>
-          <name>i</name>
+          <name>i.V2</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7611,12 +7562,12 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.329531" y="4.46829"/>
+          <pos x="0.329531" y="7.36829"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           </Dynamic>
         <Harmony>
-          <name>ii6</name>
+          <name>iio6</name>
           </Harmony>
         <Beam id="196">
           <StemDirection>down</StemDirection>
@@ -7693,7 +7644,7 @@
           </Harmony>
         <tick>163680</tick>
         <Harmony>
-          <name>ii</name>
+          <name>iio</name>
           </Harmony>
         </Measure>
       <Measure number="115">
@@ -7732,7 +7683,7 @@
           </Chord>
         <Harmony>
           <name>i6</name>
-          <pos x="-0.292684" y="-4.54879"/>
+          <pos x="0.0625422" y="-3.57192"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7744,7 +7695,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>ii</name>
+          <name>iio</name>
           <pos x="0" y="-3.37805"/>
           </Harmony>
         <Chord>
@@ -7770,7 +7721,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="3.66829"/>
+          <pos x="-0.0256952" y="5.26681"/>
           <xoffset>0</xoffset>
           <yoffset>4.4</yoffset>
           </Dynamic>
@@ -7826,7 +7777,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="15.7513"/>
+          <pos x="0.0888065" y="3.496"/>
           <xoffset>0</xoffset>
           <yoffset>5.8</yoffset>
           <text><i>cresc.</i></text>
@@ -7870,7 +7821,7 @@
         </Measure>
       <Measure number="119">
         <Harmony>
-          <name>i(7)</name>
+          <name>VI(2)</name>
           </Harmony>
         <Beam id="198">
           <StemDirection>down</StemDirection>
@@ -7955,6 +7906,7 @@
           </Rest>
         <Harmony>
           <name>V43</name>
+          <pos x="0.0888065" y="-3.21045"/>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -7975,8 +7927,8 @@
           <yoffset>5</yoffset>
           </Dynamic>
         <Harmony>
-          <name>i[i</name>
-          <pos x="0.195123" y="-4.06098"/>
+          <name>i[i64</name>
+          <pos x="0.195123" y="-3.17291"/>
           </Harmony>
         <Beam id="201">
           <StemDirection>down</StemDirection>
@@ -8007,12 +7959,12 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.26829"/>
+          <pos x="0.151918" y="5.86681"/>
           <xoffset>0</xoffset>
           <yoffset>5</yoffset>
           </Dynamic>
         <Harmony>
-          <name>i(4)</name>
+          <name>i64(4)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -8025,7 +7977,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i</name>
+          <name>i64</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -8042,7 +7994,7 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>#vi%7</name>
+          <name>#vi%2</name>
           </Harmony>
         <Beam id="202">
           <StemDirection>down</StemDirection>
@@ -8073,13 +8025,13 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.76829"/>
+          <pos x="0.240724" y="5.83397"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           </Dynamic>
         <Harmony>
-          <name>V65</name>
-          <pos x="0.195123" y="-3.67074"/>
+          <name>V7</name>
+          <pos x="0.195123" y="-2.24984"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -8092,7 +8044,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i]</name>
+          <name>i64]</name>
           <pos x="-1.36787" y="-1.4057"/>
           </Harmony>
         <Chord>
@@ -8139,7 +8091,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V(9)</name>
+          <name>i6(#72)</name>
           </Harmony>
         <Beam id="204">
           <StemDirection>down</StemDirection>
@@ -8183,7 +8135,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>ii</name>
+          <name>iio</name>
           </Harmony>
         <Rest>
           <BeamMode>mid</BeamMode>
@@ -8228,7 +8180,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i(42)</name>
+          <name>i(94)</name>
           </Harmony>
         <Beam id="207">
           <StemDirection>down</StemDirection>
@@ -8318,7 +8270,7 @@
           </Chord>
         <Harmony>
           <name>i(#72)</name>
-          <pos x="0.29268" y="-5.57318"/>
+          <pos x="0.203873" y="-3.97466"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -8333,12 +8285,12 @@
         <tick>178080</tick>
         <Harmony>
           <name>i</name>
-          <pos x="0.146338" y="-5.57318"/>
+          <pos x="-0.208888" y="-3.88586"/>
           </Harmony>
         <tick>178320</tick>
         <Harmony>
-          <name>ii</name>
-          <pos x="-3.49672e-06" y="-5.42684"/>
+          <name>iio</name>
+          <pos x="-3.49672e-06" y="-3.82832"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -8378,8 +8330,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i(42)</name>
-          <pos x="-0.146345" y="-5.57318"/>
+          <name>i6</name>
+          <pos x="-0.146345" y="-4.77392"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -8391,15 +8343,9 @@
             <tpc>10</tpc>
             </Note>
           </Chord>
-        <tick>179520</tick>
-        <Harmony>
-          <name>i6</name>
-          <pos x="-0.439029" y="-5.86587"/>
-          </Harmony>
-        <tick>179760</tick>
         <Harmony>
           <name>#viio43</name>
-          <pos x="-2.03271" y="-5.70997"/>
+          <pos x="-1.41106" y="-4.55548"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -8417,7 +8363,7 @@
           </LayoutBreak>
         <Harmony>
           <name>i6</name>
-          <pos x="-3.49672e-06" y="-5.42684"/>
+          <pos x="0.0888031" y="-4.53877"/>
           </Harmony>
         <Beam id="211">
           <StemDirection>down</StemDirection>
@@ -8446,8 +8392,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>ii(72)</name>
-          <pos x="-0.146345" y="-5.57318"/>
+          <name>iio(97)</name>
+          <pos x="-0.146345" y="-4.5075"/>
           </Harmony>
         <Beam id="212">
           <StemDirection>down</StemDirection>
@@ -8467,8 +8413,8 @@
           <Beam>212</Beam>
           </Rest>
         <Harmony>
-          <name>ii</name>
-          <pos x="0.29268" y="-5.13416"/>
+          <name>iio</name>
+          <pos x="-0.0625462" y="-4.60132"/>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -8493,7 +8439,7 @@
           </Chord>
         <Harmony>
           <name>i</name>
-          <pos x="-3.49672e-06" y="-5.13416"/>
+          <pos x="-3.49672e-06" y="-4.51251"/>
           </Harmony>
         <Rest>
           <BeamMode>mid</BeamMode>
@@ -8513,7 +8459,7 @@
       <Measure number="127">
         <Harmony>
           <name>i6</name>
-          <pos x="-0.146345" y="-5.2805"/>
+          <pos x="0.0312681" y="-4.65885"/>
           </Harmony>
         <Beam id="214">
           <StemDirection>down</StemDirection>
@@ -8534,7 +8480,7 @@
           </Rest>
         <Harmony>
           <name>#vi%43</name>
-          <pos x="-2.48781" y="-5.13415"/>
+          <pos x="-3.37588" y="-4.69012"/>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -8620,7 +8566,7 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.329531" y="4.66829"/>
+          <pos x="0.329531" y="7.15487"/>
           <xoffset>0</xoffset>
           <yoffset>5.4</yoffset>
           </Dynamic>
@@ -8684,8 +8630,8 @@
         </Measure>
       <Measure number="129">
         <Harmony>
-          <name>IV/VI</name>
-          <pos x="-0.439026" y="-5.42684"/>
+          <name>.bII</name>
+          <pos x="0.00500674" y="-4.09474"/>
           </Harmony>
         <Beam id="218">
           <StemDirection>down</StemDirection>
@@ -8804,10 +8750,6 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V(9)</name>
-          <pos x="0.73171" y="-2.5"/>
-          </Harmony>
         <Beam id="221">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -8840,10 +8782,6 @@
           </Chord>
         </Measure>
       <Measure number="131">
-        <Harmony>
-          <name>V(7)</name>
-          <pos x="-0.146342" y="-2.35366"/>
-          </Harmony>
         <Beam id="222">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -8864,10 +8802,6 @@
           <durationType>16th</durationType>
           <Beam>222</Beam>
           </Rest>
-        <Harmony>
-          <name>V</name>
-          <pos x="-0.292684" y="-2.20732"/>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>16th</durationType>
@@ -8877,10 +8811,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V(9)</name>
-          <pos x="0.292684" y="-2.20732"/>
-          </Harmony>
         <Beam id="223">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -8949,13 +8879,6 @@
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.659062" y="5.76829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6.5</yoffset>
-          </Dynamic>
         <Chord>
           <durationType>16th</durationType>
           <Note>
@@ -8964,7 +8887,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7</name>
+          <name>#viio6</name>
           <pos x="0.292684" y="-2.5"/>
           </Harmony>
         <Chord>
@@ -9020,12 +8943,12 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.26829"/>
+          <pos x="0.215029" y="5.97874"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
         <Harmony>
-          <name>V7</name>
+          <name>#viio64</name>
           <pos x="0.292684" y="-2.5"/>
           </Harmony>
         <Chord>
@@ -9053,13 +8976,6 @@
           </Chord>
         </Measure>
       <Measure number="134">
-        <Dynamic>
-          <subtype>ff</subtype>
-          <velocity>101</velocity>
-          <pos x="0.329531" y="5.16829"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.9</yoffset>
-          </Dynamic>
         <Harmony>
           <name>iv</name>
           <pos x="0.292684" y="-2.5"/>
@@ -9106,7 +9022,7 @@
       <Measure number="135">
         <Harmony>
           <name>#viio65</name>
-          <pos x="0.292684" y="-2.5"/>
+          <pos x="-1.12822" y="-2.5"/>
           </Harmony>
         <Beam id="227">
           <StemDirection>down</StemDirection>
@@ -9217,13 +9133,13 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.16829"/>
+          <pos x="-0.114502" y="5.94442"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
         <Harmony>
           <name>V(64)</name>
-          <pos x="0.292684" y="-4.64635"/>
+          <pos x="0.203877" y="-4.29112"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9355,7 +9271,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i(7)</name>
+          <name>VI(2)</name>
           </Harmony>
         <Beam id="234">
           <StemDirection>up</StemDirection>
@@ -9384,7 +9300,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>VI(7)</name>
+          <name>VI7</name>
           </Harmony>
         <Beam id="235">
           <StemDirection>up</StemDirection>
@@ -9460,9 +9376,6 @@
           <durationType>16th</durationType>
           <Beam>237</Beam>
           </Rest>
-        <Harmony>
-          <name>VI2</name>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>16th</durationType>
@@ -9665,12 +9578,13 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.56829"/>
+          <pos x="0.0631114" y="6.16681"/>
           <xoffset>0</xoffset>
           <yoffset>5.3</yoffset>
           </Dynamic>
         <Harmony>
-          <name>#vio7/V</name>
+          <name>#viio7/V</name>
+          <pos x="-0.888065" y="-2.58881"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9687,7 +9601,7 @@
         </Measure>
       <Measure number="144">
         <Harmony>
-          <name>#viio</name>
+          <name>#viio6</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9717,6 +9631,7 @@
       <Measure number="145">
         <Harmony>
           <name>#viio43/iv</name>
+          <pos x="-4.52913" y="-2.41119"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9761,13 +9676,6 @@
         <KeySig>
           <accidental>2</accidental>
           </KeySig>
-        <Dynamic>
-          <subtype>p</subtype>
-          <velocity>49</velocity>
-          <pos x="0.659062" y="5.26829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6</yoffset>
-          </Dynamic>
         <Harmony>
           <name>.#VI.I</name>
           </Harmony>
@@ -10103,7 +10011,7 @@
         </Measure>
       <Measure number="151">
         <Harmony>
-          <name>ii</name>
+          <name>ii6</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -10293,7 +10201,7 @@
         </Measure>
       <Measure number="154">
         <Harmony>
-          <name>I</name>
+          <name>I\\</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -10327,7 +10235,7 @@
           </Chord>
         <Harmony>
           <name>IV</name>
-          <pos x="-0.195123" y="-3.86586"/>
+          <pos x="0.0712966" y="-2.97779"/>
           </Harmony>
         <Beam id="260">
           <StemDirection>down</StemDirection>
@@ -10354,7 +10262,7 @@
       <Measure number="155">
         <Harmony>
           <name>I</name>
-          <pos x="0" y="-3.86586"/>
+          <pos x="0" y="-2.97779"/>
           </Harmony>
         <Beam id="261">
           <StemDirection>down</StemDirection>
@@ -10379,7 +10287,7 @@
           </Chord>
         <Harmony>
           <name>ii</name>
-          <pos x="0" y="-4.84147"/>
+          <pos x="0" y="-2.97653"/>
           </Harmony>
         <Beam id="262">
           <StemDirection>down</StemDirection>
@@ -10430,7 +10338,7 @@
           </LayoutBreak>
         <Harmony>
           <name>I</name>
-          <pos x="0.195123" y="-3.47561"/>
+          <pos x="0.195123" y="-2.85396"/>
           </Harmony>
         <Beam id="264">
           <StemDirection>down</StemDirection>
@@ -10522,8 +10430,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>vii6</name>
-          <pos x="0" y="-5.03659"/>
+          <name>viio6</name>
+          <pos x="0" y="-3.08285"/>
           </Harmony>
         <Beam id="268">
           <StemDirection>up</StemDirection>
@@ -10548,7 +10456,7 @@
           </Chord>
         <Harmony>
           <name>I</name>
-          <pos x="0.195123" y="-5.23172"/>
+          <pos x="0.0175099" y="-2.92275"/>
           </Harmony>
         <Beam id="269">
           <StemDirection>up</StemDirection>
@@ -10576,7 +10484,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="5.26829"/>
+          <pos x="0.410321" y="6.16279"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -10705,7 +10613,7 @@
         </Measure>
       <Measure number="160">
         <Harmony>
-          <name>V7/IV</name>
+          <name>V2/IV</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -10829,7 +10737,7 @@
         </Measure>
       <Measure number="162">
         <Harmony>
-          <name>#viio65/ii</name>
+          <name>#viio65/IV</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -10879,10 +10787,10 @@
           <Beam>280</Beam>
           <Note>
             <Accidental>
-              <subtype>sharp</subtype>
+              <subtype>flat</subtype>
               </Accidental>
             <pitch>63</pitch>
-            <tpc>23</tpc>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -10900,7 +10808,7 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>.v.#viio43</name>
+          <name>v.#viio43</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -10914,10 +10822,10 @@
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
-              <subtype>sharp</subtype>
+              <subtype>flat</subtype>
               </Accidental>
             <pitch>68</pitch>
-            <tpc>22</tpc>
+            <tpc>10</tpc>
             </Note>
           </Chord>
         <Beam id="281">
@@ -10929,7 +10837,7 @@
           <Beam>281</Beam>
           <Note>
             <pitch>68</pitch>
-            <tpc>22</tpc>
+            <tpc>10</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -10963,7 +10871,7 @@
           <Beam>282</Beam>
           <Note>
             <pitch>68</pitch>
-            <tpc>22</tpc>
+            <tpc>10</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -11073,10 +10981,10 @@
           <Beam>285</Beam>
           <Note>
             <Accidental>
-              <subtype>sharp</subtype>
+              <subtype>flat</subtype>
               </Accidental>
             <pitch>63</pitch>
-            <tpc>23</tpc>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         <Beam id="286">
@@ -11497,7 +11405,7 @@
         </Measure>
       <Measure number="172">
         <Harmony>
-          <name>#viio65/IV</name>
+          <name>#viio65/ii</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -11562,7 +11470,7 @@
         </Measure>
       <Measure number="173">
         <Harmony>
-          <name>IV</name>
+          <name>ii6</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -11757,7 +11665,7 @@
         </Measure>
       <Measure number="176">
         <Harmony>
-          <name>I[I</name>
+          <name>i.V[V</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -11793,8 +11701,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>iv</name>
-          <pos x="0.195123" y="-3.67074"/>
+          <name>i64</name>
+          <pos x="0.0175099" y="-2.69387"/>
           </Harmony>
         <Beam id="309">
           <StemDirection>down</StemDirection>
@@ -11819,10 +11727,6 @@
           </Chord>
         </Measure>
       <Measure number="177">
-        <Harmony>
-          <name>iio</name>
-          <pos x="0" y="-4.2561"/>
-          </Harmony>
         <Beam id="310">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -11866,7 +11770,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>I</name>
+          <name>V</name>
           </Harmony>
         <Beam id="312">
           <StemDirection>down</StemDirection>
@@ -11895,13 +11799,14 @@
         </Measure>
       <Measure number="178">
         <Harmony>
-          <name>I]</name>
+          <name>V]</name>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>.i.V</name>
+          <name>V7</name>
+          <pos x="0.0888065" y="-3.56568"/>
           </Harmony>
         <Beam id="313">
           <StemDirection>down</StemDirection>
@@ -11925,8 +11830,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i6</name>
-          <pos x="0" y="-4.2561"/>
+          <name>i64</name>
+          <pos x="0" y="-3.54565"/>
           </Harmony>
         <Beam id="314">
           <StemDirection>down</StemDirection>
@@ -11951,10 +11856,6 @@
           </Chord>
         </Measure>
       <Measure number="179">
-        <Harmony>
-          <name>i64</name>
-          <pos x="0" y="-4.45123"/>
-          </Harmony>
         <Beam id="315">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -11999,7 +11900,7 @@
           </Chord>
         <Harmony>
           <name>V7</name>
-          <pos x="0" y="-3.86586"/>
+          <pos x="-0.0888065" y="-3.0666"/>
           </Harmony>
         <Beam id="317">
           <StemDirection>down</StemDirection>
@@ -12044,7 +11945,7 @@
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.329531" y="3.86829"/>
+          <pos x="0.418338" y="5.20039"/>
           <xoffset>0</xoffset>
           <yoffset>4.6</yoffset>
           </Dynamic>
@@ -12063,11 +11964,11 @@
           </Chord>
         <tick>259680</tick>
         <Harmony>
-          <name>ii(9)</name>
+          <name>iio(2)</name>
           </Harmony>
         <tick>260160</tick>
         <Harmony>
-          <name>ii</name>
+          <name>iio</name>
           </Harmony>
         </Measure>
       <Measure number="182">
@@ -12076,7 +11977,7 @@
           </LayoutBreak>
         <Harmony>
           <name>V/V</name>
-          <pos x="0" y="-3.67074"/>
+          <pos x="0" y="-2.87148"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -12102,7 +12003,7 @@
         </Measure>
       <Measure number="183">
         <StaffText>
-          <pos x="0" y="14.6513"/>
+          <pos x="-0.0888065" y="3.19526"/>
           <xoffset>0</xoffset>
           <yoffset>4.7</yoffset>
           <text><i>cresc.</i></text>
@@ -12135,13 +12036,6 @@
         <KeySig>
           <accidental>-4</accidental>
           </KeySig>
-        <Dynamic>
-          <subtype>f</subtype>
-          <velocity>88</velocity>
-          <pos x="0.329531" y="4.06829"/>
-          <xoffset>0</xoffset>
-          <yoffset>4.8</yoffset>
-          </Dynamic>
         <Tempo>
           <tempo>3</tempo>
           <followText>1</followText>
@@ -12151,8 +12045,8 @@
           <text><font size="9.6"></font><b>Più Allegro</b></text>
           </Tempo>
         <Harmony>
-          <name>i[i</name>
-          <pos x="1.17074" y="-3.67074"/>
+          <name>i[i64</name>
+          <pos x="0.193868" y="-3.31551"/>
           </Harmony>
         <Beam id="318">
           <StemDirection>down</StemDirection>
@@ -12183,10 +12077,13 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.96829"/>
+          <pos x="0.240724" y="6.03397"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -12197,6 +12094,9 @@
             <tpc>12</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>i64</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -12213,7 +12113,7 @@
         </Measure>
       <Measure number="185">
         <Harmony>
-          <name>#vi%7</name>
+          <name>#vi%2</name>
           <pos x="0.585368" y="-2.5"/>
           </Harmony>
         <Beam id="319">
@@ -12245,13 +12145,13 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.96829"/>
+          <pos x="0.329531" y="6.06829"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
         <Harmony>
-          <name>V65</name>
-          <pos x="0.780491" y="-3.47561"/>
+          <name>V7</name>
+          <pos x="-0.107574" y="-2.58754"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -12264,7 +12164,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i]</name>
+          <name>i64]</name>
           <pos x="0.585368" y="-2.5"/>
           </Harmony>
         <Chord>
@@ -12358,7 +12258,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>ii</name>
+          <name>iio</name>
           <pos x="0.585368" y="-2.5"/>
           </Harmony>
         <Rest>
@@ -12407,7 +12307,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i(42)</name>
+          <name>i(94)</name>
           <pos x="0.585368" y="-2.5"/>
           </Harmony>
         <Beam id="324">
@@ -12517,7 +12417,7 @@
           </Harmony>
         <tick>270480</tick>
         <Harmony>
-          <name>ii</name>
+          <name>iio</name>
           <pos x="-3.49672e-06" y="-5.57318"/>
           </Harmony>
         <Chord>
@@ -12558,7 +12458,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>i(42)</name>
+          <name>i6(94)</name>
           <pos x="1.7561" y="-5.2805"/>
           </Harmony>
         <Chord>
@@ -12574,7 +12474,7 @@
         <tick>271680</tick>
         <Harmony>
           <name>i6</name>
-          <pos x="0.29268" y="-5.42684"/>
+          <pos x="0.29268" y="-5.32684"/>
           </Harmony>
         <tick>271920</tick>
         <Harmony>
@@ -12594,7 +12494,7 @@
       <Measure number="190">
         <Harmony>
           <name>i6</name>
-          <pos x="0.146338" y="-5.2805"/>
+          <pos x="0.85679" y="-5.2805"/>
           </Harmony>
         <Beam id="328">
           <StemDirection>down</StemDirection>
@@ -12623,7 +12523,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>ii(72)</name>
+          <name>iio(97)</name>
           <pos x="-0.292687" y="-5.13416"/>
           </Harmony>
         <Beam id="329">
@@ -12644,8 +12544,8 @@
           <Beam>329</Beam>
           </Rest>
         <Harmony>
-          <name>ii</name>
-          <pos x="-0.439029" y="-5.57318"/>
+          <name>iio</name>
+          <pos x="-0.0838028" y="-5.12915"/>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -12710,7 +12610,7 @@
           <Beam>331</Beam>
           </Rest>
         <Harmony>
-          <name>#vio43</name>
+          <name>#vi%43</name>
           <pos x="-2.04879" y="-6.30489"/>
           </Harmony>
         <Chord>
@@ -12727,7 +12627,7 @@
           </Chord>
         <Harmony>
           <name>V43(#9)</name>
-          <pos x="0.146342" y="-6.01221"/>
+          <pos x="0.146342" y="-6.27863"/>
           </Harmony>
         <Beam id="332">
           <StemDirection>down</StemDirection>
@@ -12748,7 +12648,7 @@
           </Rest>
         <Harmony>
           <name>V43</name>
-          <pos x="0.146342" y="-5.86586"/>
+          <pos x="-0.208884" y="-6.22109"/>
           </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
@@ -12797,7 +12697,7 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.329531" y="4.36829"/>
+          <pos x="0.773564" y="7.12129"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -12864,8 +12764,8 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>IV/VI</name>
-          <pos x="-0.585368" y="-5.86587"/>
+          <name>.bII</name>
+          <pos x="0.0362778" y="-4.26735"/>
           </Harmony>
         <Beam id="335">
           <StemDirection>down</StemDirection>
@@ -12893,6 +12793,10 @@
             <tpc>9</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>.bII(64)</name>
+          <pos x="-0.888065" y="-4.00971"/>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -12906,6 +12810,10 @@
             <tpc>7</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>.bII</name>
+          <pos x="0" y="-4.00971"/>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -12981,10 +12889,6 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V(9)</name>
-          <pos x="-0.146342" y="-2.64634"/>
-          </Harmony>
         <Beam id="338">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -13017,10 +12921,6 @@
           </Chord>
         </Measure>
       <Measure number="195">
-        <Harmony>
-          <name>V(7)</name>
-          <pos x="-0.73171" y="-2.64634"/>
-          </Harmony>
         <Beam id="339">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -13041,10 +12941,6 @@
           <durationType>16th</durationType>
           <Beam>339</Beam>
           </Rest>
-        <Harmony>
-          <name>V</name>
-          <pos x="-0.439026" y="-2.20732"/>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>16th</durationType>
@@ -13054,10 +12950,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V(9)</name>
-          <pos x="0.146342" y="-2.64634"/>
-          </Harmony>
         <Beam id="340">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -13075,9 +12967,6 @@
           <durationType>16th</durationType>
           <Beam>340</Beam>
           </Rest>
-        <Harmony>
-          <name>V</name>
-          </Harmony>
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>16th</durationType>
@@ -13144,13 +13033,13 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.56829"/>
+          <pos x="0.659062" y="6.56829"/>
           <xoffset>0</xoffset>
           <yoffset>6.3</yoffset>
           </Dynamic>
         <Harmony>
-          <name>V[V7</name>
-          <pos x="0.292684" y="-2.5"/>
+          <name>V[#viio6</name>
+          <pos x="-2.28271" y="-2.32239"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -13206,16 +13095,9 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.659062" y="5.26829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6</yoffset>
-          </Dynamic>
         <Harmony>
-          <name>V7</name>
-          <pos x="0.292684" y="-2.5"/>
+          <name>#viio64</name>
+          <pos x="-2.90435" y="-2.41119"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -13242,13 +13124,6 @@
           </Chord>
         </Measure>
       <Measure number="198">
-        <Dynamic>
-          <subtype>ff</subtype>
-          <velocity>101</velocity>
-          <pos x="0.329531" y="5.36829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6.1</yoffset>
-          </Dynamic>
         <Harmony>
           <name>iv</name>
           <pos x="0.292684" y="-2.5"/>
@@ -13410,13 +13285,13 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.06829"/>
+          <pos x="0.0631114" y="6.02203"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
         <Harmony>
           <name>V(964)</name>
-          <pos x="-0.682929" y="-4.64635"/>
+          <pos x="-1.03816" y="-3.58067"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -13878,7 +13753,14 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.659062" y="4.56829"/>
+          <pos x="0.215029" y="5.98919"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.3</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>88</velocity>
+          <pos x="0.0477639" y="-1.26034"/>
           <xoffset>0</xoffset>
           <yoffset>5.3</yoffset>
           </Dynamic>
@@ -14004,7 +13886,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="3.86829"/>
+          <pos x="-0.843198" y="5.31135"/>
           <xoffset>0</xoffset>
           <yoffset>4.6</yoffset>
           </Dynamic>
@@ -14049,7 +13931,7 @@
         </Measure>
       <Measure number="7">
         <StaffText>
-          <pos x="0" y="15.6513"/>
+          <pos x="-0.0888065" y="3.57361"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           <text><i>cresc.</i></text>
@@ -14121,9 +14003,9 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.329531" y="5.16829"/>
+          <pos x="0.339021" y="-1.34914"/>
           <xoffset>0</xoffset>
-          <yoffset>5.9</yoffset>
+          <yoffset>4.9</yoffset>
           </Dynamic>
         <Beam id="362">
           <StemDirection>down</StemDirection>
@@ -14235,7 +14117,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="3.46829"/>
+          <pos x="-0.850649" y="5.06681"/>
           <xoffset>0</xoffset>
           <yoffset>4.2</yoffset>
           </Dynamic>
@@ -14277,7 +14159,7 @@
         </Measure>
       <Measure number="15">
         <StaffText>
-          <pos x="0" y="15.0513"/>
+          <pos x="-0.26642" y="3.24003"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           <text><i>cresc.</i></text>
@@ -14406,13 +14288,6 @@
           </Chord>
         </Measure>
       <Measure number="17">
-        <Dynamic>
-          <subtype>f</subtype>
-          <velocity>88</velocity>
-          <pos x="0.329531" y="4.16829"/>
-          <xoffset>0</xoffset>
-          <yoffset>4.9</yoffset>
-          </Dynamic>
         <Beam id="367">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -14442,7 +14317,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.16829"/>
+          <pos x="0.151918" y="6.12203"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
@@ -14496,7 +14371,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.86829"/>
+          <pos x="0.0631114" y="6.378"/>
           <xoffset>0</xoffset>
           <yoffset>5.6</yoffset>
           </Dynamic>
@@ -14947,13 +14822,6 @@
           </Chord>
         </Measure>
       <Measure number="25">
-        <Dynamic>
-          <subtype>ff</subtype>
-          <velocity>101</velocity>
-          <pos x="0.329531" y="4.26829"/>
-          <xoffset>0</xoffset>
-          <yoffset>5</yoffset>
-          </Dynamic>
         <Beam id="383">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -15230,9 +15098,9 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.86829"/>
+          <pos x="0.3401" y="-2.0596"/>
           <xoffset>0</xoffset>
-          <yoffset>6.6</yoffset>
+          <yoffset>6.1</yoffset>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -15262,13 +15130,6 @@
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.659062" y="5.16829"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.9</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -15296,7 +15157,7 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.659062" y="5.26829"/>
+          <pos x="0.23923" y="-0.372271"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -15395,13 +15256,6 @@
             <tpc>10</tpc>
             </Note>
           </Chord>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.659062" y="5.86829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6.6</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -15551,7 +15405,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.16829"/>
+          <pos x="0.0631114" y="6.03323"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
@@ -15806,7 +15660,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.16829"/>
+          <pos x="-0.31781" y="6.03323"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
@@ -15843,7 +15697,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.36829"/>
+          <pos x="0.130414" y="5.84419"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -15866,7 +15720,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="4.36829"/>
+          <pos x="0.481449" y="5.61158"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -15883,7 +15737,7 @@
             </Note>
           </Chord>
         <StaffText>
-          <pos x="0" y="14.8513"/>
+          <pos x="3.10823" y="-3.70927"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           <text><i>espress.</i></text>
@@ -16057,7 +15911,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="4.76829"/>
+          <pos x="0.0631114" y="6.278"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           </Dynamic>
@@ -16234,7 +16088,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="4.46829"/>
+          <pos x="0.481449" y="6.42203"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           </Dynamic>
@@ -16405,13 +16259,6 @@
           </Rest>
         </Measure>
       <Measure number="78">
-        <Dynamic>
-          <subtype>p</subtype>
-          <velocity>49</velocity>
-          <pos x="0.659062" y="5.26829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -16437,7 +16284,7 @@
         </Measure>
       <Measure number="80">
         <StaffText>
-          <pos x="0" y="15.8513"/>
+          <pos x="-0.177613" y="3.32958"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           <text><i>cresc.</i></text>
@@ -16508,7 +16355,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="3.76829"/>
+          <pos x="0.0631114" y="5.36681"/>
           <xoffset>0</xoffset>
           <yoffset>4.5</yoffset>
           </Dynamic>
@@ -16540,13 +16387,6 @@
           </Chord>
         </Measure>
       <Measure number="87">
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.659062" y="4.76829"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.5</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -16582,7 +16422,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.66829"/>
+          <pos x="0.562436" y="6.19941"/>
           <xoffset>0</xoffset>
           <yoffset>5.4</yoffset>
           </Dynamic>
@@ -16603,7 +16443,7 @@
         </Measure>
       <Measure number="90">
         <StaffText>
-          <pos x="0" y="14.9513"/>
+          <pos x="0" y="3.49526"/>
           <xoffset>0</xoffset>
           <yoffset>5</yoffset>
           <text><i>dim.</i></text>
@@ -16635,7 +16475,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="4.46829"/>
+          <pos x="-0.0256952" y="5.53397"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           </Dynamic>
@@ -16658,7 +16498,7 @@
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.329531" y="4.36829"/>
+          <pos x="0.151918" y="5.70039"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -16737,6 +16577,13 @@
           </Rest>
         </Measure>
       <Measure number="100">
+        <Dynamic>
+          <subtype>pp</subtype>
+          <velocity>36</velocity>
+          <pos x="0.701138" y="-1.08272"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.1</yoffset>
+          </Dynamic>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -16749,13 +16596,6 @@
           </Rest>
         </Measure>
       <Measure number="102">
-        <Dynamic>
-          <subtype>pp</subtype>
-          <velocity>36</velocity>
-          <pos x="0.659062" y="4.76829"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.5</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -16779,7 +16619,14 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.659062" y="5.16829"/>
+          <pos x="0.215029" y="5.96755"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.9</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>88</velocity>
+          <pos x="0.458389" y="-1.52676"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           </Dynamic>
@@ -16935,7 +16782,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="4.36829"/>
+          <pos x="-0.789091" y="5.48896"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -16980,7 +16827,7 @@
         </Measure>
       <Measure number="110">
         <StaffText>
-          <pos x="0" y="15.3513"/>
+          <pos x="-0.26642" y="3.36242"/>
           <xoffset>0</xoffset>
           <yoffset>5.4</yoffset>
           <text><i>cresc.</i></text>
@@ -17058,13 +16905,6 @@
           </Rest>
         </Measure>
       <Measure number="113">
-        <Dynamic>
-          <subtype>f</subtype>
-          <velocity>88</velocity>
-          <pos x="0.329531" y="5.56829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6.3</yoffset>
-          </Dynamic>
         <Beam id="406">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -17175,7 +17015,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="3.86829"/>
+          <pos x="-0.406617" y="4.93397"/>
           <xoffset>0</xoffset>
           <yoffset>4.6</yoffset>
           </Dynamic>
@@ -17220,7 +17060,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="15.7513"/>
+          <pos x="0.0888065" y="3.496"/>
           <xoffset>0</xoffset>
           <yoffset>5.8</yoffset>
           <text><i>cresc.</i></text>
@@ -17349,7 +17189,7 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.329531" y="4.26829"/>
+          <pos x="0.240724" y="7.37652"/>
           <xoffset>0</xoffset>
           <yoffset>5</yoffset>
           </Dynamic>
@@ -17382,7 +17222,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.56829"/>
+          <pos x="0.0631114" y="5.81158"/>
           <xoffset>0</xoffset>
           <yoffset>5.3</yoffset>
           </Dynamic>
@@ -17436,7 +17276,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.76829"/>
+          <pos x="0.0631114" y="6.278"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           </Dynamic>
@@ -17887,13 +17727,6 @@
           </Chord>
         </Measure>
       <Measure number="128">
-        <Dynamic>
-          <subtype>ff</subtype>
-          <velocity>101</velocity>
-          <pos x="0.329531" y="4.66829"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.4</yoffset>
-          </Dynamic>
         <Beam id="427">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -18170,7 +18003,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.76829"/>
+          <pos x="-2.70256" y="-1.08272"/>
           <xoffset>0</xoffset>
           <yoffset>6.5</yoffset>
           </Dynamic>
@@ -18202,13 +18035,6 @@
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.659062" y="5.26829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -18236,7 +18062,7 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.659062" y="5.16829"/>
+          <pos x="0.328495" y="-0.372271"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           </Dynamic>
@@ -18325,13 +18151,6 @@
             <tpc>10</tpc>
             </Note>
           </Chord>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.659062" y="5.96829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6.7</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -18722,7 +18541,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.56829"/>
+          <pos x="0.392642" y="5.98919"/>
           <xoffset>0</xoffset>
           <yoffset>5.3</yoffset>
           </Dynamic>
@@ -18795,19 +18614,19 @@
         <KeySig>
           <accidental>2</accidental>
           </KeySig>
-        <Dynamic>
-          <subtype>p</subtype>
-          <velocity>49</velocity>
-          <pos x="0.659062" y="5.26829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6</yoffset>
-          </Dynamic>
         <StaffText>
-          <pos x="0" y="15.1513"/>
+          <pos x="1.77613" y="-4.11972"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           <text><i>espress.</i></text>
           </StaffText>
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          <pos x="0.657085" y="-1.97079"/>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
+          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -18978,13 +18797,6 @@
           </Rest>
         </Measure>
       <Measure number="158">
-        <Dynamic>
-          <subtype>p</subtype>
-          <velocity>49</velocity>
-          <pos x="0.659062" y="5.26829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -19284,7 +19096,7 @@
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.329531" y="4.56829"/>
+          <pos x="0.378014" y="6.11061"/>
           <xoffset>0</xoffset>
           <yoffset>5.3</yoffset>
           </Dynamic>
@@ -19321,7 +19133,7 @@
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.329531" y="4.16829"/>
+          <pos x="-0.0256952" y="7.18771"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
@@ -19467,7 +19279,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="15.1513"/>
+          <pos x="0" y="3.87287"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           <text><i>cresc.</i></text>
@@ -19535,7 +19347,14 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.329531" y="4.06829"/>
+          <pos x="-0.736148" y="5.93323"/>
+          <xoffset>0</xoffset>
+          <yoffset>4.8</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>88</velocity>
+          <pos x="0.161257" y="-1.17153"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
@@ -19568,7 +19387,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.96829"/>
+          <pos x="0.0846788" y="6.0218"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
@@ -19622,7 +19441,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.96829"/>
+          <pos x="0.329531" y="6.36829"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
@@ -20077,13 +19896,6 @@
           </Chord>
         </Measure>
       <Measure number="192">
-        <Dynamic>
-          <subtype>ff</subtype>
-          <velocity>101</velocity>
-          <pos x="0.329531" y="4.36829"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.1</yoffset>
-          </Dynamic>
         <Beam id="470">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -20360,7 +20172,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.56829"/>
+          <pos x="0.659062" y="7.96829"/>
           <xoffset>0</xoffset>
           <yoffset>6.3</yoffset>
           </Dynamic>
@@ -20395,7 +20207,14 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.26829"/>
+          <pos x="0.659062" y="6.46829"/>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.413378" y="-2.0596"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -20426,7 +20245,7 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.659062" y="5.36829"/>
+          <pos x="0.211662" y="-0.283464"/>
           <xoffset>0</xoffset>
           <yoffset>6.1</yoffset>
           </Dynamic>
@@ -20519,13 +20338,6 @@
             <tpc>10</tpc>
             </Note>
           </Chord>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.659062" y="6.46829"/>
-          <xoffset>0</xoffset>
-          <yoffset>7.2</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -20675,7 +20487,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.16829"/>
+          <pos x="0.0631114" y="5.94442"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
@@ -20945,7 +20757,7 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.329531" y="4.56829"/>
+          <pos x="-0.736148" y="6.16681"/>
           <xoffset>0</xoffset>
           <yoffset>5.3</yoffset>
           </Dynamic>
@@ -21065,7 +20877,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="4.06829"/>
+          <pos x="-0.0513904" y="5.40039"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
@@ -21110,7 +20922,7 @@
         </Measure>
       <Measure number="7">
         <StaffText>
-          <pos x="0" y="15.6513"/>
+          <pos x="-0.177613" y="3.57361"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           <text><i>cresc.</i></text>
@@ -21170,13 +20982,6 @@
           </Rest>
         </Measure>
       <Measure number="9">
-        <Dynamic>
-          <subtype>f</subtype>
-          <velocity>88</velocity>
-          <pos x="0.659062" y="5.56829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6.3</yoffset>
-          </Dynamic>
         <Beam id="493">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -21226,6 +21031,13 @@
           </Rest>
         </Measure>
       <Measure number="10">
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>88</velocity>
+          <pos x="-0.0162049" y="-1.31252"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.9</yoffset>
+          </Dynamic>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -21290,7 +21102,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="3.66829"/>
+          <pos x="-0.670938" y="5.34797"/>
           <xoffset>0</xoffset>
           <yoffset>4.4</yoffset>
           </Dynamic>
@@ -21395,13 +21207,17 @@
         </Measure>
       <Measure number="15">
         <StaffText>
-          <pos x="0" y="15.0513"/>
+          <pos x="0" y="4.2169"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           <text><i>cresc.</i></text>
           </StaffText>
         <Beam id="497">
           <StemDirection>down</StemDirection>
+          <Fragment>
+            <y1>4.4179</y1>
+            <y2>4.6679</y2>
+            </Fragment>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -21535,9 +21351,9 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.659062" y="5.66829"/>
+          <pos x="-0.100524" y="-1.13491"/>
           <xoffset>0</xoffset>
-          <yoffset>6.4</yoffset>
+          <yoffset>4.9</yoffset>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -21548,13 +21364,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.659062" y="5.46829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6.2</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -21708,6 +21517,10 @@
       <Measure number="21">
         <Beam id="503">
           <StemDirection>down</StemDirection>
+          <Fragment>
+            <y1>6.21716</y1>
+            <y2>4.46716</y2>
+            </Fragment>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -21734,6 +21547,10 @@
           </Chord>
         <Beam id="504">
           <StemDirection>down</StemDirection>
+          <Fragment>
+            <y1>4.75671</y1>
+            <y2>4.50671</y2>
+            </Fragment>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -21760,6 +21577,10 @@
           </Chord>
         <Beam id="505">
           <StemDirection>down</StemDirection>
+          <Fragment>
+            <y1>4.5791</y1>
+            <y2>4.3291</y2>
+            </Fragment>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -21979,9 +21800,9 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.659062" y="5.26829"/>
+          <pos x="0.240994" y="-0.602069"/>
           <xoffset>0</xoffset>
-          <yoffset>6</yoffset>
+          <yoffset>5</yoffset>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -22242,7 +22063,14 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.56829"/>
+          <pos x="0.517713" y="-0.513262"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.6</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.296429" y="5.96962"/>
           <xoffset>0</xoffset>
           <yoffset>5.3</yoffset>
           </Dynamic>
@@ -22273,9 +22101,16 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.46829"/>
+          <pos x="0.215029" y="5.80039"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.836675" y="-2.16603"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.9</yoffset>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -22305,7 +22140,7 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.659062" y="5.26829"/>
+          <pos x="0.656427" y="-1.31252"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -22410,9 +22245,9 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.96829"/>
+          <pos x="-1.08228" y="-0.424455"/>
           <xoffset>0</xoffset>
-          <yoffset>5.7</yoffset>
+          <yoffset>6.6</yoffset>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -22521,13 +22356,6 @@
             <tpc>10</tpc>
             </Note>
           </Chord>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.659062" y="4.96829"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.7</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -22803,7 +22631,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.16829"/>
+          <pos x="0.0631114" y="5.94442"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
@@ -22837,13 +22665,6 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.659062" y="4.36829"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.1</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -22863,7 +22684,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="4.36829"/>
+          <pos x="0.148456" y="5.96962"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -22879,12 +22700,6 @@
             <tpc>8</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="14.8513"/>
-          <xoffset>0</xoffset>
-          <yoffset>4.9</yoffset>
-          <text><i>espress.</i></text>
-          </StaffText>
         </Measure>
       <Measure number="43">
         <Chord>
@@ -23030,7 +22845,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="4.76829"/>
+          <pos x="0.303836" y="5.38994"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           </Dynamic>
@@ -23190,13 +23005,6 @@
         <KeySig>
           <accidental>2</accidental>
           </KeySig>
-        <Dynamic>
-          <subtype>p</subtype>
-          <velocity>49</velocity>
-          <pos x="0.659062" y="5.26829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -23371,7 +23179,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="5.26829"/>
+          <pos x="0.659062" y="-1.79961"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -23400,7 +23208,7 @@
         </Measure>
       <Measure number="80">
         <StaffText>
-          <pos x="0" y="15.8513"/>
+          <pos x="-0.177613" y="3.6848"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           <text><i>cresc.</i></text>
@@ -23476,7 +23284,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="4.16829"/>
+          <pos x="0.215029" y="5.41158"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
@@ -23511,7 +23319,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.76829"/>
+          <pos x="0.403428" y="-2.02297"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           </Dynamic>
@@ -23550,7 +23358,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.66829"/>
+          <pos x="0.215029" y="6.88845"/>
           <xoffset>0</xoffset>
           <yoffset>5.4</yoffset>
           </Dynamic>
@@ -23571,7 +23379,7 @@
         </Measure>
       <Measure number="90">
         <StaffText>
-          <pos x="0" y="14.9513"/>
+          <pos x="0.177613" y="3.58406"/>
           <xoffset>0</xoffset>
           <yoffset>5</yoffset>
           <text><i>dim.</i></text>
@@ -23606,7 +23414,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="4.46829"/>
+          <pos x="0.303836" y="5.26755"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           </Dynamic>
@@ -23628,7 +23436,7 @@
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.659062" y="4.36829"/>
+          <pos x="0.392642" y="5.52278"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -23718,9 +23526,16 @@
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.659062" y="3.86829"/>
+          <pos x="0.392642" y="5.28919"/>
           <xoffset>0</xoffset>
           <yoffset>4.6</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>pp</subtype>
+          <velocity>36</velocity>
+          <pos x="0.882352" y="-1.84536"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.5</yoffset>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -23745,7 +23560,7 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.329531" y="5.16829"/>
+          <pos x="0.0631114" y="5.96755"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           </Dynamic>
@@ -23772,13 +23587,6 @@
           </Chord>
         </Measure>
       <Measure number="104">
-        <Dynamic>
-          <subtype>f</subtype>
-          <velocity>88</velocity>
-          <pos x="0.329531" y="4.76829"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.5</yoffset>
-          </Dynamic>
         <Beam id="529">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -23904,7 +23712,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="4.36829"/>
+          <pos x="-1.11707" y="5.78919"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -23950,7 +23758,7 @@
         </Measure>
       <Measure number="110">
         <StaffText>
-          <pos x="0" y="15.3513"/>
+          <pos x="-0.177613" y="3.27361"/>
           <xoffset>0</xoffset>
           <yoffset>5.4</yoffset>
           <text><i>cresc.</i></text>
@@ -24026,13 +23834,6 @@
         <KeySig>
           <accidental>-4</accidental>
           </KeySig>
-        <Dynamic>
-          <subtype>f</subtype>
-          <velocity>88</velocity>
-          <pos x="0.659062" y="4.46829"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.2</yoffset>
-          </Dynamic>
         <Beam id="531">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -24090,6 +23891,13 @@
           </Rest>
         </Measure>
       <Measure number="113">
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>88</velocity>
+          <pos x="0.227996" y="-1.0461"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.3</yoffset>
+          </Dynamic>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -24154,7 +23962,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="3.76829"/>
+          <pos x="0.0631114" y="6.43249"/>
           <xoffset>0</xoffset>
           <yoffset>4.5</yoffset>
           </Dynamic>
@@ -24265,7 +24073,7 @@
             </Note>
           </Chord>
         <StaffText>
-          <pos x="0" y="15.7513"/>
+          <pos x="-0.177613" y="5.44974"/>
           <xoffset>0</xoffset>
           <yoffset>5.8</yoffset>
           <text><i>cresc.</i></text>
@@ -24390,13 +24198,6 @@
           </Chord>
         </Measure>
       <Measure number="120">
-        <Dynamic>
-          <subtype>f</subtype>
-          <velocity>88</velocity>
-          <pos x="0.659062" y="5.66829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6.4</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -24406,13 +24207,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.659062" y="5.36829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6.1</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -24439,7 +24233,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.76829"/>
+          <pos x="0.303836" y="7.07726"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           </Dynamic>
@@ -24566,6 +24360,10 @@
       <Measure number="124">
         <Beam id="541">
           <StemDirection>down</StemDirection>
+          <Fragment>
+            <y1>5.95074</y1>
+            <y2>4.20074</y2>
+            </Fragment>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -24592,6 +24390,10 @@
           </Chord>
         <Beam id="542">
           <StemDirection>down</StemDirection>
+          <Fragment>
+            <y1>4.75671</y1>
+            <y2>4.50671</y2>
+            </Fragment>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -24618,6 +24420,10 @@
           </Chord>
         <Beam id="543">
           <StemDirection>down</StemDirection>
+          <Fragment>
+            <y1>4.6679</y1>
+            <y2>4.4179</y2>
+            </Fragment>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -24837,9 +24643,9 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.659062" y="5.66829"/>
+          <pos x="0.338201" y="-0.513262"/>
           <xoffset>0</xoffset>
-          <yoffset>6.4</yoffset>
+          <yoffset>5.4</yoffset>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -25100,7 +24906,14 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.76829"/>
+          <pos x="0.405669" y="-0.602069"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.5</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.228056" y="5.88081"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           </Dynamic>
@@ -25131,9 +24944,16 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.46829"/>
+          <pos x="0.303836" y="5.978"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.36159" y="-1.84536"/>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -25163,7 +24983,7 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.659062" y="5.16829"/>
+          <pos x="0.417301" y="-1.22371"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           </Dynamic>
@@ -25258,9 +25078,16 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.46829"/>
+          <pos x="-0.0513904" y="6.68845"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.441221" y="0.19719"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.7</yoffset>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -25637,7 +25464,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.56829"/>
+          <pos x="0.507144" y="6.16681"/>
           <xoffset>0</xoffset>
           <yoffset>5.3</yoffset>
           </Dynamic>
@@ -25704,19 +25531,19 @@
         <KeySig>
           <accidental>2</accidental>
           </KeySig>
-        <Dynamic>
-          <subtype>p</subtype>
-          <velocity>49</velocity>
-          <pos x="0.659062" y="5.26829"/>
-          <xoffset>0</xoffset>
-          <yoffset>6</yoffset>
-          </Dynamic>
         <StaffText>
-          <pos x="0" y="15.3513"/>
+          <pos x="1.68732" y="-4.18614"/>
           <xoffset>0</xoffset>
           <yoffset>5.4</yoffset>
           <text><i>espress.</i></text>
           </StaffText>
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          <pos x="0.568279" y="-2.02297"/>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
+          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -25894,7 +25721,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="5.26829"/>
+          <pos x="0.481449" y="-2.06603"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -26198,7 +26025,7 @@
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.329531" y="4.96829"/>
+          <pos x="0.329531" y="6.12278"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
@@ -26232,13 +26059,6 @@
           </Chord>
         </Measure>
       <Measure number="180">
-        <Dynamic>
-          <subtype>pp</subtype>
-          <velocity>36</velocity>
-          <pos x="0.329531" y="4.76829"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.5</yoffset>
-          </Dynamic>
         <Beam id="567">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -26381,7 +26201,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="15.5513"/>
+          <pos x="0" y="5.33855"/>
           <xoffset>0</xoffset>
           <yoffset>5.6</yoffset>
           <text><i>cresc.</i></text>
@@ -26449,7 +26269,7 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.659062" y="4.06829"/>
+          <pos x="0.0374162" y="6.02203"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
@@ -26482,7 +26302,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.96829"/>
+          <pos x="0.173485" y="6.05842"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
@@ -26526,7 +26346,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.96829"/>
+          <pos x="0.659062" y="6.76829"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
@@ -26653,6 +26473,10 @@
       <Measure number="188">
         <Beam id="576">
           <StemDirection>down</StemDirection>
+          <Fragment>
+            <y1>5.86193</y1>
+            <y2>4.11193</y2>
+            </Fragment>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -26679,6 +26503,10 @@
           </Chord>
         <Beam id="577">
           <StemDirection>down</StemDirection>
+          <Fragment>
+            <y1>4.75671</y1>
+            <y2>4.50671</y2>
+            </Fragment>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -26705,6 +26533,10 @@
           </Chord>
         <Beam id="578">
           <StemDirection>down</StemDirection>
+          <Fragment>
+            <y1>4.5791</y1>
+            <y2>4.3291</y2>
+            </Fragment>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -26924,9 +26756,9 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.659062" y="5.76829"/>
+          <pos x="0.356385" y="-0.513262"/>
           <xoffset>0</xoffset>
-          <yoffset>6.5</yoffset>
+          <yoffset>5.1</yoffset>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -27218,7 +27050,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.26829"/>
+          <pos x="0.659062" y="6.06829"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -27250,7 +27082,7 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.659062" y="5.36829"/>
+          <pos x="0.566888" y="-0.868488"/>
           <xoffset>0</xoffset>
           <yoffset>6.1</yoffset>
           </Dynamic>
@@ -27349,9 +27181,9 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.86829"/>
+          <pos x="-0.0308376" y="0.285997"/>
           <xoffset>0</xoffset>
-          <yoffset>5.6</yoffset>
+          <yoffset>7.2</yoffset>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -27460,13 +27292,6 @@
             <tpc>10</tpc>
             </Note>
           </Chord>
-        <Dynamic>
-          <subtype>fz</subtype>
-          <velocity>0</velocity>
-          <pos x="0.659062" y="4.76829"/>
-          <xoffset>0</xoffset>
-          <yoffset>5.5</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -27757,7 +27582,7 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.329531" y="4.56829"/>
+          <pos x="-0.0256952" y="7.14368"/>
           <xoffset>0</xoffset>
           <yoffset>5.3</yoffset>
           </Dynamic>
@@ -27886,7 +27711,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="4.06829"/>
+          <pos x="0.303836" y="5.40039"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
@@ -27931,7 +27756,7 @@
         </Measure>
       <Measure number="7">
         <StaffText>
-          <pos x="-0.390245" y="10.1879"/>
+          <pos x="-0.212632" y="4.32667"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           <text><i>cresc.</i></text>
@@ -28052,9 +27877,16 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.659062" y="6.06829"/>
+          <pos x="0.0374162" y="8.46607"/>
           <xoffset>0</xoffset>
           <yoffset>6.8</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>88</velocity>
+          <pos x="0.293335" y="-0.565447"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.3</yoffset>
           </Dynamic>
         <Beam id="607">
           <StemDirection>up</StemDirection>
@@ -28172,7 +28004,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="4.26829"/>
+          <pos x="-0.736148" y="5.33397"/>
           <xoffset>0</xoffset>
           <yoffset>5</yoffset>
           </Dynamic>
@@ -28213,7 +28045,7 @@
         </Measure>
       <Measure number="15">
         <StaffText>
-          <pos x="0" y="15.0513"/>
+          <pos x="0" y="3.24003"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           <text><i>cresc.</i></text>
@@ -28331,9 +28163,16 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.659062" y="4.86829"/>
+          <pos x="0.0374162" y="6.91084"/>
           <xoffset>0</xoffset>
           <yoffset>5.6</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>88</velocity>
+          <pos x="0.270045" y="-0.565447"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.4</yoffset>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -28347,9 +28186,16 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.36829"/>
+          <pos x="0.392642" y="6.878"/>
           <xoffset>0</xoffset>
           <yoffset>6.1</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.80043" y="-0.920673"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.2</yoffset>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -28388,7 +28234,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.86829"/>
+          <pos x="0.126223" y="6.82203"/>
           <xoffset>0</xoffset>
           <yoffset>5.6</yoffset>
           </Dynamic>
@@ -28767,9 +28613,16 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="-0.902464" y="8.77102"/>
+          <pos x="0.074408" y="7.88295"/>
           <xoffset>0</xoffset>
           <yoffset>6.3</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>ff</subtype>
+          <velocity>101</velocity>
+          <pos x="0.507413" y="-1.09829"/>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
           </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -28986,7 +28839,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.76829"/>
+          <pos x="0.0374162" y="8.34368"/>
           <xoffset>0</xoffset>
           <yoffset>6.5</yoffset>
           </Dynamic>
@@ -29007,7 +28860,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.76829"/>
+          <pos x="0.303836" y="8.52129"/>
           <xoffset>0</xoffset>
           <yoffset>6.5</yoffset>
           </Dynamic>
@@ -29025,7 +28878,14 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.659062" y="5.26829"/>
+          <pos x="0.303836" y="5.97874"/>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>ff</subtype>
+          <velocity>101</velocity>
+          <pos x="0.656427" y="-1.80874"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -29141,6 +29001,13 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="-0.549437" y="-1.98635"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.7</yoffset>
+          </Dynamic>
         <Beam id="631">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -29170,7 +29037,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.46829"/>
+          <pos x="0.215029" y="7.86607"/>
           <xoffset>0</xoffset>
           <yoffset>6.2</yoffset>
           </Dynamic>
@@ -29308,6 +29175,13 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.522815" y="-1.98635"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.7</yoffset>
+          </Dynamic>
         <Beam id="637">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -29337,7 +29211,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.26829"/>
+          <pos x="0.126223" y="7.93249"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -29599,7 +29473,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.16829"/>
+          <pos x="-0.0256952" y="5.94442"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
@@ -29639,7 +29513,14 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.36829"/>
+          <pos x="0.0374162" y="6.49965"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.1</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.396833" y="-2.07516"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -29662,7 +29543,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="4.36829"/>
+          <pos x="0.392642" y="6.32203"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -29678,12 +29559,6 @@
             <tpc>8</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="14.8513"/>
-          <xoffset>0</xoffset>
-          <yoffset>4.9</yoffset>
-          <text><i>espress.</i></text>
-          </StaffText>
         </Measure>
       <Measure number="43">
         <Chord>
@@ -29827,7 +29702,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="4.76829"/>
+          <pos x="-0.114502" y="5.38994"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           </Dynamic>
@@ -30016,7 +29891,14 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="5.26829"/>
+          <pos x="0.303836" y="7.31084"/>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          <pos x="0.391011" y="-1.71993"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -30161,7 +30043,14 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="5.26829"/>
+          <pos x="0.303836" y="7.13323"/>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          <pos x="0.595024" y="-1.54232"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -30190,7 +30079,7 @@
         </Measure>
       <Measure number="80">
         <StaffText>
-          <pos x="0" y="15.8513"/>
+          <pos x="-0.0888065" y="3.6848"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           <text><i>cresc.</i></text>
@@ -30261,7 +30150,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="4.86829"/>
+          <pos x="0.481449" y="5.84516"/>
           <xoffset>0</xoffset>
           <yoffset>5.6</yoffset>
           </Dynamic>
@@ -30292,7 +30181,14 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.76829"/>
+          <pos x="0.126223" y="5.92278"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.5</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.403428" y="-1.36471"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           </Dynamic>
@@ -30323,7 +30219,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.66829"/>
+          <pos x="0.303836" y="5.91158"/>
           <xoffset>0</xoffset>
           <yoffset>5.4</yoffset>
           </Dynamic>
@@ -30340,7 +30236,7 @@
         </Measure>
       <Measure number="90">
         <StaffText>
-          <pos x="0" y="14.9513"/>
+          <pos x="0" y="4.38332"/>
           <xoffset>0</xoffset>
           <yoffset>5</yoffset>
           <text><i>dim.</i></text>
@@ -30374,7 +30270,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="4.46829"/>
+          <pos x="0.659062" y="6.59965"/>
           <xoffset>0</xoffset>
           <yoffset>5.2</yoffset>
           </Dynamic>
@@ -30394,7 +30290,7 @@
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.659062" y="4.36829"/>
+          <pos x="0.392642" y="5.52278"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -30490,7 +30386,7 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.329531" y="5.16829"/>
+          <pos x="0.0631114" y="5.87874"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           </Dynamic>
@@ -30517,7 +30413,14 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.329531" y="4.76829"/>
+          <pos x="-0.0256952" y="7.07726"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.5</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>88</velocity>
+          <pos x="-0.0656813" y="-1.2759"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           </Dynamic>
@@ -30646,7 +30549,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="4.36829"/>
+          <pos x="0.0374162" y="5.52278"/>
           <xoffset>0</xoffset>
           <yoffset>5.1</yoffset>
           </Dynamic>
@@ -30687,7 +30590,7 @@
         </Measure>
       <Measure number="110">
         <StaffText>
-          <pos x="0" y="15.3513"/>
+          <pos x="0.0888065" y="4.42809"/>
           <xoffset>0</xoffset>
           <yoffset>5.4</yoffset>
           <text><i>cresc.</i></text>
@@ -30823,9 +30726,16 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.659062" y="4.96829"/>
+          <pos x="0.303836" y="8.60936"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>88</velocity>
+          <pos x="0.518342" y="-0.299027"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.2</yoffset>
           </Dynamic>
         <Beam id="650">
           <StemDirection>up</StemDirection>
@@ -30954,7 +30864,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.329531" y="4.16829"/>
+          <pos x="0.151918" y="6.03323"/>
           <xoffset>0</xoffset>
           <yoffset>4.9</yoffset>
           </Dynamic>
@@ -31004,7 +30914,7 @@
             </Note>
           </Chord>
         <StaffText>
-          <pos x="0" y="15.7513"/>
+          <pos x="0.0888065" y="3.22958"/>
           <xoffset>0</xoffset>
           <yoffset>5.8</yoffset>
           <text><i>cresc.</i></text>
@@ -31113,7 +31023,14 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.659062" y="5.66829"/>
+          <pos x="0.392642" y="7.26681"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.4</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>88</velocity>
+          <pos x="0.559325" y="-0.387833"/>
           <xoffset>0</xoffset>
           <yoffset>6.4</yoffset>
           </Dynamic>
@@ -31129,7 +31046,14 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.36829"/>
+          <pos x="0.215029" y="6.78919"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.1</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.330583" y="-0.565447"/>
           <xoffset>0</xoffset>
           <yoffset>6.1</yoffset>
           </Dynamic>
@@ -31170,7 +31094,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.76829"/>
+          <pos x="0.126223" y="6.98845"/>
           <xoffset>0</xoffset>
           <yoffset>5.5</yoffset>
           </Dynamic>
@@ -31549,7 +31473,14 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.659062" y="5.66829"/>
+          <pos x="-0.0513904" y="8.06607"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.4</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>ff</subtype>
+          <velocity>101</velocity>
+          <pos x="0.338201" y="-0.74306"/>
           <xoffset>0</xoffset>
           <yoffset>6.4</yoffset>
           </Dynamic>
@@ -31768,7 +31699,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.96829"/>
+          <pos x="0.126223" y="8.45487"/>
           <xoffset>0</xoffset>
           <yoffset>6.7</yoffset>
           </Dynamic>
@@ -31789,7 +31720,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.96829"/>
+          <pos x="0.215029" y="8.36607"/>
           <xoffset>0</xoffset>
           <yoffset>6.7</yoffset>
           </Dynamic>
@@ -31807,7 +31738,14 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.659062" y="5.16829"/>
+          <pos x="0.126223" y="5.96755"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.9</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>ff</subtype>
+          <velocity>101</velocity>
+          <pos x="0.506108" y="-1.80874"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           </Dynamic>
@@ -31942,7 +31880,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.26829"/>
+          <pos x="-0.0513904" y="8.1101"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
@@ -32361,7 +32299,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.329531" y="4.56829"/>
+          <pos x="0.0631114" y="5.90039"/>
           <xoffset>0</xoffset>
           <yoffset>5.3</yoffset>
           </Dynamic>
@@ -32434,16 +32372,23 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
-          <pos x="0.659062" y="5.26829"/>
+          <pos x="0.392642" y="7.31084"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           </Dynamic>
         <StaffText>
-          <pos x="0" y="15.9513"/>
+          <pos x="1.50971" y="-3.58614"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           <text><i>espress.</i></text>
           </StaffText>
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          <pos x="0.479472" y="-1.54232"/>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
+          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -32582,6 +32527,13 @@
           </Rest>
         </Measure>
       <Measure number="158">
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          <pos x="0.303836" y="-1.622"/>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
+          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -32861,6 +32813,13 @@
           </Rest>
         </Measure>
       <Measure number="180">
+        <Dynamic>
+          <subtype>pp</subtype>
+          <velocity>36</velocity>
+          <pos x="0.0427678" y="-1.18709"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.5</yoffset>
+          </Dynamic>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -32870,7 +32829,7 @@
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>36</velocity>
-          <pos x="0.659062" y="4.26829"/>
+          <pos x="0.392642" y="5.42278"/>
           <xoffset>0</xoffset>
           <yoffset>5</yoffset>
           </Dynamic>
@@ -32944,7 +32903,7 @@
         </Measure>
       <Measure number="183">
         <StaffText>
-          <pos x="0" y="15.9513"/>
+          <pos x="0.0888065" y="5.1169"/>
           <xoffset>0</xoffset>
           <yoffset>6</yoffset>
           <text><i>cresc.</i></text>
@@ -33038,7 +32997,7 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>88</velocity>
-          <pos x="0.659062" y="4.06829"/>
+          <pos x="-0.0513904" y="6.99891"/>
           <xoffset>0</xoffset>
           <yoffset>4.8</yoffset>
           </Dynamic>
@@ -33058,7 +33017,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.96829"/>
+          <pos x="0.215029" y="6.92203"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
@@ -33097,7 +33056,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="4.96829"/>
+          <pos x="0.303836" y="6.83323"/>
           <xoffset>0</xoffset>
           <yoffset>5.7</yoffset>
           </Dynamic>
@@ -33247,6 +33206,10 @@
           </Chord>
         <Beam id="696">
           <StemDirection>down</StemDirection>
+          <Fragment>
+            <y1>4.75671</y1>
+            <y2>4.50671</y2>
+            </Fragment>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -33273,6 +33236,10 @@
           </Chord>
         <Beam id="697">
           <StemDirection>down</StemDirection>
+          <Fragment>
+            <y1>4.75671</y1>
+            <y2>4.50671</y2>
+            </Fragment>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -33476,7 +33443,14 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.659062" y="5.76829"/>
+          <pos x="0.356385" y="-0.831866"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.5</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>ff</subtype>
+          <velocity>101</velocity>
+          <pos x="0.267578" y="7.95998"/>
           <xoffset>0</xoffset>
           <yoffset>6.5</yoffset>
           </Dynamic>
@@ -33695,7 +33669,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.76829"/>
+          <pos x="0.659062" y="8.16829"/>
           <xoffset>0</xoffset>
           <yoffset>6.5</yoffset>
           </Dynamic>
@@ -33716,7 +33690,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.76829"/>
+          <pos x="0.659062" y="8.26829"/>
           <xoffset>0</xoffset>
           <yoffset>6.5</yoffset>
           </Dynamic>
@@ -33734,7 +33708,14 @@
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>101</velocity>
-          <pos x="0.659062" y="5.36829"/>
+          <pos x="0.478082" y="-1.80874"/>
+          <xoffset>0</xoffset>
+          <yoffset>6.1</yoffset>
+          </Dynamic>
+        <Dynamic>
+          <subtype>ff</subtype>
+          <velocity>101</velocity>
+          <pos x="0.034049" y="6.18385"/>
           <xoffset>0</xoffset>
           <yoffset>6.1</yoffset>
           </Dynamic>
@@ -33844,6 +33825,13 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.146775" y="-1.71993"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.6</yoffset>
+          </Dynamic>
         <Beam id="712">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -33873,7 +33861,7 @@
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
-          <pos x="0.659062" y="5.16829"/>
+          <pos x="0.126223" y="8.0101"/>
           <xoffset>0</xoffset>
           <yoffset>5.9</yoffset>
           </Dynamic>
@@ -34011,6 +33999,13 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <Dynamic>
+          <subtype>fz</subtype>
+          <velocity>0</velocity>
+          <pos x="0.382543" y="-1.80874"/>
+          <xoffset>0</xoffset>
+          <yoffset>5.5</yoffset>
+          </Dynamic>
         <Beam id="718">
           <StemDirection>up</StemDirection>
           </Beam>
