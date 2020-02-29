@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.3.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programVersion>2.1.0</programVersion>
+  <programRevision>871c8ce</programRevision>
   <Score>
     <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
@@ -544,7 +544,8 @@ Op.135  1st Movement</text>
         </Measure>
       <Measure number="2">
         <Harmony>
-          <name>.F.iv6</name>
+          <root>13</root>
+          <name>.iv6</name>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
@@ -8055,6 +8056,11 @@ Op.135  1st Movement</text>
             <tpc>12</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>normal</subtype>
+          <customSubtype>1</customSubtype>
+          <span>4</span>
+          </BarLine>
         </Measure>
       <Measure number="102">
         <LayoutBreak>
