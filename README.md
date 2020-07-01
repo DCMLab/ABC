@@ -1,3 +1,16 @@
+# The Annotated Beethoven Corpus (v2.0)
+## Upgrade to MuseScore 3
+
+Two years after its first publication (see below), this is the revised version of the ABC. It comes with the following changes:
+
+* The repo's folder structure has been changed and scores have been renamed.
+* All scores have been converted to [MuseScore 3](https://musescore.org/download) format and can be found in the folder `MS3`.
+* The tables in TSV format have been recreated with a new parser:
+  - The folder `harmonies` contains the chord labels of one movement each but with additional features such as the common chord type notation (e.g. `Mm7`) and chord tones.
+  - The folder `notes` contains one note list per movement.
+  - The folder `measures` contains tables of each movement's measures' features.
+* The chord labels have been completely revised and adapted to version XY of the [DCML annotation standard](https://github.com/DCMLab/standards) (annotation guidelines under this link, too).
+
 # ABC - The Annotated Beethoven Corpus (v1.0)
 
 *Markus Neuwirth (markus.neuwirth@epfl.ch), Daniel Harasim (daniel.harasim@epfl.ch), Fabian C. Moss (fabian.moss@epfl.ch), Martin Rohrmeier (martin.rohrmeier@epfl.ch)*
