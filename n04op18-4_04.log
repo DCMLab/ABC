@@ -1,0 +1,33 @@
+INFO     n04op18-4_04.ms3 -- Attempting to parse n04op18-4_04.mscx
+WARNING  n04op18-4_04.ms3 -- First measure of staff 1 has a startRepeat tag. Information overwritten by 'firstMeasure'
+WARNING  n04op18-4_04.ms3 -- MC 45 in volta [45] has not been excluded from barcount.
+WARNING  n04op18-4_04.ms3 -- MC 94 in volta [94] has not been excluded from barcount.
+WARNING  n04op18-4_04.ms3 -- MC 103 in volta [103] has not been excluded from barcount.
+WARNING  n04op18-4_04.ms3 -- MC 1 seems to be a pickup measure but has not been excluded from bar count!
+WARNING  n04op18-4_04.ms3 -- MC 1 is completing MC 9 but has not been excluded from bar count!
+WARNING  n04op18-4_04.ms3 -- MC 10 is completing MC 9 but has not been excluded from bar count!
+WARNING  n04op18-4_04.ms3 -- MC 10 is completing MC 18 but has not been excluded from bar count!
+WARNING  n04op18-4_04.ms3 -- MC 19 is completing MC 18 but has not been excluded from bar count!
+WARNING  n04op18-4_04.ms3 -- MC 19 is completing MC 27 but has not been excluded from bar count!
+WARNING  n04op18-4_04.ms3 -- MC 28 is completing MC 27 but has not been excluded from bar count!
+WARNING  n04op18-4_04.ms3 -- MC 28 is completing MC 44 but has not been excluded from bar count!
+WARNING  n04op18-4_04.ms3 -- MC 78 is completing MC 77 but has not been excluded from bar count!
+WARNING  n04op18-4_04.ms3 -- MC 78 is completing MC 84 but has not been excluded from bar count!
+WARNING  n04op18-4_04.ms3 -- MC 85 is completing MC 84 but has not been excluded from bar count!
+WARNING  n04op18-4_04.ms3 -- MC 85 is completing MC 93 but has not been excluded from bar count!
+INFO     n04op18-4_04.ms3 -- Done parsing n04op18-4_04.mscx
+
+ERROR    n04op18-4_04 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "../corpora/scripts/parallel_parse.py", line 80, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
+AssertionError: 4 organ points started, 3 ended:
+    mc pedal    mc pedalend
+0   80     I    91        ]
+1   89     V   166        ]
+2  162     V   221        ]
+3  213     I  <NA>      NaN

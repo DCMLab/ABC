@@ -1,0 +1,21 @@
+INFO     n14op131_02.ms3 -- Attempting to parse n14op131_02.mscx
+INFO     n14op131_02.ms3 -- Done parsing n14op131_02.mscx
+
+ERROR    n14op131_02 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "../corpora/scripts/parallel_parse.py", line 80, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
+AssertionError: 8 organ points started, 7 ended:
+    mc pedal    mc pedalend
+0    2     I    17        ]
+1   21   III    22        ]
+2   50     I    52        ]
+3   80     I    84        ]
+4   85     V    89        ]
+5  115     V   119        ]
+6  154     I   158        ]
+7  170   III  <NA>      NaN

@@ -1,0 +1,20 @@
+INFO     n02op18-2_01.ms3 -- Attempting to parse n02op18-2_01.mscx
+INFO     n02op18-2_01.ms3 -- Done parsing n02op18-2_01.mscx
+
+WARNING  n02op18-2_01.expand_labels -- The following chords could not be parsed:
+      mc   mn onset label
+422  222  222   1/8    V9
+ERROR    n02op18-2_01.expand_labels -- % is a seventh chord and cannot have figbass ''
+ERROR    n02op18-2_01 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "../corpora/scripts/parallel_parse.py", line 80, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 424, in __init__
+    ct = self.compute_chord_tones(df, expand=True, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 842, in compute_chord_tones
+    result_dict = {t: self.features2tpcs(**{a:b for a, b in zip(param_cols.keys(), t)}, bass_only=bass_only, merge_tones=not expand) for t in set(param_tuples)}
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 842, in <dictcomp>
+    result_dict = {t: self.features2tpcs(**{a:b for a, b in zip(param_cols.keys(), t)}, bass_only=bass_only, merge_tones=not expand) for t in set(param_tuples)}
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 1001, in features2tpcs
+    assert figbass in ['7', '65', '43', '2'], f"{label}: {form} requires figbass since it specifies a chord's seventh."
+AssertionError: #vii%/V: % requires figbass since it specifies a chord's seventh.

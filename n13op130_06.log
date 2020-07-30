@@ -1,0 +1,36 @@
+INFO     n13op130_06.ms3 -- Attempting to parse n13op130_06.mscx
+WARNING  n13op130_06.ms3 -- Voltas with measure COUNTS [[32, 33], [34]] have different lengths.
+    Check measure NUMBERS with authoritative score. To silence the warning, either make all voltas
+    the same length or exclude all measures in voltas > 1 from the bar count.
+WARNING  n13op130_06.ms3 -- Voltas with measure COUNTS [[98, 99, 100], [101]] have different lengths.
+    Check measure NUMBERS with authoritative score. To silence the warning, either make all voltas
+    the same length or exclude all measures in voltas > 1 from the bar count.
+WARNING  n13op130_06.ms3 -- MC 34 in volta [34] has not been excluded from barcount.
+WARNING  n13op130_06.ms3 -- MC 101 in volta [101] has not been excluded from barcount.
+INFO     n13op130_06.ms3 -- Done parsing n13op130_06.mscx
+
+ERROR    n13op130_06.expand_labels -- % is a seventh chord and cannot have figbass ''
+ERROR    n13op130_06 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "../corpora/scripts/parallel_parse.py", line 80, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
+AssertionError: 13 organ points started, 14 ended:
+      mc pedal   mc pedalend
+0      3    vi    6        ]
+1     11    vi   13        ]
+2     20     V   21        ]
+3     22    ii   23        ]
+4     25     I   32        ]
+5     41     V   34        ]
+6     60     V   43        ]
+7     81     V   60        ]
+8    169   iii   84        ]
+9    245     V  170        ]
+10   252     I  248        ]
+11   324     V  259        ]
+12   419     V  327        ]
+13  <NA>   NaN  436        ]

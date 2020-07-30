@@ -1,0 +1,14 @@
+INFO     n08op59-2_03.ms3 -- Attempting to parse n08op59-2_03.mscx
+ERROR    n08op59-2_03.ms3 -- Score contains ambiguous barnumbers at measure counts 10, 56, possibly caused by MuseScore's 'Add to bar number' or 'Section break' function.
+WARNING  n08op59-2_03.ms3 -- Voltas with measure COUNTS [[52, 53, 54, 55], [56, 57, 58]] have different lengths.
+    Check measure NUMBERS with authoritative score. To silence the warning, either make all voltas
+    the same length or exclude all measures in voltas > 1 from the bar count.
+WARNING  n08op59-2_03.ms3 -- MC 11 in volta [10, 11] has not been excluded from barcount.
+WARNING  n08op59-2_03.ms3 -- MCs [57 58] in volta [56, 57, 58] have not been excluded from barcount.
+WARNING  n08op59-2_03.ms3 -- MC 59 is completing MC 58 but has not been excluded from bar count!
+INFO     n08op59-2_03.ms3 -- Done parsing n08op59-2_03.mscx
+
+WARNING  n08op59-2_03.expand_labels -- The following chords could not be parsed:
+    mc  mn onset label
+29  26  24     0  i.V9
+WARNING  n08op59-2_03.expand_labels -- MC 105: #viio43 in major context is most probably an annotation error.

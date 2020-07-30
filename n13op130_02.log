@@ -1,0 +1,26 @@
+INFO     n13op130_02.ms3 -- Attempting to parse n13op130_02.mscx
+WARNING  n13op130_02.ms3 -- MC 25 in volta [25] has not been excluded from barcount.
+WARNING  n13op130_02.ms3 -- MC 49 in volta [49] has not been excluded from barcount.
+INFO     n13op130_02.ms3 -- Done parsing n13op130_02.mscx
+
+ERROR    n13op130_02 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "../corpora/scripts/parallel_parse.py", line 80, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
+AssertionError: 11 organ points started, 10 ended:
+    mc pedal    mc pedalend
+0    9     V    15        ]
+1   13     i    18        ]
+2   18     V    20        ]
+3   20     V    27        ]
+4   27     V    28        ]
+5   28     V    36        ]
+6   33     i    85        ]
+7   82     V    88        ]
+8   86     i    93        ]
+9   90     V    96        ]
+10  94     i  <NA>      NaN

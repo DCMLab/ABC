@@ -1,0 +1,27 @@
+INFO     n04op18-4_03.ms3 -- Attempting to parse n04op18-4_03.mscx
+WARNING  n04op18-4_03.ms3 -- First measure of staff 1 has a startRepeat tag. Information overwritten by 'firstMeasure'
+WARNING  n04op18-4_03.ms3 -- MC 53 in volta [53] has not been excluded from barcount.
+WARNING  n04op18-4_03.ms3 -- MC 1 seems to be a pickup measure but has not been excluded from bar count!
+WARNING  n04op18-4_03.ms3 -- MC 1 is completing MC 9 but has not been excluded from bar count!
+WARNING  n04op18-4_03.ms3 -- MC 10 is completing MC 9 but has not been excluded from bar count!
+WARNING  n04op18-4_03.ms3 -- MC 10 is completing MC 52 but has not been excluded from bar count!
+INFO     n04op18-4_03.ms3 -- Done parsing n04op18-4_03.mscx
+
+WARNING  n04op18-4_03.expand_labels -- The following chords could not be parsed:
+    mc  mn onset label
+96  49  49   1/2    V9
+ERROR    n04op18-4_03 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "../corpora/scripts/parallel_parse.py", line 80, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
+AssertionError: 5 organ points started, 4 ended:
+   mc pedal    mc pedalend
+0  11     V    14        ]
+1  19   bII    25        ]
+2  23     I    34        ]
+3  29     V    46        ]
+4  45     V  <NA>      NaN

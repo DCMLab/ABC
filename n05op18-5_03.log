@@ -1,0 +1,38 @@
+INFO     n05op18-5_03.ms3 -- Attempting to parse n05op18-5_03.mscx
+WARNING  n05op18-5_03.ms3 -- MC 72 in volta [72] has not been excluded from barcount.
+WARNING  n05op18-5_03.ms3 -- MC 100 in volta [100] has not been excluded from barcount.
+WARNING  n05op18-5_03.ms3 -- MC 109 in volta [109] has not been excluded from barcount.
+WARNING  n05op18-5_03.ms3 -- MC 1 seems to be a pickup measure but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 1 is completing MC 9 but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 10 is completing MC 9 but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 10 is completing MC 18 but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 19 is completing MC 18 but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 19 is completing MC 27 but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 28 is completing MC 27 but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 28 is completing MC 36 but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 37 is completing MC 36 but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 37 is completing MC 45 but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 46 is completing MC 45 but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 46 is completing MC 54 but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 55 is completing MC 54 but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 73 is completing MC 72 but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 73 is completing MC 81 but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 82 is completing MC 81 but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 82 is completing MC 90 but has not been excluded from bar count!
+WARNING  n05op18-5_03.ms3 -- MC 91 is completing MC 90 but has not been excluded from bar count!
+INFO     n05op18-5_03.ms3 -- Done parsing n05op18-5_03.mscx
+
+WARNING  n05op18-5_03.expand_labels -- The following chords could not be parsed:
+      mc   mn onset label
+224  137  137     0    V9
+ERROR    n05op18-5_03 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "../corpora/scripts/parallel_parse.py", line 80, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
+AssertionError: 1 organ points started, 0 ended:
+   mc pedal    mc pedalend
+0  75     V  <NA>      NaN

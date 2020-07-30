@@ -1,0 +1,40 @@
+INFO     n10op74_03.ms3 -- Attempting to parse n10op74_03.mscx
+WARNING  n10op74_03.ms3 -- First measure of staff 1 has a startRepeat tag. Information overwritten by 'firstMeasure'
+WARNING  n10op74_03.ms3 -- MC 80 in volta [80] has not been excluded from barcount.
+WARNING  n10op74_03.ms3 -- MC 1 seems to be a pickup measure but has not been excluded from bar count!
+WARNING  n10op74_03.ms3 -- MC 1 is completing MC 9 but has not been excluded from bar count!
+WARNING  n10op74_03.ms3 -- MC 10 is completing MC 9 but has not been excluded from bar count!
+WARNING  n10op74_03.ms3 -- MC 10 is completing MC 79 but has not been excluded from bar count!
+WARNING  n10op74_03.ms3 -- MC 173 is completing MC 172 but has not been excluded from bar count!
+WARNING  n10op74_03.ms3 -- MC 173 is completing MC 181 but has not been excluded from bar count!
+WARNING  n10op74_03.ms3 -- MC 182 is completing MC 181 but has not been excluded from bar count!
+WARNING  n10op74_03.ms3 -- MC 343 is completing MC 342 but has not been excluded from bar count!
+WARNING  n10op74_03.ms3 -- MC 344 (3/8) and MC 345 (3/4) don't add up to 3/4.
+INFO     n10op74_03.ms3 -- Done parsing n10op74_03.mscx
+
+ERROR    n10op74_03.expand_labels -- % is a seventh chord and cannot have figbass ''
+ERROR    n10op74_03.expand_labels -- % is a seventh chord and cannot have figbass '6'
+WARNING  n10op74_03.expand_labels -- MC 4: #viio64 in major context is most probably an annotation error.
+WARNING  n10op74_03.expand_labels -- MC 341: #viio7 in major context is most probably an annotation error.
+WARNING  n10op74_03.expand_labels -- MC 169: #viio65 in major context is most probably an annotation error.
+WARNING  n10op74_03.expand_labels -- MC 215: #viio7 in major context is most probably an annotation error.
+WARNING  n10op74_03.expand_labels -- MC 340: #viio7 in major context is most probably an annotation error.
+WARNING  n10op74_03.expand_labels -- MC 108: #viio6 in major context is most probably an annotation error.
+WARNING  n10op74_03.expand_labels -- MC 209: #viio7 in major context is most probably an annotation error.
+WARNING  n10op74_03.expand_labels -- MC 214: #viio7 in major context is most probably an annotation error.
+WARNING  n10op74_03.expand_labels -- MC 176: #viio64 in major context is most probably an annotation error.
+WARNING  n10op74_03.expand_labels -- MC 339: #viio7 in major context is most probably an annotation error.
+WARNING  n10op74_03.expand_labels -- MC 171: #viio7 in major context is most probably an annotation error.
+ERROR    n10op74_03 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "../corpora/scripts/parallel_parse.py", line 80, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 424, in __init__
+    ct = self.compute_chord_tones(df, expand=True, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 842, in compute_chord_tones
+    result_dict = {t: self.features2tpcs(**{a:b for a, b in zip(param_cols.keys(), t)}, bass_only=bass_only, merge_tones=not expand) for t in set(param_tuples)}
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 842, in <dictcomp>
+    result_dict = {t: self.features2tpcs(**{a:b for a, b in zip(param_cols.keys(), t)}, bass_only=bass_only, merge_tones=not expand) for t in set(param_tuples)}
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 1001, in features2tpcs
+    assert figbass in ['7', '65', '43', '2'], f"{label}: {form} requires figbass since it specifies a chord's seventh."
+AssertionError: #vii%: % requires figbass since it specifies a chord's seventh.

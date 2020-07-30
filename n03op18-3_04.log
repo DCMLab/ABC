@@ -1,0 +1,48 @@
+INFO     n03op18-3_04.ms3 -- Attempting to parse n03op18-3_04.mscx
+WARNING  n03op18-3_04.ms3 -- These values in mc_info[2] are not included in mc_info[1]: mc
+115    1
+Name: volta, dtype: object
+WARNING  n03op18-3_04.ms3 -- These values in mc_info[3] are not included in mc_info[1]: mc
+115    1
+Name: volta, dtype: object
+WARNING  n03op18-3_04.ms3 -- These values in mc_info[4] are not included in mc_info[1]: mc
+115    1
+Name: volta, dtype: object
+WARNING  n03op18-3_04.ms3 -- Voltas with measure COUNTS [[115, 116, 117, 118, 119, 120, 121], [122]] have different lengths.
+    Check measure NUMBERS with authoritative score. To silence the warning, either make all voltas
+    the same length or exclude all measures in voltas > 1 from the bar count.
+WARNING  n03op18-3_04.ms3 -- MC 122 in volta [122] has not been excluded from barcount.
+WARNING  n03op18-3_04.ms3 -- MC 1 seems to be a pickup measure but has not been excluded from bar count!
+INFO     n03op18-3_04.ms3 -- Done parsing n03op18-3_04.mscx
+
+WARNING  n03op18-3_04.expand_labels -- The following chords could not be parsed:
+      mc   mn onset label
+8      9    9     0    V9
+31    23   23     0    V9
+33    24   24     0    V9
+35    24   24   3/8    V9
+37    25   25     0    V9
+94    56   56     0    V9
+254  166  166     0  V9/V
+256  169  169   3/8    V9
+340  240  240     0    V9
+342  241  241     0    V9
+344  241  241   3/8    V9
+346  242  242     0    V9
+514  331  331     0    V9
+WARNING  n03op18-3_04.expand_labels -- MC 264: #viio43 in major context is most probably an annotation error.
+WARNING  n03op18-3_04.expand_labels -- MC 50: #viio64 in major context is most probably an annotation error.
+WARNING  n03op18-3_04.expand_labels -- MC 88: #viio in major context is most probably an annotation error.
+ERROR    n03op18-3_04 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "../corpora/scripts/parallel_parse.py", line 80, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 424, in __init__
+    ct = self.compute_chord_tones(df, expand=True, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 842, in compute_chord_tones
+    result_dict = {t: self.features2tpcs(**{a:b for a, b in zip(param_cols.keys(), t)}, bass_only=bass_only, merge_tones=not expand) for t in set(param_tuples)}
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 842, in <dictcomp>
+    result_dict = {t: self.features2tpcs(**{a:b for a, b in zip(param_cols.keys(), t)}, bass_only=bass_only, merge_tones=not expand) for t in set(param_tuples)}
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 1100, in features2tpcs
+    raise ValueError(f"{'' if mc is None else f'MC {mc}: '}{figbass} is not a valid chord inversion.")
+ValueError: MC 352: 42 is not a valid chord inversion.

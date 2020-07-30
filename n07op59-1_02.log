@@ -1,0 +1,26 @@
+INFO     n07op59-1_02.ms3 -- Attempting to parse n07op59-1_02.mscx
+INFO     n07op59-1_02.ms3 -- Done parsing n07op59-1_02.mscx
+
+ERROR    n07op59-1_02.expand_labels -- % is a seventh chord and cannot have figbass ''
+ERROR    n07op59-1_02 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "../corpora/scripts/parallel_parse.py", line 80, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
+AssertionError: 12 organ points started, 11 ended:
+     mc pedal    mc pedalend
+0    91     i    95        ]
+1   101     I   104        ]
+2   116     i   118        ]
+3   239     I   242        ]
+4   246     I   248        ]
+5   253     I   308        ]
+6   304     I   343        ]
+7   337     I   357        ]
+8   355     i   422        ]
+9   421     I   431        ]
+10  428     I   439        ]
+11  436     I  <NA>      NaN

@@ -1,0 +1,14 @@
+INFO     n16op135_01.ms3 -- Attempting to parse n16op135_01.mscx
+WARNING  n16op135_01.ms3 -- MC 1 contains a <Harmony> tag which includes a <root>. That leads to displaying and parsing errors and should be removed.
+INFO     n16op135_01.ms3 -- Done parsing n16op135_01.mscx
+
+ERROR    n16op135_01.expand_labels -- Are you expanding labels of several pieces in the same DataFrame? In that case, define 'groupby()' parameters.
+ERROR    n16op135_01 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "../corpora/scripts/parallel_parse.py", line 80, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 416, in __init__
+    df = self.propagate_keys(df, add_bool=True, **key_cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 678, in propagate_keys
+    assert nunique > 0, "No global key specified. It might be that this function is being applied in a wrong groupby and gets rows instead of entire frames."
+AssertionError: No global key specified. It might be that this function is being applied in a wrong groupby and gets rows instead of entire frames.

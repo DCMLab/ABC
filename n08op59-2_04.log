@@ -1,0 +1,30 @@
+INFO     n08op59-2_04.ms3 -- Attempting to parse n08op59-2_04.mscx
+INFO     n08op59-2_04.ms3 -- Done parsing n08op59-2_04.mscx
+
+WARNING  n08op59-2_04.expand_labels -- The following chords could not be parsed:
+      mc   mn onset label
+ix                       
+271  187  187     0    V9
+302  212  212   3/4    V9
+ERROR    n08op59-2_04 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "../corpora/scripts/parallel_parse.py", line 80, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
+AssertionError: 12 organ points started, 11 ended:
+     mc pedal    mc pedalend
+0    41     I    41        ]
+1    66     V    68        ]
+2    85     i    89        ]
+3   119     I   119        ]
+4   132     I   132        ]
+5   142     I   146        ]
+6   213     V   251        ]
+7   247     i   289        ]
+8   284     I   347        ]
+9   344     V   355        ]
+10  352     V   377        ]
+11  376     I  <NA>      NaN

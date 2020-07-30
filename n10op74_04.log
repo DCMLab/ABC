@@ -1,0 +1,50 @@
+INFO     n10op74_04.ms3 -- Attempting to parse n10op74_04.mscx
+WARNING  n10op74_04.ms3 -- First measure of staff 1 has a startRepeat tag. Information overwritten by 'firstMeasure'
+WARNING  n10op74_04.ms3 -- MC 157 in volta [157] has not been excluded from barcount.
+WARNING  n10op74_04.ms3 -- MC 1 seems to be a pickup measure but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 1 is completing MC 9 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 10 is completing MC 9 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 10 is completing MC 22 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 23 is completing MC 22 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 23 is completing MC 31 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 32 is completing MC 31 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 32 is completing MC 44 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 45 is completing MC 44 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 45 is completing MC 53 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 54 is completing MC 53 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 54 is completing MC 66 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 67 is completing MC 66 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 67 is completing MC 75 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 76 is completing MC 75 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 76 is completing MC 88 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 89 is completing MC 88 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 89 is completing MC 97 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 98 is completing MC 97 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 98 is completing MC 110 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 111 is completing MC 110 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 111 is completing MC 119 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 120 is completing MC 119 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 120 is completing MC 132 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 133 is completing MC 132 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 133 is completing MC 143 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 144 is completing MC 143 but has not been excluded from bar count!
+WARNING  n10op74_04.ms3 -- MC 144 is completing MC 156 but has not been excluded from bar count!
+INFO     n10op74_04.ms3 -- Done parsing n10op74_04.mscx
+
+ERROR    n10op74_04.expand_labels -- % is a seventh chord and cannot have figbass ''
+ERROR    n10op74_04 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "../corpora/scripts/parallel_parse.py", line 80, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
+AssertionError: 5 organ points started, 6 ended:
+     mc pedal   mc pedalend
+0    99    vi  100        ]
+1   101    #V  102        ]
+2   133     I  143        ]
+3   145     I  152        ]
+4   152     I  156        ]
+5  <NA>   NaN  157        ]
