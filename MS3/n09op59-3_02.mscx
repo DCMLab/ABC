@@ -11988,20 +11988,6 @@ Op.59 No.3, 2nd movement</b></text>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <SlurSegment no="0">
-                  <o4 x="-7.30984" y="-0.310323"/>
-                  </SlurSegment>
-                <up>down</up>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>-3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>
@@ -12019,20 +12005,33 @@ Op.59 No.3, 2nd movement</b></text>
             <fractions>3/8</fractions>
             </location>
           <Chord>
-            <dots>1</dots>
+            <offset x="-2.5" y="0"/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <SlurSegment no="0">
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          </voice>
-        <voice>
-          <location>
-            <fractions>5/8</fractions>
-            </location>
           <Chord>
             <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>74</pitch>
@@ -12049,14 +12048,6 @@ Op.59 No.3, 2nd movement</b></text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>3/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>72</pitch>
