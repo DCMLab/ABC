@@ -1,0 +1,14 @@
+2020-10-28 14:57:52 WARNING  n03op18-3_03:MeasureList -- bs4_measures.py (line 172) check_measure_numbers():
+	MCs 1, 10, 65, 78 seem to be offset from the MN's beginning but have not been excluded from barcount. Context:
+	    mc  mn act_dur mc_offset  dont_count  numbering_offset
+	0    1   1     1/4       1/2        <NA>              <NA>
+	1    2   2     3/4         0        <NA>              <NA>
+	8    9   9     1/2         0        <NA>              <NA>
+	9   10  10     1/4       1/2        <NA>              <NA>
+	10  11  11     3/4         0        <NA>              <NA>
+	63  64  64     1/2         0        <NA>              <NA>
+	64  65  65     1/4       1/2        <NA>              <NA>
+	65  66  66     3/4         0        <NA>              <NA>
+	76  77  77     1/2         0        <NA>              <NA>
+	77  78  78     1/4       1/2        <NA>              <NA>
+	78  79  79     3/4         0        <NA>              <NA>
