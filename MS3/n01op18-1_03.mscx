@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+  <programVersion>3.5.0</programVersion>
+  <programRevision>43c5553</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -100,7 +100,14 @@
         <shortName>Vln. I</shortName>
         <trackName>Violin</trackName>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
+          <controller ctrl="7" value="127"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
           <controller ctrl="7" value="127"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -119,6 +126,7 @@
         <shortName>Vln. II</shortName>
         <trackName>Violin</trackName>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="124"/>
           <controller ctrl="10" value="63"/>
@@ -139,6 +147,7 @@
         <shortName>Vla.</shortName>
         <trackName>Viola</trackName>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="7" value="127"/>
           <controller ctrl="10" value="63"/>
@@ -158,6 +167,7 @@
         <shortName>Vc.</shortName>
         <trackName>Cello</trackName>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="7" value="127"/>
           <controller ctrl="10" value="63"/>
@@ -453,7 +463,7 @@
         <voice>
           <Harmony>
             <name>V.V7</name>
-            <offset x="-3.77953e-7" y="-2.65"/>
+            <offset x="-3.77953e-07" y="-2.65"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -576,6 +586,7 @@
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
@@ -2892,7 +2903,7 @@
             </location>
           <Harmony>
             <name>ii6</name>
-            <offset x="3.77953e-7" y="-2.95"/>
+            <offset x="3.77953e-07" y="-2.95"/>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -7152,6 +7163,7 @@
             </Chord>
           <BarLine>
             <subtype>end</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -11831,6 +11843,7 @@
             </Rest>
           <BarLine>
             <subtype>end</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
