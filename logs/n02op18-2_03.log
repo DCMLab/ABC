@@ -1,16 +1,10 @@
-2020-10-28 14:57:52 WARNING  n02op18-2_03:MeasureList -- bs4_measures.py (line 233) end_section():
-	The endRepeat in MC 54 is missing its startRepeat.
-	For correction, MC 46 is interpreted as such because it is the first bar after the previous endRepeat.
-2020-10-28 14:57:52 WARNING  n02op18-2_03:MeasureList -- bs4_measures.py (line 212) start_section():
-	The startRepeat in MC 84 is missing its endRepeat.
-	For correction, MC 92 is interpreted as such because it is the last bar of the piece..
-2020-10-28 14:57:52 WARNING  n02op18-2_03:MeasureList -- bs4_measures.py (line 549) make_offset_col():
+2020-11-02 16:43:03 WARNING  n02op18-2_03:MeasureList -- bs4_measures.py (line 674) make_offset_col():
 	The incomplete MC 83 (timesig 3/4, act_dur 1/2) is completed by 1 incorrect duration (expected: 1/4):
 	{55: Fraction(1, 4), 84: Fraction(3, 4)}
-2020-10-28 14:57:52 WARNING  n02op18-2_03:MeasureList -- bs4_measures.py (line 549) make_offset_col():
+2020-11-02 16:43:03 WARNING  n02op18-2_03:MeasureList -- bs4_measures.py (line 674) make_offset_col():
 	The incomplete MC 92 (timesig 3/4, act_dur 1/2) is completed by 1 incorrect duration (expected: 1/4):
 	{84: Fraction(3, 4)}
-2020-10-28 14:57:52 WARNING  n02op18-2_03:MeasureList -- bs4_measures.py (line 172) check_measure_numbers():
+2020-11-02 16:43:03 WARNING  n02op18-2_03:MeasureList -- bs4_measures.py (line 197) check_measure_numbers():
 	MCs 10, 46, 55 seem to be offset from the MN's beginning but have not been excluded from barcount. Context:
 	    mc  mn act_dur mc_offset  dont_count  numbering_offset
 	8    9   8     1/2         0        <NA>              <NA>

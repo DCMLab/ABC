@@ -1,6 +1,6 @@
-mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_offset	dont_count	next
-1	0	2	6/8	3/8	3/8		firstMeasure				1	2
-2	0	2	6/8	3/4	0						1	3
+mc	mn	keysig	timesig	act_dur	mc_offset	volta	numbering_offset	dont_count	barline	breaks	repeats	next
+1	0	2	6/8	3/8	3/8			1			firstMeasure	2
+2	0	2	6/8	3/4	0			1				3
 3	1	2	6/8	3/4	0							4
 4	2	2	6/8	3/4	0							5
 5	3	2	6/8	3/4	0							6
@@ -9,7 +9,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 8	6	2	6/8	3/4	0							9
 9	7	2	6/8	3/4	0							10
 10	8	2	6/8	3/4	0							11
-11	9	2	6/8	3/4	0	line						12
+11	9	2	6/8	3/4	0					line		12
 12	10	2	6/8	3/4	0							13
 13	11	2	6/8	3/4	0							14
 14	12	2	6/8	3/4	0							15
@@ -17,7 +17,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 16	14	2	6/8	3/4	0							17
 17	15	2	6/8	3/4	0							18
 18	16	2	6/8	3/4	0							19
-19	17	2	6/8	3/4	0	line						20
+19	17	2	6/8	3/4	0					line		20
 20	18	2	6/8	3/4	0							21
 21	19	2	6/8	3/4	0							22
 22	20	2	6/8	3/4	0							23
@@ -26,7 +26,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 25	23	2	6/8	3/4	0							26
 26	24	2	6/8	3/4	0							27
 27	25	2	6/8	3/4	0							28
-28	26	2	6/8	3/4	0	page						29
+28	26	2	6/8	3/4	0					page		29
 29	27	2	6/8	3/4	0							30
 30	28	2	6/8	3/4	0							31
 31	29	2	6/8	3/4	0							32
@@ -36,7 +36,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 35	33	2	6/8	3/4	0							36
 36	34	2	6/8	3/4	0							37
 37	35	2	6/8	3/4	0							38
-38	36	2	6/8	3/4	0	line						39
+38	36	2	6/8	3/4	0					line		39
 39	37	2	6/8	3/4	0							40
 40	38	2	6/8	3/4	0							41
 41	39	2	6/8	3/4	0							42
@@ -46,7 +46,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 45	43	2	6/8	3/4	0							46
 46	44	2	6/8	3/4	0							47
 47	45	2	6/8	3/4	0							48
-48	46	2	6/8	3/4	0	line						49
+48	46	2	6/8	3/4	0					line		49
 49	47	2	6/8	3/4	0							50
 50	48	2	6/8	3/4	0							51
 51	49	2	6/8	3/4	0							52
@@ -55,7 +55,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 54	52	2	6/8	3/4	0							55
 55	53	2	6/8	3/4	0							56
 56	54	2	6/8	3/4	0							57
-57	55	2	6/8	3/4	0	line						58
+57	55	2	6/8	3/4	0					line		58
 58	56	2	6/8	3/4	0							59
 59	57	2	6/8	3/4	0							60
 60	58	2	6/8	3/4	0							61
@@ -64,7 +64,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 63	61	2	6/8	3/4	0							64
 64	62	2	6/8	3/4	0							65
 65	63	2	6/8	3/4	0							66
-66	64	2	6/8	3/4	0	page						67
+66	64	2	6/8	3/4	0					page		67
 67	65	2	6/8	3/4	0							68
 68	66	2	6/8	3/4	0							69
 69	67	2	6/8	3/4	0							70
@@ -73,7 +73,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 72	70	2	6/8	3/4	0							73
 73	71	2	6/8	3/4	0							74
 74	72	2	6/8	3/4	0							75
-75	73	2	6/8	3/4	0	line						76
+75	73	2	6/8	3/4	0					line		76
 76	74	2	6/8	3/4	0							77
 77	75	2	6/8	3/4	0							78
 78	76	2	6/8	3/4	0							79
@@ -82,14 +82,14 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 81	79	2	6/8	3/4	0							82
 82	80	2	6/8	3/4	0							83
 83	81	2	6/8	3/4	0							84
-84	82	2	6/8	3/4	0	line						85
+84	82	2	6/8	3/4	0					line		85
 85	83	2	6/8	3/4	0							86
 86	84	2	6/8	3/4	0							87
 87	85	2	6/8	3/4	0							88
 88	86	2	6/8	3/4	0							89
 89	87	2	6/8	3/4	0							90
 90	88	2	6/8	3/4	0							91
-91	89	2	6/8	3/4	0	line						92
+91	89	2	6/8	3/4	0					line		92
 92	90	2	6/8	3/4	0							93
 93	91	2	6/8	3/4	0							94
 94	92	2	6/8	3/4	0							95
@@ -97,7 +97,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 96	94	2	6/8	3/4	0							97
 97	95	2	6/8	3/4	0							98
 98	96	2	6/8	3/4	0							99
-99	97	2	6/8	3/4	0	page						100
+99	97	2	6/8	3/4	0					page		100
 100	98	2	6/8	3/4	0							101
 101	99	2	6/8	3/4	0							102
 102	100	2	6/8	3/4	0							103
@@ -106,7 +106,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 105	103	2	6/8	3/4	0							106
 106	104	2	6/8	3/4	0							107
 107	105	2	6/8	3/4	0							108
-108	106	2	6/8	3/4	0	line						109
+108	106	2	6/8	3/4	0					line		109
 109	107	2	6/8	3/4	0							110
 110	108	2	6/8	3/4	0							111
 111	109	2	6/8	3/4	0							112
@@ -117,7 +117,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 116	114	2	6/8	3/4	0							117
 117	115	2	6/8	3/4	0							118
 118	116	2	6/8	3/4	0							119
-119	117	2	6/8	3/4	0	line						120
+119	117	2	6/8	3/4	0					line		120
 120	118	2	6/8	3/4	0							121
 121	119	2	6/8	3/4	0							122
 122	120	2	6/8	3/4	0							123
@@ -127,7 +127,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 126	124	2	6/8	3/4	0							127
 127	125	2	6/8	3/4	0							128
 128	126	2	6/8	3/4	0							129
-129	127	2	6/8	3/4	0	line						130
+129	127	2	6/8	3/4	0					line		130
 130	128	2	6/8	3/4	0							131
 131	129	2	6/8	3/4	0							132
 132	130	2	6/8	3/4	0							133
@@ -136,7 +136,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 135	133	2	6/8	3/4	0							136
 136	134	2	6/8	3/4	0							137
 137	135	2	6/8	3/4	0							138
-138	136	2	6/8	3/4	0	page						139
+138	136	2	6/8	3/4	0					page		139
 139	137	2	6/8	3/4	0							140
 140	138	2	6/8	3/4	0							141
 141	139	2	6/8	3/4	0							142
@@ -145,7 +145,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 144	142	2	6/8	3/4	0							145
 145	143	2	6/8	3/4	0							146
 146	144	2	6/8	3/4	0							147
-147	145	2	6/8	3/4	0	line						148
+147	145	2	6/8	3/4	0					line		148
 148	146	2	6/8	3/4	0							149
 149	147	2	6/8	3/4	0							150
 150	148	2	6/8	3/4	0							151
@@ -154,7 +154,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 153	151	2	6/8	3/4	0							154
 154	152	2	6/8	3/4	0							155
 155	153	2	6/8	3/4	0							156
-156	154	2	6/8	3/4	0	line						157
+156	154	2	6/8	3/4	0					line		157
 157	155	2	6/8	3/4	0							158
 158	156	2	6/8	3/4	0							159
 159	157	2	6/8	3/4	0							160
@@ -162,7 +162,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 161	159	2	6/8	3/4	0							162
 162	160	2	6/8	3/4	0							163
 163	161	2	6/8	3/4	0							164
-164	162	2	6/8	3/4	0	line						165
+164	162	2	6/8	3/4	0					line		165
 165	163	2	6/8	3/4	0							166
 166	164	2	6/8	3/4	0							167
 167	165	2	6/8	3/4	0							168
@@ -170,7 +170,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 169	167	2	6/8	3/4	0							170
 170	168	2	6/8	3/4	0							171
 171	169	2	6/8	3/4	0							172
-172	170	2	6/8	3/4	0	page						173
+172	170	2	6/8	3/4	0					page		173
 173	171	2	6/8	3/4	0							174
 174	172	2	6/8	3/4	0							175
 175	173	2	6/8	3/4	0							176
@@ -179,7 +179,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 178	176	2	6/8	3/4	0							179
 179	177	2	6/8	3/4	0							180
 180	178	2	6/8	3/4	0							181
-181	179	2	6/8	3/4	0	line						182
+181	179	2	6/8	3/4	0					line		182
 182	180	2	6/8	3/4	0							183
 183	181	2	6/8	3/4	0							184
 184	182	2	6/8	3/4	0							185
@@ -187,7 +187,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 186	184	2	6/8	3/4	0							187
 187	185	2	6/8	3/4	0							188
 188	186	2	6/8	3/4	0							189
-189	187	2	6/8	3/4	0	line						190
+189	187	2	6/8	3/4	0					line		190
 190	188	2	6/8	3/4	0							191
 191	189	2	6/8	3/4	0							192
 192	190	2	6/8	3/4	0							193
@@ -197,4 +197,4 @@ mc	mn	keysig	timesig	act_dur	mc_offset	breaks	repeats	volta	barline	numbering_of
 196	194	2	6/8	3/4	0							197
 197	195	2	6/8	3/4	0							198
 198	196	2	6/8	3/4	0							199
-199	197	2	6/8	3/4	0	line	lastMeasure		end			-1
+199	197	2	6/8	3/4	0				end	line	lastMeasure	-1
