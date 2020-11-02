@@ -1,0 +1,20 @@
+2020-11-02 16:43:38 WARNING  n12op127_02:MeasureList -- bs4_measures.py (line 674) make_offset_col():
+	The incomplete MC 40 (timesig 3/2, act_dur 7/8) is completed by 1 incorrect duration (expected: 5/8):
+	{41: Fraction(3, 8)}
+2020-11-02 16:43:38 WARNING  n12op127_02:MeasureList -- bs4_measures.py (line 674) make_offset_col():
+	The incomplete MC 79 (timesig 1, act_dur 1/2) is completed by 1 incorrect duration (expected: 1/2):
+	{80: Fraction(3, 4)}
+2020-11-02 16:43:38 WARNING  n12op127_02:MeasureList -- bs4_measures.py (line 197) check_measure_numbers():
+	MCs 1, 22, 41, 80 seem to be offset from the MN's beginning but have not been excluded from barcount. Context:
+	    mc  mn act_dur mc_offset  dont_count  numbering_offset
+	0    1   1     1/2         1        <NA>              <NA>
+	1    2   2     3/2         0        <NA>              <NA>
+	20  21  21       1         0        <NA>              <NA>
+	21  22  22     1/2         1        <NA>              <NA>
+	22  23  23     3/2         0        <NA>              <NA>
+	39  40  40     7/8         0        <NA>              <NA>
+	40  41  41     3/8       5/8        <NA>              <NA>
+	41  42  42       1         0        <NA>              <NA>
+	78  79  79     1/2         0        <NA>              <NA>
+	79  80  80     3/4       3/4        <NA>              <NA>
+	80  81  81     3/2         0        <NA>              <NA>

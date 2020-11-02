@@ -1,0 +1,18 @@
+2020-11-02 16:43:03 WARNING  n06op18-6_03:MeasureList -- bs4_measures.py (line 186) check_measure_numbers():
+	MC 51, the 1st measure of a 2nd volta, should have MN 50, not MN 51.
+2020-11-02 16:43:03 WARNING  n06op18-6_03:MeasureList -- bs4_measures.py (line 186) check_measure_numbers():
+	MC 70, the 1st measure of a 2nd volta, should have MN 69, not MN 70.
+2020-11-02 16:43:03 WARNING  n06op18-6_03:MeasureList -- bs4_measures.py (line 197) check_measure_numbers():
+	MCs 1, 10, 52, 61 seem to be offset from the MN's beginning but have not been excluded from barcount. Context:
+	    mc  mn act_dur mc_offset  dont_count  numbering_offset
+	0    1   1     3/8       3/8        <NA>              <NA>
+	1    2   2     3/4         0        <NA>              <NA>
+	8    9   9     3/8         0        <NA>              <NA>
+	9   10  10     3/8       3/8        <NA>              <NA>
+	10  11  11     3/4         0        <NA>              <NA>
+	50  51  51     5/8         0        <NA>              <NA>
+	51  52  52     1/8       5/8        <NA>              <NA>
+	52  53  53     3/4         0        <NA>              <NA>
+	59  60  60     5/8         0        <NA>              <NA>
+	60  61  61     1/8       5/8        <NA>              <NA>
+	61  62  62     3/4         0        <NA>              <NA>
