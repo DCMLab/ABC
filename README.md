@@ -1,3 +1,5 @@
+**N.B. A newer version of this dataset with MuseScore 3 files, corrected errors, and additional TSV files is in preparation. The status quo is accessible via the [v2 branch](https://github.com/DCMLab/ABC/tree/v2). Feel free to approach us with your questions.**
+
 # ABC - The Annotated Beethoven Corpus (v1.0)
 
 *Markus Neuwirth (markus.neuwirth@epfl.ch), Daniel Harasim (daniel.harasim@epfl.ch), Fabian C. Moss (fabian.moss@epfl.ch), Martin Rohrmeier (martin.rohrmeier@epfl.ch)*
