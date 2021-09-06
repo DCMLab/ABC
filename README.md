@@ -71,7 +71,7 @@ The original XML file for Op. 132 No. 15, mov. 5 from Project Gutenberg did not 
 |n09op59-3_04|     428|   699|1.0.0   |Markus Neuwirth|         |
 |n10op74_01  |     262|   446|1.0.0   |Markus Neuwirth|         |
 |n10op74_02  |     169|   304|1.0.0   |Markus Neuwirth|         |
-|n10op74_03  |     467|   453|1.0.0   |Markus Neuwirth|         |
+|n10op74_03  |     467|   450|1.0.0   |Markus Neuwirth|         |
 |n10op74_04  |     195|   322|1.0.0   |Markus Neuwirth|         |
 |n11op95_01  |     151|   245|1.0.0   |Markus Neuwirth|         |
 |n11op95_02  |     192|   353|1.0.0   |Markus Neuwirth|         |
