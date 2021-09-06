@@ -1,0 +1,45 @@
+name: check_labels
+
+on:
+  push:
+    branches-ignore:
+      - main
+
+jobs:
+  perform_check:
+    if: github.event.pusher.name != 'ms3-bot'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v2
+        with:
+          path: main
+          token: ${{ secrets.MS3_BOT_TOKEN }}
+      - uses: lots0logs/gh-action-get-changed-files@2.1.4
+        id: modified
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Display changed files
+        run: |
+          echo "${{ steps.modified.outputs.modified }}"
+          echo "${{ join(steps.modified.outputs.modified) }}"
+          cat ${HOME}/files_modified.json
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: Clone ms3
+        uses: actions/checkout@v2
+        with:
+          repository: johentsch/ms3
+          ref: workflow
+          path: ./ms3
+      - name: Install ms3
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ms3
+      - name: Run ms3 check
+        working-directory: ./main
+        run: |
+          ms3 check -f ${HOME}/files_modified.json --assertion

@@ -1,0 +1,69 @@
+name: ms3_extract
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  extract:
+    if: github.event.pusher.name != 'ms3-bot'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: Checkout main
+        uses: actions/checkout@v2
+        with:
+          path: main
+          token: ${{ secrets.MS3_BOT_TOKEN }}
+      - name: Pull current workflow
+        working-directory: ./main
+        run: |
+          wget https://github.com/DCMLab/annotation_workflow_template/archive/refs/heads/main.zip
+          unzip main.zip
+          cp -r annotation_workflow_template-main/. .
+          rm -r annotation_workflow_template-main/
+          rm main.zip
+      - name: Configure git and push updated workflow
+        working-directory: ./main
+        continue-on-error: true
+        run: |
+          git config --global user.name "ms3-bot"
+          git config --global user.email dcml.annotators@epfl.ch
+          git config --global user.token ${{ secrets.MS3_BOT_TOKEN }}
+          git add -A
+          git commit -m "Current version of workflows"
+          git push
+      - name: Clone ms3
+        uses: actions/checkout@v2
+        with:
+          repository: johentsch/ms3
+          ref: workflow
+          path: ./ms3
+      - name: Install ms3
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ./ms3
+      - uses: lots0logs/gh-action-get-changed-files@2.1.4
+        id: modified
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Display changed and added files
+        run: |
+          cat ${HOME}/files_modified.json
+          cat ${HOME}/files_added.json
+      - name: Run ms3 extract
+        working-directory: ./main
+        run: |
+          ms3 extract -f ${HOME}/files_modified.json -M -N -X -D
+          ms3 extract -f ${HOME}/files_added.json -M -N -X -D
+      - name: Push files
+        working-directory: ./main
+        continue-on-error: true
+        run: |
+          git add -A
+          git commit -m "Automatically added TSV files from parse with ms3"
+          git push
