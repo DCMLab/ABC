@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+<museScore version="3.02">
+  <programVersion>3.6.2</programVersion>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -18,78 +18,157 @@
       <pageOddBottomMargin>0.586816</pageOddBottomMargin>
       <pageTwosided>0</pageTwosided>
       <minSystemDistance>9.2</minSystemDistance>
+      <lyricsMinDistance>0.25</lyricsMinDistance>
       <lyricsDashForce>0</lyricsDashForce>
-      <lyricsOddFontFace>Times New Roman</lyricsOddFontFace>
-      <lyricsOddFontSize>10.0608</lyricsOddFontSize>
+      <lyricsDashYposRatio>0.6</lyricsDashYposRatio>
+      <lyricsOddFontFace>Edwin</lyricsOddFontFace>
+      <lyricsOddFontSize>10</lyricsOddFontSize>
       <lyricsOddFramePadding>0</lyricsOddFramePadding>
       <lyricsOddFrameWidth>0</lyricsOddFrameWidth>
-      <lyricsEvenFontFace>Times New Roman</lyricsEvenFontFace>
-      <lyricsEvenFontSize>10.0608</lyricsEvenFontSize>
+      <lyricsEvenFontFace>Edwin</lyricsEvenFontFace>
+      <lyricsEvenFontSize>10</lyricsEvenFontSize>
       <lyricsEvenFramePadding>0</lyricsEvenFramePadding>
       <lyricsEvenFrameWidth>0</lyricsEvenFrameWidth>
-      <doubleBarDistance>0.46</doubleBarDistance>
-      <endBarDistance>0.65</endBarDistance>
+      <barWidth>0.18</barWidth>
+      <doubleBarWidth>0.18</doubleBarWidth>
+      <endBarWidth>0.55</endBarWidth>
+      <doubleBarDistance>0.55</doubleBarDistance>
+      <endBarDistance>0.7</endBarDistance>
+      <repeatBarlineDotSeparation>0.7</repeatBarlineDotSeparation>
+      <bracketWidth>0.44</bracketWidth>
       <clefLeftMargin>0.64</clefLeftMargin>
       <clefKeyRightMargin>1.75</clefKeyRightMargin>
+      <stemWidth>0.11</stemWidth>
       <barNoteDistance>1.2</barNoteDistance>
+      <staffLineWidth>0.11</staffLineWidth>
+      <ledgerLineLength>0.35</ledgerLineLength>
+      <hairpinWidth>0.12</hairpinWidth>
+      <hairpinFontFace>Edwin</hairpinFontFace>
+      <hairpinFontSize>10</hairpinFontSize>
+      <pedalLineWidth>0.11</pedalLineWidth>
+      <pedalFontFace>Edwin</pedalFontFace>
       <harmonyFretDist>0.5</harmonyFretDist>
+      <harmonyPlay>0</harmonyPlay>
+      <chordSymbolAFontFace>Edwin</chordSymbolAFontFace>
+      <chordSymbolAFontSize>11</chordSymbolAFontSize>
+      <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
+      <chordSymbolBFontSize>11</chordSymbolBFontSize>
+      <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
+      <slurMidWidth>0.21</slurMidWidth>
+      <musicalSymbolFont>Leland</musicalSymbolFont>
+      <musicalTextFont>Leland Text</musicalTextFont>
+      <voltaLineWidth>0.11</voltaLineWidth>
+      <ottavaLineWidth>0.11</ottavaLineWidth>
+      <ottavaFontFace>Edwin</ottavaFontFace>
+      <tupletFontFace>Edwin</tupletFontFace>
+      <tupletFontSize>9</tupletFontSize>
+      <defaultFontFace>Edwin</defaultFontFace>
       <defaultFramePadding>0.5</defaultFramePadding>
       <defaultFrameWidth>0.2</defaultFrameWidth>
       <defaultFrameRound>25</defaultFrameRound>
+      <titleFontFace>Edwin</titleFontFace>
+      <titleFontSize>22</titleFontSize>
       <titleFramePadding>0.5</titleFramePadding>
       <titleFrameWidth>0.2</titleFrameWidth>
       <titleFrameRound>25</titleFrameRound>
+      <subTitleFontFace>Edwin</subTitleFontFace>
+      <subTitleFontSize>16</subTitleFontSize>
       <subTitleFramePadding>0.5</subTitleFramePadding>
       <subTitleFrameWidth>0.2</subTitleFrameWidth>
       <subTitleFrameRound>25</subTitleFrameRound>
+      <composerFontFace>Edwin</composerFontFace>
+      <composerFontSize>10</composerFontSize>
       <composerFramePadding>0.5</composerFramePadding>
       <composerFrameWidth>0.2</composerFrameWidth>
       <composerFrameRound>25</composerFrameRound>
+      <lyricistFontFace>Edwin</lyricistFontFace>
+      <lyricistFontSize>10</lyricistFontSize>
       <lyricistFramePadding>0.5</lyricistFramePadding>
       <lyricistFrameWidth>0.2</lyricistFrameWidth>
       <lyricistFrameRound>25</lyricistFrameRound>
+      <fingeringFontFace>Edwin</fingeringFontFace>
       <fingeringFramePadding>0.5</fingeringFramePadding>
       <fingeringFrameWidth>0.2</fingeringFrameWidth>
       <fingeringFrameRound>25</fingeringFrameRound>
+      <lhGuitarFingeringFontFace>Edwin</lhGuitarFingeringFontFace>
       <lhGuitarFingeringFramePadding>0.5</lhGuitarFingeringFramePadding>
       <lhGuitarFingeringFrameWidth>0.2</lhGuitarFingeringFrameWidth>
       <lhGuitarFingeringFrameRound>25</lhGuitarFingeringFrameRound>
+      <rhGuitarFingeringFontFace>Edwin</rhGuitarFingeringFontFace>
+      <rhGuitarFingeringFontStyle>2</rhGuitarFingeringFontStyle>
       <rhGuitarFingeringFramePadding>0.5</rhGuitarFingeringFramePadding>
       <rhGuitarFingeringFrameWidth>0.2</rhGuitarFingeringFrameWidth>
       <rhGuitarFingeringFrameRound>25</rhGuitarFingeringFrameRound>
+      <stringNumberFontFace>Edwin</stringNumberFontFace>
+      <longInstrumentFontFace>Edwin</longInstrumentFontFace>
+      <longInstrumentFontSize>10</longInstrumentFontSize>
+      <shortInstrumentFontFace>Edwin</shortInstrumentFontFace>
+      <shortInstrumentFontSize>10</shortInstrumentFontSize>
+      <partInstrumentFontFace>Edwin</partInstrumentFontFace>
+      <partInstrumentFontSize>14</partInstrumentFontSize>
       <partInstrumentFramePadding>0.5</partInstrumentFramePadding>
       <partInstrumentFrameWidth>0.2</partInstrumentFrameWidth>
       <partInstrumentFrameRound>25</partInstrumentFrameRound>
+      <dynamicsFontFace>Edwin</dynamicsFontFace>
+      <dynamicsFontSize>11</dynamicsFontSize>
+      <expressionFontFace>Edwin</expressionFontFace>
+      <expressionFontSize>10</expressionFontSize>
+      <tempoFontFace>Edwin</tempoFontFace>
       <tempoFramePadding>0.5</tempoFramePadding>
       <tempoFrameWidth>0.2</tempoFrameWidth>
       <tempoFrameRound>25</tempoFrameRound>
+      <metronomeFontFace>Edwin</metronomeFontFace>
+      <metronomeFontStyle>0</metronomeFontStyle>
+      <measureNumberFontFace>Edwin</measureNumberFontFace>
+      <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
+      <measureNumberFontStyle>2</measureNumberFontStyle>
+      <translatorFontFace>Edwin</translatorFontFace>
+      <translatorFontSize>10</translatorFontSize>
+      <systemFontFace>Edwin</systemFontFace>
       <systemFramePadding>0.5</systemFramePadding>
       <systemFrameWidth>0.2</systemFrameWidth>
       <systemFrameRound>25</systemFrameRound>
+      <staffFontFace>Edwin</staffFontFace>
       <staffAlign>left,top</staffAlign>
       <staffPosAbove x="0" y="-4"/>
       <staffFramePadding>0.5</staffFramePadding>
       <staffFrameWidth>0.2</staffFrameWidth>
       <staffFrameRound>25</staffFrameRound>
+      <rehearsalMarkFontFace>Edwin</rehearsalMarkFontFace>
+      <rehearsalMarkFrameWidth>0.16</rehearsalMarkFrameWidth>
+      <rehearsalMarkFrameRound>0</rehearsalMarkFrameRound>
+      <repeatLeftFontFace>Edwin</repeatLeftFontFace>
+      <repeatLeftFontSize>18</repeatLeftFontSize>
       <repeatLeftFramePadding>0.5</repeatLeftFramePadding>
       <repeatLeftFrameWidth>0.2</repeatLeftFrameWidth>
       <repeatLeftFrameRound>25</repeatLeftFrameRound>
+      <repeatRightFontFace>Edwin</repeatRightFontFace>
+      <repeatRightFontSize>11</repeatRightFontSize>
       <repeatRightFramePadding>0.5</repeatRightFramePadding>
       <repeatRightFrameWidth>0.2</repeatRightFrameWidth>
       <repeatRightFrameRound>25</repeatRightFrameRound>
+      <frameFontFace>Edwin</frameFontFace>
+      <frameFontSize>10</frameFontSize>
+      <usePre_3_6_defaults>1</usePre_3_6_defaults>
+      <defaultsVersion>301</defaultsVersion>
       <Spatium>1.47576</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="annotators">Markus Neuwirth</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="composed_end">1824</metaTag>
+    <metaTag name="composed_start">1823</metaTag>
     <metaTag name="composer">L van Beethoven</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2015-11-25</metaTag>
+    <metaTag name="harmony_version">1.0.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
+    <metaTag name="mscVersion">3.02</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
@@ -105,11 +184,18 @@
         <barLineSpan>3</barLineSpan>
         </Staff>
       <trackName>Violin I</trackName>
-      <Instrument>
+      <Instrument id="violin">
         <longName>Violin I</longName>
         <shortName>Vln. I</shortName>
         <trackName>Violin I (2)</trackName>
+        <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <program value="40"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -123,11 +209,13 @@
         <distOffset>1.46131</distOffset>
         </Staff>
       <trackName>Violin II</trackName>
-      <Instrument>
+      <Instrument id="violin">
         <longName>Violin II</longName>
         <shortName>Vln. II</shortName>
         <trackName>Violin II (2)</trackName>
+        <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -142,11 +230,13 @@
         <distOffset>5.06631</distOffset>
         </Staff>
       <trackName>Viola</trackName>
-      <Instrument>
+      <Instrument id="viola">
         <longName>Viola</longName>
         <shortName>Vla.</shortName>
         <trackName>Viola (2) (2)</trackName>
+        <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <program value="41"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -160,11 +250,13 @@
         <distOffset>3.65328</distOffset>
         </Staff>
       <trackName>Violoncello</trackName>
-      <Instrument>
+      <Instrument id="violoncello">
         <longName>Violoncello</longName>
         <shortName>Vc.</shortName>
         <trackName>Violoncello (2) (2)</trackName>
+        <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <program value="42"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -173,12 +265,17 @@
     <Staff id="1">
       <VBox>
         <height>3.5</height>
+        <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Composer</style>
+          <family>FreeSerif</family>
+          <size>12</size>
           <text><font size="9.2768"></font><font face="Times New Roman"></font>L van Beethoven</text>
           </Text>
         <Text>
           <style>Title</style>
+          <family>FreeSerif</family>
+          <size>24</size>
           <text><font size="18.5536"></font><font face="Times New Roman"></font>String Quartet No12 Op127</text>
           </Text>
         </VBox>
@@ -198,11 +295,12 @@
             <offset x="0.958281" y="5.2"/>
             </Dynamic>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="-0.478096" y="-12.1057"/>
             <text><font size="10.9754"></font><font face="Times New Roman"></font><b>Maestoso</b></text>
             </StaffText>
           <Tempo>
-            <tempo>1.16667</tempo>
+            <tempo>1.1666700000000001</tempo>
             <followText>1</followText>
             <offset x="-4.1361" y="-5.31251"/>
             <text><sym>metNoteQuarterUp</sym> = 70</text>
@@ -458,6 +556,7 @@
             <actualNotes>6</actualNotes>
             <baseNote>32nd</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>6</text>
               </Number>
             <bracketType>2</bracketType>
@@ -615,6 +714,7 @@
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -629,10 +729,12 @@
             </TimeSig>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="0.99763"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>sempre p  e  dolce</i></text>
             </StaffText>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="5.17799" y="-6.86661"/>
             <text><font size="10.9754"></font><font face="Times New Roman"></font><b>Allegro</b></text>
             </StaffText>
@@ -1205,6 +1307,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.217597" y="0.56244"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -2744,6 +2847,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.32403"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -2789,6 +2893,7 @@
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -3039,6 +3144,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="1.32403"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -3219,6 +3325,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.53283"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -3768,6 +3875,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="0.12725"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -4031,6 +4139,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.217597" y="0.34484"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -4490,6 +4599,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.217597" y="0.35364"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -4838,6 +4948,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
+            <family>FreeSerif</family>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
           <Dynamic>
@@ -5000,6 +5111,7 @@
             <velocity>33</velocity>
             </Dynamic>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="-2.37039"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
@@ -5070,6 +5182,7 @@
             <velocity>33</velocity>
             </Dynamic>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0" y="-2.27463"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
@@ -5119,6 +5232,7 @@
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -5137,11 +5251,12 @@
             <velocity>96</velocity>
             </Dynamic>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="-0.750006" y="-9.6875"/>
             <text><font size="10.9754"></font><font face="Times New Roman"></font><b>Maestoso</b></text>
             </StaffText>
           <Tempo>
-            <tempo>1.16667</tempo>
+            <tempo>1.1666700000000001</tempo>
             <followText>1</followText>
             <offset x="-3.7611" y="-5.31251"/>
             <text><sym>metNoteQuarterUp</sym> = 70</text>
@@ -5420,6 +5535,7 @@
             <actualNotes>6</actualNotes>
             <baseNote>32nd</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>6</text>
               </Number>
             <bracketType>2</bracketType>
@@ -5577,6 +5693,7 @@
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -5587,6 +5704,7 @@
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="-0.562504" y="-8.93754"/>
             <text><font size="10.9754"></font><font face="Times New Roman"></font><b>Allegro</b></text>
             </StaffText>
@@ -6153,6 +6271,7 @@
       <Measure>
         <voice>
           <StaffText>
+            <family>FreeSerif</family>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
           <Harmony>
@@ -7423,6 +7542,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.168655" y="0.40322"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -7642,6 +7762,7 @@
             </location>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -7673,6 +7794,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="0.67124"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -8801,6 +8923,7 @@
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -8819,11 +8942,12 @@
             <velocity>112</velocity>
             </Dynamic>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="-0.375003" y="-8.75004"/>
             <text><font size="10.9754"></font><font face="Times New Roman"></font><b>Maestoso</b></text>
             </StaffText>
           <Tempo>
-            <tempo>1.16667</tempo>
+            <tempo>1.1666700000000001</tempo>
             <followText>1</followText>
             <text><sym>metNoteQuarterUp</sym> = 70</text>
             </Tempo>
@@ -8959,6 +9083,7 @@
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -8973,6 +9098,7 @@
             <velocity>96</velocity>
             </Dynamic>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0.750006" y="-9.7289"/>
             <text><font size="10.9754"></font><font face="Times New Roman"></font><b>Allegro</b></text>
             </StaffText>
@@ -9372,6 +9498,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -10394,6 +10521,7 @@
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -10829,6 +10957,7 @@
             </Rest>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.217597" y="0.34484"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -12014,6 +12143,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="0.48004"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -14055,6 +14185,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="0.45364"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -14515,6 +14646,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="0.34484"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -14654,6 +14786,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="0.56244"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -15083,6 +15216,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="0.43283"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -15280,6 +15414,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.217597" y="0.45364"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -15777,6 +15912,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="0.56244"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -16069,6 +16205,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="-0.37269" y="-5.3627"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
@@ -16213,6 +16350,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="-0.416824" y="-4.82819"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
@@ -16937,6 +17075,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="0.45364"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -17388,6 +17527,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="0.34484"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -17657,6 +17797,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="0.12725"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>p dolce</text>
             </StaffText>
@@ -17703,6 +17844,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="0.88884"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -17856,6 +17998,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.10643"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -18106,6 +18249,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.217597" y="0.45364"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -18599,6 +18743,7 @@
             </Rest>
           <BarLine>
             <subtype>end</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -18842,6 +18987,7 @@
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -18853,6 +18999,7 @@
             </TimeSig>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="2.94466"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>sempre p  e  dolce</i></text>
             </StaffText>
@@ -19360,6 +19507,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="1.54163"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -20686,6 +20834,7 @@
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -20812,13 +20961,6 @@
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-2</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Spanner type="Slur">
               <Slur>
                 <up>down</up>
                 </Slur>
@@ -20827,6 +20969,13 @@
                   <fractions>5/8</fractions>
                   </location>
                 </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-2</measures>
+                  </location>
+                </prev>
               </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
@@ -20947,6 +21096,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.10965"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -21101,6 +21251,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.217597" y="3.20097"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -21441,6 +21592,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="1.63992"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -21610,6 +21762,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.217597" y="0.26074"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -22017,6 +22170,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.217597" y="0.78004"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -22354,6 +22508,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
+            <family>FreeSerif</family>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
           <Dynamic>
@@ -22490,6 +22645,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0" y="-1.74078"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
@@ -22629,6 +22785,7 @@
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -22937,6 +23094,7 @@
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -23484,6 +23642,7 @@
       <Measure>
         <voice>
           <StaffText>
+            <family>FreeSerif</family>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
           <Chord>
@@ -24247,11 +24406,13 @@
       <Measure>
         <voice>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0.217597" y="-6.12876"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.21523"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -24944,6 +25105,7 @@
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -25004,6 +25166,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.35364"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -26247,6 +26410,7 @@
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -26406,6 +26570,7 @@
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -27608,6 +27773,7 @@
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -27970,6 +28136,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.15449"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -28677,6 +28844,7 @@
             </Rest>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="0.52725"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -30234,6 +30402,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="0.97682"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -31047,6 +31216,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="0.40643"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -31151,6 +31321,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.28884"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -31586,6 +31757,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.652791" y="1.50643"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -31909,6 +32081,7 @@
             <velocity>49</velocity>
             </Dynamic>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0.217597" y="-2.11438"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
@@ -32055,6 +32228,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="-2.21438"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
@@ -32556,6 +32730,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="0.83283"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -33467,6 +33642,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.12403"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -33874,6 +34050,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="2.09763"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -34148,6 +34325,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.43283"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -34685,6 +34863,7 @@
             </Rest>
           <BarLine>
             <subtype>end</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -34921,6 +35100,7 @@
             </TimeSig>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="2.62403"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>sempre p  e  dolce</i></text>
             </StaffText>
@@ -35509,6 +35689,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.10643"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -36927,6 +37108,7 @@
               </Note>
             </Chord>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0" y="-4.08865"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -37225,6 +37407,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.34484"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -37332,6 +37515,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.217597" y="2.29816"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -37763,6 +37947,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="2.22961"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -37903,6 +38088,7 @@
       <Measure>
         <voice>
           <StaffText>
+            <family>FreeSerif</family>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
           <Beam>
@@ -38360,6 +38546,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="0.62725"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -38692,6 +38879,7 @@
             <velocity>49</velocity>
             </Dynamic>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0.217597" y="-1.95837"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
@@ -38813,6 +39001,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="-2.04078"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
@@ -39655,6 +39844,7 @@
       <Measure>
         <voice>
           <StaffText>
+            <family>FreeSerif</family>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
           <Chord>
@@ -40287,6 +40477,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="3.6535"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -40651,6 +40842,7 @@
       <Measure>
         <voice>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0" y="-3.66395"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -40975,6 +41167,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="0.23605"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -43620,6 +43813,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="1.4008"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -43665,7 +43859,7 @@
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -46323,6 +46517,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="1.09763"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -46589,6 +46784,7 @@
       <Measure>
         <voice>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="-4.72554"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -46675,10 +46871,12 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.82725"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="-4.36954"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -47021,6 +47219,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="0.88884"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -47419,6 +47618,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="0.12725"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -47733,6 +47933,7 @@
             <velocity>49</velocity>
             </Dynamic>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="-2.20558"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
@@ -47913,6 +48114,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="-2.44078"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
@@ -48674,6 +48876,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="0.25043"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -49382,6 +49585,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="2.16152"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -49650,11 +49854,13 @@
       <Measure>
         <voice>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0" y="-4.77275"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>p dolce</text>
             </StaffText>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.55686"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>p dolce</text>
             </StaffText>
@@ -49701,6 +49907,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.55922"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -49865,6 +50072,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.54163"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -49999,11 +50207,13 @@
       <Measure>
         <voice>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0" y="-5.29915"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="1.14163"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -50521,6 +50731,7 @@
             </TimeSig>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.02725"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>sempre p  e  dolce</i></text>
             </StaffText>
@@ -50866,6 +51077,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.217597" y="2.08562"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -52028,6 +52240,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="2.35922"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -52317,6 +52530,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="0.78004"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -52388,6 +52602,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="0.56244"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -52744,6 +52959,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="0.73283"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -52827,6 +53043,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.217597" y="0.69442"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -53228,6 +53445,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="2.42725"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -53581,6 +53799,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
+            <family>FreeSerif</family>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
           <Dynamic>
@@ -53683,6 +53902,7 @@
             <transposingClefType>G</transposingClefType>
             </Clef>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="-3.20558"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
@@ -54261,6 +54481,7 @@
       <Measure>
         <voice>
           <StaffText>
+            <family>FreeSerif</family>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
           <Chord>
@@ -54315,14 +54536,6 @@
             <BeamMode>no</BeamMode>
             <dots>1</dots>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>36</pitch>
@@ -54852,6 +55065,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.217597" y="2.42711"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -55225,11 +55439,13 @@
       <Measure>
         <voice>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0" y="-5.40795"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.217597" y="1.21287"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -55507,6 +55723,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="2.85043"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -58165,6 +58382,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="2.69009"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -59001,10 +59219,12 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="0.34484"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="-3.53992"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -60637,6 +60857,7 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.22403"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -60849,11 +61070,13 @@
       <Measure>
         <voice>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="-4.73434"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="1.09763"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -60903,6 +61126,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-0.108798" y="0.77124"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -61314,6 +61538,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="0.73283"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -61436,6 +61661,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="0.54163"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -61854,6 +62080,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="0.41523"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -62190,6 +62417,7 @@
             </Rest>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="1.41438" y="0.4176"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
@@ -62314,6 +62542,7 @@
               </Note>
             </Chord>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="0" y="-3.23198"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>ten.</text>
             </StaffText>
@@ -62658,6 +62887,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="0.64163"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -63095,6 +63325,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="0.39763"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
@@ -63283,6 +63514,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0" y="3.10407"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font>p dolce</text>
             </StaffText>
@@ -63343,6 +63575,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.108798" y="3.08647"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>dim.</i></text>
             </StaffText>
@@ -63512,6 +63745,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="0.217597" y="0.99763"/>
             <text><font size="10.0608"></font><font face="Times New Roman"></font><i>cresc.</i></text>
             </StaffText>
