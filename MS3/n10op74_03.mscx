@@ -190,6 +190,7 @@
         <trackName>Violin I (2)</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -214,6 +215,7 @@
         <trackName>Violin II (2)</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -234,6 +236,7 @@
         <trackName>Viola (2) (2)</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -253,6 +256,7 @@
         <trackName>Violoncello (2) (2)</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -262,6 +266,7 @@
     <Staff id="1">
       <Measure len="3/8">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <KeySig>
             <accidental>-3</accidental>
@@ -642,6 +647,7 @@
         </Measure>
       <Measure len="3/8">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <Dynamic>
             <subtype>f</subtype>
@@ -3738,6 +3744,7 @@
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <voice>
           <KeySig>
             <accidental>0</accidental>
@@ -6296,6 +6303,7 @@
         </Measure>
       <Measure len="3/8">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <KeySig>
             <accidental>-3</accidental>
@@ -6656,6 +6664,7 @@
           </voice>
         </Measure>
       <Measure len="3/8">
+        <irregular>1</irregular>
         <voice>
           <Dynamic>
             <subtype>f</subtype>
@@ -12188,17 +12197,11 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure len="3/8">
+      <Measure>
         <voice>
-          <Harmony>
-            <name>#viio7</name>
-            <offset x="0" y="-5.06"/>
-            </Harmony>
           <Chord>
-            <BeamMode>no</BeamMode>
             <dots>1</dots>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
+            <durationType>half</durationType>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -12255,6 +12258,7 @@
           </voice>
         </Measure>
       <Measure len="3/8">
+        <irregular>1</irregular>
         <voice>
           <KeySig>
             <accidental>-3</accidental>
@@ -27101,25 +27105,20 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure len="3/8">
+      <Measure>
         <voice>
           <Chord>
-            <BeamMode>no</BeamMode>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
+            <durationType>half</durationType>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>77</pitch>
               <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           </voice>
@@ -27140,13 +27139,6 @@
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>77</pitch>
               <tpc>13</tpc>
               </Note>
@@ -41803,25 +41795,20 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure len="3/8">
+      <Measure>
         <voice>
           <Chord>
-            <BeamMode>no</BeamMode>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
+            <durationType>half</durationType>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>74</pitch>
               <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           </voice>
@@ -41842,13 +41829,6 @@
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
@@ -56100,11 +56080,11 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="3/8">
+      <Measure>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>3/8</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
