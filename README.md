@@ -33,7 +33,7 @@ The original XML file for Op. 132 No. 15, mov. 5 from Project Gutenberg did not 
 # Overview
 | file_name  |measures|labels|standard|  annotators   |reviewers|
 |------------|-------:|-----:|--------|---------------|---------|
-|n01op18-1_01|     313|   405|1.0.0   |Markus Neuwirth|         |
+|n01op18-1_01|     313|   377|2.2.0   |Markus Neuwirth|AN, JH   |
 |n01op18-1_02|     110|   263|1.0.0   |Markus Neuwirth|         |
 |n01op18-1_03|     145|   203|1.0.0   |Markus Neuwirth|         |
 |n01op18-1_04|     381|   598|1.0.0   |Markus Neuwirth|         |
