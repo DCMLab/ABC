@@ -1,4 +1,9 @@
 # ABC - The Annotated Beethoven Corpus (v2.0)
+
+## Note on the `harmony_update` branch
+
+If one day this corpus is to be upgraded to the latest version of the DCML harmony annotation standard, this branch can serve as a starting point. The first movement of the first quartet has already collaboratively upgraded to version 2.2.0 by AN and JH. The branch `v2` is currently the place to add obviously wrong labels to the original version of this corpus and should be merged into this one here before starting the upgrade of the labels.
+
 ## Upgrade to MuseScore 3
 
 Two years after its first publication (see below), this is the revised version of the ABC. It comes with the following changes:
