@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+<museScore version="3.02">
+  <programVersion>3.6.2</programVersion>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -19,131 +19,168 @@
       <pageTwosided>0</pageTwosided>
       <staffDistance>8</staffDistance>
       <minSystemDistance>12.1</minSystemDistance>
+      <lyricsMinDistance>0.25</lyricsMinDistance>
       <lyricsDashForce>0</lyricsDashForce>
-      <doubleBarDistance>0.46</doubleBarDistance>
-      <endBarDistance>0.65</endBarDistance>
+      <lyricsDashYposRatio>0.6</lyricsDashYposRatio>
+      <lyricsOddFontFace>Edwin</lyricsOddFontFace>
+      <lyricsOddFontSize>10</lyricsOddFontSize>
+      <lyricsEvenFontFace>Edwin</lyricsEvenFontFace>
+      <lyricsEvenFontSize>10</lyricsEvenFontSize>
+      <barWidth>0.18</barWidth>
+      <doubleBarWidth>0.18</doubleBarWidth>
+      <endBarWidth>0.55</endBarWidth>
+      <doubleBarDistance>0.55</doubleBarDistance>
+      <endBarDistance>0.7</endBarDistance>
+      <repeatBarlineDotSeparation>0.7</repeatBarlineDotSeparation>
+      <bracketWidth>0.44</bracketWidth>
       <clefLeftMargin>0.64</clefLeftMargin>
       <clefKeyRightMargin>1.75</clefKeyRightMargin>
+      <stemWidth>0.11</stemWidth>
       <barNoteDistance>1.2</barNoteDistance>
-      <pedalFontFace>Times New Roman</pedalFontFace>
+      <staffLineWidth>0.11</staffLineWidth>
+      <ledgerLineLength>0.35</ledgerLineLength>
+      <hairpinWidth>0.12</hairpinWidth>
+      <hairpinFontFace>Edwin</hairpinFontFace>
+      <hairpinFontSize>10</hairpinFontSize>
+      <pedalLineWidth>0.11</pedalLineWidth>
+      <pedalFontFace>Edwin</pedalFontFace>
       <pedalFramePadding>0</pedalFramePadding>
       <pedalFrameWidth>0</pedalFrameWidth>
       <harmonyFretDist>0.5</harmonyFretDist>
-      <chordSymbolAFontFace>Times New Roman</chordSymbolAFontFace>
+      <harmonyPlay>0</harmonyPlay>
+      <chordSymbolAFontFace>Edwin</chordSymbolAFontFace>
+      <chordSymbolAFontSize>11</chordSymbolAFontSize>
       <chordSymbolAFramePadding>0</chordSymbolAFramePadding>
       <chordSymbolAFrameWidth>0</chordSymbolAFrameWidth>
+      <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
+      <chordSymbolBFontSize>11</chordSymbolBFontSize>
+      <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
+      <slurMidWidth>0.21</slurMidWidth>
+      <musicalSymbolFont>Leland</musicalSymbolFont>
+      <musicalTextFont>Leland Text</musicalTextFont>
+      <voltaLineWidth>0.11</voltaLineWidth>
       <voltaFontFace>Times New Roman</voltaFontFace>
       <voltaFramePadding>0</voltaFramePadding>
       <voltaFrameWidth>0</voltaFrameWidth>
-      <ottavaFontFace>Times New Roman</ottavaFontFace>
+      <ottavaLineWidth>0.11</ottavaLineWidth>
+      <ottavaFontFace>Edwin</ottavaFontFace>
       <ottavaFontStyle>2</ottavaFontStyle>
       <ottavaFramePadding>0</ottavaFramePadding>
       <ottavaFrameWidth>0</ottavaFrameWidth>
-      <tupletFontFace>Times New Roman</tupletFontFace>
+      <tupletFontFace>Edwin</tupletFontFace>
+      <tupletFontSize>9</tupletFontSize>
       <tupletFramePadding>0</tupletFramePadding>
       <tupletFrameWidth>0</tupletFrameWidth>
       <textLineFramePadding>0</textLineFramePadding>
       <textLineFrameWidth>0</textLineFrameWidth>
+      <defaultFontFace>Edwin</defaultFontFace>
       <defaultFramePadding>0.5</defaultFramePadding>
       <defaultFrameWidth>0.2</defaultFrameWidth>
       <defaultFrameRound>25</defaultFrameRound>
-      <titleFontFace>Times New Roman</titleFontFace>
-      <titleFontSize>10.25</titleFontSize>
+      <titleFontFace>Edwin</titleFontFace>
+      <titleFontSize>22</titleFontSize>
       <titleFramePadding>0</titleFramePadding>
       <titleFrameWidth>0</titleFrameWidth>
       <titleFrameRound>25</titleFrameRound>
-      <subTitleFontFace>Times New Roman</subTitleFontFace>
-      <subTitleFontSize>10.25</subTitleFontSize>
+      <subTitleFontFace>Edwin</subTitleFontFace>
+      <subTitleFontSize>16</subTitleFontSize>
       <subTitleFramePadding>0</subTitleFramePadding>
       <subTitleFrameWidth>0</subTitleFrameWidth>
       <subTitleFrameRound>25</subTitleFrameRound>
-      <composerFontFace>Times New Roman</composerFontFace>
-      <composerFontSize>10.25</composerFontSize>
+      <composerFontFace>Edwin</composerFontFace>
+      <composerFontSize>10</composerFontSize>
       <composerFramePadding>0</composerFramePadding>
       <composerFrameWidth>0</composerFrameWidth>
       <composerFrameRound>25</composerFrameRound>
-      <lyricistFontFace>Times New Roman</lyricistFontFace>
-      <lyricistFontSize>10.25</lyricistFontSize>
+      <lyricistFontFace>Edwin</lyricistFontFace>
+      <lyricistFontSize>10</lyricistFontSize>
       <lyricistFramePadding>0</lyricistFramePadding>
       <lyricistFrameWidth>0</lyricistFrameWidth>
       <lyricistFrameRound>25</lyricistFrameRound>
-      <fingeringFontFace>Times New Roman</fingeringFontFace>
+      <fingeringFontFace>Edwin</fingeringFontFace>
       <fingeringFramePadding>0</fingeringFramePadding>
       <fingeringFrameWidth>0</fingeringFrameWidth>
       <fingeringFrameRound>25</fingeringFrameRound>
-      <lhGuitarFingeringFontFace>Times New Roman</lhGuitarFingeringFontFace>
+      <lhGuitarFingeringFontFace>Edwin</lhGuitarFingeringFontFace>
       <lhGuitarFingeringFramePadding>0</lhGuitarFingeringFramePadding>
       <lhGuitarFingeringFrameWidth>0</lhGuitarFingeringFrameWidth>
       <lhGuitarFingeringFrameRound>25</lhGuitarFingeringFrameRound>
-      <rhGuitarFingeringFontFace>Times New Roman</rhGuitarFingeringFontFace>
+      <rhGuitarFingeringFontFace>Edwin</rhGuitarFingeringFontFace>
+      <rhGuitarFingeringFontStyle>2</rhGuitarFingeringFontStyle>
       <rhGuitarFingeringFramePadding>0</rhGuitarFingeringFramePadding>
       <rhGuitarFingeringFrameWidth>0</rhGuitarFingeringFrameWidth>
       <rhGuitarFingeringFrameRound>25</rhGuitarFingeringFrameRound>
-      <stringNumberFontFace>Times New Roman</stringNumberFontFace>
-      <longInstrumentFontFace>Times New Roman</longInstrumentFontFace>
-      <longInstrumentFontSize>10.25</longInstrumentFontSize>
+      <stringNumberFontFace>Edwin</stringNumberFontFace>
+      <longInstrumentFontFace>Edwin</longInstrumentFontFace>
+      <longInstrumentFontSize>10</longInstrumentFontSize>
       <longInstrumentFramePadding>0</longInstrumentFramePadding>
       <longInstrumentFrameWidth>0</longInstrumentFrameWidth>
-      <shortInstrumentFontFace>Times New Roman</shortInstrumentFontFace>
-      <shortInstrumentFontSize>10.25</shortInstrumentFontSize>
+      <shortInstrumentFontFace>Edwin</shortInstrumentFontFace>
+      <shortInstrumentFontSize>10</shortInstrumentFontSize>
       <shortInstrumentFramePadding>0</shortInstrumentFramePadding>
       <shortInstrumentFrameWidth>0</shortInstrumentFrameWidth>
-      <partInstrumentFontFace>Times New Roman</partInstrumentFontFace>
-      <partInstrumentFontSize>10.25</partInstrumentFontSize>
+      <partInstrumentFontFace>Edwin</partInstrumentFontFace>
+      <partInstrumentFontSize>14</partInstrumentFontSize>
       <partInstrumentFramePadding>0</partInstrumentFramePadding>
       <partInstrumentFrameWidth>0</partInstrumentFrameWidth>
       <partInstrumentFrameRound>25</partInstrumentFrameRound>
-      <dynamicsFontFace>Times New Roman</dynamicsFontFace>
+      <dynamicsFontFace>Edwin</dynamicsFontFace>
+      <dynamicsFontSize>11</dynamicsFontSize>
       <dynamicsFontStyle>0</dynamicsFontStyle>
       <dynamicsFramePadding>0</dynamicsFramePadding>
       <dynamicsFrameWidth>0</dynamicsFrameWidth>
-      <expressionFontFace>Times New Roman</expressionFontFace>
-      <expressionFontSize>12</expressionFontSize>
+      <expressionFontFace>Edwin</expressionFontFace>
+      <expressionFontSize>10</expressionFontSize>
       <expressionFramePadding>0</expressionFramePadding>
       <expressionFrameWidth>0</expressionFrameWidth>
-      <tempoFontFace>Times New Roman</tempoFontFace>
+      <tempoFontFace>Edwin</tempoFontFace>
       <tempoFontSize>10.25</tempoFontSize>
       <tempoFramePadding>0</tempoFramePadding>
       <tempoFrameWidth>0</tempoFrameWidth>
       <tempoFrameRound>25</tempoFrameRound>
-      <metronomeFontFace>Times New Roman</metronomeFontFace>
+      <metronomeFontFace>Edwin</metronomeFontFace>
       <metronomeFontSize>10.25</metronomeFontSize>
+      <metronomeFontStyle>0</metronomeFontStyle>
       <metronomeFramePadding>0</metronomeFramePadding>
       <metronomeFrameWidth>0</metronomeFrameWidth>
-      <measureNumberFontFace>Times New Roman</measureNumberFontFace>
-      <measureNumberAlign>center,bottom</measureNumberAlign>
+      <measureNumberFontFace>Edwin</measureNumberFontFace>
+      <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
+      <measureNumberFontStyle>2</measureNumberFontStyle>
       <measureNumberFramePadding>0</measureNumberFramePadding>
       <measureNumberFrameWidth>0</measureNumberFrameWidth>
-      <translatorFontFace>Times New Roman</translatorFontFace>
-      <translatorFontSize>10.25</translatorFontSize>
+      <translatorFontFace>Edwin</translatorFontFace>
+      <translatorFontSize>10</translatorFontSize>
       <translatorAlign>center,top</translatorAlign>
       <translatorFramePadding>0</translatorFramePadding>
       <translatorFrameWidth>0</translatorFrameWidth>
-      <systemFontFace>Times New Roman</systemFontFace>
+      <systemFontFace>Edwin</systemFontFace>
       <systemFontSize>10.25</systemFontSize>
       <systemAlign>left,top</systemAlign>
       <systemFramePadding>0</systemFramePadding>
       <systemFrameWidth>0</systemFrameWidth>
       <systemFrameRound>25</systemFrameRound>
-      <staffFontFace>Times New Roman</staffFontFace>
+      <staffFontFace>Edwin</staffFontFace>
       <staffFontSize>10.25</staffFontSize>
       <staffAlign>left,top</staffAlign>
       <staffPosAbove x="0" y="-4"/>
       <staffFramePadding>0</staffFramePadding>
       <staffFrameWidth>0</staffFrameWidth>
       <staffFrameRound>25</staffFrameRound>
-      <rehearsalMarkFontFace>Times New Roman</rehearsalMarkFontFace>
-      <repeatLeftFontFace>Times New Roman</repeatLeftFontFace>
-      <repeatLeftFontSize>10.25</repeatLeftFontSize>
+      <rehearsalMarkFontFace>Edwin</rehearsalMarkFontFace>
+      <rehearsalMarkFrameWidth>0.16</rehearsalMarkFrameWidth>
+      <rehearsalMarkFrameRound>0</rehearsalMarkFrameRound>
+      <repeatLeftFontFace>Edwin</repeatLeftFontFace>
+      <repeatLeftFontSize>18</repeatLeftFontSize>
       <repeatLeftFramePadding>0</repeatLeftFramePadding>
       <repeatLeftFrameWidth>0</repeatLeftFrameWidth>
       <repeatLeftFrameRound>25</repeatLeftFrameRound>
-      <repeatRightFontFace>Times New Roman</repeatRightFontFace>
-      <repeatRightFontSize>10.25</repeatRightFontSize>
+      <repeatRightFontFace>Edwin</repeatRightFontFace>
+      <repeatRightFontSize>11</repeatRightFontSize>
       <repeatRightFramePadding>0</repeatRightFramePadding>
       <repeatRightFrameWidth>0</repeatRightFrameWidth>
       <repeatRightFrameRound>25</repeatRightFrameRound>
-      <frameFontFace>Times New Roman</frameFontFace>
+      <frameFontFace>Edwin</frameFontFace>
+      <frameFontSize>10</frameFontSize>
       <frameFramePadding>0</frameFramePadding>
       <frameFrameWidth>0</frameFrameWidth>
       <textLineFontFace>Times New Roman</textLineFontFace>
@@ -170,19 +207,26 @@
       <instrumentChangeAlign>left,bottom</instrumentChangeAlign>
       <instrumentChangeFramePadding>0</instrumentChangeFramePadding>
       <instrumentChangeFrameWidth>0</instrumentChangeFrameWidth>
+      <usePre_3_6_defaults>1</usePre_3_6_defaults>
+      <defaultsVersion>301</defaultsVersion>
       <Spatium>1.80798</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="annotators">Markus Neuwirth</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="composed_end">1799</metaTag>
+    <metaTag name="composed_start">1799</metaTag>
     <metaTag name="composer">L van Beethoven</metaTag>
     <metaTag name="copyright">©</metaTag>
     <metaTag name="creationDate">2015-08-12</metaTag>
+    <metaTag name="harmony_version">1.0.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle">String Quartet Op18 No4</metaTag>
+    <metaTag name="mscVersion">3.02</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
@@ -196,10 +240,16 @@
           </StaffType>
         </Staff>
       <trackName>Violin I</trackName>
-      <Instrument>
+      <Instrument id="piano">
         <longName>Violin I</longName>
         <trackName>MusicXML Default 1</trackName>
+        <instrumentId>keyboard.piano</instrumentId>
         <Channel>
+          <program value="0"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
           <program value="0"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -212,9 +262,10 @@
           </StaffType>
         </Staff>
       <trackName>Violin II</trackName>
-      <Instrument>
+      <Instrument id="piano">
         <longName>Violin II</longName>
         <trackName>MusicXML Default 2</trackName>
+        <instrumentId>keyboard.piano</instrumentId>
         <Channel>
           <program value="0"/>
           <controller ctrl="10" value="63"/>
@@ -229,9 +280,10 @@
         <defaultClef>C3</defaultClef>
         </Staff>
       <trackName>Viola</trackName>
-      <Instrument>
+      <Instrument id="viola">
         <longName>Viola</longName>
         <trackName>MusicXML Default 3</trackName>
+        <instrumentId>strings.viola</instrumentId>
         <Channel>
           <program value="0"/>
           <controller ctrl="10" value="63"/>
@@ -246,9 +298,10 @@
         <defaultClef>F</defaultClef>
         </Staff>
       <trackName>Violoncello</trackName>
-      <Instrument>
+      <Instrument id="violoncello">
         <longName>Violoncello</longName>
         <trackName>MusicXML Default 4</trackName>
+        <instrumentId>strings.cello</instrumentId>
         <Channel>
           <program value="0"/>
           <controller ctrl="10" value="63"/>
@@ -259,13 +312,16 @@
     <Staff id="1">
       <VBox>
         <height>10.3</height>
+        <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Composer</style>
+          <size>10.25</size>
           <offset x="-2.19513" y="0.439026"/>
           <text><font size="12"></font>L van Beethoven</text>
           </Text>
         <Text>
           <style>Title</style>
+          <size>10.25</size>
           <text><font size="24"></font>String Quartet Op18 No4</text>
           </Text>
         </VBox>
@@ -2898,6 +2954,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2934,6 +2991,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2970,6 +3028,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3010,6 +3069,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3046,6 +3106,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3082,6 +3143,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3122,6 +3184,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3161,6 +3224,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3197,6 +3261,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3237,6 +3302,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3273,6 +3339,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3312,6 +3379,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3358,6 +3426,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3394,6 +3463,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3430,6 +3500,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3470,6 +3541,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3506,6 +3578,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3542,6 +3615,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3582,6 +3656,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3621,6 +3696,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3657,6 +3733,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3697,6 +3774,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3733,6 +3811,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3772,6 +3851,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3818,6 +3898,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3854,6 +3935,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3890,6 +3972,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3930,6 +4013,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3966,6 +4050,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4002,6 +4087,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4050,6 +4136,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4089,6 +4176,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4125,6 +4213,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4171,6 +4260,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4207,6 +4297,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4246,6 +4337,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4290,6 +4382,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4326,6 +4419,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4365,6 +4459,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4405,6 +4500,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4441,6 +4537,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4477,6 +4574,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4840,6 +4938,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4876,6 +4975,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4912,6 +5012,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4952,6 +5053,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4988,6 +5090,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5024,6 +5127,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5064,6 +5168,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5103,6 +5208,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5139,6 +5245,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5179,6 +5286,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5215,6 +5323,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5254,6 +5363,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5300,6 +5410,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5336,6 +5447,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5372,6 +5484,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5412,6 +5525,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5448,6 +5562,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5484,6 +5599,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5527,6 +5643,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5566,6 +5683,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5602,6 +5720,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5645,6 +5764,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5684,6 +5804,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5723,6 +5844,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5771,6 +5893,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5807,6 +5930,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5843,6 +5967,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5883,6 +6008,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5919,6 +6045,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5955,6 +6082,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5998,6 +6126,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6034,6 +6163,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6070,6 +6200,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6113,6 +6244,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6149,6 +6281,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6185,6 +6318,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6228,6 +6362,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6264,6 +6399,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6300,6 +6436,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6340,6 +6477,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6376,6 +6514,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6412,6 +6551,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6452,6 +6592,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6488,6 +6629,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6524,6 +6666,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6587,6 +6730,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6623,6 +6767,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6659,6 +6804,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -9497,14 +9643,6 @@
                   </location>
                 </next>
               </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>62</pitch>
@@ -9551,22 +9689,6 @@
             <BeamMode>no</BeamMode>
             <dots>1</dots>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>55</pitch>
