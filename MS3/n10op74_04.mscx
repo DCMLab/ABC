@@ -190,6 +190,7 @@
         <trackName>Violin I (2)</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -215,6 +216,7 @@
         <trackName>Violin II (2)</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -236,6 +238,7 @@
         <trackName>Viola (2) (2)</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -256,6 +259,7 @@
         <trackName>Violoncello (2) (2)</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -265,6 +269,7 @@
     <Staff id="1">
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <KeySig>
             <accidental>-3</accidental>
@@ -723,6 +728,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <Dynamic>
             <subtype>pp</subtype>
@@ -1467,6 +1473,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>I</name>
@@ -1850,6 +1857,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>I.V2/vi</name>
@@ -2490,6 +2498,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>V</name>
@@ -2645,6 +2654,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -3076,6 +3086,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>I6</name>
@@ -3339,6 +3350,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>V7/vi</name>
@@ -3780,6 +3792,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <StaffText>
             <placement>below</placement>
@@ -4067,6 +4080,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>I.V/ii</name>
@@ -4615,6 +4629,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <StaffText>
             <placement>below</placement>
@@ -5278,6 +5293,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>viio6/IV</name>
@@ -6307,6 +6323,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <StaffText>
             <family>FreeSerif</family>
@@ -6803,6 +6820,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <StaffText>
             <placement>below</placement>
@@ -7562,6 +7580,7 @@
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>I]</name>
