@@ -3897,6 +3897,9 @@
         </Measure>
       <Measure len="2/4">
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>section</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>I\\</name>
@@ -3925,6 +3928,7 @@
           </voice>
         </Measure>
       <Measure len="1/4">
+        <irregular>1</irregular>
         <voice>
           <KeySig>
             <accidental>0</accidental>
@@ -4334,6 +4338,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>V</name>
