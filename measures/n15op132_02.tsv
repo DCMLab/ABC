@@ -123,7 +123,7 @@ mc	mn	keysig	timesig	act_dur	mc_offset	volta	numbering_offset	dont_count	barline
 122	116	3	3/4	3/4	0											123
 123	117	3	3/4	3/4	0											124
 124	118	3	3/4	3/4	0											125
-125	119	3	3/4	1/2	0				end							126
+125	119	3	3/4	3/4	0				end			fine				126, -1
 126	120	3	3/4	3/4	0											127
 127	121	3	3/4	3/4	0											128
 128	122	3	3/4	3/4	0											129
@@ -243,5 +243,4 @@ mc	mn	keysig	timesig	act_dur	mc_offset	volta	numbering_offset	dont_count	barline
 242	236	3	3/4	3/4	0											243
 243	237	3	3/4	3/4	0											244
 244	238	3	3/4	3/4	0											245
-245	239	3	3/4	3/4	0								start		fine	1
-246	240	3	3/4	3/4	0				end		lastMeasure					-1
+245	239	3	3/4	3/4	0						lastMeasure		start		fine	1

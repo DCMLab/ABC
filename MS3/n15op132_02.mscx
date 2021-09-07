@@ -9446,7 +9446,12 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="2/4">
+      <Measure>
+        <Marker>
+          <style>Repeat Text Right</style>
+          <text>Fine</text>
+          <label>fine</label>
+          </Marker>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
@@ -9507,9 +9512,11 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -9528,9 +9535,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o4 x="6.1532" y="-3.32273"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10954,11 +10958,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.14648"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -16794,18 +16793,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            <span>1</span>
-            </BarLine>
           </voice>
         </Measure>
       </Staff>
@@ -23791,7 +23778,7 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="2/4">
+      <Measure>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
@@ -23844,9 +23831,11 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -29924,18 +29913,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            <span>1</span>
-            </BarLine>
           </voice>
         </Measure>
       </Staff>
@@ -36808,7 +36785,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure len="2/4">
+      <Measure>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
@@ -36861,6 +36838,9 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           <BarLine>
             <subtype>end</subtype>
             </BarLine>
@@ -42707,17 +42687,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            </BarLine>
           </voice>
         </Measure>
       </Staff>
@@ -48812,7 +48781,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure len="2/4">
+      <Measure>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
@@ -48842,6 +48811,9 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           <BarLine>
             <subtype>end</subtype>
             </BarLine>
@@ -52767,17 +52739,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            </BarLine>
           </voice>
         </Measure>
       </Staff>
