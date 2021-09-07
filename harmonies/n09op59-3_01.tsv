@@ -78,11 +78,11 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	globalkey	localkey	pedal
 63	63	1/2	1/2	4/4	1	1		V7	C	I		V7		V		7					Mm7	0	0	1, 5, 2, -1		1	1
 64	64	0	0	4/4	1	1		I	C	I		I		I							M	0	0	0, 4, 1		0	0
 66	66	1/2	1/2	4/4	1	1		I6	C	I		I6		I		6					M	0	0	4, 1, 0		0	4
-66	66	3/4	3/4	4/4	1	1		#viio7/V	C	I		#viio7/V		#vii	o	7		V			o7	0	0	6, 3, 0, -3		6	6
+66	66	3/4	3/4	4/4	1	1		viio7/V	C	I		viio7/V		vii	o	7		V			o7	0	0	6, 3, 0, -3		6	6
 67	67	0	0	4/4	1	1		ii(+2)	C	I		ii(+2)		ii			+2				m	0	0	2, -1, 3	4	2	2
 67	67	1/2	1/2	4/4	1	1		V7	C	I		V7		V		7					Mm7	0	0	1, 5, 2, -1		1	1
 68	68	0	0	4/4	1	1		I\\	C	I		I		I						\\	M	0	0	0, 4, 1		0	0
-68	68	1/2	1/2	4/4	1	1		#viio7/V	C	I		#viio7/V		#vii	o	7		V			o7	0	0	6, 3, 0, -3		6	6
+68	68	1/2	1/2	4/4	1	1		viio7/V	C	I		viio7/V		vii	o	7		V			o7	0	0	6, 3, 0, -3		6	6
 69	69	0	0	4/4	1	1		ii(+2)	C	I		ii(+2)		ii			+2				m	0	0	2, -1, 3	4	2	2
 69	69	1/2	1/2	4/4	1	1		V7	C	I		V7		V		7					Mm7	0	0	1, 5, 2, -1		1	1
 70	70	0	0	4/4	1	1		I\\	C	I		I		I						\\	M	0	0	0, 4, 1		0	0
@@ -239,7 +239,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	globalkey	localkey	pedal
 134	134	0	0	4/4	1	1		#viio	C	iii	V	#viio		#vii	o						o	0	1	5, 2, -1		5	5
 134	134	1/2	1/2	4/4	1	1		i64	C	iii	V	i64		i		64					m	0	1	1, 0, -3		0	1
 135	135	0	0	4/4	1	1		iio6	C	iii	V	iio6		ii	o	6					o	0	1	-1, -4, 2		2	-1
-135	135	1/2	1/2	4/4	1	1		#viio2/V	C	iii	V	#viio2/V		#vii	o	2		V			o7	0	1	-3, 6, 3, 0		6	-3
+135	135	1/2	1/2	4/4	1	1		viio2/V	C	iii	V	viio2/V		vii	o	2		V			o7	0	1	-3, 6, 3, 0		6	-3
 136	136	0	0	4/4	1	1		V64	C	iii	V	V64		V		64					M	0	1	2, 1, 5		1	2
 137	137	0	0	4/4	1	1		i6]	C	iii	V	i6		i		6					m	0	1	-3, 1, 0		0	-3
 137	137	1/2	1/2	4/4	1	1		IV.V2	C	IV		V2		V		2					Mm7	0	0	-1, 1, 5, 2		1	-1
@@ -254,7 +254,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	globalkey	localkey	pedal
 143	143	0	0	4/4	1	1		ii6	C	IV		ii6		ii		6					m	0	0	-1, 3, 2		2	-1
 143	143	1/4	1/4	4/4	1	1		ii	C	IV		ii		ii							m	0	0	2, -1, 3		2	2
 143	143	1/2	1/2	4/4	1	1		V65	C	IV		V65		V		65					Mm7	0	0	5, 2, -1, 1		1	5
-143	143	5/8	5/8	4/4	1	1		#viio6/V	C	IV		#viio6/V		#vii	o	6		V			o	0	0	3, 0, 6		6	3
+143	143	5/8	5/8	4/4	1	1		viio6/V	C	IV		viio6/V		vii	o	6		V			o	0	0	3, 0, 6		6	3
 143	143	3/4	3/4	4/4	1	1		V7	C	IV		V7		V		7					Mm7	0	0	1, 5, 2, -1		1	1
 144	144	0	0	4/4	1	1		I	C	IV		I		I							M	0	0	0, 4, 1		0	0
 144	144	1/2	1/2	4/4	1	1		V	C	IV		V		V							M	0	0	1, 5, 2		1	1
@@ -311,7 +311,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	globalkey	localkey	pedal
 167	167	3/4	3/4	4/4	1	1		ii	C	i		ii		ii							m	0	1	2, -1, 3		2	2
 168	168	0	0	4/4	1	1		i(94)	C	i		i(94)		i			94				m	0	1	0, -1, 1	2	0	0
 168	168	1/4	1/4	4/4	1	1		i	C	i		i		i							m	0	1	0, -3, 1		0	0
-169	169	0	0	4/4	1	1		#viio43/V	C	i		#viio43/V		#vii	o	43		V			o7	0	1	0, -3, 6, 3		6	0
+169	169	0	0	4/4	1	1		viio43/V	C	i		viio43/V		vii	o	43		V			o7	0	1	0, -3, 6, 3		6	0
 169	169	1/4	1/4	4/4	1	1		.Ger6	C	i		Ger6	Ger	vii	o	65	b3	V			Ger	0	1	-4, 0, -3, 6		6	-4
 169	169	3/4	3/4	4/4	1	1		.Fr6	C	i		Fr6	Fr	V		7	b5	V			Fr	0	1	2, 6, -4, 0		2	2
 170	170	0	0	4/4	1	1		V(4b2)	C	i		V(4b2)		V			4b2				M	0	1	-11, 0, 2		1	-11
@@ -504,7 +504,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	globalkey	localkey	pedal
 266	266	1/2	1/2	4/4	1	1		#iio6	C	i	V	#iio6		#ii	o	6					o	0	1	6, 3, 9		9	6
 266	266	3/4	3/4	4/4	1	1		iii6	C	i	V	iii6		iii		6					m	0	1	-6, -2, -3		-3	-6
 267	267	0	0	4/4	1	1		IV6	C	i	V	IV6		IV		6					M	0	1	3, 0, -1		-1	3
-267	267	1/4	1/4	4/4	1	1		#viio6/V	C	i	V	#viio6/V		#vii	o	6		V			o	0	1	3, 0, 6		6	3
+267	267	1/4	1/4	4/4	1	1		viio6/V	C	i	V	viio6/V		vii	o	6		V			o	0	1	3, 0, 6		6	3
 267	267	1/2	1/2	4/4	1	1		V6	C	i	V	V6		V		6					M	0	1	5, 2, 1		1	5
 267	267	3/4	3/4	4/4	1	1		#viio6/vi	C	i	V	#viio6/vi		#vii	o	6		vi			o	0	1	-2, -5, 1		1	-2
 268	268	0	0	4/4	1	1		vi6	C	i	V	vi6		vi		6					m	0	1	-7, -3, -4		-4	-7

@@ -26,7 +26,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	alt_label	globalkey	loca
 19	19	0	0	2/4	1	1		V		Bb	I		V	V								M	0	0	1, 5, 2		1	1
 20	20	0	0	2/4	1	1		V[V7		Bb	I	V	V7	V		7						Mm7	0	0	1, 5, 2, -1		1	1
 21	21	0	0	2/4	1	1		I]		Bb	I		I	I					]			M	0	0	0, 4, 1		0	0
-21	21	3/8	3/8	2/4	1	1		#viio/V		Bb	I		#viio/V	#vii	o			V				o	0	0	6, 3, 0		6	6
+21	21	3/8	3/8	2/4	1	1		viio/V		Bb	I		viio/V	vii	o			V				o	0	0	6, 3, 0		6	6
 22	22	0	0	2/4	1	1		V		Bb	I		V	V								M	0	0	1, 5, 2		1	1
 22	22	1/4	1/4	2/4	1	1		ii[V/V		Bb	I	ii	V/V	V				V				M	0	0	2, 6, 3		2	2
 23	23	0	0	2/4	1	1		V]		Bb	I		V	V					]			M	0	0	1, 5, 2		1	1
@@ -46,7 +46,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	alt_label	globalkey	loca
 34	34	0	0	2/4	1	1	1	I]		Bb	I		I	I					]			M	0	0	0, 4, 1		0	0
 35	35	0	0	2/4	1	1		V		Bb	I		V	V								M	0	0	1, 5, 2		1	1
 36	36	0	0	2/4	1	1		I		Bb	I		I	I								M	0	0	0, 4, 1		0	0
-37	37	0	0	2/4	1	1		#viio/V		Bb	I		#viio/V	#vii	o			V				o	0	0	6, 3, 0		6	6
+37	37	0	0	2/4	1	1		viio/V		Bb	I		viio/V	vii	o			V				o	0	0	6, 3, 0		6	6
 37	37	1/4	1/4	2/4	1	1		V64		Bb	I		V64	V		64						M	0	0	2, 1, 5		1	2
 38	38	0	0	2/4	1	1		V+6/iii		Bb	I		V+6/iii	V	+	6		iii				+	0	0	9, 13, 5		5	9
 38	38	1/8	1/8	2/4	1	1		I6		Bb	I		I6	I		6						M	0	0	4, 1, 0		0	4
@@ -83,7 +83,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	alt_label	globalkey	loca
 59	59	0	0	2/4	1	1		I6		Bb	I		I6	I		6						M	0	0	4, 1, 0		0	4
 59	59	1/4	1/4	2/4	1	1		V43		Bb	I		V43	V		43						Mm7	0	0	2, -1, 1, 5		1	2
 59	59	3/8	3/8	2/4	1	1		I		Bb	I		I	I								M	0	0	0, 4, 1		0	0
-60	60	0	0	2/4	1	1		V[#viio2/V		Bb	I	V	#viio2/V	#vii	o	2		V				o7	0	0	-3, 6, 3, 0		6	-3
+60	60	0	0	2/4	1	1		V[viio2/V		Bb	I	V	viio2/V	vii	o	2		V				o7	0	0	-3, 6, 3, 0		6	-3
 60	60	1/8	1/8	2/4	1	1		V64]		Bb	I		V64	V		64			]			M	0	0	2, 1, 5		1	2
 60	60	1/4	1/4	2/4	1	1		V(64)		Bb	I		V(64)	V			64					M	0	0	1, 0, 4		1	1
 60	60	3/8	3/8	2/4	1	1		V7		Bb	I		V7	V		7						Mm7	0	0	1, 5, 2, -1		1	1
@@ -98,18 +98,18 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	alt_label	globalkey	loca
 67	67	0	0	2/4	1	1		V7		Bb	I		V7	V		7						Mm7	0	0	1, 5, 2, -1		1	1
 69	69	0	0	2/4	1	1		@none		Bb	I		@none	@none								m	0	0				
 70	70	0	0	2/4	1	1		I		Bb	I		I	I								M	0	0	0, 4, 1		0	0
-71	71	0	0	2/4	1	1		#viio6/V		Bb	I		#viio6/V	#vii	o	6		V				o	0	0	3, 0, 6		6	3
+71	71	0	0	2/4	1	1		viio6/V		Bb	I		viio6/V	vii	o	6		V				o	0	0	3, 0, 6		6	3
 71	71	1/4	1/4	2/4	1	1		V7		Bb	I		V7	V		7						Mm7	0	0	1, 5, 2, -1		1	1
 72	72	1/8	1/8	2/4	1	1		V2		Bb	I		V2	V		2						Mm7	0	0	-1, 1, 5, 2		1	-1
 73	73	0	0	2/4	1	1		I6		Bb	I		I6	I		6						M	0	0	4, 1, 0		0	4
 74	74	0	0	2/4	1	1		IV		Bb	I		IV	IV								M	0	0	-1, 3, 0		-1	-1
 74	74	1/8	1/8	2/4	1	1		V65/V		Bb	I		V65/V	V		65		V				Mm7	0	0	6, 3, 0, 2		2	6
 74	74	1/4	1/4	2/4	1	1		V		Bb	I		V	V								M	0	0	1, 5, 2		1	1
-75	75	0	0	2/4	1	1		#viio65/V		Bb	I		#viio65/V	#vii	o	65		V				o7	0	0	3, 0, -3, 6		6	3
+75	75	0	0	2/4	1	1		viio65/V		Bb	I		viio65/V	vii	o	65		V				o7	0	0	3, 0, -3, 6		6	3
 75	75	3/8	3/8	2/4	1	1		i64		Bb	I		i64	i		64						m	0	0	1, 0, -3		0	1
-76	76	0	0	2/4	1	1		#viio65/V		Bb	I		#viio65/V	#vii	o	65		V				o7	0	0	3, 0, -3, 6		6	3
-77	77	0	0	2/4	1	1		#viio7/V		Bb	I		#viio7/V	#vii	o	7		V				o7	0	0	6, 3, 0, -3		6	6
-78	78	0	0	2/4	1	1		#viio7/V		Bb	I		#viio7/V	#vii	o	7		V				o7	0	0	6, 3, 0, -3		6	6
+76	76	0	0	2/4	1	1		viio65/V		Bb	I		viio65/V	vii	o	65		V				o7	0	0	3, 0, -3, 6		6	3
+77	77	0	0	2/4	1	1		viio7/V		Bb	I		viio7/V	vii	o	7		V				o7	0	0	6, 3, 0, -3		6	6
+78	78	0	0	2/4	1	1		viio7/V		Bb	I		viio7/V	vii	o	7		V				o7	0	0	6, 3, 0, -3		6	6
 79	79	0	0	2/4	1	1		viio43		Bb	I		viio43	vii	o	43						o7	0	0	-1, -4, 5, 2		5	-1
 80	80	0	0	2/4	1	1		viio43		Bb	I		viio43	vii	o	43						o7	0	0	-1, -4, 5, 2		5	-1
 80	80	1/4	1/4	2/4	1	1		viio2		Bb	I		viio2	vii	o	2						o7	0	0	-4, 5, 2, -1		5	-4
@@ -172,7 +172,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	alt_label	globalkey	loca
 128	128	1/4	1/4	2/4	1	1		V		Bb	bVII		V	V								M	0	0	1, 5, 2		1	1
 129	129	0	0	2/4	1	1		V2		Bb	bVII		V2	V		2						Mm7	0	0	-1, 1, 5, 2		1	-1
 129	129	1/4	1/4	2/4	1	1		I6		Bb	bVII		I6	I		6						M	0	0	4, 1, 0		0	4
-130	130	0	0	2/4	1	1		#viio6/V		Bb	bVII		#viio6/V	#vii	o	6		V				o	0	0	3, 0, 6		6	3
+130	130	0	0	2/4	1	1		viio6/V		Bb	bVII		viio6/V	vii	o	6		V				o	0	0	3, 0, 6		6	3
 131	131	0	0	2/4	1	1		V		Bb	bVII		V	V								M	0	0	1, 5, 2		1	1
 131	131	3/8	3/8	2/4	1	1		v		Bb	bVII		v	v								m	0	0	1, -2, 2		1	1
 132	132	0	0	2/4	1	1		IV		Bb	bVII		IV	IV								M	0	0	-1, 3, 0		-1	-1
@@ -238,15 +238,15 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	alt_label	globalkey	loca
 185	185	0	0	2/4	1	1		V43/IV		Bb	V		V43/IV	V		43		IV				Mm7	0	0	1, -2, 0, 4		0	1
 186	186	0	0	2/4	1	1		V65/IV		Bb	V		V65/IV	V		65		IV				Mm7	0	0	4, 1, -2, 0		0	4
 186	186	1/4	1/4	2/4	1	1		IV6		Bb	V		IV6	IV		6						M	0	0	3, 0, -1		-1	3
-186	186	3/8	3/8	2/4	1	1		#viio6/V		Bb	V		#viio6/V	#vii	o	6		V				o	0	0	3, 0, 6		6	3
+186	186	3/8	3/8	2/4	1	1		viio6/V		Bb	V		viio6/V	vii	o	6		V				o	0	0	3, 0, 6		6	3
 187	187	0	0	2/4	1	1		V7/V		Bb	V		V7/V	V		7		V				Mm7	0	0	2, 6, 3, 0		2	2
 188	188	0	0	2/4	1	1		ii.i		Bb	ii		i	i								m	0	1	0, -3, 1		0	0
 189	189	0	0	2/4	1	1		#viio2		Bb	ii		#viio2	#vii	o	2						o7	0	1	-4, 5, 2, -1		5	-4
 189	189	1/4	1/4	2/4	1	1		V7		Bb	ii		V7	V		7						Mm7	0	1	1, 5, 2, -1		1	1
 190	190	0	0	2/4	1	1		i		Bb	ii		i	i								m	0	1	0, -3, 1		0	0
-191	191	0	0	2/4	1	1		#viio7/V		Bb	ii		#viio7/V	#vii	o	7		V				o7	0	1	6, 3, 0, -3		6	6
+191	191	0	0	2/4	1	1		viio7/V		Bb	ii		viio7/V	vii	o	7		V				o7	0	1	6, 3, 0, -3		6	6
 192	192	0	0	2/4	1	1		v		Bb	ii		v	v								m	0	1	1, -2, 2		1	1
-193	193	0	0	2/4	1	1		#viio65/V		Bb	ii		#viio65/V	#vii	o	65		V				o7	0	1	3, 0, -3, 6		6	3
+193	193	0	0	2/4	1	1		viio65/V		Bb	ii		viio65/V	vii	o	65		V				o7	0	1	3, 0, -3, 6		6	3
 194	194	0	0	2/4	1	1		vi.i		Bb	vi		i	i								m	0	1	0, -3, 1		0	0
 195	195	0	0	2/4	1	1		V43		Bb	vi		V43	V		43						Mm7	0	1	2, -1, 1, 5		1	2
 195	195	1/4	1/4	2/4	1	1		#viio/iv		Bb	vi		#viio/iv	#vii	o			iv				o	0	1	4, 1, -2		4	4
@@ -311,7 +311,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	alt_label	globalkey	loca
 247	247	0	0	2/4	1	1		V7		Bb	I		V7	V		7						Mm7	0	0	1, 5, 2, -1		1	1
 248	248	0	0	2/4	1	1		I		Bb	I		I	I								M	0	0	0, 4, 1		0	0
 248	248	1/4	1/4	2/4	1	1		I]		Bb	I		I	I					]			M	0	0	0, 4, 1		0	0
-248	248	3/8	3/8	2/4	1	1		#viio/V		Bb	I		#viio/V	#vii	o			V				o	0	0	6, 3, 0		6	6
+248	248	3/8	3/8	2/4	1	1		viio/V		Bb	I		viio/V	vii	o			V				o	0	0	6, 3, 0		6	6
 249	249	0	0	2/4	1	1		V		Bb	I		V	V								M	0	0	1, 5, 2		1	1
 249	249	1/4	1/4	2/4	1	1		V7/V		Bb	I		V7/V	V		7		V				Mm7	0	0	2, 6, 3, 0		2	2
 249	249	3/8	3/8	2/4	1	1		V64		Bb	I		V64	V		64						M	0	0	2, 1, 5		1	2
@@ -383,7 +383,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	alt_label	globalkey	loca
 301	301	0	0	2/4	1	1		I		Bb	I		I	I								M	0	0	0, 4, 1		0	0
 302	302	0	0	2/4	1	1		I6		Bb	I		I6	I		6						M	0	0	4, 1, 0		0	4
 302	302	1/4	1/4	2/4	1	1		IV		Bb	I		IV	IV								M	0	0	-1, 3, 0		-1	-1
-302	302	3/8	3/8	2/4	1	1		#vii%/V		Bb	I		#vii%/V	#vii	%			V				%7	0	0				
+302	302	3/8	3/8	2/4	1	1		vii%/V		Bb	I		vii%/V	vii	%			V				%7	0	0				
 303	303	0	0	2/4	1	1		V7		Bb	I		V7	V		7						Mm7	0	0	1, 5, 2, -1		1	1
 304	304	0	0	2/4	1	1		I		Bb	I		I	I								M	0	0	0, 4, 1		0	0
 305	305	0	0	2/4	1	1		V		Bb	I		V	V								M	0	0	1, 5, 2		1	1
@@ -403,10 +403,10 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	alt_label	globalkey	loca
 317	317	1/8	1/8	2/4	1	1		V65/V		Bb	I		V65/V	V		65		V				Mm7	0	0	6, 3, 0, 2		2	6
 317	317	1/4	1/4	2/4	1	1		V(64)		Bb	I		V(64)	V			64					M	0	0	1, 0, 4		1	1
 317	317	3/8	3/8	2/4	1	1		V7		Bb	I		V7	V		7						Mm7	0	0	1, 5, 2, -1		1	1
-318	318	0	0	2/4	1	1		#viio65/V		Bb	I		#viio65/V	#vii	o	65		V				o7	0	0	3, 0, -3, 6		6	3
+318	318	0	0	2/4	1	1		viio65/V		Bb	I		viio65/V	vii	o	65		V				o7	0	0	3, 0, -3, 6		6	3
 318	318	3/8	3/8	2/4	1	1		i64		Bb	I		i64	i		64						m	0	0	1, 0, -3		0	1
-319	319	0	0	2/4	1	1		#viio65/V		Bb	I		#viio65/V	#vii	o	65		V				o7	0	0	3, 0, -3, 6		6	3
-320	320	0	0	2/4	1	1		#viio7/V		Bb	I		#viio7/V	#vii	o	7		V				o7	0	0	6, 3, 0, -3		6	6
+319	319	0	0	2/4	1	1		viio65/V		Bb	I		viio65/V	vii	o	65		V				o7	0	0	3, 0, -3, 6		6	3
+320	320	0	0	2/4	1	1		viio7/V		Bb	I		viio7/V	vii	o	7		V				o7	0	0	6, 3, 0, -3		6	6
 322	322	0	0	2/4	1	1		viio43		Bb	I		viio43	vii	o	43						o7	0	0	-1, -4, 5, 2		5	-1
 324	324	0	0	2/4	1	1		V[I		Bb	I	V	I	I								M	0	0	0, 4, 1		0	0
 325	325	0	0	2/4	1	1		I		Bb	I		I	I								M	0	0	0, 4, 1		0	0
@@ -523,10 +523,10 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	alt_label	globalkey	loca
 424	424	0	0	2/4	1	1		V7		Bb	I		V7	V		7						Mm7	0	0	1, 5, 2, -1		1	1
 426	426	0	0	2/4	1	1		I		Bb	I		I	I								M	0	0	0, 4, 1		0	0
 427	427	0	0	2/4	1	1		#viio7/ii		Bb	I		#viio7/ii	#vii	o	7		ii				o7	0	0	7, 4, 1, -2		7	7
-428	428	0	0	2/4	1	1		#viio7/V		Bb	I		#viio7/V	#vii	o	7		V				o7	0	0	6, 3, 0, -3		6	6
+428	428	0	0	2/4	1	1		viio7/V		Bb	I		viio7/V	vii	o	7		V				o7	0	0	6, 3, 0, -3		6	6
 430	430	0	0	2/4	1	1		viio7		Bb	I		viio7	vii	o	7						o7	0	0	5, 2, -1, -4		5	5
 432	432	0	0	2/4	1	1		#viio7/ii		Bb	I		#viio7/ii	#vii	o	7		ii				o7	0	0	7, 4, 1, -2		7	7
-433	433	0	0	2/4	1	1		#viio7/V		Bb	I		#viio7/V	#vii	o	7		V				o7	0	0	6, 3, 0, -3		6	6
+433	433	0	0	2/4	1	1		viio7/V		Bb	I		viio7/V	vii	o	7		V				o7	0	0	6, 3, 0, -3		6	6
 434	434	0	0	2/4	1	1		viio7		Bb	I		viio7	vii	o	7						o7	0	0	5, 2, -1, -4		5	5
 435	435	0	0	2/4	1	1		#viio7/ii		Bb	I		#viio7/ii	#vii	o	7		ii				o7	0	0	7, 4, 1, -2		7	7
 436	436	0	0	2/4	1	1		IV]		Bb	I		IV	IV					]			M	0	0	-1, 3, 0		-1	-1
