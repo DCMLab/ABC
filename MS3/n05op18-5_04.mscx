@@ -245,6 +245,7 @@
         <trackName>MusicXML Default 1</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -267,6 +268,7 @@
         <trackName>MusicXML Default 2</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -285,6 +287,7 @@
         <trackName>MusicXML Default 3</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -303,6 +306,7 @@
         <trackName>MusicXML Default 4</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -6355,7 +6359,7 @@
               </Volta>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>2</measures>
                 </location>
               </next>
             </Spanner>
@@ -6381,13 +6385,6 @@
       <Measure len="5/8">
         <endRepeat>2</endRepeat>
         <voice>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
@@ -6435,6 +6432,7 @@
           </voice>
         </Measure>
       <Measure>
+        <noOffset>-2</noOffset>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
@@ -6446,15 +6444,11 @@
             <offset x="0" y="-3.52439"/>
             </Harmony>
           <Spanner type="Volta">
-            <Volta>
-              <beginText>2</beginText>
-              <endings>2</endings>
-              </Volta>
-            <next>
+            <prev>
               <location>
-                <measures>1</measures>
+                <measures>-2</measures>
                 </location>
-              </next>
+              </prev>
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
@@ -6468,6 +6462,17 @@
             <next>
               <location>
                 <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="Volta">
+            <Volta>
+              <beginText>2.</beginText>
+              <endings>2</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>2</measures>
                 </location>
               </next>
             </Spanner>
@@ -6496,13 +6501,6 @@
             <name>V65</name>
             <offset x="1.59852" y="-3.43558"/>
             </Harmony>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -6579,6 +6577,13 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="HairPin">
             <prev>
               <location>
