@@ -1051,6 +1051,9 @@
         </Measure>
       <Measure len="2/4">
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>I\\</name>
@@ -1075,9 +1078,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
+        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>I</name>
@@ -1388,7 +1389,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V9/IV</name>
+            <name>V7(+9)/IV</name>
             <offset x="0" y="-3.26047"/>
             </Harmony>
           <Dynamic>
@@ -7188,11 +7189,6 @@
             <Volta>
               <endHookType>1</endHookType>
               <beginText>1.</beginText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-13.6009"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               <endings>1</endings>
               </Volta>
             <next>
@@ -7231,13 +7227,9 @@
             </Spanner>
           <Spanner type="Volta">
             <Volta>
+              <endHookType>1</endHookType>
               <beginText>2.</beginText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-5.29854"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <endings>1</endings>
+              <endings>2</endings>
               </Volta>
             <next>
               <location>
