@@ -238,6 +238,7 @@
       <Staff id="1">
         <StaffType group="pitched">
           </StaffType>
+        <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Violin 1</trackName>
       <Instrument id="violin">
@@ -245,6 +246,7 @@
         <trackName>MusicXML Default 1</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -260,6 +262,7 @@
       <Staff id="2">
         <StaffType group="pitched">
           </StaffType>
+        <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Violin 2</trackName>
       <Instrument id="violin">
@@ -267,6 +270,7 @@
         <trackName>MusicXML Default 2</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -278,6 +282,7 @@
         <StaffType group="pitched">
           </StaffType>
         <defaultClef>C3</defaultClef>
+        <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Viola</trackName>
       <Instrument id="viola">
@@ -285,6 +290,7 @@
         <trackName>MusicXML Default 3</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -303,6 +309,7 @@
         <trackName>MusicXML Default 4</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -325,6 +332,7 @@
           </Text>
         </VBox>
       <Measure len="1/4">
+        <irregular>1</irregular>
         <voice>
           <KeySig>
             <accidental>3</accidental>
@@ -4033,6 +4041,7 @@
           </voice>
         </Measure>
       <Measure len="2/4">
+        <irregular>1</irregular>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -4074,9 +4083,11 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <BarLine>
             <subtype>start-repeat</subtype>
+            <span>0</span>
             </BarLine>
           <StaffText>
             <offset x="-5.41465" y="-6.12197"/>
@@ -4468,6 +4479,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -5250,6 +5262,7 @@
           </voice>
         </Measure>
       <Measure len="2/4">
+        <endRepeat>2</endRepeat>
         <LayoutBreak>
           <subtype>page</subtype>
           </LayoutBreak>
@@ -8186,6 +8199,7 @@
         <voice>
           <BarLine>
             <subtype>start-repeat</subtype>
+            <span>0</span>
             </BarLine>
           <Spanner type="Volta">
             <prev>
@@ -11758,6 +11772,7 @@
         <voice>
           <BarLine>
             <subtype>start-repeat</subtype>
+            <span>0</span>
             </BarLine>
           <Spanner type="Volta">
             <prev>
