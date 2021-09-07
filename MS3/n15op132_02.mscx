@@ -7914,6 +7914,7 @@
           </voice>
         </Measure>
       <Measure>
+        <noOffset>-5</noOffset>
         <voice>
           <Harmony>
             <name>I.V</name>
@@ -7921,13 +7922,12 @@
             </Harmony>
           <Spanner type="Volta">
             <Volta>
-              <endHookType>1</endHookType>
               <beginText>2.</beginText>
               <endings>2</endings>
               </Volta>
             <next>
               <location>
-                <measures>2</measures>
+                <measures>5</measures>
                 </location>
               </next>
             </Spanner>
@@ -8117,13 +8117,6 @@
           <Harmony>
             <name>#vo6</name>
             </Harmony>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -8316,6 +8309,13 @@
             <velocity>33</velocity>
             <offset x="0.320416" y="1.9864"/>
             </Dynamic>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-5</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
