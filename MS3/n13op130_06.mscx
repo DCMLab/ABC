@@ -247,6 +247,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -273,6 +274,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -294,6 +296,7 @@
         <trackName>Viola</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -314,6 +317,7 @@
         <trackName>Cello</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -2538,6 +2542,7 @@ Op. 130  6th Movement
           </voice>
         </Measure>
       <Measure>
+        <noOffset>-2</noOffset>
         <voice>
           <Dynamic>
             <subtype>sf</subtype>
@@ -2557,18 +2562,12 @@ Op. 130  6th Movement
             </Spanner>
           <Spanner type="Volta">
             <Volta>
-              <endHookType>1</endHookType>
               <beginText>2.</beginText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1.59463"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <endings>1</endings>
+              <endings>2</endings>
               </Volta>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>2</measures>
                 </location>
               </next>
             </Spanner>
@@ -2648,13 +2647,6 @@ Op. 130  6th Movement
           <Harmony>
             <name>V</name>
             </Harmony>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <durationType>measure</durationType>
             <duration>1/2</duration>
@@ -2666,6 +2658,13 @@ Op. 130  6th Movement
           <Harmony>
             <name>I</name>
             </Harmony>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>measure</durationType>
             <duration>1/2</duration>
@@ -4517,9 +4516,6 @@ Op. 130  6th Movement
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>f</subtype>
@@ -6520,9 +6516,6 @@ Op. 130  6th Movement
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Harmony>
             <name>I</name>
@@ -6623,12 +6616,7 @@ Op. 130  6th Movement
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
-              <beginText>1</beginText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-3.73773"/>
-                <off2 x="0" y="0"/>
-                </Segment>
+              <beginText>1.</beginText>
               <endings>1</endings>
               </Volta>
             <next>
@@ -6743,15 +6731,25 @@ Op. 130  6th Movement
           </voice>
         </Measure>
       <Measure>
-        <endRepeat>2</endRepeat>
+        <Jump>
+          <style>Repeat Text Right</style>
+          <text>D.C.</text>
+          <jumpTo>start</jumpTo>
+          <playUntil>end</playUntil>
+          <continueAt></continueAt>
+          </Jump>
         <voice>
           <Rest>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <noOffset>-3</noOffset>
         <voice>
           <Harmony>
             <name>I\\</name>
@@ -6772,16 +6770,11 @@ Op. 130  6th Movement
           <Spanner type="Volta">
             <Volta>
               <beginText>2.</beginText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-3.74737"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <endings>1</endings>
+              <endings>2</endings>
               </Volta>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>3</measures>
                 </location>
               </next>
             </Spanner>
@@ -6869,13 +6862,6 @@ Op. 130  6th Movement
           <Harmony>
             <name>I</name>
             </Harmony>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -7017,10 +7003,25 @@ Op. 130  6th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-3</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -7075,9 +7076,6 @@ Op. 130  6th Movement
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <StaffText>
             <placement>below</placement>
@@ -7544,9 +7542,6 @@ Op. 130  6th Movement
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
           <Harmony>
             <name>IV6</name>
@@ -8035,11 +8030,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.05288"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -8146,10 +8136,6 @@ Op. 130  6th Movement
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o4 x="-0.0964749" y="1.64007"/>
-                  <offset x="0" y="-1.83302"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -15781,11 +15767,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.74982"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -16841,11 +16822,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-3.07389" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -17079,11 +17055,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.0046"/>
-                <off2 x="-6.397" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -17169,11 +17140,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.83844"/>
-                <off2 x="-6.72932" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -36347,6 +36313,9 @@ Op. 130  6th Movement
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -36821,11 +36790,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.85543"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -37259,9 +37223,6 @@ Op. 130  6th Movement
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-2.3154" y="-3.4731"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -38155,11 +38116,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.62245"/>
-                <off2 x="-8.39332" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -38495,11 +38451,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.46475"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -38587,11 +38538,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.81557"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -44225,11 +44171,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.33078"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -44592,11 +44533,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.86184"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -44637,11 +44573,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.91858"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -45169,11 +45100,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.33078"/>
-                <off2 x="-3.32312" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -49961,11 +49887,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.9954"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -50940,11 +50861,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.82618"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -51273,11 +51189,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.41079"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -54584,11 +54495,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.00153"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -55050,11 +54956,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.58001"/>
-                <off2 x="-2.82465" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -55199,11 +55100,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-2.99081" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -62387,6 +62283,9 @@ Op. 130  6th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -69054,11 +68953,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-7.47702" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -70219,11 +70113,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.57553"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -71151,11 +71040,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.2477"/>
-                <off2 x="-2.6585" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -71548,11 +71432,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.42305"/>
-                <off2 x="-4.81852" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -76649,11 +76528,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.74617"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -80308,11 +80182,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.83538"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -80721,11 +80590,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-4.07082" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -80873,11 +80737,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-3.15696" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -87309,6 +87168,9 @@ Op. 130  6th Movement
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -88944,11 +88806,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.6577"/>
-                <off2 x="-8.87569" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -93791,11 +93648,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.78393"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -94139,11 +93991,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-9.47614" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -94503,11 +94350,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-2.40926" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -94679,11 +94521,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="4.65237" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -94897,11 +94734,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -98863,11 +98695,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.07848"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -102770,11 +102597,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.58308"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -103183,11 +103005,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-1.99387" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -103332,11 +103149,6 @@ Op. 130  6th Movement
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-2.49234" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
