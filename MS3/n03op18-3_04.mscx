@@ -245,6 +245,7 @@
         <trackName>MusicXML Default 1</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -268,6 +269,7 @@
         <trackName>MusicXML Default 2</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -286,6 +288,7 @@
         <trackName>MusicXML Default 3</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="7" value="96"/>
           <controller ctrl="10" value="63"/>
@@ -305,6 +308,7 @@
         <trackName>MusicXML Default 4</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -327,6 +331,7 @@
           </Text>
         </VBox>
       <Measure len="2/8">
+        <irregular>1</irregular>
         <voice>
           <KeySig>
             <accidental>2</accidental>
@@ -8826,6 +8831,7 @@
           </voice>
         </Measure>
       <Measure>
+        <noOffset>-7</noOffset>
         <voice>
           <Dynamic>
             <subtype>f</subtype>
@@ -8847,15 +8853,20 @@
             <Volta>
               <beginText>2</beginText>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="-3.46245"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               <endings>2</endings>
               </Volta>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>7</measures>
                 </location>
               </next>
             </Spanner>
@@ -8920,13 +8931,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -9173,6 +9177,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-7</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
