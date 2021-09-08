@@ -246,6 +246,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -271,6 +272,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -291,6 +293,7 @@
         <trackName>Viola</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -310,6 +313,7 @@
         <trackName>Cello</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -1167,7 +1171,7 @@ Op. 130 2nd Movement
               </Note>
             </Chord>
           <Harmony>
-            <name>V43</name>
+            <name>V43]</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -2368,9 +2372,6 @@ Op. 130 2nd Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V[V6</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -2400,9 +2401,6 @@ Op. 130 2nd Movement
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V6]</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -2449,10 +2447,6 @@ Op. 130 2nd Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V[V6</name>
-            <offset x="-1.3582" y="-4.52522"/>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -2482,10 +2476,6 @@ Op. 130 2nd Movement
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V6]</name>
-            <offset x="-0.565066" y="-3.39614"/>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
