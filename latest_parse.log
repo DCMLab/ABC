@@ -1,31 +1,3 @@
-ms3 extract -M -N -X -D -f MS3/n05op18-5_01.mscx 
-INFO     Parse -- parse.py (line 1662) parse_mscx():
-	All 1 files have been parsed successfully.
-INFO     Parse -- parse.py (line 1811) store_lists():
-	notes have been stored as /home/hentsche/ABC/notes/n05op18-5_01.tsv.
-	measures have been stored as /home/hentsche/ABC/measures/n05op18-5_01.tsv.
-	expanded have been stored as /home/hentsche/ABC/harmonies/n05op18-5_01.tsv.
-	
-	All 3 have been written.
-INFO     Parse -- utils.py (line 1835) write_metadata():
-	Updated /home/hentsche/ABC/metadata.tsv
-INFO     Parse -- utils.py (line 1871) write_metadata():
-	Updated /home/hentsche/ABC/README.md
-(ms3) [hentsche@DCMLPC3 ABC]$ git status
-On branch corrections_v2
-Your branch is ahead of 'origin/corrections_v2' by 12 commits.
-  (use "git push" to publish your local commits)
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	modified:   MS3/n05op18-5_01.mscx
-	modified:   latest_parse.log
-
-(ms3) [hentsche@DCMLPC3 ABC]$ ga
-(ms3) [hentsche@DCMLPC3 ABC]$ gc "corrected volta brackets"
-[corrections_v2 4eb0ff7] corrected volta brackets
- 2 files changed, 48 insertions(+), 168 deletions(-)
- rewrite latest_parse.log (100%)
 (ms3) [hentsche@DCMLPC3 ABC]$ ms3 extract -M -N -X -D --logfile /home/hentsche/ABC/latest_parse.log
 WARNING  n13op130_03:MeasureList -- bs4_measures.py (line 690) make_offset_col():
 	The incomplete MC 67 (timesig 1, act_dur 5/8) is completed by 1 incorrect duration (expected: 3/8):
