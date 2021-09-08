@@ -251,6 +251,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -277,6 +278,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -298,6 +300,7 @@
         <trackName>Viola</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -318,6 +321,7 @@
         <trackName>Cello</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -13447,7 +13451,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V7/IV</name>
+            <name>I[V7/IV</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -13510,7 +13514,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V7/IV]</name>
+            <name>V7/IV</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -13525,7 +13529,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>IV64</name>
+            <name>IV64]</name>
             <offset x="0.195123" y="-2.30488"/>
             </Harmony>
           <Chord>
@@ -66198,7 +66202,6 @@
             <durationType>whole</durationType>
             <Spanner type="Slur">
               <Slur>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -66208,6 +66211,7 @@
               </Spanner>
             <Spanner type="Slur">
               <Slur>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -66470,7 +66474,6 @@
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -66480,6 +66483,7 @@
               </Spanner>
             <Spanner type="Slur">
               <Slur>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
