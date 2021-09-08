@@ -247,6 +247,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -272,6 +273,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -292,6 +294,7 @@
         <trackName>Viola</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -311,6 +314,7 @@
         <trackName>Cello</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -2823,7 +2827,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V</name>
+            <name>V[V</name>
             <offset x="0" y="-5.53"/>
             </Harmony>
           <Beam>
@@ -2875,7 +2879,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V(64)</name>
+            <name>viio64(^2)/V</name>
             <offset x="0" y="-5.53"/>
             </Harmony>
           <Beam>
@@ -2905,6 +2909,9 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>viio64/V</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -2929,7 +2936,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V9</name>
+            <name>V7(^2)</name>
             <offset x="0" y="-5.53"/>
             </Harmony>
           <Beam>
@@ -2996,7 +3003,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V(64#7)</name>
+            <name>i64(#7)</name>
             <offset x="-0.00222488" y="-5.53"/>
             </Harmony>
           <Beam>
@@ -3027,7 +3034,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V(64)</name>
+            <name>i64</name>
             <offset x="0.0942232" y="-5.53297"/>
             </Harmony>
           <Chord>
@@ -3059,7 +3066,7 @@
             <offset x="0.0331192" y="2.29872"/>
             </Dynamic>
           <Harmony>
-            <name>V7</name>
+            <name>V7(4)]</name>
             <offset x="0" y="-4.06098"/>
             </Harmony>
           <Beam>
@@ -3133,6 +3140,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <name>V7</name>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
