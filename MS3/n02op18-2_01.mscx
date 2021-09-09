@@ -247,6 +247,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -272,6 +273,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -292,6 +294,7 @@
         <trackName>Viola</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -311,6 +314,7 @@
         <trackName>Cello</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -16236,7 +16240,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V9</name>
+            <name>V7(9)</name>
             <offset x="0" y="-3.96342"/>
             </Harmony>
           <Chord>
@@ -16593,7 +16597,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>vii%/V</name>
+            <name>vii%7/V</name>
             <offset x="-3.32487" y="-6.77823"/>
             </Harmony>
           <Chord>
@@ -16701,7 +16705,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>vii%/V</name>
+            <name>vii%7/V</name>
             <offset x="-3.66968" y="-7.17182"/>
             </Harmony>
           <Chord>
@@ -17502,12 +17506,7 @@
             </Fermata>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-3.2798" y="0"/>
-                </Segment>
+              <subtype>0</subtype>
               </HairPin>
             <next>
               <location>
@@ -17518,7 +17517,12 @@
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
+              <subtype>1</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="-3.2798" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -31566,12 +31570,7 @@
             </Fermata>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-9.49696" y="0"/>
-                </Segment>
+              <subtype>0</subtype>
               </HairPin>
             <next>
               <location>
@@ -31581,7 +31580,12 @@
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
+              <subtype>1</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="-9.49696" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -43500,12 +43504,7 @@
             </Fermata>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-9.40731" y="0"/>
-                </Segment>
+              <subtype>0</subtype>
               </HairPin>
             <next>
               <location>
@@ -43515,7 +43514,12 @@
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
+              <subtype>1</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="-9.40731" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -53383,12 +53387,7 @@
             </Fermata>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-9.04856" y="0"/>
-                </Segment>
+              <subtype>0</subtype>
               </HairPin>
             <next>
               <location>
@@ -53398,7 +53397,12 @@
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
+              <subtype>1</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="-9.04856" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
