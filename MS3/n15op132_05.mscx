@@ -190,6 +190,7 @@
         <trackName>Violin I (2)</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -214,6 +215,7 @@
         <trackName>Violin II (2)</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -235,6 +237,7 @@
         <trackName>Viola (2) (2)</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -255,6 +258,7 @@
         <trackName>Violoncello (2) (2)</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -21747,7 +21751,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>#viio43</name>
+            <name>viio43</name>
             <offset x="0" y="-4.41059"/>
             </Harmony>
           <Beam>
@@ -21938,7 +21942,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>#viio65</name>
+            <name>viio65</name>
             <offset x="0.0444096" y="-5.97313"/>
             </Harmony>
           <Beam>
@@ -22008,7 +22012,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#viio</name>
+            <name>viio</name>
             <offset x="0" y="-5.09623"/>
             </Harmony>
           <Chord>
@@ -22267,7 +22271,7 @@
             <velocity>33</velocity>
             </Dynamic>
           <Harmony>
-            <name>I</name>
+            <name>I]</name>
             <offset x="-0.185587" y="-4.35587"/>
             </Harmony>
           <Chord>
@@ -46558,11 +46562,11 @@
             </Rest>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>1</subtype>
+              <subtype>0</subtype>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="4.70752"/>
-                <off2 x="-11.578" y="0"/>
+                <offset x="0" y="4.63649"/>
+                <off2 x="-11.8621" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -46574,11 +46578,11 @@
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
+              <subtype>1</subtype>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="4.63649"/>
-                <off2 x="-11.8621" y="0"/>
+                <offset x="0" y="4.70752"/>
+                <off2 x="-11.578" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -55208,6 +55212,12 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-4.44541"/>
+                <off2 x="0" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -55218,12 +55228,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-4.44541"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
