@@ -247,6 +247,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -272,6 +273,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -293,6 +295,7 @@
         <trackName>Viola</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -313,6 +316,7 @@
         <trackName>Cello</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -2657,7 +2661,7 @@ Op.59 No.3, 2nd movement</b></text>
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>vi.V9</name>
+            <name>vi.V7(+9)</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -2687,7 +2691,7 @@ Op.59 No.3, 2nd movement</b></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>V9</name>
+            <name>V7(9)</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -2704,7 +2708,7 @@ Op.59 No.3, 2nd movement</b></text>
             <offset x="0.0368471" y="2.28537"/>
             </Dynamic>
           <Harmony>
-            <name>V9(4)</name>
+            <name>V7(94)</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -2733,7 +2737,7 @@ Op.59 No.3, 2nd movement</b></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>V9</name>
+            <name>V7(9)</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -2792,7 +2796,7 @@ Op.59 No.3, 2nd movement</b></text>
             <offset x="0.207055" y="2.43926"/>
             </Dynamic>
           <Harmony>
-            <name>V9(4)</name>
+            <name>V7(94)</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -2824,7 +2828,7 @@ Op.59 No.3, 2nd movement</b></text>
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V9</name>
+            <name>V7(9)</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -2852,6 +2856,9 @@ Op.59 No.3, 2nd movement</b></text>
               <tpc>9</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -2880,7 +2887,7 @@ Op.59 No.3, 2nd movement</b></text>
             <offset x="-0.109495" y="2.83171"/>
             </Dynamic>
           <Harmony>
-            <name>V9(4)</name>
+            <name>V7(94)</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -2907,6 +2914,9 @@ Op.59 No.3, 2nd movement</b></text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -2937,7 +2947,7 @@ Op.59 No.3, 2nd movement</b></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>V</name>
+            <name>V7</name>
             <offset x="0" y="-3.4"/>
             </Harmony>
           <Chord>
@@ -2975,10 +2985,6 @@ Op.59 No.3, 2nd movement</b></text>
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V7</name>
-            <offset x="0.146342" y="-4.11653"/>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
