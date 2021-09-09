@@ -113,7 +113,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	globalkey	localkey	pedal
 53	53	0	0	3/4	1	1		viio6	a	VII		viio6		vii	o	6					o	1	0	2, -1, 5		5	2
 54	54	0	0	3/4	1	1		I	a	VII		I		I							M	1	0	0, 4, 1		0	0
 55	55	0	0	3/4	1	1		V6	a	VII		V6		V		6					M	1	0	5, 2, 1		1	5
-55	55	5/8	5/8	3/4	1	1		#viio64/IV	a	VII		#viio64/IV		#vii	o	64		IV			o	1	0	-2, 4, 1		4	-2
+55	55	5/8	5/8	3/4	1	1		viio64/IV	a	VII		viio64/IV		vii	o	64		IV			o	1	0	-2, 4, 1		4	-2
 56	56	0	0	3/4	1	1		IV6	a	VII		IV6		IV		6					M	1	0	3, 0, -1		-1	3
 56	56	1/4	1/4	3/4	1	1		vii%2	a	VII		vii%2		vii	%	2					%7	1	0	3, 5, 2, -1		5	3
 56	56	1/2	1/2	3/4	1	1		V43	a	VII		V43		V		43					Mm7	1	0	2, -1, 1, 5		1	2
@@ -408,10 +408,10 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	globalkey	localkey	pedal
 207	207	1/2	1/2	3/4	1	1		iv	a	i		iv		iv							m	1	1	-1, -4, 0		-1	-1
 208	208	0	0	3/4	1	1		v	a	i		v		v							m	1	1	1, -2, 2		1	1
 208	208	1/4	1/4	3/4	1	1		@none	a	i		@none		@none							m	1	1				
-208	208	1/2	1/2	3/4	1	1		III(4)	a	i		III(4)		III			4				M	1	1	-3, -4, -2		-3	-3
-209	209	0	0	3/4	1	1		III	a	i		III		III							M	1	1	-3, 1, -2		-3	-3
-209	209	1/4	1/4	3/4	1	1		#ivo2(3)	a	i		#ivo2(3)		#iv	o	2	3				o7	1	1	-3, 6, 3, 0		6	-3
-209	209	1/2	1/2	3/4	1	1		III64	a	i		III64		III		64					M	1	1	-2, -3, 1		-3	-2
+208	208	1/2	1/2	3/4	1	1		III(+11)	a	i		III(+11)		III			+11				M	1	1	-3, 1, -2	-4	-3	-3
+209	209	0	0	3/4	1	1		III6	a	i		III6		III		6					M	1	1	1, -2, -3		-3	1
+209	209	1/4	1/4	3/4	1	1		III6(6#4)	a	i		III6(6#4)		III		6	6#4				M	1	1	1, 3, 0, -3		-3	1
+209	209	1/2	1/2	3/4	1	1		III6	a	i		III6		III		6					M	1	1	1, -2, -3		-3	1
 210	210	0	0	3/4	1	1		VII43	a	i		VII43		VII		43					Mm7	1	1	-1, -4, -2, 2		-2	-1
 211	211	0	0	3/4	1	1		i6	a	i		i6		i		6					m	1	1	-3, 1, 0		0	-3
 212	212	0	0	3/4	1	1		VII64	a	i		VII64		VII		64					M	1	1	-1, -2, 2		-2	-1
@@ -452,7 +452,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	globalkey	localkey	pedal
 239	239	0	0	3/4	1	1		.bII	a	i		bII		bII							M	1	1	-5, -1, -4		-5	-5
 239	239	1/2	1/2	3/4	1	1		VI64	a	i		VI64		VI		64					M	1	1	-3, -4, 0		-4	-3
 240	240	0	0	3/4	1	1		III7	a	i		III7		III		7					Mm7	1	1	-3, 1, -2, -5		-3	-3
-241	241	0	0	3/4	1	1		VI64(75)	a	i		VI64(75)		VI		64	75				M	1	1	-3, 1, 0		-4	-3
+241	241	0	0	3/4	1	1		VI64(42)	a	i		VI64(42)		VI		64	42				M	1	1	-3, -2, 2		-4	-3
 241	241	1/4	1/4	3/4	1	1		VI64	a	i		VI64		VI		64					M	1	1	-3, -4, 0		-4	-3
 242	242	0	0	3/4	1	1		III7(7642)	a	i		III7(7642)		III		7	7642				Mm7	1	1	-1, -4, 0, -5		-3	-1
 243	243	0	0	3/4	1	1		VI64(753)	a	i		VI64(753)		VI		64	753				M	1	1	-3, 1, 0		-4	-3
