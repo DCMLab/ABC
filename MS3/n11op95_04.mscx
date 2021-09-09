@@ -247,6 +247,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -273,6 +274,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="107"/>
           <controller ctrl="10" value="63"/>
@@ -294,6 +296,7 @@
         <trackName>Viola</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="7" value="109"/>
           <controller ctrl="10" value="63"/>
@@ -314,6 +317,7 @@
         <trackName>Cello</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="7" value="109"/>
           <controller ctrl="10" value="63"/>
@@ -7770,7 +7774,7 @@ Op. 95  3rd  Movevment</text>
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>i</name>
+            <name>i]</name>
             <offset x="0.146342" y="-5.2805"/>
             </Harmony>
           <Spanner type="HairPin">
@@ -7821,10 +7825,6 @@ Op. 95  3rd  Movevment</text>
             <offset x="-0.355226" y="3.96168"/>
             <text><i>cresc.</i></text>
             </StaffText>
-          <Harmony>
-            <name>i[i</name>
-            <offset x="0.634149" y="-5.38734"/>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -25785,11 +25785,11 @@ Op. 95  3rd  Movevment</text>
         <voice>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>1</subtype>
+              <subtype>0</subtype>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="2.63744"/>
-                <off2 x="-39.2464" y="0"/>
+                <off2 x="-39.8009" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -25800,11 +25800,11 @@ Op. 95  3rd  Movevment</text>
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
+              <subtype>1</subtype>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="2.63744"/>
-                <off2 x="-39.8009" y="0"/>
+                <off2 x="-39.2464" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -34937,7 +34937,6 @@ Op. 95  3rd  Movevment</text>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -34948,6 +34947,7 @@ Op. 95  3rd  Movevment</text>
               </Spanner>
             <Spanner type="Slur">
               <Slur>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
