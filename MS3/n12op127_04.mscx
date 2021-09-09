@@ -190,6 +190,7 @@
         <trackName>Violin I (2)</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -215,6 +216,7 @@
         <trackName>Violin II (2)</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -236,6 +238,7 @@
         <trackName>Viola (2) (2)</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -256,6 +259,7 @@
         <trackName>Violoncello (2) (2)</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -15194,7 +15198,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>iii[vi64</name>
+            <name>vi64</name>
             <offset x="-1.47457" y="-5.53012"/>
             </Harmony>
           <Chord>
@@ -15207,7 +15211,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>viio</name>
+            <name>iv64(42)</name>
             <offset x="0.435194" y="-6.36835"/>
             </Harmony>
           <Chord>
@@ -15220,7 +15224,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>ii[I6</name>
+            <name>ii(7^2)</name>
             <offset x="-0.761589" y="-6.72967"/>
             </Harmony>
           <Chord>
@@ -15233,7 +15237,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>ii6]</name>
+            <name>ii6</name>
             <offset x="-0.362662" y="-7.34349"/>
             </Harmony>
           <Chord>
@@ -15248,9 +15252,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
@@ -17864,7 +17865,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>I</name>
+            <name>I-IV/V</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -17887,7 +17888,7 @@
             <velocity>96</velocity>
             </Dynamic>
           <Harmony>
-            <name>V64</name>
+            <name>V(64)/V</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -17907,7 +17908,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V2/V</name>
+            <name>V7/V</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -17923,7 +17924,7 @@
             <velocity>96</velocity>
             </Dynamic>
           <Harmony>
-            <name>V[V64</name>
+            <name>V</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -17943,7 +17944,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>viio2/V]</name>
+            <name>viio2(+2)/V</name>
             <offset x="-0.103638" y="-2.43541"/>
             </Harmony>
           <Chord>
@@ -84773,8 +84774,8 @@
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <Dynamic>
