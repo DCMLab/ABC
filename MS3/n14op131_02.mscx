@@ -251,6 +251,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -277,6 +278,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -298,6 +300,7 @@
         <trackName>Viola</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -318,6 +321,7 @@
         <trackName>Cello</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -5456,10 +5460,10 @@
         <voice>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
+              <subtype>1</subtype>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="1.56426"/>
+                <offset x="0" y="1.60634"/>
                 <off2 x="-8.795" y="0"/>
                 </Segment>
               </HairPin>
@@ -5471,10 +5475,10 @@
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>1</subtype>
+              <subtype>0</subtype>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="1.60634"/>
+                <offset x="0" y="1.56426"/>
                 <off2 x="-8.795" y="0"/>
                 </Segment>
               </HairPin>
@@ -10628,7 +10632,7 @@
             <fractions>-3/8</fractions>
             </location>
           <Harmony>
-            <name>vi6(42)</name>
+            <name>vi6(42)]</name>
             <offset x="0" y="-4.48451"/>
             </Harmony>
           </voice>
