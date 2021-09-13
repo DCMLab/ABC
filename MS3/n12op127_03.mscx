@@ -191,6 +191,7 @@
         <trackName>Violin I (2)</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -215,6 +216,7 @@
         <trackName>Violin II (2)</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -235,6 +237,7 @@
         <trackName>Viola (2) (2)</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -255,6 +258,7 @@
         <trackName>Violoncello (2) (2)</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -386,7 +390,32 @@
         <startRepeat/>
         <voice>
           <Harmony>
-            <name>@none</name>
+            <name>I6/V</name>
+            </Harmony>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <name>I64/V</name>
+            </Harmony>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Harmony>
+            <name>V6/V</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -400,27 +429,14 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
           <location>
-            <fractions>-1/4</fractions>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <name>I6/V-IV6/ii</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
             </location>
           <Harmony>
             <name>#viio/ii</name>
@@ -470,13 +486,6 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <name>@none</name>
-            <offset x="-1.65049" y="-2.6875"/>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -509,13 +518,6 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <name>@none</name>
-            <offset x="-2.61116" y="-2.5"/>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -546,13 +548,6 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <name>@none</name>
-            <offset x="-2.29686" y="-2.5"/>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -12796,9 +12791,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>@none</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -15016,13 +15008,6 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <name>@none</name>
-            <offset x="-1.81331" y="-2.37911"/>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -16232,7 +16217,12 @@
         <voice>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
+              <subtype>1</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="-9.05773" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -16242,12 +16232,7 @@
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-9.05773" y="0"/>
-                </Segment>
+              <subtype>0</subtype>
               </HairPin>
             <next>
               <location>
@@ -33977,21 +33962,6 @@
         <voice>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.7987"/>
-                <off2 x="4.99048" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
               <subtype>1</subtype>
               <Segment>
                 <subtype>0</subtype>
@@ -34002,6 +33972,21 @@
             <next>
               <location>
                 <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="1.7987"/>
+                <off2 x="4.99048" y="0"/>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
                 </location>
               </next>
             </Spanner>
