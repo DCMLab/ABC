@@ -1791,7 +1791,7 @@
             <offset x="0.329531" y="3.2171"/>
             </Dynamic>
           <Harmony>
-            <name>i</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -2291,7 +2291,7 @@
             <text>decresc</text>
             </StaffText>
           <Harmony>
-            <name>.II6</name>
+            <name>.bII6</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -2378,7 +2378,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>i64</name>
+            <name>V(64)-i64</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -2426,14 +2426,11 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>ii.#vii</name>
+            <name>ii.vii7/V</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <name>#vo7</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -2448,13 +2445,13 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>ii64(2)</name>
+            <name>i64(2)</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
           <Harmony>
-            <name>ii64</name>
+            <name>i64</name>
             <offset x="0" y="-3.0601"/>
             </Harmony>
           <Chord>
@@ -2471,15 +2468,16 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>.bIV7(2)</name>
-            <offset x="0" y="-4.01228"/>
+            <name>.bV7(2)/V</name>
+            <minDistance>0.411193</minDistance>
+            <offset x="-4.35152" y="-4.20437"/>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
           <Harmony>
-            <name>.bVI7</name>
-            <offset x="0.765238" y="-4.94876"/>
+            <name>.bV7/V</name>
+            <offset x="0.765238" y="-4.23831"/>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -2496,7 +2494,8 @@
         <voice>
           <Harmony>
             <name>i.#viio7</name>
-            <offset x="-3.36705" y="-6.69814"/>
+            <minDistance>-0.361627</minDistance>
+            <offset x="1.3397" y="-5.48927"/>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
