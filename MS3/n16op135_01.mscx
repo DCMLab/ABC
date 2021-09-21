@@ -247,6 +247,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -273,6 +274,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -294,6 +296,7 @@
         <trackName>Viola</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -314,6 +317,7 @@
         <trackName>Cello</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -359,8 +363,7 @@ Op.135  1st Movement</text>
             <sigD>4</sigD>
             </TimeSig>
           <Harmony>
-            <root>13</root>
-            <name>.iv6</name>
+            <name>.F.iv6</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -41877,7 +41880,12 @@ Op.135  1st Movement</text>
         <voice>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
+              <subtype>1</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="-6.85857" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -41887,12 +41895,7 @@ Op.135  1st Movement</text>
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-6.85857" y="0"/>
-                </Segment>
+              <subtype>0</subtype>
               </HairPin>
             <next>
               <location>
@@ -44575,11 +44578,11 @@ Op.135  1st Movement</text>
             </StaffText>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
+              <subtype>1</subtype>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-8.12591" y="0"/>
+                <offset x="0" y="3.57455"/>
+                <off2 x="-7.90226" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -44590,11 +44593,11 @@ Op.135  1st Movement</text>
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>1</subtype>
+              <subtype>0</subtype>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="3.57455"/>
-                <off2 x="-7.90226" y="0"/>
+                <offset x="0" y="3.5"/>
+                <off2 x="-8.12591" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -53614,7 +53617,12 @@ Op.135  1st Movement</text>
             </Clef>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
+              <subtype>1</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="-6.85857" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -53624,12 +53632,7 @@ Op.135  1st Movement</text>
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-6.85857" y="0"/>
-                </Segment>
+              <subtype>0</subtype>
               </HairPin>
             <next>
               <location>
