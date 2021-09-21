@@ -246,6 +246,7 @@
         <trackName>MusicXML Default 1</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -268,6 +269,7 @@
         <trackName>MusicXML Default 2</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -287,6 +289,7 @@
         <trackName>MusicXML Default 3</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -306,6 +309,7 @@
         <trackName>MusicXML Default 4</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -3526,7 +3530,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>viio6/iv</name>
+            <name>#viio6/iv</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>

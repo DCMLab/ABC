@@ -247,6 +247,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="21"/>
           <controller ctrl="7" value="101"/>
@@ -273,6 +274,7 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="21"/>
           <controller ctrl="7" value="101"/>
@@ -294,6 +296,7 @@
         <trackName>Viola</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="21"/>
           <controller ctrl="7" value="101"/>
@@ -314,6 +317,7 @@
         <trackName>Cello</trackName>
         <instrumentId>keyboard.accordion</instrumentId>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="21"/>
           <controller ctrl="7" value="101"/>
@@ -17979,7 +17983,7 @@ Op.59 No.3, 4th movement</b></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>i.viio6/iv</name>
+            <name>i.#viio6/iv</name>
             </Harmony>
           <Rest>
             <durationType>half</durationType>
