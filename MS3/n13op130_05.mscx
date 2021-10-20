@@ -601,7 +601,7 @@ Op. 130 5th Movement
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>#vii%7/V</name>
+            <name>vii%7/V</name>
             <offset x="-5.32537" y="-2.51764"/>
             </Harmony>
           <Rest>
@@ -2065,7 +2065,7 @@ Op. 130 5th Movement
             <durationType>half</durationType>
             </Rest>
           <Harmony>
-            <name>#viio6/V</name>
+            <name>viio6/V</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -2649,7 +2649,7 @@ Op. 130 5th Movement
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>#viio/V</name>
+            <name>viio/V</name>
             <offset x="0" y="-1.43314"/>
             </Harmony>
           <Spanner type="HairPin">
@@ -4523,12 +4523,7 @@ Op. 130 5th Movement
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-4.27329" y="0"/>
-                </Segment>
+              <subtype>0</subtype>
               </HairPin>
             <next>
               <location>
@@ -4539,7 +4534,12 @@ Op. 130 5th Movement
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
+              <subtype>1</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="-4.27329" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -4721,7 +4721,7 @@ Op. 130 5th Movement
             <durationType>quarter</durationType>
             </Rest>
           <Harmony>
-            <name>#vii%7/V</name>
+            <name>vii%7/V</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
