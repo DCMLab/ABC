@@ -32,7 +32,7 @@ quarterbeats	duration_qb	mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	harmo
 66	1.0	24	22	1/2	1/2	3/4	4	1		1	V7	dcml	c	bII	I	V7		V		7					Mm7	1	0	1, 5, 2, -1		1	1
 67	2.0	25	23	0	0	3/4	4	1		1	I	dcml	c	bII	I	I		I							M	1	0	0, 4, 1		0	0
 69	1.0	25	23	1/2	1/2	3/4	4	1		1	V7]	dcml	c	bII	I	V7		V		7					Mm7	1	0	1, 5, 2, -1		1	1
-70	1.0	26	24	0	0	3/4	4	1		1	iv.bVI	dcml	c	iv		bVI		bVI							M	1	1	-11, -7, -10		-11	-11
+70	1.0	26	24	0	0	3/4	4	1		1	iv.VI	dcml	c	iv		VI		VI							M	1	1	-4, 0, -3		-4	-4
 71	1.0	26	24	1/4	1/4	3/4	4	1		1	i64	dcml	c	iv		i64		i		64					m	1	1	1, 0, -3		0	1
 72	1.0	26	24	1/2	1/2	3/4	4	1		1	viio/V	dcml	c	iv		viio/V		vii	o			V			o	1	1	6, 3, 0		6	6
 73	2.0	27	25	0	0	3/4	4	1		1	V(94)	dcml	c	iv		V(94)		V			94				M	1	1	1, 0, 2	-4	1	1
@@ -42,7 +42,7 @@ quarterbeats	duration_qb	mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	harmo
 78	1.0	28	26	1/2	1/2	3/4	4	1		1	viio7/V	dcml	c	i		viio7/V		vii	o	7		V			o7	1	1	6, 3, 0, -3		6	6
 79	1.0	29	27	0	0	3/4	4	1		1	V(4)	dcml	c	i		V(4)		V			4				M	1	1	1, 0, 2		1	1
 80	1.0	29	27	1/4	1/4	3/4	4	1		1	V[V	dcml	c	i	V	V		V							M	1	1	1, 5, 2		1	1
-81	1.0	29	27	1/2	1/2	3/4	4	1		1	viio43	dcml	c	i	V	viio43		vii	o	43					o7	1	1	-8, -11, -2, -5		-2	-8
+81	1.0	29	27	1/2	1/2	3/4	4	1		1	#viio43	dcml	c	i	V	#viio43		#vii	o	43					o7	1	1	-1, -4, 5, 2		5	-1
 82	1.0	30	28	0	0	3/4	4	1		1	i6(6)	dcml	c	i	V	i6(6)		i		6	6				m	1	1	-3, -4, 0		0	-3
 83	1.0	30	28	1/4	1/4	3/4	4	1		1	i6	dcml	c	i	V	i6		i		6					m	1	1	-3, 1, 0		0	-3
 84	1.0	30	28	1/2	1/2	3/4	4	1		1	viio43/V	dcml	c	i	V	viio43/V		vii	o	43		V			o7	1	1	0, -3, 6, 3		6	0
@@ -69,7 +69,7 @@ quarterbeats	duration_qb	mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	harmo
 108	1.0	38	36	1/2	1/2	3/4	4	1		1	iv.#viio7	dcml	c	iv		#viio7		#vii	o	7					o7	1	1	5, 2, -1, -4		5	5
 109	1.0	39	37	0	0	3/4	4	1		1	V65	dcml	c	iv		V65		V		65					Mm7	1	1	5, 2, -1, 1		1	5
 110	1.0	39	37	1/4	1/4	3/4	4	1		1	I	dcml	c	iv		I		I							M	1	1	0, 4, 1		0	0
-111	1.0	39	37	1/2	1/2	3/4	4	1		1	bVI	dcml	c	iv		bVI		bVI							M	1	1	-11, -7, -10		-11	-11
+111	1.0	39	37	1/2	1/2	3/4	4	1		1	VI	dcml	c	iv		VI		VI							M	1	1	-4, 0, -3		-4	-4
 112	1.0	40	38	0	0	3/4	4	1		1	viio7/V	dcml	c	iv		viio7/V		vii	o	7		V			o7	1	1	6, 3, 0, -3		6	6
 113	1.0	40	38	1/4	1/4	3/4	4	1		1	V	dcml	c	iv		V		V							M	1	1	1, 5, 2		1	1
 114	1.0	40	38	1/2	1/2	3/4	4	1		1	i.Ger6	dcml	c	i		Ger6	Ger	vii	o	65	b3	V			Ger	1	1	-4, 0, -3, 6		6	-4
@@ -106,41 +106,41 @@ quarterbeats	duration_qb	mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	harmo
 170	4.0	60	57	1/4	1/4	3/4	4	1		1	V7	dcml	c	VI		V7		V		7					Mm7	1	0	1, 5, 2, -1		1	1
 174	1.0	61	58	1/2	1/2	3/4	4	1		1	viio	dcml	c	VI		viio		vii	o						o	1	0	5, 2, -1		5	5
 175	6.0	62	59	0	0	3/4	4	1		1	I	dcml	c	VI		I		I							M	1	0	0, 4, 1		0	0
-181	3.0	64	61	0	0	3/4	4	1		1	V.viio6	dcml	c	V		viio6		vii	o	6					o	1	0	2, -1, 5		5	2
-184	3.0	65	62	0	0	3/4	4	1		1	V2	dcml	c	V		V2		V		2					Mm7	1	0	-1, 1, 5, 2		1	-1
-187	6.0	66	63	0	0	3/4	4	1		1	V65	dcml	c	V		V65		V		65					Mm7	1	0	5, 2, -1, 1		1	5
-193	5.0	68	65	0	0	3/4	4	1		1	V6	dcml	c	V		V6		V		6					M	1	0	5, 2, 1		1	5
-198	1.0	69	66	1/2	1/2	3/4	4	1		1	V2	dcml	c	V		V2		V		2					Mm7	1	0	-1, 1, 5, 2		1	-1
-199	3.0	70	67	0	0	3/4	4	1		1	I6	dcml	c	V		I6		I		6					M	1	0	4, 1, 0		0	4
-202	2.0	71	68	0	0	3/4	4	1		1	IV	dcml	c	V		IV		IV							M	1	0	-1, 3, 0		-1	-1
-204	1.0	71	68	1/2	1/2	3/4	4	1		1	ii6	dcml	c	V		ii6		ii		6					m	1	0	-1, 3, 2		2	-1
-205	2.0	72	69	0	0	3/4	4	1		1	V(64)	dcml	c	V		V(64)		V			64				M	1	0	1, 0, 4		1	1
-207	0.5	72	69	1/2	1/2	3/4	4	1		1	V7(6)	dcml	c	V		V7(6)		V		7	6				Mm7	1	0	1, 5, 4, -1		1	1
-415/2	0.5	72	69	5/8	5/8	3/4	4	1		1	V7	dcml	c	V		V7		V		7					Mm7	1	0	1, 5, 2, -1		1	1
-208	3.0	73	70	0	0	3/4	4	1		1	I\\	dcml	c	V		I		I						\\	M	1	0	0, 4, 1		0	0
-211	7.0	74	71	0	0	3/4	4	1		1	I	dcml	c	V		I		I							M	1	0	0, 4, 1		0	0
-218	4.0	76	73	1/4	1/4	3/4	4	1		1	I64	dcml	c	V		I64		I		64					M	1	0	1, 0, 4		0	1
-222	1.0	77	74	1/2	1/2	3/4	4	1		1	V	dcml	c	V		V		V							M	1	0	1, 5, 2		1	1
-223	6.0	78	75	0	0	3/4	4	1		1	V65	dcml	c	V		V65		V		65					Mm7	1	0	5, 2, -1, 1		1	5
-229	1.0	80	77	0	0	3/4	4	1		1	V65	dcml	c	V		V65		V		65					Mm7	1	0	5, 2, -1, 1		1	5
-230	4.0	80	77	1/4	1/4	3/4	4	1		1	V7	dcml	c	V		V7		V		7					Mm7	1	0	1, 5, 2, -1		1	1
-234	1.0	81	78	1/2	1/2	3/4	4	1		1	V65	dcml	c	V		V65		V		65					Mm7	1	0	5, 2, -1, 1		1	5
-235	6.0	82	79	0	0	3/4	4	1		1	I.V2	dcml	c	I		V2		V		2					Mm7	1	0	-1, 1, 5, 2		1	-1
-241	6.0	84	81	0	0	3/4	4	1		1	I6	dcml	c	I		I6		I		6					M	1	0	4, 1, 0		0	4
-247	17.0	86	83	0	0	3/4	4	1		1	V65	dcml	c	I		V65		V		65					Mm7	1	0	5, 2, -1, 1		1	5
-264	0.5	91	88	1/2	1/2	3/4	4	1		1	V2(4)	dcml	c	I		V2(4)		V		2	4				Mm7	1	0	-1, 1, 0, 2		1	-1
-529/2	0.5	91	88	5/8	5/8	3/4	4	1		1	V2	dcml	c	I		V2		V		2					Mm7	1	0	-1, 1, 5, 2		1	-1
-265	3.0	92	89	0	0	3/4	4	1		1	I6	dcml	c	I		I6		I		6					M	1	0	4, 1, 0		0	4
-268	2.0	93	90	0	0	3/4	4	1		1	IV	dcml	c	I		IV		IV							M	1	0	-1, 3, 0		-1	-1
-270	1.0	93	90	1/2	1/2	3/4	4	1		1	ii6	dcml	c	I		ii6		ii		6					m	1	0	-1, 3, 2		2	-1
-271	2.0	94	91	0	0	3/4	4	1		1	V(64)	dcml	c	I		V(64)		V			64				M	1	0	1, 0, 4		1	1
-273	0.5	94	91	1/2	1/2	3/4	4	1		1	V7(6)	dcml	c	I		V7(6)		V		7	6				Mm7	1	0	1, 5, 4, -1		1	1
-547/2	0.5	94	91	5/8	5/8	3/4	4	1		1	V7	dcml	c	I		V7		V		7					Mm7	1	0	1, 5, 2, -1		1	1
-274	3.0	95	92	0	0	3/4	4	1		1	I\\	dcml	c	I		I		I						\\	M	1	0	0, 4, 1		0	0
-277	2.0	96	93	0	0	3/4	4	1		1	iii.III64	dcml	c	iii		III64		III		64					M	1	1	-2, -3, 1		-3	-2
-279	0.5	96	93	1/2	1/2	3/4	4	1		1	#viio7(6)/iv	dcml	c	iii		#viio7(6)/iv		#vii	o	7	6	iv			o7	1	1	4, 1, 0, -5		4	4
-559/2	0.5	96	93	5/8	5/8	3/4	4	1		1	#viio7/iv	dcml	c	iii		#viio7/iv		#vii	o	7		iv			o7	1	1	4, 1, -2, -5		4	4
-280	3.0	97	94	0	0	3/4	4	1		1	iv	dcml	c	iii		iv		iv							m	1	1	-1, -4, 0		-1	-1
-283	3.0	98	95	0	0	3/4	4	1		1	iio6	dcml	c	iii		iio6		ii	o	6					o	1	1	-1, -4, 2		2	-1
-286	3.0	99	96	0	0	3/4	4	1		1	viio7/V	dcml	c	iii		viio7/V		vii	o	7		V			o7	1	1	6, 3, 0, -3		6	6
-289	5.0	100	97	0	0	3/4	4	1		1	V\\	dcml	c	iii		V		V						\\	M	1	1	1, 5, 2		1	1
+181	3.0	64	61	0	0	3/4	4	1		1	III.viio6	dcml	c	III		viio6		vii	o	6					o	1	0	2, -1, 5		5	2
+184	3.0	65	62	0	0	3/4	4	1		1	V2	dcml	c	III		V2		V		2					Mm7	1	0	-1, 1, 5, 2		1	-1
+187	6.0	66	63	0	0	3/4	4	1		1	V65	dcml	c	III		V65		V		65					Mm7	1	0	5, 2, -1, 1		1	5
+193	5.0	68	65	0	0	3/4	4	1		1	V6	dcml	c	III		V6		V		6					M	1	0	5, 2, 1		1	5
+198	1.0	69	66	1/2	1/2	3/4	4	1		1	V2	dcml	c	III		V2		V		2					Mm7	1	0	-1, 1, 5, 2		1	-1
+199	3.0	70	67	0	0	3/4	4	1		1	I6	dcml	c	III		I6		I		6					M	1	0	4, 1, 0		0	4
+202	2.0	71	68	0	0	3/4	4	1		1	IV	dcml	c	III		IV		IV							M	1	0	-1, 3, 0		-1	-1
+204	1.0	71	68	1/2	1/2	3/4	4	1		1	ii6	dcml	c	III		ii6		ii		6					m	1	0	-1, 3, 2		2	-1
+205	2.0	72	69	0	0	3/4	4	1		1	V(64)	dcml	c	III		V(64)		V			64				M	1	0	1, 0, 4		1	1
+207	0.5	72	69	1/2	1/2	3/4	4	1		1	V7(6)	dcml	c	III		V7(6)		V		7	6				Mm7	1	0	1, 5, 4, -1		1	1
+415/2	0.5	72	69	5/8	5/8	3/4	4	1		1	V7	dcml	c	III		V7		V		7					Mm7	1	0	1, 5, 2, -1		1	1
+208	3.0	73	70	0	0	3/4	4	1		1	I\\	dcml	c	III		I		I						\\	M	1	0	0, 4, 1		0	0
+211	7.0	74	71	0	0	3/4	4	1		1	I	dcml	c	III		I		I							M	1	0	0, 4, 1		0	0
+218	4.0	76	73	1/4	1/4	3/4	4	1		1	I64	dcml	c	III		I64		I		64					M	1	0	1, 0, 4		0	1
+222	1.0	77	74	1/2	1/2	3/4	4	1		1	I	dcml	c	III		I		I							M	1	0	0, 4, 1		0	0
+223	6.0	78	75	0	0	3/4	4	1		1	V65	dcml	c	III		V65		V		65					Mm7	1	0	5, 2, -1, 1		1	5
+229	1.0	80	77	0	0	3/4	4	1		1	V65	dcml	c	III		V65		V		65					Mm7	1	0	5, 2, -1, 1		1	5
+230	4.0	80	77	1/4	1/4	3/4	4	1		1	V7	dcml	c	III		V7		V		7					Mm7	1	0	1, 5, 2, -1		1	1
+234	1.0	81	78	1/2	1/2	3/4	4	1		1	V65	dcml	c	III		V65		V		65					Mm7	1	0	5, 2, -1, 1		1	5
+235	6.0	82	79	0	0	3/4	4	1		1	VI.V2	dcml	c	VI		V2		V		2					Mm7	1	0	-1, 1, 5, 2		1	-1
+241	6.0	84	81	0	0	3/4	4	1		1	I6	dcml	c	VI		I6		I		6					M	1	0	4, 1, 0		0	4
+247	17.0	86	83	0	0	3/4	4	1		1	V65	dcml	c	VI		V65		V		65					Mm7	1	0	5, 2, -1, 1		1	5
+264	0.5	91	88	1/2	1/2	3/4	4	1		1	V2(4)	dcml	c	VI		V2(4)		V		2	4				Mm7	1	0	-1, 1, 0, 2		1	-1
+529/2	0.5	91	88	5/8	5/8	3/4	4	1		1	V2	dcml	c	VI		V2		V		2					Mm7	1	0	-1, 1, 5, 2		1	-1
+265	3.0	92	89	0	0	3/4	4	1		1	I6	dcml	c	VI		I6		I		6					M	1	0	4, 1, 0		0	4
+268	2.0	93	90	0	0	3/4	4	1		1	IV	dcml	c	VI		IV		IV							M	1	0	-1, 3, 0		-1	-1
+270	1.0	93	90	1/2	1/2	3/4	4	1		1	ii6	dcml	c	VI		ii6		ii		6					m	1	0	-1, 3, 2		2	-1
+271	2.0	94	91	0	0	3/4	4	1		1	V(64)	dcml	c	VI		V(64)		V			64				M	1	0	1, 0, 4		1	1
+273	0.5	94	91	1/2	1/2	3/4	4	1		1	V7(6)	dcml	c	VI		V7(6)		V		7	6				Mm7	1	0	1, 5, 4, -1		1	1
+547/2	0.5	94	91	5/8	5/8	3/4	4	1		1	V7	dcml	c	VI		V7		V		7					Mm7	1	0	1, 5, 2, -1		1	1
+274	3.0	95	92	0	0	3/4	4	1		1	I\\	dcml	c	VI		I		I						\\	M	1	0	0, 4, 1		0	0
+277	2.0	96	93	0	0	3/4	4	1		1	V(64)	dcml	c	VI		V(64)		V			64				M	1	0	1, 0, 4		1	1
+279	0.5	96	93	1/2	1/2	3/4	4	1		1	#viio7(6)/vi	dcml	c	VI		#viio7(6)/vi		#vii	o	7	6	vi			o7	1	0	8, 5, 4, -1		8	8
+559/2	0.5	96	93	5/8	5/8	3/4	4	1		1	#viio7/vi	dcml	c	VI		#viio7/vi		#vii	o	7		vi			o7	1	0	8, 5, 2, -1		8	8
+280	3.0	97	94	0	0	3/4	4	1		1	vi	dcml	c	VI		vi		vi							m	1	0	3, 0, 4		3	3
+283	3.0	98	95	0	0	3/4	4	1		1	i.iio6	dcml	c	i		iio6		ii	o	6					o	1	1	-1, -4, 2		2	-1
+286	3.0	99	96	0	0	3/4	4	1		1	viio7/V	dcml	c	i		viio7/V		vii	o	7		V			o7	1	1	6, 3, 0, -3		6	6
+289	5.0	100	97	0	0	3/4	4	1		1	V\\	dcml	c	i		V		V						\\	M	1	1	1, 5, 2		1	1
