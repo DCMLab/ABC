@@ -1,0 +1,337 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw#",
+    {
+      "@language": "en "
+    }
+  ],
+  "dc:title": "Measure tables for ABC",
+  "dialect": {
+    "delimiter": "\t"
+  },
+  "dc:description": "One feature matrix per score, containing one line per stack of <Measure> tags in the score's XML tree. They are counted in the column 'mc' starting from 1, whereas the conventional measure numbers are shown in the column 'mn'. One MN is frequently composed in two (or more) MCs. Furthermore, these tables include special bar lines, repeat signs, first and second endings, irregular measure lengths, as well as the column 'next' which contains follow-up MCs for unfolding a score's repeat structure. For more information, please refer to the docs at https://johentsch.github.io/ms3/columns",
+  "dc:created": "2022-12-13T16:38:55",
+  "dc:creator": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "SoftwareApplication",
+      "@id": "https://github.com/johentsch/ms3",
+      "name": "ms3",
+      "description": "A parser for MuseScore 3 files.",
+      "author": {
+        "name": "Johannes Hentschel",
+        "@id": "https://orcid.org/0000-0002-1986-9545"
+      },
+      "softwareVersion": "1.0.2"
+    }
+  ],
+  "tables": [
+    {
+      "url": "n01op18-1_01.tsv"
+    },
+    {
+      "url": "n01op18-1_02.tsv"
+    },
+    {
+      "url": "n01op18-1_03.tsv"
+    },
+    {
+      "url": "n01op18-1_04.tsv"
+    },
+    {
+      "url": "n02op18-2_01.tsv"
+    },
+    {
+      "url": "n02op18-2_02.tsv"
+    },
+    {
+      "url": "n02op18-2_03.tsv"
+    },
+    {
+      "url": "n02op18-2_04.tsv"
+    },
+    {
+      "url": "n03op18-3_01.tsv"
+    },
+    {
+      "url": "n03op18-3_02.tsv"
+    },
+    {
+      "url": "n03op18-3_03.tsv"
+    },
+    {
+      "url": "n03op18-3_04.tsv"
+    },
+    {
+      "url": "n04op18-4_01.tsv"
+    },
+    {
+      "url": "n04op18-4_02.tsv"
+    },
+    {
+      "url": "n04op18-4_03.tsv"
+    },
+    {
+      "url": "n04op18-4_04.tsv"
+    },
+    {
+      "url": "n05op18-5_01.tsv"
+    },
+    {
+      "url": "n05op18-5_02.tsv"
+    },
+    {
+      "url": "n05op18-5_03.tsv"
+    },
+    {
+      "url": "n05op18-5_04.tsv"
+    },
+    {
+      "url": "n06op18-6_01.tsv"
+    },
+    {
+      "url": "n06op18-6_02.tsv"
+    },
+    {
+      "url": "n06op18-6_03.tsv"
+    },
+    {
+      "url": "n06op18-6_04.tsv"
+    },
+    {
+      "url": "n07op59-1_01.tsv"
+    },
+    {
+      "url": "n07op59-1_02.tsv"
+    },
+    {
+      "url": "n07op59-1_03.tsv"
+    },
+    {
+      "url": "n07op59-1_04.tsv"
+    },
+    {
+      "url": "n08op59-2_01.tsv"
+    },
+    {
+      "url": "n08op59-2_02.tsv"
+    },
+    {
+      "url": "n08op59-2_03.tsv"
+    },
+    {
+      "url": "n08op59-2_04.tsv"
+    },
+    {
+      "url": "n09op59-3_01.tsv"
+    },
+    {
+      "url": "n09op59-3_02.tsv"
+    },
+    {
+      "url": "n09op59-3_03.tsv"
+    },
+    {
+      "url": "n09op59-3_04.tsv"
+    },
+    {
+      "url": "n10op74_01.tsv"
+    },
+    {
+      "url": "n10op74_02.tsv"
+    },
+    {
+      "url": "n10op74_03.tsv"
+    },
+    {
+      "url": "n10op74_04.tsv"
+    },
+    {
+      "url": "n11op95_01.tsv"
+    },
+    {
+      "url": "n11op95_02.tsv"
+    },
+    {
+      "url": "n11op95_03.tsv"
+    },
+    {
+      "url": "n11op95_04.tsv"
+    },
+    {
+      "url": "n12op127_01.tsv"
+    },
+    {
+      "url": "n12op127_02.tsv"
+    },
+    {
+      "url": "n12op127_03.tsv"
+    },
+    {
+      "url": "n12op127_04.tsv"
+    },
+    {
+      "url": "n13op130_01.tsv"
+    },
+    {
+      "url": "n13op130_02.tsv"
+    },
+    {
+      "url": "n13op130_03.tsv"
+    },
+    {
+      "url": "n13op130_04.tsv"
+    },
+    {
+      "url": "n13op130_05.tsv"
+    },
+    {
+      "url": "n13op130_06.tsv"
+    },
+    {
+      "url": "n14op131_01.tsv"
+    },
+    {
+      "url": "n14op131_02.tsv"
+    },
+    {
+      "url": "n14op131_03.tsv"
+    },
+    {
+      "url": "n14op131_04.tsv"
+    },
+    {
+      "url": "n14op131_05.tsv"
+    },
+    {
+      "url": "n14op131_06.tsv"
+    },
+    {
+      "url": "n14op131_07.tsv"
+    },
+    {
+      "url": "n15op132_01.tsv"
+    },
+    {
+      "url": "n15op132_02.tsv"
+    },
+    {
+      "url": "n15op132_03.tsv"
+    },
+    {
+      "url": "n15op132_04.tsv"
+    },
+    {
+      "url": "n15op132_05.tsv"
+    },
+    {
+      "url": "n16op135_01.tsv"
+    },
+    {
+      "url": "n16op135_02.tsv"
+    },
+    {
+      "url": "n16op135_03.tsv"
+    },
+    {
+      "url": "n16op135_04.tsv"
+    }
+  ],
+  "tableSchema": {
+    "columns": [
+      {
+        "titles": "mc",
+        "datatype": "integer",
+        "dc:description": "Measure count."
+      },
+      {
+        "titles": "mn",
+        "datatype": "string",
+        "dc:description": "Measure number."
+      },
+      {
+        "titles": "quarterbeats",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "quarterbeats_all_endings",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "duration_qb",
+        "datatype": "float"
+      },
+      {
+        "titles": "keysig",
+        "datatype": "integer"
+      },
+      {
+        "titles": "timesig",
+        "datatype": "string"
+      },
+      {
+        "titles": "act_dur",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "mc_offset",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "volta",
+        "datatype": "integer"
+      },
+      {
+        "titles": "numbering_offset",
+        "datatype": "integer"
+      },
+      {
+        "titles": "dont_count",
+        "datatype": "integer"
+      },
+      {
+        "titles": "barline",
+        "datatype": "string"
+      },
+      {
+        "titles": "breaks",
+        "datatype": "string"
+      },
+      {
+        "titles": "repeats",
+        "datatype": "string"
+      },
+      {
+        "titles": "markers"
+      },
+      {
+        "titles": "jump_bwd"
+      },
+      {
+        "titles": "jump_fwd"
+      },
+      {
+        "titles": "play_until"
+      },
+      {
+        "titles": "next",
+        "datatype": {
+          "base": "string",
+          "format": "\\(-?\\d+, ?-?\\d+\\)"
+        }
+      }
+    ]
+  }
+}
