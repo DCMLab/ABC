@@ -1,0 +1,70 @@
+name: Push to annotation branch
+
+on:
+  push:
+    branches-ignore:
+      - main
+  pull_request:
+
+
+jobs:
+  ms3_review:
+    if: >
+     github.event.head_commit.message == 'trigger_workflow'
+     || github.event.pull_request.title == 'PR to check for errors'
+     || (github.event.pusher.name != 'ms3_bot' &&  github.event.pusher.name != 'github-actions[bot]')
+    runs-on: ubuntu-latest
+    steps:
+
+
+      - name: Checkout corpus repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
+          token: ${{ secrets.MS3_BOT_TOKEN }}
+          path: ${{ github.event.repository.name }}
+      # - name: Show workspace variables
+      #   run: |
+      #     echo 'github.workspace === ${{ github.workspace }}'
+      #     ls ${{ github.workspace }}
+      #     echo "GITHUB_WORKSPACE === $GITHUB_WORKSPACE"
+      #     ls $GITHUB_WORKSPACE
+      #     echo 'runner.workspace === ${{ runner.workspace }}'
+      #     ls ${{ runner.workspace }}
+      #     echo "RUNNER_WORKSPACE === $RUNNER_WORKSPACE"
+      #     ls $RUNNER_WORKSPACE
+
+      - name: Pull Request open or not?
+        id: checkpull
+        working-directory: ${{ github.event.repository.name }}
+        continue-on-error: true
+        run: |
+           gh pr view --json state -q .[]
+           echo ::set-output name=res::$(echo $(gh pr view --json state -q .[]))
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Run 'ms3 review' via dcml_corpus_workflow action
+        uses: DCMLab/dcml_corpus_workflow@v2.5.4 # Uses an action in the root directory
+        id: act_docker
+        # working-directory: ${{ github.repository.name }}
+        # needs to become a parameter/env variable
+        with:
+          ms3-command: ${{ github.event_name }}
+        env:
+          Token: "${{ secrets.MS3_BOT_TOKEN }}"
+          IsThereAPullRequestOpened: "${{ steps.checkpull.outputs.res }}"
+          commitFrom: "${{ github.event.before }}"
+          commitTo: "${{ github.event.pull_request.head.sha }}"
+          comment_msg: "${{ github.event.head_commit.message }}"
+          pr_title: "${{ github.event.pull_request.title }}"
+          directory: "${{ github.workspace }}"
+          working_dir: ${{ github.event.repository.name }}
+      - name: Cancel the run if skipped
+        working-directory: ${{ github.event.repository.name }}
+        if: (steps.act_docker.outputs.skipped == 'true')
+        run: |
+           gh run cancel ${{ github.run_id }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
