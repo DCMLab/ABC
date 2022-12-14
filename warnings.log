@@ -19,6 +19,8 @@ DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.ABC.n13op130_06 -- 
 	11   324     V  259        ]
 	12   419     V  327        ]
 	13  <NA>   NaN  436        ]
+DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 20, 'V(6b5)') ms3.Parse.ABC.n14op131_07 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4123) features2tpcs():
+	MC 20: V(6b5) results in a chord tone 5 AND its replacement(s) [-3].
 Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
                                 mc   mn mc_onset      label          chord_tones added_tones  n_colored  n_untouched  count_ratio
 ABC MS3/n01op18-1_02.mscx 101   41   41      3/4          I           (-1, 3, 0)          ()        5.0          1.0     0.833333
@@ -142,6 +144,13 @@ ABC MS3/n01op18-1_02.mscx 101   41   41      3/4          I           (-1, 3, 0)
                           189  143  138        0          I          (-4, 0, -3)          ()        7.0          4.0     0.636364
                           281  215  210        0      @none                 <NA>        <NA>       16.0          0.0     1.000000
                           283  217  212        0      @none                 <NA>        <NA>      176.0          0.0     1.000000
+    MS3/n14op131_07.mscx  20    23   22        0     i6(#5)           (4, 15, 7)          ()        4.0          1.0     0.800000
+                          30    27   26        0     i6(#5)           (4, 15, 7)          ()        4.0          1.0     0.800000
+                          37    29   28        0        V\\           (8, 12, 9)          ()       10.0          0.0     1.000000
+                          42    33   32        0        V43        (9, 6, 8, 12)          ()        4.0          2.0     0.666667
+                          126   97   96      1/2  vii.viio7       (3, 0, -3, -6)          ()       13.0          0.0     1.000000
+                          237  184  183        0    iv.V(2)           (2, 11, 8)          ()        7.0          4.0     0.636364
+                          240  186  185        0     i6(#5)           (3, 14, 6)          ()        3.0          1.0     0.750000
     MS3/n15op132_01.mscx  52    27   27        0      i6(4)            (2, 4, 3)          ()        2.0          1.0     0.666667
                           53    27   27      1/4         i6            (0, 4, 3)          ()        3.0          1.0     0.750000
                           200   89   89      1/4          I            (0, 4, 1)          ()        3.0          1.0     0.750000
