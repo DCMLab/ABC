@@ -214,7 +214,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.80798</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -252,6 +251,8 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -278,6 +279,8 @@
         <trackName>Violin</trackName>
         <instrumentId>strings.violin</instrumentId>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="40"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -299,6 +302,8 @@
         <trackName>Viola</trackName>
         <instrumentId>strings.viola</instrumentId>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="41"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -319,7 +324,15 @@
         <trackName>Cello</trackName>
         <instrumentId>strings.cello</instrumentId>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="42"/>
+          <controller ctrl="7" value="101"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -3283,14 +3296,14 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>IV.V/ii</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V65/ii</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -3315,7 +3328,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>ii</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -3328,7 +3341,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII.ii65</name>
+            <name>ii65</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
