@@ -152,7 +152,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.35048</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -265,6 +264,13 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="42"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -53033,14 +53039,14 @@
               <tpc>9</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii64</name>
-            </Harmony>
           <Clef>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii64</name>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -53120,15 +53126,15 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii6</name>
             <offset x="0.130612" y="-3.5449"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -53804,14 +53810,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
           <Clef>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
@@ -54050,15 +54056,15 @@
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6</name>
             <offset x="-0.83224" y="-6.0121"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -56426,14 +56432,14 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
@@ -56891,14 +56897,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I[I</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I[I</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>whole</durationType>
@@ -58887,15 +58893,15 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
             <offset x="0.178852" y="-2.76828"/>
             </Harmony>
-          <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
-            </Clef>
           <StaffText>
             <placement>below</placement>
             <family>FreeSerif</family>
@@ -60468,15 +60474,15 @@
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
             <offset x="0" y="-3.29844"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
@@ -63494,7 +63500,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio43/ii</name>
+            <name>#viio43/vi</name>
             <offset x="-2.7345" y="-2.85667"/>
             </Harmony>
           <Chord>
@@ -63534,7 +63540,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii6</name>
+            <name>vi6</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -63594,7 +63600,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii</name>
+            <name>vi</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -63633,7 +63639,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio7/ii</name>
+            <name>#viio7/vi</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
