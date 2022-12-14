@@ -210,7 +210,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.80798</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -323,6 +322,14 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="42"/>
+          <controller ctrl="7" value="101"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -836,11 +843,6 @@ Op.135  4th Movement</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-14.09" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3859,9 +3861,6 @@ Op.135  4th Movement</text>
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>0</fractions>
-            </location>
           <BarLine>
             <subtype>double</subtype>
             <span>1</span>
@@ -6608,11 +6607,6 @@ Op.135  4th Movement</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.80569"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -6662,11 +6656,6 @@ Op.135  4th Movement</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.80569"/>
-                <off2 x="-9.96254" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -6850,9 +6839,6 @@ Op.135  4th Movement</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>0</fractions>
-            </location>
           <BarLine>
             <subtype>double</subtype>
             <span>1</span>
@@ -9069,9 +9055,6 @@ Op.135  4th Movement</text>
           <Rest>
             <durationType>half</durationType>
             </Rest>
-          <location>
-            <fractions>0</fractions>
-            </location>
           <BarLine>
             <subtype>double</subtype>
             <span>1</span>
@@ -10607,11 +10590,6 @@ Op.135  4th Movement</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="0.96531"/>
-                <off2 x="-2.01284" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -10622,11 +10600,6 @@ Op.135  4th Movement</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.11441"/>
-                <off2 x="-1.93829" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -12100,11 +12073,6 @@ Op.135  4th Movement</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-13.8916" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -17493,11 +17461,6 @@ Op.135  4th Movement</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.2801"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -17548,11 +17511,6 @@ Op.135  4th Movement</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.14455"/>
-                <off2 x="-9.827" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -21674,11 +21632,6 @@ Op.135  4th Movement</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.48716"/>
-                <off2 x="-2.23649" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -21689,11 +21642,6 @@ Op.135  4th Movement</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.56171"/>
-                <off2 x="-2.01284" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -23155,11 +23103,6 @@ Op.135  4th Movement</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-13.2962" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -28632,11 +28575,6 @@ Op.135  4th Movement</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.94123"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -28681,11 +28619,6 @@ Op.135  4th Movement</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.80569"/>
-                <off2 x="-9.69145" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -32459,11 +32392,6 @@ parte al suo piacere.</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.41261"/>
-                <off2 x="-2.16194" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -32474,11 +32402,6 @@ parte al suo piacere.</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.33806"/>
-                <off2 x="-1.93829" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -33784,11 +33707,6 @@ parte al suo piacere.</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-12.8993" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -34255,14 +34173,14 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I[I6</name>
-            </Harmony>
           <Clef>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I[I6</name>
+            </Harmony>
           <StaffText>
             <text><font size="12"></font><b><i>p</i></b></text>
             </StaffText>
@@ -34623,15 +34541,15 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
             <offset x="-0.10535" y="-5.42684"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
@@ -34791,15 +34709,15 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV64</name>
             <offset x="-0.292684" y="-6.25413"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
@@ -34960,15 +34878,15 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
             <offset x="0" y="-3.08537"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -37192,15 +37110,15 @@ parte al suo piacere.</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>vi</name>
             <offset x="0.197348" y="-0.526521"/>
             </Harmony>
-          <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
-            </Clef>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -37334,15 +37252,15 @@ parte al suo piacere.</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV</name>
             <offset x="0" y="-4.21182"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -37793,7 +37711,7 @@ parte al suo piacere.</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi.#viio</name>
+            <name>#vi.#viio</name>
             <offset x="-1.97348" y="-3.49281"/>
             </Harmony>
           <Rest>
@@ -38264,7 +38182,7 @@ parte al suo piacere.</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI.I</name>
+            <name>#VI.I</name>
             </Harmony>
           <Rest>
             <durationType>half</durationType>
@@ -38328,15 +38246,15 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
             <offset x="0" y="-1.41459"/>
             </Harmony>
-          <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
-            </Clef>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
@@ -38460,14 +38378,14 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I\\</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            </Harmony>
           <StaffText>
             <placement>below</placement>
             <offset x="-0.690718" y="0.11989"/>
@@ -38588,14 +38506,14 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2</name>
-            </Harmony>
           <Clef>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -39130,14 +39048,14 @@ parte al suo piacere.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -42686,7 +42604,7 @@ parte al suo piacere.</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI.I[I</name>
+            <name>#VI.I[I</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -43613,14 +43531,14 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I]</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I]</name>
+            </Harmony>
           <StaffText>
             <text><font size="12"></font><b><i>p</i></b></text>
             </StaffText>
@@ -43907,14 +43825,14 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <StaffText>
             <text><font size="10"></font><i>cresc.</i></text>
             </StaffText>
@@ -44960,15 +44878,15 @@ parte al suo piacere.</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>bVII</name>
             <offset x="0" y="-3.58541"/>
             </Harmony>
-          <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
-            </Clef>
           <StaffText>
             <placement>below</placement>
             <offset x="0.789392" y="0.97197"/>
@@ -45036,11 +44954,6 @@ parte al suo piacere.</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.71081"/>
-                <off2 x="-2.01284" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -45051,11 +44964,6 @@ parte al suo piacere.</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.78536"/>
-                <off2 x="-1.93829" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -45685,15 +45593,15 @@ parte al suo piacere.</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V[I64</name>
             <offset x="0.0986739" y="-4.72434"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <StaffText>
             <offset x="-0.00986735" y="-4.88144"/>
             <text><font size="8.5"></font>arco</text>
