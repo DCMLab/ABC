@@ -1,9 +1,0 @@
-2020-11-02 16:43:12 WARNING  n03op18-3_04:MeasureList -- bs4_measures.py (line 731) treat_group():
-	Volta group of MC 115 contains voltas with different lengths: [7, 1] Check for correct computation of MNs.
-2020-11-02 16:43:12 WARNING  n03op18-3_04:MeasureList -- bs4_measures.py (line 186) check_measure_numbers():
-	MC 122, the 1st measure of a 2nd volta, should have MN 115, not MN 122.
-2020-11-02 16:43:12 WARNING  n03op18-3_04:MeasureList -- bs4_measures.py (line 197) check_measure_numbers():
-	MC 1 seems to be offset from the MN's beginning but has not been excluded from barcount. Context:
-	   mc  mn act_dur mc_offset  dont_count  numbering_offset
-	0   1   1     1/4       1/2        <NA>              <NA>
-	1   2   2     3/4         0        <NA>              <NA>
