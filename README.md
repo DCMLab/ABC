@@ -23,6 +23,8 @@ Using a modified Roman Numeral notation (the [DCML harmony annotation standard](
 the dataset includes the common music-theoretical set of harmonic features such as key, chordal root, 
 chord inversion, chord extensions, suspensions, and others.
 
+**A full diff of all changes applied with version 2.0 can be seen [here](https://github.com/DCMLab/ABC/commit/8bd699a9b5b00dba3214c6626575f8368279b965).** 
+
 ## Publications
 
 * The accompanying Data Report has been published in [Neuwirth, M., Harasim, D., Moss, F. & Rohrmeier M. (2018)](https://www.frontiersin.org/articles/10.3389/fdigh.2018.00016/full).
@@ -60,6 +62,8 @@ which calls the command `ms3 review -M -N -X -D` on every change.
 Information on what the columns in the TSV files contain can be found in the [documentation for ms3](https://johentsch.github.io/ms3/columns).
 
 ### Changes to the data
+
+**A full diff of all changes applied with version 2.0 can be seen [here](https://github.com/DCMLab/ABC/commit/8bd699a9b5b00dba3214c6626575f8368279b965).**
 
 * The scores have been aligned by [tunescribers.com](https://tunescribers.com/) with the Henle and Breitkopf editions
   provided in the `pdf` folder and indicated in its README.
