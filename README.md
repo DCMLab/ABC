@@ -56,7 +56,7 @@ The original XML file for Op. 132 No. 15, mov. 5 from Project Gutenberg did not 
 |n06op18-6_01|     264|   374|1.0.0   |Markus Neuwirth|          |
 |n06op18-6_02|      79|   265|1.0.0   |Markus Neuwirth|          |
 |n06op18-6_03|      68|   168|1.0.0   |Markus Neuwirth|          |
-|n06op18-6_04|     296|   465|1.0.0   |Markus Neuwirth|          |
+|n06op18-6_04|     296|   464|1.0.0   |Markus Neuwirth|          |
 |n07op59-1_01|     400|   482|1.0.0   |Markus Neuwirth|          |
 |n07op59-1_02|     476|   635|1.0.0   |Markus Neuwirth|          |
 |n07op59-1_03|     132|   374|1.0.0   |Markus Neuwirth|          |
@@ -82,11 +82,11 @@ The original XML file for Op. 132 No. 15, mov. 5 from Project Gutenberg did not 
 |n12op127_03 |     289|   428|1.0.0   |Markus Neuwirth|          |
 |n12op127_04 |     299|   689|1.0.0   |Markus Neuwirth|          |
 |n13op130_01 |     236|   723|1.0.0   |Markus Neuwirth|          |
-|n13op130_02 |     107|   182|1.0.0   |Markus Neuwirth|          |
+|n13op130_02 |     107|   181|1.0.0   |Markus Neuwirth|          |
 |n13op130_03 |      89|   450|1.0.0   |Markus Neuwirth|          |
 |n13op130_04 |     150|   295|1.0.0   |Markus Neuwirth|          |
 |n13op130_05 |      66|   189|1.0.0   |Markus Neuwirth|          |
-|n13op130_06 |     493|   631|1.0.0   |Markus Neuwirth|          |
+|n13op130_06 |     493|   626|1.0.0   |Markus Neuwirth|          |
 |n14op131_01 |     120|   334|1.0.0   |Markus Neuwirth|          |
 |n14op131_02 |     197|   354|1.0.0   |Markus Neuwirth|          |
 |n14op131_03 |      10|    30|1.0.0   |Markus Neuwirth|          |
@@ -100,6 +100,9 @@ The original XML file for Op. 132 No. 15, mov. 5 from Project Gutenberg did not 
 |n15op132_04 |      46|   113|1.0.0   |Markus Neuwirth|          |
 |n15op132_05 |     404|   732|1.0.0   |Markus Neuwirth|JH (1.0.0)|
 |n16op135_01 |     193|   398|1.0.0   |Markus Neuwirth|          |
-|n16op135_02 |     274|   376|1.0.0   |Markus Neuwirth|          |
+|n16op135_02 |     272|   376|1.0.0   |Markus Neuwirth|          |
 |n16op135_03 |      54|   178|1.0.0   |Markus Neuwirth|          |
 |n16op135_04 |     282|   562|1.0.0   |Markus Neuwirth|          |
+
+
+*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.0.2.*

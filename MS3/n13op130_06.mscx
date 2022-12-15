@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision>3224f34</programRevision>
+  <programRevision></programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -210,7 +210,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.5368</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -324,6 +323,14 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="42"/>
+          <controller ctrl="7" value="101"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -9230,9 +9237,6 @@ Op. 130  6th Movement
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          <location>
-            <fractions>0</fractions>
-            </location>
           <BarLine>
             <subtype>double</subtype>
             <span>1</span>
@@ -80412,14 +80416,14 @@ Op. 130  6th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vi[V7/ii</name>
-            </Harmony>
           <Clef>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi[V7/ii</name>
+            </Harmony>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>36</velocity>
@@ -80590,14 +80594,14 @@ Op. 130  6th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -80693,14 +80697,14 @@ Op. 130  6th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vi[V7/ii</name>
-            </Harmony>
           <Clef>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi[V7/ii</name>
+            </Harmony>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>36</velocity>
@@ -81353,15 +81357,15 @@ Op. 130  6th Movement
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6</name>
             <offset x="0.229553" y="-4.56598"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -82098,7 +82102,7 @@ Op. 130  6th Movement
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio/V</name>
+            <name>V64</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -82165,10 +82169,6 @@ Op. 130  6th Movement
           <Rest>
             <durationType>16th</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V64</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -82189,7 +82189,7 @@ Op. 130  6th Movement
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V+6/iii</name>
+            <name>I6</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -82237,10 +82237,6 @@ Op. 130  6th Movement
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>16th</durationType>
@@ -83183,7 +83179,7 @@ Op. 130  6th Movement
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V-V.I</name>
+            <name>V.I-V</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -83646,14 +83642,14 @@ Op. 130  6th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>@none</name>
-            </Harmony>
           <Clef>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>@none</name>
+            </Harmony>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
@@ -84178,14 +84174,14 @@ Op. 130  6th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio43</name>
-            </Harmony>
           <Clef>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio43</name>
+            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -84212,14 +84208,14 @@ Op. 130  6th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V[I</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V[I</name>
+            </Harmony>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>36</velocity>
@@ -88999,7 +88995,7 @@ Op. 130  6th Movement
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/IV</name>
+            <name>V65/IV/IV</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -89039,10 +89035,6 @@ Op. 130  6th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV6</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -89674,15 +89666,15 @@ Op. 130  6th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV-I.I</name>
-            <offset x="0.229553" y="-5.9433"/>
-            </Harmony>
           <Clef>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I.I</name>
+            <offset x="0.229553" y="-5.9433"/>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -90074,14 +90066,14 @@ Op. 130  6th Movement
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -91846,15 +91838,15 @@ Op. 130  6th Movement
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii.V7</name>
             <offset x="0.229553" y="-6.17286"/>
             </Harmony>
-          <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
-            </Clef>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -92474,15 +92466,15 @@ Op. 130  6th Movement
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6</name>
             <offset x="0" y="-4.33643"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -93903,7 +93895,7 @@ Op. 130  6th Movement
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/V</name>
+            <name>V64</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -93965,10 +93957,6 @@ Op. 130  6th Movement
           <Rest>
             <durationType>16th</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V64</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -93989,8 +93977,7 @@ Op. 130  6th Movement
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V+6/iii</name>
-            <offset x="-4.70147" y="-2.5"/>
+            <name>I6</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -94023,10 +94010,6 @@ Op. 130  6th Movement
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -95783,14 +95766,14 @@ Op. 130  6th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV</name>
-            </Harmony>
           <Clef>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <StaffText>
             <placement>below</placement>
             <offset x="0.104477" y="0.5155"/>
@@ -96129,14 +96112,14 @@ Op. 130  6th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V[I</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V[I</name>
+            </Harmony>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>36</velocity>
@@ -97895,15 +97878,15 @@ Op. 130  6th Movement
             <accidental>-3</accidental>
             <mode>major</mode>
             </KeySig>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV.I</name>
             <offset x="0.125076" y="-3.49913"/>
             </Harmony>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <StaffText>
             <placement>below</placement>
             <offset x="-0.208954" y="0.18416"/>
@@ -98844,15 +98827,15 @@ Op. 130  6th Movement
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V/vi</name>
             <offset x="0" y="-4.51"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <StaffText>
             <placement>below</placement>
             <offset x="0.104477" y="1.19312"/>
@@ -102841,7 +102824,7 @@ Op. 130  6th Movement
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi6-I.ii6</name>
+            <name>I.ii6</name>
             <offset x="0.229553" y="-4.79553"/>
             </Harmony>
           <Beam>
@@ -103953,7 +103936,7 @@ Op. 130  6th Movement
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi-IV.I</name>
+            <name>IV.I</name>
             <offset x="0" y="-4.79553"/>
             </Harmony>
           <Beam>
