@@ -11,6 +11,7 @@ Two years after its first publication (see below), this is the revised version o
   - The folder `measures` contains tables of each movement's measures' features.
 * The chord labels have been completely revised and adapted to version XY of the [DCML annotation standard](https://github.com/DCMLab/standards) (annotation guidelines under this link, too).
 
+
 # ABC - The Annotated Beethoven Corpus (v1.0)
 
 *Markus Neuwirth (markus.neuwirth@epfl.ch), Daniel Harasim (daniel.harasim@epfl.ch), Fabian C. Moss (fabian.moss@epfl.ch), Martin Rohrmeier (martin.rohrmeier@epfl.ch)*
