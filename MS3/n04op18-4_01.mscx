@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision>3224f34</programRevision>
+  <programRevision></programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -210,7 +210,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.80798</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -239,6 +238,7 @@
       <Staff id="1">
         <StaffType group="pitched">
           </StaffType>
+        <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Violin I</trackName>
       <Instrument id="piano">
@@ -261,6 +261,7 @@
       <Staff id="2">
         <StaffType group="pitched">
           </StaffType>
+        <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Violin II</trackName>
       <Instrument id="piano">
@@ -279,6 +280,7 @@
         <StaffType group="pitched">
           </StaffType>
         <defaultClef>C3</defaultClef>
+        <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Viola</trackName>
       <Instrument id="viola">
@@ -4138,7 +4140,7 @@
         <voice>
           <StaffText>
             <placement>below</placement>
-            <offset x="-1.2582e-7" y="1.15858"/>
+            <offset x="-1.2582e-07" y="1.15858"/>
             <text>cresc.</text>
             </StaffText>
           <Beam>
@@ -6488,7 +6490,6 @@
           </voice>
         </Measure>
       <Measure>
-        <startRepeat/>
         <irregular>1</irregular>
         <voice>
           <Spanner type="Volta">
@@ -17705,7 +17706,6 @@
           </voice>
         </Measure>
       <Measure len="3/4">
-        <endRepeat>2</endRepeat>
         <voice>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -49464,7 +49464,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i(4)</name>
-            <offset x="-4.194e-8" y="-5.17"/>
+            <offset x="-4.194e-08" y="-5.17"/>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -49481,7 +49481,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
-            <offset x="8.388e-8" y="-5.17"/>
+            <offset x="8.388e-08" y="-5.17"/>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -52934,7 +52934,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
-            <offset x="4.194e-8" y="-4.54878"/>
+            <offset x="4.194e-08" y="-4.54878"/>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -54432,7 +54432,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
-            <offset x="4.194e-8" y="-5.71952"/>
+            <offset x="4.194e-08" y="-5.71952"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -55382,7 +55382,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
-            <offset x="4.194e-8" y="-4.25611"/>
+            <offset x="4.194e-08" y="-4.25611"/>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -56388,7 +56388,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2</name>
-            <offset x="4.194e-8" y="-4.40245"/>
+            <offset x="4.194e-08" y="-4.40245"/>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -58688,7 +58688,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii%65</name>
-            <offset x="-4.194e-8" y="-6.09235"/>
+            <offset x="-4.194e-08" y="-6.09235"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -61548,7 +61548,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i6</name>
-            <offset x="4.194e-8" y="-3.52439"/>
+            <offset x="4.194e-08" y="-3.52439"/>
             </Harmony>
           </voice>
         </Measure>
