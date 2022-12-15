@@ -72,6 +72,13 @@ Information on what the columns in the TSV files contain can be found in the [do
 
 ## Remarks
 
+**Hybrid version of annotations**
+
+v1.0 of this dataset used version 1.0.0 of the [DCML harmony annotation standard](https://github.com/DCMLab/standards),
+with the version number attributed only in hindsight. Some of the labels that were corrected in the meantime, however,
+use features available only in later versions, such as recursive reference to a secondary ('tertiary') key as in `V7/V/V`.
+However, changes have been applied conservatively in order to keep the data as homogeneous as possible.
+
 **Possible annotation errors**
 
 While the annotation process (as detailed in the Data Report) was conducted very carefully, and all annotated symbols have been automatically checked for syntactic correctness, the authors cannot entirely rule out the possibility of typograpical errors or misinterpretations (e.g., due to ambiguities in the score or underspecification in the musical texture). After all, music analysis is not a deterministic process but involves interpretation. If you encounter anything that seems not right to you, please create an issue [here](https://github.com/DCMLab/ABC/issues).
