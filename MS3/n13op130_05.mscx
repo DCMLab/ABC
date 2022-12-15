@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision>3224f34</programRevision>
+  <programRevision></programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -319,6 +319,12 @@
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
+          <controller ctrl="7" value="101"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
         </Instrument>
       </Part>
     <Staff id="1">
@@ -360,17 +366,9 @@ Op. 130 5th Movement
             <offset x="-6.6575" y="-1.46357"/>
             <text><font size="9.4"></font><b>Adagio molto espressivo</b></text>
             </Tempo>
-          <Harmony>
-            <name>.Eb.I</name>
-            <offset x="-0.102999" y="-3.45793"/>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <name>V65/ii</name>
-            <offset x="0" y="-3.33285"/>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -378,10 +376,6 @@ Op. 130 5th Movement
             <offset x="0" y="-1.74477"/>
             <text><i>sotto voce</i></text>
             </StaffText>
-          <Harmony>
-            <name>ii(+4)</name>
-            <offset x="0.229553" y="-3.50061"/>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -414,10 +408,6 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            <offset x="0.104477" y="-3.50509"/>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -458,9 +448,6 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.345631" y="1.24716"/>
             </Dynamic>
-          <Harmony>
-            <name>I</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -496,15 +483,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>V43</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -514,9 +492,6 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -555,9 +530,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>ii6</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -600,10 +572,6 @@ Op. 130 5th Movement
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <name>vii%7/V</name>
-            <offset x="-5.32537" y="-2.51764"/>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -611,9 +579,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <dots>1</dots>
@@ -633,15 +598,6 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>I</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -651,9 +607,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V43</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -692,9 +645,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -725,10 +675,6 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V43</name>
-            <offset x="-0.940294" y="-2.5"/>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -738,10 +684,6 @@ Op. 130 5th Movement
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>I</name>
-            <offset x="0.313431" y="-2.60448"/>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -755,9 +697,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V6</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -767,9 +706,6 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>#viio7/vi</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -799,18 +735,6 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>vi(6)</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <name>vi</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -840,9 +764,6 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.450108" y="1.42477"/>
             </Dynamic>
-          <Harmony>
-            <name>ii6(9)</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -871,9 +792,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>ii6</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -882,9 +800,6 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V6/ii</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -901,9 +816,6 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>ii</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -912,9 +824,6 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
@@ -934,9 +843,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V(64)</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -974,15 +880,6 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>vi7</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -1012,10 +909,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V6</name>
-            <offset x="0" y="-2.4"/>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -1043,10 +936,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I\\</name>
-            <offset x="0" y="-2.3"/>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -1064,15 +953,9 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>vi7</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <name>V6</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -1080,41 +963,12 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <name>vii%2</name>
-            <offset x="-0.827926" y="-2.34821"/>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <name>V43</name>
-            <offset x="-0.104477" y="-2.49703"/>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -1147,9 +1001,6 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -1185,9 +1036,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I\\</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -1223,19 +1071,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>V43(+6)</name>
-            <offset x="-1.3582" y="-2.60448"/>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <name>V43</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -1245,9 +1080,6 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -1286,9 +1118,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V7/vi</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -1323,15 +1152,6 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>V65/vi</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -1353,9 +1173,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>vi.i</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -1392,10 +1209,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>ii%65(2)</name>
-            <offset x="-3.02984" y="-2.39552"/>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -1416,9 +1229,6 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>ii%65</name>
-            </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
@@ -1434,9 +1244,6 @@ Op. 130 5th Movement
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V43/iv</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -1495,9 +1302,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -1536,9 +1340,6 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IV6</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -1551,9 +1352,6 @@ Op. 130 5th Movement
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>.It6</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -1621,9 +1419,6 @@ Op. 130 5th Movement
             <offset x="0.208954" y="2.1737"/>
             <text><i>cresc.</i></text>
             </StaffText>
-          <Harmony>
-            <name>V(64)</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -1641,9 +1436,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv7</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -1673,9 +1465,6 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.450108" y="1.37402"/>
             </Dynamic>
-          <Harmony>
-            <name>V(64)</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -1693,9 +1482,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv7</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -1706,9 +1492,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V(64)</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -1727,9 +1510,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V7</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
@@ -1753,9 +1533,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V/iv</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -1804,19 +1581,10 @@ Op. 130 5th Movement
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <name>V7/iv</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>iv</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -1835,15 +1603,6 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>IV</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
@@ -1863,19 +1622,10 @@ Op. 130 5th Movement
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <name>I.V7/V</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V64</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -1903,9 +1653,6 @@ Op. 130 5th Movement
             <offset x="0" y="0.60655"/>
             <text><i>cresc.</i></text>
             </StaffText>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <dots>1</dots>
@@ -1916,15 +1663,6 @@ Op. 130 5th Movement
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>V2</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -1964,10 +1702,6 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.0160996" y="2.90088"/>
             </Dynamic>
-          <Harmony>
-            <name>V65</name>
-            <offset x="0" y="-1.55971"/>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -2023,10 +1757,6 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V65</name>
-            <offset x="0" y="-1.45523"/>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -2043,10 +1773,6 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V43</name>
-            <offset x="0" y="-1.35075"/>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -2057,22 +1783,12 @@ Op. 130 5th Movement
           <subtype>page</subtype>
           </LayoutBreak>
         <voice>
-          <Harmony>
-            <name>V65</name>
-            <offset x="0" y="-1.03732"/>
-            </Harmony>
           <Rest>
             <durationType>half</durationType>
             </Rest>
-          <Harmony>
-            <name>viio6/V</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -2080,24 +1796,12 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I6</name>
-            <offset x="0" y="-3.61431"/>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <name>vi</name>
-            <offset x="-0.607153" y="-3.86609"/>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <name>IV</name>
-            <offset x="1.06252" y="-3.10715"/>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -2105,21 +1809,12 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V(64)</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <name>V2</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -2180,9 +1875,6 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.241153" y="1.25611"/>
             </Dynamic>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -2209,9 +1901,6 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>vi</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -2221,9 +1910,6 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IV</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -2272,9 +1958,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V(64)</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -2311,9 +1994,6 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -2335,9 +2015,6 @@ Op. 130 5th Movement
             <offset x="0" y="1.30207"/>
             <text><i>cresc.</i></text>
             </StaffText>
-          <Harmony>
-            <name>V2</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -2385,9 +2062,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -2442,15 +2116,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>vi</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -2500,9 +2165,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>IV</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -2648,10 +2310,6 @@ Op. 130 5th Movement
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
-          <Harmony>
-            <name>viio/V</name>
-            <offset x="0" y="-1.43314"/>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -2713,10 +2371,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V(64)</name>
-            <offset x="-0.104477" y="-1.55971"/>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -2735,10 +2389,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V7</name>
-            <offset x="-0.104477" y="-1.55971"/>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -2773,10 +2423,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I(9+74)</name>
-            <offset x="-1.67163" y="-2.60448"/>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -2813,10 +2459,6 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>I\\</name>
-            <offset x="0.1" y="-2.5"/>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -2826,9 +2468,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V7</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -2836,67 +2475,28 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I(9+74)</name>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <location>
-            <fractions>-1/2</fractions>
-            </location>
-          <Harmony>
-            <name>I\\</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>V43</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <location>
-            <fractions>-1/2</fractions>
-            </location>
-          <Harmony>
-            <name>vi</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>ii6</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V(64)</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <name>V2</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -2952,9 +2552,6 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.659062" y="1.37402"/>
             </Dynamic>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -2981,9 +2578,6 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>vi</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -2993,9 +2587,6 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IV</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -3076,10 +2667,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V(64)</name>
-            <offset x="0" y="-1.76866"/>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -3115,10 +2702,6 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V65/V</name>
-            <offset x="0" y="-1.24627"/>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -3133,10 +2716,6 @@ Op. 130 5th Movement
             <offset x="0.208954" y="0.77521"/>
             <text><i>cresc.</i></text>
             </StaffText>
-          <Harmony>
-            <name>V2</name>
-            <offset x="-0.104477" y="-1.24627"/>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -3192,10 +2771,6 @@ Op. 130 5th Movement
             <velocity>88</velocity>
             <offset x="0.136676" y="2.16507"/>
             </Dynamic>
-          <Harmony>
-            <name>I6</name>
-            <offset x="0" y="-1.66418"/>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -3231,10 +2806,6 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>I</name>
-            <offset x="-0.104477" y="-1.97761"/>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -3265,16 +2836,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>vi</name>
-            <offset x="0.104477" y="-1.97761"/>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -3309,9 +2870,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>IV</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -3363,9 +2921,6 @@ Op. 130 5th Movement
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V7/vi</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -3401,10 +2956,6 @@ Op. 130 5th Movement
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>vi(9+#74)</name>
-            <offset x="-0.835817" y="-2.60448"/>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -3425,9 +2976,6 @@ Op. 130 5th Movement
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>vi</name>
-            </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
@@ -3447,10 +2995,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V65/V</name>
-            <offset x="-0.940294" y="-2.5"/>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -3510,10 +3054,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V(64)</name>
-            <offset x="-0.522386" y="-2.5"/>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -3539,10 +3079,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V7</name>
-            <offset x="-0.417909" y="-2.5"/>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -3573,10 +3109,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I(9+74)</name>
-            <offset x="-1.04477" y="-2.60448"/>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -3605,9 +3137,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>I\\</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -3624,9 +3153,6 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V65</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -3634,9 +3160,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I</name>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -3645,17 +3168,9 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V2/IV</name>
-            <offset x="-0.104477" y="-1.87314"/>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <name>@none</name>
-            <offset x="-0.104477" y="-1.87314"/>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
@@ -3681,10 +3196,6 @@ Op. 130 5th Movement
             <offset x="-5.72268" y="-1.283"/>
             <text><i><font size="9.4"></font>Beklemmt.</i></text>
             </Tempo>
-          <Harmony>
-            <name>.bVI.I</name>
-            <offset x="0" y="-3.10182"/>
-            </Harmony>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>36</velocity>
@@ -3787,9 +3298,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>ii65</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -3853,9 +3361,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -4001,9 +3506,6 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.130817" y="1.52925"/>
             </Dynamic>
-          <Harmony>
-            <name>V65/vi</name>
-            </Harmony>
           <Rest>
             <durationType>16th</durationType>
             </Rest>
@@ -4089,9 +3591,6 @@ Op. 130 5th Movement
               <tpc>9</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>vi</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -4156,9 +3655,6 @@ Op. 130 5th Movement
           <subtype>page</subtype>
           </LayoutBreak>
         <voice>
-          <Harmony>
-            <name>V6/vi</name>
-            </Harmony>
           <Rest>
             <durationType>16th</durationType>
             </Rest>
@@ -4319,9 +3815,6 @@ Op. 130 5th Movement
               <tpc>9</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>vi</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -4383,10 +3876,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>iv.i</name>
-            <offset x="-0.940294" y="-3.75989"/>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -4407,10 +3896,6 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i64</name>
-            <offset x="-0.522386" y="-3.58448"/>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -4437,10 +3922,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6</name>
-            <offset x="0" y="-3.64777"/>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -4473,9 +3954,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V\\</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -4493,9 +3971,6 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -4506,24 +3981,20 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V\\</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <name>I.I6</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <name>V7</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
+              <subtype>1</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="-4.27329" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -4534,12 +4005,7 @@ Op. 130 5th Movement
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-4.27329" y="0"/>
-                </Segment>
+              <subtype>0</subtype>
               </HairPin>
             <next>
               <location>
@@ -4593,9 +4059,6 @@ Op. 130 5th Movement
             <offset x="0.208954" y="2.08346"/>
             <text><i>sotto voce</i></text>
             </StaffText>
-          <Harmony>
-            <name>I</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -4631,19 +4094,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>V64(+6)</name>
-            <offset x="-4.49252" y="-2.5"/>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <name>V43</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -4653,9 +4103,6 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -4694,9 +4141,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>ii6</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -4720,9 +4164,6 @@ Op. 130 5th Movement
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <name>vii%7/V</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -4730,9 +4171,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V\\</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <dots>1</dots>
@@ -4752,15 +4190,6 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -4770,9 +4199,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V43</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -4784,9 +4210,6 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V2</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -4817,9 +4240,6 @@ Op. 130 5th Movement
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -4860,9 +4280,6 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V43</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -4872,9 +4289,6 @@ Op. 130 5th Movement
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>I</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -4888,9 +4302,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V6</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -4900,9 +4311,6 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>#viio7/vi</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -4921,18 +4329,6 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>vi(6)</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <name>vi</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -4970,9 +4366,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>ii6</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -5009,9 +4402,6 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V65/V</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -5028,9 +4418,6 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>ii</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -5039,9 +4426,6 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
@@ -5061,9 +4445,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V(64)</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -5101,15 +4482,6 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>vi7</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -5121,9 +4493,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V6</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -5169,9 +4538,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I\\</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -5189,16 +4555,9 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>vi7</name>
-            <offset x="-0.835817" y="-2.5"/>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <name>V6</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -5217,9 +4576,6 @@ Op. 130 5th Movement
             <offset x="0.208954" y="1.10207"/>
             <text><i>cresc.</i></text>
             </StaffText>
-          <Harmony>
-            <name>I</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <dots>1</dots>
@@ -5248,9 +4604,6 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V43</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -5282,9 +4635,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -5314,9 +4664,6 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V7</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -5354,10 +4701,6 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.241153" y="1.36507"/>
             </Dynamic>
-          <Harmony>
-            <name>IV6</name>
-            <offset x="0" y="-1.66418"/>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -5398,10 +4741,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>ii6</name>
-            <offset x="0.208954" y="-1.97761"/>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -5418,10 +4757,6 @@ Op. 130 5th Movement
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V(6)</name>
-            <offset x="0.125076" y="-2.28957"/>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -5430,10 +4765,6 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V2</name>
-            <offset x="0" y="-1.80837"/>
-            </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
@@ -5453,9 +4784,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -5499,9 +4827,6 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V43</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -5550,9 +4875,6 @@ Op. 130 5th Movement
             <offset x="0" y="0.61998"/>
             <text><i>cresc.</i></text>
             </StaffText>
-          <Harmony>
-            <name>I</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -5571,15 +4893,6 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
@@ -5612,9 +4925,6 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V65</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -5649,10 +4959,6 @@ Op. 130 5th Movement
             <offset x="0.104477" y="1.70655"/>
             <text><i>dim.</i></text>
             </StaffText>
-          <Harmony>
-            <name>V2/IV</name>
-            <offset x="-2.08954" y="-2.5"/>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -5671,19 +4977,6 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>IV6(2)</name>
-            <offset x="-3.13431" y="-2.39552"/>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -5693,9 +4986,6 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V(+6)</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -5713,9 +5003,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V7</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -5742,9 +5029,6 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.659062" y="2.28838"/>
             </Dynamic>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -5770,9 +5054,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>I\\</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -5789,9 +5070,6 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V7</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -5799,23 +5077,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V2</name>
-            <offset x="-1.3582" y="-2.60448"/>
-            </Harmony>
           <Rest>
             <dots>1</dots>
             <durationType>eighth</durationType>
             </Rest>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
@@ -5858,15 +5123,6 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>I</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -5887,10 +5143,6 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I\\</name>
-            <offset x="0.104477" y="-2.015"/>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -5946,10 +5198,6 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>I</name>
-            <offset x="0" y="-1.66418"/>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -17449,6 +16697,11 @@ Op. 130 5th Movement
             <offset x="-0.104477" y="-0.030181"/>
             <text><i>sotto voce</i></text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>Eb.I</name>
+            <offset x="-0.102999" y="-3.45793"/>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -17482,6 +16735,11 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65/ii</name>
+            <offset x="0" y="-3.33285"/>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -17517,6 +16775,11 @@ Op. 130 5th Movement
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii(+4)</name>
+            <offset x="0.229553" y="-3.50061"/>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -17543,6 +16806,14 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            <offset x="0.104477" y="-3.50509"/>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -17552,6 +16823,10 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.241153" y="1.43373"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -17596,6 +16871,10 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -17605,6 +16884,10 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -17625,6 +16908,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii6</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -17691,6 +16978,11 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vii%7/V</name>
+            <offset x="-5.32537" y="-2.51764"/>
+            </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
@@ -17713,6 +17005,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -17740,6 +17036,20 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -17823,6 +17133,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -17853,6 +17167,11 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            <offset x="-0.940294" y="-2.5"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -17862,6 +17181,11 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            <offset x="0.313431" y="-2.60448"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -17875,6 +17199,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -17884,6 +17212,10 @@ Op. 130 5th Movement
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio7/vi</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -17896,6 +17228,10 @@ Op. 130 5th Movement
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi(6)</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -17932,6 +17268,13 @@ Op. 130 5th Movement
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -17941,6 +17284,10 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.450108" y="1.39343"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii6(9)</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -17967,6 +17314,20 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii6</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6/ii</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -17979,6 +17340,10 @@ Op. 130 5th Movement
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -17990,6 +17355,10 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
@@ -18009,6 +17378,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -18037,6 +17410,10 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi7</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -18056,6 +17433,11 @@ Op. 130 5th Movement
           <location>
             <fractions>-1/4</fractions>
             </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            <offset x="0" y="-2.4"/>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -18115,6 +17497,11 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            <offset x="0" y="-2.3"/>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -18155,6 +17542,10 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi7</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
@@ -18167,6 +17558,10 @@ Op. 130 5th Movement
           <location>
             <fractions>-1/4</fractions>
             </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -18233,6 +17628,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -18252,7 +17651,7 @@ Op. 130 5th Movement
               </HairPin>
             <next>
               <location>
-                <fractions>1/2</fractions>
+                <measures>2</measures>
                 </location>
               </next>
             </Spanner>
@@ -18265,6 +17664,10 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Rest>
             <visible>0</visible>
             <dots>1</dots>
@@ -18275,31 +17678,33 @@ Op. 130 5th Movement
               </NoteDot>
             </Rest>
           <location>
-            <fractions>-1/4</fractions>
+            <fractions>-1/2</fractions>
             </location>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="6.2544"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vii%2</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           </voice>
         <voice>
           <Beam>
@@ -18374,11 +17779,14 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
+                <measures>1</measures>
                 </location>
               </prev>
             </Spanner>
@@ -18400,6 +17808,11 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43(+6)</name>
+            <offset x="-1.3582" y="-2.60448"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -18409,6 +17822,20 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -18429,6 +17856,17 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/vi</name>
+            </Harmony>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -18447,6 +17885,10 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65/vi</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -18459,6 +17901,10 @@ Op. 130 5th Movement
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi.i</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -18490,6 +17936,11 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii%65(2)</name>
+            <offset x="-3.02984" y="-2.39552"/>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -18507,6 +17958,20 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii%65</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43/iv</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -18534,6 +17999,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -18552,6 +18021,10 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV6</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -18564,6 +18037,10 @@ Op. 130 5th Movement
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>It6</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -18608,6 +18085,10 @@ Op. 130 5th Movement
             <offset x="1.04477" y="1.63789"/>
             <text><i>cresc.</i></text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -18625,6 +18106,10 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv7</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -18654,6 +18139,10 @@ Op. 130 5th Movement
             <offset x="-0.104477" y="0.97073"/>
             <text><i>cresc.</i></text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -18690,6 +18179,10 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv7</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -18726,6 +18219,10 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.450108" y="1.86059"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -18743,6 +18240,10 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -18762,6 +18263,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V/iv</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -18777,6 +18282,10 @@ Op. 130 5th Movement
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/iv</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -18793,6 +18302,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -18802,12 +18315,20 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I.V7/V</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -18824,6 +18345,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V64</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -18857,6 +18382,10 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -18873,6 +18402,10 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -18904,6 +18437,11 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65</name>
+            <offset x="0" y="-1.55971"/>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -18936,6 +18474,11 @@ Op. 130 5th Movement
             <offset x="-0.104477" y="-2.57104"/>
             <text><i>cresc.</i></text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65</name>
+            <offset x="0" y="-1.45523"/>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -18952,6 +18495,11 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            <offset x="0" y="-1.35075"/>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -18979,6 +18527,11 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65</name>
+            <offset x="0" y="-1.03732"/>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -19073,6 +18626,10 @@ Op. 130 5th Movement
             <offset x="0.104477" y="0.95672"/>
             <text><i>cresc.</i></text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio6/V</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -19090,6 +18647,10 @@ Op. 130 5th Movement
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
@@ -19114,6 +18675,11 @@ Op. 130 5th Movement
             <offset x="-0.104477" y="3.06715"/>
             <text><i>sotto voce</i></text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            <offset x="0" y="-3.61431"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19132,6 +18698,11 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            <offset x="-0.607153" y="-3.86609"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19141,6 +18712,11 @@ Op. 130 5th Movement
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            <offset x="1.06252" y="-3.10715"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19161,6 +18737,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19170,6 +18750,10 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19183,6 +18767,10 @@ Op. 130 5th Movement
             <offset x="0.104477" y="-3.43819"/>
             <text><i>cresc.</i></text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -19227,6 +18815,10 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.659062" y="1.61134"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19245,6 +18837,10 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19254,6 +18850,10 @@ Op. 130 5th Movement
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19274,6 +18874,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19283,6 +18887,10 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19297,6 +18905,10 @@ Op. 130 5th Movement
             <offset x="0" y="0.69759"/>
             <text><i>cresc.</i></text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -19320,6 +18932,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19369,6 +18985,10 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -19393,6 +19013,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -19465,6 +19089,11 @@ Op. 130 5th Movement
             <placement>above</placement>
             <offset x="0.0873026" y="-1.58398"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio/V</name>
+            <offset x="0" y="-1.43314"/>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -19487,6 +19116,11 @@ Op. 130 5th Movement
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            <offset x="-0.104477" y="-1.55971"/>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -19503,6 +19137,11 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <offset x="-0.104477" y="-1.55971"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19516,6 +19155,11 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I(9+74)</name>
+            <offset x="-1.67163" y="-2.60448"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19534,6 +19178,11 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            <offset x="0.1" y="-2.5"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19543,6 +19192,10 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19563,6 +19216,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I(9+74)</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19572,6 +19229,10 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19595,6 +19256,10 @@ Op. 130 5th Movement
             <offset x="0" y="0.59759"/>
             <text><i>cresc.</i></text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19620,6 +19285,10 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="-0.0883775" y="3.32775"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -19648,6 +19317,10 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19657,6 +19330,10 @@ Op. 130 5th Movement
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii6</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19681,6 +19358,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19699,6 +19380,10 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -19735,6 +19420,10 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -19771,6 +19460,10 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.450108" y="2.04716"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -19797,6 +19490,10 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19806,6 +19503,10 @@ Op. 130 5th Movement
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19826,6 +19527,11 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            <offset x="0" y="-1.76866"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19844,6 +19550,11 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65/V</name>
+            <offset x="0" y="-1.24627"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19861,6 +19572,11 @@ Op. 130 5th Movement
             <offset x="0.208954" y="0.68416"/>
             <text><i>cresc.</i></text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            <offset x="-0.104477" y="-1.24627"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19889,6 +19605,11 @@ Op. 130 5th Movement
             <velocity>88</velocity>
             <offset x="0.345631" y="2.66059"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            <offset x="0" y="-1.66418"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19898,6 +19619,11 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            <offset x="-0.104477" y="-1.97761"/>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -19940,6 +19666,11 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            <offset x="0.104477" y="-1.97761"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -19976,6 +19707,10 @@ Op. 130 5th Movement
             <placement>above</placement>
             <offset x="-0.402724" y="-0.434729"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -20002,6 +19737,10 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/vi</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -20011,6 +19750,11 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi(9+#74)</name>
+            <offset x="-0.835817" y="-2.60448"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -20027,10 +19771,22 @@ Op. 130 5th Movement
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65/V</name>
+            <offset x="-0.940294" y="-2.5"/>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -20064,6 +19820,11 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.796476" y="3.49963"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            <offset x="-0.522386" y="-2.5"/>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -20080,6 +19841,11 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <offset x="-0.417909" y="-2.5"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -20093,6 +19859,11 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I(9+74)</name>
+            <offset x="-1.04477" y="-2.60448"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <dots>1</dots>
@@ -20103,6 +19874,16 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -20139,6 +19920,10 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -20171,6 +19956,10 @@ Op. 130 5th Movement
             <velocity>36</velocity>
             <offset x="0.659062" y="4.79002"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -20363,6 +20152,11 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2/IV</name>
+            <offset x="-0.104477" y="-1.87314"/>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -20400,6 +20194,11 @@ Op. 130 5th Movement
               </Note>
             </Chord>
           <endTuplet/>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>@none</name>
+            <offset x="-0.104477" y="-1.87314"/>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -20482,6 +20281,11 @@ Op. 130 5th Movement
             <velocity>36</velocity>
             <offset x="0.450108" y="1.46059"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>bVI.I</name>
+            <offset x="0" y="-3.10182"/>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -20591,6 +20395,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii65</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -20700,6 +20508,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -20814,6 +20626,10 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.345631" y="2.16954"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65/vi</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -20896,6 +20712,10 @@ Op. 130 5th Movement
               </Note>
             </Chord>
           <endTuplet/>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -20946,6 +20766,10 @@ Op. 130 5th Movement
             <offset x="0" y="0.80207"/>
             <text><i>cresc.</i></text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6/vi</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -21014,6 +20838,10 @@ Op. 130 5th Movement
               </Note>
             </Chord>
           <endTuplet/>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -21063,6 +20891,11 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv.i</name>
+            <offset x="-0.940294" y="-3.75989"/>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -21091,6 +20924,17 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/24</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i64</name>
+            <offset x="-0.522386" y="-3.58448"/>
+            </Harmony>
+          <location>
+            <fractions>1/24</fractions>
+            </location>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
@@ -21100,6 +20944,11 @@ Op. 130 5th Movement
               </Note>
             </Chord>
           <endTuplet/>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            <offset x="0" y="-3.64777"/>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -21140,6 +20989,10 @@ Op. 130 5th Movement
             <offset x="-0.104477" y="2.13611"/>
             <text><i>cresc.</i></text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V\\</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -21157,6 +21010,10 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -21215,6 +21072,10 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.345631" y="2.94268"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V\\</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -21251,6 +21112,10 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I.I6</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -21260,6 +21125,10 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -21303,6 +21172,10 @@ Op. 130 5th Movement
             <offset x="0.208954" y="4.00952"/>
             <text><i>sotto voce</i></text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -21339,6 +21212,11 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V64(+6)</name>
+            <offset x="-4.49252" y="-2.5"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -21352,6 +21230,20 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -21372,6 +21264,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii6</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -21401,6 +21297,10 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vii%7/V</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -21445,6 +21345,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V\\</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -21471,6 +21375,10 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -21480,6 +21388,10 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -21491,6 +21403,10 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
@@ -21514,6 +21430,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -21544,6 +21464,10 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -21553,6 +21477,10 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -21566,6 +21494,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -21575,6 +21507,10 @@ Op. 130 5th Movement
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio7/vi</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -21587,6 +21523,10 @@ Op. 130 5th Movement
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi(6)</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -21623,10 +21563,21 @@ Op. 130 5th Movement
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii6</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -21653,6 +21604,10 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65/V</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -21665,6 +21620,10 @@ Op. 130 5th Movement
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -21676,6 +21635,10 @@ Op. 130 5th Movement
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
@@ -21695,6 +21658,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -21723,6 +21690,10 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi7</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
@@ -21735,6 +21706,10 @@ Op. 130 5th Movement
           <location>
             <fractions>-1/4</fractions>
             </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -21804,6 +21779,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -21840,6 +21819,11 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi7</name>
+            <offset x="-0.835817" y="-2.5"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
@@ -21852,6 +21836,10 @@ Op. 130 5th Movement
           <location>
             <fractions>-1/4</fractions>
             </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -21918,6 +21906,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -21985,6 +21977,10 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -22030,6 +22026,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -22099,6 +22099,10 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -22141,6 +22145,11 @@ Op. 130 5th Movement
             <placement>above</placement>
             <offset x="0.283282" y="-2.49421"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV6</name>
+            <offset x="0" y="-1.66418"/>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -22161,6 +22170,11 @@ Op. 130 5th Movement
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii6</name>
+            <offset x="0.208954" y="-1.97761"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -22177,6 +22191,11 @@ Op. 130 5th Movement
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(6)</name>
+            <offset x="0.125076" y="-2.28957"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -22186,10 +22205,22 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            <offset x="0" y="-1.80837"/>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -22228,6 +22259,10 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -22266,6 +22301,10 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -22302,6 +22341,10 @@ Op. 130 5th Movement
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -22338,6 +22381,10 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -22393,6 +22440,11 @@ Op. 130 5th Movement
             <offset x="0.208954" y="3.55787"/>
             <text><i>dim.</i></text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2/IV</name>
+            <offset x="-2.08954" y="-2.5"/>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -22431,6 +22483,21 @@ Op. 130 5th Movement
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV6(2)</name>
+            <offset x="-3.13431" y="-2.39552"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -22443,6 +22510,10 @@ Op. 130 5th Movement
               <tpc>7</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(+6)</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -22459,6 +22530,13 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/6</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -22468,6 +22546,10 @@ Op. 130 5th Movement
             <velocity>49</velocity>
             <offset x="0.450108" y="1.46507"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -22486,6 +22568,10 @@ Op. 130 5th Movement
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -22502,6 +22588,10 @@ Op. 130 5th Movement
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -22528,6 +22618,11 @@ Op. 130 5th Movement
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            <offset x="-1.3582" y="-2.60448"/>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -22539,6 +22634,10 @@ Op. 130 5th Movement
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -22575,6 +22674,10 @@ Op. 130 5th Movement
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -22600,6 +22703,11 @@ Op. 130 5th Movement
             <velocity>36</velocity>
             <offset x="0.329531" y="2.41134"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            <offset x="0.104477" y="-2.015"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -22613,6 +22721,11 @@ Op. 130 5th Movement
             <offset x="0.208954" y="-1.62924"/>
             <text><i>cresc.</i></text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            <offset x="0" y="-1.66418"/>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
