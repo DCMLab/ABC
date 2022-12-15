@@ -71426,7 +71426,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>#viio2/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>viio2/V</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.01"/>
             </Harmony>
           <Beam>
@@ -86572,7 +86578,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>#viio2/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>viio2/V</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.1" y="-5.01"/>
             </Harmony>
           <Beam>
@@ -88487,11 +88499,40 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii</name>
+            <color r="0" g="85" b="0" a="255"/>
+            <offset x="0" y="-5.01"/>
+            </Harmony>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V/ii</name>
+            <color r="0" g="85" b="0" a="255"/>
+            <offset x="0" y="-5.01"/>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -88511,27 +88552,12 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V/ii</name>
-            <offset x="0" y="-5.01"/>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii</name>
-            <offset x="0" y="-5.01"/>
-            </Harmony>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7/ii</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.292684" y="-5.01"/>
             </Harmony>
           </voice>
@@ -88552,7 +88578,13 @@ Op. 59 No.1 4th Movement</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V7/ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V64/ii</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.146342" y="-5.01"/>
             </Harmony>
           </voice>
@@ -88561,7 +88593,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>ii6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.51"/>
             </Harmony>
           <Rest>
@@ -88573,7 +88611,13 @@ Op. 59 No.1 4th Movement</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V64/ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V43/ii</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.51"/>
             </Harmony>
           </voice>
@@ -88595,6 +88639,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.51"/>
             </Harmony>
           <location>
@@ -88602,7 +88647,13 @@ Op. 59 No.1 4th Movement</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V43/ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V/ii</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.51"/>
             </Harmony>
           </voice>
@@ -88611,12 +88662,29 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>ii6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>ii</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.51"/>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>33</velocity>
@@ -88624,7 +88692,13 @@ Op. 59 No.1 4th Movement</text>
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V/ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>viio6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.51"/>
             </Harmony>
           <Beam>
@@ -88677,7 +88751,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.51"/>
             </Harmony>
           <Beam>
@@ -88707,7 +88787,13 @@ Op. 59 No.1 4th Movement</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>viio6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.51"/>
             </Harmony>
           <Beam>
@@ -88781,7 +88867,13 @@ Op. 59 No.1 4th Movement</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.51"/>
             </Harmony>
           <Beam>
@@ -88834,7 +88926,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>i.i</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.51"/>
             </Harmony>
           <Beam>
@@ -88864,7 +88962,13 @@ Op. 59 No.1 4th Movement</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V43</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.51"/>
             </Harmony>
           <Beam>
@@ -88898,7 +89002,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>i.i</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>i6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.51"/>
             </Harmony>
           <Chord>
@@ -88924,7 +89034,13 @@ Op. 59 No.1 4th Movement</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V43</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V2</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.51"/>
             </Harmony>
           <Beam>
@@ -89000,7 +89116,13 @@ Op. 59 No.1 4th Movement</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V2</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V7/III</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Beam>
@@ -89029,6 +89151,73 @@ Op. 59 No.1 4th Movement</text>
             <Note>
               <pitch>39</pitch>
               <tpc>11</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III</name>
+            <color r="0" g="85" b="0" a="255"/>
+            <offset x="0" y="-5.01"/>
+            </Harmony>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>end</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/III</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/iv</name>
+            <color r="0" g="85" b="0" a="255"/>
+            <offset x="0" y="-5.01"/>
+            </Harmony>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>end</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           </voice>
@@ -89038,6 +89227,12 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>III</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Beam>
@@ -89047,76 +89242,27 @@ Op. 59 No.1 4th Movement</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>44</pitch>
-              <tpc>10</tpc>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>44</pitch>
-              <tpc>10</tpc>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7/iv</name>
-            <offset x="0" y="-5.01"/>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>end</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv</name>
-            <offset x="0" y="-5.01"/>
-            </Harmony>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>end</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2/V</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.146342" y="-5.01"/>
             </Harmony>
           <Beam>
@@ -89142,6 +89288,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43/V</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Chord>
@@ -89173,7 +89320,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>iv</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I.V[V6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Chord>
@@ -89210,7 +89363,13 @@ Op. 59 No.1 4th Movement</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V2/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <location>
@@ -89218,7 +89377,13 @@ Op. 59 No.1 4th Movement</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V43/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V6/ii</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           </voice>
@@ -89227,7 +89392,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I.V[V6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>ii</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Chord>
@@ -89262,7 +89433,13 @@ Op. 59 No.1 4th Movement</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>bVII</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-1.60976" y="-5.01"/>
             </Harmony>
           <location>
@@ -89270,7 +89447,13 @@ Op. 59 No.1 4th Movement</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V6/ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.146342" y="-5.01"/>
             </Harmony>
           </voice>
@@ -89279,7 +89462,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Chord>
@@ -89312,8 +89501,22 @@ Op. 59 No.1 4th Movement</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>bVII</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>IV6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           </voice>
         </Measure>
@@ -89321,7 +89524,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>viio(4)</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-1.31708" y="-5.01"/>
             </Harmony>
           <Beam>
@@ -89346,6 +89555,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Chord>
@@ -89359,7 +89569,13 @@ Op. 59 No.1 4th Movement</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>IV6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Rest>
@@ -89380,7 +89596,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>viio(4)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>viio6(2)</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-2.34147" y="-5.01"/>
             </Harmony>
           <Rest>
@@ -89388,7 +89610,13 @@ Op. 59 No.1 4th Movement</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>viio</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>viio6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Chord>
@@ -89401,12 +89629,18 @@ Op. 59 No.1 4th Movement</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>vi64</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Chord>
@@ -89430,8 +89664,97 @@ Op. 59 No.1 4th Movement</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>viio6(2)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V2</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
+            </Harmony>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Rest>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            </Rest>
+          <Chord>
+            <BeamMode>end</BeamMode>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65</name>
+            <color r="0" g="85" b="0" a="255"/>
+            <offset x="0" y="-5.01"/>
+            </Harmony>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi64</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Rest>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            </Rest>
+          <Chord>
+            <BeamMode>end</BeamMode>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -89465,70 +89788,8 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V65</name>
-            <offset x="0" y="-5.01"/>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <BeamMode>end</BeamMode>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <BeamMode>end</BeamMode>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -89565,6 +89826,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.01"/>
             </Harmony>
           <Beam>
@@ -89629,6 +89891,11 @@ Op. 59 No.1 4th Movement</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -89694,6 +89961,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.01"/>
             </Harmony>
           <Beam>
@@ -89762,6 +90030,11 @@ Op. 59 No.1 4th Movement</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -89831,6 +90104,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.01"/>
             </Harmony>
           <Beam>
@@ -89899,6 +90173,11 @@ Op. 59 No.1 4th Movement</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -89973,6 +90252,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V]</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.01"/>
             </Harmony>
           <Beam>
@@ -90071,7 +90351,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V]</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.01"/>
             </Harmony>
           <Rest>
@@ -90172,7 +90458,13 @@ Op. 59 No.1 4th Movement</text>
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.71257" y="-6.90385"/>
             </Harmony>
           <Spanner type="Trill">
@@ -90207,6 +90499,11 @@ Op. 59 No.1 4th Movement</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
@@ -90235,6 +90532,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0.153048" y="-5.51"/>
             </Harmony>
           <Spanner type="Trill">
@@ -90284,6 +90582,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0.153048" y="-5.51"/>
             </Harmony>
           <Beam>
@@ -90327,7 +90626,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Beam>
@@ -90376,7 +90681,13 @@ Op. 59 No.1 4th Movement</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>IV</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0.146342" y="-5.01"/>
             </Harmony>
           <Beam>
@@ -90429,7 +90740,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>iio6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Chord>
@@ -90451,7 +90768,13 @@ Op. 59 No.1 4th Movement</text>
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Chord>
@@ -90477,6 +90800,11 @@ Op. 59 No.1 4th Movement</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
@@ -90494,6 +90822,14 @@ Op. 59 No.1 4th Movement</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -90506,6 +90842,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Chord>
@@ -90525,6 +90862,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0.00670604" y="-5.01"/>
             </Harmony>
           <Chord>
@@ -90547,7 +90885,13 @@ Op. 59 No.1 4th Movement</text>
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Chord>
@@ -90566,7 +90910,13 @@ Op. 59 No.1 4th Movement</text>
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>IV6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0.153048" y="-5.01"/>
             </Harmony>
           <Chord>
@@ -90589,7 +90939,13 @@ Op. 59 No.1 4th Movement</text>
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>iio</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0.153048" y="-6.01"/>
             </Harmony>
           <Chord>
@@ -90608,7 +90964,13 @@ Op. 59 No.1 4th Movement</text>
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V65</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-6.01"/>
             </Harmony>
           <Beam>
@@ -90667,7 +91029,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>iio</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0.29939" y="-6.51"/>
             </Harmony>
           <Beam>
@@ -90708,6 +91076,11 @@ Op. 59 No.1 4th Movement</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -90749,7 +91122,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-6.51"/>
             </Harmony>
           <Beam>
@@ -90804,6 +91183,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-7.51"/>
             </Harmony>
           <Beam>
@@ -90887,6 +91267,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.292684" y="-7.51"/>
             </Harmony>
           <Chord>
@@ -90920,7 +91301,13 @@ Op. 59 No.1 4th Movement</text>
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V2</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-7.51"/>
             </Harmony>
           <Beam>
@@ -90955,6 +91342,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-7.51"/>
             </Harmony>
           <Chord>
@@ -91001,6 +91389,11 @@ Op. 59 No.1 4th Movement</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -91025,6 +91418,11 @@ Op. 59 No.1 4th Movement</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -91054,6 +91452,11 @@ Op. 59 No.1 4th Movement</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>16th</durationType>
@@ -91074,6 +91477,11 @@ Op. 59 No.1 4th Movement</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -91121,6 +91529,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.146342" y="-6.51"/>
             </Harmony>
           <Beam>
@@ -91140,6 +91549,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V/vi</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.459143" y="-6.51"/>
             </Harmony>
           <Chord>
@@ -91165,6 +91575,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-6.51"/>
             </Harmony>
           <Chord>
@@ -91176,6 +91587,22 @@ Op. 59 No.1 4th Movement</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V/vi</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -91187,7 +91614,13 @@ Op. 59 No.1 4th Movement</text>
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>IV</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I(64)</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.306095" y="-6.51"/>
             </Harmony>
           <Chord>
@@ -91214,12 +91647,18 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0.146342" y="-6.51"/>
             </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I(64)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -91267,7 +91706,13 @@ Op. 59 No.1 4th Movement</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V65/V</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-3.11341" y="-8.01"/>
             </Harmony>
           <Beam>
@@ -91287,6 +91732,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii%43/vi</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.73171" y="-8.01"/>
             </Harmony>
           <Chord>
@@ -91307,6 +91753,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V/vi</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0.585368" y="-8.01"/>
             </Harmony>
           <Chord>
@@ -91320,7 +91767,13 @@ Op. 59 No.1 4th Movement</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V65/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V64</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-8.01"/>
             </Harmony>
           <Chord>
@@ -91332,6 +91785,14 @@ Op. 59 No.1 4th Movement</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii%43/vi</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -91352,7 +91813,13 @@ Op. 59 No.1 4th Movement</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V64</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V43</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0.292684" y="-8.01"/>
             </Harmony>
           <Chord>
@@ -91375,7 +91842,13 @@ Op. 59 No.1 4th Movement</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V/vi</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.00670604" y="-8.01"/>
             </Harmony>
           <Chord>
@@ -91389,7 +91862,13 @@ Op. 59 No.1 4th Movement</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V43</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0.445732" y="-8.01"/>
             </Harmony>
           <Chord>
@@ -91466,7 +91945,13 @@ Op. 59 No.1 4th Movement</text>
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V2</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-8.01"/>
             </Harmony>
           <Beam>
@@ -91511,7 +91996,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-8.01"/>
             </Harmony>
           <Beam>
@@ -91554,7 +92045,13 @@ Op. 59 No.1 4th Movement</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V2</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-8.01"/>
             </Harmony>
           <Beam>
@@ -91601,7 +92098,13 @@ Op. 59 No.1 4th Movement</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Beam>
@@ -91644,7 +92147,13 @@ Op. 59 No.1 4th Movement</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V65</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Beam>
@@ -91756,6 +92265,11 @@ Op. 59 No.1 4th Movement</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -91788,6 +92302,11 @@ Op. 59 No.1 4th Movement</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -91990,6 +92509,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.01"/>
             </Harmony>
           <Chord>
@@ -92011,6 +92531,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.01"/>
             </Harmony>
           <Chord>
@@ -92060,6 +92581,11 @@ Op. 59 No.1 4th Movement</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Rest>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -92077,6 +92603,11 @@ Op. 59 No.1 4th Movement</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -92106,6 +92637,7 @@ Op. 59 No.1 4th Movement</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I\\</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.01"/>
             </Harmony>
           <Chord>

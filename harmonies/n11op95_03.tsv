@@ -1,9 +1,9 @@
 mc	mn	quarterbeats	duration_qb	mc_onset	mn_onset	timesig	staff	voice	volta	label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	relativeroot	cadence	phraseend	chord_type	globalkey_is_minor	localkey_is_minor	chord_tones	added_tones	root	bass_note
-1	1	0	1.0	0	0	3/4	4	1		f.#viio7/V	f	i		#viio7/V	#vii	o	7		V			o7	1	1	6, 3, 0, -3		6	6
+1	1	0	1.0	0	0	3/4	4	1		f.viio7/V	f	i		viio7/V	vii	o	7		V			o7	1	1	6, 3, 0, -3		6	6
 1	1	1	1.0	1/4	1/4	3/4	4	1		i64	f	i		i64	i		64					m	1	1	1, 0, -3		0	1
-1	1	2	5.0	1/2	1/2	3/4	4	1		#viio65/V	f	i		#viio65/V	#vii	o	65		V			o7	1	1	3, 0, -3, 6		6	3
+1	1	2	5.0	1/2	1/2	3/4	4	1		viio65/V	f	i		viio65/V	vii	o	65		V			o7	1	1	3, 0, -3, 6		6	3
 3	3	7	1.0	1/4	1/4	3/4	4	1		v6	f	i		v6	v		6					m	1	1	-2, 2, 1		1	-2
-3	3	8	5.0	1/2	1/2	3/4	4	1		#viio43/V	f	i		#viio43/V	#vii	o	43		V			o7	1	1	0, -3, 6, 3		6	0
+3	3	8	5.0	1/2	1/2	3/4	4	1		viio43/V	f	i		viio43/V	vii	o	43		V			o7	1	1	0, -3, 6, 3		6	0
 5	5	13	2.0	1/4	1/4	3/4	4	1		v.V65	f	v		V65	V		65					Mm7	1	1	5, 2, -1, 1		1	5
 6	6	15	1.0	0	0	3/4	4	1		i	f	v		i	i							m	1	1	0, -3, 1		0	0
 6	6	16	1.5	1/4	1/4	3/4	4	1		i(9)	f	v		i(9)	i			9				m	1	1	0, -3, 1	2	0	0
@@ -105,7 +105,7 @@ mc	mn	quarterbeats	duration_qb	mc_onset	mn_onset	timesig	staff	voice	volta	label
 38	38	447/4	4.25	3/16	3/16	3/4	4	1		i	f	i		i	i							m	1	1	0, -3, 1		0	0
 39	39	116	10.0	1/2	1/2	3/4	4	1		V	f	i		V	V							M	1	1	1, 5, 2		1	1
 40	40			0	0	3/4	4	1	1	i\\	f	i		i	i						\\	m	1	1	0, -3, 1		0	0
-40	40			1/4	1/4	3/4	4	1	1	#viio7/V	f	i		#viio7/V	#vii	o	7		V			o7	1	1	6, 3, 0, -3		6	6
+40	40			1/4	1/4	3/4	4	1	1	viio7/V	f	i		viio7/V	vii	o	7		V			o7	1	1	6, 3, 0, -3		6	6
 41	41			0	0	3/4	4	1	1	i\\	f	i		i	i						\\	m	1	1	0, -3, 1		0	0
 41	41			1/4	1/4	3/4	4	1	1	bII.I	f	bII		I	I							M	1	0	0, 4, 1		0	0
 45	45	126	3.0	0	0	3/4	4	1		IV	f	bII		IV	IV							M	1	0	-1, 3, 0		-1	-1
@@ -257,7 +257,7 @@ mc	mn	quarterbeats	duration_qb	mc_onset	mn_onset	timesig	staff	voice	volta	label
 140	140	411	3.0	0	0	3/4	4	1		i	f	i		i	i							m	1	1	0, -3, 1		0	0
 141	141	414	0.75	0	0	3/4	4	1		i6	f	i		i6	i		6					m	1	1	-3, 1, 0		0	-3
 141	141	1659/4	6.25	3/16	3/16	3/4	4	1		i	f	i		i	i							m	1	1	0, -3, 1		0	0
-143	143	421	2.0	1/4	1/4	3/4	4	1		#viio7/V	f	i		#viio7/V	#vii	o	7		V			o7	1	1	6, 3, 0, -3		6	6
+143	143	421	2.0	1/4	1/4	3/4	4	1		viio7/V	f	i		viio7/V	vii	o	7		V			o7	1	1	6, 3, 0, -3		6	6
 144	144	423	3.0	0	0	3/4	4	1		#viio6	f	i		#viio6	#vii	o	6					o	1	1	2, -1, 5		5	2
 145	145	426	3.0	0	0	3/4	4	1		#viio43/iv	f	i		#viio43/iv	#vii	o	43		iv			o7	1	1	-2, -5, 4, 1		4	-2
 146	146	429	6.0	0	0	3/4	4	1		#VI.I	f	#VI		I	I							M	1	0	0, 4, 1		0	0
@@ -277,7 +277,7 @@ mc	mn	quarterbeats	duration_qb	mc_onset	mn_onset	timesig	staff	voice	volta	label
 157	157	464	7.0	1/2	1/2	3/4	4	1		I	f	#VI		I	I							M	1	0	0, 4, 1		0	0
 160	160	471	3.0	0	0	3/4	4	1		V2/IV	f	#VI		V2/IV	V		2		IV			Mm7	1	0	-2, 0, 4, 1		0	-2
 161	161	474	3.0	0	0	3/4	4	1		IV6	f	#VI		IV6	IV		6					M	1	0	3, 0, -1		-1	3
-162	162	477	3.0	0	0	3/4	4	1		#viio65/IV	f	#VI		#viio65/IV	#vii	o	65		IV			o7	1	0	1, -2, -5, 4		4	1
+162	162	477	3.0	0	0	3/4	4	1		viio65/IV	f	#VI		viio65/IV	vii	o	65		IV			o7	1	0	1, -2, -5, 4		4	1
 163	163	480	3.0	0	0	3/4	4	1		v.#viio43	f	v		#viio43	#vii	o	43					o7	1	1	-1, -4, 5, 2		5	-1
 164	164	483	3.0	0	0	3/4	4	1		V65	f	v		V65	V		65					Mm7	1	1	5, 2, -1, 1		1	5
 165	165	486	5.0	0	0	3/4	4	1		i	f	v		i	i							m	1	1	0, -3, 1		0	0
