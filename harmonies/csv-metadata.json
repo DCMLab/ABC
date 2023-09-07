@@ -10,7 +10,7 @@
     "delimiter": "\t"
   },
   "dc:description": "One feature matrix per score, containing one line per label. The first columns (until 'label') are the same as in extracted 'labels' tables with the difference that only those harmony labels that match the DCML harmony annotation standard (dcmlab.github.io/standards) are included. Since these follow a specific syntax, they can be split into their components (features) and transformed into scale degrees. For more information, please refer to the docs at https://johentsch.github.io/ms3/columns",
-  "dc:created": "2022-12-15T18:14:38",
+  "dc:created": "2023-09-07T15:42:47",
   "dc:creator": [
     {
       "@context": "https://schema.org/",
@@ -22,7 +22,7 @@
         "name": "Johannes Hentschel",
         "@id": "https://orcid.org/0000-0002-1986-9545"
       },
-      "softwareVersion": "1.0.2"
+      "softwareVersion": "1.2.12"
     }
   ],
   "tables": [

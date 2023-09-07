@@ -92,7 +92,7 @@ While the annotation process (as detailed in the Data Report) was conducted very
 The original XML file for Op. 132 No. 15, mov. 5 from Project Gutenberg did not contain measures 194-241. We added them manually.
 
 
-# Overview
+## Overview
 | file_name  |measures|labels|standard|  annotators   |reviewers |
 |------------|-------:|-----:|--------|---------------|----------|
 |n01op18-1_01|     313|   405|1.0.0   |Markus Neuwirth|          |
@@ -118,7 +118,7 @@ The original XML file for Op. 132 No. 15, mov. 5 from Project Gutenberg did not 
 |n06op18-6_01|     264|   374|1.0.0   |Markus Neuwirth|          |
 |n06op18-6_02|      79|   265|1.0.0   |Markus Neuwirth|          |
 |n06op18-6_03|      68|   168|1.0.0   |Markus Neuwirth|          |
-|n06op18-6_04|     296|   464|1.0.0   |Markus Neuwirth|          |
+|n06op18-6_04|     296|   465|1.0.0   |Markus Neuwirth|          |
 |n07op59-1_01|     400|   482|1.0.0   |Markus Neuwirth|          |
 |n07op59-1_02|     476|   635|1.0.0   |Markus Neuwirth|          |
 |n07op59-1_03|     132|   374|1.0.0   |Markus Neuwirth|          |
@@ -167,4 +167,4 @@ The original XML file for Op. 132 No. 15, mov. 5 from Project Gutenberg did not 
 |n16op135_04 |     282|   562|1.0.0   |Markus Neuwirth|          |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.0.2.*
+*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
