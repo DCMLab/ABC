@@ -1,0 +1,195 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 34, '3/8', 'V6') ms3.Parse.ABC.n09op59-3_04
+	The label 'V6' in m. 33, onset 3/8 (MC 34, onset 3/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.I, it expresses the scale degrees
+	('7', '2', '5') [('B', 'D', 'G')].
+	The corresponding score segment has 0 within-label and 4 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 37, '3/4', 'V2/V') ms3.Parse.ABC.n09op59-3_04
+	The label 'V2/V' in m. 36, onset 3/4 (MC 37, onset 3/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.I, it expresses the scale degrees
+	('1', '2', '#4', '6') [('C', 'D', 'F#', 'A')].
+	The corresponding score segment has 0 within-label and 6 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 59, '1/2', 'V65/V') ms3.Parse.ABC.n09op59-3_04
+	The label 'V65/V' in m. 58, onset 1/2 (MC 59, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.V, it expresses the scale degrees
+	('#4', '6', '1', '2') [('C#', 'E', 'G', 'A')].
+	The corresponding score segment has 5 within-label and 13 out-of-label note onsets,
+	a ratio of 0.7222222222222222 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 106, '1/2', 'bVI') ms3.Parse.ABC.n09op59-3_04
+	The label 'bVI' in m. 105, onset 1/2 (MC 106, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.iv, it expresses the scale degrees
+	('b6', 'b1', 'b3') [('Dbb', 'Fb', 'Abb')].
+	The corresponding score segment has 0 within-label and 6 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 114, '0', 'i[viio43') ms3.Parse.ABC.n09op59-3_04
+	The label 'i[viio43' in m. 113, onset 0 (MC 114, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.#i, it expresses the scale degrees
+	('b4', 'b6', '7', 'b2') [('F', 'Ab', 'B', 'D')].
+	The corresponding score segment has 0 within-label and 24 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 118, '0', 'i[viio2') ms3.Parse.ABC.n09op59-3_04
+	The label 'i[viio2' in m. 117, onset 0 (MC 118, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.#i, it expresses the scale degrees
+	('b6', '7', 'b2', 'b4') [('Ab', 'B', 'D', 'F')].
+	The corresponding score segment has 0 within-label and 23 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 321, '3/4', 'viio2') ms3.Parse.ABC.n09op59-3_04
+	The label 'viio2' in m. 320, onset 3/4 (MC 321, onset 3/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('b6', '7', 'b2', 'b4') [('Abb', 'Bb', 'Db', 'Fb')].
+	The corresponding score segment has 0 within-label and 10 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 322, '1/4', 'viio2') ms3.Parse.ABC.n09op59-3_04
+	The label 'viio2' in m. 321, onset 1/4 (MC 322, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('b6', '7', 'b2', 'b4') [('Abb', 'Bb', 'Db', 'Fb')].
+	The corresponding score segment has 0 within-label and 12 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 322, '3/4', 'viio2') ms3.Parse.ABC.n09op59-3_04
+	The label 'viio2' in m. 321, onset 3/4 (MC 322, onset 3/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('b6', '7', 'b2', 'b4') [('Abb', 'Bb', 'Db', 'Fb')].
+	The corresponding score segment has 0 within-label and 12 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 348, '0', 'iii') ms3.Parse.ABC.n09op59-3_04
+	The label 'iii' in m. 347, onset 0 (MC 348, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('3', 'b5', '7') [('Eb', 'Gb', 'Bb')].
+	The corresponding score segment has 0 within-label and 7 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 354, '1/2', 'viio6') ms3.Parse.ABC.n09op59-3_04
+	The label 'viio6' in m. 353, onset 1/2 (MC 354, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('b2', 'b4', '7') [('Db', 'Fb', 'Bb')].
+	The corresponding score segment has 0 within-label and 9 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 355, '1/2', 'viio') ms3.Parse.ABC.n09op59-3_04
+	The label 'viio' in m. 354, onset 1/2 (MC 355, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('7', 'b2', 'b4') [('Bb', 'Db', 'Fb')].
+	The corresponding score segment has 0 within-label and 9 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 356, '0', 'vi64') ms3.Parse.ABC.n09op59-3_04
+	The label 'vi64' in m. 355, onset 0 (MC 356, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('3', '6', 'b1') [('Eb', 'Ab', 'Cb')].
+	The corresponding score segment has 0 within-label and 10 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 356, '1/2', 'V/vi') ms3.Parse.ABC.n09op59-3_04
+	The label 'V/vi' in m. 355, onset 1/2 (MC 356, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('3', '5', '7') [('Eb', 'G', 'Bb')].
+	The corresponding score segment has 0 within-label and 9 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 362, '1/2', 'viio') ms3.Parse.ABC.n09op59-3_04
+	The label 'viio' in m. 361, onset 1/2 (MC 362, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('7', 'b2', 'b4') [('Bb', 'Db', 'Fb')].
+	The corresponding score segment has 0 within-label and 6 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 364, '1/2', 'viio') ms3.Parse.ABC.n09op59-3_04
+	The label 'viio' in m. 363, onset 1/2 (MC 364, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('7', 'b2', 'b4') [('Bb', 'Db', 'Fb')].
+	The corresponding score segment has 0 within-label and 6 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 369, '1/2', 'iiio64') ms3.Parse.ABC.n09op59-3_04
+	The label 'iiio64' in m. 368, onset 1/2 (MC 369, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('b7', '3', 'b5') [('Bbb', 'Eb', 'Gb')].
+	The corresponding score segment has 0 within-label and 6 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 382, '1/2', 'vi') ms3.Parse.ABC.n09op59-3_04
+	The label 'vi' in m. 381, onset 1/2 (MC 382, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('6', 'b1', '3') [('Ab', 'Cb', 'Eb')].
+	The corresponding score segment has 0 within-label and 16 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 392, '0', 'iii') ms3.Parse.ABC.n09op59-3_04
+	The label 'iii' in m. 391, onset 0 (MC 392, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('3', 'b5', '7') [('Eb', 'Gb', 'Bb')].
+	The corresponding score segment has 0 within-label and 5 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 396, '1/2', 'viio') ms3.Parse.ABC.n09op59-3_04
+	The label 'viio' in m. 395, onset 1/2 (MC 396, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('7', 'b2', 'b4') [('Bb', 'Db', 'Fb')].
+	The corresponding score segment has 0 within-label and 9 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 398, '1/2', 'viio') ms3.Parse.ABC.n09op59-3_04
+	The label 'viio' in m. 397, onset 1/2 (MC 398, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('7', 'b2', 'b4') [('Bb', 'Db', 'Fb')].
+	The corresponding score segment has 0 within-label and 10 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 420, '0', 'viio6') ms3.Parse.ABC.n09op59-3_04
+	The label 'viio6' in m. 419, onset 0 (MC 420, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('b2', 'b4', '7') [('Db', 'Fb', 'Bb')].
+	The corresponding score segment has 0 within-label and 16 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 420, '1/2', 'vi7') ms3.Parse.ABC.n09op59-3_04
+	The label 'vi7' in m. 419, onset 1/2 (MC 420, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('6', 'b1', '3', 'b5') [('Ab', 'Cb', 'Eb', 'Gb')].
+	The corresponding score segment has 0 within-label and 16 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 422, '1/2', 'viio6') ms3.Parse.ABC.n09op59-3_04
+	The label 'viio6' in m. 421, onset 1/2 (MC 422, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.i, it expresses the scale degrees
+	('b2', 'b4', '7') [('Db', 'Fb', 'Bb')].
+	The corresponding score segment has 0 within-label and 16 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.

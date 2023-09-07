@@ -1,0 +1,39 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 41) ms3.Parse.ABC.n12op127_02
+	None of the MCs following the irregular MC 41 complete it.
+	   nominal_duration actual_duration expected_completion   next
+	mc                                                            
+	41                1             3/8                 5/8  (42,)
+	42                1               1                   0  (43,)
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 80) ms3.Parse.ABC.n12op127_02
+	None of the MCs following the irregular MC 80 complete it.
+	   nominal_duration actual_duration expected_completion   next
+	mc                                                            
+	80              3/2             3/4                 3/4  (81,)
+	81              3/2             3/2                   0  (82,)
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 33, '23/16', 'viio65/iii') ms3.Parse.ABC.n12op127_02
+	The label 'viio65/iii' in m. 31, onset 23/16 (MC 33, onset 23/16) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Ab.I, it expresses the scale degrees
+	('4', 'b6', 'b1', '2') [('Db', 'Fb', 'Abb', 'Bb')].
+	The corresponding score segment has 1 within-label and 3 out-of-label note onsets,
+	a ratio of 0.75 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 61, '3/4', 'iv') ms3.Parse.ABC.n12op127_02
+	The label 'iv' in m. 58, onset 3/4 (MC 61, onset 3/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Ab.I, it expresses the scale degrees
+	('4', 'b6', '1') [('Db', 'Fb', 'Ab')].
+	The corresponding score segment has 0 within-label and 8 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 103, '11/8', 'V6') ms3.Parse.ABC.n12op127_02
+	The label 'V6' in m. 99, onset 11/8 (MC 103, onset 11/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Ab.IV, it expresses the scale degrees
+	('7', '2', '5') [('C', 'Eb', 'Ab')].
+	The corresponding score segment has 2 within-label and 4 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.

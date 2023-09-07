@@ -167,4 +167,4 @@ The original XML file for Op. 132 No. 15, mov. 5 from Project Gutenberg did not 
 |n16op135_04 |     282|   562|1.0.0   |Markus Neuwirth|          |
 
 
-*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
+*Overview table automatically updated using [ms3](https://ms3.readthedocs.io/).*
