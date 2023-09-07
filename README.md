@@ -1,20 +1,19 @@
-<!-- TOC -->
-* [ABC - The Annotated Beethoven Corpus (v2.0)](#abc---the-annotated-beethoven-corpus--v20-)
-  * [Publications](#publications)
-  * [Version 2.0](#version-20)
-    * [Upgrade to MuseScore 3](#upgrade-to-musescore-3)
-    * [New folder and file structure](#new-folder-and-file-structure)
-    * [Changes to the data](#changes-to-the-data)
-  * [Remarks](#remarks)
-* [Overview](#overview)
-<!-- TOC -->
-
 ![Version](https://img.shields.io/github/v/release/DCMLab/ABC?display_name=tag)
 [![DOI](https://zenodo.org/badge/127907867.svg)](https://zenodo.org/badge/latestdoi/127907867)
 ![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/ABC)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
 
-# ABC - The Annotated Beethoven Corpus (v2.0)
+
+This is a README file for a data repository originating from the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora)
+and serves as welcome page for both 
+
+* the GitHub repo [https://github.com/DCMLab/ABC](https://github.com/DCMLab/ABC) and the corresponding
+* documentation page [https://dcmlab.github.io/ABC](https://dcmlab.github.io/ABC)
+
+For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/ABC/introduction).
+
+
+# ABC - The Annotated Beethoven Corpus (v2.2)
 
 The ABC dataset consists of expert harmonic analyses of all Beethoven string quartets 
 (opp. 18, 59, 74, 95, 127, 130, 131, 132, 135, composed between 1800 and 1826), encoded in a human- and 
@@ -23,7 +22,11 @@ Using a modified Roman Numeral notation (the [DCML harmony annotation standard](
 the dataset includes the common music-theoretical set of harmonic features such as key, chordal root, 
 chord inversion, chord extensions, suspensions, and others.
 
-**A full diff of all changes applied with version 2.0 can be seen [here](https://github.com/DCMLab/ABC/commit/8bd699a9b5b00dba3214c6626575f8368279b965).** 
+
+## Cite as
+
+> Neuwirth, M., Harasim, D., Moss, F. C., & Rohrmeier, M. (2018). The Annotated Beethoven Corpus (ABC): A Dataset of Harmonic Analyses of All Beethoven String Quartets. Frontiers in Digital Humanities, 5(July), 1–5. https://doi.org/10.3389/fdigh.2018.00016
+
 
 ## Publications
 
@@ -31,48 +34,9 @@ chord inversion, chord extensions, suspensions, and others.
 * An evaluation of the dataset can be found in  this [Moss, F., Neuwirth M., Harasim, D. & Rohrmeier, M. (2019)](https://doi.org/10.1371/journal.pone.0217242).
 * The latest version of the annotation standard has been described in [Hentschel, J., Neuwirth, M. & Rohrmeier, M. (2021)](http://doi.org/10.5334/tismir.63 )  
 
-## Version 2.0
+## Version history
 
-4.5 years after its first publication (see below), this is the first revised version of the ABC. 
-In the meantime, the [DCML corpus initiative](https://www.epfl.ch/labs/dcml/projects/corpus-project/) has advanced
-and this update has as a main goal to harmonize the ABC with all other annotated corpora that have been and
-will be published. This includes the following changes:
-
-### Upgrade to MuseScore 3
-
-* All scores have been converted to [MuseScore](https://musescore.org/download) 3.6.2 format and can be found in the folder `MS3`.
-* The harmony labels have been moved to MuseScore's "Roman Numeral Analysis" layer of the left-hand staff.
-
-### New folder and file structure
-
-* The `code` folder was removed since the old Julia code has been replaced by the Python library [ms3](https://pypi.org/project/ms3/).
-* The MuseScore files are contained in `MS3` and for each movement there are a couple of other files available, identified by their file names:
-  * The folder `notes` contains one TSV file per movement with all note heads (not every note head represents an onset).
-  * The folder `measures` contains one TSV file per movement with all measure-like units 
-  * The folder `harmonies` contains one TSV file per movement with all harmony annotation labels
-  * The folder `reviewed` contains two files per movement:
-    * A copy of the score where all out-of-label notes have been colored in red; additionally, modified labels ( w.r.t. v1.0) are shown in these files in a diff-like manner (removed in red, added in green).
-    * A copy of the harmonies TSV with six added columns that reflect the coloring of out-of-label notes ("coloring reports")
-  * The file `warnings.log` lists those labels where over 60 % of notes within the label's segment are not expressed
-    by the label. Potentially, most of them are semantically incorrect. 
-
-The folders are automatically kept up to date by the [dcml_corpus_workflow](https://github.com/DCMLab/dcml_corpus_workflow)
-which calls the command `ms3 review -M -N -X -D` on every change.
-
-Information on what the columns in the TSV files contain can be found in the [documentation for ms3](https://johentsch.github.io/ms3/columns).
-
-### Changes to the data
-
-**A full diff of all changes applied with version 2.0 can be seen [here](https://github.com/DCMLab/ABC/commit/8bd699a9b5b00dba3214c6626575f8368279b965).**
-
-* The scores have been aligned by [tunescribers.com](https://tunescribers.com/) with the Henle and Breitkopf editions
-  provided in the `pdf` folder and indicated in its README.
-* Systematic changes to the harmony labels:
-  * With the harmony labels moved to the Roman Numeral Analysis layer, no initial `.` are needed anymore.
-  * `V9` is not part of the DCML harmony annotation standard and has been replaced by `V7(9)` or `V7(+9)`.
-  * Corrected `vii` chords in major keys that had often been wrongly labeled as `#vii`.
-* Obvious errors have been corrected in many places. Thanks to @craigsapp, @lancioni, @malcolmsailor, @MarkGotham, @napulen and @tymoczko
-  for reporting quite a few of them!
+See the [GitHub releases](https://github.com/DCMLab/ABC/releases).
 
 ## Remarks
 
@@ -91,6 +55,18 @@ While the annotation process (as detailed in the Data Report) was conducted very
 
 The original XML file for Op. 132 No. 15, mov. 5 from Project Gutenberg did not contain measures 194-241. We added them manually.
 
+## License
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
+
+## File naming convention
+
+```regex
+n(?P<quartet>\d{2})  # quartet number, e.g. n01
+op(?P<op>\d{2,3})    # opus number, e.g. op18
+(?:-(?P<no>\d))?     # (optional) number within the opus, e.g. -1
+_(?P<mvt>\d{2})      # movement number, e.g. _01
+```
 
 ## Overview
 | file_name  |measures|labels|standard|  annotators   |reviewers |
