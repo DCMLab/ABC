@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/home/runner/.local/lib/python3.10/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+    executenb(
+  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 1204, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/util.py", line 84, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/util.py", line 62, in just_run
+    return loop.run_until_complete(coro)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 663, in async_execute
+    await self.async_execute_cell(
+  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 965, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 862, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+hascadence = dc.HasCadenceAnnotationsFilter().process_data(dataset)
+assert () in hascadence.indices and len(hascadence.indices[()]) > 0, "No cadences found."
+print(f"Before: {len(dataset.indices[()])} pieces; after removing those without cadence labels: {len(hascadence.indices[()])}")
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mAssertionError[0m                            Traceback (most recent call last)
+Cell [0;32mIn[9], line 2[0m
+[1;32m      1[0m hascadence [38;5;241m=[39m dc[38;5;241m.[39mHasCadenceAnnotationsFilter()[38;5;241m.[39mprocess_data(dataset)
+[0;32m----> 2[0m [38;5;28;01massert[39;00m () [38;5;129;01min[39;00m hascadence[38;5;241m.[39mindices [38;5;129;01mand[39;00m [38;5;28mlen[39m(hascadence[38;5;241m.[39mindices[()]) [38;5;241m>[39m [38;5;241m0[39m, [38;5;124m"[39m[38;5;124mNo cadences found.[39m[38;5;124m"[39m
+[1;32m      3[0m [38;5;28mprint[39m([38;5;124mf[39m[38;5;124m"[39m[38;5;124mBefore: [39m[38;5;132;01m{[39;00m[38;5;28mlen[39m(dataset[38;5;241m.[39mindices[()])[38;5;132;01m}[39;00m[38;5;124m pieces; after removing those without cadence labels: [39m[38;5;132;01m{[39;00m[38;5;28mlen[39m(hascadence[38;5;241m.[39mindices[()])[38;5;132;01m}[39;00m[38;5;124m"[39m)
+
+[0;31mAssertionError[0m: No cadences found.
+AssertionError: No cadences found.
+

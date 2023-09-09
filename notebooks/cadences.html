@@ -1,0 +1,1999 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Cadences &#8212; {{ pretty_repo_name }} v2.1 documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/thebelab.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/thebelab-helper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@^1.0.1/dist/embed-amd.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'notebooks/cadences';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Annotations" href="annotations.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  <div class="navbar-header-items__start">
+    
+      <div class="navbar-item">
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    <p class="title logo__title">{{ pretty_repo_name }} v2.1 documentation</p>
+  
+</a></div>
+    
+  </div>
+  
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item"><nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../introduction.html">
+                        How to use
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="../analyses.html">
+                        Analyses
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+        </div>
+      
+      
+        <div class="navbar-item">
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item"><nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../introduction.html">
+                        How to use
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="../analyses.html">
+                        Analyses
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item"><nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notes_stats.html">Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="annotations.html">Annotations</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Cadences</a></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumbs">
+  <ul class="bd-breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../analyses.html" class="nav-link">Analyses</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page">Cadences</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="cadences">
+<h1>Cadences<a class="headerlink" href="#cadences" title="Permalink to this heading">#</a></h1>
+<div class="cell tag_hide-cell docutils container">
+<details class="hide above-input">
+<summary aria-label="Toggle hidden content">
+<span class="collapsed">Show imports</span>
+<span class="expanded">Hide imports</span>
+</summary>
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span><span class="p">,</span> <span class="n">Counter</span>
+
+<span class="kn">from</span> <span class="nn">git</span> <span class="kn">import</span> <span class="n">Repo</span>
+<span class="kn">import</span> <span class="nn">dimcat</span> <span class="k">as</span> <span class="nn">dc</span>
+<span class="kn">import</span> <span class="nn">ms3</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
+<span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
+
+<span class="kn">from</span> <span class="nn">utils</span> <span class="kn">import</span> <span class="n">STD_LAYOUT</span><span class="p">,</span> <span class="n">CADENCE_COLORS</span><span class="p">,</span> <span class="n">color_background</span><span class="p">,</span> <span class="n">value_count_df</span><span class="p">,</span> <span class="n">get_repo_name</span><span class="p">,</span> <span class="n">print_heading</span><span class="p">,</span> <span class="n">resolve_dir</span>
+</pre></div>
+</div>
+</div>
+</details>
+</div>
+<div class="cell tag_hide-input docutils container">
+<details class="hide above-input">
+<summary aria-label="Toggle hidden content">
+<span class="collapsed">Show source</span>
+<span class="expanded">Hide source</span>
+</summary>
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">CORPUS_PATH</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;..&#39;</span><span class="p">,</span> <span class="s1">&#39;..&#39;</span><span class="p">))</span>
+<span class="n">print_heading</span><span class="p">(</span><span class="s2">&quot;Notebook settings&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;CORPUS_PATH: </span><span class="si">{</span><span class="n">CORPUS_PATH</span><span class="si">!r}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="n">CORPUS_PATH</span> <span class="o">=</span> <span class="n">resolve_dir</span><span class="p">(</span><span class="n">CORPUS_PATH</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</details>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Notebook settings
+-----------------
+
+CORPUS_PATH: &#39;/home/runner/work/workflow_deployment/ABC&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell tag_hide-input docutils container">
+<details class="hide above-input">
+<summary aria-label="Toggle hidden content">
+<span class="collapsed">Show source</span>
+<span class="expanded">Hide source</span>
+</summary>
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">repo</span> <span class="o">=</span> <span class="n">Repo</span><span class="p">(</span><span class="n">CORPUS_PATH</span><span class="p">)</span>
+<span class="n">print_heading</span><span class="p">(</span><span class="s2">&quot;Data and software versions&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Data repo &#39;</span><span class="si">{</span><span class="n">get_repo_name</span><span class="p">(</span><span class="n">repo</span><span class="p">)</span><span class="si">}</span><span class="s2">&#39; @ </span><span class="si">{</span><span class="n">repo</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span><span class="o">.</span><span class="n">hexsha</span><span class="p">[:</span><span class="mi">7</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;dimcat version </span><span class="si">{</span><span class="n">dc</span><span class="o">.</span><span class="n">__version__</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;ms3 version </span><span class="si">{</span><span class="n">ms3</span><span class="o">.</span><span class="n">__version__</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</details>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Data and software versions
+--------------------------
+
+Data repo &#39;ABC&#39; @ fac180a
+dimcat version 0.3.0
+ms3 version 2.2.1
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell tag_remove-output docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">dataset</span> <span class="o">=</span> <span class="n">dc</span><span class="o">.</span><span class="n">Dataset</span><span class="p">()</span>
+<span class="n">dataset</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">directory</span><span class="o">=</span><span class="n">CORPUS_PATH</span><span class="p">,</span> <span class="n">parse_tsv</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[<span class=" -Color -Color-Bold">annotated</span>|all|default]
+All corpora
+-----------
+View: This view is called &#39;annotated&#39;. It 
+	- excludes pieces that are not contained in the metadata,
+	- filters out file extensions requiring conversion (such as .xml),
+	- excludes review files and folders, and
+	- includes only facets containing &#39;expanded&#39;.
+
+            has     active expanded       
+       metadata       view detected parsed
+corpus                                    
+ABC         yes  annotated       70     70
+
+11/12 facets are excluded from this view.
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>N = 70 annotated pieces, 70 parsed dataframes.
+</pre></div>
+</div>
+</div>
+</div>
+<section id="metadata">
+<h2>Metadata<a class="headerlink" href="#metadata" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">all_metadata</span> <span class="o">=</span> <span class="n">dataset</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">metadata</span><span class="p">()</span>
+<span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">all_metadata</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;No pieces selected for analysis.&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Concatenated &#39;metadata.tsv&#39; files cover </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">all_metadata</span><span class="p">)</span><span class="si">}</span><span class="s2"> of the </span><span class="si">{</span><span class="n">dataset</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">count_pieces</span><span class="p">()</span><span class="si">}</span><span class="s2"> scores.&quot;</span><span class="p">)</span>
+<span class="n">all_metadata</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">nth</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,:</span><span class="mi">20</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Concatenated &#39;metadata.tsv&#39; files cover 70 of the 70 scores.
+</pre></div>
+</div>
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>piece</th>
+      <th>TimeSig</th>
+      <th>KeySig</th>
+      <th>last_mc</th>
+      <th>last_mn</th>
+      <th>length_qb</th>
+      <th>last_mc_unfolded</th>
+      <th>last_mn_unfolded</th>
+      <th>length_qb_unfolded</th>
+      <th>volta_mcs</th>
+      <th>all_notes_qb</th>
+      <th>n_onsets</th>
+      <th>n_onset_positions</th>
+      <th>guitar_chord_count</th>
+      <th>form_label_count</th>
+      <th>label_count</th>
+      <th>annotated_key</th>
+      <th>harmony_version</th>
+      <th>annotators</th>
+      <th>reviewers</th>
+    </tr>
+    <tr>
+      <th>corpus</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ABC</th>
+      <td>n01op18-1_01</td>
+      <td>1: 3/4</td>
+      <td>1: -1</td>
+      <td>313</td>
+      <td>313</td>
+      <td>939.0</td>
+      <td>427</td>
+      <td>427</td>
+      <td>1281.0</td>
+      <td></td>
+      <td>3132.75</td>
+      <td>4589</td>
+      <td>1950</td>
+      <td>0</td>
+      <td>0</td>
+      <td>405</td>
+      <td>F</td>
+      <td>1.0.0</td>
+      <td>Markus Neuwirth</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</section>
+<section id="all-annotation-labels-from-the-selected-pieces">
+<h2>All annotation labels from the selected pieces<a class="headerlink" href="#all-annotation-labels-from-the-selected-pieces" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">all_labels</span> <span class="o">=</span> <span class="n">dataset</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">get_facet</span><span class="p">(</span><span class="s1">&#39;expanded&#39;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">all_labels</span><span class="o">.</span><span class="n">index</span><span class="p">)</span><span class="si">}</span><span class="s2"> hand-annotated harmony labels:&quot;</span><span class="p">)</span>
+<span class="n">all_labels</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:</span><span class="mi">20</span><span class="p">]</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">color_background</span><span class="p">,</span> <span class="n">subset</span><span class="o">=</span><span class="s2">&quot;chord&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>28088 hand-annotated harmony labels:
+</pre></div>
+</div>
+<div class="output text_html"><style type="text/css">
+#T_7cfa1_row0_col14, #T_7cfa1_row1_col14, #T_7cfa1_row2_col14, #T_7cfa1_row3_col14, #T_7cfa1_row4_col14, #T_7cfa1_row5_col14, #T_7cfa1_row6_col14, #T_7cfa1_row7_col14, #T_7cfa1_row8_col14, #T_7cfa1_row9_col14, #T_7cfa1_row10_col14, #T_7cfa1_row11_col14, #T_7cfa1_row12_col14, #T_7cfa1_row13_col14, #T_7cfa1_row14_col14, #T_7cfa1_row15_col14, #T_7cfa1_row16_col14, #T_7cfa1_row17_col14, #T_7cfa1_row18_col14, #T_7cfa1_row19_col14 {
+  background-color: #ffffb3;
+}
+</style>
+<table id="T_7cfa1">
+  <thead>
+    <tr>
+      <th class="blank" >&nbsp;</th>
+      <th class="blank" >&nbsp;</th>
+      <th class="blank level0" >&nbsp;</th>
+      <th id="T_7cfa1_level0_col0" class="col_heading level0 col0" >mc</th>
+      <th id="T_7cfa1_level0_col1" class="col_heading level0 col1" >mn</th>
+      <th id="T_7cfa1_level0_col2" class="col_heading level0 col2" >quarterbeats</th>
+      <th id="T_7cfa1_level0_col3" class="col_heading level0 col3" >quarterbeats_all_endings</th>
+      <th id="T_7cfa1_level0_col4" class="col_heading level0 col4" >duration_qb</th>
+      <th id="T_7cfa1_level0_col5" class="col_heading level0 col5" >mc_onset</th>
+      <th id="T_7cfa1_level0_col6" class="col_heading level0 col6" >mn_onset</th>
+      <th id="T_7cfa1_level0_col7" class="col_heading level0 col7" >timesig</th>
+      <th id="T_7cfa1_level0_col8" class="col_heading level0 col8" >staff</th>
+      <th id="T_7cfa1_level0_col9" class="col_heading level0 col9" >voice</th>
+      <th id="T_7cfa1_level0_col10" class="col_heading level0 col10" >label</th>
+      <th id="T_7cfa1_level0_col11" class="col_heading level0 col11" >globalkey</th>
+      <th id="T_7cfa1_level0_col12" class="col_heading level0 col12" >localkey</th>
+      <th id="T_7cfa1_level0_col13" class="col_heading level0 col13" >pedal</th>
+      <th id="T_7cfa1_level0_col14" class="col_heading level0 col14" >chord</th>
+      <th id="T_7cfa1_level0_col15" class="col_heading level0 col15" >special</th>
+      <th id="T_7cfa1_level0_col16" class="col_heading level0 col16" >numeral</th>
+      <th id="T_7cfa1_level0_col17" class="col_heading level0 col17" >form</th>
+      <th id="T_7cfa1_level0_col18" class="col_heading level0 col18" >figbass</th>
+      <th id="T_7cfa1_level0_col19" class="col_heading level0 col19" >changes</th>
+      <th id="T_7cfa1_level0_col20" class="col_heading level0 col20" >relativeroot</th>
+      <th id="T_7cfa1_level0_col21" class="col_heading level0 col21" >cadence</th>
+      <th id="T_7cfa1_level0_col22" class="col_heading level0 col22" >phraseend</th>
+      <th id="T_7cfa1_level0_col23" class="col_heading level0 col23" >chord_type</th>
+      <th id="T_7cfa1_level0_col24" class="col_heading level0 col24" >globalkey_is_minor</th>
+      <th id="T_7cfa1_level0_col25" class="col_heading level0 col25" >localkey_is_minor</th>
+      <th id="T_7cfa1_level0_col26" class="col_heading level0 col26" >chord_tones</th>
+      <th id="T_7cfa1_level0_col27" class="col_heading level0 col27" >added_tones</th>
+      <th id="T_7cfa1_level0_col28" class="col_heading level0 col28" >root</th>
+      <th id="T_7cfa1_level0_col29" class="col_heading level0 col29" >bass_note</th>
+      <th id="T_7cfa1_level0_col30" class="col_heading level0 col30" >alt_label</th>
+      <th id="T_7cfa1_level0_col31" class="col_heading level0 col31" >volta</th>
+    </tr>
+    <tr>
+      <th class="index_name level0" >corpus</th>
+      <th class="index_name level1" >piece</th>
+      <th class="index_name level2" >i</th>
+      <th class="blank col0" >&nbsp;</th>
+      <th class="blank col1" >&nbsp;</th>
+      <th class="blank col2" >&nbsp;</th>
+      <th class="blank col3" >&nbsp;</th>
+      <th class="blank col4" >&nbsp;</th>
+      <th class="blank col5" >&nbsp;</th>
+      <th class="blank col6" >&nbsp;</th>
+      <th class="blank col7" >&nbsp;</th>
+      <th class="blank col8" >&nbsp;</th>
+      <th class="blank col9" >&nbsp;</th>
+      <th class="blank col10" >&nbsp;</th>
+      <th class="blank col11" >&nbsp;</th>
+      <th class="blank col12" >&nbsp;</th>
+      <th class="blank col13" >&nbsp;</th>
+      <th class="blank col14" >&nbsp;</th>
+      <th class="blank col15" >&nbsp;</th>
+      <th class="blank col16" >&nbsp;</th>
+      <th class="blank col17" >&nbsp;</th>
+      <th class="blank col18" >&nbsp;</th>
+      <th class="blank col19" >&nbsp;</th>
+      <th class="blank col20" >&nbsp;</th>
+      <th class="blank col21" >&nbsp;</th>
+      <th class="blank col22" >&nbsp;</th>
+      <th class="blank col23" >&nbsp;</th>
+      <th class="blank col24" >&nbsp;</th>
+      <th class="blank col25" >&nbsp;</th>
+      <th class="blank col26" >&nbsp;</th>
+      <th class="blank col27" >&nbsp;</th>
+      <th class="blank col28" >&nbsp;</th>
+      <th class="blank col29" >&nbsp;</th>
+      <th class="blank col30" >&nbsp;</th>
+      <th class="blank col31" >&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th id="T_7cfa1_level0_row0" class="row_heading level0 row0" rowspan="20">ABC</th>
+      <th id="T_7cfa1_level1_row0" class="row_heading level1 row0" rowspan="20">n01op18-1_01</th>
+      <th id="T_7cfa1_level2_row0" class="row_heading level2 row0" >0</th>
+      <td id="T_7cfa1_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_7cfa1_row0_col1" class="data row0 col1" >1</td>
+      <td id="T_7cfa1_row0_col2" class="data row0 col2" >0</td>
+      <td id="T_7cfa1_row0_col3" class="data row0 col3" >0</td>
+      <td id="T_7cfa1_row0_col4" class="data row0 col4" >3.000000</td>
+      <td id="T_7cfa1_row0_col5" class="data row0 col5" >0</td>
+      <td id="T_7cfa1_row0_col6" class="data row0 col6" >0</td>
+      <td id="T_7cfa1_row0_col7" class="data row0 col7" >3/4</td>
+      <td id="T_7cfa1_row0_col8" class="data row0 col8" >4</td>
+      <td id="T_7cfa1_row0_col9" class="data row0 col9" >1</td>
+      <td id="T_7cfa1_row0_col10" class="data row0 col10" >F.I</td>
+      <td id="T_7cfa1_row0_col11" class="data row0 col11" >F</td>
+      <td id="T_7cfa1_row0_col12" class="data row0 col12" >I</td>
+      <td id="T_7cfa1_row0_col13" class="data row0 col13" >nan</td>
+      <td id="T_7cfa1_row0_col14" class="data row0 col14" >I</td>
+      <td id="T_7cfa1_row0_col15" class="data row0 col15" >nan</td>
+      <td id="T_7cfa1_row0_col16" class="data row0 col16" >I</td>
+      <td id="T_7cfa1_row0_col17" class="data row0 col17" >nan</td>
+      <td id="T_7cfa1_row0_col18" class="data row0 col18" >nan</td>
+      <td id="T_7cfa1_row0_col19" class="data row0 col19" >nan</td>
+      <td id="T_7cfa1_row0_col20" class="data row0 col20" >nan</td>
+      <td id="T_7cfa1_row0_col21" class="data row0 col21" >nan</td>
+      <td id="T_7cfa1_row0_col22" class="data row0 col22" >nan</td>
+      <td id="T_7cfa1_row0_col23" class="data row0 col23" >M</td>
+      <td id="T_7cfa1_row0_col24" class="data row0 col24" >False</td>
+      <td id="T_7cfa1_row0_col25" class="data row0 col25" >False</td>
+      <td id="T_7cfa1_row0_col26" class="data row0 col26" >(0, 4, 1)</td>
+      <td id="T_7cfa1_row0_col27" class="data row0 col27" >()</td>
+      <td id="T_7cfa1_row0_col28" class="data row0 col28" >0</td>
+      <td id="T_7cfa1_row0_col29" class="data row0 col29" >0</td>
+      <td id="T_7cfa1_row0_col30" class="data row0 col30" >nan</td>
+      <td id="T_7cfa1_row0_col31" class="data row0 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row1" class="row_heading level2 row1" >1</th>
+      <td id="T_7cfa1_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_7cfa1_row1_col1" class="data row1 col1" >2</td>
+      <td id="T_7cfa1_row1_col2" class="data row1 col2" >3</td>
+      <td id="T_7cfa1_row1_col3" class="data row1 col3" >3</td>
+      <td id="T_7cfa1_row1_col4" class="data row1 col4" >3.000000</td>
+      <td id="T_7cfa1_row1_col5" class="data row1 col5" >0</td>
+      <td id="T_7cfa1_row1_col6" class="data row1 col6" >0</td>
+      <td id="T_7cfa1_row1_col7" class="data row1 col7" >3/4</td>
+      <td id="T_7cfa1_row1_col8" class="data row1 col8" >4</td>
+      <td id="T_7cfa1_row1_col9" class="data row1 col9" >1</td>
+      <td id="T_7cfa1_row1_col10" class="data row1 col10" >V</td>
+      <td id="T_7cfa1_row1_col11" class="data row1 col11" >F</td>
+      <td id="T_7cfa1_row1_col12" class="data row1 col12" >I</td>
+      <td id="T_7cfa1_row1_col13" class="data row1 col13" >nan</td>
+      <td id="T_7cfa1_row1_col14" class="data row1 col14" >V</td>
+      <td id="T_7cfa1_row1_col15" class="data row1 col15" >nan</td>
+      <td id="T_7cfa1_row1_col16" class="data row1 col16" >V</td>
+      <td id="T_7cfa1_row1_col17" class="data row1 col17" >nan</td>
+      <td id="T_7cfa1_row1_col18" class="data row1 col18" >nan</td>
+      <td id="T_7cfa1_row1_col19" class="data row1 col19" >nan</td>
+      <td id="T_7cfa1_row1_col20" class="data row1 col20" >nan</td>
+      <td id="T_7cfa1_row1_col21" class="data row1 col21" >nan</td>
+      <td id="T_7cfa1_row1_col22" class="data row1 col22" >nan</td>
+      <td id="T_7cfa1_row1_col23" class="data row1 col23" >M</td>
+      <td id="T_7cfa1_row1_col24" class="data row1 col24" >False</td>
+      <td id="T_7cfa1_row1_col25" class="data row1 col25" >False</td>
+      <td id="T_7cfa1_row1_col26" class="data row1 col26" >(1, 5, 2)</td>
+      <td id="T_7cfa1_row1_col27" class="data row1 col27" >()</td>
+      <td id="T_7cfa1_row1_col28" class="data row1 col28" >1</td>
+      <td id="T_7cfa1_row1_col29" class="data row1 col29" >1</td>
+      <td id="T_7cfa1_row1_col30" class="data row1 col30" >nan</td>
+      <td id="T_7cfa1_row1_col31" class="data row1 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row2" class="row_heading level2 row2" >2</th>
+      <td id="T_7cfa1_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_7cfa1_row2_col1" class="data row2 col1" >3</td>
+      <td id="T_7cfa1_row2_col2" class="data row2 col2" >6</td>
+      <td id="T_7cfa1_row2_col3" class="data row2 col3" >6</td>
+      <td id="T_7cfa1_row2_col4" class="data row2 col4" >3.000000</td>
+      <td id="T_7cfa1_row2_col5" class="data row2 col5" >0</td>
+      <td id="T_7cfa1_row2_col6" class="data row2 col6" >0</td>
+      <td id="T_7cfa1_row2_col7" class="data row2 col7" >3/4</td>
+      <td id="T_7cfa1_row2_col8" class="data row2 col8" >4</td>
+      <td id="T_7cfa1_row2_col9" class="data row2 col9" >1</td>
+      <td id="T_7cfa1_row2_col10" class="data row2 col10" >I</td>
+      <td id="T_7cfa1_row2_col11" class="data row2 col11" >F</td>
+      <td id="T_7cfa1_row2_col12" class="data row2 col12" >I</td>
+      <td id="T_7cfa1_row2_col13" class="data row2 col13" >nan</td>
+      <td id="T_7cfa1_row2_col14" class="data row2 col14" >I</td>
+      <td id="T_7cfa1_row2_col15" class="data row2 col15" >nan</td>
+      <td id="T_7cfa1_row2_col16" class="data row2 col16" >I</td>
+      <td id="T_7cfa1_row2_col17" class="data row2 col17" >nan</td>
+      <td id="T_7cfa1_row2_col18" class="data row2 col18" >nan</td>
+      <td id="T_7cfa1_row2_col19" class="data row2 col19" >nan</td>
+      <td id="T_7cfa1_row2_col20" class="data row2 col20" >nan</td>
+      <td id="T_7cfa1_row2_col21" class="data row2 col21" >nan</td>
+      <td id="T_7cfa1_row2_col22" class="data row2 col22" >nan</td>
+      <td id="T_7cfa1_row2_col23" class="data row2 col23" >M</td>
+      <td id="T_7cfa1_row2_col24" class="data row2 col24" >False</td>
+      <td id="T_7cfa1_row2_col25" class="data row2 col25" >False</td>
+      <td id="T_7cfa1_row2_col26" class="data row2 col26" >(0, 4, 1)</td>
+      <td id="T_7cfa1_row2_col27" class="data row2 col27" >()</td>
+      <td id="T_7cfa1_row2_col28" class="data row2 col28" >0</td>
+      <td id="T_7cfa1_row2_col29" class="data row2 col29" >0</td>
+      <td id="T_7cfa1_row2_col30" class="data row2 col30" >nan</td>
+      <td id="T_7cfa1_row2_col31" class="data row2 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row3" class="row_heading level2 row3" >3</th>
+      <td id="T_7cfa1_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_7cfa1_row3_col1" class="data row3 col1" >4</td>
+      <td id="T_7cfa1_row3_col2" class="data row3 col2" >9</td>
+      <td id="T_7cfa1_row3_col3" class="data row3 col3" >9</td>
+      <td id="T_7cfa1_row3_col4" class="data row3 col4" >6.000000</td>
+      <td id="T_7cfa1_row3_col5" class="data row3 col5" >0</td>
+      <td id="T_7cfa1_row3_col6" class="data row3 col6" >0</td>
+      <td id="T_7cfa1_row3_col7" class="data row3 col7" >3/4</td>
+      <td id="T_7cfa1_row3_col8" class="data row3 col8" >4</td>
+      <td id="T_7cfa1_row3_col9" class="data row3 col9" >1</td>
+      <td id="T_7cfa1_row3_col10" class="data row3 col10" >IV6</td>
+      <td id="T_7cfa1_row3_col11" class="data row3 col11" >F</td>
+      <td id="T_7cfa1_row3_col12" class="data row3 col12" >I</td>
+      <td id="T_7cfa1_row3_col13" class="data row3 col13" >nan</td>
+      <td id="T_7cfa1_row3_col14" class="data row3 col14" >IV6</td>
+      <td id="T_7cfa1_row3_col15" class="data row3 col15" >nan</td>
+      <td id="T_7cfa1_row3_col16" class="data row3 col16" >IV</td>
+      <td id="T_7cfa1_row3_col17" class="data row3 col17" >nan</td>
+      <td id="T_7cfa1_row3_col18" class="data row3 col18" >6</td>
+      <td id="T_7cfa1_row3_col19" class="data row3 col19" >nan</td>
+      <td id="T_7cfa1_row3_col20" class="data row3 col20" >nan</td>
+      <td id="T_7cfa1_row3_col21" class="data row3 col21" >nan</td>
+      <td id="T_7cfa1_row3_col22" class="data row3 col22" >nan</td>
+      <td id="T_7cfa1_row3_col23" class="data row3 col23" >M</td>
+      <td id="T_7cfa1_row3_col24" class="data row3 col24" >False</td>
+      <td id="T_7cfa1_row3_col25" class="data row3 col25" >False</td>
+      <td id="T_7cfa1_row3_col26" class="data row3 col26" >(3, 0, -1)</td>
+      <td id="T_7cfa1_row3_col27" class="data row3 col27" >()</td>
+      <td id="T_7cfa1_row3_col28" class="data row3 col28" >-1</td>
+      <td id="T_7cfa1_row3_col29" class="data row3 col29" >3</td>
+      <td id="T_7cfa1_row3_col30" class="data row3 col30" >nan</td>
+      <td id="T_7cfa1_row3_col31" class="data row3 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row4" class="row_heading level2 row4" >4</th>
+      <td id="T_7cfa1_row4_col0" class="data row4 col0" >6</td>
+      <td id="T_7cfa1_row4_col1" class="data row4 col1" >6</td>
+      <td id="T_7cfa1_row4_col2" class="data row4 col2" >15</td>
+      <td id="T_7cfa1_row4_col3" class="data row4 col3" >15</td>
+      <td id="T_7cfa1_row4_col4" class="data row4 col4" >3.000000</td>
+      <td id="T_7cfa1_row4_col5" class="data row4 col5" >0</td>
+      <td id="T_7cfa1_row4_col6" class="data row4 col6" >0</td>
+      <td id="T_7cfa1_row4_col7" class="data row4 col7" >3/4</td>
+      <td id="T_7cfa1_row4_col8" class="data row4 col8" >4</td>
+      <td id="T_7cfa1_row4_col9" class="data row4 col9" >1</td>
+      <td id="T_7cfa1_row4_col10" class="data row4 col10" >V65</td>
+      <td id="T_7cfa1_row4_col11" class="data row4 col11" >F</td>
+      <td id="T_7cfa1_row4_col12" class="data row4 col12" >I</td>
+      <td id="T_7cfa1_row4_col13" class="data row4 col13" >nan</td>
+      <td id="T_7cfa1_row4_col14" class="data row4 col14" >V65</td>
+      <td id="T_7cfa1_row4_col15" class="data row4 col15" >nan</td>
+      <td id="T_7cfa1_row4_col16" class="data row4 col16" >V</td>
+      <td id="T_7cfa1_row4_col17" class="data row4 col17" >nan</td>
+      <td id="T_7cfa1_row4_col18" class="data row4 col18" >65</td>
+      <td id="T_7cfa1_row4_col19" class="data row4 col19" >nan</td>
+      <td id="T_7cfa1_row4_col20" class="data row4 col20" >nan</td>
+      <td id="T_7cfa1_row4_col21" class="data row4 col21" >nan</td>
+      <td id="T_7cfa1_row4_col22" class="data row4 col22" >nan</td>
+      <td id="T_7cfa1_row4_col23" class="data row4 col23" >Mm7</td>
+      <td id="T_7cfa1_row4_col24" class="data row4 col24" >False</td>
+      <td id="T_7cfa1_row4_col25" class="data row4 col25" >False</td>
+      <td id="T_7cfa1_row4_col26" class="data row4 col26" >(5, 2, -1, 1)</td>
+      <td id="T_7cfa1_row4_col27" class="data row4 col27" >()</td>
+      <td id="T_7cfa1_row4_col28" class="data row4 col28" >1</td>
+      <td id="T_7cfa1_row4_col29" class="data row4 col29" >5</td>
+      <td id="T_7cfa1_row4_col30" class="data row4 col30" >nan</td>
+      <td id="T_7cfa1_row4_col31" class="data row4 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row5" class="row_heading level2 row5" >5</th>
+      <td id="T_7cfa1_row5_col0" class="data row5 col0" >7</td>
+      <td id="T_7cfa1_row5_col1" class="data row5 col1" >7</td>
+      <td id="T_7cfa1_row5_col2" class="data row5 col2" >18</td>
+      <td id="T_7cfa1_row5_col3" class="data row5 col3" >18</td>
+      <td id="T_7cfa1_row5_col4" class="data row5 col4" >1.000000</td>
+      <td id="T_7cfa1_row5_col5" class="data row5 col5" >0</td>
+      <td id="T_7cfa1_row5_col6" class="data row5 col6" >0</td>
+      <td id="T_7cfa1_row5_col7" class="data row5 col7" >3/4</td>
+      <td id="T_7cfa1_row5_col8" class="data row5 col8" >4</td>
+      <td id="T_7cfa1_row5_col9" class="data row5 col9" >1</td>
+      <td id="T_7cfa1_row5_col10" class="data row5 col10" >I</td>
+      <td id="T_7cfa1_row5_col11" class="data row5 col11" >F</td>
+      <td id="T_7cfa1_row5_col12" class="data row5 col12" >I</td>
+      <td id="T_7cfa1_row5_col13" class="data row5 col13" >nan</td>
+      <td id="T_7cfa1_row5_col14" class="data row5 col14" >I</td>
+      <td id="T_7cfa1_row5_col15" class="data row5 col15" >nan</td>
+      <td id="T_7cfa1_row5_col16" class="data row5 col16" >I</td>
+      <td id="T_7cfa1_row5_col17" class="data row5 col17" >nan</td>
+      <td id="T_7cfa1_row5_col18" class="data row5 col18" >nan</td>
+      <td id="T_7cfa1_row5_col19" class="data row5 col19" >nan</td>
+      <td id="T_7cfa1_row5_col20" class="data row5 col20" >nan</td>
+      <td id="T_7cfa1_row5_col21" class="data row5 col21" >nan</td>
+      <td id="T_7cfa1_row5_col22" class="data row5 col22" >nan</td>
+      <td id="T_7cfa1_row5_col23" class="data row5 col23" >M</td>
+      <td id="T_7cfa1_row5_col24" class="data row5 col24" >False</td>
+      <td id="T_7cfa1_row5_col25" class="data row5 col25" >False</td>
+      <td id="T_7cfa1_row5_col26" class="data row5 col26" >(0, 4, 1)</td>
+      <td id="T_7cfa1_row5_col27" class="data row5 col27" >()</td>
+      <td id="T_7cfa1_row5_col28" class="data row5 col28" >0</td>
+      <td id="T_7cfa1_row5_col29" class="data row5 col29" >0</td>
+      <td id="T_7cfa1_row5_col30" class="data row5 col30" >nan</td>
+      <td id="T_7cfa1_row5_col31" class="data row5 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row6" class="row_heading level2 row6" >6</th>
+      <td id="T_7cfa1_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_7cfa1_row6_col1" class="data row6 col1" >7</td>
+      <td id="T_7cfa1_row6_col2" class="data row6 col2" >19</td>
+      <td id="T_7cfa1_row6_col3" class="data row6 col3" >19</td>
+      <td id="T_7cfa1_row6_col4" class="data row6 col4" >1.000000</td>
+      <td id="T_7cfa1_row6_col5" class="data row6 col5" >1/4</td>
+      <td id="T_7cfa1_row6_col6" class="data row6 col6" >1/4</td>
+      <td id="T_7cfa1_row6_col7" class="data row6 col7" >3/4</td>
+      <td id="T_7cfa1_row6_col8" class="data row6 col8" >4</td>
+      <td id="T_7cfa1_row6_col9" class="data row6 col9" >1</td>
+      <td id="T_7cfa1_row6_col10" class="data row6 col10" >vi</td>
+      <td id="T_7cfa1_row6_col11" class="data row6 col11" >F</td>
+      <td id="T_7cfa1_row6_col12" class="data row6 col12" >I</td>
+      <td id="T_7cfa1_row6_col13" class="data row6 col13" >nan</td>
+      <td id="T_7cfa1_row6_col14" class="data row6 col14" >vi</td>
+      <td id="T_7cfa1_row6_col15" class="data row6 col15" >nan</td>
+      <td id="T_7cfa1_row6_col16" class="data row6 col16" >vi</td>
+      <td id="T_7cfa1_row6_col17" class="data row6 col17" >nan</td>
+      <td id="T_7cfa1_row6_col18" class="data row6 col18" >nan</td>
+      <td id="T_7cfa1_row6_col19" class="data row6 col19" >nan</td>
+      <td id="T_7cfa1_row6_col20" class="data row6 col20" >nan</td>
+      <td id="T_7cfa1_row6_col21" class="data row6 col21" >nan</td>
+      <td id="T_7cfa1_row6_col22" class="data row6 col22" >nan</td>
+      <td id="T_7cfa1_row6_col23" class="data row6 col23" >m</td>
+      <td id="T_7cfa1_row6_col24" class="data row6 col24" >False</td>
+      <td id="T_7cfa1_row6_col25" class="data row6 col25" >False</td>
+      <td id="T_7cfa1_row6_col26" class="data row6 col26" >(3, 0, 4)</td>
+      <td id="T_7cfa1_row6_col27" class="data row6 col27" >()</td>
+      <td id="T_7cfa1_row6_col28" class="data row6 col28" >3</td>
+      <td id="T_7cfa1_row6_col29" class="data row6 col29" >3</td>
+      <td id="T_7cfa1_row6_col30" class="data row6 col30" >nan</td>
+      <td id="T_7cfa1_row6_col31" class="data row6 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row7" class="row_heading level2 row7" >7</th>
+      <td id="T_7cfa1_row7_col0" class="data row7 col0" >7</td>
+      <td id="T_7cfa1_row7_col1" class="data row7 col1" >7</td>
+      <td id="T_7cfa1_row7_col2" class="data row7 col2" >20</td>
+      <td id="T_7cfa1_row7_col3" class="data row7 col3" >20</td>
+      <td id="T_7cfa1_row7_col4" class="data row7 col4" >1.000000</td>
+      <td id="T_7cfa1_row7_col5" class="data row7 col5" >1/2</td>
+      <td id="T_7cfa1_row7_col6" class="data row7 col6" >1/2</td>
+      <td id="T_7cfa1_row7_col7" class="data row7 col7" >3/4</td>
+      <td id="T_7cfa1_row7_col8" class="data row7 col8" >4</td>
+      <td id="T_7cfa1_row7_col9" class="data row7 col9" >1</td>
+      <td id="T_7cfa1_row7_col10" class="data row7 col10" >ii6</td>
+      <td id="T_7cfa1_row7_col11" class="data row7 col11" >F</td>
+      <td id="T_7cfa1_row7_col12" class="data row7 col12" >I</td>
+      <td id="T_7cfa1_row7_col13" class="data row7 col13" >nan</td>
+      <td id="T_7cfa1_row7_col14" class="data row7 col14" >ii6</td>
+      <td id="T_7cfa1_row7_col15" class="data row7 col15" >nan</td>
+      <td id="T_7cfa1_row7_col16" class="data row7 col16" >ii</td>
+      <td id="T_7cfa1_row7_col17" class="data row7 col17" >nan</td>
+      <td id="T_7cfa1_row7_col18" class="data row7 col18" >6</td>
+      <td id="T_7cfa1_row7_col19" class="data row7 col19" >nan</td>
+      <td id="T_7cfa1_row7_col20" class="data row7 col20" >nan</td>
+      <td id="T_7cfa1_row7_col21" class="data row7 col21" >nan</td>
+      <td id="T_7cfa1_row7_col22" class="data row7 col22" >nan</td>
+      <td id="T_7cfa1_row7_col23" class="data row7 col23" >m</td>
+      <td id="T_7cfa1_row7_col24" class="data row7 col24" >False</td>
+      <td id="T_7cfa1_row7_col25" class="data row7 col25" >False</td>
+      <td id="T_7cfa1_row7_col26" class="data row7 col26" >(-1, 3, 2)</td>
+      <td id="T_7cfa1_row7_col27" class="data row7 col27" >()</td>
+      <td id="T_7cfa1_row7_col28" class="data row7 col28" >2</td>
+      <td id="T_7cfa1_row7_col29" class="data row7 col29" >-1</td>
+      <td id="T_7cfa1_row7_col30" class="data row7 col30" >nan</td>
+      <td id="T_7cfa1_row7_col31" class="data row7 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row8" class="row_heading level2 row8" >8</th>
+      <td id="T_7cfa1_row8_col0" class="data row8 col0" >8</td>
+      <td id="T_7cfa1_row8_col1" class="data row8 col1" >8</td>
+      <td id="T_7cfa1_row8_col2" class="data row8 col2" >21</td>
+      <td id="T_7cfa1_row8_col3" class="data row8 col3" >21</td>
+      <td id="T_7cfa1_row8_col4" class="data row8 col4" >2.000000</td>
+      <td id="T_7cfa1_row8_col5" class="data row8 col5" >0</td>
+      <td id="T_7cfa1_row8_col6" class="data row8 col6" >0</td>
+      <td id="T_7cfa1_row8_col7" class="data row8 col7" >3/4</td>
+      <td id="T_7cfa1_row8_col8" class="data row8 col8" >4</td>
+      <td id="T_7cfa1_row8_col9" class="data row8 col9" >1</td>
+      <td id="T_7cfa1_row8_col10" class="data row8 col10" >V(64)</td>
+      <td id="T_7cfa1_row8_col11" class="data row8 col11" >F</td>
+      <td id="T_7cfa1_row8_col12" class="data row8 col12" >I</td>
+      <td id="T_7cfa1_row8_col13" class="data row8 col13" >nan</td>
+      <td id="T_7cfa1_row8_col14" class="data row8 col14" >V(64)</td>
+      <td id="T_7cfa1_row8_col15" class="data row8 col15" >nan</td>
+      <td id="T_7cfa1_row8_col16" class="data row8 col16" >V</td>
+      <td id="T_7cfa1_row8_col17" class="data row8 col17" >nan</td>
+      <td id="T_7cfa1_row8_col18" class="data row8 col18" >nan</td>
+      <td id="T_7cfa1_row8_col19" class="data row8 col19" >64</td>
+      <td id="T_7cfa1_row8_col20" class="data row8 col20" >nan</td>
+      <td id="T_7cfa1_row8_col21" class="data row8 col21" >nan</td>
+      <td id="T_7cfa1_row8_col22" class="data row8 col22" >nan</td>
+      <td id="T_7cfa1_row8_col23" class="data row8 col23" >M</td>
+      <td id="T_7cfa1_row8_col24" class="data row8 col24" >False</td>
+      <td id="T_7cfa1_row8_col25" class="data row8 col25" >False</td>
+      <td id="T_7cfa1_row8_col26" class="data row8 col26" >(1, 0, 4)</td>
+      <td id="T_7cfa1_row8_col27" class="data row8 col27" >()</td>
+      <td id="T_7cfa1_row8_col28" class="data row8 col28" >1</td>
+      <td id="T_7cfa1_row8_col29" class="data row8 col29" >1</td>
+      <td id="T_7cfa1_row8_col30" class="data row8 col30" >nan</td>
+      <td id="T_7cfa1_row8_col31" class="data row8 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row9" class="row_heading level2 row9" >9</th>
+      <td id="T_7cfa1_row9_col0" class="data row9 col0" >8</td>
+      <td id="T_7cfa1_row9_col1" class="data row9 col1" >8</td>
+      <td id="T_7cfa1_row9_col2" class="data row9 col2" >23</td>
+      <td id="T_7cfa1_row9_col3" class="data row9 col3" >23</td>
+      <td id="T_7cfa1_row9_col4" class="data row9 col4" >1.000000</td>
+      <td id="T_7cfa1_row9_col5" class="data row9 col5" >1/2</td>
+      <td id="T_7cfa1_row9_col6" class="data row9 col6" >1/2</td>
+      <td id="T_7cfa1_row9_col7" class="data row9 col7" >3/4</td>
+      <td id="T_7cfa1_row9_col8" class="data row9 col8" >4</td>
+      <td id="T_7cfa1_row9_col9" class="data row9 col9" >1</td>
+      <td id="T_7cfa1_row9_col10" class="data row9 col10" >V\\</td>
+      <td id="T_7cfa1_row9_col11" class="data row9 col11" >F</td>
+      <td id="T_7cfa1_row9_col12" class="data row9 col12" >I</td>
+      <td id="T_7cfa1_row9_col13" class="data row9 col13" >nan</td>
+      <td id="T_7cfa1_row9_col14" class="data row9 col14" >V</td>
+      <td id="T_7cfa1_row9_col15" class="data row9 col15" >nan</td>
+      <td id="T_7cfa1_row9_col16" class="data row9 col16" >V</td>
+      <td id="T_7cfa1_row9_col17" class="data row9 col17" >nan</td>
+      <td id="T_7cfa1_row9_col18" class="data row9 col18" >nan</td>
+      <td id="T_7cfa1_row9_col19" class="data row9 col19" >nan</td>
+      <td id="T_7cfa1_row9_col20" class="data row9 col20" >nan</td>
+      <td id="T_7cfa1_row9_col21" class="data row9 col21" >nan</td>
+      <td id="T_7cfa1_row9_col22" class="data row9 col22" >\\</td>
+      <td id="T_7cfa1_row9_col23" class="data row9 col23" >M</td>
+      <td id="T_7cfa1_row9_col24" class="data row9 col24" >False</td>
+      <td id="T_7cfa1_row9_col25" class="data row9 col25" >False</td>
+      <td id="T_7cfa1_row9_col26" class="data row9 col26" >(1, 5, 2)</td>
+      <td id="T_7cfa1_row9_col27" class="data row9 col27" >()</td>
+      <td id="T_7cfa1_row9_col28" class="data row9 col28" >1</td>
+      <td id="T_7cfa1_row9_col29" class="data row9 col29" >1</td>
+      <td id="T_7cfa1_row9_col30" class="data row9 col30" >nan</td>
+      <td id="T_7cfa1_row9_col31" class="data row9 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row10" class="row_heading level2 row10" >10</th>
+      <td id="T_7cfa1_row10_col0" class="data row10 col0" >9</td>
+      <td id="T_7cfa1_row10_col1" class="data row10 col1" >9</td>
+      <td id="T_7cfa1_row10_col2" class="data row10 col2" >24</td>
+      <td id="T_7cfa1_row10_col3" class="data row10 col3" >24</td>
+      <td id="T_7cfa1_row10_col4" class="data row10 col4" >3.000000</td>
+      <td id="T_7cfa1_row10_col5" class="data row10 col5" >0</td>
+      <td id="T_7cfa1_row10_col6" class="data row10 col6" >0</td>
+      <td id="T_7cfa1_row10_col7" class="data row10 col7" >3/4</td>
+      <td id="T_7cfa1_row10_col8" class="data row10 col8" >4</td>
+      <td id="T_7cfa1_row10_col9" class="data row10 col9" >1</td>
+      <td id="T_7cfa1_row10_col10" class="data row10 col10" >I</td>
+      <td id="T_7cfa1_row10_col11" class="data row10 col11" >F</td>
+      <td id="T_7cfa1_row10_col12" class="data row10 col12" >I</td>
+      <td id="T_7cfa1_row10_col13" class="data row10 col13" >nan</td>
+      <td id="T_7cfa1_row10_col14" class="data row10 col14" >I</td>
+      <td id="T_7cfa1_row10_col15" class="data row10 col15" >nan</td>
+      <td id="T_7cfa1_row10_col16" class="data row10 col16" >I</td>
+      <td id="T_7cfa1_row10_col17" class="data row10 col17" >nan</td>
+      <td id="T_7cfa1_row10_col18" class="data row10 col18" >nan</td>
+      <td id="T_7cfa1_row10_col19" class="data row10 col19" >nan</td>
+      <td id="T_7cfa1_row10_col20" class="data row10 col20" >nan</td>
+      <td id="T_7cfa1_row10_col21" class="data row10 col21" >nan</td>
+      <td id="T_7cfa1_row10_col22" class="data row10 col22" >nan</td>
+      <td id="T_7cfa1_row10_col23" class="data row10 col23" >M</td>
+      <td id="T_7cfa1_row10_col24" class="data row10 col24" >False</td>
+      <td id="T_7cfa1_row10_col25" class="data row10 col25" >False</td>
+      <td id="T_7cfa1_row10_col26" class="data row10 col26" >(0, 4, 1)</td>
+      <td id="T_7cfa1_row10_col27" class="data row10 col27" >()</td>
+      <td id="T_7cfa1_row10_col28" class="data row10 col28" >0</td>
+      <td id="T_7cfa1_row10_col29" class="data row10 col29" >0</td>
+      <td id="T_7cfa1_row10_col30" class="data row10 col30" >nan</td>
+      <td id="T_7cfa1_row10_col31" class="data row10 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row11" class="row_heading level2 row11" >11</th>
+      <td id="T_7cfa1_row11_col0" class="data row11 col0" >10</td>
+      <td id="T_7cfa1_row11_col1" class="data row11 col1" >10</td>
+      <td id="T_7cfa1_row11_col2" class="data row11 col2" >27</td>
+      <td id="T_7cfa1_row11_col3" class="data row11 col3" >27</td>
+      <td id="T_7cfa1_row11_col4" class="data row11 col4" >3.000000</td>
+      <td id="T_7cfa1_row11_col5" class="data row11 col5" >0</td>
+      <td id="T_7cfa1_row11_col6" class="data row11 col6" >0</td>
+      <td id="T_7cfa1_row11_col7" class="data row11 col7" >3/4</td>
+      <td id="T_7cfa1_row11_col8" class="data row11 col8" >4</td>
+      <td id="T_7cfa1_row11_col9" class="data row11 col9" >1</td>
+      <td id="T_7cfa1_row11_col10" class="data row11 col10" >V</td>
+      <td id="T_7cfa1_row11_col11" class="data row11 col11" >F</td>
+      <td id="T_7cfa1_row11_col12" class="data row11 col12" >I</td>
+      <td id="T_7cfa1_row11_col13" class="data row11 col13" >nan</td>
+      <td id="T_7cfa1_row11_col14" class="data row11 col14" >V</td>
+      <td id="T_7cfa1_row11_col15" class="data row11 col15" >nan</td>
+      <td id="T_7cfa1_row11_col16" class="data row11 col16" >V</td>
+      <td id="T_7cfa1_row11_col17" class="data row11 col17" >nan</td>
+      <td id="T_7cfa1_row11_col18" class="data row11 col18" >nan</td>
+      <td id="T_7cfa1_row11_col19" class="data row11 col19" >nan</td>
+      <td id="T_7cfa1_row11_col20" class="data row11 col20" >nan</td>
+      <td id="T_7cfa1_row11_col21" class="data row11 col21" >nan</td>
+      <td id="T_7cfa1_row11_col22" class="data row11 col22" >nan</td>
+      <td id="T_7cfa1_row11_col23" class="data row11 col23" >M</td>
+      <td id="T_7cfa1_row11_col24" class="data row11 col24" >False</td>
+      <td id="T_7cfa1_row11_col25" class="data row11 col25" >False</td>
+      <td id="T_7cfa1_row11_col26" class="data row11 col26" >(1, 5, 2)</td>
+      <td id="T_7cfa1_row11_col27" class="data row11 col27" >()</td>
+      <td id="T_7cfa1_row11_col28" class="data row11 col28" >1</td>
+      <td id="T_7cfa1_row11_col29" class="data row11 col29" >1</td>
+      <td id="T_7cfa1_row11_col30" class="data row11 col30" >nan</td>
+      <td id="T_7cfa1_row11_col31" class="data row11 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row12" class="row_heading level2 row12" >12</th>
+      <td id="T_7cfa1_row12_col0" class="data row12 col0" >11</td>
+      <td id="T_7cfa1_row12_col1" class="data row12 col1" >11</td>
+      <td id="T_7cfa1_row12_col2" class="data row12 col2" >30</td>
+      <td id="T_7cfa1_row12_col3" class="data row12 col3" >30</td>
+      <td id="T_7cfa1_row12_col4" class="data row12 col4" >3.000000</td>
+      <td id="T_7cfa1_row12_col5" class="data row12 col5" >0</td>
+      <td id="T_7cfa1_row12_col6" class="data row12 col6" >0</td>
+      <td id="T_7cfa1_row12_col7" class="data row12 col7" >3/4</td>
+      <td id="T_7cfa1_row12_col8" class="data row12 col8" >4</td>
+      <td id="T_7cfa1_row12_col9" class="data row12 col9" >1</td>
+      <td id="T_7cfa1_row12_col10" class="data row12 col10" >I</td>
+      <td id="T_7cfa1_row12_col11" class="data row12 col11" >F</td>
+      <td id="T_7cfa1_row12_col12" class="data row12 col12" >I</td>
+      <td id="T_7cfa1_row12_col13" class="data row12 col13" >nan</td>
+      <td id="T_7cfa1_row12_col14" class="data row12 col14" >I</td>
+      <td id="T_7cfa1_row12_col15" class="data row12 col15" >nan</td>
+      <td id="T_7cfa1_row12_col16" class="data row12 col16" >I</td>
+      <td id="T_7cfa1_row12_col17" class="data row12 col17" >nan</td>
+      <td id="T_7cfa1_row12_col18" class="data row12 col18" >nan</td>
+      <td id="T_7cfa1_row12_col19" class="data row12 col19" >nan</td>
+      <td id="T_7cfa1_row12_col20" class="data row12 col20" >nan</td>
+      <td id="T_7cfa1_row12_col21" class="data row12 col21" >nan</td>
+      <td id="T_7cfa1_row12_col22" class="data row12 col22" >nan</td>
+      <td id="T_7cfa1_row12_col23" class="data row12 col23" >M</td>
+      <td id="T_7cfa1_row12_col24" class="data row12 col24" >False</td>
+      <td id="T_7cfa1_row12_col25" class="data row12 col25" >False</td>
+      <td id="T_7cfa1_row12_col26" class="data row12 col26" >(0, 4, 1)</td>
+      <td id="T_7cfa1_row12_col27" class="data row12 col27" >()</td>
+      <td id="T_7cfa1_row12_col28" class="data row12 col28" >0</td>
+      <td id="T_7cfa1_row12_col29" class="data row12 col29" >0</td>
+      <td id="T_7cfa1_row12_col30" class="data row12 col30" >nan</td>
+      <td id="T_7cfa1_row12_col31" class="data row12 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row13" class="row_heading level2 row13" >13</th>
+      <td id="T_7cfa1_row13_col0" class="data row13 col0" >12</td>
+      <td id="T_7cfa1_row13_col1" class="data row13 col1" >12</td>
+      <td id="T_7cfa1_row13_col2" class="data row13 col2" >33</td>
+      <td id="T_7cfa1_row13_col3" class="data row13 col3" >33</td>
+      <td id="T_7cfa1_row13_col4" class="data row13 col4" >6.000000</td>
+      <td id="T_7cfa1_row13_col5" class="data row13 col5" >0</td>
+      <td id="T_7cfa1_row13_col6" class="data row13 col6" >0</td>
+      <td id="T_7cfa1_row13_col7" class="data row13 col7" >3/4</td>
+      <td id="T_7cfa1_row13_col8" class="data row13 col8" >4</td>
+      <td id="T_7cfa1_row13_col9" class="data row13 col9" >1</td>
+      <td id="T_7cfa1_row13_col10" class="data row13 col10" >IV6</td>
+      <td id="T_7cfa1_row13_col11" class="data row13 col11" >F</td>
+      <td id="T_7cfa1_row13_col12" class="data row13 col12" >I</td>
+      <td id="T_7cfa1_row13_col13" class="data row13 col13" >nan</td>
+      <td id="T_7cfa1_row13_col14" class="data row13 col14" >IV6</td>
+      <td id="T_7cfa1_row13_col15" class="data row13 col15" >nan</td>
+      <td id="T_7cfa1_row13_col16" class="data row13 col16" >IV</td>
+      <td id="T_7cfa1_row13_col17" class="data row13 col17" >nan</td>
+      <td id="T_7cfa1_row13_col18" class="data row13 col18" >6</td>
+      <td id="T_7cfa1_row13_col19" class="data row13 col19" >nan</td>
+      <td id="T_7cfa1_row13_col20" class="data row13 col20" >nan</td>
+      <td id="T_7cfa1_row13_col21" class="data row13 col21" >nan</td>
+      <td id="T_7cfa1_row13_col22" class="data row13 col22" >nan</td>
+      <td id="T_7cfa1_row13_col23" class="data row13 col23" >M</td>
+      <td id="T_7cfa1_row13_col24" class="data row13 col24" >False</td>
+      <td id="T_7cfa1_row13_col25" class="data row13 col25" >False</td>
+      <td id="T_7cfa1_row13_col26" class="data row13 col26" >(3, 0, -1)</td>
+      <td id="T_7cfa1_row13_col27" class="data row13 col27" >()</td>
+      <td id="T_7cfa1_row13_col28" class="data row13 col28" >-1</td>
+      <td id="T_7cfa1_row13_col29" class="data row13 col29" >3</td>
+      <td id="T_7cfa1_row13_col30" class="data row13 col30" >nan</td>
+      <td id="T_7cfa1_row13_col31" class="data row13 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row14" class="row_heading level2 row14" >14</th>
+      <td id="T_7cfa1_row14_col0" class="data row14 col0" >14</td>
+      <td id="T_7cfa1_row14_col1" class="data row14 col1" >14</td>
+      <td id="T_7cfa1_row14_col2" class="data row14 col2" >39</td>
+      <td id="T_7cfa1_row14_col3" class="data row14 col3" >39</td>
+      <td id="T_7cfa1_row14_col4" class="data row14 col4" >2.000000</td>
+      <td id="T_7cfa1_row14_col5" class="data row14 col5" >0</td>
+      <td id="T_7cfa1_row14_col6" class="data row14 col6" >0</td>
+      <td id="T_7cfa1_row14_col7" class="data row14 col7" >3/4</td>
+      <td id="T_7cfa1_row14_col8" class="data row14 col8" >4</td>
+      <td id="T_7cfa1_row14_col9" class="data row14 col9" >1</td>
+      <td id="T_7cfa1_row14_col10" class="data row14 col10" >#viio7(6)/vi</td>
+      <td id="T_7cfa1_row14_col11" class="data row14 col11" >F</td>
+      <td id="T_7cfa1_row14_col12" class="data row14 col12" >I</td>
+      <td id="T_7cfa1_row14_col13" class="data row14 col13" >nan</td>
+      <td id="T_7cfa1_row14_col14" class="data row14 col14" >#viio7(6)/vi</td>
+      <td id="T_7cfa1_row14_col15" class="data row14 col15" >nan</td>
+      <td id="T_7cfa1_row14_col16" class="data row14 col16" >#vii</td>
+      <td id="T_7cfa1_row14_col17" class="data row14 col17" >o</td>
+      <td id="T_7cfa1_row14_col18" class="data row14 col18" >7</td>
+      <td id="T_7cfa1_row14_col19" class="data row14 col19" >6</td>
+      <td id="T_7cfa1_row14_col20" class="data row14 col20" >vi</td>
+      <td id="T_7cfa1_row14_col21" class="data row14 col21" >nan</td>
+      <td id="T_7cfa1_row14_col22" class="data row14 col22" >nan</td>
+      <td id="T_7cfa1_row14_col23" class="data row14 col23" >o7</td>
+      <td id="T_7cfa1_row14_col24" class="data row14 col24" >False</td>
+      <td id="T_7cfa1_row14_col25" class="data row14 col25" >False</td>
+      <td id="T_7cfa1_row14_col26" class="data row14 col26" >(8, 5, 4, -1)</td>
+      <td id="T_7cfa1_row14_col27" class="data row14 col27" >()</td>
+      <td id="T_7cfa1_row14_col28" class="data row14 col28" >8</td>
+      <td id="T_7cfa1_row14_col29" class="data row14 col29" >8</td>
+      <td id="T_7cfa1_row14_col30" class="data row14 col30" >nan</td>
+      <td id="T_7cfa1_row14_col31" class="data row14 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row15" class="row_heading level2 row15" >15</th>
+      <td id="T_7cfa1_row15_col0" class="data row15 col0" >14</td>
+      <td id="T_7cfa1_row15_col1" class="data row15 col1" >14</td>
+      <td id="T_7cfa1_row15_col2" class="data row15 col2" >41</td>
+      <td id="T_7cfa1_row15_col3" class="data row15 col3" >41</td>
+      <td id="T_7cfa1_row15_col4" class="data row15 col4" >4.000000</td>
+      <td id="T_7cfa1_row15_col5" class="data row15 col5" >1/2</td>
+      <td id="T_7cfa1_row15_col6" class="data row15 col6" >1/2</td>
+      <td id="T_7cfa1_row15_col7" class="data row15 col7" >3/4</td>
+      <td id="T_7cfa1_row15_col8" class="data row15 col8" >4</td>
+      <td id="T_7cfa1_row15_col9" class="data row15 col9" >1</td>
+      <td id="T_7cfa1_row15_col10" class="data row15 col10" >#viio7/vi</td>
+      <td id="T_7cfa1_row15_col11" class="data row15 col11" >F</td>
+      <td id="T_7cfa1_row15_col12" class="data row15 col12" >I</td>
+      <td id="T_7cfa1_row15_col13" class="data row15 col13" >nan</td>
+      <td id="T_7cfa1_row15_col14" class="data row15 col14" >#viio7/vi</td>
+      <td id="T_7cfa1_row15_col15" class="data row15 col15" >nan</td>
+      <td id="T_7cfa1_row15_col16" class="data row15 col16" >#vii</td>
+      <td id="T_7cfa1_row15_col17" class="data row15 col17" >o</td>
+      <td id="T_7cfa1_row15_col18" class="data row15 col18" >7</td>
+      <td id="T_7cfa1_row15_col19" class="data row15 col19" >nan</td>
+      <td id="T_7cfa1_row15_col20" class="data row15 col20" >vi</td>
+      <td id="T_7cfa1_row15_col21" class="data row15 col21" >nan</td>
+      <td id="T_7cfa1_row15_col22" class="data row15 col22" >nan</td>
+      <td id="T_7cfa1_row15_col23" class="data row15 col23" >o7</td>
+      <td id="T_7cfa1_row15_col24" class="data row15 col24" >False</td>
+      <td id="T_7cfa1_row15_col25" class="data row15 col25" >False</td>
+      <td id="T_7cfa1_row15_col26" class="data row15 col26" >(8, 5, 2, -1)</td>
+      <td id="T_7cfa1_row15_col27" class="data row15 col27" >()</td>
+      <td id="T_7cfa1_row15_col28" class="data row15 col28" >8</td>
+      <td id="T_7cfa1_row15_col29" class="data row15 col29" >8</td>
+      <td id="T_7cfa1_row15_col30" class="data row15 col30" >nan</td>
+      <td id="T_7cfa1_row15_col31" class="data row15 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row16" class="row_heading level2 row16" >16</th>
+      <td id="T_7cfa1_row16_col0" class="data row16 col0" >16</td>
+      <td id="T_7cfa1_row16_col1" class="data row16 col1" >16</td>
+      <td id="T_7cfa1_row16_col2" class="data row16 col2" >45</td>
+      <td id="T_7cfa1_row16_col3" class="data row16 col3" >45</td>
+      <td id="T_7cfa1_row16_col4" class="data row16 col4" >2.000000</td>
+      <td id="T_7cfa1_row16_col5" class="data row16 col5" >0</td>
+      <td id="T_7cfa1_row16_col6" class="data row16 col6" >0</td>
+      <td id="T_7cfa1_row16_col7" class="data row16 col7" >3/4</td>
+      <td id="T_7cfa1_row16_col8" class="data row16 col8" >4</td>
+      <td id="T_7cfa1_row16_col9" class="data row16 col9" >1</td>
+      <td id="T_7cfa1_row16_col10" class="data row16 col10" >#viio7(4)/ii</td>
+      <td id="T_7cfa1_row16_col11" class="data row16 col11" >F</td>
+      <td id="T_7cfa1_row16_col12" class="data row16 col12" >I</td>
+      <td id="T_7cfa1_row16_col13" class="data row16 col13" >nan</td>
+      <td id="T_7cfa1_row16_col14" class="data row16 col14" >#viio7(4)/ii</td>
+      <td id="T_7cfa1_row16_col15" class="data row16 col15" >nan</td>
+      <td id="T_7cfa1_row16_col16" class="data row16 col16" >#vii</td>
+      <td id="T_7cfa1_row16_col17" class="data row16 col17" >o</td>
+      <td id="T_7cfa1_row16_col18" class="data row16 col18" >7</td>
+      <td id="T_7cfa1_row16_col19" class="data row16 col19" >4</td>
+      <td id="T_7cfa1_row16_col20" class="data row16 col20" >ii</td>
+      <td id="T_7cfa1_row16_col21" class="data row16 col21" >nan</td>
+      <td id="T_7cfa1_row16_col22" class="data row16 col22" >nan</td>
+      <td id="T_7cfa1_row16_col23" class="data row16 col23" >o7</td>
+      <td id="T_7cfa1_row16_col24" class="data row16 col24" >False</td>
+      <td id="T_7cfa1_row16_col25" class="data row16 col25" >False</td>
+      <td id="T_7cfa1_row16_col26" class="data row16 col26" >(7, -1, 1, -2)</td>
+      <td id="T_7cfa1_row16_col27" class="data row16 col27" >()</td>
+      <td id="T_7cfa1_row16_col28" class="data row16 col28" >7</td>
+      <td id="T_7cfa1_row16_col29" class="data row16 col29" >7</td>
+      <td id="T_7cfa1_row16_col30" class="data row16 col30" >nan</td>
+      <td id="T_7cfa1_row16_col31" class="data row16 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row17" class="row_heading level2 row17" >17</th>
+      <td id="T_7cfa1_row17_col0" class="data row17 col0" >16</td>
+      <td id="T_7cfa1_row17_col1" class="data row17 col1" >16</td>
+      <td id="T_7cfa1_row17_col2" class="data row17 col2" >47</td>
+      <td id="T_7cfa1_row17_col3" class="data row17 col3" >47</td>
+      <td id="T_7cfa1_row17_col4" class="data row17 col4" >4.000000</td>
+      <td id="T_7cfa1_row17_col5" class="data row17 col5" >1/2</td>
+      <td id="T_7cfa1_row17_col6" class="data row17 col6" >1/2</td>
+      <td id="T_7cfa1_row17_col7" class="data row17 col7" >3/4</td>
+      <td id="T_7cfa1_row17_col8" class="data row17 col8" >4</td>
+      <td id="T_7cfa1_row17_col9" class="data row17 col9" >1</td>
+      <td id="T_7cfa1_row17_col10" class="data row17 col10" >#viio7/ii</td>
+      <td id="T_7cfa1_row17_col11" class="data row17 col11" >F</td>
+      <td id="T_7cfa1_row17_col12" class="data row17 col12" >I</td>
+      <td id="T_7cfa1_row17_col13" class="data row17 col13" >nan</td>
+      <td id="T_7cfa1_row17_col14" class="data row17 col14" >#viio7/ii</td>
+      <td id="T_7cfa1_row17_col15" class="data row17 col15" >nan</td>
+      <td id="T_7cfa1_row17_col16" class="data row17 col16" >#vii</td>
+      <td id="T_7cfa1_row17_col17" class="data row17 col17" >o</td>
+      <td id="T_7cfa1_row17_col18" class="data row17 col18" >7</td>
+      <td id="T_7cfa1_row17_col19" class="data row17 col19" >nan</td>
+      <td id="T_7cfa1_row17_col20" class="data row17 col20" >ii</td>
+      <td id="T_7cfa1_row17_col21" class="data row17 col21" >nan</td>
+      <td id="T_7cfa1_row17_col22" class="data row17 col22" >nan</td>
+      <td id="T_7cfa1_row17_col23" class="data row17 col23" >o7</td>
+      <td id="T_7cfa1_row17_col24" class="data row17 col24" >False</td>
+      <td id="T_7cfa1_row17_col25" class="data row17 col25" >False</td>
+      <td id="T_7cfa1_row17_col26" class="data row17 col26" >(7, 4, 1, -2)</td>
+      <td id="T_7cfa1_row17_col27" class="data row17 col27" >()</td>
+      <td id="T_7cfa1_row17_col28" class="data row17 col28" >7</td>
+      <td id="T_7cfa1_row17_col29" class="data row17 col29" >7</td>
+      <td id="T_7cfa1_row17_col30" class="data row17 col30" >nan</td>
+      <td id="T_7cfa1_row17_col31" class="data row17 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row18" class="row_heading level2 row18" >18</th>
+      <td id="T_7cfa1_row18_col0" class="data row18 col0" >18</td>
+      <td id="T_7cfa1_row18_col1" class="data row18 col1" >18</td>
+      <td id="T_7cfa1_row18_col2" class="data row18 col2" >51</td>
+      <td id="T_7cfa1_row18_col3" class="data row18 col3" >51</td>
+      <td id="T_7cfa1_row18_col4" class="data row18 col4" >1.500000</td>
+      <td id="T_7cfa1_row18_col5" class="data row18 col5" >0</td>
+      <td id="T_7cfa1_row18_col6" class="data row18 col6" >0</td>
+      <td id="T_7cfa1_row18_col7" class="data row18 col7" >3/4</td>
+      <td id="T_7cfa1_row18_col8" class="data row18 col8" >4</td>
+      <td id="T_7cfa1_row18_col9" class="data row18 col9" >1</td>
+      <td id="T_7cfa1_row18_col10" class="data row18 col10" >ii6(11#7b6)</td>
+      <td id="T_7cfa1_row18_col11" class="data row18 col11" >F</td>
+      <td id="T_7cfa1_row18_col12" class="data row18 col12" >I</td>
+      <td id="T_7cfa1_row18_col13" class="data row18 col13" >nan</td>
+      <td id="T_7cfa1_row18_col14" class="data row18 col14" >ii6(11#7b6)</td>
+      <td id="T_7cfa1_row18_col15" class="data row18 col15" >nan</td>
+      <td id="T_7cfa1_row18_col16" class="data row18 col16" >ii</td>
+      <td id="T_7cfa1_row18_col17" class="data row18 col17" >nan</td>
+      <td id="T_7cfa1_row18_col18" class="data row18 col18" >6</td>
+      <td id="T_7cfa1_row18_col19" class="data row18 col19" >11#7b6</td>
+      <td id="T_7cfa1_row18_col20" class="data row18 col20" >nan</td>
+      <td id="T_7cfa1_row18_col21" class="data row18 col21" >nan</td>
+      <td id="T_7cfa1_row18_col22" class="data row18 col22" >nan</td>
+      <td id="T_7cfa1_row18_col23" class="data row18 col23" >m</td>
+      <td id="T_7cfa1_row18_col24" class="data row18 col24" >False</td>
+      <td id="T_7cfa1_row18_col25" class="data row18 col25" >False</td>
+      <td id="T_7cfa1_row18_col26" class="data row18 col26" >(-1, -2, 7)</td>
+      <td id="T_7cfa1_row18_col27" class="data row18 col27" >(1,)</td>
+      <td id="T_7cfa1_row18_col28" class="data row18 col28" >2</td>
+      <td id="T_7cfa1_row18_col29" class="data row18 col29" >-1</td>
+      <td id="T_7cfa1_row18_col30" class="data row18 col30" >nan</td>
+      <td id="T_7cfa1_row18_col31" class="data row18 col31" ><NA></td>
+    </tr>
+    <tr>
+      <th id="T_7cfa1_level2_row19" class="row_heading level2 row19" >19</th>
+      <td id="T_7cfa1_row19_col0" class="data row19 col0" >18</td>
+      <td id="T_7cfa1_row19_col1" class="data row19 col1" >18</td>
+      <td id="T_7cfa1_row19_col2" class="data row19 col2" >105/2</td>
+      <td id="T_7cfa1_row19_col3" class="data row19 col3" >105/2</td>
+      <td id="T_7cfa1_row19_col4" class="data row19 col4" >1.500000</td>
+      <td id="T_7cfa1_row19_col5" class="data row19 col5" >3/8</td>
+      <td id="T_7cfa1_row19_col6" class="data row19 col6" >3/8</td>
+      <td id="T_7cfa1_row19_col7" class="data row19 col7" >3/4</td>
+      <td id="T_7cfa1_row19_col8" class="data row19 col8" >4</td>
+      <td id="T_7cfa1_row19_col9" class="data row19 col9" >1</td>
+      <td id="T_7cfa1_row19_col10" class="data row19 col10" >ii6</td>
+      <td id="T_7cfa1_row19_col11" class="data row19 col11" >F</td>
+      <td id="T_7cfa1_row19_col12" class="data row19 col12" >I</td>
+      <td id="T_7cfa1_row19_col13" class="data row19 col13" >nan</td>
+      <td id="T_7cfa1_row19_col14" class="data row19 col14" >ii6</td>
+      <td id="T_7cfa1_row19_col15" class="data row19 col15" >nan</td>
+      <td id="T_7cfa1_row19_col16" class="data row19 col16" >ii</td>
+      <td id="T_7cfa1_row19_col17" class="data row19 col17" >nan</td>
+      <td id="T_7cfa1_row19_col18" class="data row19 col18" >6</td>
+      <td id="T_7cfa1_row19_col19" class="data row19 col19" >nan</td>
+      <td id="T_7cfa1_row19_col20" class="data row19 col20" >nan</td>
+      <td id="T_7cfa1_row19_col21" class="data row19 col21" >nan</td>
+      <td id="T_7cfa1_row19_col22" class="data row19 col22" >nan</td>
+      <td id="T_7cfa1_row19_col23" class="data row19 col23" >m</td>
+      <td id="T_7cfa1_row19_col24" class="data row19 col24" >False</td>
+      <td id="T_7cfa1_row19_col25" class="data row19 col25" >False</td>
+      <td id="T_7cfa1_row19_col26" class="data row19 col26" >(-1, 3, 2)</td>
+      <td id="T_7cfa1_row19_col27" class="data row19 col27" >()</td>
+      <td id="T_7cfa1_row19_col28" class="data row19 col28" >2</td>
+      <td id="T_7cfa1_row19_col29" class="data row19 col29" >-1</td>
+      <td id="T_7cfa1_row19_col30" class="data row19 col30" >nan</td>
+      <td id="T_7cfa1_row19_col31" class="data row19 col31" ><NA></td>
+    </tr>
+  </tbody>
+</table>
+</div></div>
+</div>
+<section id="filtering-out-pieces-without-cadence-annotations">
+<h3>Filtering out pieces without cadence annotations<a class="headerlink" href="#filtering-out-pieces-without-cadence-annotations" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">hascadence</span> <span class="o">=</span> <span class="n">dc</span><span class="o">.</span><span class="n">HasCadenceAnnotationsFilter</span><span class="p">()</span><span class="o">.</span><span class="n">process_data</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span>
+<span class="k">assert</span> <span class="p">()</span> <span class="ow">in</span> <span class="n">hascadence</span><span class="o">.</span><span class="n">indices</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">hascadence</span><span class="o">.</span><span class="n">indices</span><span class="p">[()])</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;No cadences found.&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Before: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">dataset</span><span class="o">.</span><span class="n">indices</span><span class="p">[()])</span><span class="si">}</span><span class="s2"> pieces; after removing those without cadence labels: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">hascadence</span><span class="o">.</span><span class="n">indices</span><span class="p">[()])</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">AssertionError</span><span class="g g-Whitespace">                            </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">9</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="n">hascadence</span> <span class="o">=</span> <span class="n">dc</span><span class="o">.</span><span class="n">HasCadenceAnnotationsFilter</span><span class="p">()</span><span class="o">.</span><span class="n">process_data</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="k">assert</span> <span class="p">()</span> <span class="ow">in</span> <span class="n">hascadence</span><span class="o">.</span><span class="n">indices</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">hascadence</span><span class="o">.</span><span class="n">indices</span><span class="p">[()])</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;No cadences found.&quot;</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Before: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">dataset</span><span class="o">.</span><span class="n">indices</span><span class="p">[()])</span><span class="si">}</span><span class="s2"> pieces; after removing those without cadence labels: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">hascadence</span><span class="o">.</span><span class="n">indices</span><span class="p">[()])</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="ne">AssertionError</span>: No cadences found.
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="show-corpora-containing-pieces-with-cadence-annotations">
+<h3>Show corpora containing pieces with cadence annotations<a class="headerlink" href="#show-corpora-containing-pieces-with-cadence-annotations" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">grouped_by_corpus</span> <span class="o">=</span> <span class="n">dc</span><span class="o">.</span><span class="n">CorpusGrouper</span><span class="p">()</span><span class="o">.</span><span class="n">process_data</span><span class="p">(</span><span class="n">hascadence</span><span class="p">)</span>
+<span class="n">corpora</span> <span class="o">=</span> <span class="p">{</span><span class="n">group</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">ixs</span><span class="p">)</span><span class="si">}</span><span class="s2"> pieces&quot;</span> <span class="k">for</span> <span class="n">group</span><span class="p">,</span> <span class="n">ixs</span> <span class="ow">in</span>  <span class="n">grouped_by_corpus</span><span class="o">.</span><span class="n">indices</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">corpora</span><span class="p">)</span><span class="si">}</span><span class="s2"> corpora with </span><span class="si">{</span><span class="nb">sum</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">len</span><span class="p">,</span><span class="w"> </span><span class="n">grouped_by_corpus</span><span class="o">.</span><span class="n">indices</span><span class="o">.</span><span class="n">values</span><span class="p">()))</span><span class="si">}</span><span class="s2"> pieces containing cadence annotations:&quot;</span><span class="p">)</span>
+<span class="n">corpora</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="id1">
+<h3>All annotation labels from the selected pieces<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">all_labels</span> <span class="o">=</span> <span class="n">hascadence</span><span class="o">.</span><span class="n">get_facet</span><span class="p">(</span><span class="s1">&#39;expanded&#39;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">all_labels</span><span class="o">.</span><span class="n">index</span><span class="p">)</span><span class="si">}</span><span class="s2"> hand-annotated harmony labels:&quot;</span><span class="p">)</span>
+<span class="n">all_labels</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:</span><span class="mi">10</span><span class="p">,</span> <span class="mi">13</span><span class="p">:]</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">color_background</span><span class="p">,</span> <span class="n">subset</span><span class="o">=</span><span class="s2">&quot;chord&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="id2">
+<h3>Metadata<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">dataset_metadata</span> <span class="o">=</span> <span class="n">hascadence</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">metadata</span><span class="p">()</span>
+<span class="n">hascadence_metadata</span> <span class="o">=</span> <span class="n">dataset_metadata</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">hascadence</span><span class="o">.</span><span class="n">indices</span><span class="p">[()]]</span>
+<span class="n">hascadence_metadata</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;dataset&#39;</span><span class="p">,</span> <span class="n">level</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">hascadence_metadata</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">mean_composition_years</span> <span class="o">=</span> <span class="n">hascadence_metadata</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">composed_end</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span><span class="o">.</span><span class="n">sort_values</span><span class="p">()</span>
+<span class="n">chronological_order</span> <span class="o">=</span> <span class="n">mean_composition_years</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">to_list</span><span class="p">()</span>
+<span class="n">bar_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">mean_composition_years</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;year&#39;</span><span class="p">),</span> 
+                      <span class="n">hascadence_metadata</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="s1">&#39;dataset&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">size</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;pieces&#39;</span><span class="p">)],</span>
+                     <span class="n">axis</span><span class="o">=</span><span class="mi">1</span>
+                    <span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">bar_data</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;year&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;pieces&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;dataset&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Pieces contained in the dataset&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="overall">
+<h2>Overall<a class="headerlink" href="#overall" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>PAC</strong>: Perfect Authentic Cadence</p></li>
+<li><p><strong>IAC</strong>: Imperfect Authentic Cadence</p></li>
+<li><p><strong>HC</strong>: Half Cadence</p></li>
+<li><p><strong>DC</strong>: Deceptive Cadence</p></li>
+<li><p><strong>EC</strong>: Evaded Cadence</p></li>
+<li><p><strong>PC</strong>: Plagal Cadence</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">all_labels</span><span class="o">.</span><span class="n">cadence</span><span class="o">.</span><span class="n">notna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="si">}</span><span class="s2"> cadence labels.&quot;</span><span class="p">)</span>
+<span class="n">value_count_df</span><span class="p">(</span><span class="n">all_labels</span><span class="o">.</span><span class="n">cadence</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">px</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span><span class="n">all_labels</span><span class="p">[</span><span class="n">all_labels</span><span class="o">.</span><span class="n">cadence</span><span class="o">.</span><span class="n">notna</span><span class="p">()],</span> <span class="n">names</span><span class="o">=</span><span class="s2">&quot;cadence&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;cadence&quot;</span><span class="p">,</span> <span class="n">color_discrete_map</span><span class="o">=</span><span class="n">CADENCE_COLORS</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="per-dataset">
+<h2>Per dataset<a class="headerlink" href="#per-dataset" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">cadence_count_per_dataset</span> <span class="o">=</span> <span class="n">all_labels</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;corpus&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">cadence</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="n">cadence_fraction_per_dataset</span> <span class="o">=</span> <span class="n">cadence_count_per_dataset</span> <span class="o">/</span> <span class="n">cadence_count_per_dataset</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">cadence_fraction_per_dataset</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;count&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(),</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;corpus&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;count&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;cadence&#39;</span><span class="p">,</span>
+      <span class="n">color_discrete_map</span><span class="o">=</span><span class="n">CADENCE_COLORS</span><span class="p">,</span> <span class="n">category_orders</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">dataset</span><span class="o">=</span><span class="n">chronological_order</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span><span class="n">cadence_count_per_dataset</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;count&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(),</span> <span class="n">names</span><span class="o">=</span><span class="s1">&#39;cadence&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;cadence&#39;</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="s1">&#39;count&#39;</span><span class="p">,</span> 
+       <span class="n">facet_col</span><span class="o">=</span><span class="s1">&#39;corpus&#39;</span><span class="p">,</span> <span class="n">facet_col_wrap</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">2000</span><span class="p">,</span> <span class="n">color_discrete_map</span><span class="o">=</span><span class="n">CADENCE_COLORS</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">for_each_annotation</span><span class="p">(</span><span class="k">lambda</span> <span class="n">a</span><span class="p">:</span> <span class="n">a</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="n">a</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;=&quot;</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">]))</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="o">**</span><span class="n">STD_LAYOUT</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="per-phrase">
+<h2>Per phrase<a class="headerlink" href="#per-phrase" title="Permalink to this heading">#</a></h2>
+<section id="number-of-cadences-per-phrase">
+<h3>Number of cadences per phrase<a class="headerlink" href="#number-of-cadences-per-phrase" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">segmented</span> <span class="o">=</span> <span class="n">dc</span><span class="o">.</span><span class="n">PhraseSlicer</span><span class="p">()</span><span class="o">.</span><span class="n">process_data</span><span class="p">(</span><span class="n">grouped_by_corpus</span><span class="p">)</span>
+<span class="n">phrases</span> <span class="o">=</span> <span class="n">segmented</span><span class="o">.</span><span class="n">get_slice_info</span><span class="p">()</span>
+<span class="n">phrase_segments</span> <span class="o">=</span> <span class="n">segmented</span><span class="o">.</span><span class="n">get_facet</span><span class="p">(</span><span class="s2">&quot;expanded&quot;</span><span class="p">)</span>
+<span class="n">phrase_gpb</span> <span class="o">=</span> <span class="n">phrase_segments</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">])</span>
+<span class="n">local_keys_per_phrase</span> <span class="o">=</span> <span class="n">phrase_gpb</span><span class="o">.</span><span class="n">localkey</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="nb">tuple</span><span class="p">)</span>
+<span class="n">n_local_keys_per_phrase</span> <span class="o">=</span> <span class="n">local_keys_per_phrase</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="nb">len</span><span class="p">)</span>
+<span class="n">phrases_with_keys</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">n_local_keys_per_phrase</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;n_local_keys&#39;</span><span class="p">),</span>
+                               <span class="n">local_keys_per_phrase</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;local_keys&#39;</span><span class="p">),</span>
+                               <span class="n">phrases</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">phrases_with_cadences</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span>
+    <span class="n">phrase_gpb</span><span class="o">.</span><span class="n">cadence</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;n_cadences&#39;</span><span class="p">),</span>
+    <span class="n">phrase_gpb</span><span class="o">.</span><span class="n">cadence</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;cadences&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">l</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">e</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">l</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">pd</span><span class="o">.</span><span class="n">isnull</span><span class="p">(</span><span class="n">e</span><span class="p">))),</span>
+    <span class="n">phrases_with_keys</span>
+<span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">value_count_df</span><span class="p">(</span><span class="n">phrases_with_cadences</span><span class="o">.</span><span class="n">n_cadences</span><span class="p">,</span> <span class="n">counts</span><span class="o">=</span><span class="s2">&quot;#phrases&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">n_cad</span> <span class="o">=</span> <span class="n">phrases_with_cadences</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="s1">&#39;corpus&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">n_cadences</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;counts&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;n_cadences&#39;</span><span class="p">)</span>
+<span class="n">n_cad</span><span class="o">.</span><span class="n">n_cadences</span> <span class="o">=</span> <span class="n">n_cad</span><span class="o">.</span><span class="n">n_cadences</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">n_cad</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;corpus&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;counts&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;n_cadences&#39;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">barmode</span><span class="o">=</span><span class="s1">&#39;group&#39;</span><span class="p">,</span>
+             <span class="n">labels</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">n_cadences</span><span class="o">=</span><span class="s2">&quot;#cadences in a phrase&quot;</span><span class="p">),</span>
+             <span class="n">category_orders</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">dataset</span><span class="o">=</span><span class="n">chronological_order</span><span class="p">)</span>
+      <span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="combinations-of-cadence-types-for-phrases-with-more-than-one-cadence">
+<h3>Combinations of cadence types for phrases with more than one cadence<a class="headerlink" href="#combinations-of-cadence-types-for-phrases-with-more-than-one-cadence" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">value_count_df</span><span class="p">(</span><span class="n">phrases_with_cadences</span><span class="p">[</span><span class="n">phrases_with_cadences</span><span class="o">.</span><span class="n">n_cadences</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">cadences</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="positioning-of-cadences-within-phrases">
+<h3>Positioning of cadences within phrases<a class="headerlink" href="#positioning-of-cadences-within-phrases" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_rows</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">y_position</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">ix</span> <span class="ow">in</span> <span class="n">phrases_with_cadences</span><span class="p">[</span><span class="n">phrases_with_cadences</span><span class="o">.</span><span class="n">n_cadences</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;duration_qb&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">index</span><span class="p">:</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">phrase_segments</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">ix</span><span class="p">]</span>
+    <span class="n">description</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">ix</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">df</span><span class="o">.</span><span class="n">cadence</span><span class="o">.</span><span class="n">notna</span><span class="p">()</span><span class="o">.</span><span class="n">any</span><span class="p">():</span>
+        <span class="n">interval</span> <span class="o">=</span> <span class="n">ix</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+        <span class="n">df_rows</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">y_position</span><span class="p">,</span> <span class="n">interval</span><span class="o">.</span><span class="n">length</span><span class="p">,</span> <span class="s2">&quot;end of phrase&quot;</span><span class="p">,</span> <span class="n">description</span><span class="p">))</span>
+        <span class="n">start_pos</span> <span class="o">=</span> <span class="n">interval</span><span class="o">.</span><span class="n">left</span>
+        <span class="n">cadences</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">cadence</span><span class="o">.</span><span class="n">notna</span><span class="p">(),</span> <span class="p">[</span><span class="s1">&#39;quarterbeats&#39;</span><span class="p">,</span> <span class="s1">&#39;cadence&#39;</span><span class="p">]]</span>
+        <span class="n">cadences</span><span class="o">.</span><span class="n">quarterbeats</span> <span class="o">-=</span> <span class="n">start_pos</span>
+        <span class="k">for</span> <span class="n">cadence_x</span><span class="p">,</span> <span class="n">cadence_type</span> <span class="ow">in</span> <span class="n">cadences</span><span class="o">.</span><span class="n">itertuples</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+            <span class="n">df_rows</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">y_position</span><span class="p">,</span> <span class="n">cadence_x</span><span class="p">,</span> <span class="n">cadence_type</span><span class="p">,</span> <span class="n">description</span><span class="p">))</span>
+        <span class="n">y_position</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="c1">#else:</span>
+    <span class="c1">#    df_rows.append((y_position, pd.NA, pd.NA, description))</span>
+    
+<span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">df_rows</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;phrase_ix&quot;</span><span class="p">,</span> <span class="s2">&quot;x&quot;</span><span class="p">,</span> <span class="s2">&quot;marker&quot;</span><span class="p">,</span> <span class="s2">&quot;description&quot;</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">notna</span><span class="p">()],</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;phrase_ix&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;marker&quot;</span><span class="p">,</span> <span class="n">hover_name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">3000</span><span class="p">,</span>
+                <span class="n">labels</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">marker</span><span class="o">=</span><span class="s1">&#39;legend&#39;</span><span class="p">),</span> <span class="n">color_discrete_map</span><span class="o">=</span><span class="n">CADENCE_COLORS</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">marker_size</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_yaxes</span><span class="p">(</span><span class="n">autorange</span><span class="o">=</span><span class="s2">&quot;reversed&quot;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="cadence-ultima">
+<h2>Cadence ultima<a class="headerlink" href="#cadence-ultima" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">phrase_segments</span> <span class="o">=</span> <span class="n">segmented</span><span class="o">.</span><span class="n">get_facet</span><span class="p">(</span><span class="s2">&quot;expanded&quot;</span><span class="p">)</span>
+<span class="n">cadence_selector</span> <span class="o">=</span> <span class="n">phrase_segments</span><span class="o">.</span><span class="n">cadence</span><span class="o">.</span><span class="n">notna</span><span class="p">()</span>
+<span class="n">missing_chord_selector</span> <span class="o">=</span> <span class="n">phrase_segments</span><span class="o">.</span><span class="n">chord</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span>
+<span class="n">cadence_with_missing_chord_selector</span> <span class="o">=</span> <span class="n">cadence_selector</span> <span class="o">&amp;</span> <span class="n">missing_chord_selector</span>
+<span class="n">missing</span> <span class="o">=</span> <span class="n">phrase_segments</span><span class="p">[</span><span class="n">cadence_with_missing_chord_selector</span><span class="p">]</span>
+<span class="n">expanded</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">expand_dcml</span><span class="o">.</span><span class="n">expand_labels</span><span class="p">(</span><span class="n">phrase_segments</span><span class="p">[</span><span class="n">cadence_with_missing_chord_selector</span><span class="p">],</span> <span class="n">propagate</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">chord_tones</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">skip_checks</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">phrase_segments</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">cadence_with_missing_chord_selector</span><span class="p">]</span> <span class="o">=</span> <span class="n">expanded</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Ultima harmony missing for </span><span class="si">{</span><span class="p">(</span><span class="n">phrase_segments</span><span class="o">.</span><span class="n">cadence</span><span class="o">.</span><span class="n">notna</span><span class="p">()</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="n">phrase_segments</span><span class="o">.</span><span class="n">bass_note</span><span class="o">.</span><span class="n">isna</span><span class="p">())</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="si">}</span><span class="s2"> cadence labels.&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section id="ultimae-as-roman-numeral">
+<h3>Ultimae as Roman numeral<a class="headerlink" href="#ultimae-as-roman-numeral" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">highlight</span><span class="p">(</span><span class="n">row</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;#ffffb3&quot;</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">row</span><span class="o">.</span><span class="n">counts</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[</span><span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[</span><span class="s2">&quot;background-color: </span><span class="si">{color}</span><span class="s2">;&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">4</span>
+
+<span class="n">cadence_counts</span> <span class="o">=</span> <span class="n">all_labels</span><span class="o">.</span><span class="n">cadence</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="n">ultima_root</span> <span class="o">=</span> <span class="n">phrase_segments</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;localkey_is_minor&#39;</span><span class="p">,</span> <span class="s1">&#39;cadence&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">numeral</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;counts&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">to_frame</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">ultima_root</span><span class="o">.</span><span class="n">localkey_is_minor</span> <span class="o">=</span> <span class="n">ultima_root</span><span class="o">.</span><span class="n">localkey_is_minor</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="kc">False</span><span class="p">:</span> <span class="s1">&#39;in major&#39;</span><span class="p">,</span> <span class="kc">True</span><span class="p">:</span> <span class="s1">&#39;in minor&#39;</span><span class="p">})</span>
+<span class="c1">#ultima_root.style.apply(highlight, axis=1)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span><span class="n">ultima_root</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="s1">&#39;numeral&#39;</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="s1">&#39;counts&#39;</span><span class="p">,</span> 
+             <span class="n">facet_row</span><span class="o">=</span><span class="s1">&#39;cadence&#39;</span><span class="p">,</span> <span class="n">facet_col</span><span class="o">=</span><span class="s1">&#39;localkey_is_minor&#39;</span><span class="p">,</span> 
+             <span class="n">height</span><span class="o">=</span><span class="mi">1500</span><span class="p">,</span>
+             <span class="n">category_orders</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;cadence&#39;</span><span class="p">:</span> <span class="n">cadence_counts</span><span class="o">.</span><span class="n">index</span><span class="p">},</span>
+            <span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">for_each_annotation</span><span class="p">(</span><span class="k">lambda</span> <span class="n">a</span><span class="p">:</span> <span class="n">a</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="n">a</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;=&quot;</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">]))</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">,</span> <span class="n">textinfo</span><span class="o">=</span><span class="s1">&#39;percent+label&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="o">**</span><span class="n">STD_LAYOUT</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#phrase_segments.groupby(level=[0,1,2], group_keys=False).apply(lambda df: df if ((df.cadence == &#39;PAC&#39;) &amp; (df.numeral == &#39;V&#39;)).any() else None)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="ultimae-bass-note-as-scale-degree">
+<h3>Ultimae bass note as scale degree<a class="headerlink" href="#ultimae-bass-note-as-scale-degree" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ultima_bass</span> <span class="o">=</span> <span class="n">phrase_segments</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;localkey_is_minor&#39;</span><span class="p">,</span><span class="s1">&#39;cadence&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">bass_note</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;counts&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">ultima_bass</span><span class="o">.</span><span class="n">bass_note</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">ultima_bass</span><span class="p">,</span> <span class="n">ms3</span><span class="o">.</span><span class="n">fifths2sd</span><span class="p">,</span> <span class="nb">dict</span><span class="p">(</span><span class="n">fifths</span><span class="o">=</span><span class="s1">&#39;bass_note&#39;</span><span class="p">,</span> <span class="n">minor</span><span class="o">=</span><span class="s1">&#39;localkey_is_minor&#39;</span><span class="p">))</span>
+<span class="n">ultima_bass</span><span class="o">.</span><span class="n">localkey_is_minor</span> <span class="o">=</span> <span class="n">ultima_bass</span><span class="o">.</span><span class="n">localkey_is_minor</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="kc">False</span><span class="p">:</span> <span class="s1">&#39;in major&#39;</span><span class="p">,</span> <span class="kc">True</span><span class="p">:</span> <span class="s1">&#39;in minor&#39;</span><span class="p">})</span>
+<span class="c1">#ultima_bass.style.apply(highlight, axis=1)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span><span class="n">ultima_bass</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="s1">&#39;bass_note&#39;</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="s1">&#39;counts&#39;</span><span class="p">,</span> 
+             <span class="n">facet_row</span><span class="o">=</span><span class="s1">&#39;cadence&#39;</span><span class="p">,</span> <span class="n">facet_col</span><span class="o">=</span><span class="s1">&#39;localkey_is_minor&#39;</span><span class="p">,</span> 
+             <span class="n">height</span><span class="o">=</span><span class="mi">1500</span><span class="p">,</span> 
+             <span class="n">category_orders</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;cadence&#39;</span><span class="p">:</span> <span class="n">cadence_counts</span><span class="o">.</span><span class="n">index</span><span class="p">},</span>
+            <span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">for_each_annotation</span><span class="p">(</span><span class="k">lambda</span> <span class="n">a</span><span class="p">:</span> <span class="n">a</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="n">a</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;=&quot;</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">]))</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">,</span> <span class="n">textinfo</span><span class="o">=</span><span class="s1">&#39;percent+label&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="o">**</span><span class="n">STD_LAYOUT</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="chord-progressions">
+<h2>Chord progressions<a class="headerlink" href="#chord-progressions" title="Permalink to this heading">#</a></h2>
+<section id="pacs-with-ultima-i-i">
+<h3>PACs with ultima I/i<a class="headerlink" href="#pacs-with-ultima-i-i" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">remove_immediate_duplicates</span><span class="p">(</span><span class="n">l</span><span class="p">):</span>
+    <span class="k">return</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">a</span> <span class="k">for</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">l</span><span class="p">,</span> <span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="p">)</span> <span class="o">+</span> <span class="n">l</span><span class="p">)</span> <span class="k">if</span> <span class="n">a</span> <span class="o">!=</span> <span class="n">b</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">get_progressions</span><span class="p">(</span><span class="n">selected</span><span class="o">=</span><span class="s1">&#39;PAC&#39;</span><span class="p">,</span> <span class="n">last_row</span><span class="o">=</span><span class="p">{},</span> <span class="n">feature</span><span class="o">=</span><span class="s1">&#39;chord&#39;</span><span class="p">,</span> <span class="n">dataset</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">as_series</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">remove_duplicates</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Uses the nonlocal variable phrase_segments.&quot;&quot;&quot;</span>
+    <span class="n">last_row</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">v</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="nb">tuple</span><span class="p">)</span> <span class="k">else</span> <span class="p">(</span><span class="n">v</span><span class="p">,)</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">last_row</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+    <span class="n">progressions</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="n">corp</span><span class="p">,</span> <span class="n">fname</span><span class="p">,</span> <span class="o">*</span><span class="n">_</span><span class="p">),</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">phrase_segments</span><span class="p">[</span><span class="n">phrase_segments</span><span class="p">[</span><span class="n">feature</span><span class="p">]</span><span class="o">.</span><span class="n">notna</span><span class="p">()]</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]):</span>
+        <span class="k">if</span> <span class="n">dataset</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">dataset</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">corp</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">cadence</span> <span class="o">==</span> <span class="n">selected</span><span class="p">)</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">any</span><span class="p">():</span>
+            <span class="c1"># remove chords after the last cadence label</span>
+            <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">cadence</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="s1">&#39;bfill&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">notna</span><span class="p">()]</span>
+            <span class="c1"># group segments leading up to a cadence label</span>
+            <span class="n">cadence_groups</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">cadence</span><span class="o">.</span><span class="n">notna</span><span class="p">()</span><span class="o">.</span><span class="n">shift</span><span class="p">()</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">cadence</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">cadence_groups</span><span class="p">):</span>
+                <span class="n">last_r</span> <span class="o">=</span> <span class="n">cadence</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+                <span class="n">typ</span> <span class="o">=</span> <span class="n">last_r</span><span class="o">.</span><span class="n">cadence</span>
+                <span class="k">if</span> <span class="n">typ</span> <span class="o">!=</span> <span class="n">selected</span><span class="p">:</span>
+                    <span class="k">continue</span>
+                <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="n">last_r</span><span class="p">[</span><span class="n">feat</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">values</span> <span class="k">for</span> <span class="n">feat</span><span class="p">,</span> <span class="n">values</span> <span class="ow">in</span> <span class="n">last_row</span><span class="o">.</span><span class="n">items</span><span class="p">()):</span>
+                    <span class="k">continue</span>
+                <span class="k">if</span> <span class="n">remove_duplicates</span><span class="p">:</span>
+                    <span class="n">progressions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">remove_immediate_duplicates</span><span class="p">(</span><span class="n">cadence</span><span class="p">[</span><span class="n">feature</span><span class="p">]</span><span class="o">.</span><span class="n">to_list</span><span class="p">()))</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">progressions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">tuple</span><span class="p">(</span><span class="n">cadence</span><span class="p">[</span><span class="n">feature</span><span class="p">]))</span>
+    <span class="k">if</span> <span class="n">as_series</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">progressions</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="s1">&#39;object&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">progressions</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">chord_progressions</span> <span class="o">=</span> <span class="n">get_progressions</span><span class="p">(</span><span class="s1">&#39;PAC&#39;</span><span class="p">,</span> <span class="nb">dict</span><span class="p">(</span><span class="n">numeral</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;I&#39;</span><span class="p">,</span> <span class="s1">&#39;i&#39;</span><span class="p">)),</span> <span class="s1">&#39;chord&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Progressions for </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">chord_progressions</span><span class="p">)</span><span class="si">}</span><span class="s2"> cadences:&quot;</span><span class="p">)</span>
+<span class="n">value_count_df</span><span class="p">(</span><span class="n">chord_progressions</span><span class="p">,</span> <span class="s2">&quot;chord progressions&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">numeral_progressions</span> <span class="o">=</span> <span class="n">get_progressions</span><span class="p">(</span><span class="s1">&#39;PAC&#39;</span><span class="p">,</span> <span class="nb">dict</span><span class="p">(</span><span class="n">numeral</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;I&#39;</span><span class="p">,</span> <span class="s1">&#39;i&#39;</span><span class="p">)),</span> <span class="s1">&#39;numeral&#39;</span><span class="p">)</span>
+<span class="n">value_count_df</span><span class="p">(</span><span class="n">numeral_progressions</span><span class="p">,</span> <span class="s2">&quot;numeral progressions&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">numeral_prog_no_dups</span> <span class="o">=</span> <span class="n">numeral_progressions</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">remove_immediate_duplicates</span><span class="p">)</span>
+<span class="n">value_count_df</span><span class="p">(</span><span class="n">numeral_prog_no_dups</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="pacs-ending-on-scale-degree-1">
+<h3>PACs ending on scale degree 1<a class="headerlink" href="#pacs-ending-on-scale-degree-1" title="Permalink to this heading">#</a></h3>
+<p><strong>Scale degrees expressed w.r.t. major scale, regardless of actual key.</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">bass_progressions</span> <span class="o">=</span> <span class="n">get_progressions</span><span class="p">(</span><span class="s1">&#39;PAC&#39;</span><span class="p">,</span> <span class="nb">dict</span><span class="p">(</span><span class="n">bass_note</span><span class="o">=</span><span class="mi">0</span><span class="p">),</span> <span class="s1">&#39;bass_note&#39;</span><span class="p">)</span>
+<span class="n">bass_prog</span> <span class="o">=</span> <span class="n">bass_progressions</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">ms3</span><span class="o">.</span><span class="n">fifths2sd</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Progressions for </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">bass_progressions</span><span class="p">)</span><span class="si">}</span><span class="s2"> cadences:&quot;</span><span class="p">)</span>
+<span class="n">value_count_df</span><span class="p">(</span><span class="n">bass_prog</span><span class="p">,</span> <span class="s2">&quot;bass progressions&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">bass_prog_no_dups</span> <span class="o">=</span> <span class="n">bass_prog</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">remove_immediate_duplicates</span><span class="p">)</span>
+<span class="n">value_count_df</span><span class="p">(</span><span class="n">bass_prog_no_dups</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">make_sankey</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">node_pos</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">margin</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;l&#39;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="s1">&#39;t&#39;</span><span class="p">:</span> <span class="mi">10</span><span class="p">},</span> <span class="n">pad</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">color</span><span class="o">==</span><span class="s1">&#39;auto&#39;</span><span class="p">:</span>
+        <span class="n">unique_labels</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span>
+        <span class="n">color_step</span> <span class="o">=</span> <span class="mi">100</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">unique_labels</span><span class="p">)</span>
+        <span class="n">unique_colors</span> <span class="o">=</span> <span class="p">{</span><span class="n">label</span><span class="p">:</span> <span class="sa">f</span><span class="s1">&#39;hsv(</span><span class="si">{</span><span class="nb">round</span><span class="p">(</span><span class="n">i</span><span class="o">*</span><span class="n">color_step</span><span class="p">)</span><span class="si">}</span><span class="s1">%,100%,100%)&#39;</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">label</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">unique_labels</span><span class="p">)}</span>
+        <span class="n">color</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">l</span><span class="p">:</span> <span class="n">unique_colors</span><span class="p">[</span><span class="n">l</span><span class="p">],</span> <span class="n">labels</span><span class="p">))</span>
+    <span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Sankey</span><span class="p">(</span>
+        <span class="n">arrangement</span> <span class="o">=</span> <span class="s1">&#39;snap&#39;</span><span class="p">,</span>
+        <span class="n">node</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
+          <span class="n">pad</span> <span class="o">=</span> <span class="n">pad</span><span class="p">,</span>
+          <span class="c1">#thickness = 20,</span>
+          <span class="c1">#line = dict(color = &quot;black&quot;, width = 0.5),</span>
+          <span class="n">label</span> <span class="o">=</span> <span class="n">labels</span><span class="p">,</span>
+          <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="n">node_pos</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">node_pos</span> <span class="k">else</span> <span class="mi">0</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">))]</span> <span class="k">if</span> <span class="n">node_pos</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="kc">None</span><span class="p">,</span>
+          <span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="n">node_pos</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="k">if</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">node_pos</span> <span class="k">else</span> <span class="mi">0</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">))]</span> <span class="k">if</span> <span class="n">node_pos</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="kc">None</span><span class="p">,</span>
+          <span class="n">color</span> <span class="o">=</span> <span class="n">color</span><span class="p">,</span>
+          <span class="p">),</span>
+        <span class="n">link</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
+          <span class="n">source</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">source</span><span class="p">,</span>
+          <span class="n">target</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">target</span><span class="p">,</span>
+          <span class="n">value</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">value</span>
+          <span class="p">),</span>
+        <span class="p">),</span>
+     <span class="p">)</span>
+
+    <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">margin</span><span class="o">=</span><span class="n">margin</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">fig</span>
+
+<span class="k">def</span> <span class="nf">progressions2graph_data</span><span class="p">(</span><span class="n">progressions</span><span class="p">,</span> <span class="n">cut_at_stage</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="n">stage_nodes</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">dict</span><span class="p">)</span>
+    <span class="n">edge_weights</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">()</span>
+    <span class="n">node_counter</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">progression</span> <span class="ow">in</span> <span class="n">progressions</span><span class="p">:</span>
+        <span class="n">previous_node</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">for</span> <span class="n">stage</span><span class="p">,</span> <span class="n">current</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="nb">reversed</span><span class="p">(</span><span class="n">progression</span><span class="p">)):</span>
+            <span class="k">if</span> <span class="n">cut_at_stage</span> <span class="ow">and</span> <span class="n">stage</span> <span class="o">&gt;</span> <span class="n">cut_at_stage</span><span class="p">:</span>
+                <span class="k">break</span>
+            <span class="k">if</span> <span class="n">current</span> <span class="ow">in</span> <span class="n">stage_nodes</span><span class="p">[</span><span class="n">stage</span><span class="p">]:</span>
+                <span class="n">current_node</span> <span class="o">=</span> <span class="n">stage_nodes</span><span class="p">[</span><span class="n">stage</span><span class="p">][</span><span class="n">current</span><span class="p">]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">stage_nodes</span><span class="p">[</span><span class="n">stage</span><span class="p">][</span><span class="n">current</span><span class="p">]</span> <span class="o">=</span> <span class="n">node_counter</span>
+                <span class="n">current_node</span> <span class="o">=</span> <span class="n">node_counter</span>
+                <span class="n">node_counter</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">if</span> <span class="n">previous_node</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">edge_weights</span><span class="o">.</span><span class="n">update</span><span class="p">([(</span><span class="n">current_node</span><span class="p">,</span> <span class="n">previous_node</span><span class="p">)])</span>
+            <span class="n">previous_node</span> <span class="o">=</span> <span class="n">current_node</span>
+    <span class="k">return</span> <span class="n">stage_nodes</span><span class="p">,</span> <span class="n">edge_weights</span>
+
+<span class="k">def</span> <span class="nf">graph_data2sankey</span><span class="p">(</span><span class="n">stage_nodes</span><span class="p">,</span> <span class="n">edge_weights</span><span class="p">):</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([(</span><span class="n">u</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">w</span><span class="p">)</span> <span class="k">for</span> <span class="p">(</span><span class="n">u</span><span class="p">,</span> <span class="n">v</span><span class="p">),</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">edge_weights</span><span class="o">.</span><span class="n">items</span><span class="p">()],</span> <span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;source&#39;</span><span class="p">,</span> <span class="s1">&#39;target&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">])</span>
+    <span class="n">node2label</span> <span class="o">=</span> <span class="p">{</span><span class="n">node</span><span class="p">:</span> <span class="n">label</span> <span class="k">for</span> <span class="n">stage</span><span class="p">,</span> <span class="n">nodes</span> <span class="ow">in</span> <span class="n">stage_nodes</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">for</span> <span class="n">label</span><span class="p">,</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">nodes</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+    <span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="n">node2label</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">node2label</span><span class="p">))]</span>
+    <span class="k">return</span> <span class="n">make_sankey</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">labels</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">plot_progressions</span><span class="p">(</span><span class="n">progressions</span><span class="p">,</span> <span class="n">cut_at_stage</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="n">stage_nodes</span><span class="p">,</span> <span class="n">edge_weights</span> <span class="o">=</span> <span class="n">progressions2graph_data</span><span class="p">(</span><span class="n">progressions</span><span class="p">,</span> <span class="n">cut_at_stage</span><span class="o">=</span><span class="n">cut_at_stage</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">graph_data2sankey</span><span class="p">(</span><span class="n">stage_nodes</span><span class="p">,</span> <span class="n">edge_weights</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section id="chordal-roots-for-the-3-last-stages">
+<h4>Chordal roots for the 3 last stages<a class="headerlink" href="#chordal-roots-for-the-3-last-stages" title="Permalink to this heading">#</a></h4>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plot_progressions</span><span class="p">(</span><span class="n">numeral_prog_no_dups</span><span class="p">,</span> <span class="n">cut_at_stage</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="complete-chords-for-the-last-four-stages-in-major">
+<h4>Complete chords for the last four stages in major<a class="headerlink" href="#complete-chords-for-the-last-four-stages-in-major" title="Permalink to this heading">#</a></h4>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pac_major</span> <span class="o">=</span> <span class="n">get_progressions</span><span class="p">(</span><span class="s1">&#39;PAC&#39;</span><span class="p">,</span> <span class="nb">dict</span><span class="p">(</span><span class="n">numeral</span><span class="o">=</span><span class="s1">&#39;I&#39;</span><span class="p">,</span> <span class="n">localkey_is_minor</span><span class="o">=</span><span class="kc">False</span><span class="p">),</span> <span class="s1">&#39;chord&#39;</span><span class="p">)</span>
+<span class="n">plot_progressions</span><span class="p">(</span><span class="n">pac_major</span><span class="p">,</span> <span class="n">cut_at_stage</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="bass-degrees-for-the-last-6-stages">
+<h4>Bass degrees for the last 6 stages.<a class="headerlink" href="#bass-degrees-for-the-last-6-stages" title="Permalink to this heading">#</a></h4>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plot_progressions</span><span class="p">(</span><span class="n">bass_prog_no_dups</span><span class="p">,</span> <span class="n">cut_at_stage</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="bass-degrees-without-accidentals">
+<h4>Bass degrees without accidentals<a class="headerlink" href="#bass-degrees-without-accidentals" title="Permalink to this heading">#</a></h4>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">remove_sd_accidentals</span><span class="p">(</span><span class="n">t</span><span class="p">):</span>
+    <span class="k">return</span> <span class="nb">tuple</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">sd</span><span class="p">:</span> <span class="n">sd</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">t</span><span class="p">))</span>
+                  
+<span class="n">bass_prog_no_acc_no_dup</span> <span class="o">=</span> <span class="n">bass_prog</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">remove_sd_accidentals</span><span class="p">)</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">remove_immediate_duplicates</span><span class="p">)</span>
+<span class="n">plot_progressions</span><span class="p">(</span><span class="n">bass_prog_no_acc_no_dup</span><span class="p">,</span> <span class="n">cut_at_stage</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="hcs-ending-on-v">
+<h3>HCs ending on V<a class="headerlink" href="#hcs-ending-on-v" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">half</span> <span class="o">=</span> <span class="n">get_progressions</span><span class="p">(</span><span class="s1">&#39;HC&#39;</span><span class="p">,</span> <span class="nb">dict</span><span class="p">(</span><span class="n">numeral</span><span class="o">=</span><span class="s1">&#39;V&#39;</span><span class="p">),</span> <span class="s1">&#39;bass_note&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">ms3</span><span class="o">.</span><span class="n">fifths2sd</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Progressions for </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">half</span><span class="p">)</span><span class="si">}</span><span class="s2"> cadences:&quot;</span><span class="p">)</span>
+<span class="n">plot_progressions</span><span class="p">(</span><span class="n">half</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">remove_immediate_duplicates</span><span class="p">),</span> <span class="n">cut_at_stage</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="annotations.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Annotations</p>
+      </div>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#metadata">Metadata</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#all-annotation-labels-from-the-selected-pieces">All annotation labels from the selected pieces</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#filtering-out-pieces-without-cadence-annotations">Filtering out pieces without cadence annotations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#show-corpora-containing-pieces-with-cadence-annotations">Show corpora containing pieces with cadence annotations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">All annotation labels from the selected pieces</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Metadata</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overall">Overall</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#per-dataset">Per dataset</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#per-phrase">Per phrase</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#number-of-cadences-per-phrase">Number of cadences per phrase</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#combinations-of-cadence-types-for-phrases-with-more-than-one-cadence">Combinations of cadence types for phrases with more than one cadence</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#positioning-of-cadences-within-phrases">Positioning of cadences within phrases</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cadence-ultima">Cadence ultima</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ultimae-as-roman-numeral">Ultimae as Roman numeral</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ultimae-bass-note-as-scale-degree">Ultimae bass note as scale degree</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chord-progressions">Chord progressions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pacs-with-ultima-i-i">PACs with ultima I/i</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pacs-ending-on-scale-degree-1">PACs ending on scale degree 1</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#chordal-roots-for-the-3-last-stages">Chordal roots for the 3 last stages</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#complete-chords-for-the-last-four-stages-in-major">Complete chords for the last four stages in major</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#bass-degrees-for-the-last-6-stages">Bass degrees for the last 6 stages.</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#bass-degrees-without-accidentals">Bass degrees without accidentals</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hcs-ending-on-v">HCs ending on V</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+  <div class="tocsection sourcelink">
+    <a href="../_sources/notebooks/cadences.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+  <p class="copyright">
+    
+      © Copyright 2023, Johannes Hentschel.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.3.0.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item"><p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.13.3.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

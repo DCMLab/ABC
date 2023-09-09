@@ -1,0 +1,1062 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Annotations &#8212; {{ pretty_repo_name }} v2.1 documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/thebelab.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/thebelab-helper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@^1.0.1/dist/embed-amd.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'notebooks/scale_degrees';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  <div class="navbar-header-items__start">
+    
+      <div class="navbar-item">
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    <p class="title logo__title">{{ pretty_repo_name }} v2.1 documentation</p>
+  
+</a></div>
+    
+  </div>
+  
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item"><nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../introduction.html">
+                        How to use
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../analyses.html">
+                        Analyses
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+        </div>
+      
+      
+        <div class="navbar-item">
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar hide-on-wide">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item"><nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../introduction.html">
+                        How to use
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../analyses.html">
+                        Analyses
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script></div>
+        
+      </div>
+    
+  </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumbs">
+  <ul class="bd-breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">Annotations</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="annotations">
+<h1>Annotations<a class="headerlink" href="#annotations" title="Permalink to this heading">#</a></h1>
+<div class="cell tag_hide-cell docutils container">
+<details class="hide above-input">
+<summary aria-label="Toggle hidden content">
+<span class="collapsed">Show imports</span>
+<span class="expanded">Hide imports</span>
+</summary>
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span><span class="p">,</span> <span class="n">Counter</span>
+<span class="kn">from</span> <span class="nn">fractions</span> <span class="kn">import</span> <span class="n">Fraction</span>
+
+<span class="kn">from</span> <span class="nn">git</span> <span class="kn">import</span> <span class="n">Repo</span>
+<span class="kn">import</span> <span class="nn">dimcat</span> <span class="k">as</span> <span class="nn">dc</span>
+<span class="kn">import</span> <span class="nn">ms3</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_rows&#39;</span><span class="p">,</span> <span class="mi">500</span><span class="p">)</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_columns&#39;</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+<span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
+<span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
+
+<span class="kn">from</span> <span class="nn">utils</span> <span class="kn">import</span> <span class="n">STD_LAYOUT</span><span class="p">,</span> <span class="n">CADENCE_COLORS</span><span class="p">,</span> <span class="n">CORPUS_COLOR_SCALE</span><span class="p">,</span> <span class="n">TYPE_COLORS</span><span class="p">,</span> <span class="n">chronological_corpus_order</span><span class="p">,</span> <span class="n">color_background</span><span class="p">,</span> <span class="n">corpus_mean_composition_years</span><span class="p">,</span> <span class="n">get_corpus_display_name</span><span class="p">,</span> <span class="n">get_repo_name</span><span class="p">,</span> <span class="n">resolve_dir</span><span class="p">,</span> <span class="n">value_count_df</span><span class="p">,</span> <span class="n">get_repo_name</span><span class="p">,</span> <span class="n">print_heading</span><span class="p">,</span> <span class="n">resolve_dir</span>
+</pre></div>
+</div>
+</div>
+</details>
+</div>
+<div class="cell tag_hide-input docutils container">
+<details class="hide above-input">
+<summary aria-label="Toggle hidden content">
+<span class="collapsed">Show source</span>
+<span class="expanded">Hide source</span>
+</summary>
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">CORPUS_PATH</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;CORPUS_PATH&#39;</span><span class="p">,</span> <span class="s2">&quot;/home/hentsche/tmp/all_subcorpora/&quot;</span><span class="p">)</span>
+<span class="n">print_heading</span><span class="p">(</span><span class="s2">&quot;Notebook settings&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;CORPUS_PATH: </span><span class="si">{</span><span class="n">CORPUS_PATH</span><span class="si">!r}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="n">CORPUS_PATH</span> <span class="o">=</span> <span class="n">resolve_dir</span><span class="p">(</span><span class="n">CORPUS_PATH</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</details>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Notebook settings
+-----------------
+
+CORPUS_PATH: &#39;/home/hentsche/tmp/all_subcorpora/&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell tag_hide-input docutils container">
+<details class="hide above-input">
+<summary aria-label="Toggle hidden content">
+<span class="collapsed">Show source</span>
+<span class="expanded">Hide source</span>
+</summary>
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">repo</span> <span class="o">=</span> <span class="n">Repo</span><span class="p">(</span><span class="n">CORPUS_PATH</span><span class="p">)</span>
+<span class="n">print_heading</span><span class="p">(</span><span class="s2">&quot;Data and software versions&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Data repo &#39;</span><span class="si">{</span><span class="n">get_repo_name</span><span class="p">(</span><span class="n">repo</span><span class="p">)</span><span class="si">}</span><span class="s2">&#39; @ </span><span class="si">{</span><span class="n">repo</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span><span class="o">.</span><span class="n">hexsha</span><span class="p">[:</span><span class="mi">7</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;dimcat version </span><span class="si">{</span><span class="n">dc</span><span class="o">.</span><span class="n">__version__</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;ms3 version </span><span class="si">{</span><span class="n">ms3</span><span class="o">.</span><span class="n">__version__</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</details>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NoSuchPathError</span><span class="g g-Whitespace">                           </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">repo</span> <span class="o">=</span> <span class="n">Repo</span><span class="p">(</span><span class="n">CORPUS_PATH</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">print_heading</span><span class="p">(</span><span class="s2">&quot;Data and software versions&quot;</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Data repo &#39;</span><span class="si">{</span><span class="n">get_repo_name</span><span class="p">(</span><span class="n">repo</span><span class="p">)</span><span class="si">}</span><span class="s2">&#39; @ </span><span class="si">{</span><span class="n">repo</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span><span class="o">.</span><span class="n">hexsha</span><span class="p">[:</span><span class="mi">7</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="nn">File ~/.local/lib/python3.10/site-packages/git/repo/base.py:214,</span> in <span class="ni">Repo.__init__</span><span class="nt">(self, path, odbt, search_parent_directories, expand_vars)</span>
+<span class="g g-Whitespace">    </span><span class="mi">212</span> <span class="k">if</span> <span class="n">epath</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">213</span>     <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">epath</span><span class="p">):</span>
+<span class="ne">--&gt; </span><span class="mi">214</span>         <span class="k">raise</span> <span class="n">NoSuchPathError</span><span class="p">(</span><span class="n">epath</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">216</span> <span class="c1">## Walk up the path to find the `.git` dir.</span>
+<span class="g g-Whitespace">    </span><span class="mi">217</span> <span class="c1">#</span>
+<span class="g g-Whitespace">    </span><span class="mi">218</span> <span class="n">curpath</span> <span class="o">=</span> <span class="n">epath</span>
+
+<span class="ne">NoSuchPathError</span>: /home/hentsche/tmp/all_subcorpora
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell tag_remove-output docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">dataset</span> <span class="o">=</span> <span class="n">dc</span><span class="o">.</span><span class="n">Dataset</span><span class="p">()</span>
+<span class="n">dataset</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">directory</span><span class="o">=</span><span class="n">CORPUS_PATH</span><span class="p">,</span> <span class="n">parse_tsv</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell tag_remove-input docutils container">
+</div>
+<div class="cell tag_remove-input docutils container">
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">all_metadata</span> <span class="o">=</span> <span class="n">dataset</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">metadata</span><span class="p">()</span>
+<span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">all_metadata</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;No pieces selected for analysis.&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Metadata covers </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">all_metadata</span><span class="p">)</span><span class="si">}</span><span class="s2"> of the </span><span class="si">{</span><span class="n">dataset</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">count_pieces</span><span class="p">()</span><span class="si">}</span><span class="s2"> scores.&quot;</span><span class="p">)</span>
+<span class="n">mean_composition_years</span> <span class="o">=</span> <span class="n">corpus_mean_composition_years</span><span class="p">(</span><span class="n">all_metadata</span><span class="p">)</span>
+<span class="n">chronological_order</span> <span class="o">=</span> <span class="n">mean_composition_years</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">to_list</span><span class="p">()</span>
+<span class="n">corpus_colors</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">chronological_order</span><span class="p">,</span> <span class="n">CORPUS_COLOR_SCALE</span><span class="p">))</span>
+<span class="n">corpus_names</span> <span class="o">=</span> <span class="p">{</span><span class="n">corp</span><span class="p">:</span> <span class="n">get_corpus_display_name</span><span class="p">(</span><span class="n">corp</span><span class="p">)</span> <span class="k">for</span> <span class="n">corp</span> <span class="ow">in</span> <span class="n">chronological_order</span><span class="p">}</span>
+<span class="n">chronological_corpus_names</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">corpus_names</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
+<span class="n">corpus_name_colors</span> <span class="o">=</span> <span class="p">{</span><span class="n">corpus_names</span><span class="p">[</span><span class="n">corp</span><span class="p">]:</span> <span class="n">color</span> <span class="k">for</span> <span class="n">corp</span><span class="p">,</span> <span class="n">color</span> <span class="ow">in</span> <span class="n">corpus_colors</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section id="dcml-harmony-labels">
+<h2>DCML harmony labels<a class="headerlink" href="#dcml-harmony-labels" title="Permalink to this heading">#</a></h2>
+<div class="cell tag_hide-input docutils container">
+<details class="hide above-input">
+<summary aria-label="Toggle hidden content">
+<span class="collapsed">Show source</span>
+<span class="expanded">Hide source</span>
+</summary>
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">try</span><span class="p">:</span>
+    <span class="n">all_annotations</span> <span class="o">=</span> <span class="n">dataset</span><span class="o">.</span><span class="n">get_facet</span><span class="p">(</span><span class="s1">&#39;expanded&#39;</span><span class="p">)</span>
+<span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+    <span class="n">all_annotations</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
+<span class="n">n_annotations</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">all_annotations</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
+<span class="n">includes_annotations</span> <span class="o">=</span> <span class="n">n_annotations</span> <span class="o">&gt;</span> <span class="mi">0</span>
+<span class="k">if</span> <span class="n">includes_annotations</span><span class="p">:</span>
+    <span class="n">display</span><span class="p">(</span><span class="n">all_annotations</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Concatenated annotation tables contain </span><span class="si">{</span><span class="n">all_annotations</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> rows.&quot;</span><span class="p">)</span>
+    <span class="n">no_chord</span> <span class="o">=</span> <span class="n">all_annotations</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">no_chord</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">no_chord</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="si">}</span><span class="s2"> of them are not chords. Their values are: </span><span class="si">{</span><span class="n">all_annotations</span><span class="o">.</span><span class="n">label</span><span class="p">[</span><span class="n">no_chord</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">dropna</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">to_dict</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">all_chords</span> <span class="o">=</span> <span class="n">all_annotations</span><span class="p">[</span><span class="o">~</span><span class="n">no_chord</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Dataset contains </span><span class="si">{</span><span class="n">all_chords</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> tokens and </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">all_chords</span><span class="o">.</span><span class="n">chord</span><span class="o">.</span><span class="n">unique</span><span class="p">())</span><span class="si">}</span><span class="s2"> types over </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">all_chords</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">]))</span><span class="si">}</span><span class="s2"> documents.&quot;</span><span class="p">)</span>
+    <span class="n">all_annotations</span><span class="p">[</span><span class="s1">&#39;corpus_name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">all_annotations</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">get_level_values</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">corpus_names</span><span class="p">)</span>
+    <span class="n">all_chords</span><span class="p">[</span><span class="s1">&#39;corpus_name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">all_chords</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">get_level_values</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">corpus_names</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Dataset contains no annotations.&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</details>
+</div>
+</section>
+<section id="key-areas">
+<h2>Key areas<a class="headerlink" href="#key-areas" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ms3</span> <span class="kn">import</span> <span class="n">roman_numeral2fifths</span><span class="p">,</span> <span class="n">transform</span><span class="p">,</span> <span class="n">resolve_all_relative_numerals</span><span class="p">,</span> <span class="n">replace_boolean_mode_by_strings</span>
+<span class="n">keys_segmented</span> <span class="o">=</span> <span class="n">dc</span><span class="o">.</span><span class="n">LocalKeySlicer</span><span class="p">()</span><span class="o">.</span><span class="n">process_data</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span>
+<span class="n">keys</span> <span class="o">=</span> <span class="n">keys_segmented</span><span class="o">.</span><span class="n">get_slice_info</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Overall number of key segments is </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">keys</span><span class="o">.</span><span class="n">index</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="n">keys</span><span class="p">[</span><span class="s2">&quot;localkey_fifths&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">transform</span><span class="p">(</span><span class="n">keys</span><span class="p">,</span> <span class="n">roman_numeral2fifths</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;localkey&#39;</span><span class="p">,</span> <span class="s1">&#39;globalkey_is_minor&#39;</span><span class="p">])</span>
+<span class="n">keys</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">color_background</span><span class="p">,</span> <span class="n">subset</span><span class="o">=</span><span class="s2">&quot;localkey&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section id="durational-distribution-of-local-keys">
+<h3>Durational distribution of local keys<a class="headerlink" href="#durational-distribution-of-local-keys" title="Permalink to this heading">#</a></h3>
+<p>All durations given in quarter notes</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">key_durations</span> <span class="o">=</span> <span class="n">keys</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;globalkey_is_minor&#39;</span><span class="p">,</span> <span class="s1">&#39;localkey&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">duration_qb</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">key_durations</span><span class="p">)</span><span class="si">}</span><span class="s2"> keys overall including hierarchical such as &#39;III/v&#39;.&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">keys_resolved</span> <span class="o">=</span> <span class="n">resolve_all_relative_numerals</span><span class="p">(</span><span class="n">keys</span><span class="p">)</span>
+<span class="n">key_resolved_durations</span> <span class="o">=</span> <span class="n">keys_resolved</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;globalkey_is_minor&#39;</span><span class="p">,</span> <span class="s1">&#39;localkey&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">duration_qb</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">key_resolved_durations</span><span class="p">)</span><span class="si">}</span><span class="s2"> keys overall after resolving hierarchical ones.&quot;</span><span class="p">)</span>
+<span class="n">key_resolved_durations</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section id="distribution-of-local-keys-for-piece-in-major-and-in-minor">
+<h4>Distribution of local keys for piece in major and in minor<a class="headerlink" href="#distribution-of-local-keys-for-piece-in-major-and-in-minor" title="Permalink to this heading">#</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">globalkey_mode=minor</span></code> =&gt; Piece is in Minor</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pie_data</span> <span class="o">=</span> <span class="n">replace_boolean_mode_by_strings</span><span class="p">(</span><span class="n">key_resolved_durations</span><span class="o">.</span><span class="n">reset_index</span><span class="p">())</span>
+<span class="n">px</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span><span class="n">pie_data</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="s1">&#39;localkey&#39;</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="s1">&#39;duration_qb&#39;</span><span class="p">,</span> <span class="n">facet_col</span><span class="o">=</span><span class="s1">&#39;globalkey_mode&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="distribution-of-intervals-between-localkey-tonic-and-global-tonic">
+<h4>Distribution of intervals between localkey tonic and global tonic<a class="headerlink" href="#distribution-of-intervals-between-localkey-tonic-and-global-tonic" title="Permalink to this heading">#</a></h4>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">localkey_fifths_durations</span> <span class="o">=</span> <span class="n">keys</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;localkey_fifths&#39;</span><span class="p">,</span> <span class="s1">&#39;localkey_is_minor&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">duration_qb</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">bar_data</span> <span class="o">=</span> <span class="n">replace_boolean_mode_by_strings</span><span class="p">(</span><span class="n">localkey_fifths_durations</span><span class="o">.</span><span class="n">reset_index</span><span class="p">())</span>
+<span class="n">bar_data</span><span class="o">.</span><span class="n">localkey_fifths</span> <span class="o">=</span> <span class="n">bar_data</span><span class="o">.</span><span class="n">localkey_fifths</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">ms3</span><span class="o">.</span><span class="n">fifths2iv</span><span class="p">)</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">bar_data</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;localkey_fifths&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;duration_qb&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;localkey_mode&#39;</span><span class="p">,</span> <span class="n">log_y</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">barmode</span><span class="o">=</span><span class="s1">&#39;group&#39;</span><span class="p">,</span>
+             <span class="n">labels</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">localkey_fifths</span><span class="o">=</span><span class="s1">&#39;Roots of local keys as intervallic distance from the global tonic&#39;</span><span class="p">,</span> 
+                   <span class="n">duration_qb</span><span class="o">=</span><span class="s1">&#39;total duration in quarter notes&#39;</span><span class="p">,</span>
+                   <span class="n">localkey_mode</span><span class="o">=</span><span class="s1">&#39;mode&#39;</span>
+                  <span class="p">),</span>
+             <span class="n">color_discrete_sequence</span><span class="o">=</span><span class="n">CORPUS_COLOR_SCALE</span><span class="p">,</span>
+             <span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="o">**</span><span class="n">STD_LAYOUT</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_yaxes</span><span class="p">(</span><span class="n">gridcolor</span><span class="o">=</span><span class="s1">&#39;lightgrey&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="ratio-between-major-and-minor-key-segments-by-aggregated-durations">
+<h3>Ratio between major and minor key segments by aggregated durations<a class="headerlink" href="#ratio-between-major-and-minor-key-segments-by-aggregated-durations" title="Permalink to this heading">#</a></h3>
+<section id="overall">
+<h4>Overall<a class="headerlink" href="#overall" title="Permalink to this heading">#</a></h4>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">keys</span><span class="o">.</span><span class="n">duration_qb</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_numeric</span><span class="p">(</span><span class="n">keys</span><span class="o">.</span><span class="n">duration_qb</span><span class="p">)</span>
+<span class="n">maj_min_ratio</span> <span class="o">=</span> <span class="n">keys</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;localkey_is_minor&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">duration_qb</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">to_frame</span><span class="p">()</span>
+<span class="n">maj_min_ratio</span><span class="p">[</span><span class="s1">&#39;fraction&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mf">100.0</span> <span class="o">*</span> <span class="n">maj_min_ratio</span><span class="o">.</span><span class="n">duration_qb</span> <span class="o">/</span> <span class="n">maj_min_ratio</span><span class="o">.</span><span class="n">duration_qb</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">maj_min_ratio</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="by-dataset">
+<h4>By dataset<a class="headerlink" href="#by-dataset" title="Permalink to this heading">#</a></h4>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">segment_duration_per_dataset</span> <span class="o">=</span> <span class="n">keys</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;corpus&quot;</span><span class="p">,</span> <span class="s2">&quot;localkey_is_minor&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">duration_qb</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">norm_segment_duration_per_dataset</span> <span class="o">=</span> <span class="mi">100</span> <span class="o">*</span> <span class="n">segment_duration_per_dataset</span> <span class="o">/</span> <span class="n">segment_duration_per_dataset</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="s2">&quot;corpus&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">maj_min_ratio_per_dataset</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">segment_duration_per_dataset</span><span class="p">,</span> 
+                                      <span class="n">norm_segment_duration_per_dataset</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;fraction&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot; %&quot;</span><span class="p">],</span> 
+                                     <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">maj_min_ratio_per_dataset</span><span class="p">[</span><span class="s1">&#39;corpus_name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">maj_min_ratio_per_dataset</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">get_level_values</span><span class="p">(</span><span class="s1">&#39;corpus&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">corpus_names</span><span class="p">)</span>
+<span class="n">maj_min_ratio_per_dataset</span><span class="p">[</span><span class="s1">&#39;mode&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">maj_min_ratio_per_dataset</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">get_level_values</span><span class="p">(</span><span class="s1">&#39;localkey_is_minor&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="kc">False</span><span class="p">:</span> <span class="s1">&#39;major&#39;</span><span class="p">,</span> <span class="kc">True</span><span class="p">:</span> <span class="s1">&#39;minor&#39;</span><span class="p">})</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">maj_min_ratio_per_dataset</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(),</span> 
+       <span class="n">x</span><span class="o">=</span><span class="s2">&quot;corpus_name&quot;</span><span class="p">,</span> 
+       <span class="n">y</span><span class="o">=</span><span class="s2">&quot;duration_qb&quot;</span><span class="p">,</span> 
+       <span class="n">color</span><span class="o">=</span><span class="s2">&quot;mode&quot;</span><span class="p">,</span> 
+       <span class="n">text</span><span class="o">=</span><span class="s1">&#39;fraction&#39;</span><span class="p">,</span>
+       <span class="n">labels</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">dataset</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">duration_qb</span><span class="o">=</span><span class="s2">&quot;duration in 𝅘𝅥&quot;</span><span class="p">,</span> <span class="n">corpus_name</span><span class="o">=</span><span class="s1">&#39;Key segments grouped by corpus&#39;</span><span class="p">),</span>
+       <span class="n">category_orders</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">dataset</span><span class="o">=</span><span class="n">chronological_order</span><span class="p">)</span>
+    <span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="o">**</span><span class="n">STD_LAYOUT</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="harmony-labels">
+<h2>Harmony labels<a class="headerlink" href="#harmony-labels" title="Permalink to this heading">#</a></h2>
+<section id="unigrams">
+<h3>Unigrams<a class="headerlink" href="#unigrams" title="Permalink to this heading">#</a></h3>
+<p>For computing unigram statistics, the tokens need to be grouped by their occurrence within a major or a minor key because this changes their meaning. To that aim, the annotated corpus needs to be sliced into contiguous localkey segments which are then grouped into a major (<code class="docutils literal notranslate"><span class="pre">is_minor=False</span></code>) and a minor group.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">root_durations</span> <span class="o">=</span> <span class="n">all_chords</span><span class="p">[</span><span class="n">all_chords</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">between</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">)]</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;root&#39;</span><span class="p">,</span> <span class="s1">&#39;chord_type&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">duration_qb</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="c1"># sort by stacked bar length:</span>
+<span class="c1">#root_durations = root_durations.sort_values(key=lambda S: S.index.get_level_values(0).map(S.groupby(level=0).sum()), ascending=False)</span>
+<span class="n">bar_data</span> <span class="o">=</span> <span class="n">root_durations</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">bar_data</span><span class="o">.</span><span class="n">root</span> <span class="o">=</span> <span class="n">bar_data</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">ms3</span><span class="o">.</span><span class="n">fifths2iv</span><span class="p">)</span>
+<span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">bar_data</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;root&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;duration_qb&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;chord_type&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">relative_roots</span> <span class="o">=</span> <span class="n">all_chords</span><span class="p">[[</span><span class="s1">&#39;numeral&#39;</span><span class="p">,</span> <span class="s1">&#39;duration_qb&#39;</span><span class="p">,</span> <span class="s1">&#39;relativeroot&#39;</span><span class="p">,</span> <span class="s1">&#39;localkey_is_minor&#39;</span><span class="p">,</span> <span class="s1">&#39;chord_type&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">relative_roots</span><span class="p">[</span><span class="s1">&#39;relativeroot_resolved&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">transform</span><span class="p">(</span><span class="n">relative_roots</span><span class="p">,</span> <span class="n">ms3</span><span class="o">.</span><span class="n">resolve_relative_keys</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;relativeroot&#39;</span><span class="p">,</span> <span class="s1">&#39;localkey_is_minor&#39;</span><span class="p">])</span>
+<span class="n">has_rel</span> <span class="o">=</span> <span class="n">relative_roots</span><span class="o">.</span><span class="n">relativeroot_resolved</span><span class="o">.</span><span class="n">notna</span><span class="p">()</span>
+<span class="n">relative_roots</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">has_rel</span><span class="p">,</span> <span class="s1">&#39;localkey_is_minor&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">relative_roots</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">has_rel</span><span class="p">,</span> <span class="s1">&#39;relativeroot_resolved&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">islower</span><span class="p">()</span>
+<span class="n">relative_roots</span><span class="p">[</span><span class="s1">&#39;root&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">transform</span><span class="p">(</span><span class="n">relative_roots</span><span class="p">,</span> <span class="n">roman_numeral2fifths</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;numeral&#39;</span><span class="p">,</span> <span class="s1">&#39;localkey_is_minor&#39;</span><span class="p">])</span>
+<span class="n">chord_type_frequency</span> <span class="o">=</span> <span class="n">all_chords</span><span class="o">.</span><span class="n">chord_type</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="n">replace_rare</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">map_dict</span><span class="p">({</span><span class="n">t</span><span class="p">:</span> <span class="s1">&#39;other&#39;</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">chord_type_frequency</span><span class="p">[</span><span class="n">chord_type_frequency</span> <span class="o">&lt;</span> <span class="mi">500</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">})</span>
+<span class="n">relative_roots</span><span class="p">[</span><span class="s1">&#39;type_reduced&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">relative_roots</span><span class="o">.</span><span class="n">chord_type</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">replace_rare</span><span class="p">)</span>
+<span class="c1">#is_special = relative_roots.chord_type.isin((&#39;It&#39;, &#39;Ger&#39;, &#39;Fr&#39;))</span>
+<span class="c1">#relative_roots.loc[is_special, &#39;root&#39;] = -4</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">root_durations</span> <span class="o">=</span> <span class="n">relative_roots</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;root&#39;</span><span class="p">,</span> <span class="s1">&#39;type_reduced&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">duration_qb</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">bar_data</span> <span class="o">=</span> <span class="n">root_durations</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">bar_data</span><span class="o">.</span><span class="n">root</span> <span class="o">=</span> <span class="n">bar_data</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">ms3</span><span class="o">.</span><span class="n">fifths2iv</span><span class="p">)</span>
+<span class="n">root_order</span> <span class="o">=</span> <span class="n">bar_data</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;root&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">duration_qb</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">to_list</span><span class="p">()</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">bar_data</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;root&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;duration_qb&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;type_reduced&#39;</span><span class="p">,</span> <span class="n">barmode</span><span class="o">=</span><span class="s1">&#39;group&#39;</span><span class="p">,</span> <span class="n">log_y</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+             <span class="n">color_discrete_map</span><span class="o">=</span><span class="n">TYPE_COLORS</span><span class="p">,</span> 
+             <span class="n">category_orders</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">root</span><span class="o">=</span><span class="n">root_order</span><span class="p">,</span>
+                                  <span class="n">type_reduced</span><span class="o">=</span><span class="n">relative_roots</span><span class="o">.</span><span class="n">type_reduced</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">to_list</span><span class="p">(),</span>
+                                 <span class="p">),</span>
+            <span class="n">labels</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">root</span><span class="o">=</span><span class="s2">&quot;intervallic difference between chord root to the local or secondary tonic&quot;</span><span class="p">,</span>
+                        <span class="n">duration_qb</span><span class="o">=</span><span class="s2">&quot;duration in quarter notes&quot;</span><span class="p">,</span>
+                        <span class="n">type_reduced</span><span class="o">=</span><span class="s2">&quot;chord type&quot;</span><span class="p">,</span>
+                       <span class="p">),</span>
+             <span class="n">width</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>
+             <span class="n">height</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span>
+            <span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="o">**</span><span class="n">STD_LAYOUT</span><span class="p">,</span>
+                  <span class="n">legend</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+                      <span class="n">orientation</span><span class="o">=</span><span class="s1">&#39;h&#39;</span><span class="p">,</span>
+                      <span class="n">xanchor</span><span class="o">=</span><span class="s2">&quot;right&quot;</span><span class="p">,</span>
+                      <span class="n">x</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                      <span class="n">y</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                  <span class="p">)</span>
+                 <span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_yaxes</span><span class="p">(</span><span class="n">gridcolor</span><span class="o">=</span><span class="s1">&#39;lightgrey&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Reduced to </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">bar_data</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,:</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">itertuples</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="w"> </span><span class="n">name</span><span class="o">=</span><span class="kc">None</span><span class="p">)))</span><span class="si">}</span><span class="s2"> types. Paper cites the sum of types in major and types in minor (see below), treating them as distinct.&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">dim_or_aug</span> <span class="o">=</span> <span class="n">bar_data</span><span class="p">[</span><span class="n">bar_data</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;a&quot;</span><span class="p">)</span> <span class="o">|</span> <span class="n">bar_data</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;d&quot;</span><span class="p">)]</span><span class="o">.</span><span class="n">duration_qb</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">complete</span> <span class="o">=</span> <span class="n">bar_data</span><span class="o">.</span><span class="n">duration_qb</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;On diminished or augmented scale degrees: </span><span class="si">{</span><span class="n">dim_or_aug</span><span class="si">}</span><span class="s2"> / </span><span class="si">{</span><span class="n">complete</span><span class="si">}</span><span class="s2"> = </span><span class="si">{</span><span class="n">dim_or_aug</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">complete</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">mode_slices</span> <span class="o">=</span> <span class="n">dc</span><span class="o">.</span><span class="n">ModeGrouper</span><span class="p">()</span><span class="o">.</span><span class="n">process_data</span><span class="p">(</span><span class="n">keys_segmented</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="whole-dataset">
+<h3>Whole dataset<a class="headerlink" href="#whole-dataset" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">mode_slices</span><span class="o">.</span><span class="n">get_slice_info</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">unigrams</span> <span class="o">=</span> <span class="n">dc</span><span class="o">.</span><span class="n">ChordSymbolUnigrams</span><span class="p">(</span><span class="n">once_per_group</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">process_data</span><span class="p">(</span><span class="n">mode_slices</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">unigrams</span><span class="o">.</span><span class="n">group2pandas</span> <span class="o">=</span> <span class="s2">&quot;group_of_series2series&quot;</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">unigrams</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">as_pandas</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">k</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="n">modes</span> <span class="o">=</span> <span class="p">{</span><span class="kc">True</span><span class="p">:</span> <span class="s1">&#39;MINOR&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">:</span> <span class="s1">&#39;MAJOR&#39;</span><span class="p">}</span>
+<span class="k">for</span> <span class="p">(</span><span class="n">is_minor</span><span class="p">,),</span> <span class="n">ugs</span> <span class="ow">in</span> <span class="n">unigrams</span><span class="o">.</span><span class="n">iter</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;TOP </span><span class="si">{</span><span class="n">k</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">modes</span><span class="p">[</span><span class="n">is_minor</span><span class="p">]</span><span class="si">}</span><span class="s2"> UNIGRAMS</span><span class="se">\n</span><span class="si">{</span><span class="n">ugs</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> types, </span><span class="si">{</span><span class="n">ugs</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="si">}</span><span class="s2"> tokens&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">ugs</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="n">k</span><span class="p">)</span><span class="o">.</span><span class="n">to_string</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ugs_dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">modes</span><span class="p">[</span><span class="n">is_minor</span><span class="p">]</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span> <span class="p">(</span><span class="n">ugs</span><span class="o">/</span><span class="n">ugs</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;%&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span> <span class="k">for</span> <span class="p">(</span><span class="n">is_minor</span><span class="p">,),</span> <span class="n">ugs</span> <span class="ow">in</span> <span class="n">unigrams</span><span class="o">.</span><span class="n">iter</span><span class="p">()}</span>
+<span class="n">ugs_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">ugs_dict</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">ugs_df</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;_&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">col</span><span class="p">))</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">ugs_df</span><span class="o">.</span><span class="n">columns</span><span class="p">]</span>
+<span class="n">ugs_df</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="p">(</span><span class="n">ugs_df</span><span class="o">.</span><span class="n">index</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;k&#39;</span><span class="p">)</span>
+<span class="n">ugs_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:</span><span class="mi">50</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">chords_by_localkey</span> <span class="o">=</span> <span class="n">mode_slices</span><span class="o">.</span><span class="n">get_facet</span><span class="p">(</span><span class="s1">&#39;expanded&#39;</span><span class="p">)</span>
+<span class="n">chords_by_localkey</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">is_minor</span><span class="p">,</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">chords_by_localkey</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">group_keys</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">droplevel</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">bass_note</span><span class="o">.</span><span class="n">notna</span><span class="p">()]</span>
+    <span class="n">sd</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">fifths2sd</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">bass_note</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;sd&#39;</span><span class="p">)</span>
+    <span class="n">sd</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">index</span>
+    <span class="n">sd_progression</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span> <span class="n">group_keys</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">bass_note</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">S</span><span class="p">:</span> <span class="n">S</span><span class="o">.</span><span class="n">shift</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">-</span> <span class="n">S</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;sd_progression&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">is_minor</span><span class="p">:</span>
+        <span class="n">chords_by_localkey_minor</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df</span><span class="p">,</span> <span class="n">sd</span><span class="p">,</span> <span class="n">sd_progression</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">chords_by_localkey_major</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df</span><span class="p">,</span> <span class="n">sd</span><span class="p">,</span> <span class="n">sd_progression</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="scale-degrees">
+<h2>Scale degrees<a class="headerlink" href="#scale-degrees" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">chords_by_localkey_minor</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span><span class="p">,</span> <span class="n">defaultdict</span>
+
+<span class="k">def</span> <span class="nf">make_sunburst</span><span class="p">(</span><span class="n">chords</span><span class="p">,</span> <span class="n">mode</span><span class="p">):</span>
+    <span class="n">in_scale</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">sd</span><span class="p">,</span> <span class="n">sd_prog</span> <span class="ow">in</span> <span class="n">chords</span><span class="p">[[</span><span class="s1">&#39;sd&#39;</span><span class="p">,</span> <span class="s1">&#39;sd_progression&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">itertuples</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sd</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">in_scale</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sd</span><span class="p">)</span>
+    <span class="n">label_counts</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">in_scale</span><span class="p">)</span>
+    <span class="n">labels</span><span class="p">,</span> <span class="n">values</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">label_counts</span><span class="o">.</span><span class="n">keys</span><span class="p">()),</span> <span class="nb">list</span><span class="p">(</span><span class="n">label_counts</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
+    <span class="c1">#labels, values = zip(*list((sd, label_counts[sd]) for sd in sorted(label_counts)))</span>
+    <span class="n">parents</span> <span class="o">=</span> <span class="p">[</span><span class="n">mode</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span>
+    <span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="n">mode</span><span class="p">]</span> <span class="o">+</span> <span class="n">labels</span>
+    <span class="n">parents</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="n">parents</span>
+    <span class="n">values</span> <span class="o">=</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">chords</span><span class="p">)]</span> <span class="o">+</span> <span class="n">values</span>
+    <span class="n">fig</span> <span class="o">=</span><span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Sunburst</span><span class="p">(</span>
+        <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">,</span>
+        <span class="n">parents</span><span class="o">=</span><span class="n">parents</span><span class="p">,</span>
+        <span class="n">values</span><span class="o">=</span><span class="n">values</span><span class="p">,</span>
+        <span class="n">branchvalues</span><span class="o">=</span><span class="s2">&quot;total&quot;</span>
+    <span class="p">))</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">margin</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">t</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">l</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">fig</span>
+
+<span class="n">make_sunburst</span><span class="p">(</span><span class="n">chords_by_localkey_minor</span><span class="p">,</span> <span class="s1">&#39;minor&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">make_sunburst</span><span class="p">(</span><span class="n">chords</span><span class="p">,</span> <span class="n">mode</span><span class="p">):</span>
+    <span class="n">in_scale</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">sd2prog</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="n">Counter</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">sd</span><span class="p">,</span> <span class="n">sd_prog</span> <span class="ow">in</span> <span class="n">chords</span><span class="p">[[</span><span class="s1">&#39;sd&#39;</span><span class="p">,</span> <span class="s1">&#39;sd_progression&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">itertuples</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sd</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">in_scale</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sd</span><span class="p">)</span>
+            <span class="n">sd2prog</span><span class="p">[</span><span class="n">sd</span><span class="p">]</span><span class="o">.</span><span class="n">update</span><span class="p">([</span><span class="s2">&quot;∎&quot;</span><span class="p">]</span> <span class="k">if</span> <span class="n">pd</span><span class="o">.</span><span class="n">isnull</span><span class="p">(</span><span class="n">sd_prog</span><span class="p">)</span> <span class="k">else</span> <span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">sd_prog</span><span class="p">)])</span>
+    <span class="n">label_counts</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">in_scale</span><span class="p">)</span>
+    <span class="n">labels</span><span class="p">,</span> <span class="n">values</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">label_counts</span><span class="o">.</span><span class="n">keys</span><span class="p">()),</span> <span class="nb">list</span><span class="p">(</span><span class="n">label_counts</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
+    <span class="c1">#labels, values = zip(*list((sd, label_counts[sd]) for sd in sorted(label_counts)))</span>
+    <span class="n">parents</span> <span class="o">=</span> <span class="p">[</span><span class="n">mode</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span>
+    <span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="n">mode</span><span class="p">]</span> <span class="o">+</span> <span class="n">labels</span>
+    <span class="n">parents</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="n">parents</span>
+    <span class="n">values</span> <span class="o">=</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">chords</span><span class="p">)]</span> <span class="o">+</span> <span class="n">values</span>
+    <span class="c1">#print(sd2prog)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">parents</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">values</span><span class="p">))</span>
+    <span class="k">for</span> <span class="n">scad</span><span class="p">,</span> <span class="n">prog_counts</span> <span class="ow">in</span> <span class="n">sd2prog</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">for</span> <span class="n">prog</span><span class="p">,</span> <span class="n">cnt</span> <span class="ow">in</span> <span class="n">prog_counts</span><span class="o">.</span><span class="n">most_common</span><span class="p">():</span>
+            <span class="n">labels</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">prog</span><span class="p">)</span>
+            <span class="n">parents</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">scad</span><span class="p">)</span>
+            <span class="n">values</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">cnt</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">cnt</span> <span class="o">&lt;</span> <span class="mi">3000</span><span class="p">:</span>
+                <span class="k">break</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;added </span><span class="si">{</span><span class="n">prog</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">scad</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">cnt</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">break</span>
+    
+    <span class="n">fig</span> <span class="o">=</span><span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Sunburst</span><span class="p">(</span>
+        <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">,</span>
+        <span class="n">parents</span><span class="o">=</span><span class="n">parents</span><span class="p">,</span>
+        <span class="n">values</span><span class="o">=</span><span class="n">values</span><span class="p">,</span>
+        <span class="n">branchvalues</span><span class="o">=</span><span class="s2">&quot;total&quot;</span>
+    <span class="p">))</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">margin</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">t</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">l</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">fig</span>
+
+<span class="n">make_sunburst</span><span class="p">(</span><span class="n">chords_by_localkey_minor</span><span class="p">,</span> <span class="s1">&#39;minor&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span><span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Sunburst</span><span class="p">(</span>
+    <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Eve&quot;</span><span class="p">,</span> <span class="s2">&quot;Cain&quot;</span><span class="p">,</span> <span class="s2">&quot;Seth&quot;</span><span class="p">,</span> <span class="s2">&quot;Enos&quot;</span><span class="p">,</span> <span class="s2">&quot;Noam&quot;</span><span class="p">,</span> <span class="s2">&quot;Abel&quot;</span><span class="p">,</span> <span class="s2">&quot;Awan&quot;</span><span class="p">,</span> <span class="s2">&quot;Enoch&quot;</span><span class="p">,</span> <span class="s2">&quot;Azura&quot;</span><span class="p">],</span>
+    <span class="n">parents</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot;Eve&quot;</span><span class="p">,</span> <span class="s2">&quot;Eve&quot;</span><span class="p">,</span> <span class="s2">&quot;Seth&quot;</span><span class="p">,</span> <span class="s2">&quot;Seth&quot;</span><span class="p">,</span> <span class="s2">&quot;Eve&quot;</span><span class="p">,</span> <span class="s2">&quot;Eve&quot;</span><span class="p">,</span> <span class="s2">&quot;Awan&quot;</span><span class="p">,</span> <span class="s2">&quot;Eve&quot;</span> <span class="p">],</span>
+    <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+<span class="p">))</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">margin</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">t</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">l</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span><span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Sunburst</span><span class="p">(</span>
+    <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;major&quot;</span><span class="p">,</span> <span class="s2">&quot;Cain&quot;</span><span class="p">,</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;Enos&quot;</span><span class="p">,</span> <span class="s2">&quot;Noam&quot;</span><span class="p">,</span> <span class="s2">&quot;Abel&quot;</span><span class="p">,</span> <span class="s2">&quot;Awan&quot;</span><span class="p">,</span> <span class="s2">&quot;Enoch&quot;</span><span class="p">,</span> <span class="s2">&quot;Azura&quot;</span><span class="p">],</span>
+    <span class="n">parents</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot;major&quot;</span><span class="p">,</span> <span class="s2">&quot;major&quot;</span><span class="p">,</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;major&quot;</span><span class="p">,</span> <span class="s2">&quot;major&quot;</span><span class="p">,</span> <span class="s2">&quot;Awan&quot;</span><span class="p">,</span> <span class="s2">&quot;major&quot;</span> <span class="p">],</span>
+    <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+<span class="p">))</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">margin</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">t</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">l</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">tips</span><span class="p">()</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">sunburst</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">path</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;sex&#39;</span><span class="p">,</span> <span class="s1">&#39;day&#39;</span><span class="p">,</span> <span class="s1">&#39;time&#39;</span><span class="p">],</span> <span class="n">values</span><span class="o">=</span><span class="s1">&#39;total_bill&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;time&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#localkey_major_no_repeats = ms3.segment_by_adjacency_groups(chords_by_localkey_major, [&#39;sd&#39;, &#39;figbass&#39;], )</span>
+<span class="c1">#localkey_major_no_repeats</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">safe_interval</span><span class="p">(</span><span class="n">fifths</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">pd</span><span class="o">.</span><span class="n">isnull</span><span class="p">(</span><span class="n">fifths</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s2">&quot;∎&quot;</span>
+    <span class="k">return</span> <span class="n">ms3</span><span class="o">.</span><span class="n">fifths2iv</span><span class="p">(</span><span class="n">fifths</span><span class="p">,</span> <span class="n">smallest</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">prepare_sunburst_data</span><span class="p">(</span><span class="n">chords</span><span class="p">):</span>
+    <span class="n">chord_data</span> <span class="o">=</span> <span class="n">chords</span><span class="p">[</span><span class="n">chords</span><span class="o">.</span><span class="n">sd</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">len</span><span class="p">()</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="n">chord_data</span><span class="p">[</span><span class="s2">&quot;interval&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">chord_data</span><span class="o">.</span><span class="n">sd_progression</span><span class="p">,</span> <span class="n">safe_interval</span><span class="p">)</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="s2">&quot;∎&quot;</span><span class="p">)</span>
+    <span class="n">chord_data</span><span class="o">.</span><span class="n">figbass</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="s1">&#39;3&#39;</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">chord_data</span><span class="p">[</span><span class="s2">&quot;following_figbass&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">chord_data</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],)</span><span class="o">.</span><span class="n">figbass</span><span class="o">.</span><span class="n">shift</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="s2">&quot;∎&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">chord_data</span>
+
+<span class="n">column2name</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
+    <span class="n">sd</span><span class="o">=</span><span class="s2">&quot;scale degree&quot;</span><span class="p">,</span>
+    <span class="n">figbass</span><span class="o">=</span><span class="s2">&quot;bass figure&quot;</span><span class="p">,</span>
+    <span class="n">interval</span><span class="o">=</span><span class="s2">&quot;bass progression&quot;</span><span class="p">,</span>
+    <span class="n">following_figbass</span><span class="o">=</span><span class="s2">&quot;subsequent figure&quot;</span>
+<span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">rectangular_sunburst</span><span class="p">(</span>
+    <span class="n">chords</span><span class="p">,</span>
+    <span class="n">path</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;sd&#39;</span><span class="p">,</span> <span class="s1">&#39;figbass&#39;</span><span class="p">,</span> <span class="s1">&#39;interval&#39;</span><span class="p">],</span>
+    <span class="n">height</span> <span class="o">=</span> <span class="mi">1500</span><span class="p">,</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="s2">&quot;Sunburst&quot;</span><span class="p">,</span>
+<span class="p">):</span>
+    <span class="n">chord_data</span> <span class="o">=</span> <span class="n">prepare_sunburst_data</span><span class="p">(</span><span class="n">chords</span><span class="p">)</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">title</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="s1">&#39; - &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">column2name</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">col</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">path</span><span class="p">)</span><span class="si">}</span><span class="s2">)&quot;</span>
+    <span class="k">return</span> <span class="n">px</span><span class="o">.</span><span class="n">sunburst</span><span class="p">(</span>
+        <span class="n">chord_data</span><span class="p">,</span> 
+        <span class="n">path</span><span class="o">=</span><span class="n">path</span><span class="p">,</span> 
+        <span class="n">height</span><span class="o">=</span><span class="n">height</span><span class="p">,</span>
+        <span class="n">title</span><span class="o">=</span><span class="n">title</span><span class="p">,</span>
+    <span class="p">)</span>
+
+<span class="n">rectangular_sunburst</span><span class="p">(</span><span class="n">chords_by_localkey_major</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;MAJOR&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">rectangular_sunburst</span><span class="p">(</span><span class="n">chords_by_localkey_major</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;sd&#39;</span><span class="p">,</span> <span class="s1">&#39;interval&#39;</span><span class="p">,</span> <span class="s1">&#39;figbass&#39;</span><span class="p">,</span> <span class="s1">&#39;following_figbass&#39;</span><span class="p">],</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;MAJOR&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">rectangular_sunburst</span><span class="p">(</span><span class="n">chords_by_localkey_minor</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;MINOR&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">rectangular_sunburst</span><span class="p">(</span><span class="n">chords_by_localkey_minor</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;sd&#39;</span><span class="p">,</span> <span class="s1">&#39;interval&#39;</span><span class="p">,</span> <span class="s1">&#39;figbass&#39;</span><span class="p">],</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;MINOR&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dcml-harmony-labels">DCML harmony labels</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-areas">Key areas</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#durational-distribution-of-local-keys">Durational distribution of local keys</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#distribution-of-local-keys-for-piece-in-major-and-in-minor">Distribution of local keys for piece in major and in minor</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#distribution-of-intervals-between-localkey-tonic-and-global-tonic">Distribution of intervals between localkey tonic and global tonic</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ratio-between-major-and-minor-key-segments-by-aggregated-durations">Ratio between major and minor key segments by aggregated durations</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#overall">Overall</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#by-dataset">By dataset</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#harmony-labels">Harmony labels</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#unigrams">Unigrams</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#whole-dataset">Whole dataset</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scale-degrees">Scale degrees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+  <div class="tocsection sourcelink">
+    <a href="../_sources/notebooks/scale_degrees.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+  <p class="copyright">
+    
+      © Copyright 2023, Johannes Hentschel.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.3.0.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item"><p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.13.3.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>
