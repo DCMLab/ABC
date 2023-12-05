@@ -1,0 +1,6 @@
+repos:
+-   repo: https://github.com/johentsch/ms3
+    rev: v2.4.0
+    hooks:
+    -   id: review
+        args: [-M, -N, -C, -X, -F, -D, -c LATEST_VERSION, --fail]
