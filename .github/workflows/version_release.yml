@@ -61,11 +61,16 @@ jobs:
             pip install ms3
             ms3 transform -M -N -X -F -C -D
 
+      - name: "Store REPO name in lowercase to match the name of the datapackage"
+        run: |
+            echo "REPO=${NAME@L}" >> ${GITHUB_ENV}
+        env:
+          NAME: '${{ github.event.repository.name }}'
       - uses: ncipollo/release-action@v1
         with:
-          artifacts: "${{ github.event.repository.name }}.zip,\
-                      ${{ github.event.repository.name }}.datapackage.json,\
-                      ${{ github.event.repository.name }}.datapackage.errors"
+          artifacts: "${{ env.REPO }}.zip,\
+                      ${{ env.REPO }}.datapackage.json,\
+                      ${{ env.REPO }}.datapackage.errors"
           body: "${{ github.event.pull_request.body }}"
           name: "${{ github.event.pull_request.title }}"
           tag: "${{ steps.generate_tag.outputs.new_tag }}"
