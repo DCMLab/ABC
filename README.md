@@ -13,7 +13,7 @@ and serves as welcome page for both
 For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/ABC/introduction).
 
 
-# ABC - The Annotated Beethoven Corpus (v2.3)
+# ABC - The Annotated Beethoven Corpus (v2.4)
 
 The ABC dataset consists of expert harmonic analyses of all Beethoven string quartets 
 (opp. 18, 59, 74, 95, 127, 130, 131, 132, 135, composed between 1800 and 1826), encoded in a human- and 
