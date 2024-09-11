@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Annotations &#8212; The Annotated Beethoven Corpus v2.2 documentation</title>
+    <title>Annotations &#8212; The Annotated Beethoven Corpus v2.4 documentation</title>
   
   
   
@@ -114,7 +114,7 @@
   
   
   
-    <p class="title logo__title">The Annotated Beethoven Corpus v2.2 documentation</p>
+    <p class="title logo__title">The Annotated Beethoven Corpus v2.4 documentation</p>
   
 </a></div>
     
@@ -398,9 +398,9 @@ CORPUS_PATH: &#39;/home/runner/work/workflow_deployment/ABC&#39;
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Data and software versions
 --------------------------
 
-Data repo &#39;ABC&#39; @ 0188f2c
+Data repo &#39;ABC&#39; @ 4eb646a
 dimcat version 0.3.0
-ms3 version 2.2.1
+ms3 version 2.5.2
 </pre></div>
 </div>
 </div>
@@ -415,31 +415,29 @@ ms3 version 2.2.1
 </div>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[<span class=" -Color -Color-Bold">annotated</span>|all|default]
-All corpora
------------
-View: This view is called &#39;annotated&#39;. It 
-	- excludes pieces that are not contained in the metadata,
-	- filters out file extensions requiring conversion (such as .xml),
-	- excludes review files and folders, and
-	- includes only facets containing one of [&#39;measures&#39;, &#39;notes$&#39;, &#39;expanded&#39;].
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">DeprecationWarning</span><span class="g g-Whitespace">                        </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">5</span><span class="p">],</span> <span class="n">line</span> <span class="mi">3</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="n">annotated_view</span> <span class="o">=</span> <span class="n">dataset</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">get_view</span><span class="p">(</span><span class="s1">&#39;annotated&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">annotated_view</span><span class="o">.</span><span class="n">include</span><span class="p">(</span><span class="s1">&#39;facets&#39;</span><span class="p">,</span> <span class="s1">&#39;measures&#39;</span><span class="p">,</span> <span class="s1">&#39;notes$&#39;</span><span class="p">,</span> <span class="s1">&#39;expanded&#39;</span><span class="p">)</span>
+<span class="ne">----&gt; </span><span class="mi">3</span> <span class="n">annotated_view</span><span class="o">.</span><span class="n">fnames_with_incomplete_facets</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">dataset</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">set_view</span><span class="p">(</span><span class="n">annotated_view</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="n">dataset</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">parse_tsv</span><span class="p">(</span><span class="n">choose</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">)</span>
 
-            has     active measures           notes        expanded       
-       metadata       view detected parsed detected parsed detected parsed
-corpus                                                                    
-ABC         yes  annotated       70     70       70     70       70     70
+<span class="nn">File ~/.local/lib/python3.10/site-packages/ms3/view.py:124,</span> in <span class="ni">View.fnames_with_incomplete_facets</span><span class="nt">(self, value)</span>
+<span class="g g-Whitespace">    </span><span class="mi">122</span> <span class="nd">@fnames_with_incomplete_facets</span><span class="o">.</span><span class="n">setter</span>
+<span class="g g-Whitespace">    </span><span class="mi">123</span> <span class="k">def</span> <span class="nf">fnames_with_incomplete_facets</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+<span class="ne">--&gt; </span><span class="mi">124</span>     <span class="k">raise</span> <span class="ne">DeprecationWarning</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">125</span>         <span class="s2">&quot;&#39;fnames_with_incomplete_facets&#39; was renamed to  &#39;pieces_with_incomplete_facets&#39; in &quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">126</span>         <span class="s2">&quot;ms3 v2.&quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">127</span>     <span class="p">)</span>
 
-9/12 facets are excluded from this view.
+<span class="ne">DeprecationWarning</span>: &#39;fnames_with_incomplete_facets&#39; was renamed to  &#39;pieces_with_incomplete_facets&#39; in ms3 v2.
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell tag_remove-input docutils container">
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>N = 70 annotated pieces, 210 parsed dataframes.
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -452,11 +450,6 @@ ABC         yes  annotated       70     70       70     70       70     70
 <span class="n">corpus_names</span> <span class="o">=</span> <span class="p">{</span><span class="n">corp</span><span class="p">:</span> <span class="n">get_corpus_display_name</span><span class="p">(</span><span class="n">corp</span><span class="p">)</span> <span class="k">for</span> <span class="n">corp</span> <span class="ow">in</span> <span class="n">chronological_order</span><span class="p">}</span>
 <span class="n">chronological_corpus_names</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">corpus_names</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
 <span class="n">corpus_name_colors</span> <span class="o">=</span> <span class="p">{</span><span class="n">corpus_names</span><span class="p">[</span><span class="n">corp</span><span class="p">]:</span> <span class="n">color</span> <span class="k">for</span> <span class="n">corp</span><span class="p">,</span> <span class="n">color</span> <span class="ow">in</span> <span class="n">corpus_colors</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Metadata covers 70 of the 70 scores.
 </pre></div>
 </div>
 </div>
@@ -492,208 +485,6 @@ ABC         yes  annotated       70     70       70     70       70     70
 </div>
 </div>
 </details>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th></th>
-      <th></th>
-      <th>mc</th>
-      <th>mn</th>
-      <th>quarterbeats</th>
-      <th>quarterbeats_all_endings</th>
-      <th>duration_qb</th>
-      <th>mc_onset</th>
-      <th>mn_onset</th>
-      <th>timesig</th>
-      <th>staff</th>
-      <th>voice</th>
-      <th>...</th>
-      <th>phraseend</th>
-      <th>chord_type</th>
-      <th>globalkey_is_minor</th>
-      <th>localkey_is_minor</th>
-      <th>chord_tones</th>
-      <th>added_tones</th>
-      <th>root</th>
-      <th>bass_note</th>
-      <th>alt_label</th>
-      <th>volta</th>
-    </tr>
-    <tr>
-      <th>corpus</th>
-      <th>fname</th>
-      <th>interval</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th rowspan="5" valign="top">ABC</th>
-      <th rowspan="5" valign="top">n01op18-1_01</th>
-      <th>[0.0, 3.0)</th>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>3.0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>3/4</td>
-      <td>4</td>
-      <td>1</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>M</td>
-      <td>False</td>
-      <td>False</td>
-      <td>(0, 4, 1)</td>
-      <td>()</td>
-      <td>0</td>
-      <td>0</td>
-      <td>NaN</td>
-      <td>&lt;NA&gt;</td>
-    </tr>
-    <tr>
-      <th>[3.0, 6.0)</th>
-      <td>2</td>
-      <td>2</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3.0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>3/4</td>
-      <td>4</td>
-      <td>1</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>M</td>
-      <td>False</td>
-      <td>False</td>
-      <td>(1, 5, 2)</td>
-      <td>()</td>
-      <td>1</td>
-      <td>1</td>
-      <td>NaN</td>
-      <td>&lt;NA&gt;</td>
-    </tr>
-    <tr>
-      <th>[6.0, 9.0)</th>
-      <td>3</td>
-      <td>3</td>
-      <td>6</td>
-      <td>6</td>
-      <td>3.0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>3/4</td>
-      <td>4</td>
-      <td>1</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>M</td>
-      <td>False</td>
-      <td>False</td>
-      <td>(0, 4, 1)</td>
-      <td>()</td>
-      <td>0</td>
-      <td>0</td>
-      <td>NaN</td>
-      <td>&lt;NA&gt;</td>
-    </tr>
-    <tr>
-      <th>[9.0, 15.0)</th>
-      <td>4</td>
-      <td>4</td>
-      <td>9</td>
-      <td>9</td>
-      <td>6.0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>3/4</td>
-      <td>4</td>
-      <td>1</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>M</td>
-      <td>False</td>
-      <td>False</td>
-      <td>(3, 0, -1)</td>
-      <td>()</td>
-      <td>-1</td>
-      <td>3</td>
-      <td>NaN</td>
-      <td>&lt;NA&gt;</td>
-    </tr>
-    <tr>
-      <th>[15.0, 18.0)</th>
-      <td>6</td>
-      <td>6</td>
-      <td>15</td>
-      <td>15</td>
-      <td>3.0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>3/4</td>
-      <td>4</td>
-      <td>1</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>Mm7</td>
-      <td>False</td>
-      <td>False</td>
-      <td>(5, 2, -1, 1)</td>
-      <td>()</td>
-      <td>1</td>
-      <td>5</td>
-      <td>NaN</td>
-      <td>&lt;NA&gt;</td>
-    </tr>
-  </tbody>
-</table>
-<p>5 rows × 32 columns</p>
-</div></div><div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Concatenated annotation tables contain 27953 rows.
-95 of them are not chords. Their values are: {&#39;@none&#39;: 95}
-Dataset contains 27858 tokens and 1098 types over 70 documents.
-</pre></div>
-</div>
-</div>
 </div>
 </section>
 <section id="phrases">
@@ -706,13 +497,6 @@ Dataset contains 27858 tokens and 1098 types over 70 documents.
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>corpus  phraseend
-ABC     \\           912
-Name: phraseend, dtype: int64
-</pre></div>
-</div>
-</div>
 </div>
 </section>
 <section id="presence-of-legacy-phrase-endings">
@@ -721,13 +505,6 @@ Name: phraseend, dtype: int64
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">legacy</span> <span class="o">=</span> <span class="n">all_annotations</span><span class="p">[</span><span class="n">all_annotations</span><span class="o">.</span><span class="n">phraseend</span> <span class="o">==</span> <span class="sa">r</span><span class="s1">&#39;</span><span class="se">\\</span><span class="s1">&#39;</span><span class="p">]</span>
 <span class="n">legacy</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">size</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>corpus
-ABC    912
-dtype: int64
 </pre></div>
 </div>
 </div>
@@ -747,74 +524,6 @@ dtype: int64
 <span class="n">phrases</span> <span class="o">=</span> <span class="n">phrase_segmented</span><span class="o">.</span><span class="n">get_slice_info</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Overall number of phrases is </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">phrases</span><span class="o">.</span><span class="n">index</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="n">phrases</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">color_background</span><span class="p">,</span> <span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;quarterbeats&quot;</span><span class="p">,</span> <span class="s2">&quot;duration_qb&quot;</span><span class="p">])</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(&#39;ABC&#39;, &#39;n14op131_06&#39;): No phrase labels present
-</pre></div>
-</div>
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ValueError</span><span class="g g-Whitespace">                                </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">11</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
-<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="n">phrase_segmented</span> <span class="o">=</span> <span class="n">dc</span><span class="o">.</span><span class="n">PhraseSlicer</span><span class="p">()</span><span class="o">.</span><span class="n">process_data</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span>
-<span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">phrases</span> <span class="o">=</span> <span class="n">phrase_segmented</span><span class="o">.</span><span class="n">get_slice_info</span><span class="p">()</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Overall number of phrases is </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">phrases</span><span class="o">.</span><span class="n">index</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">phrases</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">color_background</span><span class="p">,</span> <span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;quarterbeats&quot;</span><span class="p">,</span> <span class="s2">&quot;duration_qb&quot;</span><span class="p">])</span>
-
-<span class="nn">File ~/.local/lib/python3.10/site-packages/dimcat/data.py:695,</span> in <span class="ni">Dataset.get_slice_info</span><span class="nt">(self, ignore_groups)</span>
-<span class="g g-Whitespace">    </span><span class="mi">693</span><span class="w"> </span><span class="sd">&quot;&quot;&quot;Concatenates slice_info Series and returns them as a DataFrame.&quot;&quot;&quot;</span>
-<span class="g g-Whitespace">    </span><span class="mi">694</span> <span class="k">if</span> <span class="n">ignore_groups</span> <span class="ow">or</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_grouped</span><span class="p">:</span>
-<span class="ne">--&gt; </span><span class="mi">695</span>     <span class="n">concatenated_info</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span>
-<span class="g g-Whitespace">    </span><span class="mi">696</span>         <span class="bp">self</span><span class="o">.</span><span class="n">slice_info</span><span class="o">.</span><span class="n">values</span><span class="p">(),</span> <span class="n">keys</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">slice_info</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span>
-<span class="g g-Whitespace">    </span><span class="mi">697</span>     <span class="p">)</span><span class="o">.</span><span class="n">T</span>
-<span class="g g-Whitespace">    </span><span class="mi">698</span>     <span class="n">concatenated_info</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">index_levels</span><span class="p">[</span><span class="s2">&quot;indices&quot;</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">699</span>     <span class="k">return</span> <span class="n">concatenated_info</span>
-
-<span class="nn">File ~/.local/lib/python3.10/site-packages/pandas/util/_decorators.py:331,</span> in <span class="ni">deprecate_nonkeyword_arguments.&lt;locals&gt;.decorate.&lt;locals&gt;.wrapper</span><span class="nt">(*args, **kwargs)</span>
-<span class="g g-Whitespace">    </span><span class="mi">325</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">num_allow_args</span><span class="p">:</span>
-<span class="g g-Whitespace">    </span><span class="mi">326</span>     <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span>
-<span class="g g-Whitespace">    </span><span class="mi">327</span>         <span class="n">msg</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">arguments</span><span class="o">=</span><span class="n">_format_argument_list</span><span class="p">(</span><span class="n">allow_args</span><span class="p">)),</span>
-<span class="g g-Whitespace">    </span><span class="mi">328</span>         <span class="ne">FutureWarning</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">329</span>         <span class="n">stacklevel</span><span class="o">=</span><span class="n">find_stack_level</span><span class="p">(),</span>
-<span class="g g-Whitespace">    </span><span class="mi">330</span>     <span class="p">)</span>
-<span class="ne">--&gt; </span><span class="mi">331</span> <span class="k">return</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-
-<span class="nn">File ~/.local/lib/python3.10/site-packages/pandas/core/reshape/concat.py:368,</span> in <span class="ni">concat</span><span class="nt">(objs, axis, join, ignore_index, keys, levels, names, verify_integrity, sort, copy)</span>
-<span class="g g-Whitespace">    </span><span class="mi">146</span> <span class="nd">@deprecate_nonkeyword_arguments</span><span class="p">(</span><span class="n">version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">allowed_args</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;objs&quot;</span><span class="p">])</span>
-<span class="g g-Whitespace">    </span><span class="mi">147</span> <span class="k">def</span> <span class="nf">concat</span><span class="p">(</span>
-<span class="g g-Whitespace">    </span><span class="mi">148</span>     <span class="n">objs</span><span class="p">:</span> <span class="n">Iterable</span><span class="p">[</span><span class="n">NDFrame</span><span class="p">]</span> <span class="o">|</span> <span class="n">Mapping</span><span class="p">[</span><span class="n">HashableT</span><span class="p">,</span> <span class="n">NDFrame</span><span class="p">],</span>
-   <span class="p">(</span><span class="o">...</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">157</span>     <span class="n">copy</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">158</span> <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">DataFrame</span> <span class="o">|</span> <span class="n">Series</span><span class="p">:</span>
-<span class="g g-Whitespace">    </span><span class="mi">159</span><span class="w">     </span><span class="sd">&quot;&quot;&quot;</span>
-<span class="g g-Whitespace">    </span><span class="mi">160</span><span class="sd">     Concatenate pandas objects along a particular axis.</span>
-<span class="g g-Whitespace">    </span><span class="mi">161</span><span class="sd"> </span>
-<span class="sd">   (...)</span>
-<span class="g g-Whitespace">    </span><span class="mi">366</span><span class="sd">     1   3   4</span>
-<span class="g g-Whitespace">    </span><span class="mi">367</span><span class="sd">     &quot;&quot;&quot;</span>
-<span class="ne">--&gt; </span><span class="mi">368</span>     <span class="n">op</span> <span class="o">=</span> <span class="n">_Concatenator</span><span class="p">(</span>
-<span class="g g-Whitespace">    </span><span class="mi">369</span>         <span class="n">objs</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">370</span>         <span class="n">axis</span><span class="o">=</span><span class="n">axis</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">371</span>         <span class="n">ignore_index</span><span class="o">=</span><span class="n">ignore_index</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">372</span>         <span class="n">join</span><span class="o">=</span><span class="n">join</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">373</span>         <span class="n">keys</span><span class="o">=</span><span class="n">keys</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">374</span>         <span class="n">levels</span><span class="o">=</span><span class="n">levels</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">375</span>         <span class="n">names</span><span class="o">=</span><span class="n">names</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">376</span>         <span class="n">verify_integrity</span><span class="o">=</span><span class="n">verify_integrity</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">377</span>         <span class="n">copy</span><span class="o">=</span><span class="n">copy</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">378</span>         <span class="n">sort</span><span class="o">=</span><span class="n">sort</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">379</span>     <span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">381</span>     <span class="k">return</span> <span class="n">op</span><span class="o">.</span><span class="n">get_result</span><span class="p">()</span>
-
-<span class="nn">File ~/.local/lib/python3.10/site-packages/pandas/core/reshape/concat.py:425,</span> in <span class="ni">_Concatenator.__init__</span><span class="nt">(self, objs, axis, join, keys, levels, names, ignore_index, verify_integrity, copy, sort)</span>
-<span class="g g-Whitespace">    </span><span class="mi">422</span>     <span class="n">objs</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">objs</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">424</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">objs</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-<span class="ne">--&gt; </span><span class="mi">425</span>     <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;No objects to concatenate&quot;</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">427</span> <span class="k">if</span> <span class="n">keys</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
-<span class="g g-Whitespace">    </span><span class="mi">428</span>     <span class="n">objs</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">com</span><span class="o">.</span><span class="n">not_none</span><span class="p">(</span><span class="o">*</span><span class="n">objs</span><span class="p">))</span>
-
-<span class="ne">ValueError</span>: No objects to concatenate
 </pre></div>
 </div>
 </div>

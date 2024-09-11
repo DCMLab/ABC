@@ -1,34 +1,46 @@
 Traceback (most recent call last):
   File "/home/runner/.local/lib/python3.10/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
     executenb(
-  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 1204, in execute
+  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 1314, in execute
     return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
-  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/util.py", line 84, in wrapped
-    return just_run(coro(*args, **kwargs))
-  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/util.py", line 62, in just_run
-    return loop.run_until_complete(coro)
+  File "/home/runner/.local/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
   File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
     return future.result()
-  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 663, in async_execute
+  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 709, in async_execute
     await self.async_execute_cell(
-  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 965, in async_execute_cell
+  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 1062, in async_execute_cell
     await self._check_raise_for_error(cell, cell_index, exec_reply)
-  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 862, in _check_raise_for_error
+  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 918, in _check_raise_for_error
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-hascadence = dc.HasCadenceAnnotationsFilter().process_data(dataset)
-assert () in hascadence.indices and len(hascadence.indices[()]) > 0, "No cadences found."
-print(f"Before: {len(dataset.indices[()])} pieces; after removing those without cadence labels: {len(hascadence.indices[()])}")
+annotated_view = dataset.data.get_view('annotated')
+annotated_view.include('facets', 'expanded')
+annotated_view.fnames_with_incomplete_facets = False
+dataset.data.set_view(annotated_view)
+dataset.data.parse_tsv(choose='auto')
+dataset.get_indices()
+dataset.data
 ------------------
 
-[0;31m---------------------------------------------------------------------------[0m
-[0;31mAssertionError[0m                            Traceback (most recent call last)
-Cell [0;32mIn[9], line 2[0m
-[1;32m      1[0m hascadence [38;5;241m=[39m dc[38;5;241m.[39mHasCadenceAnnotationsFilter()[38;5;241m.[39mprocess_data(dataset)
-[0;32m----> 2[0m [38;5;28;01massert[39;00m () [38;5;129;01min[39;00m hascadence[38;5;241m.[39mindices [38;5;129;01mand[39;00m [38;5;28mlen[39m(hascadence[38;5;241m.[39mindices[()]) [38;5;241m>[39m [38;5;241m0[39m, [38;5;124m"[39m[38;5;124mNo cadences found.[39m[38;5;124m"[39m
-[1;32m      3[0m [38;5;28mprint[39m([38;5;124mf[39m[38;5;124m"[39m[38;5;124mBefore: [39m[38;5;132;01m{[39;00m[38;5;28mlen[39m(dataset[38;5;241m.[39mindices[()])[38;5;132;01m}[39;00m[38;5;124m pieces; after removing those without cadence labels: [39m[38;5;132;01m{[39;00m[38;5;28mlen[39m(hascadence[38;5;241m.[39mindices[()])[38;5;132;01m}[39;00m[38;5;124m"[39m)
 
-[0;31mAssertionError[0m: No cadences found.
-AssertionError: No cadences found.
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mDeprecationWarning[0m                        Traceback (most recent call last)
+Cell [0;32mIn[5], line 3[0m
+[1;32m      1[0m annotated_view [38;5;241m=[39m dataset[38;5;241m.[39mdata[38;5;241m.[39mget_view([38;5;124m'[39m[38;5;124mannotated[39m[38;5;124m'[39m)
+[1;32m      2[0m annotated_view[38;5;241m.[39minclude([38;5;124m'[39m[38;5;124mfacets[39m[38;5;124m'[39m, [38;5;124m'[39m[38;5;124mexpanded[39m[38;5;124m'[39m)
+[0;32m----> 3[0m [43mannotated_view[49m[38;5;241;43m.[39;49m[43mfnames_with_incomplete_facets[49m [38;5;241m=[39m [38;5;28;01mFalse[39;00m
+[1;32m      4[0m dataset[38;5;241m.[39mdata[38;5;241m.[39mset_view(annotated_view)
+[1;32m      5[0m dataset[38;5;241m.[39mdata[38;5;241m.[39mparse_tsv(choose[38;5;241m=[39m[38;5;124m'[39m[38;5;124mauto[39m[38;5;124m'[39m)
+
+File [0;32m~/.local/lib/python3.10/site-packages/ms3/view.py:124[0m, in [0;36mView.fnames_with_incomplete_facets[0;34m(self, value)[0m
+[1;32m    122[0m [38;5;129m@fnames_with_incomplete_facets[39m[38;5;241m.[39msetter
+[1;32m    123[0m [38;5;28;01mdef[39;00m [38;5;21mfnames_with_incomplete_facets[39m([38;5;28mself[39m, value):
+[0;32m--> 124[0m     [38;5;28;01mraise[39;00m [38;5;167;01mDeprecationWarning[39;00m(
+[1;32m    125[0m         [38;5;124m"[39m[38;5;124m'[39m[38;5;124mfnames_with_incomplete_facets[39m[38;5;124m'[39m[38;5;124m was renamed to  [39m[38;5;124m'[39m[38;5;124mpieces_with_incomplete_facets[39m[38;5;124m'[39m[38;5;124m in [39m[38;5;124m"[39m
+[1;32m    126[0m         [38;5;124m"[39m[38;5;124mms3 v2.[39m[38;5;124m"[39m
+[1;32m    127[0m     )
+
+[0;31mDeprecationWarning[0m: 'fnames_with_incomplete_facets' was renamed to  'pieces_with_incomplete_facets' in ms3 v2.
 

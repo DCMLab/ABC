@@ -1,88 +1,46 @@
 Traceback (most recent call last):
   File "/home/runner/.local/lib/python3.10/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
     executenb(
-  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 1204, in execute
+  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 1314, in execute
     return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
-  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/util.py", line 84, in wrapped
-    return just_run(coro(*args, **kwargs))
-  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/util.py", line 62, in just_run
-    return loop.run_until_complete(coro)
+  File "/home/runner/.local/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
   File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
     return future.result()
-  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 663, in async_execute
+  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 709, in async_execute
     await self.async_execute_cell(
-  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 965, in async_execute_cell
+  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 1062, in async_execute_cell
     await self._check_raise_for_error(cell, cell_index, exec_reply)
-  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 862, in _check_raise_for_error
+  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 918, in _check_raise_for_error
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-phrase_segmented = dc.PhraseSlicer().process_data(dataset)
-phrases = phrase_segmented.get_slice_info()
-print(f"Overall number of phrases is {len(phrases.index)}")
-phrases.head(10).style.apply(color_background, subset=["quarterbeats", "duration_qb"])
+annotated_view = dataset.data.get_view('annotated')
+annotated_view.include('facets', 'measures', 'notes$', 'expanded')
+annotated_view.fnames_with_incomplete_facets = False
+dataset.data.set_view(annotated_view)
+dataset.data.parse_tsv(choose='auto')
+dataset.get_indices()
+dataset.data
 ------------------
 
+
 [0;31m---------------------------------------------------------------------------[0m
-[0;31mValueError[0m                                Traceback (most recent call last)
-Cell [0;32mIn[11], line 2[0m
-[1;32m      1[0m phrase_segmented [38;5;241m=[39m dc[38;5;241m.[39mPhraseSlicer()[38;5;241m.[39mprocess_data(dataset)
-[0;32m----> 2[0m phrases [38;5;241m=[39m [43mphrase_segmented[49m[38;5;241;43m.[39;49m[43mget_slice_info[49m[43m([49m[43m)[49m
-[1;32m      3[0m [38;5;28mprint[39m([38;5;124mf[39m[38;5;124m"[39m[38;5;124mOverall number of phrases is [39m[38;5;132;01m{[39;00m[38;5;28mlen[39m(phrases[38;5;241m.[39mindex)[38;5;132;01m}[39;00m[38;5;124m"[39m)
-[1;32m      4[0m phrases[38;5;241m.[39mhead([38;5;241m10[39m)[38;5;241m.[39mstyle[38;5;241m.[39mapply(color_background, subset[38;5;241m=[39m[[38;5;124m"[39m[38;5;124mquarterbeats[39m[38;5;124m"[39m, [38;5;124m"[39m[38;5;124mduration_qb[39m[38;5;124m"[39m])
+[0;31mDeprecationWarning[0m                        Traceback (most recent call last)
+Cell [0;32mIn[5], line 3[0m
+[1;32m      1[0m annotated_view [38;5;241m=[39m dataset[38;5;241m.[39mdata[38;5;241m.[39mget_view([38;5;124m'[39m[38;5;124mannotated[39m[38;5;124m'[39m)
+[1;32m      2[0m annotated_view[38;5;241m.[39minclude([38;5;124m'[39m[38;5;124mfacets[39m[38;5;124m'[39m, [38;5;124m'[39m[38;5;124mmeasures[39m[38;5;124m'[39m, [38;5;124m'[39m[38;5;124mnotes$[39m[38;5;124m'[39m, [38;5;124m'[39m[38;5;124mexpanded[39m[38;5;124m'[39m)
+[0;32m----> 3[0m [43mannotated_view[49m[38;5;241;43m.[39;49m[43mfnames_with_incomplete_facets[49m [38;5;241m=[39m [38;5;28;01mFalse[39;00m
+[1;32m      4[0m dataset[38;5;241m.[39mdata[38;5;241m.[39mset_view(annotated_view)
+[1;32m      5[0m dataset[38;5;241m.[39mdata[38;5;241m.[39mparse_tsv(choose[38;5;241m=[39m[38;5;124m'[39m[38;5;124mauto[39m[38;5;124m'[39m)
 
-File [0;32m~/.local/lib/python3.10/site-packages/dimcat/data.py:695[0m, in [0;36mDataset.get_slice_info[0;34m(self, ignore_groups)[0m
-[1;32m    693[0m [38;5;250m[39m[38;5;124;03m"""Concatenates slice_info Series and returns them as a DataFrame."""[39;00m
-[1;32m    694[0m [38;5;28;01mif[39;00m ignore_groups [38;5;129;01mor[39;00m [38;5;129;01mnot[39;00m [38;5;28mself[39m[38;5;241m.[39mis_grouped:
-[0;32m--> 695[0m     concatenated_info [38;5;241m=[39m [43mpd[49m[38;5;241;43m.[39;49m[43mconcat[49m[43m([49m
-[1;32m    696[0m [43m        [49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43mslice_info[49m[38;5;241;43m.[39;49m[43mvalues[49m[43m([49m[43m)[49m[43m,[49m[43m [49m[43mkeys[49m[38;5;241;43m=[39;49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43mslice_info[49m[38;5;241;43m.[39;49m[43mkeys[49m[43m([49m[43m)[49m[43m,[49m[43m [49m[43maxis[49m[38;5;241;43m=[39;49m[38;5;241;43m1[39;49m
-[1;32m    697[0m [43m    [49m[43m)[49m[38;5;241m.[39mT
-[1;32m    698[0m     concatenated_info[38;5;241m.[39mindex[38;5;241m.[39mrename([38;5;28mself[39m[38;5;241m.[39mindex_levels[[38;5;124m"[39m[38;5;124mindices[39m[38;5;124m"[39m], inplace[38;5;241m=[39m[38;5;28;01mTrue[39;00m)
-[1;32m    699[0m     [38;5;28;01mreturn[39;00m concatenated_info
+File [0;32m~/.local/lib/python3.10/site-packages/ms3/view.py:124[0m, in [0;36mView.fnames_with_incomplete_facets[0;34m(self, value)[0m
+[1;32m    122[0m [38;5;129m@fnames_with_incomplete_facets[39m[38;5;241m.[39msetter
+[1;32m    123[0m [38;5;28;01mdef[39;00m [38;5;21mfnames_with_incomplete_facets[39m([38;5;28mself[39m, value):
+[0;32m--> 124[0m     [38;5;28;01mraise[39;00m [38;5;167;01mDeprecationWarning[39;00m(
+[1;32m    125[0m         [38;5;124m"[39m[38;5;124m'[39m[38;5;124mfnames_with_incomplete_facets[39m[38;5;124m'[39m[38;5;124m was renamed to  [39m[38;5;124m'[39m[38;5;124mpieces_with_incomplete_facets[39m[38;5;124m'[39m[38;5;124m in [39m[38;5;124m"[39m
+[1;32m    126[0m         [38;5;124m"[39m[38;5;124mms3 v2.[39m[38;5;124m"[39m
+[1;32m    127[0m     )
 
-File [0;32m~/.local/lib/python3.10/site-packages/pandas/util/_decorators.py:331[0m, in [0;36mdeprecate_nonkeyword_arguments.<locals>.decorate.<locals>.wrapper[0;34m(*args, **kwargs)[0m
-[1;32m    325[0m [38;5;28;01mif[39;00m [38;5;28mlen[39m(args) [38;5;241m>[39m num_allow_args:
-[1;32m    326[0m     warnings[38;5;241m.[39mwarn(
-[1;32m    327[0m         msg[38;5;241m.[39mformat(arguments[38;5;241m=[39m_format_argument_list(allow_args)),
-[1;32m    328[0m         [38;5;167;01mFutureWarning[39;00m,
-[1;32m    329[0m         stacklevel[38;5;241m=[39mfind_stack_level(),
-[1;32m    330[0m     )
-[0;32m--> 331[0m [38;5;28;01mreturn[39;00m [43mfunc[49m[43m([49m[38;5;241;43m*[39;49m[43margs[49m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkwargs[49m[43m)[49m
-
-File [0;32m~/.local/lib/python3.10/site-packages/pandas/core/reshape/concat.py:368[0m, in [0;36mconcat[0;34m(objs, axis, join, ignore_index, keys, levels, names, verify_integrity, sort, copy)[0m
-[1;32m    146[0m [38;5;129m@deprecate_nonkeyword_arguments[39m(version[38;5;241m=[39m[38;5;28;01mNone[39;00m, allowed_args[38;5;241m=[39m[[38;5;124m"[39m[38;5;124mobjs[39m[38;5;124m"[39m])
-[1;32m    147[0m [38;5;28;01mdef[39;00m [38;5;21mconcat[39m(
-[1;32m    148[0m     objs: Iterable[NDFrame] [38;5;241m|[39m Mapping[HashableT, NDFrame],
-[0;32m   (...)[0m
-[1;32m    157[0m     copy: [38;5;28mbool[39m [38;5;241m=[39m [38;5;28;01mTrue[39;00m,
-[1;32m    158[0m ) [38;5;241m-[39m[38;5;241m>[39m DataFrame [38;5;241m|[39m Series:
-[1;32m    159[0m [38;5;250m    [39m[38;5;124;03m"""[39;00m
-[1;32m    160[0m [38;5;124;03m    Concatenate pandas objects along a particular axis.[39;00m
-[1;32m    161[0m 
-[0;32m   (...)[0m
-[1;32m    366[0m [38;5;124;03m    1   3   4[39;00m
-[1;32m    367[0m [38;5;124;03m    """[39;00m
-[0;32m--> 368[0m     op [38;5;241m=[39m [43m_Concatenator[49m[43m([49m
-[1;32m    369[0m [43m        [49m[43mobjs[49m[43m,[49m
-[1;32m    370[0m [43m        [49m[43maxis[49m[38;5;241;43m=[39;49m[43maxis[49m[43m,[49m
-[1;32m    371[0m [43m        [49m[43mignore_index[49m[38;5;241;43m=[39;49m[43mignore_index[49m[43m,[49m
-[1;32m    372[0m [43m        [49m[43mjoin[49m[38;5;241;43m=[39;49m[43mjoin[49m[43m,[49m
-[1;32m    373[0m [43m        [49m[43mkeys[49m[38;5;241;43m=[39;49m[43mkeys[49m[43m,[49m
-[1;32m    374[0m [43m        [49m[43mlevels[49m[38;5;241;43m=[39;49m[43mlevels[49m[43m,[49m
-[1;32m    375[0m [43m        [49m[43mnames[49m[38;5;241;43m=[39;49m[43mnames[49m[43m,[49m
-[1;32m    376[0m [43m        [49m[43mverify_integrity[49m[38;5;241;43m=[39;49m[43mverify_integrity[49m[43m,[49m
-[1;32m    377[0m [43m        [49m[43mcopy[49m[38;5;241;43m=[39;49m[43mcopy[49m[43m,[49m
-[1;32m    378[0m [43m        [49m[43msort[49m[38;5;241;43m=[39;49m[43msort[49m[43m,[49m
-[1;32m    379[0m [43m    [49m[43m)[49m
-[1;32m    381[0m     [38;5;28;01mreturn[39;00m op[38;5;241m.[39mget_result()
-
-File [0;32m~/.local/lib/python3.10/site-packages/pandas/core/reshape/concat.py:425[0m, in [0;36m_Concatenator.__init__[0;34m(self, objs, axis, join, keys, levels, names, ignore_index, verify_integrity, copy, sort)[0m
-[1;32m    422[0m     objs [38;5;241m=[39m [38;5;28mlist[39m(objs)
-[1;32m    424[0m [38;5;28;01mif[39;00m [38;5;28mlen[39m(objs) [38;5;241m==[39m [38;5;241m0[39m:
-[0;32m--> 425[0m     [38;5;28;01mraise[39;00m [38;5;167;01mValueError[39;00m([38;5;124m"[39m[38;5;124mNo objects to concatenate[39m[38;5;124m"[39m)
-[1;32m    427[0m [38;5;28;01mif[39;00m keys [38;5;129;01mis[39;00m [38;5;28;01mNone[39;00m:
-[1;32m    428[0m     objs [38;5;241m=[39m [38;5;28mlist[39m(com[38;5;241m.[39mnot_none([38;5;241m*[39mobjs))
-
-[0;31mValueError[0m: No objects to concatenate
-ValueError: No objects to concatenate
+[0;31mDeprecationWarning[0m: 'fnames_with_incomplete_facets' was renamed to  'pieces_with_incomplete_facets' in ms3 v2.
 

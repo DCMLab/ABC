@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Annotations &#8212; The Annotated Beethoven Corpus v2.2 documentation</title>
+    <title>Annotations &#8212; The Annotated Beethoven Corpus v2.4 documentation</title>
   
   
   
@@ -112,7 +112,7 @@
   
   
   
-    <p class="title logo__title">The Annotated Beethoven Corpus v2.2 documentation</p>
+    <p class="title logo__title">The Annotated Beethoven Corpus v2.4 documentation</p>
   
 </a></div>
     
@@ -384,13 +384,12 @@ CORPUS_PATH: &#39;/home/hentsche/tmp/all_subcorpora/&#39;
 <span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">print_heading</span><span class="p">(</span><span class="s2">&quot;Data and software versions&quot;</span><span class="p">)</span>
 <span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Data repo &#39;</span><span class="si">{</span><span class="n">get_repo_name</span><span class="p">(</span><span class="n">repo</span><span class="p">)</span><span class="si">}</span><span class="s2">&#39; @ </span><span class="si">{</span><span class="n">repo</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span><span class="o">.</span><span class="n">hexsha</span><span class="p">[:</span><span class="mi">7</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 
-<span class="nn">File ~/.local/lib/python3.10/site-packages/git/repo/base.py:214,</span> in <span class="ni">Repo.__init__</span><span class="nt">(self, path, odbt, search_parent_directories, expand_vars)</span>
-<span class="g g-Whitespace">    </span><span class="mi">212</span> <span class="k">if</span> <span class="n">epath</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-<span class="g g-Whitespace">    </span><span class="mi">213</span>     <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">epath</span><span class="p">):</span>
-<span class="ne">--&gt; </span><span class="mi">214</span>         <span class="k">raise</span> <span class="n">NoSuchPathError</span><span class="p">(</span><span class="n">epath</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">216</span> <span class="c1">## Walk up the path to find the `.git` dir.</span>
-<span class="g g-Whitespace">    </span><span class="mi">217</span> <span class="c1">#</span>
-<span class="g g-Whitespace">    </span><span class="mi">218</span> <span class="n">curpath</span> <span class="o">=</span> <span class="n">epath</span>
+<span class="nn">File ~/.local/lib/python3.10/site-packages/git/repo/base.py:236,</span> in <span class="ni">Repo.__init__</span><span class="nt">(self, path, odbt, search_parent_directories, expand_vars)</span>
+<span class="g g-Whitespace">    </span><span class="mi">234</span> <span class="k">if</span> <span class="n">epath</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">235</span>     <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">epath</span><span class="p">):</span>
+<span class="ne">--&gt; </span><span class="mi">236</span>         <span class="k">raise</span> <span class="n">NoSuchPathError</span><span class="p">(</span><span class="n">epath</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">238</span> <span class="c1"># Walk up the path to find the `.git` dir.</span>
+<span class="g g-Whitespace">    </span><span class="mi">239</span> <span class="n">curpath</span> <span class="o">=</span> <span class="n">epath</span>
 
 <span class="ne">NoSuchPathError</span>: /home/hentsche/tmp/all_subcorpora
 </pre></div>
