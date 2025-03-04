@@ -1,5 +1,5 @@
 ![Version](https://img.shields.io/github/v/release/DCMLab/ABC?display_name=tag)
-[![DOI](https://zenodo.org/badge/127907867.svg)](https://zenodo.org/badge/latestdoi/127907867)
+[![DOI](https://zenodo.org/badge/127907867.svg)](https://doi.org/10.5281/zenodo.7441343)
 ![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/ABC)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
 
@@ -12,8 +12,7 @@ and serves as welcome page for both
 
 For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/ABC/introduction).
 
-
-# ABC - The Annotated Beethoven Corpus (v2.4)
+# The Annotated Beethoven Corpus (ABC) (A corpus of annotated scores)
 
 The ABC dataset consists of expert harmonic analyses of all Beethoven string quartets 
 (opp. 18, 59, 74, 95, 127, 130, 131, 132, 135, composed between 1800 and 1826), encoded in a human- and 
@@ -23,10 +22,68 @@ the dataset includes the common music-theoretical set of harmonic features such 
 chord inversion, chord extensions, suspensions, and others.
 
 
-## Cite as
+## Getting the data
 
-> Neuwirth, M., Harasim, D., Moss, F. C., & Rohrmeier, M. (2018). The Annotated Beethoven Corpus (ABC): A Dataset of Harmonic Analyses of All Beethoven String Quartets. Frontiers in Digital Humanities, 5(July), 1–5. https://doi.org/10.3389/fdigh.2018.00016
+* download repository as a [ZIP file](https://github.com/DCMLab/ABC/archive/main.zip)
+* download a [Frictionless Datapackage](https://specs.frictionlessdata.io/data-package/) that includes concatenations
+  of the TSV files in the four folders (`measures`, `notes`, `chords`, and `harmonies`) and a JSON descriptor:
+  * [ABC.zip](https://github.com/DCMLab/ABC/releases/latest/download/ABC.zip)
+  * [ABC.datapackage.json](https://github.com/DCMLab/ABC/releases/latest/download/ABC.datapackage.json)
+* clone the repo: `git clone https://github.com/DCMLab/ABC.git` 
 
+
+## Data Formats
+
+Each piece in this corpus is represented by five files with identical name prefixes, each in its own folder. 
+For example, the first movement of the first quartet, op. 18/1, has the following files:
+
+* `MS3/n01op18-1_01.mscx`: Uncompressed MuseScore 3.6.2 file including the music and annotation labels.
+* `notes/n01op18-1_01.notes.tsv`: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
+* `measures/n01op18-1_01.measures.tsv`: A table with relevant information about the measures in the score.
+* `chords/n01op18-1_01.chords.tsv`: A table containing layer-wise unique onset positions with the musical markup (such as dynamics, articulation, lyrics, figured bass, etc.).
+* `harmonies/n01op18-1_01.harmonies.tsv`: A table of the included harmony labels (including cadences and phrases) with their positions in the score.
+
+Each TSV file comes with its own JSON descriptor that describes the meanings and datatypes of the columns ("fields") it contains,
+follows the [Frictionless specification](https://specs.frictionlessdata.io/tabular-data-resource/),
+and can be used to validate and correctly load the described file. 
+
+### Opening Scores
+
+After navigating to your local copy, you can open the scores in the folder `MS3` with the free and open source score
+editor [MuseScore](https://musescore.org). Please note that the scores have been edited, annotated and tested with
+[MuseScore 3.6.2](https://github.com/musescore/MuseScore/releases/tag/v3.6.2). 
+MuseScore 4 has since been released which renders them correctly but cannot store them back in the same format.
+
+### Opening TSV files in a spreadsheet
+
+Tab-separated value (TSV) files are like Comma-separated value (CSV) files and can be opened with most modern text
+editors. However, for correctly displaying the columns, you might want to use a spreadsheet or an addon for your
+favourite text editor. When you use a spreadsheet such as Excel, it might annoy you by interpreting fractions as
+dates. This can be circumvented by using `Data --> From Text/CSV` or the free alternative
+[LibreOffice Calc](https://www.libreoffice.org/download/download/). Other than that, TSV data can be loaded with
+every modern programming language.
+
+### Loading TSV files in Python
+
+Since the TSV files contain null values, lists, fractions, and numbers that are to be treated as strings, you may want
+to use this code to load any TSV files related to this repository (provided you're doing it in Python). After a quick
+`pip install -U ms3` (requires Python 3.10 or later) you'll be able to load any TSV like this:
+
+```python
+import ms3
+
+labels = ms3.load_tsv("harmonies/n01op18-1_01.harmonies.tsv")
+notes = ms3.load_tsv("notes/n01op18-1_01.notes.tsv")
+```
+
+
+## Version history
+
+See the [GitHub releases](https://github.com/DCMLab/ABC/releases).
+
+## Questions, Suggestions, Corrections, Bug Reports
+
+Please [create an issue](https://github.com/DCMLab/ABC/issues) and/or feel free to fork and submit pull requests.
 
 ## Publications
 
@@ -34,9 +91,17 @@ chord inversion, chord extensions, suspensions, and others.
 * An evaluation of the dataset can be found in  this [Moss, F., Neuwirth M., Harasim, D. & Rohrmeier, M. (2019)](https://doi.org/10.1371/journal.pone.0217242).
 * The latest version of the annotation standard has been described in [Hentschel, J., Neuwirth, M. & Rohrmeier, M. (2021)](http://doi.org/10.5334/tismir.63 )  
 
-## Version history
+## Cite as
 
-See the [GitHub releases](https://github.com/DCMLab/ABC/releases).
+> Neuwirth, M., Harasim, D., Moss, F. C., & Rohrmeier, M. (2018). The Annotated Beethoven Corpus (ABC): A Dataset of Harmonic Analyses of All Beethoven String Quartets. Frontiers in Digital Humanities, 5(July), 1–5. https://doi.org/10.3389/fdigh.2018.00016
+
+
+## License
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
+
+![cc-by-nc-sa-image](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+
 
 ## Remarks
 
@@ -54,10 +119,6 @@ While the annotation process (as detailed in the Data Report) was conducted very
 **Missing bars**
 
 The original XML file for Op. 132 No. 15, mov. 5 from Project Gutenberg did not contain measures 194-241. We added them manually.
-
-## License
-
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
 
 ## File naming convention
 

@@ -1,6 +1,8 @@
 import argparse
 import re
 import os
+from datetime import datetime
+
 def create_new_tag(tag, update_major):
     if not (re.match(r'^v\d+\.\d+$', tag)):
         raise Exception(f'tag: {tag} is not giving in the correct format e.i v0.0')
@@ -25,12 +27,16 @@ def store_tag(tag):
     with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
         print(f'new_tag={tag}', file=fh)
 
-def update_file_with_tag(f_name, old_tag, new_tag):
+def update_file_with_tag(f_name, old_tag, new_tag, replace_dates=True):
     if os.path.isfile(f_name):
         try:
             with open(f_name, "r",encoding="utf-8") as f:
                 data = f.read()
             data = data.replace(old_tag, new_tag)
+            if replace_dates:
+                date_re = r"\d{4}-\d{2}-\d{2}"
+                today = datetime.today().strftime('%Y-%m-%d')
+                data = re.sub(date_re, today, data)
             with open(f_name, "w",encoding="utf-8") as f:
                 f.write(data)
         except Exception as e:
@@ -48,7 +54,7 @@ def main(args):
         print(f"Repository with tag: {tag}, creating a new tag with: {new_tag}")
         update_file_with_tag(".zenodo.json", tag, new_tag)
         update_file_with_tag("CITATION.cff", tag, new_tag)
-        update_file_with_tag("README.md", tag, new_tag)
+        update_file_with_tag("README.md", tag, new_tag, replace_dates=False)
     store_tag(new_tag)
 
 def run():
