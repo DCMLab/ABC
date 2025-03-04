@@ -30,7 +30,7 @@
       },
       {
         "name": "quarterbeats",
-        "title": "Offset from Beginning",
+        "title": "Offset from Beginning (leaving out alternative endings)",
         "description": "Distance of an event from the piece's beginning. By default, only second endings are taken into account to reflect the proportions of a simply playthrough without repeats.",
         "type": "string",
         "constraints": {
@@ -39,7 +39,7 @@
       },
       {
         "name": "quarterbeats_all_endings",
-        "title": "Offset from Beginning (Including Endings)",
+        "title": "Offset from Beginning (counting through alternative endings as if they were adjacent bars)",
         "description": "Distance from the piece's beginning, taking all endings into account for addressability purposes.",
         "type": "string",
         "constraints": {
@@ -150,7 +150,7 @@
         "type": "string"
       },
       {
-        "name": "Trill:trill",
+        "name": "crescendo_hairpin",
         "type": "string"
       },
       {
@@ -158,13 +158,13 @@
         "type": "string"
       },
       {
-        "name": "crescendo_hairpin",
+        "name": "Trill:trill",
         "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "GtYGNFIk4FhOpw",
-    "filepath": "chords/GtYGNFIk4FhOpw.schema.yaml",
+    "identifier": "A2Ov1UTRHveqbg",
+    "filepath": "chords/A2Ov1UTRHveqbg.schema.yaml",
     "used_in": "n08op59-2_02"
   },
   "creator": {
@@ -177,6 +177,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.4.1"
-  }
+    "softwareVersion": "2.5.4"
+  },
+  "git_revision": "66b37f213ff4436870dda4198a6cd7428d287148",
+  "git_tag": "v2.4-1-g66b37f2"
 }
