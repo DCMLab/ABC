@@ -159,7 +159,7 @@ _(?P<mvt>\d{2})      # movement number, e.g. _01
 |n07op59-1_01|     400|   482|1.0.0   |Markus Neuwirth|          |
 |n07op59-1_02|     476|   635|1.0.0   |Markus Neuwirth|          |
 |n07op59-1_03|     132|   374|1.0.0   |Markus Neuwirth|          |
-|n07op59-1_04|     327|   605|1.0.0   |Markus Neuwirth|          |
+|n07op59-1_04|     327|   604|1.0.0   |Markus Neuwirth|          |
 |n08op59-2_01|     255|   445|1.0.0   |Markus Neuwirth|          |
 |n08op59-2_02|     157|   326|1.0.0   |Markus Neuwirth|          |
 |n08op59-2_03|     134|   262|1.0.0   |Markus Neuwirth|          |
