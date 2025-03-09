@@ -1,14 +1,25 @@
 cff-version: 1.2.0
 message: "Please cite this dataset using the metadata from 'preferred-citation'."
-title: "The Annotated Beethoven Corpus (ABC)"
-abstract: >
-  The ABC dataset consists of expert harmonic analyses of all Beethoven string quartets
-  (opp. 18, 59, 74, 95, 127, 130, 131, 132, 135, composed between 1800 and 1826), encoded in a human- and 
-  machine-readable format (MuseScore format). 
-  Using a modified Roman Numeral notation (the [DCML harmony annotation standard](https://github.com/DCMLab/standards)), 
-  the dataset includes the common music-theoretical set of harmonic features such as key, chordal root, 
-  chord inversion, chord extensions, suspensions, and others.
+title: "The Annotated Beethoven Corpus (ABC) (A corpus of annotated scores)"
 type: dataset
+abstract: >-
+  <jats:p>The ABC dataset consists of expert harmonic analyses of all Beethoven string
+  quartets (opp. 18, 59, 74, 95, 127, 130, 131, 132, 135, composed between 1800
+  and 1826), encoded in a human- and machine-readable format (MuseScore format).
+  Using a modified Roman Numeral notation, the dataset includes the common
+  music-theoretical set of harmonic features such as key, chordal root, chord
+  inversion, chord extensions, suspensions, and others.
+  
+  The accompanying Data Report has been published by Frontiers in Digital
+  Humanities: https://doi.org/10.3389/fdigh.2018.00016</jats:p>
+doi: 10.5281/zenodo.7441343
+url: https://zenodo.org/doi/10.5281/zenodo.7441343
+repository: https://github.com/DCMLab/ABC
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7441343
+  - type: url
+    value: https://zenodo.org/doi/10.5281/zenodo.7441343
 authors:
   - given-names: Markus
     family-names: Neuwirth
@@ -28,23 +39,32 @@ authors:
     affiliation: "École Polytechnique Fédérale de Lausanne"
     orcid: "https://orcid.org/0000-0002-4323-7257"
 version: v2.4
-date-released: 2023-05-23
+date-released: 2025-03-09
 keywords:
-  - music
-  - "digital musicology"
-  - "corpus research"
-  - "ground truth"
-  - harmony
-  - "symbolic music data"
-  - Beethoven
-license: CC-BY-NC-SA-4.0
-repository: https://github.com/DCMLab/ABC
+  - "expert-annotated dataset"
+  - "tonal harmony"
+  - "music research"
+  - "music theory"
+  - "music analysis"
+  - "music history"
+  - "corpus studies"
+  - "corpora"
+  - "symbolic dataset"
+  - "scores"
+  - "annotated dataset"
+  - "harmony"
+  - "key annotations"
+  - "chord annotations"
+  - "phrase annotations"
+  - "cadence annotations"
+  - "Beethoven"
+license: "CC-BY-NC-4.0"
 preferred-citation:
   authors:
     - given-names: Markus
       family-names: Neuwirth
       email: markus.neuwirth@bruckneruni.at
-      affiliation: "Bruckner University Linz"
+      affiliation: "Anton Bruckner University Linz"
       orcid: "https://orcid.org/0000-0003-1990-052X"
     - given-names: Daniel
       family-names: Harasim
@@ -58,11 +78,26 @@ preferred-citation:
       email: martin.rohrmeier@epfl.ch
       affiliation: "École Polytechnique Fédérale de Lausanne"
       orcid: "https://orcid.org/0000-0002-4323-7257"
-  title: "The Annotated Beethoven Corpus (ABC): A Dataset of Harmonic Analyses of All Beethoven String Quartets"
+  title: >-
+    The Annotated Beethoven Corpus (ABC): A Dataset of Harmonic Analyses of All
+    Beethoven String Quartets
   doi: 10.3389/fdigh.2018.00016
+  url: http://dx.doi.org/10.3389/fdigh.2018.00016
+  identifiers:
+    - type: doi
+      value: 10.3389/fdigh.2018.00016
+    - type: url
+      value: http://dx.doi.org/10.3389/fdigh.2018.00016
+    - type: other
+      value: urn:issn:2297-2668
   type: article
-  journal: "Frontiers in Digital Humanities"
+  journal: Frontiers in Digital Humanities
+  issn: 1559-5749
+  publisher:
+    name: Frontiers Media SA
   volume: 5
   issue: 16
+  date-published: 2018-07-03
   year: 2018
+  month: 7
   abstract: "This report describes a publicly available dataset of harmonic analyses of all Beethoven string quartets together with a new annotation scheme."

@@ -35,14 +35,6 @@ DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 41, '1/4', 'vi6') ms3.Parse.AB
 	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
 	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
 	by a free-text comment in subsequent lines starting with a space or tab.
-DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 41, '1/2', 'V/iii\\\\') ms3.Parse.ABC.n16op135_04
-	The label 'V/iii\\' in m. 41, onset 1/2 (MC 41, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
-	In the context of f.i, it expresses the scale degrees
-	('7', '2', '4') [('Eb', 'G', 'Bb')].
-	The corresponding score segment has 0 within-label and 11 out-of-label note onsets,
-	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
-	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
-	by a free-text comment in subsequent lines starting with a space or tab.
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 46, '1/2', 'viio6') ms3.Parse.ABC.n16op135_04
 	The label 'viio6' in m. 46, onset 1/2 (MC 46, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of f.#III, it expresses the scale degrees

@@ -1,4 +1,4 @@
-mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	timesig	staff	voice	duration	gracenote	nominal_duration	scalar	chord_id	dynamics	articulation	staff_text	slur	Trill:trill	decrescendo_hairpin	crescendo_hairpin
+mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	timesig	staff	voice	duration	gracenote	nominal_duration	scalar	chord_id	dynamics	articulation	staff_text	slur	crescendo_hairpin	decrescendo_hairpin	Trill:trill
 1	1	0	0	0.0	0	0	StaffText	4/4	1	1	0							<b>Molto Adagio. Si tratta questo pezzo con molto di sentimento</b>				
 1	1	0	0	0.0	0	0	Dynamic	4/4	1	1	0					p						
 1	1	0	0	2.0	0	0	Chord	4/4	1	1	1/2		1/2	1	0				0			
@@ -381,9 +381,9 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 23	23	363/4	363/4	0.25	11/16	11/16	Chord	4/4	4	1	1/16		1/16	1	316							
 23	23	91	91	0.75	3/4	3/4	Chord	4/4	4	1	3/16		1/8	3/2	317							
 23	23	367/4	367/4	0.25	15/16	15/16	Chord	4/4	4	1	1/16		1/16	1	318							
-24	24	92	92	0.0	0	0	Spanner	4/4	1	1	0											0
-24	24	92	92	0.75	0	0	Chord	4/4	1	1	3/16		1/8	3/2	319				36			0
-24	24	371/4	371/4	0.25	3/16	3/16	Chord	4/4	1	1	1/16		1/16	1	320				36			0
+24	24	92	92	0.0	0	0	Spanner	4/4	1	1	0									0		
+24	24	92	92	0.75	0	0	Chord	4/4	1	1	3/16		1/8	3/2	319				36	0		
+24	24	371/4	371/4	0.25	3/16	3/16	Chord	4/4	1	1	1/16		1/16	1	320				36	0		
 24	24	93	93	0.0	1/4	1/4	Spanner	4/4	1	1	0											
 24	24	93	93	0.0	1/4	1/4	Spanner	4/4	1	1	0										8	
 24	24	93	93	0.75	1/4	1/4	Chord	4/4	1	1	3/16		1/8	3/2	321						8	
@@ -1032,9 +1032,9 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 51	51	607/3	607/3	0.3333333333333333	7/12	7/12	Chord	4/4	4	1	1/12		1/8	2/3	884							
 51	51	608/3	608/3	0.3333333333333333	2/3	2/3	Chord	4/4	4	1	1/12		1/8	2/3	885							
 51	51	203	203	0.5	3/4	3/4	Chord	4/4	4	1	1/8		1/8	1	886							
-52	52	204	204	0.0	0	0	Spanner	4/4	1	1	0									0		
-52	52	204	204	2.0	0	0	Chord	4/4	1	1	1/2		1/2	1	887					0		
-52	52	206	206	1.75	1/2	1/2	Chord	4/4	1	1	7/16		1/4	7/4	888					0		
+52	52	204	204	0.0	0	0	Spanner	4/4	1	1	0											0
+52	52	204	204	2.0	0	0	Chord	4/4	1	1	1/2		1/2	1	887							0
+52	52	206	206	1.75	1/2	1/2	Chord	4/4	1	1	7/16		1/4	7/4	888							0
 52	52	831/4	831/4	0.0	15/16	15/16	Spanner	4/4	1	1	0											
 52	52	831/4	831/4	0.0	15/16	15/16	Chord	4/4	1	1	0	grace16	1/16	1	889							
 52	52	831/4	831/4	0.0	15/16	15/16	Chord	4/4	1	1	0	grace16	1/16	1	890							
@@ -2264,9 +2264,9 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 102	102	1627/4	1627/4	0.25	11/16	11/16	Chord	4/4	4	1	1/16		1/16	1	1964							
 102	102	407	407	0.75	3/4	3/4	Chord	4/4	4	1	3/16		1/8	3/2	1965							
 102	102	1631/4	1631/4	0.25	15/16	15/16	Chord	4/4	4	1	1/16		1/16	1	1966							
-103	103	408	408	0.0	0	0	Spanner	4/4	1	1	0											1
-103	103	408	408	0.75	0	0	Chord	4/4	1	1	3/16		1/8	3/2	1967				267			1
-103	103	1635/4	1635/4	0.25	3/16	3/16	Chord	4/4	1	1	1/16		1/16	1	1968				267			1
+103	103	408	408	0.0	0	0	Spanner	4/4	1	1	0									1		
+103	103	408	408	0.75	0	0	Chord	4/4	1	1	3/16		1/8	3/2	1967				267	1		
+103	103	1635/4	1635/4	0.25	3/16	3/16	Chord	4/4	1	1	1/16		1/16	1	1968				267	1		
 103	103	409	409	0.0	1/4	1/4	Spanner	4/4	1	1	0											
 103	103	409	409	0.0	1/4	1/4	Spanner	4/4	1	1	0										31	
 103	103	409	409	0.75	1/4	1/4	Chord	4/4	1	1	3/16		1/8	3/2	1969						31	
@@ -3419,23 +3419,23 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 156	156	622	622	0.5	1/2	1/2	Chord	4/4	3	1	1/8		1/8	1	2983							
 156	156	620	620	0.5	0	0	Chord	4/4	4	1	1/8		1/8	1	2984							
 156	156	622	622	0.5	1/2	1/2	Chord	4/4	4	1	1/8		1/8	1	2985							
-157	157	624	624	0.0	0	0	Spanner	4/4	1	1	0											2
-157	157	624	624	0.0	0	0	Spanner	4/4	1	1	0										46	2
-157	157	624	624	4.0	0	0	Chord	4/4	1	1	1		1	1	2986						46	2
+157	157	624	624	0.0	0	0	Spanner	4/4	1	1	0									2		
+157	157	624	624	0.0	0	0	Spanner	4/4	1	1	0									2	46	
+157	157	624	624	4.0	0	0	Chord	4/4	1	1	1		1	1	2986					2	46	
 157	157	628	628	0.0	1	1	Spanner	4/4	1	1	0											
 157	157	628	628	0.0	1	1	Spanner	4/4	1	1	0											
-157	157	624	624	0.0	0	0	Spanner	4/4	2	1	0											3
-157	157	624	624	0.0	0	0	Spanner	4/4	2	1	0										47	3
-157	157	624	624	4.0	0	0	Chord	4/4	2	1	1		1	1	2987						47	3
+157	157	624	624	0.0	0	0	Spanner	4/4	2	1	0									3		
+157	157	624	624	0.0	0	0	Spanner	4/4	2	1	0									3	47	
+157	157	624	624	4.0	0	0	Chord	4/4	2	1	1		1	1	2987					3	47	
 157	157	628	628	0.0	1	1	Spanner	4/4	2	1	0											
 157	157	628	628	0.0	1	1	Spanner	4/4	2	1	0											
-157	157	624	624	0.0	0	0	Spanner	4/4	3	1	0											4
-157	157	624	624	0.0	0	0	Spanner	4/4	3	1	0										48	4
-157	157	624	624	4.0	0	0	Chord	4/4	3	1	1		1	1	2988						48	4
+157	157	624	624	0.0	0	0	Spanner	4/4	3	1	0									4		
+157	157	624	624	0.0	0	0	Spanner	4/4	3	1	0									4	48	
+157	157	624	624	4.0	0	0	Chord	4/4	3	1	1		1	1	2988					4	48	
 157	157	628	628	0.0	1	1	Spanner	4/4	3	1	0											
 157	157	628	628	0.0	1	1	Spanner	4/4	3	1	0											
-157	157	624	624	0.0	0	0	Spanner	4/4	4	1	0											5
-157	157	624	624	0.0	0	0	Spanner	4/4	4	1	0										49	5
-157	157	624	624	4.0	0	0	Chord	4/4	4	1	1		1	1	2989						49	5
+157	157	624	624	0.0	0	0	Spanner	4/4	4	1	0									5		
+157	157	624	624	0.0	0	0	Spanner	4/4	4	1	0									5	49	
+157	157	624	624	4.0	0	0	Chord	4/4	4	1	1		1	1	2989					5	49	
 157	157	628	628	0.0	1	1	Spanner	4/4	4	1	0											
 157	157	628	628	0.0	1	1	Spanner	4/4	4	1	0											

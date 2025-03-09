@@ -1,42 +1,48 @@
 {
-    "license": "CC-BY-NC-SA-4.0", 
-    "description": "<p>The ABC dataset consists of expert harmonic analyses of all Beethoven string quartets (opp. 18, 59, 74, 95, 127, 130, 131, 132, 135, composed between 1800 and 1826), encoded in a human- and machine-readable format (MuseScore format). Using a modified Roman Numeral notation, the dataset includes the common music-theoretical set of harmonic features such as key, chordal root, chord inversion, chord extensions, suspensions, and others.</p>\n\n<p>The accompanying Data Report has been published by <a href=\"https://www.frontiersin.org/articles/10.3389/fdigh.2018.00016/full\">Frontiers in Digital Humanities</a>.</p>", 
+    "license": "CC-BY-NC-SA-4.0",
     "contributors": [
         {
-            "orcid": "0000-0002-1986-9545", 
-            "affiliation": "École Polytechnique Fédérale de Lausanne", 
+            "orcid": "0000-0002-1986-9545",
             "type": "DataCurator", 
+            "affiliation": "Anton Bruckner University Linz",
             "name": "Johannes Hentschel"
         }
-    ], 
-    "title": "DCMLab/ABC: The Annotated Beethoven Corpus Version (v2.4)",
-    "language": "eng", 
+    ],
+    "title": "The Annotated Beethoven Corpus (ABC) (A corpus of annotated scores)",
     "keywords": [
-        "music", 
-        "digital musicology", 
-        "corpus research", 
-        "ground truth", 
-        "harmony", 
-        "symbolic music data", 
+        "music research",
+        "music theory",
+        "music analysis",
+        "music history",
+        "corpus studies",
+        "corpora",
+        "symbolic dataset",
+        "scores",
+        "annotated dataset",
+        "harmony",
+        "key annotations",
+        "chord annotations",
+        "phrase annotations",
+        "cadence annotations",
         "Beethoven"
-    ], 
+    ],
+    "upload_type": "dataset",
     "version": "v2.4",
-    "upload_type": "dataset", 
     "communities": [
         {
             "identifier": "dcml"
-        }, 
+        },
         {
             "identifier": "epfl"
         }
-    ], 
-    "publication_date": "2018-06-29", 
+    ],
+    "publication_date": "2025-03-03",
     "creators": [
         {
             "orcid": "0000-0003-1990-052X", 
-            "affiliation": "Bruckner University Linz", 
+            "affiliation": "Anton Bruckner University Linz",
             "name": "Markus Neuwirth"
-        }, 
+        },
         {
             "affiliation": "École Polytechnique Fédérale de Lausanne", 
             "name": "Daniel Harasim"
@@ -51,6 +57,24 @@
             "affiliation": "École Polytechnique Fédérale de Lausanne", 
             "name": "Martin Rohrmeier"
         }
-    ], 
-    "access_right": "open"
+    ],
+    "access_right": "open",
+    "related_identifiers": [
+        {
+            "scheme": "url",
+            "identifier": "https://github.com/DCMLab/ABC/tree/v2.4",
+            "relation": "references"
+        },
+        {
+            "scheme": "url",
+            "identifier": "https://dcmlab.github.io/ABC/",
+            "relation": "isDocumentedBy"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.5281/zenodo.13844105",
+            "relation": "isPartOf",
+            "resource_type":"dataset"
+        }
+    ]
 }

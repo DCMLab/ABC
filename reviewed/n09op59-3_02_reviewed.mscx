@@ -210,7 +210,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.80798</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -218,9 +217,10 @@
     <showMargins>0</showMargins>
     <metaTag name="annotators">Markus Neuwirth</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1806</metaTag>
     <metaTag name="composed_start">1806</metaTag>
-    <metaTag name="composer">L. van Beethoven</metaTag>
+    <metaTag name="composer">Ludwig van Beethoven</metaTag>
     <metaTag name="copyright"> </metaTag>
     <metaTag name="creationDate">2015-11-25</metaTag>
     <metaTag name="harmony_version">1.0.0</metaTag>
@@ -323,6 +323,14 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="42"/>
+          <controller ctrl="7" value="101"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -3730,9 +3738,8 @@ Op.59 No.3, 2nd movement</b></text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -3742,8 +3749,9 @@ Op.59 No.3, 2nd movement</b></text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
+              <color r="255" g="0" b="0" a="255"/>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -3753,9 +3761,8 @@ Op.59 No.3, 2nd movement</b></text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Beam>
@@ -3936,9 +3943,8 @@ Op.59 No.3, 2nd movement</b></text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -3948,8 +3954,9 @@ Op.59 No.3, 2nd movement</b></text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
+              <color r="255" g="0" b="0" a="255"/>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -3959,9 +3966,8 @@ Op.59 No.3, 2nd movement</b></text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Beam>
@@ -33502,8 +33508,9 @@ Op.59 No.3, 2nd movement</b></text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
+              <color r="255" g="0" b="0" a="255"/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -33513,9 +33520,8 @@ Op.59 No.3, 2nd movement</b></text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -33525,8 +33531,9 @@ Op.59 No.3, 2nd movement</b></text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
+              <color r="255" g="0" b="0" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Beam>
@@ -33572,8 +33579,9 @@ Op.59 No.3, 2nd movement</b></text>
               <subtype>articStaccatoBelow</subtype>
               </Articulation>
             <Note>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
+              <color r="255" g="0" b="0" a="255"/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           </voice>
@@ -33711,8 +33719,9 @@ Op.59 No.3, 2nd movement</b></text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
+              <color r="255" g="0" b="0" a="255"/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -33722,9 +33731,8 @@ Op.59 No.3, 2nd movement</b></text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -33734,8 +33742,9 @@ Op.59 No.3, 2nd movement</b></text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
+              <color r="255" g="0" b="0" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Beam>

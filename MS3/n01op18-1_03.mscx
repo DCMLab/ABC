@@ -141,7 +141,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.76389</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -256,6 +255,14 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="42"/>
+          <controller ctrl="7" value="127"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
           <controller ctrl="7" value="127"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -20214,7 +20221,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(b64)</name>
+            <name>V(64)</name>
             <offset x="0" y="-2.09544"/>
             </Harmony>
           <Chord>
@@ -20308,7 +20315,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/bVII</name>
+            <name>V/VII</name>
             <offset x="0.0988596" y="-2.58289"/>
             </Harmony>
           <Chord>
@@ -20798,7 +20805,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/vi</name>
+            <name>V/#vi</name>
             <offset x="0" y="-3.9"/>
             </Harmony>
           <Chord>
