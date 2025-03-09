@@ -25,14 +25,6 @@ DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 93, '3/4', 'viio6/ii') ms3.Par
 	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
 	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
 	by a free-text comment in subsequent lines starting with a space or tab.
-DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 114, '1/2', 'bIII.I64(7#4)') ms3.Parse.ABC.n09op59-3_01
-	The label 'bIII.I64(7#4)' in m. 113, onset 1/2 (MC 114, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
-	In the context of C.bIII, it expresses the scale degrees
-	('#4', '7', '3') [('A', 'D', 'G')].
-	The corresponding score segment has 1 within-label and 3 out-of-label note onsets,
-	a ratio of 0.75 > 0.6 (the current, arbitrary, threshold).
-	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
-	by a free-text comment in subsequent lines starting with a space or tab.
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 115, '1/2', 'iiio64') ms3.Parse.ABC.n09op59-3_01
 	The label 'iiio64' in m. 114, onset 1/2 (MC 115, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of C.bIII, it expresses the scale degrees

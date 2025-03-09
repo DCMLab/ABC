@@ -210,7 +210,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.80798</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -325,6 +324,14 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="42"/>
+          <controller ctrl="7" value="101"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -28122,7 +28129,6 @@ Op.59 No.3, 1st movement</b></text>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
@@ -44571,7 +44577,6 @@ Op.59 No.3, 1st movement</b></text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -57721,11 +57726,11 @@ Op.59 No.3, 1st movement</b></text>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>1</subtype>
+              <subtype>0</subtype>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="2.23756"/>
-                <off2 x="-14.9099" y="0"/>
+                <offset x="0" y="2.23266"/>
+                <off2 x="-17.3701" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -57736,11 +57741,11 @@ Op.59 No.3, 1st movement</b></text>
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
+              <subtype>1</subtype>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="2.23266"/>
-                <off2 x="-17.3701" y="0"/>
+                <offset x="0" y="2.23756"/>
+                <off2 x="-14.9099" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -58082,15 +58087,15 @@ Op.59 No.3, 1st movement</b></text>
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43/ii</name>
             <offset x="-4.48334" y="-2.43452"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -61238,6 +61243,12 @@ Op.59 No.3, 1st movement</b></text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>bIII.I64(7#4)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>bIII.V64</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.146342" y="-2.64634"/>
             </Harmony>
           <Rest>
@@ -61248,6 +61259,11 @@ Op.59 No.3, 1st movement</b></text>
             <offset x="0" y="0.72963"/>
             <text><i>cresc.</i></text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I64(7#2)</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -61256,7 +61272,6 @@ Op.59 No.3, 1st movement</b></text>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
