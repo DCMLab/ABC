@@ -1,46 +1,152 @@
 Traceback (most recent call last):
-  File "/home/runner/.local/lib/python3.10/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+  File "/home/runner/.local/lib/python3.12/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
     executenb(
-  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 1314, in execute
+  File "/home/runner/.local/lib/python3.12/site-packages/nbclient/client.py", line 1305, in execute
     return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
-  File "/home/runner/.local/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
     return loop.run_until_complete(inner)
-  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
     return future.result()
-  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 709, in async_execute
+           ^^^^^^^^^^^^^^^
+  File "/home/runner/.local/lib/python3.12/site-packages/nbclient/client.py", line 705, in async_execute
     await self.async_execute_cell(
-  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 1062, in async_execute_cell
+  File "/home/runner/.local/lib/python3.12/site-packages/nbclient/client.py", line 1058, in async_execute_cell
     await self._check_raise_for_error(cell, cell_index, exec_reply)
-  File "/home/runner/.local/lib/python3.10/site-packages/nbclient/client.py", line 918, in _check_raise_for_error
+  File "/home/runner/.local/lib/python3.12/site-packages/nbclient/client.py", line 914, in _check_raise_for_error
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-annotated_view = dataset.data.get_view('annotated')
-annotated_view.include('facets', 'expanded')
-annotated_view.fnames_with_incomplete_facets = False
-dataset.data.set_view(annotated_view)
-dataset.data.parse_tsv(choose='auto')
-dataset.get_indices()
-dataset.data
+D = utils.get_dataset("ABC", corpus_release="v2.6")
+package = D.inputs.get_package()
+package_info = package._package.custom
+git_tag = package_info.get("git_tag")
+utils.print_heading("Data and software versions")
+print("The Annotated Beethoven Corpus (ABC) version v2.6")
+print(f"Datapackage '{package.package_name}' @ {git_tag}")
+print(f"dimcat version {dc.__version__}\n")
+D
 ------------------
 
 
-[0;31m---------------------------------------------------------------------------[0m
-[0;31mDeprecationWarning[0m                        Traceback (most recent call last)
-Cell [0;32mIn[5], line 3[0m
-[1;32m      1[0m annotated_view [38;5;241m=[39m dataset[38;5;241m.[39mdata[38;5;241m.[39mget_view([38;5;124m'[39m[38;5;124mannotated[39m[38;5;124m'[39m)
-[1;32m      2[0m annotated_view[38;5;241m.[39minclude([38;5;124m'[39m[38;5;124mfacets[39m[38;5;124m'[39m, [38;5;124m'[39m[38;5;124mexpanded[39m[38;5;124m'[39m)
-[0;32m----> 3[0m [43mannotated_view[49m[38;5;241;43m.[39;49m[43mfnames_with_incomplete_facets[49m [38;5;241m=[39m [38;5;28;01mFalse[39;00m
-[1;32m      4[0m dataset[38;5;241m.[39mdata[38;5;241m.[39mset_view(annotated_view)
-[1;32m      5[0m dataset[38;5;241m.[39mdata[38;5;241m.[39mparse_tsv(choose[38;5;241m=[39m[38;5;124m'[39m[38;5;124mauto[39m[38;5;124m'[39m)
+[31m---------------------------------------------------------------------------[39m
+[31mPackageInconsistentlySerializedError[39m      Traceback (most recent call last)
+[36mCell[39m[36m [39m[32mIn[3][39m[32m, line 1[39m
+[32m----> [39m[32m1[39m D = [43mutils[49m[43m.[49m[43mget_dataset[49m[43m([49m[33;43m"[39;49m[33;43mABC[39;49m[33;43m"[39;49m[43m,[49m[43m [49m[43mcorpus_release[49m[43m=[49m[33;43m"[39;49m[33;43mv2.6[39;49m[33;43m"[39;49m[43m)[49m
+[32m      2[39m package = D.inputs.get_package()
+[32m      3[39m package_info = package._package.custom
 
-File [0;32m~/.local/lib/python3.10/site-packages/ms3/view.py:124[0m, in [0;36mView.fnames_with_incomplete_facets[0;34m(self, value)[0m
-[1;32m    122[0m [38;5;129m@fnames_with_incomplete_facets[39m[38;5;241m.[39msetter
-[1;32m    123[0m [38;5;28;01mdef[39;00m [38;5;21mfnames_with_incomplete_facets[39m([38;5;28mself[39m, value):
-[0;32m--> 124[0m     [38;5;28;01mraise[39;00m [38;5;167;01mDeprecationWarning[39;00m(
-[1;32m    125[0m         [38;5;124m"[39m[38;5;124m'[39m[38;5;124mfnames_with_incomplete_facets[39m[38;5;124m'[39m[38;5;124m was renamed to  [39m[38;5;124m'[39m[38;5;124mpieces_with_incomplete_facets[39m[38;5;124m'[39m[38;5;124m in [39m[38;5;124m"[39m
-[1;32m    126[0m         [38;5;124m"[39m[38;5;124mms3 v2.[39m[38;5;124m"[39m
-[1;32m    127[0m     )
+[36mFile [39m[32m~/work/workflow_deployment/ABC/tmp_corpus_docs/notebooks/utils.py:3619[39m, in [36mget_dataset[39m[34m(corpus_name, target_dir, corpus_release)[39m
+[32m   3617[39m download_if_missing(zip_name, zip_path)
+[32m   3618[39m download_if_missing(json_name, json_path)
+[32m-> [39m[32m3619[39m [38;5;28;01mreturn[39;00m [43mdc[49m[43m.[49m[43mDataset[49m[43m.[49m[43mfrom_package[49m[43m([49m[43mjson_path[49m[43m)[49m
 
-[0;31mDeprecationWarning[0m: 'fnames_with_incomplete_facets' was renamed to  'pieces_with_incomplete_facets' in ms3 v2.
+[36mFile [39m[32m~/.local/lib/python3.12/site-packages/dimcat/data/datasets/base.py:107[39m, in [36mDataset.from_package[39m[34m(cls, package)[39m
+[32m    105[39m [38;5;250m[39m[33;03m"""Instantiate from a PackageSpecs by loading it into the inputs catalog."""[39;00m
+[32m    106[39m dataset = [38;5;28mcls[39m()
+[32m--> [39m[32m107[39m [43mdataset[49m[43m.[49m[43mload_package[49m[43m([49m[43mpackage[49m[43m=[49m[43mpackage[49m[43m)[49m
+[32m    108[39m [38;5;28;01mreturn[39;00m dataset
+
+[36mFile [39m[32m~/.local/lib/python3.12/site-packages/dimcat/data/datasets/base.py:429[39m, in [36mDataset.load_package[39m[34m(self, package, package_name, **options)[39m
+[32m    416[39m [38;5;250m[39m[33;03m"""Loads a package into the inputs catalog.[39;00m
+[32m    417[39m 
+[32m    418[39m [33;03mArgs:[39;00m
+[32m   (...)[39m[32m    426[39m 
+[32m    427[39m [33;03m"""[39;00m
+[32m    428[39m [38;5;28;01mif[39;00m [38;5;28misinstance[39m(package, ([38;5;28mstr[39m, Path)):
+[32m--> [39m[32m429[39m     package = [43mDimcatPackage[49m[43m.[49m[43mfrom_descriptor_path[49m[43m([49m[43mpackage[49m[43m,[49m[43m [49m[43m*[49m[43m*[49m[43moptions[49m[43m)[49m
+[32m    430[39m [38;5;28;01melif[39;00m [38;5;28misinstance[39m(package, [38;5;28mdict[39m):
+[32m    431[39m     package = DimcatPackage.from_descriptor(package, **options)
+
+[36mFile [39m[32m~/.local/lib/python3.12/site-packages/dimcat/data/packages/base.py:301[39m, in [36mPackage.from_descriptor_path[39m[34m(cls, descriptor_path, basepath, auto_validate)[39m
+[32m    297[39m     basepath, descriptor_filename = reconcile_base_and_file(
+[32m    298[39m         basepath, descriptor_path
+[32m    299[39m     )
+[32m    300[39m fl_package = fl.Package.from_descriptor(descriptor_path)
+[32m--> [39m[32m301[39m [38;5;28;01mreturn[39;00m [38;5;28;43mcls[39;49m[43m.[49m[43mfrom_descriptor[49m[43m([49m
+[32m    302[39m [43m    [49m[43mfl_package[49m[43m,[49m
+[32m    303[39m [43m    [49m[43mdescriptor_filename[49m[43m=[49m[43mdescriptor_filename[49m[43m,[49m
+[32m    304[39m [43m    [49m[43mauto_validate[49m[43m=[49m[43mauto_validate[49m[43m,[49m
+[32m    305[39m [43m    [49m[43mbasepath[49m[43m=[49m[43mbasepath[49m[43m,[49m
+[32m    306[39m [43m[49m[43m)[49m
+
+[36mFile [39m[32m~/.local/lib/python3.12/site-packages/dimcat/data/packages/base.py:268[39m, in [36mPackage.from_descriptor[39m[34m(cls, descriptor, descriptor_filename, auto_validate, basepath)[39m
+[32m    258[39m     ResourceConstructor = Resource
+[32m    259[39m resources = [
+[32m    260[39m     ResourceConstructor.from_descriptor(
+[32m    261[39m         descriptor=resource,
+[32m   (...)[39m[32m    266[39m     [38;5;28;01mfor[39;00m resource [38;5;129;01min[39;00m fl_package.resources
+[32m    267[39m ]
+[32m--> [39m[32m268[39m [38;5;28;01mreturn[39;00m [43mConstructor[49m[43m([49m
+[32m    269[39m [43m    [49m[43mpackage_name[49m[43m=[49m[43mpackage_name[49m[43m,[49m
+[32m    270[39m [43m    [49m[43mresources[49m[43m=[49m[43mresources[49m[43m,[49m
+[32m    271[39m [43m    [49m[43mdescriptor_filename[49m[43m=[49m[43mdescriptor_filename[49m[43m,[49m
+[32m    272[39m [43m    [49m[43mbasepath[49m[43m=[49m[43mbasepath[49m[43m,[49m
+[32m    273[39m [43m    [49m[43mauto_validate[49m[43m=[49m[43mauto_validate[49m[43m,[49m
+[32m    274[39m [43m    [49m[43mmetadata[49m[43m=[49m[43mfl_package[49m[43m.[49m[43mcustom[49m[43m,[49m
+[32m    275[39m [43m[49m[43m)[49m
+
+[36mFile [39m[32m~/.local/lib/python3.12/site-packages/dimcat/data/packages/dc.py:60[39m, in [36mDimcatPackage.__init__[39m[34m(self, package_name, resources, basepath, descriptor_filename, auto_validate, metadata)[39m
+[32m     31[39m [38;5;28;01mdef[39;00m [34m__init__[39m(
+[32m     32[39m     [38;5;28mself[39m,
+[32m     33[39m     package_name: [38;5;28mstr[39m,
+[32m   (...)[39m[32m     38[39m     metadata: Optional[[38;5;28mdict[39m] = [38;5;28;01mNone[39;00m,
+[32m     39[39m ) -> [38;5;28;01mNone[39;00m:
+[32m     40[39m [38;5;250m    [39m[33;03m"""[39;00m
+[32m     41[39m 
+[32m     42[39m [33;03m    Args:[39;00m
+[32m   (...)[39m[32m     58[39m [33;03m            Custom metadata to be maintained in the package descriptor.[39;00m
+[32m     59[39m [33;03m    """[39;00m
+[32m---> [39m[32m60[39m     [38;5;28;43msuper[39;49m[43m([49m[43m)[49m[43m.[49m[34;43m__init__[39;49m[43m([49m
+[32m     61[39m [43m        [49m[43mpackage_name[49m[43m=[49m[43mpackage_name[49m[43m,[49m
+[32m     62[39m [43m        [49m[43mresources[49m[43m=[49m[43mresources[49m[43m,[49m
+[32m     63[39m [43m        [49m[43mbasepath[49m[43m=[49m[43mbasepath[49m[43m,[49m
+[32m     64[39m [43m        [49m[43mdescriptor_filename[49m[43m=[49m[43mdescriptor_filename[49m[43m,[49m
+[32m     65[39m [43m        [49m[43mauto_validate[49m[43m=[49m[43mauto_validate[49m[43m,[49m
+[32m     66[39m [43m        [49m[43mmetadata[49m[43m=[49m[43mmetadata[49m[43m,[49m
+[32m     67[39m [43m    [49m[43m)[49m
+
+[36mFile [39m[32m~/.local/lib/python3.12/site-packages/dimcat/data/packages/base.py:593[39m, in [36mPackage.__init__[39m[34m(self, package_name, resources, basepath, descriptor_filename, auto_validate, metadata)[39m
+[32m    590[39m     [38;5;28mself[39m.descriptor_filename = descriptor_filename
+[32m    592[39m [38;5;28;01mif[39;00m resources [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m:
+[32m--> [39m[32m593[39m     [38;5;28;43mself[39;49m[43m.[49m[43mextend[49m[43m([49m[43mresources[49m[43m)[49m
+[32m    595[39m [38;5;28;01mif[39;00m auto_validate:
+[32m    596[39m     [38;5;28mself[39m.validate(raise_exception=[38;5;28;01mTrue[39;00m)
+
+[36mFile [39m[32m~/.local/lib/python3.12/site-packages/dimcat/data/packages/base.py:1017[39m, in [36mPackage.extend[39m[34m(self, resources)[39m
+[32m   1015[39m     [38;5;28;01mreturn[39;00m
+[32m   1016[39m [38;5;28;01mfor[39;00m n_added, resource [38;5;129;01min[39;00m [38;5;28menumerate[39m(resources, [32m1[39m):
+[32m-> [39m[32m1017[39m     [38;5;28;43mself[39;49m[43m.[49m[43m_add_resource[49m[43m([49m
+[32m   1018[39m [43m        [49m[43mresource[49m[43m,[49m
+[32m   1019[39m [43m    [49m[43m)[49m
+[32m   1020[39m [38;5;28mself[39m.logger.info(
+[32m   1021[39m     [33mf[39m[33m"[39m[33mPackage [39m[38;5;132;01m{[39;00m[38;5;28mself[39m.package_name[38;5;132;01m!r}[39;00m[33m was extended with [39m[38;5;132;01m{[39;00mn_added[38;5;132;01m}[39;00m[33m resources to a total [39m[33m"[39m
+[32m   1022[39m     [33mf[39m[33m"[39m[33mof [39m[38;5;132;01m{[39;00m[38;5;28mself[39m.n_resources[38;5;132;01m}[39;00m[33m.[39m[33m"[39m
+[32m   1023[39m )
+[32m   1024[39m status_after = [38;5;28mself[39m.status
+
+[36mFile [39m[32m~/.local/lib/python3.12/site-packages/dimcat/data/packages/base.py:938[39m, in [36mPackage._add_resource[39m[34m(self, resource, mode)[39m
+[32m    936[39m [38;5;28mself[39m._resources.append(resource)
+[32m    937[39m [38;5;28mself[39m._package.add_resource(resource.resource)
+[32m--> [39m[32m938[39m [38;5;28;43mself[39;49m[43m.[49m[43m_update_status[49m[43m([49m[43m)[49m
+[32m    939[39m [38;5;28;01mreturn[39;00m resource
+
+[36mFile [39m[32m~/.local/lib/python3.12/site-packages/dimcat/data/packages/base.py:1508[39m, in [36mPackage._update_status[39m[34m(self)[39m
+[32m   1507[39m [38;5;28;01mdef[39;00m [34m_update_status[39m([38;5;28mself[39m):
+[32m-> [39m[32m1508[39m     [38;5;28mself[39m._status = [38;5;28;43mself[39;49m[43m.[49m[43m_get_status[49m[43m([49m[43m)[49m
+
+[36mFile [39m[32m~/.local/lib/python3.12/site-packages/dimcat/data/packages/base.py:1215[39m, in [36mPackage._get_status[39m[34m(self)[39m
+[32m   1213[39m [38;5;28;01mif[39;00m [38;5;129;01mnot[39;00m [38;5;28mself[39m.is_aligned:
+[32m   1214[39m     [38;5;28;01mreturn[39;00m PackageStatus.MISALIGNED
+[32m-> [39m[32m1215[39m [38;5;28;01mif[39;00m [38;5;129;01mnot[39;00m [38;5;28;43mself[39;49m[43m.[49m[43mis_partially_serialized[49m:
+[32m   1216[39m     [38;5;28;01mreturn[39;00m PackageStatus.ALIGNED
+[32m   1217[39m [38;5;28;01mif[39;00m [38;5;28mself[39m.is_fully_serialized:
+
+[36mFile [39m[32m~/.local/lib/python3.12/site-packages/dimcat/data/packages/base.py:750[39m, in [36mPackage.is_partially_serialized[39m[34m(self)[39m
+[32m    748[39m [38;5;28;01melse[39;00m:
+[32m    749[39m     existing, missing = [38;5;28mself[39m.normpath, [38;5;28mself[39m.get_descriptor_path()
+[32m--> [39m[32m750[39m [38;5;28;01mraise[39;00m PackageInconsistentlySerializedError([38;5;28mself[39m.package_name, existing, missing)
+
+[31mPackageInconsistentlySerializedError[39m: The package 'abc' has been serialized in an inconsistent way, expected ZIP and descriptor, found only '/home/runner/work/workflow_deployment/ABC/tmp_corpus_docs/notebooks/ABC.datapackage.json' but not {'basepath': ~/work/workflow_deployment/ABC/tmp_corpus_docs/notebooks, 'filepath': 'abc.zip'}.
 

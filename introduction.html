@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>How to use &#8212; The Annotated Beethoven Corpus v2.4 documentation</title>
+    <title>How to use &#8212; The Annotated Beethoven Corpus (ABC) v2.6 documentation</title>
   
   
   
@@ -52,7 +52,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Analyses" href="analyses.html" />
-    <link rel="prev" title="ABC - The Annotated Beethoven Corpus (v2.2)" href="index.html" />
+    <link rel="prev" title="ABC - The Annotated Beethoven Corpus (v2.4)" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -114,7 +114,7 @@
   
   
   
-    <p class="title logo__title">The Annotated Beethoven Corpus v2.4 documentation</p>
+    <p class="title logo__title">The Annotated Beethoven Corpus (ABC) v2.6 documentation</p>
   
 </a></div>
     
@@ -355,18 +355,19 @@ Then you can clone this repository using the command</p>
 <h3><a class="toc-backref" href="#id3" role="doc-backlink">Without full version history</a><a class="headerlink" href="#without-full-version-history" title="Permalink to this heading">#</a></h3>
 <p>If you are only interested in the current version of the corpus, you can download and unpack:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://github.com/DCMLab/ABC/archive/refs/heads/main.zip">The Annotated Beethoven Corpus</a></p></li>
+<li><p><a class="reference external" href="https://github.com/DCMLab/ABC/archive/refs/heads/main.zip">The Annotated Beethoven Corpus (ABC)</a></p></li>
 </ul>
 </section>
 </section>
 <section id="data-formats">
 <h2><a class="toc-backref" href="#id4" role="doc-backlink">Data Formats</a><a class="headerlink" href="#data-formats" title="Permalink to this heading">#</a></h2>
-<p>Each piece in this corpus is represented by four files with identical names, each in its own folder. For example, the first movement of the first quartet, op. 18/1, has the following files:</p>
+<p>Each piece in this corpus is represented by five files with identical names, each in its own folder. For example, the first movement of the first quartet, op. 18/1, has the following files:</p>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">MS3/n01op18-1_01.mscx</span></code>: Uncompressed MuseScore file including the music and annotation labels.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">notes/n01op18-1_01.tsv</span></code>: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">measures/n01op18-1_01.tsv</span></code>: A table with relevant information about the measures in the score.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">harmonies/n01op18-1_01.tsv</span></code>: A list of the included harmony labels (including cadences and phrases) with their positions in the score.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">MS3/n01op18-1_01.mscx</span></code>: Uncompressed MuseScore 3.6.2 file including the music and annotation labels.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">notes/n01op18-1_01.notes.tsv</span></code>: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">measures/n01op18-1_01.measures.tsv</span></code>: A table with relevant information about the measures in the score.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">chords/n01op18-1_01.chords.tsv</span></code>: A table containing layer-wise unique onset positions with the musical markup (such as dynamics, articulation, lyrics, figured bass, etc.).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">harmonies/n01op18-1_01.harmonies.tsv</span></code>: A table of the included harmony labels (including cadences and phrases) with their positions in the score.</p></li>
 </ul>
 <section id="opening-scores">
 <h3><a class="toc-backref" href="#id5" role="doc-backlink">Opening Scores</a><a class="headerlink" href="#opening-scores" title="Permalink to this heading">#</a></h3>
@@ -569,7 +570,7 @@ Then you can clone this repository using the command</p>
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">ABC - The Annotated Beethoven Corpus (v2.2)</p>
+        <p class="prev-next-title">ABC - The Annotated Beethoven Corpus (v2.4)</p>
       </div>
     </a>
     <a class="right-next"
@@ -655,7 +656,7 @@ Then you can clone this repository using the command</p>
         <div class="footer-item">
   <p class="copyright">
     
-      © Copyright 2023, Johannes Hentschel.
+      © Copyright 2025, Johannes Hentschel.
       <br/>
     
   </p>

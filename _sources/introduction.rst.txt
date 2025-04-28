@@ -26,18 +26,19 @@ Without full version history
 
 If you are only interested in the current version of the corpus, you can download and unpack:
 
-* `The Annotated Beethoven Corpus <https://github.com/DCMLab/ABC/archive/refs/heads/main.zip>`__
+* `The Annotated Beethoven Corpus (ABC) <https://github.com/DCMLab/ABC/archive/refs/heads/main.zip>`__
 
 
 Data Formats
 ============
 
-Each piece in this corpus is represented by four files with identical names, each in its own folder. For example, the first movement of the first quartet, op. 18/1, has the following files:
+Each piece in this corpus is represented by five files with identical names, each in its own folder. For example, the first movement of the first quartet, op. 18/1, has the following files:
 
--  ``MS3/n01op18-1_01.mscx``: Uncompressed MuseScore file including the music and annotation labels.
--  ``notes/n01op18-1_01.tsv``: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
--  ``measures/n01op18-1_01.tsv``: A table with relevant information about the measures in the score.
--  ``harmonies/n01op18-1_01.tsv``: A list of the included harmony labels (including cadences and phrases) with their positions in the score.
+-  ``MS3/n01op18-1_01.mscx``: Uncompressed MuseScore 3.6.2 file including the music and annotation labels.
+-  ``notes/n01op18-1_01.notes.tsv``: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
+-  ``measures/n01op18-1_01.measures.tsv``: A table with relevant information about the measures in the score.
+-  ``chords/n01op18-1_01.chords.tsv``: A table containing layer-wise unique onset positions with the musical markup (such as dynamics, articulation, lyrics, figured bass, etc.).
+-  ``harmonies/n01op18-1_01.harmonies.tsv``: A table of the included harmony labels (including cadences and phrases) with their positions in the score.
 
 Opening Scores
 --------------
