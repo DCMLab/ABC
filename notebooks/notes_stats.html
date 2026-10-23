@@ -352,6 +352,12 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/usr/lib/python3/dist-packages/requests/__init__.py:106: RequestsDependencyWarning: urllib3 (2.0.7) or chardet (6.0.0.post1)/charset_normalizer (None) doesn&#39;t match a supported version!
+  warnings.warn(
+</pre></div>
+</div>
+</div>
 </details>
 </div>
 <div class="cell tag_hide-input docutils container">
@@ -414,6 +420,7 @@ document.write(`
 <span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">D</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_dataset</span><span class="p">(</span><span class="s2">&quot;ABC&quot;</span><span class="p">,</span> <span class="n">corpus_release</span><span class="o">=</span><span class="s2">&quot;v2.6&quot;</span><span class="p">)</span>
 <span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">package</span> <span class="o">=</span> <span class="n">D</span><span class="o">.</span><span class="n">inputs</span><span class="o">.</span><span class="n">get_package</span><span class="p">()</span>
 <span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">package_info</span> <span class="o">=</span> <span class="n">package</span><span class="o">.</span><span class="n">_package</span><span class="o">.</span><span class="n">custom</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">git_tag</span> <span class="o">=</span> <span class="n">package_info</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;git_tag&quot;</span><span class="p">)</span>
 
 <span class="nn">File ~/work/workflow_deployment/ABC/tmp_corpus_docs/notebooks/utils.py:3619,</span> in <span class="ni">get_dataset</span><span class="nt">(corpus_name, target_dir, corpus_release)</span>
 <span class="g g-Whitespace">   </span><span class="mi">3617</span> <span class="n">download_if_missing</span><span class="p">(</span><span class="n">zip_name</span><span class="p">,</span> <span class="n">zip_path</span><span class="p">)</span>
@@ -780,7 +787,10 @@ document.write(`
 <span class="p">)</span>
 <span class="n">utils</span><span class="o">.</span><span class="n">realign_subplot_axes</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">y_axes</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">title_text</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">))</span>
 <span class="n">save_figure_as</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="s2">&quot;notes_violin&quot;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="n">height</span><span class="p">)</span>
-<span class="n">fig</span>
+<span class="c1"># Render as a static image: the interactive violin embeds every note&#39;s value</span>
+<span class="c1"># inline, producing a &gt;100 MB HTML for the metacorpus (exceeds GitHub&#39;s file</span>
+<span class="c1"># size limit and is unusable in a browser). The rasterised PNG is a few KB.</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">renderer</span><span class="o">=</span><span class="s2">&quot;png&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -831,7 +841,8 @@ document.write(`
 <span class="p">)</span>
 <span class="n">utils</span><span class="o">.</span><span class="n">realign_subplot_axes</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">y_axes</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">save_figure_as</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="s2">&quot;notes_box&quot;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="n">height</span><span class="p">)</span>
-<span class="n">fig</span>
+<span class="c1"># Render as a static image (see notes_violin above): avoids a &gt;100 MB HTML.</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">renderer</span><span class="o">=</span><span class="s2">&quot;png&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>

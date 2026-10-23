@@ -5,7 +5,7 @@ jupytext:
     extension: .md
     format_name: myst
     format_version: 0.13
-    jupytext_version: 1.17.0
+    jupytext_version: 1.19.5
 kernelspec:
   display_name: corpus_docs
   language: python
@@ -117,7 +117,7 @@ cadence_counts.plot_grouped("corpus")
 
 ```{code-cell}
 mean_composition_years = (
-    hascadence_metadata.groupby(level=0).composed_end.mean().astype(int).sort_values()
+    hascadence_metadata.groupby(level="corpus").composed_end.mean().astype(int).sort_values()
 )
 chronological_corpus_names = hascadence_metadata.get_corpus_names()
 bar_data = pd.concat(
@@ -126,7 +126,7 @@ bar_data = pd.concat(
         hascadence_metadata.groupby(level="corpus").size().rename("pieces"),
     ],
     axis=1,
-).reset_index()
+).rename_axis("corpus").reset_index()
 fig = px.bar(
     bar_data,
     x="year",
@@ -237,71 +237,23 @@ save_figure_as(fig, "all_cadences_modewise_pies")
 fig.show()
 ```
 
-```{code-cell}
-corelli = dc.Dataset()
-CORELLI_PATH = os.path.abspath(os.path.join("..", "corelli"))
-corelli.load(directory=CORELLI_PATH, parse_tsv=False)
-annotated_view = corelli.data.get_view("annotated")
-annotated_view.include("facets", "expanded")
-annotated_view.pieces_with_incomplete_facets = False
-corelli.data.set_view(annotated_view)
-corelli.data.parse_tsv(choose="auto")
-corelli.get_indices()
-corelli_labels = corelli.get_facet("expanded")
-corelli_cadence_count_per_mode = (
-    corelli_labels.groupby("localkey_is_minor").cadence.value_counts().reset_index()
-)
-corelli_cadence_count_per_mode["mode"] = (
-    corelli_cadence_count_per_mode.localkey_is_minor.map(
-        {False: "major", True: "minor"}
-    )
-)
-fig = px.pie(
-    corelli_cadence_count_per_mode,
-    names="cadence",
-    color="cadence",
-    values="count",
-    facet_col="mode",
-    height=2000,
-    color_discrete_map=plotting.CADENCE_COLORS,
-)
-fig.for_each_annotation(lambda a: a.update(text=a.text.split("=")[-1]))
-fig.update_layout(**utils.STD_LAYOUT)
-save_figure_as(fig, "all_corelli_cadences_modewise_pies")
-fig.show()
-```
-
-```{code-cell}
-combined_cadences = pd.concat(
-    [cadence_count_per_mode, corelli_cadence_count_per_mode],
-    keys=["couperin", "corelli"],
-    names=["corpus", None],
-).reset_index(level=0)
-fig = px.pie(
-    combined_cadences,
-    names="cadence",
-    color="cadence",
-    values="count",
-    facet_col="mode",
-    facet_row="corpus",
-    height=2000,
-    color_discrete_map=plotting.CADENCE_COLORS,
-)
-fig.for_each_annotation(lambda a: a.update(text=a.text.split("=")[-1]))
-updated_layout = dict(utils.STD_LAYOUT, font=dict(size=40))
-fig.update_layout(**updated_layout)
-save_figure_as(fig, "couperin_corelli_cadences_modewise_pies")
-fig.show()
-```
-
 ## Per phrase
 ### Number of cadences per phrase
 
 ```{code-cell}
 grouped_by_corpus = groupers.CorpusGrouper().process(D)
-segmented = slicers.PhraseSlicer().process_data(grouped_by_corpus)
-phrases = segmented.get_slice_info()
-phrase_segments = segmented.get_facet("expanded")
+phrase_slicer = slicers.PhraseSlicer()
+segmented = phrase_slicer.process(grouped_by_corpus)
+phrases = phrase_slicer.slice_metadata.df
+phrase_segments = segmented.get_feature("DcmlAnnotations").df
+phrase_index_names = list(phrase_segments.index.names[:3])
+if phrases.index.nlevels > 3:
+    phrases = phrases.droplevel(list(range(3, phrases.index.nlevels)))
+if phrases.index.nlevels != 3:
+    raise ValueError("Phrase metadata index must have corpus, piece, and phrase levels.")
+phrases.index = phrases.index.set_names(phrase_index_names)
+if phrases.index.has_duplicates:
+    phrases = phrases[~phrases.index.duplicated(keep="first")]
 phrase_gpb = phrase_segments.groupby(level=[0, 1, 2])
 local_keys_per_phrase = phrase_gpb.localkey.unique().map(tuple)
 n_local_keys_per_phrase = local_keys_per_phrase.map(len)
@@ -374,7 +326,7 @@ for ix in (
         df_rows.append((y_position, interval.length, "end of phrase", description))
         start_pos = interval.left
         cadences = df.loc[df.cadence.notna(), ["quarterbeats", "cadence"]]
-        cadences.quarterbeats -= start_pos
+        cadences.quarterbeats = cadences.quarterbeats.map(float) - start_pos
         for cadence_x, cadence_type in cadences.itertuples(index=False, name=None):
             df_rows.append((y_position, cadence_x, cadence_type, description))
         y_position += 1
@@ -404,18 +356,19 @@ fig.show()
 ## Cadence ultima
 
 ```{code-cell}
-phrase_segments = segmented.get_facet("expanded")
+phrase_segments = phrase_segments.copy()
 cadence_selector = phrase_segments.cadence.notna()
 missing_chord_selector = phrase_segments.chord.isna()
 cadence_with_missing_chord_selector = cadence_selector & missing_chord_selector
 missing = phrase_segments[cadence_with_missing_chord_selector]
-expanded = ms3.expand_dcml.expand_labels(
-    phrase_segments[cadence_with_missing_chord_selector],
-    propagate=False,
-    chord_tones=True,
-    skip_checks=True,
-)
-phrase_segments.loc[cadence_with_missing_chord_selector] = expanded
+if cadence_with_missing_chord_selector.any():
+    expanded = ms3.expand_dcml.expand_labels(
+        phrase_segments[cadence_with_missing_chord_selector],
+        propagate=False,
+        chord_tones=True,
+        skip_checks=True,
+    )
+    phrase_segments.loc[cadence_with_missing_chord_selector] = expanded
 print(
     f"Ultima harmony missing for {(phrase_segments.cadence.notna() & phrase_segments.bass_note.isna()).sum()} cadence "
     f"labels."
@@ -612,6 +565,15 @@ def plot_progressions(progressions, cut_at_stage=None, **kwargs):
     stage_nodes, edge_weights = progressions2graph_data(
         progressions, cut_at_stage=cut_at_stage
     )
+    if not stage_nodes:
+        fig = px.scatter(pd.DataFrame({"x": [], "y": []}), x="x", y="y")
+        fig.update_layout(
+            title="No matching progressions",
+            xaxis=dict(visible=False),
+            yaxis=dict(visible=False),
+            annotations=[dict(text="No matching progressions", x=0.5, y=0.5, xref="paper", yref="paper", showarrow=False)],
+        )
+        return fig
     return utils.graph_data2sankey(stage_nodes, edge_weights, **kwargs)
 ```
 

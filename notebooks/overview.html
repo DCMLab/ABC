@@ -352,6 +352,12 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/usr/lib/python3/dist-packages/requests/__init__.py:106: RequestsDependencyWarning: urllib3 (2.0.7) or chardet (6.0.0.post1)/charset_normalizer (None) doesn&#39;t match a supported version!
+  warnings.warn(
+</pre></div>
+</div>
+</div>
 </details>
 </div>
 <div class="cell docutils container">
@@ -402,6 +408,7 @@ document.write(`
 <span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">D</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_dataset</span><span class="p">(</span><span class="s2">&quot;ABC&quot;</span><span class="p">,</span> <span class="n">corpus_release</span><span class="o">=</span><span class="s2">&quot;v2.6&quot;</span><span class="p">)</span>
 <span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">package</span> <span class="o">=</span> <span class="n">D</span><span class="o">.</span><span class="n">inputs</span><span class="o">.</span><span class="n">get_package</span><span class="p">()</span>
 <span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">package_info</span> <span class="o">=</span> <span class="n">package</span><span class="o">.</span><span class="n">_package</span><span class="o">.</span><span class="n">custom</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">git_tag</span> <span class="o">=</span> <span class="n">package_info</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;git_tag&quot;</span><span class="p">)</span>
 
 <span class="nn">File ~/work/workflow_deployment/ABC/tmp_corpus_docs/notebooks/utils.py:3619,</span> in <span class="ni">get_dataset</span><span class="nt">(corpus_name, target_dir, corpus_release)</span>
 <span class="g g-Whitespace">   </span><span class="mi">3617</span> <span class="n">download_if_missing</span><span class="p">(</span><span class="n">zip_name</span><span class="p">,</span> <span class="n">zip_path</span><span class="p">)</span>

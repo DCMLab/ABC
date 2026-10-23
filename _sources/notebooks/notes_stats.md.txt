@@ -296,7 +296,10 @@ fig = plotting.make_violin_plot(
 )
 utils.realign_subplot_axes(fig, y_axes=dict(title_text=""))
 save_figure_as(fig, "notes_violin", width=width, height=height)
-fig
+# Render as a static image: the interactive violin embeds every note's value
+# inline, producing a >100 MB HTML for the metacorpus (exceeds GitHub's file
+# size limit and is unusable in a browser). The rasterised PNG is a few KB.
+fig.show(renderer="png")
 ```
 
 ```{code-cell}
@@ -344,7 +347,8 @@ fig = plotting.make_box_plot(
 )
 utils.realign_subplot_axes(fig, y_axes=True)
 save_figure_as(fig, "notes_box", width=width, height=height)
-fig
+# Render as a static image (see notes_violin above): avoids a >100 MB HTML.
+fig.show(renderer="png")
 ```
 
 ### As bar plots

@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>ABC - The Annotated Beethoven Corpus (v2.4) &#8212; The Annotated Beethoven Corpus (ABC) v2.6 documentation</title>
+    <title>The Annotated Beethoven Corpus (ABC) (A corpus of annotated scores) &#8212; The Annotated Beethoven Corpus (ABC) v2.6 documentation</title>
   
   
   
@@ -291,7 +291,7 @@ document.write(`
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page">ABC - The Annotated Beethoven Corpus (v2.4)</li>
+    <li class="breadcrumb-item active" aria-current="page">The Annotated Beethoven Corpus (ABC) (A corpus of annotated scores)</li>
   </ul>
 </nav>
 </div>
@@ -309,7 +309,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <p><img alt="Version" src="https://img.shields.io/github/v/release/DCMLab/ABC?display_name=tag" />
-<a class="reference external" href="https://zenodo.org/badge/latestdoi/127907867"><img alt="DOI" src="https://zenodo.org/badge/127907867.svg" /></a>
+<a class="reference external" href="https://doi.org/10.5281/zenodo.7441343"><img alt="DOI" src="https://zenodo.org/badge/127907867.svg" /></a>
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DCMLab/ABC" />
 <img alt="License" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf" /></p>
 <p>This is a README file for a data repository originating from the <a class="reference external" href="https://github.com/DCMLab/dcml_corpora">DCML corpus initiative</a>
@@ -319,19 +319,86 @@ and serves as welcome page for both</p>
 <li><p>documentation page <a class="reference external" href="https://dcmlab.github.io/ABC">https://dcmlab.github.io/ABC</a></p></li>
 </ul>
 <p>For information on how to obtain and use the dataset, please refer to <a class="reference external" href="https://dcmlab.github.io/ABC/introduction">this documentation page</a>.</p>
-<section id="abc-the-annotated-beethoven-corpus-v2-4">
-<h1>ABC - The Annotated Beethoven Corpus (v2.4)<a class="headerlink" href="#abc-the-annotated-beethoven-corpus-v2-4" title="Permalink to this heading">#</a></h1>
+<p>When you use (parts of) this dataset in your work, please read and cite the accompanying data report:</p>
+<p><em>Neuwirth, M., Harasim, D., Moss, F. C., &amp; Rohrmeier, M. (2018). The Annotated Beethoven Corpus (ABC): A Dataset of
+Harmonic Analyses of All Beethoven String Quartets. Frontiers in Digital Humanities, 5(July), 1–5.
+https://doi.org/10.3389/fdigh.2018.00016</em></p>
+<p>The ABC forms part of the larger <a class="reference external" href="https://github.com/DCMLab/distant_listening_corpus">Distant Listening Corpus</a>
+which constitutes a data infrastructure the data report of which has implications for the present corpus, too:</p>
+<p><em>Hentschel, J., Rammos, Y., Neuwirth, M., &amp; Rohrmeier, M. (2025). A corpus and a modular infrastructure for the
+empirical study of (an)notated music. Scientific Data, 12(1), 685. https://doi.org/10.1038/s41597-025-04976-z</em></p>
+<section id="the-annotated-beethoven-corpus-abc-a-corpus-of-annotated-scores">
+<h1>The Annotated Beethoven Corpus (ABC) (A corpus of annotated scores)<a class="headerlink" href="#the-annotated-beethoven-corpus-abc-a-corpus-of-annotated-scores" title="Permalink to this heading">#</a></h1>
 <p>The ABC dataset consists of expert harmonic analyses of all Beethoven string quartets
 (opp. 18, 59, 74, 95, 127, 130, 131, 132, 135, composed between 1800 and 1826), encoded in a human- and
 machine-readable format (MuseScore format).
 Using a modified Roman Numeral notation (the <a class="reference external" href="https://github.com/DCMLab/standards">DCML harmony annotation standard</a>),
 the dataset includes the common music-theoretical set of harmonic features such as key, chordal root,
 chord inversion, chord extensions, suspensions, and others.</p>
-<section id="cite-as">
-<h2>Cite as<a class="headerlink" href="#cite-as" title="Permalink to this heading">#</a></h2>
-<blockquote>
-<div><p>Neuwirth, M., Harasim, D., Moss, F. C., &amp; Rohrmeier, M. (2018). The Annotated Beethoven Corpus (ABC): A Dataset of Harmonic Analyses of All Beethoven String Quartets. Frontiers in Digital Humanities, 5(July), 1–5. https://doi.org/10.3389/fdigh.2018.00016</p>
-</div></blockquote>
+<section id="getting-the-data">
+<h2>Getting the data<a class="headerlink" href="#getting-the-data" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>download repository as a <a class="reference external" href="https://github.com/DCMLab/ABC/archive/main.zip">ZIP file</a></p></li>
+<li><p>download a <a class="reference external" href="https://specs.frictionlessdata.io/data-package/">Frictionless Datapackage</a> that includes concatenations
+of the TSV files in the four folders (<code class="docutils literal notranslate"><span class="pre">measures</span></code>, <code class="docutils literal notranslate"><span class="pre">notes</span></code>, <code class="docutils literal notranslate"><span class="pre">chords</span></code>, and <code class="docutils literal notranslate"><span class="pre">harmonies</span></code>) and a JSON descriptor:</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/DCMLab/ABC/releases/latest/download/ABC.zip">ABC.zip</a></p></li>
+<li><p><a class="reference external" href="https://github.com/DCMLab/ABC/releases/latest/download/ABC.datapackage.json">ABC.datapackage.json</a></p></li>
+</ul>
+</li>
+<li><p>clone the repo: <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">https://github.com/DCMLab/ABC.git</span></code></p></li>
+</ul>
+</section>
+<section id="data-formats">
+<h2>Data Formats<a class="headerlink" href="#data-formats" title="Permalink to this heading">#</a></h2>
+<p>Each piece in this corpus is represented by five files with identical name prefixes, each in its own folder.
+For example, the first movement of the first quartet, op. 18/1, has the following files:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">MS3/n01op18-1_01.mscx</span></code>: Uncompressed MuseScore 3.6.2 file including the music and annotation labels.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">notes/n01op18-1_01.notes.tsv</span></code>: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">measures/n01op18-1_01.measures.tsv</span></code>: A table with relevant information about the measures in the score.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">chords/n01op18-1_01.chords.tsv</span></code>: A table containing layer-wise unique onset positions with the musical markup (such as dynamics, articulation, lyrics, figured bass, etc.).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">harmonies/n01op18-1_01.harmonies.tsv</span></code>: A table of the included harmony labels (including cadences and phrases) with their positions in the score.</p></li>
+</ul>
+<p>Each TSV file comes with its own JSON descriptor that describes the meanings and datatypes of the columns (“fields”) it contains,
+follows the <a class="reference external" href="https://specs.frictionlessdata.io/tabular-data-resource/">Frictionless specification</a>,
+and can be used to validate and correctly load the described file.</p>
+<section id="opening-scores">
+<h3>Opening Scores<a class="headerlink" href="#opening-scores" title="Permalink to this heading">#</a></h3>
+<p>After navigating to your local copy, you can open the scores in the folder <code class="docutils literal notranslate"><span class="pre">MS3</span></code> with the free and open source score
+editor <a class="reference external" href="https://musescore.org">MuseScore</a>. Please note that the scores have been edited, annotated and tested with
+<a class="reference external" href="https://github.com/musescore/MuseScore/releases/tag/v3.6.2">MuseScore 3.6.2</a>.
+MuseScore 4 has since been released which renders them correctly but cannot store them back in the same format.</p>
+</section>
+<section id="opening-tsv-files-in-a-spreadsheet">
+<h3>Opening TSV files in a spreadsheet<a class="headerlink" href="#opening-tsv-files-in-a-spreadsheet" title="Permalink to this heading">#</a></h3>
+<p>Tab-separated value (TSV) files are like Comma-separated value (CSV) files and can be opened with most modern text
+editors. However, for correctly displaying the columns, you might want to use a spreadsheet or an addon for your
+favourite text editor. When you use a spreadsheet such as Excel, it might annoy you by interpreting fractions as
+dates. This can be circumvented by using <code class="docutils literal notranslate"><span class="pre">Data</span> <span class="pre">--&gt;</span> <span class="pre">From</span> <span class="pre">Text/CSV</span></code> or the free alternative
+<a class="reference external" href="https://www.libreoffice.org/download/download/">LibreOffice Calc</a>. Other than that, TSV data can be loaded with
+every modern programming language.</p>
+</section>
+<section id="loading-tsv-files-in-python">
+<h3>Loading TSV files in Python<a class="headerlink" href="#loading-tsv-files-in-python" title="Permalink to this heading">#</a></h3>
+<p>Since the TSV files contain null values, lists, fractions, and numbers that are to be treated as strings, you may want
+to use this code to load any TSV files related to this repository (provided you’re doing it in Python). After a quick
+<code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-U</span> <span class="pre">ms3</span></code> (requires Python 3.10 or later) you’ll be able to load any TSV like this:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ms3</span>
+
+<span class="n">labels</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">load_tsv</span><span class="p">(</span><span class="s2">&quot;harmonies/n01op18-1_01.harmonies.tsv&quot;</span><span class="p">)</span>
+<span class="n">notes</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">load_tsv</span><span class="p">(</span><span class="s2">&quot;notes/n01op18-1_01.notes.tsv&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="version-history">
+<h2>Version history<a class="headerlink" href="#version-history" title="Permalink to this heading">#</a></h2>
+<p>See the <a class="reference external" href="https://github.com/DCMLab/ABC/releases">GitHub releases</a>.</p>
+</section>
+<section id="questions-suggestions-corrections-bug-reports">
+<h2>Questions, Suggestions, Corrections, Bug Reports<a class="headerlink" href="#questions-suggestions-corrections-bug-reports" title="Permalink to this heading">#</a></h2>
+<p>Please <a class="reference external" href="https://github.com/DCMLab/ABC/issues">create an issue</a> and/or feel free to fork and submit pull requests.</p>
 </section>
 <section id="publications">
 <h2>Publications<a class="headerlink" href="#publications" title="Permalink to this heading">#</a></h2>
@@ -341,9 +408,16 @@ chord inversion, chord extensions, suspensions, and others.</p>
 <li><p>The latest version of the annotation standard has been described in <a class="reference external" href="http://doi.org/10.5334/tismir.63">Hentschel, J., Neuwirth, M. &amp; Rohrmeier, M. (2021)</a></p></li>
 </ul>
 </section>
-<section id="version-history">
-<h2>Version history<a class="headerlink" href="#version-history" title="Permalink to this heading">#</a></h2>
-<p>See the <a class="reference external" href="https://github.com/DCMLab/ABC/releases">GitHub releases</a>.</p>
+<section id="cite-as">
+<h2>Cite as<a class="headerlink" href="#cite-as" title="Permalink to this heading">#</a></h2>
+<blockquote>
+<div><p>Neuwirth, M., Harasim, D., Moss, F. C., &amp; Rohrmeier, M. (2018). The Annotated Beethoven Corpus (ABC): A Dataset of Harmonic Analyses of All Beethoven String Quartets. Frontiers in Digital Humanities, 5(July), 1–5. https://doi.org/10.3389/fdigh.2018.00016</p>
+</div></blockquote>
+</section>
+<section id="license">
+<h2>License<a class="headerlink" href="#license" title="Permalink to this heading">#</a></h2>
+<p>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>).</p>
+<p><img alt="cc-by-nc-sa-image" src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" /></p>
 </section>
 <section id="remarks">
 <h2>Remarks<a class="headerlink" href="#remarks" title="Permalink to this heading">#</a></h2>
@@ -356,10 +430,6 @@ However, changes have been applied conservatively in order to keep the data as h
 <p>While the annotation process (as detailed in the Data Report) was conducted very carefully, and all annotated symbols have been automatically checked for syntactic correctness, the authors cannot entirely rule out the possibility of typograpical errors or misinterpretations (e.g., due to ambiguities in the score or underspecification in the musical texture). After all, music analysis is not a deterministic process but involves interpretation. If you encounter anything that seems not right to you, please create an issue <a class="reference external" href="https://github.com/DCMLab/ABC/issues">here</a>.</p>
 <p><strong>Missing bars</strong></p>
 <p>The original XML file for Op. 132 No. 15, mov. 5 from Project Gutenberg did not contain measures 194-241. We added them manually.</p>
-</section>
-<section id="license">
-<h2>License<a class="headerlink" href="#license" title="Permalink to this heading">#</a></h2>
-<p>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>).</p>
 </section>
 <section id="file-naming-convention">
 <h2>File naming convention<a class="headerlink" href="#file-naming-convention" title="Permalink to this heading">#</a></h2>
@@ -574,7 +644,7 @@ _(?P&lt;mvt&gt;\d{2})      # movement number, e.g. _01
 </tr>
 <tr class="row-odd"><td><p>n07op59-1_04</p></td>
 <td class="text-right"><p>327</p></td>
-<td class="text-right"><p>605</p></td>
+<td class="text-right"><p>604</p></td>
 <td><p>1.0.0</p></td>
 <td><p>Markus Neuwirth</p></td>
 <td><p></p></td>
@@ -609,7 +679,7 @@ _(?P&lt;mvt&gt;\d{2})      # movement number, e.g. _01
 </tr>
 <tr class="row-even"><td><p>n09op59-3_01</p></td>
 <td class="text-right"><p>269</p></td>
-<td class="text-right"><p>515</p></td>
+<td class="text-right"><p>516</p></td>
 <td><p>1.0.0</p></td>
 <td><p>Markus Neuwirth</p></td>
 <td><p></p></td>
@@ -868,7 +938,7 @@ _(?P&lt;mvt&gt;\d{2})      # movement number, e.g. _01
 </tr>
 <tr class="row-odd"><td><p>n16op135_04</p></td>
 <td class="text-right"><p>282</p></td>
-<td class="text-right"><p>562</p></td>
+<td class="text-right"><p>563</p></td>
 <td><p>1.0.0</p></td>
 <td><p>Markus Neuwirth</p></td>
 <td><p></p></td>
@@ -908,11 +978,19 @@ _(?P&lt;mvt&gt;\d{2})      # movement number, e.g. _01
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cite-as">Cite as</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publications">Publications</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-the-data">Getting the data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-formats">Data Formats</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#opening-scores">Opening Scores</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#opening-tsv-files-in-a-spreadsheet">Opening TSV files in a spreadsheet</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#loading-tsv-files-in-python">Loading TSV files in Python</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#version-history">Version history</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#remarks">Remarks</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions-suggestions-corrections-bug-reports">Questions, Suggestions, Corrections, Bug Reports</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publications">Publications</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cite-as">Cite as</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#remarks">Remarks</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#file-naming-convention">File naming convention</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
 </ul>
